@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://eduncan911.github.io/sitemap.xml 
