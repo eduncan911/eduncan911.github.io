@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Hacker's Blog"
+title: "My Hackers' Blog"
 date: 2014-04-02 23:25:01 -0400
 comments: true
 categories: software

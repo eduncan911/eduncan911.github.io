@@ -1,18 +1,41 @@
 ---
 layout: post
-title: "Octopress, PowerShell and Posh-Get - Oh my"
+title: "Octopress and Posh-Get - Oh my"
 date: 2014-04-03 16:11:01 -0400
 comments: true
 categories: software
 ---
 As announced previously, I've recently [converted my blog over to Octopress](/software/my-hackers-blog.html).
-This was not without a few stumbling blocks on Windows using Posh-Git.  I've also recently started to suspect some issues with [Posh-Git](https://github.com/dahlbyk/posh-git) now that I am using 
-it on a daily basis.  
+This was not without a few stumbling blocks on Windows using Posh-Git.  I've also recently started to suspect some issues 
+with [Posh-Git](https://github.com/dahlbyk/posh-git) now that I am using it on a daily basis.  
 
-In this post, I hope to document the procedure for future installs; and, maybe I can help someone else who runs across the
+In this post, I hope to document the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.
 
+## Ruby on Windows? No, Yari on Windows
+
+This is my first exposure to Ruby.  I know, I've been closed off to anything non-.NET since, well, .NET in 2002.  With that the first
+steps to getting ruby installed.  A few quick searches yielded some issues with Windows and Ruby and Octopress, until I ran across
+[Robert Anderson's Octopress install](http://blog.zerosharp.com/setting-up-octopress-on-windows-again/).
+
+They key point to this type of installing is this golden snippet:
+
+{% blockquote Robert Anderson http://blog.zerosharp.com/setting-up-octopress-on-windows-again/ Setting Up Octopress on Windows Again %}
+Use yari instead of RVM/rbenv
+
+Scott Muc has written yari which lets you switch between Windows Ruby versions. 
+{% endblockquote %}
+
+<!-- TODO: Unfortunately this didn't work for me out right.  I had some issues with the `gem install bundler` command that generated a lot of missing
+dependencies. -->
+
+Once all dependencies are fixed up, it's onto following the setup guide over at Octopress:
+
+[http://octopress.org/docs/setup/](http://octopress.org/docs/setup/)
+
 ## `> rake setup_github_pages`
+
+Now, I am going to use GitHub Pages for my static blog hosting.  Those are the instructions I am going to focus on here and below.
 
 The next step is to call the task to setup your repo for GitHub deployments.  Just take a quick gander a what it does,
 as listed on the Octopress install guide:
@@ -26,7 +49,7 @@ as listed on the Octopress install guide:
 
 If that sounds like a lot, wait until you see what actually does happen below.  So, we'll run it and look at the output:
 
-``` mark:7,16,20
+``` plain
 C:\gd\code\eduncan911 [master +2 ~1 -0 !]> rake setup_github_pages
 ## Set the codepage to 65001 for Windows machines
 Enter the read/write url for your repository
@@ -129,7 +152,8 @@ end
 
 Let's step through what this task does to our repo:
 
-``` ruby RakeFile start:20
+<!-- start:20 -->
+``` ruby RakeFile
     # If octopress is still the origin remote (from cloning) rename it to octopress
     system "git remote rename origin octopress"
 ```
@@ -137,7 +161,8 @@ Let's step through what this task does to our repo:
 Ok, no problem.  We are renaming origin.  But what you don't know is with Posh-Git, when
 you rename origin, it seems creates an empty origin!  So, when the next system command executes:
 
-``` ruby RakeFile start:22
+<!-- start:22 -->
+``` ruby RakeFile
     if branch == 'master'
       # If this is a user/organization pages repository, add the correct origin remote
       # and checkout the source branch for committing changes to the blog source.
@@ -148,7 +173,8 @@ We get our first error, `fatal: remote origin already exists.`
 
 Ok, back on task of what the `RakeFile` is doing to move forward.
 
-``` ruby RakeFile start:26 mark:27,29
+<!--  start:26 mark:27,29 -->
+``` ruby RakeFile
       puts "Added remote #{repo_url} as origin"
       system "git config branch.master.remote origin"
       puts "Set origin as default remote"
@@ -170,22 +196,23 @@ You can do the following (assuming you are checked out on master and want to pus
 
 Set up the 'remote' if you don't have it already
 
-`# git remote add origin ssh://...`
+# git remote add origin ssh://...
 Now configure master to know to track:
 
-`# git config branch.master.remote origin`
-`# git config branch.master.merge refs/heads/master`
+# git config branch.master.remote origin
+# git config branch.master.merge refs/heads/master
 And push:
 
-`# git push origin master`
+# git push origin master
 {% endblockquote %}
 
-So now we have master tracking a remote branch and on `line 29`, we've created a new branch
+So now we have master tracking a remote branch and on `line 29`, we've renamed master to a new branch
 called `source` (which also switches us to `source` for future commands).
 
 Continuing...
 
-``` ruby RakeFile start:37 mark:45-48
+<!--  start:37 mark:45-48 -->
+``` ruby RakeFile
   jekyll_config = IO.read('_config.yml')
   jekyll_config.sub!(/^url:.*$/, "url: #{blog_url(user, project)}")
   File.open('_config.yml', 'w') do |f|
@@ -210,7 +237,8 @@ we'll be replacing that very shortly anyways.
 
 Let's move forward.
 
-``` ruby RakeFile start:49
+<!-- start:49 -->
+``` ruby RakeFile
     system "git branch -m gh-pages" unless branch == 'master'
 ```
 
@@ -220,7 +248,8 @@ GitHub Pages that we using here.
 
 I suspect the `unless branch == 'master'` is what prevents this line from running on my installation.
 
-``` ruby RakeFile start:50 mark:50
+<!-- start:50 mark:50 -->
+``` ruby RakeFile
     system "git remote add origin #{repo_url}"
     rakefile = IO.read(__FILE__)
     rakefile.sub!(/deploy_branch(\s*)=(\s*)(["'])[\w-]*["']/, "deploy_branch\\1=\\2\\3#{branch}\\3")
@@ -236,9 +265,7 @@ end
 Finally we are at the end.  Let's see, back on `line 48` we are sitting in a new directory
 called `_deploy` with a new clean `git init`.  So, on `line 50` we add a remote for origin...
 
-And get our 3rd and final error, that we have already seen before:
-
-`fatal: remote origin already exists.`
+And get our 3rd and final error, that we have already seen before.
 
 ### fatal: remote origin already exists
 
@@ -259,7 +286,7 @@ $ git remote rm temp
 But this has never worked for me using Posh-Git.  When trying to remove origin with Posh-Git, you get a new and blocking 
 error:
 
-```
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> git remote rm origin
 error: Could not remove config section 'remote.origin'
 ```
@@ -267,7 +294,7 @@ error: Could not remove config section 'remote.origin'
 Searching online basically leads you to a dead end in that this normally works using other versions of git.  I did stumble upon
 a related SO question about remotes using `set-url`, which [lead me to come up with this solution](http://stackoverflow.com/a/22826225/56693):
 
-```
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> git remote -v
 octopress       git://github.com/imathis/octopress.git (fetch)
 octopress       git://github.com/imathis/octopress.git (push)
@@ -277,7 +304,7 @@ origin
 As you can see, the `rake setup_github_pages` has renamed our origin to octopress.  But Posh-Git seemed to have created
 another empty origin and it won't the script add one.  Let's fix that:
 
-```
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> git remote -v
 octopress       git://github.com/imathis/octopress.git (fetch)
@@ -288,7 +315,8 @@ origin  git@github.com:eduncan911/eduncan911.github.io.git (push)
 
 There we go.  Let's `rake` that `setup_github_pages` script again, shall we?
 
-``` mark:17
+<!-- mark:17 -->
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> rake setup_github_pages
 ## Set the codepage to 65001 for Windows machines
 Enter the read/write url for your repository
@@ -319,7 +347,7 @@ and setting up the `origin` manually.
 
 So, we have to set that `origin` ourselves again.
 
-```
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> cd .\_deploy
 C:\gd\code\eduncan911\_deploy [master]> git remote -v
 origin
@@ -332,7 +360,7 @@ We were previously on `source' branch of the root repo from the previous scripts
 
 So let's fix that up.
 
-```
+``` plain
 C:\gd\code\eduncan911\_deploy [master]> git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
 C:\gd\code\eduncan911\_deploy [master]> git remote -v
 origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
@@ -348,30 +376,28 @@ At this point, it is not necessary to run the `rake setup_github_pages` again be
 errors, as we've seen above.  The last part of the script seems to modify the `RakeFile`.  We'll leave that for another
 topic as we want to keep hacking on our new blog to get it up.
 
-{%ribbonp (info) checkpoint: that new repo? %}
+{% ribbonp (info) checkpoint: that new repo? %}
 To the keen observer, you may notice that we have two branches of the same repo:
 
-```
 git@github.com:eduncan911/eduncan911.github.io.git
 # master
 # source
-```
 
 The first part of Octopress' instructions for github actually branches what you cloned from Octopress' github
-into a `source` branch.  Ok, check.
+into a source branch.  Ok, check.
 
-But recall that we created a sub-directory called `_deploy` and we `git init` a new clean repo there.  It was
-already set to `master`, and finally we made its origin the same as our original source.
+But recall that we created a sub-directory called _deploy and we git init a new clean repo there.  It was
+already set to master, and finally we made its origin the same as our original source.
 
-What this means is now you will have two branches with completely different code.  Your `source` branch is what
+What this means is now you will have two branches with completely different code.  Your source branch is what
 you will work from, commit to and push up.  While the Octopress ruby framework will handle the generation of the
-static site and deployments to the `master` branch.
+static site and deployments to the master branch.
 
-The last piece to remember is that GitHub Pages will only use the `master` branch to serve your static site.
+The last piece to remember is that GitHub Pages will only use the master branch to serve your static site.
 
-Sweet!  Our website (aka `master` branch) will be nice and clean based on this `_deploy` directory, whereas
-our `source` branch will be the work committed.
-{%endribbonp%}
+Sweet!  Our website (aka master branch) will be nice and clean based on this _deploy directory, whereas
+our source branch will be the work committed.
+{% endribbonp %}
 
 ## `rake generate`
 
@@ -381,7 +407,8 @@ This runs without issue.
 
 Aw shit, it would seem we still have some issues because this task generates errors:
 
-``` mark:6-7,24-28
+<!-- mark:6-7,24-28 -->
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> rake deploy
 ## Set the codepage to 65001 for Windows machines
 ## Deploying branch to Github Pages
@@ -420,10 +447,11 @@ We got two errors to sort out.  Let's take a look at the first one.
 
 ### fatal: No remote repository specified.  Please, specify either a URL or a remote name from which new revisions should be fetched.
 
-Humm, this sounds like a simple `git pull` was issued.  Let's take a look at the ruby commands for this.  Again, thanks to
+Humm, this sounds like a `git pull` was issued.  Let's take a look at the ruby commands for this.  Again, thanks to
 the great output from the developers, a quick search in the `RakeFile` finds this code.
 
-``` ruby RakeFile mark:5-6,18
+<!--  mark:5-6,18 -->
+``` ruby RakeFile
 desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
@@ -453,19 +481,19 @@ directly in the browser.
 
 I wonder why that didn't work because as you recall, we setup the `origin` correctly.  Let's figure out why.
 
-```
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> cd .\_deploy
 C:\gd\code\eduncan911\_deploy [master]> git remote -v
 origin
 ```
 
 Wha...  We already set this before.  What happened?  Well, I can tell you that it is because I re-ran the 
-`rake setup_github_pages` a 2nd and 3rd time.  If you recall from the script, it doesn't care if you have
-an existing deployment directory or not - it blows it out and creates it again!
+`rake setup_github_pages` a 2nd and 3rd time.  If you recall from the setup_github_pages take, it doesn't care if you have
+an existing deployment directory or not - it blows out and creates it again!
 
 So, just go add the origin again.  *facepalm*
 
-```
+``` plain
 C:\gd\code\eduncan911\_deploy [master]> git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
 C:\gd\code\eduncan911\_deploy [master]> git remote -v
 origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
@@ -478,11 +506,12 @@ C:\gd\code\eduncan911 [source +2 ~3 -0 !]>
 Before we continue, let's take a quick look at that second error.  Scrolling down to `line 18` in the same ruby
 task above we see a `git push origin master` being executed. 
 
-Because we had no `origin` set correctly, this would cause yet another error.  We got that fixed already though.
+Because we had no `origin` set correctly, this would cause yet another error.  We got that fixed already though with
+the above `git remote set-url --add` command.
 
 Let's try to deploy again now that we fixed the `_deploy` folder.
 
-```
+``` plain
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]> rake deploy
 ## Set the codepage to 65001 for Windows machines
 ## Deploying branch to Github Pages
@@ -534,14 +563,14 @@ cd -
 C:\gd\code\eduncan911 [source +2 ~3 -0 !]>
 ```
 
-Humm, a few warnings about no tracking information for the remote branch, which we setup to be `source` from `master`.
-I think this is normal because we haven't pushed `source` up yet.
+Humm, a few warnings about no tracking information for the remote branch, which we renamed to be `source` from `master`
+if you recall from earlier.  I think this is normal because we haven't pushed `source` up yet.
 
 ### git push origin source
 
 Now, let's see if we can fix the tracking information for our `source` branch by pushing our changes up.
 
-```
+``` plain
 git add .
 git commit -m 'initial commit of source branch'
 git push origin source
@@ -552,21 +581,25 @@ Seems like we are good here.
 Let's head over to our GitHub Page and see what's there in the repo.  What's this?  My master is a nice and clean static 
 site?  Sweet!
 
+[github.com/eduncan911/eduncan911.github.io/tree/master](https://github.com/eduncan911/eduncan911.github.io/tree/master)
+
 And lookie here, the `source` branch has the source!
+
+[github.com/eduncan911/eduncan911.github.io/tree/source](https://github.com/eduncan911/eduncan911.github.io/tree/source)
 
 I'm sticking a fork in her and calling it...  These may be normal warnings with the way the remote tracking is handled
 as I don't have a lot of experience with that part of git.  
 
 ## It's all downhill from here
 
-If you have stuck with me this long, I have some good news: you're done!  Time to start blogging!
+If you have stuck with me this long, I have some good news - you're done!  Time to start blogging!
 
 You can read the rest of the deployment guide from here as they have some useful tips.  Also, make sure to commit
 your work (they mention this too).  
 
 My last piece of advice after you get the hang of things and create a few test posts is to look into these commands.
 
-```
+``` bash
 rake generate   # Generates posts and pages into the public directory
 rake watch      # Watches source/ and sass/ for changes and regenerates
 rake preview    # Watches, and mounts a webserver at http://localhost:4000
