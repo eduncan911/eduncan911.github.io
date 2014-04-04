@@ -25,6 +25,8 @@ This is the pen I decided on.  It arrived today and I immediately ripped it open
 only to find out it didn't work.  And yes, I removed the OEM stylus cause there is
 a switch that disables the digitizer when the pen is inserted to save battery.
 
+<!-- more -->
+
 ## So which one?
 
 Now that I am armed with new search queries *e.g. Lenovo Helix Intuos3 doesn't work*, 

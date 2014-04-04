@@ -9,8 +9,10 @@ As announced previously, I've recently [converted my blog over to Octopress](/so
 This was not without a few stumbling blocks on Windows using Posh-Git.  I've also recently started to suspect some issues 
 with [Posh-Git](https://github.com/dahlbyk/posh-git) now that I am using it on a daily basis.  
 
-In this post, I hope to document the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
+In this post, I am documenting the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.
+
+<!-- more -->
 
 ## Ruby on Windows? No, Yari on Windows
 
