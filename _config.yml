@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://preview.eduncan911.com
-title: Eric Duncan Blog
-subtitle: A self-indulgence that has spawned a race of beings
+title: Eric Duncan
+subtitle: My name is Eric and I build Tech
 author: Eric Duncan
 simple_search: https://www.google.com/search
-description: A blog about software design, log home building and other random thoughts of mine.
+description: A blog about Eric Duncan, Software Design and Technology
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -32,14 +32,14 @@ source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: categories
+category_dir: category
 markdown: rdiscount
 rdiscount:
   extensions:
     - autolink
     - footnotes
     - smart
-pygments: true # default python pygments have been replaced by pygments.rb
+pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
@@ -71,7 +71,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: eduncan911
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
