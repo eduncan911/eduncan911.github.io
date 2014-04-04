@@ -1,3 +1,6 @@
 [submodule ".plugin-sources/Ribbonp"]
 	path = .plugin-sources/Ribbonp
 	url = git@github.com:aar0nTw/Ribbonp.git
+[submodule ".plugin-sources/octopress-post-revision"]
+	path = .plugin-sources/octopress-post-revision
+	url = git@github.com:jhshi/octopress-post-revision.git
