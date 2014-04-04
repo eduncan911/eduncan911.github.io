@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://preview.eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://preview.eduncan911.com/"/>
-  <updated>2014-04-04T10:53:22-04:00</updated>
+  <updated>2014-04-04T11:00:10-04:00</updated>
   <id>http://preview.eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -22,8 +22,11 @@
 This was not without a few stumbling blocks on Windows using Posh-Git.  I&rsquo;ve also recently started to suspect some issues
 with <a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> now that I am using it on a daily basis.</p>
 
-<p>In this post, I hope to document the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
+<p>In this post, I am documenting the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.</p>
+
+<!-- more -->
+
 
 <h2>Ruby on Windows? No, Yari on Windows</h2>
 
@@ -720,6 +723,9 @@ finishing any of them good enough to launch them live.</p>
 
 <p>For those that haven&rsquo;t heard about it, go <a href="http://octopress.org/">read about it</a>.  In short, it uses Ruby to create a static blog for
 you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And, that&rsquo;s about it.</p>
+
+<!-- more -->
+
 
 <p><code>
 git clone git://github.com/imathis/octopress.git octopress

@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://preview.eduncan911.com/atom.xml" rel="self"/>
   <link href="http://preview.eduncan911.com/"/>
-  <updated>2014-04-04T10:53:22-04:00</updated>
+  <updated>2014-04-04T11:00:10-04:00</updated>
   <id>http://preview.eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -37,6 +37,9 @@ with the Wacom Active Digitizer that is built into the Helix.</p>
 only to find out it didn&rsquo;t work.  And yes, I removed the OEM stylus cause there is
 a switch that disables the digitizer when the pen is inserted to save battery.</p>
 
+<!-- more -->
+
+
 <h2>So which one?</h2>
 
 <p>Now that I am armed with new search queries <em>e.g. Lenovo Helix Intuos3 doesn&rsquo;t work</em>,
@@ -67,8 +70,11 @@ that was the most helpful in figuring out which stylus to get.  Specifically, th
 This was not without a few stumbling blocks on Windows using Posh-Git.  I&rsquo;ve also recently started to suspect some issues
 with <a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> now that I am using it on a daily basis.</p>
 
-<p>In this post, I hope to document the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
+<p>In this post, I am documenting the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.</p>
+
+<!-- more -->
+
 
 <h2>Ruby on Windows? No, Yari on Windows</h2>
 
@@ -982,6 +988,11 @@ finishing any of them good enough to launch them live.</p>
 
 <p>For those that haven&rsquo;t heard about it, go <a href="http://octopress.org/">read about it</a>.  In short, it uses Ruby to create a static blog for
 you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And, that&rsquo;s about it.</p>
+
+<!-- more -->
+
+
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
