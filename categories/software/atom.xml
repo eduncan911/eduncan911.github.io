@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software | Eric Duncan Blog]]></title>
+  <link href="http://preview.eduncan911.com/categories/software/atom.xml" rel="self"/>
+  <link href="http://preview.eduncan911.com/"/>
+  <updated>2014-04-03T23:21:36-04:00</updated>
+  <id>http://preview.eduncan911.com/</id>
+  <author>
+    <name><![CDATA[Eric Duncan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress and Posh-Get - Oh My]]></title>
+    <link href="http://preview.eduncan911.com/software/octopress-powershell-and-posh-git-oh-my.html"/>
+    <updated>2014-04-03T16:11:01-04:00</updated>
+    <id>http://preview.eduncan911.com/software/octopress-powershell-and-posh-git-oh-my</id>
+    <content type="html"><![CDATA[<p>As announced previously, I&rsquo;ve recently <a href="/software/my-hackers-blog.html">converted my blog over to Octopress</a>.
+This was not without a few stumbling blocks on Windows using Posh-Git.  I&rsquo;ve also recently started to suspect some issues
+with <a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> now that I am using it on a daily basis.</p>
+
+<p>In this post, I hope to document the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
+same issues.</p>
+
+<h2>Ruby on Windows? No, Yari on Windows</h2>
+
+<p>This is my first exposure to Ruby.  I know, I&rsquo;ve been closed off to anything non-.NET since, well, .NET in 2002.  With that the first
+steps to getting ruby installed.  A few quick searches yielded some issues with Windows and Ruby and Octopress, until I ran across
+<a href="http://blog.zerosharp.com/setting-up-octopress-on-windows-again/">Robert Anderson&rsquo;s Octopress install</a>.</p>
+
+<p>They key point to this type of installing is this golden snippet:</p>
+
+<p><blockquote><p>Use yari instead of RVM/rbenv</p></p><p><p>Scott Muc has written yari which lets you switch between Windows Ruby versions.</p><footer><strong>Robert Anderson <a href="http://blog.zerosharp.com/setting-up-octopress-on-windows-again/">http://blog.zerosharp.com/setting-up-octopress-on-windows-again/</a> Setting Up Octopress on Windows Again</strong></footer></blockquote></p>
+
+<!-- TODO: Unfortunately this didn't work for me out right.  I had some issues with the `gem install bundler` command that generated a lot of missing
+dependencies. -->
+
+
+<p>Once all dependencies are fixed up, it&rsquo;s onto following the setup guide over at Octopress:</p>
+
+<p><a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></p>
+
+<h2><code>&gt; rake setup_github_pages</code></h2>
+
+<p>Now, I am going to use GitHub Pages for my static blog hosting.  Those are the instructions I am going to focus on here and below.</p>
+
+<p>The next step is to call the task to setup your repo for GitHub deployments.  Just take a quick gander a what it does,
+as listed on the Octopress install guide:</p>
+
+<ol>
+<li>Ask for and store your Github Pages repository url.</li>
+<li>Rename the remote pointing to imathis/octopress from &lsquo;origin&rsquo; to &lsquo;octopress&rsquo;</li>
+<li>Add your Github Pages repository as the default origin remote.</li>
+<li>Switch the active branch from master to source.</li>
+<li>Configure your blog&rsquo;s url according to your repository.</li>
+<li>Setup a master branch in the _deploy directory for deployment.</li>
+</ol>
+
+
+<p>If that sounds like a lot, wait until you see what actually does happen below.  So, we&rsquo;ll run it and look at the output:</p>
+
+<p>``` plain
+C:\gd\code\eduncan911 [master +2 ~1 -0 !]> rake setup_github_pages</p>
+
+<h2>Set the codepage to 65001 for Windows machines</h2>
+
+<p>Enter the read/write url for your repository
+(For example, &lsquo;git@github.com:your_username/your_username.github.io.git)</p>
+
+<pre><code>       or 'https://github.com/your_username/your_username.github.io')
+</code></pre>
+
+<p>Repository url: git@github.com:eduncan911/eduncan911.github.io.git
+fatal: remote origin already exists.
+Added remote git@github.com:eduncan911/eduncan911.github.io.git as origin
+Set origin as default remote
+Master branch renamed to &lsquo;source&rsquo; for committing your blog source files
+rm -rf <em>deploy
+mkdir </em>deploy
+cd <em>deploy
+Initialized empty Git repository in C:/gd/code/eduncan911/</em>deploy/.git/
+&lsquo;My Octopress Page is coming soon
+'hellip&rsquo; is not recognized as an internal or external command, operable program or batch file.
+[master (root-commit) f1e0e3f] Octopress init
+ 1 file changed, 0 insertions(+), 0 deletions(&ndash;)
+ create mode 100644 index.html
+fatal: remote origin already exists.
+cd &ndash;</p>
+
+<hr />
+
+<h2>Now you can deploy to git@github.com:eduncan911/eduncan911.github.io.git with <code>rake deploy</code></h2>
+
+<p>C:\gd\code\eduncan911 [source +2 ~3 -0 !]>
+```</p>
+
+<p>Btw, kudos to the developers of Octopress to put this much output in the build processes &ndash; makes
+things much easier to debug than the vast majority of scripts you run.</p>
+
+<p>But doh!  We have our first stumbling blocks.  We have a number of errors to work out here, three exactly.</p>
+
+<p>Fortunately, <code>line 7</code> is an extremely common problem when working git.  Unfortunately though,
+the common fixes doesn&rsquo;t seem to work with any Posh-Git install I&rsquo;ve used to date.</p>
+
+<p>Before we get to that though, let&rsquo;s take a look at the ruby task to see exactly what is going on
+before we jump to any conclusions.</p>
+
+<p>``` ruby RakeFile
+desc &ldquo;Set up _deploy folder and deploy branch for Github Pages deployment&rdquo;
+task :setup_github_pages, :repo do |t, args|
+  if args.repo</p>
+
+<pre><code>repo_url = args.repo
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>puts "Enter the read/write url for your repository"
+puts "(For example, 'git@github.com:your_username/your_username.github.io.git)"
+puts "           or 'https://github.com/your_username/your_username.github.io')"
+repo_url = get_stdin("Repository url: ")
+</code></pre>
+
+<p>  end
+  protocol = (repo_url.match(/(^git)@/).nil?) ? &lsquo;https&rsquo; : &lsquo;git&rsquo;
+  if protocol == &lsquo;git&rsquo;</p>
+
+<pre><code>user = repo_url.match(/:([^\/]+)/)[1]
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>user = repo_url.match(/github\.com\/([^\/]+)/)[1]
+</code></pre>
+
+<p>  end
+  branch = (repo_url.match(/\/[\w-]+.github.(?:io|com)/).nil?) ? &lsquo;gh-pages&rsquo; : &lsquo;master&rsquo;
+  project = (branch == &lsquo;gh-pages&rsquo;) ? repo_url.match(/\/([^.]+)/)[1] : &lsquo;&rsquo;
+  unless (<code>git remote -v</code> =~ /origin.+?octopress(?:.git)?/).nil?</p>
+
+<pre><code># If octopress is still the origin remote (from cloning) rename it to octopress
+system "git remote rename origin octopress"
+if branch == 'master'
+  # If this is a user/organization pages repository, add the correct origin remote
+  # and checkout the source branch for committing changes to the blog source.
+  system "git remote add origin #{repo_url}"
+  puts "Added remote #{repo_url} as origin"
+  system "git config branch.master.remote origin"
+  puts "Set origin as default remote"
+  system "git branch -m master source"
+  puts "Master branch renamed to 'source' for committing your blog source files"
+else
+  unless !public_dir.match("#{project}").nil?
+    system "rake set_root_dir[#{project}]"
+  end
+end
+</code></pre>
+
+<p>  end
+  jekyll_config = IO.read(&lsquo;<em>config.yml&rsquo;)
+  jekyll_config.sub!(/^url:.*$/, &ldquo;url: #{blog_url(user, project)}&rdquo;)
+  File.open(&lsquo;</em>config.yml&rsquo;, &lsquo;w&rsquo;) do |f|</p>
+
+<pre><code>f.write jekyll_config
+</code></pre>
+
+<p>  end
+  rm_rf deploy_dir
+  mkdir deploy_dir
+  cd &ldquo;#{deploy_dir}&rdquo; do</p>
+
+<pre><code>system "git init"
+system "echo 'My Octopress Page is coming soon &amp;hellip;' &gt; index.html"
+system "git add ."
+system "git commit -m \"Octopress init\""
+system "git branch -m gh-pages" unless branch == 'master'
+system "git remote add origin #{repo_url}"
+rakefile = IO.read(__FILE__)
+rakefile.sub!(/deploy_branch(\s*)=(\s*)(["'])[\w-]*["']/, "deploy_branch\\1=\\2\\3#{branch}\\3")
+rakefile.sub!(/deploy_default(\s*)=(\s*)(["'])[\w-]*["']/, "deploy_default\\1=\\2\\3push\\3")
+File.open(__FILE__, 'w') do |f|
+  f.write rakefile
+end
+</code></pre>
+
+<p>  end
+  puts &ldquo;\n&mdash;&ndash;\n## Now you can deploy to #{repo_url} with <code>rake deploy</code> ##&rdquo;
+end
+```</p>
+
+<p>Let&rsquo;s step through what this task does to our repo:</p>
+
+<!-- start:20 -->
+
+
+<p>``` ruby RakeFile</p>
+
+<pre><code># If octopress is still the origin remote (from cloning) rename it to octopress
+system "git remote rename origin octopress"
+</code></pre>
+
+<p>```</p>
+
+<p>Ok, no problem.  We are renaming origin.  But what you don&rsquo;t know is with Posh-Git, when
+you rename origin, it seems creates an empty origin!  So, when the next system command executes:</p>
+
+<!-- start:22 -->
+
+
+<p>``` ruby RakeFile</p>
+
+<pre><code>if branch == 'master'
+  # If this is a user/organization pages repository, add the correct origin remote
+  # and checkout the source branch for committing changes to the blog source.
+  system "git remote add origin #{repo_url}"
+</code></pre>
+
+<p>```</p>
+
+<p>We get our first error, <code>fatal: remote origin already exists.</code></p>
+
+<p>Ok, back on task of what the <code>RakeFile</code> is doing to move forward.</p>
+
+<!--  start:26 mark:27,29 -->
+
+
+<p>``` ruby RakeFile</p>
+
+<pre><code>  puts "Added remote #{repo_url} as origin"
+  system "git config branch.master.remote origin"
+  puts "Set origin as default remote"
+  system "git branch -m master source"
+  puts "Master branch renamed to 'source' for committing your blog source files"
+else
+  unless !public_dir.match("#{project}").nil?
+    system "rake set_root_dir[#{project}]"
+  end
+end
+</code></pre>
+
+<p>  end
+```</p>
+
+<p>Interesting.  I haven&rsquo;t seen this in my git-ninja code before.  A quick Google and we come up
+with this SO answer on how to setup master to track a remote branch:</p>
+
+<p><blockquote><p>You can do the following (assuming you are checked out on master and want to push to a remote branch master):</p></p><p><p>Set up the &lsquo;remote&rsquo; if you don&rsquo;t have it already</p></p><p><h1>git remote add origin ssh://&hellip;</h1></p><p><p>Now configure master to know to track:</p></p><p><h1>git config branch.master.remote origin</h1></p><p><h1>git config branch.master.merge refs/heads/master</h1></p><p><p>And push:</p></p><p><h1>git push origin master</h1></p><p><p></p><footer><strong>Paul Hedderly <a href="http://stackoverflow.com/a/625460/56693">http://stackoverflow.com/a/625460/56693</a></strong></footer></blockquote></p>
+
+<p>So now we have master tracking a remote branch and on <code>line 29</code>, we&rsquo;ve renamed master to a new branch
+called <code>source</code> (which also switches us to <code>source</code> for future commands).</p>
+
+<p>Continuing&hellip;</p>
+
+<!--  start:37 mark:45-48 -->
+
+
+<p>``` ruby RakeFile
+  jekyll_config = IO.read(&lsquo;<em>config.yml&rsquo;)
+  jekyll_config.sub!(/^url:.*$/, &ldquo;url: #{blog_url(user, project)}&rdquo;)
+  File.open(&lsquo;</em>config.yml&rsquo;, &lsquo;w&rsquo;) do |f|</p>
+
+<pre><code>f.write jekyll_config
+</code></pre>
+
+<p>  end
+  rm_rf deploy_dir
+  mkdir deploy_dir
+  cd &ldquo;#{deploy_dir}&rdquo; do</p>
+
+<pre><code>system "git init"
+system "echo 'My Octopress Page is coming soon &amp;hellip;' &gt; index.html"
+system "git add ."
+system "git commit -m \"Octopress init\""
+</code></pre>
+
+<p>```</p>
+
+<p>Ah, we are create a new directory (<code>_deploy</code> by default Octopress config) and by calling
+<code>git init</code> we create a new bank repo!  This was not clear to me as to why at first, until I got things
+working.  You&rsquo;ll see why in a bit.</p>
+
+<p>And look here, on <code>line 46</code>, we have our 2nd error in the output.  It would seem this
+is a parsing typo on Windows machines.  So, we never get this index.html file!  No biggie,
+we&rsquo;ll be replacing that very shortly anyways.</p>
+
+<p>Let&rsquo;s move forward.</p>
+
+<!-- start:49 -->
+
+
+<p>``` ruby RakeFile</p>
+
+<pre><code>system "git branch -m gh-pages" unless branch == 'master'
+</code></pre>
+
+<p>```</p>
+
+<p>This is my first Ruby playground, so I am not exactly sure what this line does.  I would say we create
+a branch called gh-pages, but that is for GitHub Projects (for corporate accounts), not our
+GitHub Pages that we using here.</p>
+
+<p>I suspect the <code>unless branch == 'master'</code> is what prevents this line from running on my installation.</p>
+
+<!-- start:50 mark:50 -->
+
+
+<p>``` ruby RakeFile</p>
+
+<pre><code>system "git remote add origin #{repo_url}"
+rakefile = IO.read(__FILE__)
+rakefile.sub!(/deploy_branch(\s*)=(\s*)(["'])[\w-]*["']/, "deploy_branch\\1=\\2\\3#{branch}\\3")
+rakefile.sub!(/deploy_default(\s*)=(\s*)(["'])[\w-]*["']/, "deploy_default\\1=\\2\\3push\\3")
+File.open(__FILE__, 'w') do |f|
+  f.write rakefile
+end
+</code></pre>
+
+<p>  end
+  puts &ldquo;\n&mdash;&ndash;\n## Now you can deploy to #{repo_url} with <code>rake deploy</code> ##&rdquo;
+end
+```</p>
+
+<p>Finally we are at the end.  Let&rsquo;s see, back on <code>line 48</code> we are sitting in a new directory
+called <code>_deploy</code> with a new clean <code>git init</code>.  So, on <code>line 50</code> we add a remote for origin&hellip;</p>
+
+<p>And get our 3rd and final error, that we have already seen before.</p>
+
+<h3>fatal: remote origin already exists</h3>
+
+<p>As I mentioned earlier, this is most likely because Posh-Git already creates an origin and never
+leaves an empty remote.</p>
+
+<p>I&rsquo;ve seen this <a href="https://www.google.com/search?q=fatal%3A+remote+origin+already+exists&amp;oq=fatal%3A+remote+origin+already+exists&amp;aqs=chrome..69i57j69i58.840j0j7&amp;sourceid=chrome&amp;espv=210&amp;es_sm=122&amp;ie=UTF-8">fatal: remote origin already exists</a>
+error all too often and it usually means you already have an origin and cannot add another one.  Usually <code>git</code> on Linux allows you to fix with a set of simple and meaningful commands:</p>
+
+<p>``` bash</p>
+
+<h1>pseudo code, not actually used during this install guide</h1>
+
+<p>$ git remote add temp user@my-url.com/repo.git
+$ git remote rm origin
+$ git remote add origin user@my-url.com/repo.git
+$ git remote rm temp
+```</p>
+
+<p>But this has never worked for me using Posh-Git.  When trying to remove origin with Posh-Git, you get a new and blocking
+error:</p>
+
+<p><code>plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote rm origin
+error: Could not remove config section 'remote.origin'
+</code></p>
+
+<p>Searching online basically leads you to a dead end in that this normally works using other versions of git.  I did stumble upon
+a related SO question about remotes using <code>set-url</code>, which <a href="http://stackoverflow.com/a/22826225/56693">lead me to come up with this solution</a>:</p>
+
+<p><code>plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote -v
+octopress       git://github.com/imathis/octopress.git (fetch)
+octopress       git://github.com/imathis/octopress.git (push)
+origin
+</code></p>
+
+<p>As you can see, the <code>rake setup_github_pages</code> has renamed our origin to octopress.  But Posh-Git seemed to have created
+another empty origin and it won&rsquo;t the script add one.  Let&rsquo;s fix that:</p>
+
+<p><code>plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote -v
+octopress       git://github.com/imathis/octopress.git (fetch)
+octopress       git://github.com/imathis/octopress.git (push)
+origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
+origin  git@github.com:eduncan911/eduncan911.github.io.git (push)
+</code></p>
+
+<p>There we go.  Let&rsquo;s <code>rake</code> that <code>setup_github_pages</code> script again, shall we?</p>
+
+<!-- mark:17 -->
+
+
+<p>``` plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]> rake setup_github_pages</p>
+
+<h2>Set the codepage to 65001 for Windows machines</h2>
+
+<p>Enter the read/write url for your repository
+(For example, &lsquo;git@github.com:your_username/your_username.github.io.git)</p>
+
+<pre><code>       or 'https://github.com/your_username/your_username.github.io')
+</code></pre>
+
+<p>Repository url: git@github.com:eduncan911/eduncan911.github.io.git
+rm -rf <em>deploy
+mkdir </em>deploy
+cd <em>deploy
+Initialized empty Git repository in C:/gd/code/eduncan911/</em>deploy/.git/
+&lsquo;My Octopress Page is coming soon
+'hellip&rsquo; is not recognized as an internal or external command,
+operable program or batch file.
+[master (root-commit) 27d2dd5] Octopress init
+ 1 file changed, 0 insertions(+), 0 deletions(&ndash;)
+ create mode 100644 index.html
+fatal: remote origin already exists.
+cd &ndash;</p>
+
+<hr />
+
+<h2>Now you can deploy to git@github.com:eduncan911/eduncan911.github.io.git with <code>rake deploy</code></h2>
+
+<p>```</p>
+
+<p>Well crap. We still get that <code>fatal: remote origin already exists</code> on <code>line 17</code> error after all we did!</p>
+
+<p>Ah, but remember what I said earlier about a directory called <code>_deploy</code>?  They are making a new repo
+and setting up the <code>origin</code> manually.</p>
+
+<p>So, we have to set that <code>origin</code> ourselves again.</p>
+
+<p><code>plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; cd .\_deploy
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+origin
+</code></p>
+
+<p>This is just checking to see what was there and as we suspected the <code>git remote add origin</code> command in the task did not work.</p>
+
+<p>You may also notice that when you change directories to the <code>_deploy</code> new repo, we are on <code>master</code> now of a different repo.
+We were previously on `source' branch of the root repo from the previous scripts.</p>
+
+<p>So let&rsquo;s fix that up.</p>
+
+<p><code>plain
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
+origin  git@github.com:eduncan911/eduncan911.github.io.git (push)
+C:\gd\code\eduncan911\_deploy [master]&gt; cd ..
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt;
+</code></p>
+
+<p>There we go.  All fixed up and ready to continue.  Make sure to change directories <code>cd ..</code> to backup to where you were
+before continuing.</p>
+
+<p>At this point, it is not necessary to run the <code>rake setup_github_pages</code> again because the script continues even with
+errors, as we&rsquo;ve seen above.  The last part of the script seems to modify the <code>RakeFile</code>.  We&rsquo;ll leave that for another
+topic as we want to keep hacking on our new blog to get it up.</p>
+
+<p><p class='info ' data-title=''>To the keen observer, you may notice that we have two branches of the same repo:</p></p><p><p>git@github.com:eduncan911/eduncan911.github.io.git</p></p><p><h1>master</h1></p><p><h1>source</h1></p><p><p>The first part of Octopress' instructions for github actually branches what you cloned from Octopress' github<br/>into a source branch.  Ok, check.</p></p><p><p>But recall that we created a sub-directory called _deploy and we git init a new clean repo there.  It was<br/>already set to master, and finally we made its origin the same as our original source.</p></p><p><p>What this means is now you will have two branches with completely different code.  Your source branch is what<br/>you will work from, commit to and push up.  While the Octopress ruby framework will handle the generation of the<br/>static site and deployments to the master branch.</p></p><p><p>The last piece to remember is that GitHub Pages will only use the master branch to serve your static site.</p></p><p><p>Sweet!  Our website (aka master branch) will be nice and clean based on this _deploy directory, whereas<br/>our source branch will be the work committed.</p></p>
+
+<h2><code>rake generate</code></h2>
+
+<p>This runs without issue.</p>
+
+<h2><code>rake deploy</code></h2>
+
+<p>Aw shit, it would seem we still have some issues because this task generates errors:</p>
+
+<!-- mark:6-7,24-28 -->
+
+
+<p>``` plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]> rake deploy</p>
+
+<h2>Set the codepage to 65001 for Windows machines</h2>
+
+<h2>Deploying branch to Github Pages</h2>
+
+<h2>Pulling any updates from Github Pages</h2>
+
+<p>cd <em>deploy
+fatal: No remote repository specified.  Please, specify either a URL or a
+remote name from which new revisions should be fetched.
+cd &ndash;
+rm -rf </em>deploy/index.html</p>
+
+<h2>Copying public to _deploy</h2>
+
+<p>cp -r public/. <em>deploy
+cd </em>deploy</p>
+
+<h2>Committing: Site updated at 2014-04-03 22:58:56 UTC</h2>
+
+<p>[master 5257cf9] Site updated at 2014-04-03 22:58:56 UTC
+ 61 files changed, 1118 insertions(+)
+ create mode 100644 assets/jwplayer/glow/controlbar/background.png
+ &hellip;(snip)&hellip;
+ create mode 100644 sitemap.xml
+ create mode 100644 stylesheets/screen.css</p>
+
+<h2>Pushing generated _deploy website</h2>
+
+<p>fatal: &lsquo;origin&rsquo; does not appear to be a git repository
+fatal: Could not read from remote repository.</p>
+
+<p>Please make sure you have the correct access rights
+and the repository exists.</p>
+
+<h2>Github Pages deploy complete</h2>
+
+<p>cd &ndash;
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]>
+```</p>
+
+<p>We got two errors to sort out.  Let&rsquo;s take a look at the first one.</p>
+
+<h3>fatal: No remote repository specified.  Please, specify either a URL or a remote name from which new revisions should be fetched.</h3>
+
+<p>Humm, this sounds like a <code>git pull</code> was issued.  Let&rsquo;s take a look at the ruby commands for this.  Again, thanks to
+the great output from the developers, a quick search in the <code>RakeFile</code> finds this code.</p>
+
+<!--  mark:5-6,18 -->
+
+
+<p>``` ruby RakeFile
+desc &ldquo;deploy public directory to github pages&rdquo;
+multitask :push do
+  puts &ldquo;## Deploying branch to Github Pages &rdquo;
+  puts &ldquo;## Pulling any updates from Github Pages &rdquo;
+  cd &ldquo;#{deploy_dir}&rdquo; do</p>
+
+<pre><code>system "git pull"
+</code></pre>
+
+<p>  end
+  (Dir[&ldquo;#{deploy_dir}/*&rdquo;]).each { |f| rm_rf(f) }
+  Rake::Task[:copydot].invoke(public_dir, deploy_dir)
+  puts &ldquo;\n## Copying #{public_dir} to #{deploy_dir}&rdquo;
+  cp_r &ldquo;#{public_dir}/.&rdquo;, deploy_dir
+  cd &ldquo;#{deploy_dir}&rdquo; do</p>
+
+<pre><code>system "git add -A"
+puts "\n## Committing: Site updated at #{Time.now.utc}"
+message = "Site updated at #{Time.now.utc}"
+system "git commit -m \"#{message}\""
+puts "\n## Pushing generated #{deploy_dir} website"
+system "git push origin #{deploy_branch}"
+puts "\n## Github Pages deploy complete"
+</code></pre>
+
+<p>  end
+end
+```</p>
+
+<p>Ah hah, there marked on lines 5 and 6 is the <code>git pull</code> for the <code>_deploy</code> directory.  Smart, they are pulling down any
+changes you may have made manually to your static pages.  For example, using GitHub&rsquo;s edit file feature to edit a file
+directly in the browser.</p>
+
+<p>I wonder why that didn&rsquo;t work because as you recall, we setup the <code>origin</code> correctly.  Let&rsquo;s figure out why.</p>
+
+<p><code>plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; cd .\_deploy
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+origin
+</code></p>
+
+<p>Wha&hellip;  We already set this before.  What happened?  Well, I can tell you that it is because I re-ran the
+<code>rake setup_github_pages</code> a 2nd and 3rd time.  If you recall from the setup_github_pages take, it doesn&rsquo;t care if you have
+an existing deployment directory or not &ndash; it blows out and creates it again!</p>
+
+<p>So, just go add the origin again.  <em>facepalm</em></p>
+
+<p><code>plain
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
+origin  git@github.com:eduncan911/eduncan911.github.io.git (push)
+C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+C:\gd\code\eduncan911\_deploy [master]&gt; cd ..
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt;
+</code></p>
+
+<p>Before we continue, let&rsquo;s take a quick look at that second error.  Scrolling down to <code>line 18</code> in the same ruby
+task above we see a <code>git push origin master</code> being executed.</p>
+
+<p>Because we had no <code>origin</code> set correctly, this would cause yet another error.  We got that fixed already though with
+the above <code>git remote set-url --add</code> command.</p>
+
+<p>Let&rsquo;s try to deploy again now that we fixed the <code>_deploy</code> folder.</p>
+
+<p>``` plain
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]> rake deploy</p>
+
+<h2>Set the codepage to 65001 for Windows machines</h2>
+
+<h2>Deploying branch to Github Pages</h2>
+
+<h2>Pulling any updates from Github Pages</h2>
+
+<p>cd _deploy
+Warning: Permanently added &lsquo;github.com,192.30.252.131&rsquo; (RSA) to the list of known hosts.
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details</p>
+
+<pre><code>git pull &lt;remote&gt; &lt;branch&gt;
+</code></pre>
+
+<p>If you wish to set tracking information for this branch you can do so with:</p>
+
+<pre><code>git branch --set-upstream-to=origin/&lt;branch&gt; master
+</code></pre>
+
+<p>cd &ndash;
+rm -rf <em>deploy/assets
+rm -rf </em>deploy/atom.xml
+rm -rf <em>deploy/blog
+rm -rf </em>deploy/favicon.png
+rm -rf <em>deploy/images
+rm -rf </em>deploy/index.html
+rm -rf <em>deploy/javascripts
+rm -rf </em>deploy/robots.txt
+rm -rf <em>deploy/sitemap.xml
+rm -rf </em>deploy/stylesheets</p>
+
+<h2>Copying public to _deploy</h2>
+
+<p>cp -r public/. <em>deploy
+cd </em>deploy</p>
+
+<h2>Committing: Site updated at 2014-04-03 23:21:58 UTC</h2>
+
+<h1>On branch master</h1>
+
+<p>nothing to commit, working directory clean</p>
+
+<h2>Pushing generated _deploy website</h2>
+
+<p>Warning: Permanently added &lsquo;github.com,192.30.252.131&rsquo; (RSA) to the list of known hosts.
+Counting objects: 79, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (72/72), done.
+Writing objects: 100% (79/79), 186.45 KiB | 0 bytes/s, done.
+Total 79 (delta 1), reused 0 (delta 0)
+To git@github.com:eduncan911/eduncan911.github.io.git
+ * [new branch]      master &ndash;> master</p>
+
+<h2>Github Pages deploy complete</h2>
+
+<p>cd &ndash;
+C:\gd\code\eduncan911 [source +2 ~3 -0 !]>
+```</p>
+
+<p>Humm, a few warnings about no tracking information for the remote branch, which we renamed to be <code>source</code> from <code>master</code>
+if you recall from earlier.  I think this is normal because we haven&rsquo;t pushed <code>source</code> up yet.</p>
+
+<h3>git push origin source</h3>
+
+<p>Now, let&rsquo;s see if we can fix the tracking information for our <code>source</code> branch by pushing our changes up.</p>
+
+<p><code>plain
+git add .
+git commit -m 'initial commit of source branch'
+git push origin source
+</code></p>
+
+<p>Seems like we are good here.</p>
+
+<p>Let&rsquo;s head over to our GitHub Page and see what&rsquo;s there in the repo.  What&rsquo;s this?  My master is a nice and clean static
+site?  Sweet!</p>
+
+<p><a href="https://github.com/eduncan911/eduncan911.github.io/tree/master">github.com/eduncan911/eduncan911.github.io/tree/master</a></p>
+
+<p>And lookie here, the <code>source</code> branch has the source!</p>
+
+<p><a href="https://github.com/eduncan911/eduncan911.github.io/tree/source">github.com/eduncan911/eduncan911.github.io/tree/source</a></p>
+
+<p>I&rsquo;m sticking a fork in her and calling it&hellip;  These may be normal warnings with the way the remote tracking is handled
+as I don&rsquo;t have a lot of experience with that part of git.</p>
+
+<h2>It&rsquo;s all downhill from here</h2>
+
+<p>If you have stuck with me this long, I have some good news &ndash; you&rsquo;re done!  Time to start blogging!</p>
+
+<p>You can read the rest of the deployment guide from here as they have some useful tips.  Also, make sure to commit
+your work (they mention this too).</p>
+
+<p>My last piece of advice after you get the hang of things and create a few test posts is to look into these commands.</p>
+
+<p><code>bash
+rake generate   # Generates posts and pages into the public directory
+rake watch      # Watches source/ and sass/ for changes and regenerates
+rake preview    # Watches, and mounts a webserver at http://localhost:4000
+</code></p>
+
+<p>You&rsquo;ve already run <code>rake generate</code>; but, take a look at the other two.</p>
+
+<p><code>rake watch</code> is nice to auto-generate files as you change them.</p>
+
+<p><code>rake preview</code> is even better!  It will watch for and auto-generate your site; but, more so it runs a very lightweight
+tiny webserver (much less tiny than IIS!) in the background where you can open a browser and hit refresh to your heart&rsquo;s
+content.</p>
+
+<p>I advise everyone to do that to keep the number of commits down because once  you have a few 100 pages, that generate and
+deploy is going to take a long while.  Might as well get into the habit early!</p>
+
+<p>~E</p>
+
+<p>PS: I am thinking of renting a <a href="http://technichi.com/">Macbook Pro</a> because of the time lost with stuff like this
+under Windows.  Argh&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Hackers' Blog]]></title>
+    <link href="http://preview.eduncan911.com/software/my-hackers-blog.html"/>
+    <updated>2014-04-02T23:25:01-04:00</updated>
+    <id>http://preview.eduncan911.com/software/my-hackers-blog</id>
+    <content type="html"><![CDATA[<p>Three years, 11 months and 22 days&hellip; That&rsquo;s how long it has been since my last blog post.</p>
+
+<p>When I originally launched this blog, I was using the software I originally wrote for CommunityServer back in
+2004 and 2005.  Ever since then I have dreamed of grand visions of new blogging software.  Tinkering with new
+design patterns, following Ken Robertson&rsquo;s advice of trying out new frameworks with the concept of an Hello Blog,
+where you create a blog using whatever language you want.  While that was all said and good, I never got around to
+finishing any of them good enough to launch them live.</p>
+
+<h3>Enter <a href="http://octopress.org/">Octopress</a>: A blogging framework for hackers</h3>
+
+<p>For those that haven&rsquo;t heard about it, go <a href="http://octopress.org/">read about it</a>.  In short, it uses Ruby to create a static blog for
+you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And, that&rsquo;s about it.</p>
+
+<p><code>
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+</code></p>
+
+<p>You write your posts in MarkDown, and be done with it. There are all sorts of little <del>hacks</del> shortcuts when writing posts that I
+am going to have a lot of fun with.</p>
+
+<p>```
+rake preview</p>
+
+<h1>now open browser to eduncan911.local:4000/</h1>
+
+<p>```</p>
+
+<p>When you go completely static, interesting opportunities start to emerge&hellip;  You no longer need a &ldquo;web host&rdquo; &ndash; all you need is a place
+to dump your files online somewhere.</p>
+
+<p><code>
+rake deploy
+</code></p>
+
+<h3>Enter <a href="https://pages.github.com/">GitHub Pages</a></h3>
+
+<p>GitHub allows you to <a href="https://pages.github.com/">host static pages</a> in a public repo.  I&rsquo;ve been hosting my code.eduncan911.com
+there for years.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>The best part is they have step-by-step instructions on how to publish it straight to GitHub Pages.  It really can&rsquo;t get any easier than
+this, for any <del>hacker</del> skill level.</p>
+
+<p><code>
+git add --all
+git commit -m "new post: My Hacker Blog"
+git push origin source
+</code></p>
+
+<p>That&rsquo;s right, this blog is hosted at <a href="http://eduncan911.github.io/">eduncan911.github.io</a>.  They have instructions on
+setting up a CNAME (in my case though, an ALIAS for the root eduncan911.com domain) and that&rsquo;s it, you&rsquo;re live.</p>
+
+<p>As a matter of fact, <a href="https://github.com/eduncan911/eduncan911.github.io">go browse my site</a> just like the old &ldquo;directory browsing&rdquo; method.
+If you want to see the source code in how I generate the site, switch branches to <a href="https://github.com/eduncan911/eduncan911.github.io/tree/source"><code>source</code></a> to
+check that out.  Tip: most of that is Octopress.  Drill into the /source/ directory to see the raw nit-n-gritty fun stuff.</p>
+
+<p>I will admit though, it took some tinkering to get Octopress setup and working correctly on Windows with PoshGit and PowerShell.</p>
+
+<h3>The way forward</h3>
+
+<p>There are a number of plug-ins, and there is some work I want to do to the asides (right column).  But I am liberated
+to no longer wait, and just do.</p>
+
+<p>Most of all, being just raw MarkDown, I can write from any device now: tablets, smart phones, anywhere.  And, being on GitHub,
+I can just browse to my source branch and create a new file to start blogging.  There are instructions for a C.I. server to
+take callbacks from GitHub, and to publish it on the site after commits.  Yep, very fun stuff&hellip;</p>
+
+<p>~E</p>
+]]></content>
+  </entry>
+  
+</feed>

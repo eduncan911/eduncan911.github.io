@@ -1,15 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://eduncan911.github.io/blog/archives/</loc>
-        <lastmod>2014-04-03T16:03:07-04:00</lastmod>
+        <loc>http://preview.eduncan911.com/software/my-hackers-blog.html</loc>
+        <lastmod>2014-04-03T20:12:52-04:00</lastmod>
     </url>
     <url>
-        <loc>http://eduncan911.github.io/</loc>
-        <lastmod>2014-04-03T16:03:07-04:00</lastmod>
+        <loc>
+            http://preview.eduncan911.com/software/octopress-powershell-and-posh-git-oh-my.html
+        </loc>
+        <lastmod>2014-04-03T23:07:34-04:00</lastmod>
     </url>
     <url>
-        <loc>http://eduncan911.github.io/robots.txt</loc>
+        <loc>http://preview.eduncan911.com/blog/archives/</loc>
+        <lastmod>2014-04-03T23:07:34-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://preview.eduncan911.com/</loc>
+        <lastmod>2014-04-03T23:07:34-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://preview.eduncan911.com/robots.txt</loc>
         <lastmod>2014-04-03T16:03:07-04:00</lastmod>
     </url>
 </urlset>
