@@ -3,7 +3,7 @@ layout: post
 title: "The Wacom Intuos3/4 is incompatible with the Lenovo Helix"
 date: 2014-04-04 10:37:08 -0400
 comments: true
-categories: [Hardware]
+categories: [hardware]
 ---
 
 I recently abandoned my 14 year dedication to Dell laptops in favor of the
