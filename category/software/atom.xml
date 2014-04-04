@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Software | Eric Duncan Blog]]></title>
-  <link href="http://preview.eduncan911.com/categories/software/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Software | Eric Duncan]]></title>
+  <link href="http://preview.eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://preview.eduncan911.com/"/>
-  <updated>2014-04-03T23:21:36-04:00</updated>
+  <updated>2014-04-04T01:35:19-04:00</updated>
   <id>http://preview.eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
