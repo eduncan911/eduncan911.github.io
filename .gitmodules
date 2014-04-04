@@ -1,0 +1,3 @@
+[submodule ".plugin-sources/Ribbonp"]
+	path = .plugin-sources/Ribbonp
+	url = git@github.com:aar0nTw/Ribbonp.git
