@@ -9,7 +9,7 @@ Three years, 11 months and 22 days... That's how long it has been since my last 
 
 When I originally launched this blog, I was using the software I originally wrote for CommunityServer back in 
 2004 and 2005.  Ever since then I have dreamed of grand visions of new blogging software.  Tinkering with new 
-design patterns, following Ken Robertson's advice of trying out new frameworks with the concept of an Hello Blog, 
+design patterns, following [Ken Robertson's advice of trying out new frameworks with the concept of an Hello Blog](http://invalidlogic.com/2008/12/22/blogging-apps-are-the-new-hello-world/), 
 where you create a blog using whatever language you want.  While that was all said and good, I never got around to 
 finishing any of them good enough to launch them live.
 
