@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://preview.eduncan911.com/atom.xml" rel="self"/>
   <link href="http://preview.eduncan911.com/"/>
-  <updated>2014-04-04T13:41:14-04:00</updated>
+  <updated>2014-04-05T14:23:48-04:00</updated>
   <id>http://preview.eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -980,7 +980,7 @@ under Windows.  Argh&hellip;</p>
 
 <p>When I originally launched this blog, I was using the software I originally wrote for CommunityServer back in
 2004 and 2005.  Ever since then I have dreamed of grand visions of new blogging software.  Tinkering with new
-design patterns, following Ken Robertson&rsquo;s advice of trying out new frameworks with the concept of an Hello Blog,
+design patterns, following <a href="http://invalidlogic.com/2008/12/22/blogging-apps-are-the-new-hello-world/">Ken Robertson&rsquo;s advice of trying out new frameworks with the concept of an Hello Blog</a>,
 where you create a blog using whatever language you want.  While that was all said and good, I never got around to
 finishing any of them good enough to launch them live.</p>
 
