@@ -7,11 +7,9 @@ sharing: false
 footer: true
 ---
 
-# $25 Credit at Ting
+Please click the link below for $25 off or bill credit using my affiliate code...
 
-Please wait while I redirect you to get $25 off using my affiliate code...
-
-[https://zc7c9715lq2.ting.com](ting.com)
+[ting.com](https://zc7c9715lq2.ting.com)
 
 <div><script type="text/javascript">
     function redirect() {
