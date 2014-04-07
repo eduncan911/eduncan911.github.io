@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Misc | Eric Duncan]]></title>
+  <link href="http://preview.eduncan911.com/category/misc/atom.xml" rel="self"/>
+  <link href="http://preview.eduncan911.com/"/>
+  <updated>2014-04-06T23:36:42-04:00</updated>
+  <id>http://preview.eduncan911.com/</id>
+  <author>
+    <name><![CDATA[Eric Duncan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Old Pics Have Moved]]></title>
+    <link href="http://preview.eduncan911.com/misc/old-pics-have-moved.html"/>
+    <updated>2014-04-06T21:54:32-04:00</updated>
+    <id>http://preview.eduncan911.com/misc/old-pics-have-moved</id>
+    <content type="html"><![CDATA[<p>If you are reading this, then I get to say this:</p>
+
+<p><blockquote><p>I moved my blog, and the photos didn&rsquo;t go with it.</p></blockquote></p>
+
+<p>You can try browsing the images in <a href="https://www.flickr.com/photos/eduncan911/sets/72157600808141363/">my Flickr set called Blogs</a>
+for the one you were looking for; but alas, I didn&rsquo;t upload all photos (sorry Venna White fans).</p>
+
+<p>Fret not.  If you really need that photo, just use the contact button at in the header and/or footer
+of this site and send me the link you want the photo(s) for.</p>
+
+<p>~E</p>
+]]></content>
+  </entry>
+  
+</feed>
