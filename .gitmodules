@@ -4,3 +4,6 @@
 [submodule ".plugin-sources/octopress-post-revision"]
 	path = .plugin-sources/octopress-post-revision
 	url = git@github.com:jhshi/octopress-post-revision.git
+[submodule ".plugin-sources/portfolio-jekyll-plugin"]
+	path = .plugin-sources/portfolio-jekyll-plugin
+	url = git@github.com:eduncan911/portfolio-jekyll-plugin.git
