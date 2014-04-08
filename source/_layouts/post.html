@@ -12,6 +12,7 @@ single: true
       {% include post/author.html %}
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
       {% include post/categories.html %}
+      {% include post/tags.html %}
     </p>
 
     <p>{% include post/revision.html %}</p>

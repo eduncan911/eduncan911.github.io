@@ -4,6 +4,7 @@ title: "My Hackers' Blog"
 date: 2014-04-02 23:25:01 -0400
 comments: true
 categories: software
+tags: ["ruby", "octopress"]
 ---
 Three years, 11 months and 22 days... That's how long it has been since my last blog post.  
 

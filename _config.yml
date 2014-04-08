@@ -103,3 +103,8 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# octopress-tag-pages
+tag_dir: tags
+tag_title_prefix: tags
+

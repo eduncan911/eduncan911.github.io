@@ -10,3 +10,6 @@
 [submodule ".plugin-sources/jekyll-tweet-tag"]
 	path = .plugin-sources/jekyll-tweet-tag
 	url = https://github.com/scottwb/jekyll-tweet-tag.git
+[submodule ".plugin-sources/octopress-tag-pages"]
+	path = .plugin-sources/octopress-tag-pages
+	url = git@github.com:robbyedwards/octopress-tag-pages.git
