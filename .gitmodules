@@ -7,3 +7,6 @@
 [submodule ".plugin-sources/portfolio-jekyll-plugin"]
 	path = .plugin-sources/portfolio-jekyll-plugin
 	url = git@github.com:eduncan911/portfolio-jekyll-plugin.git
+[submodule ".plugin-sources/jekyll-tweet-tag"]
+	path = .plugin-sources/jekyll-tweet-tag
+	url = https://github.com/scottwb/jekyll-tweet-tag.git
