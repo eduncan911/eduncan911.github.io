@@ -3,10 +3,21 @@
 # Best post I could find about how to use it was here:
 #   http://philippkueng.ch/migrate-from-blogengine-dot-net-to-jekyll.html
 #
-# to execute, run this command from your importer directory:
+# how to install:
+#   mkdir source/.importer
+#   cp blogml.rb to the source/._porter you created above
+#   cp your BlogML.xml to the same source/_mporter directory
+#   
+# how to run
+# I prefer this method below so you can run the importer multiple times without
+# effecting any new and existing posts you may have created.  because the import
+# BLOWS OUT YOUR _posts FOLDER!
+#   cd source/_importer
 #   ruby -r './blogml.rb' -e 'Jekyll::BlogML.process()'
+#   
+# that will execute the script only with that folder
 # 
-# Change Log by eduncan911:
+# change Log by eduncan911:
 # 
 # 2014-04-08
 #   added "alias: " to output, changed old_url to be the true old_url as well as a lowercased version
@@ -51,6 +62,9 @@ module Jekyll
 
           puts
           link = item.attributes["post-url"]
+
+          title = item.elements["title"].text
+          puts "        title: #{title}"
           
           # Use the URL after the last slash as the post's name
           name = link.split("/")[-1]
@@ -67,18 +81,33 @@ module Jekyll
           # name = $1 if name =~ /\d+\-(.*)/
           # puts "name 3: #{name}"
           # puts "name: #{name}"
-      
-          title = item.elements["title"].text
-          puts "        title: #{title}"
               
-          content = item.elements["content"].text        
+          ## an important note. my blogml.xml had a few spaces and \r\n before
+          # the <![CDATA[ markers in the content.  this caused the Ruby REXML parser
+          # to ignore all content within element.  i had to remove all of those
+          # in order for this line to parse.
+          content = item.elements["content"].text   
+
+          ## i'd like to insert a diclaimer that I have imported these posts
+          content = "{% include _includes\\imported_disclaimer.html %}\r\n" + content
           
+          ## This section is used to cleanup any content data.
+          #
           # Replace /image.axd?picture= with /images/
-          content.gsub!(/\/image\.axd\?picture\=/, "/images/")
+          #content.gsub!(/\/image\.axd\?picture\=/, "/images/")
           # Replace /file.axd?file= with /files/
-          content.gsub!(/\/file\.axd\?file\=/, "/files/")
+          #content.gsub!(/\/file\.axd\?file\=/, "/files/")
           # Replace encoded /'s with real thing
-          content.gsub!(/\%2f/, "/")
+          #content.gsub!(/\%2f/, "/")
+          content.gsub!(/\/blog\/thumbnail\//, "/blog/archives/images/")
+          # handle my old [PostIcon] mod
+          content.gsub!(/\[PostIcon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")
+          content.gsub!(/\[Posticon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")  # /i doesn't seem to be working
+          content.gsub!(/\[posticon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")  # /i doesn't seem to be working
+          # [PostIcon Anchor=&quot;Top&quot;]
+          content.gsub!(/\[\/PostIcon\]+/i, "'/>")
+          content.gsub!(/\[\/Posticon\]+/i, "'/>")  # /i doesn't seem to be working
+          content.gsub!(/\[\/posticon\]+/i, "'/>")  # /i doesn't seem to be working
         
           ## is this published?
           published = item.attributes["approved"]
