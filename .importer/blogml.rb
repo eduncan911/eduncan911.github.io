@@ -1,3 +1,21 @@
+# BlogML import script originally sourced from:
+#   https://github.com/philippkueng/philippkueng.github.com/tree/30ef1570f06d33938b18d5eee7767d6641b9a779/source/_import
+# Best post I could find about how to use it was here:
+#   http://philippkueng.ch/migrate-from-blogengine-dot-net-to-jekyll.html
+#
+# to execute, run this command:
+# ruby -r './_import/blogml.rb' -e 'Jekyll::BlogML.process("BlogML.xml")'
+# 
+# Change Log by eduncan911:
+# 
+# 2014-04-08
+#   Removed .htaccess as I am using GitHub pages
+#   added "alias: " to output, changed old_url to be the true old_url
+#   added "date: " to output
+#   added "tags: " to output to read from categories (since I abused that 10 years ago)
+#      you can change this to "categories: " easily and have the same array for them
+#   
+
 module Jekyll
 
   require 'rexml/document'
@@ -14,10 +32,17 @@ module Jekyll
       content = ""
       open(source, "r") { |f| content << f.read }
       
-      FileUtils.touch ".htaccess"
-      File.open(".htaccess", "w") do |htaccess|
+      #FileUtils.touch ".htaccess"
+      #File.open(".htaccess", "w") do |htaccess|
       
-        htaccess.puts "RewriteEngine on"
+        #htaccess.puts "RewriteEngine on"
+      
+        # first, we need to parse the existing categories into a known hash for later lookup
+        cats = Hash.new
+        doc.elements.each("blog/categories/category") do |category|
+          cats[category.attributes["id"]] = item.elements["title"].text
+        end
+        puts "Categories found: #{cats.values}"
       
         doc = REXML::Document.new(content)
         posts = 0
@@ -32,8 +57,9 @@ module Jekyll
           name.downcase!
           
           # Keep old URL
-          old_url = name
+          # old_url = name
           # htaccess.puts "RewriteRule ^#{name}$ "
+          old_url = item.attributes["post-url"]
           
           # Remove extensions (.html, .aspx, etc)
           name = $1 if name =~ /(.*)\.(.*)/
@@ -65,7 +91,14 @@ module Jekyll
           puts "filename: #{filename}"
         
           # Add URL rewrite to htaccess
-          htaccess.puts "RewriteRule ^post/#{old_url}$ /#{name}.html [R=301,NC]"
+          #htaccess.puts "RewriteRule ^post/#{old_url}$ /#{name}.html [R=301,NC]"
+          
+          # for GitHub pages, we need to setup an alias
+          puts "old_url: #{old_url}"
+
+          # since BlogML doesn't support tags, and I haphazardly used categories as tags,
+          # we are going to read categories and use them as tags.
+          
         
           # puts "#{link} -> #{filename}"
           File.open(filename, "w") do |f|
@@ -80,7 +113,11 @@ module Jekyll
 ---
 layout: post
 title: "#{title}"
+date: #{timestamp.strftime("%Y-%m-%d %H:%M:%S %z")}
 comments: true
+categories: 
+tags: 
+alias: #old_url
 ---
             HEADER
             # f.puts
