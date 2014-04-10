@@ -7,12 +7,17 @@ sharing: false
 footer: true
 ---
 
-Please click the link below for $25 off or bill credit using my affiliate code...
+So part of being a Ting customer is you can give our referrals to your friends and
+families.  Every time someone uses your referral code, you get $25 and they get $25.
+It's a win-win.
 
-[ting.com](https://zc7c9715lq2.ting.com)
+Just click the link below for my referral (or wait 5 seconds), and thanks!
+
+[Ting.com](https://zc7c9715lq2.ting.com)
 
 <div><script type="text/javascript">
     function redirect() {
       window.location = "https://zc7c9715lq2.ting.com/";
     };
+    setTimeout(function(){redirect()}, 5000);
 </script></div>
