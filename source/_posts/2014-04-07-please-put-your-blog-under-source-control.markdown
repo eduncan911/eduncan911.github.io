@@ -3,7 +3,7 @@ layout: post
 title: "Please put your blog under Source Control"
 date: 2014-04-07 10:37:08 -0400
 comments: true
-published: false
+published: true
 categories: software
 tags: ["source control"]
 ---
