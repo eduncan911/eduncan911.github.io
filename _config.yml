@@ -2,12 +2,15 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://preview.eduncan911.com
+url: http://eduncan911.com
 title: Eric Duncan
-subtitle: My name is Eric and I build Tech
+subtitle: My name is Eric and I build technology
 author: Eric Duncan
 simple_search: https://www.google.com/search
 description: A blog about Eric Duncan, Software Design and Technology
+
+# specified from the jekyll_alias_generator
+safe: false
 
 # "statistical analysis" of posts
 #lsi: true
@@ -30,7 +33,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/archives/:categories/:title.html
+permalink: /:categories/:title.html
 source: source
 destination: public
 plugins: plugins

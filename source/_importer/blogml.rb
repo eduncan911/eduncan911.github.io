@@ -3,12 +3,25 @@
 # Best post I could find about how to use it was here:
 #   http://philippkueng.ch/migrate-from-blogengine-dot-net-to-jekyll.html
 #
-# how to install:
+# how to install
+# --------------
 #   mkdir source/.importer
 #   cp blogml.rb to the source/._porter you created above
 #   cp your BlogML.xml to the same source/_mporter directory
+# 
+# make sure to change the "categories" output at the end of this script
+# to be the final resting place of your imported posts.  i chose to put mine
+# all into the /blog/archives/ folder personally.  by using categories like
+# this, it uses the folder structure for all posts to render in that one
+# directory.
+# 
+# if you, on the other hand, want to retain your categories as categories
+# in your new blog, feel free to remove the TAGs portion and copy it to the 
+# CATEGORIES portion in the final output below.  It will render the categories
+# per your BlogML.
 #   
 # how to run
+# --------------
 # I prefer this method below so you can run the importer multiple times without
 # effecting any new and existing posts you may have created.  because the import
 # BLOWS OUT YOUR _posts FOLDER!
@@ -20,7 +33,7 @@
 # change Log by eduncan911:
 # 
 # 2014-04-08
-#   added "alias: " to output, changed old_url to be the true old_url as well as a lowercased version
+#   added "alias: " to output, changed old_url to be an array with the original old_url as well as a lowercased version
 #   added "date: " to output
 #   added "tags: " to output to read from categories (since I abused that 10 years ago)
 #      you can change this to "categories: " easily and have the same array for them
@@ -88,8 +101,16 @@ module Jekyll
           # in order for this line to parse.
           content = item.elements["content"].text   
 
-          ## i'd like to insert a diclaimer that I have imported these posts
-          content = "{% include _includes\\imported_disclaimer.html %}\r\n" + content
+          ## i'd like to insert a diclaimer that I have imported these posts.
+          # note that you'll have to create the file source/_includes/imported_disclaimer.html
+          # to render.  i just put a {% blockquote %} with some verbage in it.
+          content = "{% include imported_disclaimer.html %}\r\n" + content
+
+          ## i'd like to cut off old content from showing in the blog roll. since
+          # it requires <!-- more --> to be inserted, we'll just do it at the
+          # very top.  someone with more time can make it insert after the first
+          # paragraph or something.
+          content = "<!-- more -->\r\n" + content
           
           ## This section is used to cleanup any content data.
           #
@@ -99,6 +120,7 @@ module Jekyll
           #content.gsub!(/\/file\.axd\?file\=/, "/files/")
           # Replace encoded /'s with real thing
           #content.gsub!(/\%2f/, "/")
+          content.gsub!(/http:\/\/eduncan911.com/, "")  # remove the domain from my links and images
           content.gsub!(/\/blog\/thumbnail\//, "/blog/archives/images/")
           # handle my old [PostIcon] mod
           content.gsub!(/\[PostIcon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")
@@ -158,7 +180,7 @@ title: "#{title}"
 date: #{timestamp.strftime("%Y-%m-%d %H:%M:%S %z")}
 comments: true
 published: #{published}
-categories: 
+categories: ["blog", "archives"]
 tags: #{tags}
 alias: #{old_url}
 ---
