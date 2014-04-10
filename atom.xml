@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-04-09T23:19:48-04:00</updated>
+  <updated>2014-04-10T03:09:37-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Please Put Your Blog Under Source Control]]></title>
+    <link href="http://eduncan911.com/software/please-put-your-blog-under-source-control.html"/>
+    <updated>2014-04-07T10:37:08-04:00</updated>
+    <id>http://eduncan911.com/software/please-put-your-blog-under-source-control</id>
+    <content type="html"><![CDATA[<p>There are many benefits to both your readers and yourself if you were to put your
+blog under source revisions.  I would go as far to say that you own it to the community
+to publish all revisions of your blog that was ever public for pure archiving reasons.</p>
+
+<!-- more -->
+
+
+<h2>Revision those old files you linked to</h2>
+
+<p>Recently I setup <a href="http://eduncan911.com/software/my-hackers-blog.html">my hacker&rsquo;s blog</a>
+and I had a need to import my old blog posts from CommunityServer.  The steps were a bit
+hackery itself as I had to get data out of CS and into a format that one of the common
+importers of Jekyll/Octopress could read from.  I chose BlogML to export as that seemed
+to have the oldest support (my CS blog was 9 years old).</p>
+
+<h3>Finding that old import script no one cares about any longer</h3>
+
+<p>After spending a few days off and on tweaking the exported BlogML data, I basically found only
+a single BlogML importer for Jekyll.  This is why I chose this route to begin with.  So, when
+it came time to perform the import guess what?  The blogml.rb ruby script links were all broken!</p>
+
+<p>Then I had a thought: if the author of the script was running Jekyll/Octopress, especially on
+GitHub pages, then perhaps there is a revision history.</p>
+
+<p>I had to dig through about 2 years of commits; but, I found it!</p>
+
+<p><a href="https://github.com/philippkueng/philippkueng.github.com/blob/30ef1570f06d33938b18d5eee7767d6641b9a779/source/_import/blogml.rb">Commit 30ef1570f0 for blogml.rb from author</a></p>
+
+<p>You can even backup a folder and see his entire snapshot of his blog during the import process.</p>
+
+<p>Thank you Philipp Küng for revisioning your blog.</p>
+
+<h2>Updates, Changes and Redactments</h2>
+
+<p>Opinions online can be heated and made in jest.  You may have published something that you wish you
+didn&rsquo;t.  Or after some nice comments are posted, you update the post.  Maybe a DMCA takedown request
+forced you to remove content.  Wouldn&rsquo;t be nice to know and show the revision history of your post?</p>
+
+<p>I know that me for one is going to stop with the dozen minute edits for spelling and grammer because
+of this.  Who knows, it may cause me to actually <em>think</em> before publishing.</p>
+
+<p>And FYI, you can see each revision of each post and page I make to my site here.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Old Pics Have Moved]]></title>
@@ -2358,42 +2408,6 @@ Html.ActionLink&lt;TController&gt;(<br />    Expression&lt;Action&lt;TController
 
 
 <P>So, today I start a new goal: Thirty posts in thirty days.&nbsp; Now, there may be several posts in one day in succession, and other empty days.&nbsp; But, there will be at least 30.&nbsp; :)</P>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google Chrome Popups Gets Jiggy With It]]></title>
-    <link href="http://eduncan911.com/blog/archives/google-chrome-popups-gets-jiggy-with-it.html"/>
-    <updated>2008-09-15T20:15:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/google-chrome-popups-gets-jiggy-with-it</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-
-
-<P><IMG style="WIDTH: 110px; HEIGHT: 110px" align=left src="http://i.cmpnet.com/infoweek/graphics_library/110x110/google_chrome_noshadow.jpg" width=110 height=110 mce_src="http://i.cmpnet.com/infoweek/graphics_library/110x110/google_chrome_noshadow.jpg">There are dozens of reviews for Google Chrome out there. So I will not bore you with any (except I am really liking&nbsp;the isolated tabs, besides the alpha issues).&nbsp;But, as I am doing Google Chrome testing today I noticed something interesting on how Google Chrome handles popups.&nbsp;Check out the video I recorded today.</P>
-
-
-<P>Interesting how Google does not block the popup.&nbsp; But instead, they&nbsp;animate the window by moving it down and across the bottom of the screen!</P>
-
-
-<P>I have not isolated the exact reason to why&nbsp;as Chrome does not&nbsp;move other window.open popups such as Facebook&#8217;s Share on YouTube.&nbsp; But the one fact I have found is the Facebook Connect uses XSS (cross-site scripting) which we have had to configure to allow them to run scripts.&nbsp; If someone wants to test it on other sites that are using XSS, please let me know your results.&nbsp; The Facebook development team was also able to reproduce it, which removes my machine as a possible source (or virus).</P>
-
-
-<P>[video]</P>
-
-
-<P><A href="http://eduncan911.com/downloads/fbconnect-moving.wmv" target=_blank mce_href="/downloads/fbconnect-moving.wmv">(direct download, right-click and save-as - 3 MB)</A></P>
-
-
-<P mce_keep="true">&nbsp;</P>
-
-
-<DIV></DIV>
 
 ]]></content>
   </entry>

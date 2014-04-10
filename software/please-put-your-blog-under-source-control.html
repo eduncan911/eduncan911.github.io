@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Taking Bets - Coin Jar Emptied! - Eric Duncan</title>
+  <title>Please Put Your Blog Under Source Control - Eric Duncan</title>
   <meta name="author" content="Eric Duncan">
 
   
-  <meta name="description" content="Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on. If you need &hellip;">
+  <meta name="description" content="There are many benefits to both your readers and yourself if you were to put your
+blog under source revisions. I would go as far to say that you own &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://eduncan911.com/blog/archives/coin-jar.html">
+  <link rel="canonical" href="http://eduncan911.com/software/please-put-your-blog-under-source-control.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Eric Duncan" type="application/atom+xml">
@@ -81,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Taking Bets - Coin Jar Emptied!</h1>
+      <h1 class="entry-title">Please Put Your Blog Under Source Control</h1>
     
     
       <p class="meta">
@@ -97,44 +98,55 @@
   
 
 
-<time datetime="2005-10-26T17:00:00-04:00" pubdate data-updated="true">Oct 26<span>th</span>, 2005</time>
+<time datetime="2014-04-07T10:37:08-04:00" pubdate data-updated="true">Apr 7<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><!-- more -->
+<div class="entry-content"><p>There are many benefits to both your readers and yourself if you were to put your
+blog under source revisions.  I would go as far to say that you own it to the community
+to publish all revisions of your blog that was ever public for pure archiving reasons.</p>
+
+<!-- more -->
 
 
-<blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
+<h2>Revision those old files you linked to</h2>
 
+<p>Recently I setup <a href="/software/my-hackers-blog.html">my hacker&rsquo;s blog</a>
+and I had a need to import my old blog posts from CommunityServer.  The steps were a bit
+hackery itself as I had to get data out of CS and into a format that one of the common
+importers of Jekyll/Octopress could read from.  I chose BlogML to export as that seemed
+to have the oldest support (my CS blog was 9 years old).</p>
 
+<h3>Finding that old import script no one cares about any longer</h3>
 
+<p>After spending a few days off and on tweaking the exported BlogML data, I basically found only
+a single BlogML importer for Jekyll.  This is why I chose this route to begin with.  So, when
+it came time to perform the import guess what?  The blogml.rb ruby script links were all broken!</p>
 
-<P><STRONG>UPDATE:</STRONG> Riley was the winner&nbsp;with his calcuated guess of $889.23.&nbsp; The correct answer was $851.51.</P>
+<p>Then I had a thought: if the author of the script was running Jekyll/Octopress, especially on
+GitHub pages, then perhaps there is a revision history.</p>
 
+<p>I had to dig through about 2 years of commits; but, I found it!</p>
 
-<P>So I have this old Bud Light coin jar I got as a house warming present from a friend when I moved to Atlanta back in March of 1997.&nbsp; I had a rule (briefly) that when people visited, they must keep the Coin Jar Gods happy and contribute their loose change upon arriving (like I said, didn&#8217;t last long).</P>
+<p><a href="https://github.com/philippkueng/philippkueng.github.com/blob/30ef1570f06d33938b18d5eee7767d6641b9a779/source/_import/blogml.rb">Commit 30ef1570f0 for blogml.rb from author</a></p>
 
+<p>You can even backup a folder and see his entire snapshot of his blog during the import process.</p>
 
-<P><IMG alt="Coin Jar" src="/blog/archives/images/storage/1000.4.194.oc260000.jpg"></P>
+<p>Thank you Philipp Küng for revisioning your blog.</p>
 
+<h2>Updates, Changes and Redactments</h2>
 
-<P>It&#8217;s been about 8.5 years since I started this, and yesterday I decided it was too full (you couldn&#8217;t fit another penny in it).&nbsp; I took it by the bank yesterday and they are cashing it for me.&nbsp; I&#8217;ll know Friday how much it held.</P>
+<p>Opinions online can be heated and made in jest.  You may have published something that you wish you
+didn&rsquo;t.  Or after some nice comments are posted, you update the post.  Maybe a DMCA takedown request
+forced you to remove content.  Wouldn&rsquo;t be nice to know and show the revision history of your post?</p>
 
+<p>I know that me for one is going to stop with the dozen minute edits for spelling and grammer because
+of this.  Who knows, it may cause me to actually <em>think</em> before publishing.</p>
 
-<P>So does anyone want to take a guess?&nbsp; </P>
-
-
-<P>I&#8217;ll go first.&nbsp; Based on the amount of coin I started this jar with, I&#8217;m going to take a conservative guess and say $1,633.81.</P>
-
-
-<P><STRONG>Get it cashed, for free!</STRONG><BR>Oh on&nbsp;a side note, do not take your change to Kroger or use those automated &#8220;cashing&#8221; machines.&nbsp; They charge an arm and a leg.&nbsp; Instead, go by your bank and ask for &#8220;Coin Bags&#8221;. These are specially re-enforced and sealable coin bags you can fill up.&nbsp; They will take &#8216;em, sort &#8216;em, count &#8216;em, and deposite&nbsp;&#8216;em into your account - for free!</P>
-
-
-<P mce_keep="true">&nbsp;</P>
-
+<p>And FYI, you can see each revision of each post and page I make to my site here.</p>
 </div>
 
 
@@ -158,12 +170,12 @@
   
 
 
-<time datetime="2005-10-26T17:00:00-04:00" pubdate data-updated="true">Oct 26<span>th</span>, 2005</time>
+<time datetime="2014-04-07T10:37:08-04:00" pubdate data-updated="true">Apr 7<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/category/archives/'>archives</a>, <a class='category' href='/category/blog/'>blog</a>
+    <a class='category' href='/category/software/'>software</a>
   
 </span>
 
@@ -172,7 +184,7 @@
 
 <span class="tags">
   
-    Friends and FamilyPersonal
+    source control
   
 </span>
 
@@ -181,8 +193,10 @@
 
     <p><section>
   <h1>Revision History</h1>
-  <ul><li><strong>Wed Apr 9 20:49:43 2014</strong><br/>imported into new blog platform
-</li></ul>View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2005-10-26-coin-jar.markdown target=_blank>Github</a>
+  <ul><li><strong>Wed Apr 9 23:21:24 2014</strong><br/>published page live
+</li><li><strong>Wed Apr 9 22:57:50 2014</strong><br/>added few more reasons
+</li><li><strong>Tue Apr 8 19:26:00 2014</strong><br/>new post
+</li></ul>View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2014-04-07-please-put-your-blog-under-source-control.markdown target=_blank>Github</a>
 </section>
 </p>
 
@@ -196,10 +210,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/archives/use-your-cc-taco-bell-now.html" title="Previous Post: Use your CC @ Taco Bell - now">&laquo; Use your CC @ Taco Bell - now</a>
+        <a class="basic-alignment left" href="/misc/old-pics-have-moved.html" title="Previous Post: Old Pics have Moved">&laquo; Old Pics have Moved</a>
       
-      
-        <a class="basic-alignment right" href="/blog/archives/quot-keep-the-change-quot-coin-jar-cont.html" title="Next Post: &amp;quot;Keep the Change&amp;quot; - Coin Jar Cont">&amp;quot;Keep the Change&amp;quot; - Coin Jar Cont &raquo;</a>
       
     </p>
   </footer>
