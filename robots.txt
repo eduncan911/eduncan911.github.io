@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://preview.eduncan911.com/sitemap.xml 
+Sitemap: http://eduncan911.com/sitemap.xml 

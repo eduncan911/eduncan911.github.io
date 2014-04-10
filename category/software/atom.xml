@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
-  <link href="http://preview.eduncan911.com/category/software/atom.xml" rel="self"/>
-  <link href="http://preview.eduncan911.com/"/>
-  <updated>2014-04-06T23:36:42-04:00</updated>
-  <id>http://preview.eduncan911.com/</id>
+  <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
+  <link href="http://eduncan911.com/"/>
+  <updated>2014-04-09T23:19:48-04:00</updated>
+  <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress and Posh-Get - Oh My]]></title>
-    <link href="http://preview.eduncan911.com/software/octopress-powershell-and-posh-git-oh-my.html"/>
+    <link href="http://eduncan911.com/software/octopress-powershell-and-posh-git-oh-my.html"/>
     <updated>2014-04-03T16:11:01-04:00</updated>
-    <id>http://preview.eduncan911.com/software/octopress-powershell-and-posh-git-oh-my</id>
+    <id>http://eduncan911.com/software/octopress-powershell-and-posh-git-oh-my</id>
     <content type="html"><![CDATA[<p>As announced previously, I&rsquo;ve recently <a href="/software/my-hackers-blog.html">converted my blog over to Octopress</a>.
 This was not without a few stumbling blocks on Windows using Posh-Git.  I&rsquo;ve also recently started to suspect some issues
 with <a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> now that I am using it on a daily basis.</p>
@@ -708,9 +708,9 @@ under Windows.  Argh&hellip;</p>
   
   <entry>
     <title type="html"><![CDATA[My Hackers' Blog]]></title>
-    <link href="http://preview.eduncan911.com/software/my-hackers-blog.html"/>
+    <link href="http://eduncan911.com/software/my-hackers-blog.html"/>
     <updated>2014-04-02T23:25:01-04:00</updated>
-    <id>http://preview.eduncan911.com/software/my-hackers-blog</id>
+    <id>http://eduncan911.com/software/my-hackers-blog</id>
     <content type="html"><![CDATA[<p>Three years, 11 months and 22 days&hellip; That&rsquo;s how long it has been since my last blog post.</p>
 
 <p>When I originally launched this blog, I was using the software I originally wrote for CommunityServer back in
