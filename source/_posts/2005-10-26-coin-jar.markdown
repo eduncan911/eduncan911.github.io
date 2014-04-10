@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Taking bets - Coin Jar Emptied!"
+date: 2005-10-26 17:00:00 -0400
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Friends and Family", "Personal"]
+alias: ["/blog/coin-jar.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+<P><STRONG>UPDATE:</STRONG> Riley was the winner&nbsp;with his calcuated guess of $889.23.&nbsp; The correct answer was $851.51.</P>
+<P>So I have this old Bud Light coin jar I got as a house warming present from a friend when I moved to Atlanta back in March of 1997.&nbsp; I had a rule (briefly) that when people visited, they must keep the Coin Jar Gods happy and contribute their loose change upon arriving (like I said, didn't last long).</P>
+<P><IMG alt="Coin Jar" src="/blog/archives/images/storage/1000.4.194.oc260000.jpg"></P>
+<P>It's been about 8.5 years since I started this, and yesterday I decided it was too full (you couldn't fit another penny in it).&nbsp; I took it by the bank yesterday and they are cashing it for me.&nbsp; I'll know Friday how much it held.</P>
+<P>So does anyone want to take a guess?&nbsp; </P>
+<P>I'll go first.&nbsp; Based on the amount of coin I started this jar with, I'm going to take a conservative guess and say $1,633.81.</P>
+<P><STRONG>Get it cashed, for free!</STRONG><BR>Oh on&nbsp;a side note, do not take your change to Kroger or use those automated "cashing" machines.&nbsp; They charge an arm and a leg.&nbsp; Instead, go by your bank and ask for "Coin Bags". These are specially re-enforced and sealable coin bags you can fill up.&nbsp; They will take 'em, sort 'em, count 'em, and deposite&nbsp;'em into your account - for free!</P>
+<P mce_keep="true">&nbsp;</P>

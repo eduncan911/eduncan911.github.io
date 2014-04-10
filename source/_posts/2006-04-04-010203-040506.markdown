@@ -1,0 +1,17 @@
+---
+layout: post
+title: "01:02:03 04/05/06"
+date: 2006-04-04 14:32:00 -0400
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Funny"]
+alias: ["/blog/01_3A00_02_3A00_03-04_2F00_05_2F00_06.aspx", "/blog/01_3a00_02_3a00_03-04_2f00_05_2f00_06.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+<P>Interesting...&nbsp; Happens tonight.</P>
+<P>Same thing as the 05/05/05 last year, and all 9 planets in our solar system aligned on that very day.&nbsp; Spooky.</P>
+<P>What's even&nbsp;more spooky&nbsp;is this year, there will be a 6/06/06 6:06:06.</P>
+<P>Makes you think eh?</P>
+<P>&nbsp;</P>

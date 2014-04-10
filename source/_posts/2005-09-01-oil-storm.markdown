@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Oil Storm"
+date: 2005-09-01 19:07:00 -0400
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Automotive"]
+alias: ["/blog/oil-storm.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+<P>Aiight, I've been mentioning this to quite a few of my friends about a movie I saw on FX this year.&nbsp; </P>
+<P>Found it.&nbsp; It's called <EM><A href="http://www.fxnetworks.com/shows/originals/oilstorm/main.html">Oil Storm</A></EM>.</P>
+<P>It's close to what has happened currently with the powerloss at the Gulf Oil supply line.&nbsp; And we are just talking a "power outage".&nbsp; In this movie, it was damaged for over a year to repair.&nbsp; It's becoming real life.</P>
+<P>Rent it if you can.&nbsp; Or with the current news, look for it to come on FX again very soon.</P>
+<P>&nbsp;</P>

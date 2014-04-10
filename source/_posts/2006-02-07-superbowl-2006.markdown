@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Deemed Too Hot for TV"
+date: 2006-02-07 15:32:00 -0500
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Friends and Family"]
+alias: ["/blog/Superbowl-2006.aspx", "/blog/superbowl-2006.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+<p><img align="left" height="120" src="http://video.google.com/ThumbnailServer?app=vss&amp;contentid=84f60d4bf6b15522&amp;second=5&amp;itag=w160&amp;lang=en&amp;sigh=2MIKtiQIcRV7tzKepmLFgnKxBSY" style="width: 160px; height: 120px" width="160" />So the commercials were &#39;ok&#39; this year.&nbsp; The Bud Light ones the best overall for me.</p><p><a href="http://video.google.com/superbowl.html" target="_blank">Google posted all of them online to watch</a>, including the ones that the Superbowl Commitee did not allow (*cough* Janet Jackson *cough* *cough* GoDaddy *cough*).</p><p>Deemed &quot;Too Hot for TV&quot;.&nbsp; Come on!</p><p>Enjoy!</p><p>&nbsp;</p>

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Welcome!"
+date: 2005-05-15 03:31:00 -0400
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Personal"]
+alias: ["/blog/welcome.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+
+		<p>I stayed in tonight to do some cleaning, and decided I needed to take some time off and get my website online.</p>
+		<p>So, here I am!  Enjoy!</p>

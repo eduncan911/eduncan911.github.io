@@ -1,0 +1,13 @@
+---
+layout: post
+title: "0-60 in 4s - 1000rwtq - Kit Car"
+date: 2005-08-27 03:59:00 -0400
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Automotive"]
+alias: ["/blog/0-60-in-4s-1000rwtq-kit-car.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+<p><img height="561" src="http://www.commutercars.com/images/gallery/studio/index/indexfiles/Quarter.tif.jpg" style="width: 800px; height: 561px" width="800" /></p><p>You&#39;re eyes aren&#39;t lying... Meet the Tango, an electric commuter car available by mail order, assembly required.</p><p><a href="http://www.commutercars.com/">http://www.commutercars.com/</a></p><p>It has 1000 ft.tq. and can do 0-60 in 4s.&nbsp; And you can park it on the sidewalk...</p><p>Did I mention the $85,000 cost for this kit-car?&nbsp;</p><p>They mention it as being ultra-stable, mainly due to over 80% of the wieght is a few inches off of the ground (the batteries and DC motors).&nbsp; Check out this video of them at an Autocross:</p><p><a href="http://www.commutercars.com/images/theater/marinaAutocross/marina.rm">http://www.commutercars.com/images/theater/marinaAutocross/marina.rm</a></p><p>I&#39;ll take one.</p><p>&nbsp;</p>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Windows MCE: First Major Roadblock"
+date: 2005-12-18 22:58:00 -0500
+comments: true
+published: true
+categories: ["blog", "archives"]
+tags: ["Geek Stuff", "Home Theater"]
+alias: ["/blog/windows-mce-first-major-roadblock.aspx"]
+---
+<!-- more -->
+{% include imported_disclaimer.html %}
+<p><img align="left" height="185" src="/blog/archives/images/MCE-NTSC-Required.jpg" width="331" />As my close friends are aware, I&#39;ve been planning an MCE machine for some time.&nbsp; Don&#39;t know what Windows XP Media Center Edition (MCE) is?&nbsp; It&#39;s basically a TiVo-like device, you build out of a PC (with no subscription) and with far more features.&nbsp; You can purchase them complete/new, but they aren&#39;t cheap.&nbsp; Most get away with a $400 to $500 PC by custom building, and with close attention to fanless designs you sit it right next to your TV.&nbsp; Did I mention youc an do HDTV as well?&nbsp; :)&nbsp; <a href="http://www.microsoft.com/windowsxp/mediacenter/default.mspx">Read more here</a>&nbsp;with demos.</p><p>Ok, back to my post.&nbsp; So this weekend my RAID 0 array crashed (nothing new, read my other <a href="/">blog post about how SATA OnBoard RAID is a joke</a>).&nbsp; So after formatting the drives I decided to finally install one of my HDTV tuner cards I have in the back, and install MCE.</p><p>First major roadblock: <strong>Windows MCE 2005 requires an NTSC Analog Tuner <em><u>before</u></em> you can use an ATSC&nbsp;digital tuner card (as I have two of them).</strong>&nbsp; </p><p>Oh, this has really made me upset.&nbsp; I&#39;ve planned on running two digital tuner cards only, as I don&#39;t EVER watch any analog channels.&nbsp; But MCE 2005, even with thee Rollup2, requires at least one NTSC Analog tuner card installed.&nbsp; This sucks.&nbsp; I don&#39;t ever plan on using analog, so why I do have to install it?</p><p>The digital tuner works fine as I downloaded a demo of Beyond TV 4.0.&nbsp; It saw my card right away, loaded up and I was watching free HDTV within minutes.&nbsp; </p><p>Does anyone know of a work around for this (registry edit/force using ditial tuner only)?&nbsp; How come no one ever brought this too light?&nbsp;Searching on google didn&#39;t turn up anything about a requirement of an analog before using digital. &nbsp;I&#39;ve posted on a number of forums, but it seems no one has a clue as they all have analog tuners.&nbsp; Am I the only one that doesn&#39;t want to use Analog?&nbsp; </p><p>Boo...</p><p><strong>Edit 12/20/2005 - We have an interesting discussion&nbsp;going in </strong><a href="http://www.avsforum.com/avs-vb/showthread.php?t=618971"><strong>a thread at&nbsp;AVSForum.com </strong></a><strong>about this.</strong></p><p>&nbsp;</p>
