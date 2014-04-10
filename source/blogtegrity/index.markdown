@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-This is a statement about the integrity of this blog or its “blogtegrity”. See [this post for why I wrote this](http://haacked.com/archive/2006/03/07/BlogtegrityAgain.aspx/).
+This is a statement about the integrity of this blog or its “blogtegrity”. See [this post for why I have this](http://haacked.com/archive/2006/03/07/BlogtegrityAgain.aspx/).
 This is a promise that the contents of this blog under my control are genuine, truthful, 
 and honest to the best of my knowledge. The obvious exception is of course any satire I may 
 write, which will be downright dishonest and impure in thought.
