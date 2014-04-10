@@ -18,7 +18,11 @@ layout: default
         {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
         {% if page.categories %}{% include post/categories.html %}{% endif %}
         {% if page.tags %}{% include post/tags.html %}{% endif %}
-      </p>{% endif %}
+      </p>
+
+      <p>{% include post/revision.html %}</p>
+      {% endif %}
+
       {% unless page.sharing == false %}
         {% include post/sharing.html %}
       {% endunless %}
