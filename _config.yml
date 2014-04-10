@@ -40,6 +40,7 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: category
 markdown: rdiscount
+#markdown: redcarpet
 rdiscount:
   extensions:
     - autolink
