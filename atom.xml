@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-04-10T03:09:37-04:00</updated>
+  <updated>2014-04-13T02:09:04-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -25,7 +25,7 @@ to publish all revisions of your blog that was ever public for pure archiving re
 <!-- more -->
 
 
-<h2>Revision those old files you linked to</h2>
+<h2>Revision those files you linked to</h2>
 
 <p>Recently I setup <a href="http://eduncan911.com/software/my-hackers-blog.html">my hacker&rsquo;s blog</a>
 and I had a need to import my old blog posts from CommunityServer.  The steps were a bit
@@ -33,7 +33,7 @@ hackery itself as I had to get data out of CS and into a format that one of the 
 importers of Jekyll/Octopress could read from.  I chose BlogML to export as that seemed
 to have the oldest support (my CS blog was 9 years old).</p>
 
-<h3>Finding that old import script no one cares about any longer</h3>
+<h2>Finding that old file that no one cares about any longer</h2>
 
 <p>After spending a few days off and on tweaking the exported BlogML data, I basically found only
 a single BlogML importer for Jekyll.  This is why I chose this route to begin with.  So, when
@@ -50,16 +50,120 @@ GitHub pages, then perhaps there is a revision history.</p>
 
 <p>Thank you Philipp Küng for revisioning your blog.</p>
 
-<h2>Updates, Changes and Redactments</h2>
+<h2>Changing blogging platforms</h2>
+
+<p>What if you are switch blogging software every 5 years?  Keep old snapshots and revisions of your old site
+in tags and refer to them in your change revisions.  Even if you don&rsquo;t keep the same technology,
+having an old copy around for public reference can be useful to the community.</p>
+
+<h2>Domain expiration, hosting company goes under, etc</h2>
+
+<p>So your domain expires or got snatched up by a squatter?  Or your hosting company pulls the plug?
+At least having a revision available will allow you the flexibility, even if you don&rsquo;t continue
+a blog any longer.</p>
+
+<h2>Updates, changes and redactions</h2>
 
 <p>Opinions online can be heated and made in jest.  You may have published something that you wish you
 didn&rsquo;t.  Or after some nice comments are posted, you update the post.  Maybe a DMCA takedown request
-forced you to remove content.  Wouldn&rsquo;t be nice to know and show the revision history of your post?</p>
+forced you to remove a piece of content.  Wouldn&rsquo;t it be nice to know and show the revision history of your post?</p>
 
-<p>I know that me for one is going to stop with the dozen minute edits for spelling and grammer because
+<p>I know that me for one is going to stop with the dozen tiny edits for spelling and grammar because
 of this.  Who knows, it may cause me to actually <em>think</em> before publishing.</p>
 
 <p>And FYI, you can see each revision of each post and page I make to my site here.</p>
+
+<h2>Backups</h2>
+
+<p>Similar to the above, having a full backup you can take with you can be advantageous.</p>
+
+<p>Personally, I not only publish my source code here at GitHub; but, I also have an additional
+remote added for BitBucket and always do the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>&gt; git add .
+</span><span class='line'>&gt; git commit -m <span class="s2">&quot;fixed spelling and corrected a quote&quot;</span>
+</span><span class='line'>&gt; git push backup <span class="nb">source</span>
+</span><span class='line'>&gt; git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, you can do this for any source code sure.  It&rsquo;s these next steps that make it viable.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>&gt; rake deploy
+</span><span class='line'>    ^- this publishes the live site to GitHub pages
+</span><span class='line'>&gt; <span class="nb">cd</span> ./_deploy
+</span><span class='line'>&gt; git push backup master
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Yep, I also deploy a 2nd copy to my BitBucket account.  Even though it will never be used as a real
+site, it&rsquo;s a full backup of the live site in the master branch.</p>
+
+<p>The Optopress command <code>rake deploy</code> also pushed it up to GitHub pages on master &ndash; that&rsquo;s how it
+&ldquo;publishes.&rdquo;  So all I have to do is make a quick backup.  What&rsquo;s even nice is the script does
+a pull request as well, to keep the _deploy folder in sync so when I do perform a backup, it&rsquo;s all there.
+I am new to git branch tracking; so, I may have to tweak that last command by forcing <code>-f</code> up the
+push to backup if it gets out of sync or something.</p>
+
+<p>Finally, having multiple copies of your repo online and publicly accessible can help with&hellip;</p>
+
+<h2>Government seizers</h2>
+
+<p>All too often, governments are taking domains and peoples&#8217; hosting accounts in the name of DMCA and
+copyright infringements.  Oh, and free speech as well.</p>
+
+<p>Why not publish your blog open source?</p>
+
+<p>The last step to further solidify your published site and source would be automate a bittorrent release
+for every deployment.  Doesn&rsquo;t seem to far out of reach with these snapshots readily available.</p>
+
+<h2>Death</h2>
+
+<p>What if you were to pass away?  Would your annual payment to your domains continue for decades? What
+about the fee you pay your hosting company?  Same as the previous reason, publishing it may very well
+keep it going for a long time even if the domain is gone, people can still get to the source.</p>
+
+<p>Especially at a place like GitHub pages.</p>
+
+<h2>Why not?</h2>
+
+<p>I hope I sparked some food for thought and I would like your opinions on the matter.</p>
+
+<p>I cannot come up with solid reasons for not to publish your blog open source.  I know at first I
+wrestled with the idea that:</p>
+
+<blockquote><p>Wait, my database connection strings would be publicly visible.  I can&#8217;t do that.</p></blockquote>
+
+
+<p>Then it hit me that Octopress/Jekyll is completely static &ndash; there are no database connection strings.
+Q</p>
+
+<blockquote><p>My secret keys for my 3rd party integrations may be exposed.</p></blockquote>
+
+
+<p>Actually not.  Twitter, Disqus, LinkedIn and so on all use public kesy/ids to identify you with their
+widgets.  Even Flickr allows for a vast array of public apis.</p>
+
+<p>You would only need private keys on your site if you were programatically pushing or changing content
+elsewhere in a write-permission need.  But again, this was planned as a static site &ndash; no problem here.</p>
+
+<blockquote><p>I have private downloads I don&#8217;t want others to see.</p></blockquote>
+
+
+<p>Ok, this one did get me.  I do have private downloads of password-protected files on my old site.</p>
+
+<p>I have to think back to the longevity of my blog &ndash; do I want the downloads archived forever?  Short
+answer, no.</p>
+
+<p>~E</p>
 ]]></content>
   </entry>
   
