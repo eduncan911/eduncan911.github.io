@@ -168,6 +168,15 @@ task :isolate, :filename do |t, args|
   end
 end
 
+desc "Move all posts to a temporary stash location (stash) so regenerating the site happens much more quickly."
+task :isolate_posts do
+  stash_dir = "#{source_dir}/#{stash_dir}"
+  FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
+  Dir.glob("#{source_dir}/#{posts_dir}/*.*") do |post|
+    FileUtils.mv post, stash_dir
+  end
+end
+
 desc "Move all stashed posts back into the posts directory, ready for site generation."
 task :integrate do
   FileUtils.mv Dir.glob("#{source_dir}/#{stash_dir}/*.*"), "#{source_dir}/#{posts_dir}/"
