@@ -4,10 +4,24 @@
 
 url: http://eduncan911.com
 title: Eric Duncan
-subtitle: My name is Eric and I build technology
+subtitle: It's just bits, baby.
 author: Eric Duncan
+description: Software Architect, Loghome Builder, Father
 simple_search: https://www.google.com/search
-description: A blog about Eric Duncan, Software Design and Technology
+# no line breaks
+about_author: Eric has been in a wide variety of software development roles with 18+ years experience developing and managing technologies for several industries such as prepaid card services, advertising, legal and manufacturing. He is a pioneer of open-sourced social networking and communication solutions.
+
+# ------------------------------ #
+#      google structured layout  #
+# ------------------------------ #
+# see: http://schema.org/Article http://schema.org/Person and http://schema.org/Organization
+givenname: Eric
+familyname: Duncan
+affiliation: eduncan911
+jobtitle: Software Engineer
+# the ?rel=author is automatically tacted onto this
+# for example, enter only: https://plus.google.com/+EricDuncan911 
+google_plus_url: https://plus.google.com/+EricDuncan911 
 
 # specified from the jekyll_alias_generator
 safe: false

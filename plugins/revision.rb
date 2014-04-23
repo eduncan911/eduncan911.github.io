@@ -73,7 +73,7 @@ module Jekyll
       cmd = 'git log --date=local --pretty="%cd|%s" --max-count=' + @limit.to_s + ' ' + full_path
       logs = `#{cmd}`
 
-      html = '<ul>'
+      html = '<ul class="post-metadata">'
       logs.each_line do |line|
         parts = line.split('|')
         date, msg = parts[0], parts[1..-1].join('|') # keep origin pileline from logs
@@ -98,7 +98,7 @@ module Jekyll
         link = File.join('https://github.com', site['github_user'], site['github_repo'],
                          'commits', branch, post['dir_name'], post['file_name'])
       end
-      html << 'View on <a href=' + link + ' target=_blank>Github</a>'
+      html << '<p class="post-metadata">View on <a href=' + link + ' target=_blank>Github</a></p>'
 
       return html
     end #render

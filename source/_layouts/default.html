@@ -1,14 +1,71 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-{% include head.html %}
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <header role="banner">{% include header.html %}</header>
-  <nav role="navigation">{% include navigation.html %}</nav>
-  <div id="main">
-    <div id="content">
-      {{ content | expand_urls: root_url }}
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <title>{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} - {% endif %}{{ site.title }}</title>
+  <meta name="author" content="{{ site.author }}" />
+  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta property="og:site_name" content="{{ site.author }}" />
+  <meta property="og:type" content="article" />
+
+  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}<link rel="canonical" href="{{ canonical }}" />
+  <link rel="alternate" href="{{ site.subscribe_rss }}" title="{{site.title}}" type="application/atom+xml" />
+  <link rel="shortcut icon" href="{{ root_url }}/favicon.png" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" type="text/css" />
+  <link rel="stylesheet" href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" type="text/css" />
+  <style type="text/css">
+    header .blog-title a, header .blog-description { 
+      color: #ffffff; 
+      text-transform: lowercase;
+    } 
+  </style>
+
+  <script src="{{ root_url }}/javascripts/modernizr-2.0.js"></script>
+{% include custom/head.html %}
+</head>
+<body class="home blog">
+
+  <header id="masthead" role="banner" class="site-head site-header">
+    <div class="vertical" itemscope itemtype="http://schema.org/Article">
+      <div class="site-head-content inner" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <h1 class="blog-title" itemprop="name"><a class="blog-logo" href='{{ root_url }}/' rel='home'>{{ site.title }}</a></h1>
+        {% if site.subtitle %}<h2 class="blog-description" itemprop="jobtitle">{{ site.subtitle }}</h2>{% endif %}
+        <meta itemprop="givenname" content="{{ site.givenname }}" />
+        <meta itemprop="familyname" content="{{ site.familyname }}" />
+        <meta itemprop="affiliation" content="{{ site.affiliation }}" />
+        <meta itemprop="jobtitle" content="{{ site.jobtitle }}" />
+      </div>
     </div>
-  </div>
-  <footer role="contentinfo">{% include footer.html %}</footer>
-  {% include after_footer.html %}
+  </header>
+
+  <main id="content" class="content" role="main">
+{{ content | expand_urls: root_url }}
+  </main>
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <a class="subscribe icon-feed" href="{{ site.subscribe_rss }}"><span class="tooltip">Subscribe!</span></a>
+    <div><a href="{{ root_url }}/blog/archives">Archives</a></div>
+    <div><a href="{{ root_url }}/buymeabeer">Buy Me a Beer</a></div>
+    <div><a href="{{ root_url }}/blogtegrity">Blogtegrity</a></div>
+    <div><a href="{{ root_url }}/privacy">Privacy</a></div>
+    <div>&nbsp;</div>
+    <div class="site-info inner"><section class="copyright">© {{ site.time | date: "%Y" }} {{ site.author }} <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></section></div>
+    <div>a <a href="http://www.forgetfoo.me/" title="one of a 100 kickass designs by this guy">forgetfoo</a> design</div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script type='text/javascript' src='/javascripts/foo.casper.js?ver=20140422'></script>
+{% include google_analytics.html %}
+{% include after_footer.html %}
 </body>
 </html>

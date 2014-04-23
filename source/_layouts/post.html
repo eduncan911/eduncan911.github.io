@@ -2,47 +2,45 @@
 layout: default
 single: true
 ---
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">   
+        <span class="post-meta">
+{% include foo.casper/date.html %}
+{% include foo.casper/author.html %}
+{% include foo.casper/categories.html %}
+        </span>
+        {% if index %}<h1 class="post-title entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+        {% else %}<h1 class="post-title entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>{% endif %}
+        <meta itemprop="url" content="{{ root_url }}{{ post.url }}" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+{{ content }}
+      </section>
 
-<div>
-<article class="hentry" role="article">
-  {% include article.html %}
-  <footer>
+      <section class="collapsable history">
+        <h4><a class="collapsable-trigger" href="#">&gt; Revision History</a></h4>
+        {% revision limit:5 %}
+      </section>
 
-    <p class="meta">
-      {% include post/author.html %}
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-      {% include post/categories.html %}
-      {% include post/tags.html %}
-    </p>
+      <section class="collapsable author">
+        <h4><a class="collapsable-trigger" href="#">&gt; About the author</a></h4>
+        <p class="post-metadata">{{ site.about_author }}</p>
+      </section>
 
-    <p>{% include post/revision.html %}</p>
+      <!-- <section class="collapsable author">
+        <h4><a class="collapsable-trigger" href="#">&gt; Related Posts</a></h4>
+        <p class="post-metadata">(coming soon)</p>
+      </section> -->
 
-    {% unless page.sharing == false %}
-      {% include post/sharing.html %}
-    {% endunless %}
-    <p class="meta">
-      {% if page.previous.url %}
-        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
-      {% endif %}
-    </p>
-  </footer>
-</article>
+      <nav class="pagination navigation paging-navigation" role="navigation">
+        <div class="nav-links">
+          {% if page.next.url %}<div class="older-posts"><a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a></div>{% endif %}
+          {% if page.previous.url %}<div class="newer-posts"><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a></div>{% endif %}
+        </div>
+      </nav>
 {% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
+      <section class="post-comment">
+        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+      </section>
 {% endif %}
-</div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.post_asides.size %}
-    {% include_array post_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}
+    </article>

@@ -50,15 +50,7 @@
  */
 $(".collapsable").each(function () {
 	$(".collapsable-trigger", this).click(function() {
-		$(this).parents(".collapsable:first").find(".byline").toggle();
-		/*var toggler = $(this).parents(".collapsable:first").find("p:first");
-		if (typeof toggler !== "undefined") {
-			if (toggler.css("display") == "none")
-				toggler.css("display", "block");
-			else
-				toggler.css("display", "none");
-		}
-		*/
+		$(this).parents(".collapsable:first").find(".post-metadata").toggle();
 		return false;
 	})
 })
