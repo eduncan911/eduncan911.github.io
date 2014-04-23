@@ -153,6 +153,7 @@ ERR
     # Returns string
     #
     def category_links(categories)
+      categories = categories.delete_if{|cat| cat == 'blog'}
       categories = categories.sort!.map { |c| category_link c }
 
       case categories.length
