@@ -152,12 +152,12 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-
+/*
 code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em;
 }
-
+*/
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
@@ -165,7 +165,6 @@ code, kbd, pre, samp {
 pre {
   white-space: pre-wrap;
 }
-
 /**
  * Set consistent quote types.
  */

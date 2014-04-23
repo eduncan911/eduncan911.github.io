@@ -1,29 +1,16 @@
 ---
 layout: default
 ---
-
-<div class="blog-index">
   {% assign index = true %}
   {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
+    {% assign content = post.content %}
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+    {% include foo.casper/article.html %}
     </article>
   {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+    <nav class="pagination navigation paging-navigation" role="navigation">
+      <div class="nav-links">
+        {% if paginator.previous_page %}<div class="older-posts"><a href="{{paginator.previous_page}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a></div>{% endif %}
+        {% if paginator.next_page %}<div class="newer-posts"><a href="{{paginator.next_page}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a></div>{% endif %}
+      </div>
+    </nav>

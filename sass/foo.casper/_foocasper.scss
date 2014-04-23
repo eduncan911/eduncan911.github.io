@@ -1,3 +1,7 @@
+$accent-color: #004225 !default;
+/* $accent-color: #007A45 !default; */
+$link-hover: #00A15A !default;
+
 /*
 Theme Name: Casper.Foo
 Theme URI: https://github.com/lacymorrow/casper-wp
@@ -202,9 +206,9 @@ h6 {
 }
 
 a {
-  color: #D8505D;
+  color: $accent-color;
   &:hover {
-    color: #c64551;
+    color: $link-hover;
   }
 }
 
@@ -568,7 +572,7 @@ b, strong {
 mark {
   background-color: #ffc336;
 }
-
+/*
 code, tt {
   padding: 1px 3px;
   font-family: Inconsolata, monospace, sans-serif;
@@ -631,7 +635,8 @@ kbd {
   border-radius: 4px;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 white inset;
 }
-
+*/
+/*
 table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -681,6 +686,7 @@ table {
     }
   }
 }
+*/
 
 iframe {
   display: block;
@@ -845,13 +851,13 @@ input {
 }
 
 button:hover {
-  background: #D8505D;
+  background: $accent-color;
   /*f8694d*/
 }
 
 input {
   &[type="button"]:hover, &[type="reset"]:hover, &[type="submit"]:hover {
-    background: #D8505D;
+    background: $accent-color;
     /*f8694d*/
   }
 }
@@ -1279,7 +1285,7 @@ embed, iframe, object {
   margin-bottom: 8rem;
   text-align: center;
   color: #fff;
-  background: #D8505D no-repeat center center;
+  background: $accent-color no-repeat center center;
   /* ea9530 ff7257 f6c103 232525 */
   background-size: cover;
   border-bottom: #EBF2F6 1px solid;
@@ -1365,7 +1371,7 @@ body.home .site-head:after {
   position: relative;
   width: 80%;
   max-width: 900px;
-  margin: 15rem auto;
+  margin: 12rem auto;
   word-break: break-word;
   hyphens: auto;
 }
@@ -1427,13 +1433,13 @@ body.home .site-head:after {
   a {
     display: inline-block;
     background: transparent;
-    border: 2px solid #D8505D;
+    border: 2px solid $accent-color;
     border-radius: 3px;
     padding: 8px 24px;
     text-decoration: none;
-    color: #D8505D;
+    color: $accent-color;
     &:hover {
-      background: #D8505D;
+      background: $accent-color;
       color: #fff;
     }
   }
@@ -1708,10 +1714,10 @@ body.single .post {
 
 #disqus_thread {
   background: #fff;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  margin: 0 0 20px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0;
   padding: 40px;
   box-shadow: 0 2px rgba(0, 0, 0, 0.25);
   -webkit-transition: all 0.5s;
@@ -1719,6 +1725,10 @@ body.single .post {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+#disqus_thread iframe {
+  margin: 0;
 }
 
 /* COMMENTS  
@@ -1786,7 +1796,7 @@ body.single .post {
     font-size: .9em;
     color: #666;
     &:focus {
-      border-color: #D8505D;
+      border-color: $accent-color;
       color: #000;
     }
   }
@@ -1842,7 +1852,6 @@ body.single .pagination {
 
 .pagination {
   position: relative;
-  width: 80%;
   max-width: 900px;
   margin: 4rem auto;
   font-family: 'Open Sans', sans-serif;
@@ -1858,8 +1867,8 @@ body.single .pagination {
     font-size: 1.25em;
     color: #9EABB3;
     &:hover {
-      border-color: #D8505D;
-      color: #D8505D;
+      border-color: $accent-color;
+      color: $accent-color;
     }
   }
 }
@@ -1867,14 +1876,13 @@ body.single .pagination {
 /* Push the previous/next links out to the left/right */
 
 .older-posts, .newer-posts {
-  position: absolute;
-  display: inline-block;
   padding: 0;
+  margin: 10px 0;
   text-decoration: none;
 }
 
-.older-posts {
-  right: 0;
+.newer-posts {
+  float: right;
 }
 
 .page-number {
@@ -1882,8 +1890,8 @@ body.single .pagination {
   padding: 2px 0;
 }
 
-.newer-posts {
-  left: 0;
+.older-posts {
+  float: left;
 }
 
 /* ==========================================================================
@@ -1893,7 +1901,7 @@ body.single .pagination {
 .site-footer {
   position: relative;
   bottom: -70px;
-  background: #D8505D;
+  background: $accent-color;
   /*ea9530*/
   margin: 10rem 0 0;
   padding: 8rem 0;
@@ -1937,14 +1945,14 @@ body.single .pagination {
   top: -14px;
   left: 50%;
   margin-left: -15px;
-  border: #D8505D 1px solid;
+  border: $accent-color 1px solid;
   text-align: center;
   line-height: 2.4rem;
   border-radius: 50px;
   background: #fff;
   transition: box-shadow 0.5s;
   &:before {
-    color: #D8505D;
+    color: $accent-color;
     font-size: 10px;
     position: absolute;
     top: 9px;
@@ -2034,7 +2042,7 @@ body.error404 {
     display: none;
   }
   .content {
-    background: #D8505D;
+    background: $accent-color;
     height: 100%;
     color: #fff;
   }
@@ -2088,7 +2096,7 @@ body {
       border: none;
     }
     .page-header {
-      background: #D8505D;
+      background: $accent-color;
       padding: 0 0 4em 0;
       text-align: center;
     }
@@ -2106,7 +2114,7 @@ body {
     }
   }
   &.babes {
-    background: #D8505D;
+    background: $accent-color;
     .site-header {
       background: none;
       border: none;
@@ -2193,12 +2201,31 @@ section.babes {
   border-radius: 0 !important;
 }
 
+.collapsable {
+  margin-top: 20px;
+}
+
 .collapsable .collapsable-trigger {
   text-decoration: none;
 }
 
 .post-metadata {
   display: none;
+}
+
+span.line-number {
+  white-space: nowrap;
+  /* white-space: pre-wrap; */
+}
+
+pre { 
+  white-space: pre; 
+  overflow: auto; 
+  margin: 0;
+}
+
+.highlight table {
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -2258,6 +2285,10 @@ section.babes {
   }
   .post-title {
     font-size: 3.2em;
+  }
+  #disqus_thread {
+    margin: 0;
+    padding: 20px;
   }
 }
 
@@ -2330,7 +2361,6 @@ section.babes {
   }
   .older-posts, .newer-posts {
     position: static;
-    margin: 10px 0;
   }
   .page-number {
     display: block;
@@ -2367,6 +2397,14 @@ section.babes {
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
+  }
+
+  #disqus_thread {
+    margin: 0 -16px;
+    padding: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
   }
 }
 

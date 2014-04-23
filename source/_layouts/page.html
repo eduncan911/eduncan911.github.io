@@ -1,47 +1,32 @@
 ---
 layout: default
 ---
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+{% if page.title %}      <header class="post-header">   
+        <span class="post-meta">
+{% if page.date %}{% include foo.casper/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}{% endif %}
+{% if page.author %}{% include foo.casper/author.html %}{% endif %}
+{% if page.categories %}{% include foo.casper/categories.html %}{% endif %}  
+        </span>
+        {% if index %}<h1 class="post-title entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+        {% else %}<h1 class="post-title entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>{% endif %}
+        <meta itemprop="url" content="{{ root_url }}{{ post.url }}" />
+      </header>{% endif %}
+      <section class="post-content" itemprop="articleBody">
 
-<div>
-<article role="article">
-  {% if page.title %}
-  <header>
-    <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-    {% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}
-  </header>
-  {% endif %}
-  {{ content }}
-  {% unless page.footer == false %}
-    <footer>
-      {% if page.date or page.author %}<p class="meta">
-        {% if page.author %}{% include post/author.html %}{% endif %}
-        {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-        {% if page.categories %}{% include post/categories.html %}{% endif %}
-        {% if page.tags %}{% include post/tags.html %}{% endif %}
-      </p>
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+{{ content }}
+<!-- END MARKDOWN CONTENT -->
 
-      <p>{% include post/revision.html %}</p>
-      {% endif %}
+     {% unless index %}<section class="collapsable history">
+        <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
+        {% revision limit:5 %}
+      </section>{% endunless %}
 
-      {% unless page.sharing == false %}
-        {% include post/sharing.html %}
-      {% endunless %}
-    </footer>
-  {% endunless %}
-</article>
-{% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
-{% endif %}
-</div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.page_asides.size %}
-    {% include_array page_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}
+      </section>
+{% unless page.footer == false %}{% if site.disqus_short_name and page.comments == true %}
+      <section class="post-comment">
+        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+      </section>
+{% endif %}{% endunless %}
+    </article>

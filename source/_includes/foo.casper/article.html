@@ -1,29 +1,40 @@
-{% unless page.no_header %}
-  <header>
-    {% if index %}
-      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-    {% else %}
-      <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-    {% endif %}
-    {% unless page.meta == false %}
-      <p class="meta">
-        {% include post/date.html %}{{ time }}
-        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
-           | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
-             data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
-        {% endif %}
-      </p>
-    {% endunless %}
-  </header>
-{% endunless %}
+      {% unless page.no_header %}<header class="post-header">   
+        <span class="post-meta">
+{% include foo.casper/date.html %}
+{% include foo.casper/author.html %}
+{% include foo.casper/categories.html %}
+        </span>
+        {% if index %}<h1 class="post-title entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+        {% else %}<h1 class="post-title entry-title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>{% endif %}
+        <meta itemprop="url" content="{{ root_url }}{{ post.url }}" />
+      </header>{% endunless %}
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
 {% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+{{ content | excerpt }}
+{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
-    <footer>
-      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
-    </footer>
+        <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
   {% endif %}
 {% else %}
-<div class="entry-content">{{ content }}</div>
+{{ content }}
 {% endif %}
+<!-- END MARKDOWN CONTENT -->
+
+      </section>{% unless index %}
+
+      <section class="collapsable history">
+        <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
+        {% revision limit:5 %}
+      </section>
+
+      <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; About the author</a></h5>
+        <p class="post-metadata">{{ site.about_author }}</p>
+      </section>
+
+      <!-- <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; Related Posts</a></h5>
+        <p class="post-metadata">(coming soon)</p>
+      </section> -->{% endunless %}
