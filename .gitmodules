@@ -13,6 +13,6 @@
 [submodule ".plugin-sources/octopress-tag-pages"]
 	path = .plugin-sources/octopress-tag-pages
 	url = git@github.com:robbyedwards/octopress-tag-pages.git
-[submodule ".plugin-sources\\jekyll_alias_generator"]
-	path = .plugin-sources\\jekyll_alias_generator
+[submodule ".plugin-sources/jekyll_alias_generator"]
+	path = .plugin-sources/jekyll_alias_generator
 	url = git@github.com:tsmango/jekyll_alias_generator.git
