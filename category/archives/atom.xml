@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Archives | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/archives/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-04-23T17:40:39-04:00</updated>
+  <updated>2014-04-23T21:22:47-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -21,8 +21,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-</p>
+<p><blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote></p>
 
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="Mei sleeping on our couch." border="0" alt="Mei sleeping on our couch." align="left" src="http://eduncan911.com/blog/archives/images/How-to-Take-a-Nap_CD86/V__A2E1_thumb.jpg" width="256" height="193" />You may think you know how to take a nap.&#160; Lie down, close eyes, and whenever you wake up that's it.&#160; As it turns out, anything beyond 30 minutes puts you into danger of biting your work colleagues heads off when they interrupt you at 40 or 50 minutes into your nap.</p>
 
@@ -39,8 +38,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-</p>
+<p><blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote></p>
 
 <p><img style="border-right-width: 0px; margin: 0px 0px 20px 20px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="validation" border="0" alt="validation" align="right" src="http://eduncan911.com/blog/archives/images/ApotentiallydangerousRequest.Formvalue.0_12CAD/validation.jpg" width="312" height="244" /> I ran across a breaking change tonight in the .NET 4.0 CLR's version of ASP.NET.&#160; The 4.0 version of the CLR binds to any HTTP request data to validate against.</p>
 
@@ -88,8 +86,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-</p>
+<p><blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote></p>
 
 <p><img style="border-right-width: 0px; margin: 0px 20px 20px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="5805-1[1]" border="0" alt="5805-1[1]" align="left" mce_src="/blog/archives/images/CreateaBootableUSBDrive_F442/580511.jpg" width="244" height="167" src="http://eduncan911.com/blog/archives/images/CreateaBootableUSBDrive_F442/580511.jpg"> I find myself Bing-ing this every few months to make sure I included each and every step.&nbsp; So often, that I can't believe I still Bing it.&nbsp; So below is a manual for anyone (mostly me) to follow in the future.</p>
 
@@ -106,8 +103,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-</p>
+<p><blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote></p>
 
 <p>This new Microsoft feature in .NET Framework 4 is a programming model for reusing components, very similar to those Inversion of Control container frameworks out there that we all know and love (Castle Windsor, Structured Map, their own Unity from the Patterns and Practices team and etc).&nbsp; Now, they have built their own to address the pain points of these frameworks called the Managed Extensibility Framework, or MEF for short.</p>
 
@@ -414,8 +410,7 @@ public class UserAccountService : IUserService, IAccountService
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><blockquote><p>Please note that this post was migrated to a new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-</p>
+<p><blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote></p>
 
 <P>EDIT:&nbsp;MSpec v0.3 now supports <A href="http://weblogs.asp.net/nunitaddin/archive/2009/11/05/testdriven-net-2-24-xcopy-deployable-test-runners.aspx" mce_href="http://weblogs.asp.net/nunitaddin/archive/2009/11/05/testdriven-net-2-24-xcopy-deployable-test-runners.aspx">TestDriven.Net's v2.24 XCopy Deployable Test Runners</A>.&nbsp; So this blog post is legacy information at this time.&nbsp; </P>
 
