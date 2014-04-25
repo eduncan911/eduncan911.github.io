@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Octopress and Posh-Get - Oh my"
+title: "Octopress and Posh-Git - Oh my"
 date: 2014-04-03 16:11:01 -0400
+update: 2014-04-23 13:08:00 -0400
 comments: true
 categories: software
 ---
