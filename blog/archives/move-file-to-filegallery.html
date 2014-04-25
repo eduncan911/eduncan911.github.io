@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <title>HowTo: Move a File to Another FileGallery - Eric Duncan</title>
+  <meta name="author" content="Eric Duncan" />
+  <meta name="description" content="Sep 22nd, 2006 by Eric Duncan in archives HowTo: Move a File to Another FileGallery Please note that this post was migrated to my new blog platform &hellip;" />
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta property="og:site_name" content="Eric Duncan" />
+  <meta property="og:type" content="article" />
+
+  <link rel="canonical" href="http://eduncan911.com/blog/archives/move-file-to-filegallery.html" />
+  <link rel="alternate" href="/atom.xml" title="Eric Duncan" type="application/atom+xml" />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" type="text/css" />
+  <link rel="stylesheet" href="/stylesheets/screen.css" media="screen, projection" type="text/css" />
+  <style type="text/css">
+    header .blog-title a, header .blog-description { 
+      color: #ffffff; 
+      text-transform: lowercase;
+    } 
+  </style>
+
+  <script src="/javascripts/modernizr-2.0.js"></script>
+
+</head>
+<body class="home blog">
+
+  <header id="masthead" role="banner" class="site-head site-header">
+    <div class="vertical" itemscope itemtype="http://schema.org/Article">
+      <div class="site-head-content inner" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <h1 class="blog-title" itemprop="name"><a class="blog-logo" href='/' rel='home'>Eric Duncan</a></h1>
+        <h2 class="blog-description" itemprop="jobtitle">spawning a race of beings</h2>
+        <meta itemprop="givenname" content="Eric" />
+        <meta itemprop="familyname" content="Duncan" />
+        <meta itemprop="affiliation" content="eduncan911" />
+        <meta itemprop="jobtitle" content="Software Architect" />
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="content" role="main">
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+            <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2006-09-22T23:04:00-04:00" content="2006-09-22T23:04:00-04:00" itemprop="datePublished">Sep 22<span>nd</span>, 2006</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/archives/' rel='category tag'>archives</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">HowTo: Move a File to Another FileGallery</a></h1>
+        <meta itemprop="url" content="" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<!-- more -->
+
+
+<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2">I&#39;m going to start posting a lot of my old Duncan Nuggets (as <a href="http://dbvt.com/blog/" target="_blank"><font color="#666666">Dave Burke</font></a> likes to call them) here for others to start reading.&nbsp; This is the first of a lot&nbsp;to come.<br /><br /></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font size="4">How to move a file from one FileGallery to another</font></span><span class="366342421-22092006"><font face="Arial" size="2">&nbsp;<br /></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2">NOTE: This script was written for Community Server 2.1 RTM.&nbsp;<br /><br /></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"><span class="366342421-22092006"><font face="Arial" size="2">This method uses a stored procedure to move a single file (aka Post) to another File Gallery (aka Section).&nbsp;&nbsp;</font></span>Attached&nbsp;is an SQL script file named <strong>move_file_to_filegallery.zip</strong>&nbsp;that when executed, will create a stored procedure named </font></span><span class="366342421-22092006"><font face="Arial" size="2"><strong>_move_file_to_filegallery</strong> in your database.&nbsp; <br /><br /></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2">After the sproc is created, you can execute it by running the following command:<br /><br /></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Courier New" size="2"><font color="#ff0000">EXEC _move_file_to_filegallery @PostID, @toSectionID, @ClearTags<br /><br /></font></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font color="#ff0000" face="Courier New"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2">You need two bits of information beforing executing:</font></span></div>
+
+
+<ul><li><div align="left"><span class="366342421-22092006"><font face="Arial" size="2"><strong>@PostID</strong> - This is the PostID of the file you want to move.&nbsp; </font></span></div><ul><li><div align="left"><span class="366342421-22092006"><font face="Arial" size="2">You can find this&nbsp;in the URL&nbsp;by viewing the file in CS&#39; normal File view.&nbsp; For example, if we look up the SDK for CS 2.1 the link is: <a href="http://communityserver.org/files/folders/communityserver/entry543125.aspx"><font color="#000000">http://communityserver.org/files/folders/communityserver/entry<strong>543125</strong>.aspx</font></a>.&nbsp; So the PostID of this file is <strong><font size="3">543125</font></strong>.</font></span></div></li></ul></li><li><div align="left"><span class="366342421-22092006"><font face="Arial" size="2"><strong>@toSectionID</strong> - This is the SectionID of the File Gallery you want to move the file to.</font></span></div><ul><li><div align="left"><span class="366342421-22092006"><font face="Arial" size="2">You can find this in the URL by going into the Control Panel, Files, and selecting that File Gallery to manage.&nbsp; For example, the URL for managing the CommunityServer Current Releases folder is: <a href="http://communityserver.org/controlpanel/files/default.aspx?sectionid=234"><font color="#000000">http://communityserver.org/controlpanel/files/default.aspx?sectionid=<strong>234</strong></font></a>.&nbsp; So this SectionID that I want to move the file to is <strong><font size="3">234</font></strong>.</font></span></div></li></ul></li></ul>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2">Following the examples above now that we have the two required integers, we can now execute the sproc to move the file.&nbsp; The line would read:<br /><br /></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font size="2"><span class="366342421-22092006"><font face="Courier New" size="2"><font color="#ff0000">EXEC _move_file_to_filegallery @PostID = 234, @toSectionID = 543125, @ClearTags = 1<br /><br /></font></font></span></font></span><span class="366342421-22092006"><font face="Arial" size="2"><span class="366342421-22092006">NOTE: It is recommended to always clear the Tags, since they only exist in the previous FileGallery and not the new one.&nbsp; So leave it @ClearTags&nbsp;= 1.</span></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"><span class="366342421-22092006"></span></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"><span class="366342421-22092006"></span></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2"></font></span></div>
+
+
+<div align="left"><span class="366342421-22092006"><font face="Arial" size="2">There is also error checking built in, so view the Messages for any errors that may have occurred.<br /><br /></font></span></div>
+
+
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+
+      <section class="collapsable history">
+        <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
+        <ul class="post-metadata"><li><strong>Wed Apr 9 20:49:43 2014</strong><br/>imported into new blog platform
+</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2006-09-22-move-file-to-filegallery.markdown target=_blank>Github</a></p>
+      </section>
+
+      <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; About the author</a></h5>
+        <p class="post-metadata">Eric has been in a wide variety of software development roles with 18+ years experience developing and managing technologies for several industries such as prepaid card services, advertising, legal and manufacturing. He is a pioneer of open-sourced social networking and communication solutions.</p>
+      </section>
+
+      <!-- <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; Related Posts</a></h5>
+        <p class="post-metadata">(coming soon)</p>
+      </section> -->
+      <nav class="pagination navigation paging-navigation" role="navigation">
+        <div class="nav-links">
+          <div class="older-posts"><a href="/blog/archives/usb-rechargable-aa-batteries.html" title="Previous Post: USB Rechargable AA batteries!">&laquo; USB Rechargable AA batteries!</a></div>
+          <div class="newer-posts"><a href="/blog/archives/speechless.html" title="Next Post: Speechless">Speechless &raquo;</a></div>
+        </div>
+      </nav>
+      <div class="clear"></div>
+
+      <section class="post-comment">
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <a class="subscribe icon-feed" href="/atom.xml"><span class="tooltip">Subscribe!</span></a>
+    <div><a href="/blog/archives">Archives</a></div>
+    <div><a href="/buymeabeer">Buy Me a Beer</a></div>
+    <div><a href="/blogtegrity">Blogtegrity</a></div>
+    <div><a href="/privacy">Privacy</a></div>
+    <div>&nbsp;</div>
+    <div class="site-info inner"><section class="copyright">© 2014 Eric Duncan <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></section></div>
+    <div>a <a href="http://www.forgetfoo.me/" title="one of a 100 kickass designs by this guy">forgetfoo</a> design</div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script type='text/javascript' src='/javascripts/foo.casper.js?ver=20140422'></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3705711-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'eduncan911com';
+    
+      
+      // var disqus_developer = 1;
+      var disqus_identifier = 'http://eduncan911.com/blog/archives/move-file-to-filegallery.html';
+      var disqus_url = 'http://eduncan911.com/blog/archives/move-file-to-filegallery.html';
+      var disqus_script = 'embed.js';
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+  </script>
+
+
+
+
+</body>
+</html>
