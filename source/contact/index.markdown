@@ -5,10 +5,7 @@ comments: false
 sharing: false
 footer: true
 ---
-<div id="comments" class="comments-area2">
-<div id="respond" class="comment-respond">
-
-<iframe name="iframe_txlbrchf" id="iframe_txlbrchf" style="display:none;"
+<div id="comments" class="comments-area2"><div id="respond" class="comment-respond"><iframe name="iframe_txlbrchf" id="iframe_txlbrchf" style="display:none;"
 onload="if(typeof sent_txlbrchf!='undefined')
 {window.location='/contact/thankyou.html';}"></iframe>
 <form action="https://docs.google.com/forms/d/1_18gAN9rfe89YmNWReo5G8urjd5Op4Ah0lfzAkJ_6CM/formResponse" method="post" 
@@ -23,7 +20,7 @@ onload="if(typeof sent_txlbrchf!='undefined')
   <p class="comment-form-url">
   <label for="url">Reason</label>
   <select name="entry.449384929" id="entry_449384929" aria-label="What can I help you with?  " aria-required="true" required="">
-  <option value=""></option>
+  <option value=""></option>rake 
   <option value="Technical Consulting">I would like some technical consulting.</option>
   <option value="New Opportunity">I would like to talk about a new opportunity.</option> 
   <option value="Post">Got a question or comment on a post.</option> 
