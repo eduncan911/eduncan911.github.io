@@ -20,14 +20,14 @@ onload="if(typeof sent_txlbrchf!='undefined')
   <p class="comment-form-url">
   <label for="url">Reason</label>
   <select name="entry.449384929" id="entry_449384929" aria-label="What can I help you with?  " aria-required="true" required="">
-  <option value=""></option>rake 
-  <option value="Technical Consulting">I would like some technical consulting.</option>
-  <option value="New Opportunity">I would like to talk about a new opportunity.</option> 
-  <option value="Post">Got a question or comment on a post.</option> 
-  <option value="730x">The 730x beasts, mang!</option> <option value="Shoutouts">Shoutouts</option> 
-  <option value="Friend or Family">I&#39;m a friend or family member.</option> 
-  <option value="Error">You got an error on your website.</option> 
-  <option value="Other">Other reason that doesn&#39;t match above.</option>
+  <option value=""></option> 
+  <option value="Technical Consulting">Consulting</option>
+  <option value="New Opportunity">New Opportunity</option> 
+  <option value="Post">Question on a Post</option> 
+  <option value="Error">Error on Site</option> 
+  <option value="730x">The 730x Beast</option> 
+  <option value="Shoutouts">Shoutouts</option> 
+  <option value="Other">Other</option>
   </select>
   <p class="comment-form-comment">
   <label for="comment">Comment</label> 
@@ -38,5 +38,4 @@ onload="if(typeof sent_txlbrchf!='undefined')
   <input type="hidden" name="pageHistory" value="0">
   <input type="hidden" name="fbzx" value="-8069905531973905153">
 </form>
-
 </div></div>
