@@ -6,12 +6,15 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["Geek Stuff", "Personal", "Funny", "Games"]
-alias: ["/blog/if-you-watch-ads-you-should-get-free-stuff.aspx"]
+alias: ["/blog/if-you-watch-ads-you-should-get-free-stuff.aspx","/archive/2007/01/27/if-you-watch-ads-you-should-get-free-stuff.aspx"]
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+{% include imported_disclaimer.html %}
+
 <P><IMG style="WIDTH: 300px; HEIGHT: 200px" align=left src="/blog/archives/images/storage/1000.4.3954.doom3-mcdonalds.jpg" width=300 height=200 mce_src="/p/storage/1000.4.3954.doom3-mcdonalds.jpg"></P>
 <P>Warning, this is a rant.&nbsp; A rant against the gaming industry.&nbsp; I'm going to bash it hard.&nbsp; EA, turn away as you don't want to read this.</P>
+
+<!-- more -->
+
 <P>What's got me off my rocker tonight?&nbsp; Advertising within games.</P>
 <P><A href="http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&amp;friendid=80352726" target=_blank mce_href="http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&amp;friendid=80352726">Morgan Webb</A> was just on <A href="http://www.g4tv.com/xplay/index.html" target=_blank mce_href="http://www.g4tv.com/xplay/index.html">G4tv's X-Play</A>&nbsp;bashing the gaming industry for pushing these Intel and Cingular ads on billboards, but the game makers still charge the full price for the game.&nbsp; She mentioned a few key points.</P>
 <BLOCKQUOTE>

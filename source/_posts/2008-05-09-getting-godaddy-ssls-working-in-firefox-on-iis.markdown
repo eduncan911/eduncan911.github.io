@@ -6,10 +6,12 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["Geek Stuff", "Computer Programming"]
-alias: ["/blog/getting-godaddy-ssls-working-in-firefox-on-iis.aspx"]
+alias: ["/blog/getting-godaddy-ssls-working-in-firefox-on-iis.aspx", "/archive/2008/05/09/getting-godaddy-ssls-working-in-firefox-on-iis.aspx"]
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+<!-- more -->
+
+{% include imported_disclaimer.html %}
+
 <P>Upon installing your SSL certificate purchased through GoDaddy, and your Firefox users get prompted with a certificate warning of "Unauthorized Authority", read on for a fix using Windows 2003 Server (and R2).&nbsp; This also works for any other authority that is not authorized by default in any browser.&nbsp; In this article, I provide links to GoDaddy's Intermediate Certificates.&nbsp; If you obtained your SSL certificate through another party, ask them for their "Intermediate Certificates" to download for IIS.</P>
 <H3>Overview</H3>
 <P><A href="http://en.wikipedia.org/wiki/Secure_Sockets_Layer" target=_blank mce_href="http://en.wikipedia.org/wiki/Secure_Sockets_Layer">SSL certificates</A> are commonly known to secure a channel of communications, such as the web and email.&nbsp; The problem when installing GoDaddy SSL certificates on a server is Firefox may prompt you stating that the certificate is from an "Unauthorized Authority".&nbsp; </P>

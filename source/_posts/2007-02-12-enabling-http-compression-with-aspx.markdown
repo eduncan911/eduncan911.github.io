@@ -6,10 +6,12 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["Geek Stuff"]
-alias: ["/blog/enabling-http-compression-with-aspx.aspx"]
+alias: ["/blog/enabling-http-compression-with-aspx.aspx","/archive/2007/02/12/enabling-http-compression-with-aspx.aspx"]
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+<!-- more -->
+
+{% include imported_disclaimer.html %}
+
 <P>Here's a quick-n-easy post about enabling HTTP Compression on your server, as I've done over the weekend.&nbsp; But instead of reading endless blog posts about it, and MSDN articles about enabling each and every step, I've compiled it all into a single CMD script you can copy and run on your server.&nbsp; Easy.</P>
 <P>First a tiny bit of background...&nbsp; Yeah, I am so late to this game.&nbsp; For a while I heard the buzz word, but only thought it was similar to Analog Modem compression (back when I worked for Hayes) to where both modems must support a common compression algorythm, which was mostly never the case.&nbsp; Hence the "Call these sets of numbers if you have a USR, call this number if you have a Hayes modem, etc" you may remember back in the modem days.</P>
 <P>After reading up on HTTP Compression <A class="" title=MSDN2 href="http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/502ef631-3695-4616-b268-cbe7cf1351ce.mspx?mfr=true" target=_blank mce_href="http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/502ef631-3695-4616-b268-cbe7cf1351ce.mspx?mfr=true">here</A> this weekend, boy have I missed the boat.&nbsp; I've enabled it on my server over the weekend, over most dynamic file types, and it's really picking up speed now (page loads seem faster).&nbsp; I also found a nifty <A class="" href="http://www.seoconsultants.com/tools/compression.asp" target=_blank mce_href="http://www.seoconsultants.com/tools/compression.asp">HTTP Compression Test </A>website, that ensured me I finally got it enabled (it was a PITA for additional extensions).</P>

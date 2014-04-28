@@ -6,13 +6,14 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["Geek Stuff", "Games"]
-alias: ["/blog/why-the-inspiron-is-a-king.aspx"]
+alias: ["/blog/why-the-inspiron-is-a-king.aspx","/archive/2007/12/11/why-the-inspiron-is-a-king.aspx"]
 ---
-<!-- more -->
 
 {% include imported_disclaimer.html %}
 
 I step away from the system, hands nearly numb, being reminded again since 4 years why PCs will always out perform the latest consoles such as the Xbox 360 and Playstation 3. As I finish a two hour session of Battlefield 2 with my old buddies from [TCU](http://www.tcunit.com/), I can't help but to be amazed at the new found graphics tonight I have not seen before because my previous systems could not handle HDTV and full graphics.
+
+<!-- more -->
 
 [{% img /blog/archives/images/WhytheInspironisaKing_13F13/BF22007120815524590.png 'Battlefield2, 1920x1200x32, Ultra-High Hack, ~89 FPS' 'Battlefield2, 1920x1200x32, Ultra-High Hack, ~89 FPS' %}](/blog/archives/images/WhytheInspironisaKing_13F13/BF22007120815524590.png)
 

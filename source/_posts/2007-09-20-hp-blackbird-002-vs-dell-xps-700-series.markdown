@@ -6,10 +6,12 @@ comments: true
 published: true
 categories: ["blog", "archives"]
 tags: ["Geek Stuff", "Games"]
-alias: ["/blog/hp-blackbird-002-vs-dell-xps-700-series.aspx"]
+alias: ["/blog/hp-blackbird-002-vs-dell-xps-700-series.aspx", "/archive/2007/09/20/hp-blackbird-002-vs-dell-xps-700-series.aspx"]
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+<!-- more -->
+
+{% include imported_disclaimer.html %}
+
 <P><A href="/blog/archives/images/HPBlackbirdvsDellXPS7xx_E45C/HPBlackbirdvsDellXPS700.jpg" mce_href="/blog/archives/images/HPBlackbirdvsDellXPS7xx_E45C/HPBlackbirdvsDellXPS700.jpg"><IMG style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" id=id border=0 alt=HP-Blackbird-vs-Dell-XPS-700 align=right src="/blog/archives/images/HPBlackbirdvsDellXPS7xx_E45C/HPBlackbirdvsDellXPS700_thumb.jpg" width=244 height=145 mce_src="/blog/archives/images/HPBlackbirdvsDellXPS7xx_E45C/HPBlackbirdvsDellXPS700_thumb.jpg"></A> </P>
 <P>After <A href="http://webbalert.com/" target=_blank mce_href="http://webbalert.com/">Morgan Webb</A> pitched me over to the <A href="http://blackbird.wikia.com/" target=_blank mce_href="http://blackbird.wikia.com">Blackbird's Wikia's</A> site about a month ago, I've been keeping an eye out for the specs.&nbsp; Now that I see HP has launched a site about the <A href="http://h20435.www2.hp.com/" target=_blank mce_href="http://h20435.www2.hp.com/">HP Blackbird 002</A> (love the bassy intro), I am able to compare the HP monster to what I consider it's #1 rival, the <A href="http://www.dell.com/" target=_blank mce_href="http://www.dell.com/">Dell XPS 700 series gaming desktops</A>.&nbsp; Morgan and I have very similar views on many fronts, such as the <A href="/archive/2007/01/27/if-you-watch-ads-you-should-get-free-stuff.aspx" target=_blank mce_href="/archive/2007/01/27/if-you-watch-ads-you-should-get-free-stuff.aspx">advertising in PC games</A>, so we dive into latest from HP.</P>
 <P>First off, I can not do a direct hardware-to-hardware comparison.&nbsp; Sorry.&nbsp; I don't work for Tom's Hardware nor have I received a version of these PCs to review (if Dell/HP is reading this, hollar!).&nbsp; And I simply can't afford to buy both for a personal review.&nbsp; But I do consider myself an ubber elite PC enthusiast since the mid 80s (hey, I was 11 then) hacking the teacher's Apple for better grades.&nbsp; I will try to apply my knowledge to the posted information about each system to more accurately help you make your decision with minimal jargon-talk.</P>
