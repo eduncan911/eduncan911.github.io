@@ -11,6 +11,8 @@ Lenovo Helix ultrabook/tablet.  In doing so, I needed a stylus for the active
 digitizer as the one that came with the Helix just isn't going to work for
 diagramming and sketching.
 
+<!-- more -->
+
 ## Research: Styluses for the Lenovo Helix
 
 I had a problem: I was obsessed for days reading every blog, review and comment
@@ -24,8 +26,6 @@ Sadly, I couldn't find a straight answer.
 This is the pen I decided on.  It arrived today and I immediately ripped it open
 only to find out it didn't work.  And yes, I removed the OEM stylus cause there is
 a switch that disables the digitizer when the pen is inserted to save battery.
-
-<!-- more -->
 
 ## So which one?
 
