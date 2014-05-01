@@ -7,7 +7,7 @@ categories: software
 tags: ["blog", "Open Source"]
 ---
 There is a new movement taking place in web development over the last few years.
-It is called `static sites`. Just as it sounds, it is simply a collection of `.html`, '.css', '.js' and images that serves up a complete site. What you may not know is that there are literately 100s of frameworks out there that generate these static sites for you from a single common theme/template.
+It is called `static sites`. Just as it sounds, it is simply a collection of `.html`, `.css`, `.js` and images that serves up a complete site. What you may not know is that there are literately 100s of frameworks out there that generate these static sites for you from a single common theme/template.
 
 ## Static Site Generators
 I stumbled upon a collection of these frameworks here:
