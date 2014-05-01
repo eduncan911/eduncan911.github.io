@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-04-28T18:30:00-04:00</updated>
+  <updated>2014-05-01T14:29:48-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,164 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Static Blog Boom]]></title>
+    <link href="http://eduncan911.com/software/the-static-blog-boom.html"/>
+    <updated>2014-05-01T13:58:40-04:00</updated>
+    <id>http://eduncan911.com/software/the-static-blog-boom</id>
+    <content type="html"><![CDATA[<p>There is a new movement taking place in web development over the last few years.
+It is called <code>static sites</code>. Just as it sounds, it is simply a collection of <code>.html</code>, &lsquo;.css&rsquo;, &lsquo;.js&rsquo; and images that serves up a complete site. What you may not know is that there are literately 100s of frameworks out there that generate these static sites for you from a single common theme/template.</p>
+
+<h2>Static Site Generators</h2>
+
+<p>I stumbled upon a collection of these frameworks here:</p>
+
+<p><a href="http://staticsitegenerators.net/">http://staticsitegenerators.net/</a></p>
+
+<p>This is pure opinion, but it would seem that most of these frameworks came
+out of the Linux/OSX world from developers that needed to generate a static site for this or that.  Those that did it often, needed a way to regenerate a whole static site by just changing, say, the header area.</p>
+
+<p>I know that after my recent conversion to <a href="http://octopress.org">Octopress</a> (aka Jekyll) I have been brainstorming about my own static site generator.  As you can see in the link above, I am not the only one that had a similar thought.</p>
+
+<h2>Advantages to Static Sites</h2>
+
+<p>If you sit back and think about it, there are a number of advantages for running a static site.</p>
+
+<h3>Hosting costs</h3>
+
+<p>Can you really get any cheaper than free?  GitHub pages can host your static site for free.  If you really want to pay for something, then upload your static site files to Amazon S3 file storage and serve your site from there &ndash; for about $0.25/mo for 1000 uniques.</p>
+
+<h3>Security</h3>
+
+<p>You never have to worry about someone hacking your site.  No SQL injection, XSS, CSRF attacks.</p>
+
+<p>Even if someone was to gain access to your hosting account, there is no database or code to hide backdoors in.</p>
+
+<h3>Defacing</h3>
+
+<p>If someone gains access to where you are storing the files and defaces the site, just redeploy &ndash; which overwrites everything.</p>
+
+<h3>Simplicity (aka Serenity)</h3>
+
+<p>It is just a bunch of html, images, css and js files.  You really can&rsquo;t get any simpler than that.</p>
+
+<h2>How a static site becomes dynamic</h2>
+
+<p>The real power behind these static sites is the interactions that the end user have on your site using 3rd party remote widgets.  It makes your site seem fairly dynamic by giving recent information. Just to give you an idea, here are a few widgets built into most of these frameworks:</p>
+
+<ul>
+<li>Flickr photo albums, single photos</li>
+<li>Disqus commenting system</li>
+<li>Google Forms/Surveys (aka Contact Us, product support, etc)</li>
+<li>Stackexchange Profile</li>
+<li>GitHub Profile</li>
+<li>GitHub Repo browser</li>
+<li>Twitter feed, single quotes</li>
+<li>Sitemap generators</li>
+</ul>
+
+
+<p>&hellip;and a lot more.  By using these widgets, and carefully skinned to look like your site, it creates a dynamic site of sorts that continually updates even it really is a static site.</p>
+
+<p>I use Google Forms here on my site as an example for my <a href="http://eduncan911.com/contact">Contact page</a>.  It looks and feels like I actually did something on the backend to send me an email &ndash; I didn&rsquo;t.</p>
+
+<h2>Customizing the generated output</h2>
+
+<p>Almost all of these frameworks support plugins and extensions allowing for customizing the generated site to your preferences.  Basically these plugins work like this.</p>
+
+<ul>
+<li>Parse article/post content, usually on some plain-text form like Markdown</li>
+<li>Process categories and tags</li>
+<li>Redirects by creating <code>/old-url/index.html</code> kind of pages</li>
+<li>Code highlighting</li>
+<li>Pagination</li>
+</ul>
+
+
+<p>And so on.  Perhaps an indicator of the quality of the framework is the article/post/page parser with its extensions built into it, and how extensible it is.  Take Octopress for example, it has butt load:</p>
+
+<ul>
+<li>blockquote</li>
+<li>code</li>
+<li>date</li>
+<li>GitHub gist</li>
+<li>img</li>
+<li>pullquote</li>
+<li>video</li>
+</ul>
+
+
+<p>Creating your own tag is fairly straight forward using a well documented Liquid Template parser for ruby.</p>
+
+<h2>Speeding up writing is key (for me at least)</h2>
+
+<p>I am now free to write my thoughts in any place I can write notepad.  I insert things like <code>{% blockquote %}</code> and write a small blurb and I&rsquo;m done.  I&rsquo;ve been wanting to switch to Markdown since I started using it with Unfuddle many many years ago, and now I can.</p>
+
+<p>If this post made you think about making more sites static, drop me a line in the comments below.</p>
+
+<p>~E</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ting's Drop Your Data Challenge]]></title>
+    <link href="http://eduncan911.com/misc/tings-drop-your-data-challenge.html"/>
+    <updated>2014-05-01T13:29:13-04:00</updated>
+    <id>http://eduncan911.com/misc/tings-drop-your-data-challenge</id>
+    <content type="html"><![CDATA[<p><a href="https://ting.com/blog/drop-your-data-challenge-get-ready/">Ting tries to bring your mobile data into focus</a></p>
+
+<blockquote><p><img src="https://ting.com/wp-content/uploads/image_dropdata.png" title="&#34;Ting Drop Your Data&#34;" alt="&#34;Ting Drop Your Data&#34;"></p><p>On May 5 we’re launching a “Drop your Data” contest and challenging you to use as little mobile data as you possibly can. While we want you to think about reducing your data usage, we don’t mean using your smartphone less – there are many ways to conserve data without sacrificing your mobile phone experience. Take simple steps like connecting to Wi-Fi at home and at work, downloading your favorite audio and video podcasts automatically on Wi-Fi and so on.</p><p>The contest will be set up in two, week-long intervals and will utilize Onavo Count (Android/iPhone), a nifty data reporting app. The first week, you’ll use your smartphone as you normally would, and then for the second week, work on cutting down your mobile data usage! Open to customers and non-customers alike, all participants will be entered in a random draw to win $1,000 cash or one of three $150 Ting credits!</p><p>Don’t want to use Onavo Count? That’s fine. You can use the native data counting options on your phone or another counting method. Just ensure that the screenshots you submit clearly show the time period and your mobile data use (not Wi-Fi or Wi-Fi plus mobile data) for the time period.</p><p>If you’re not currently a Ting customer, you’ll also receive service credit for your percentage of data savings from the first week to the second. In other words, if you cut your mobile data use by 74%, you’ll receive a $74 Ting credit.</p><p><img src="https://ting.com/wp-content/uploads/datasaving.png" title="&#34;save mobile data&#34;" alt="&#34;save mobile data&#34;"></p><p>Stay tuned for complete details inside this blog post on Monday, May 5.</p></blockquote>
+
+
+<p>Even though I&rsquo;ve carefully been monitoring my data usage for years because I value battery life
+over &ldquo;always connected&rdquo; distractions, I&rsquo;ll be entering this contest to see if I can drop it even
+further.  Challenge accepted.</p>
+
+<p>I&rsquo;ve been a Ting user for nearly 1 year now, have saved over $1000 (which already paid for our new phones,
+canceling our contracts, and then some) and cannot live without the real-time stats and alerts they
+have.</p>
+
+<p>I like how they invite people that are not Ting users to enter the contest as well.</p>
+
+<p>~E</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Is Microsoft Still Building Their Own CPU?]]></title>
+    <link href="http://eduncan911.com/technology/is-microsoft-still-building-their-own-cpu.html"/>
+    <updated>2014-04-30T13:40:08-04:00</updated>
+    <id>http://eduncan911.com/technology/is-microsoft-still-building-their-own-cpu</id>
+    <content type="html"><![CDATA[<p>I was going through some old posts during my import and found where I mentioned that
+<a href="http://eduncan911.com/blog/archives/microsoft-to-build-its-own-cpus.html">Microsoft was to build their own CPUs</a>
+for the next-gen Xbox after the 360 &ndash; nearly 8 years ago (yes, the
+<a href="http://en.wikipedia.org/wiki/Xbox_360">Xbox 360 is almost 9 years old</a>).</p>
+
+<blockquote><p>The Xbox One&#8217;s CPU component brings Microsoft’s architecture of choice back to x86, just like the first-generation Xbox. This time, the company kicked IBM to the curb and opted not to jump into another Intel/Nvidia love triangle. Instead, it put a ring on AMD&#8217;s finger, tapping the same source for general-purpose and graphics computing IP. At the same time, Sony was courting AMD&#8217;s semi-custom division as well. Both competitors ended up sharing a bed, but due to NDAs was never caught laying down.</p><footer><strong>Tomshardware</strong> <cite><a href='http://www.tomshardware.com/reviews/microsoft-xbox-one-console-review,3681-3.html'>Xbox One Review: Unifying Your Living Room Experience</a></cite></footer></blockquote>
+
+
+<p>Microsoft had Intel for Xbox 1st gen.  Then IBM for the 2nd gen.  For the 3rd gen Xbox One and PS4, we
+all know <a href="http://www.anandtech.com/show/6976/amds-jaguar-architecture-the-cpu-powering-xbox-one-playstation-4-kabini-temash">they went with AMD now</a>.</p>
+
+<p>So this got me thinking&hellip; <a href="http://research.microsoft.com/en-us/people/cthacker/">Chuck Thacker is still at Microsoft</a>.  It does take a while to design and produce your CPU.  I wonder if Microsoft will drop that bomb in the next decade.</p>
+
+<p>It&rsquo;s sad because after the Zune fiasco, with Zune software no longer compatible with
+the Zune players, I&rsquo;m left with $600 in media players that are worthless and useless
+cause I can&rsquo;t sync any music to them.  So I don&rsquo;t think I&rsquo;ll ever go back to
+Microsoft products after that.  It was one too many low blows over the last decade.</p>
+
+<p>In related news, a buddy of mine sums up how the Xbox One vs PS4 has played out over the last 6 months:</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>Every time I go to look at new Xbox One releases I regret not buying a PS4 instead.</p>&mdash; Jason Alexander (@jasona) <a href="https://twitter.com/jasona/statuses/460530041789480960">April 27, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>~E</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Please Put Your Blog Under Source Control]]></title>
@@ -197,6 +355,9 @@ Lenovo Helix ultrabook/tablet.  In doing so, I needed a stylus for the active
 digitizer as the one that came with the Helix just isn&rsquo;t going to work for
 diagramming and sketching.</p>
 
+<!-- more -->
+
+
 <h2>Research: Styluses for the Lenovo Helix</h2>
 
 <p>I had a problem: I was obsessed for days reading every blog, review and comment
@@ -210,9 +371,6 @@ with the Wacom Active Digitizer that is built into the Helix.</p>
 <p>This is the pen I decided on.  It arrived today and I immediately ripped it open
 only to find out it didn&rsquo;t work.  And yes, I removed the OEM stylus cause there is
 a switch that disables the digitizer when the pen is inserted to save battery.</p>
-
-<!-- more -->
-
 
 <h2>So which one?</h2>
 
@@ -2248,240 +2406,6 @@ Html.ActionLink&lt;TController&gt;(<br />    Expression&lt;Action&lt;TController
 
 
 <P>The ODB-II connection is nice.&nbsp; But still, $2k?</P>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[8 Steps to SEO Quickly]]></title>
-    <link href="http://eduncan911.com/blog/archives/8-steps-to-seo-quickly.html"/>
-    <updated>2009-09-20T05:11:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/8-steps-to-seo-quickly</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<P><A href="http://eduncan911.com/blog/archives/images/7StepstoSEOQuickly_14B2E/willseoforfood.jpg" mce_href="/blog/archives/images/7StepstoSEOQuickly_14B2E/willseoforfood.jpg"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0px 20px 10px 0px; DISPLAY: inline; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title=will-seo-for-food border=0 alt=will-seo-for-food align=left src="http://eduncan911.com/blog/archives/images/7StepstoSEOQuickly_14B2E/willseoforfood_thumb.jpg" width=204 height=172 mce_src="/blog/archives/images/7StepstoSEOQuickly_14B2E/willseoforfood_thumb.jpg"></A> SEO stands for Search Engine Optimizations.&nbsp; It is a term used to reference a website’s HTML source code and related metadata and url for search engine rankings.&nbsp; I recently was involved with interviewing and working with a number of SEO firms here in New York City and picked up a number of quick tips that anyone fimilar with html and css can knock out.&nbsp; </P>
-
-
-<P>I prefix this post that my own weblog can’t follow these rules 100% because of limitations with CommunityServer and how it bakes-in a number of HTML rendering elements that I have no control over – without editing the source code and deploying new assemblies – more than I care to do at this time.&nbsp; But, I have gotten it <EM>almost</EM> there.&nbsp; This is why I love ASP.NET MVC -&nbsp;full control over all markup even if it requires more UI work.</P>
-
-
-<H2>H1 SEO</H2>
-
-
-<P>These have the most impact on your blog’s ranking (at this time).&nbsp; The words you chose to insert into these, their repetition throughout the site (and what H* they fall into), and their correlation to your metadata on the page, and their position on your site all weigh heavily for ranking your site.</P>
-
-
-<P>Several of these tips below center around the H1 and other H* tags and how to optimize them.</P>
-
-
-<H2>1. The first rule about SEO Club is you talk about SEO Club, with H1 being first.</H2>
-
-
-<P>Here’s a quick test.&nbsp; Open an article or weblog post on your site and go to File –&gt; Print Preview (or just print it).&nbsp; What is the first “text” you see at the very top?&nbsp; Is it the title of your post?&nbsp; If not, you fall down the list of rankings.&nbsp; Now, do the same here on my blog.&nbsp; Go to File –&gt; Print Preview and see what it looks like.&nbsp; You will notice it is the title of this page (8 steps to SEO Quickly), and then content after that.&nbsp; Nice and neat.&nbsp; Now, did you notice the header and navbar links are the very bottom?</P>
-
-
-<P>This “print view” is pretty much what the search engine sees when it is trying to determine what text to index.&nbsp; If you have a large and complicated header, well your content – and H1 – get pushed way down the page.</P>
-
-
-<P>To accomplish this takes a bit of CSS magic.&nbsp; First, wrap your header html in a div.&nbsp; </P>
-
-
-<PRE><CODE>&lt;div id=”header”&gt;…&lt;/div&gt;</PRE>
-
-
-<p></CODE></p>
-
-<P>The next step is to wrap your content in another dedicated div.</P>
-
-
-<PRE><CODE>&lt;div id=”content”&gt;…&lt;/div&gt;</PRE>
-
-
-<p></CODE></p>
-
-<P>Now, move the entire header div down below your content div.&nbsp; The final step is to use CSS to render a large “space” for your content div, allowing room for the header to be “positioned” to the top of the page.&nbsp; It should look something like this (using inline style definitions for easier reading).</P>
-
-
-<PRE><CODE>&lt;html&gt;<BR>&lt;header&gt;<BR>  &lt;title&gt;My SEO post&lt;/title&gt;<BR>  &lt;style type=”text/css”&gt;<BR>    #content <BR>    { <BR>      margin-top: 100px;<BR>    }<BR>    #header <BR>    {<BR>      position: absolute;<BR>      top: 0; <BR>      left: 0;<BR>    }<BR>  &lt;/style&gt;<BR>&lt;/header&gt;<BR>&lt;body&gt;<BR>  &lt;div id=”content”&gt;<BR>    &lt;h1&gt;My SEO post&lt;/h1&gt;<BR>    &lt;p&gt;Search engines should love me now!&lt;/p&gt;<BR>  &lt;/div&gt;<BR>  &lt;div id=”header”&gt;<BR>    &lt;a href=”/”&gt;Home&lt;/a&gt; &lt;a href=”/about”&gt;About&lt;/a&gt;<BR></CODE><CODE>  &lt;/div&gt;<BR>&lt;/body&gt;<BR>&lt;/html&gt;</CODE></PRE>
-
-
-<P>Notice how the content html comes before the header html?&nbsp; And did you notice that the CSS styles will “push down” the content 100px, while absolute positioning the header above the content?&nbsp; This is the magic that is needed to “make the H1 the first text the search engine sees.”</P>
-
-
-<H2>2. The second rule about SEO Club is you talk about SEO Club, with H1 being first.</H2>
-
-
-<P>There is more to just moving the H1 up higher in your page.&nbsp; It must be the first text the engine sees!&nbsp; Some clients had difficulty with this because their H1 is buried down deep in a number of divs and sub-titles, tooltips, javascript inline, etc.&nbsp; </P>
-
-
-<P>The general rule is, refactor your code so that the &lt;h1&gt; is immediately after the &lt;body&gt;.&nbsp; I know, this is near impossible.&nbsp; Especially with ASP.NET Forms’ inline javascript and script references just after the &lt;form&gt; tag.&nbsp; Also, you may want some “Recent Posts” or something above the &lt;h1&gt; location.</P>
-
-
-<P>It basically boils down to, refactor your code to push the H1 as the first text.&nbsp; If you cannot, your fall down in rankings.&nbsp; Something so trivial, I know.&nbsp; But every SEO provider we looked into was hard pressed about this priority.&nbsp; So, I am stressing it here with you.</P>
-
-
-<H2>3. Use all H1 through H6, on every page.</H2>
-
-
-<P>Search engines love these “header” tags.&nbsp; They are perfect for pointing them to your relevant content.&nbsp; So, you should encapsulate as much text as possible with H tags.&nbsp; Just one sticky point, generally you should use all tags, but do not use the H1 tag more than once.&nbsp; Google will even give you errors for pages that use the same H1 title – it must be unique for each page of your entire site.</P>
-
-
-<P>This is a bit difficult for me to follow in designing blogs.&nbsp; But, it can be done.&nbsp; Let me point you to a few ways you can use all H1 tags on your blog:</P>
-
-
-<UL>
-<LI>H1 for the Title of your blog post 
-<LI>H2 for post headers/highlights.&nbsp; Like I am doing in this post, in bold. 
-<LI>H3 for each Tag for your blog post 
-<LI>H4 for sub-titles or sub-topics 
-<LI>H5 for related posts 
-<LI>H6 for each navbar element (i.e., mine are additional tags or group tags)</LI></UL>
-
-
-<P>Yeah, a lot to break down for each post.&nbsp; But, every time you do will score higher with search engines.</P>
-
-
-<H2>4. Concentrate on what content goes into those H tags.</H2>
-
-
-<P>Now this is when you concentrate on what “term” you want to brand for your website.&nbsp; You really get only one shot at this, per search engine crawl.&nbsp; You can change it for the next time, but it will change your rankings.</P>
-
-
-<P>Now is the time to pause and go use some of these SEO tools to find what phrase you can target.&nbsp; Look for something with a ranking that you can break into.&nbsp; Obviously, “Top Blog” is going to be out of touch for your small site, with 10,000+ links to some of the worlds top blogs.&nbsp; Instead, focus on something more tangible.&nbsp; Like, “Atlanta Bakery” or “NYC Wireless Cafe”.</P>
-
-
-<P>The H1 on your homepage is the most important text on your entire site.&nbsp; Higher than metadata, higher than its content, and so on.&nbsp; This is your chance to focus on a word or phrase you want your users to search, and find you!&nbsp; So, insert your phrase you want to focus on for your site here in the H1, without variation, as is.&nbsp; You can also use little tricks with CSS to pull over something more meaningful to your users, while getting the H1 hit.</P>
-
-
-<PRE><CODE>&lt;h1 class=”nolinebreak”&gt;NYC Wireless Cafe&lt;/h1&gt;&lt;span class=”h1-like”&gt;s in NoHo&lt;/span&gt;</CODE></PRE>
-
-
-<P>Let’s take my blog for example.&nbsp; I want to focus on “Eric Duncan” and I want people to search on that, and find me.&nbsp; Right now, I am battling an AAA baseball player for rankings on my name.&nbsp; Since Google ranks pages higher on links and ESPN and 100s of sites link to this baseball player, I am down to like 6 or 7.&nbsp; But on Bing, that looks at the actual content, I am number 2.&nbsp; Woot!&nbsp; </P>
-
-
-<P>Now, technically you are to pick that one phrase, and implement it throughout your site with other H tags.&nbsp; For example, if I was hardcore I would want to update my tags to be H3 and worded something like:</P>
-
-
-<UL>
-<LI>Personal <STRONG>Duncan</STRONG> 
-<LI><STRONG>Duncan’s</STRONG> Automotive 
-<LI><STRONG>Eric</STRONG> on Geek Stuff</LI></UL>
-
-
-<P>Or, going back to the wireless cafe above:</P>
-
-
-<UL>
-<LI><STRONG>Cafe</STRONG> Drinks 
-<LI><STRONG>NYC</STRONG> Favorites 
-<LI><STRONG>Wireless</STRONG> Hours</LI></UL>
-
-
-<P>Notice how I am working in parts of the target H1 in each tag?&nbsp; This is what gets ranked very very well.&nbsp; Before, the cafe would have had “Drinks – Favorites – Hours” as tags or navbar elements.&nbsp; But, by adding in parts of the target phrase for the H1 on the homepage, and making each navbar element an H tag, you now have much more ranking power.&nbsp; </P>
-
-
-<P>Say if you have “Best” in your homepage H1, such as “Best NYC Cafe”, you would want to use “Best” in just about every H2 on&nbsp; your site going forward.&nbsp; “Best Dinners”, “Best Drinks”, “Best Menu”, etc.</P>
-
-
-<H2>5. H1 –&gt; Title –&gt; Metadata –&gt; H2-H6 –&gt; url text</H2>
-
-
-<P>That is the secret formula, that about 3/5ths of seo firms agreed on.&nbsp; Several of them gave variations.&nbsp; But more or less, that is what they say.</P>
-
-
-<P>So, by those rankings, you should now focus on your &lt;title&gt; tag in the header.&nbsp; The rule is, the H1 should exactly match your Title.&nbsp; So, on your blog post page, your &lt;h1&gt; is the title of your post.&nbsp; Well, your &lt;title&gt; should exactly match that as well.&nbsp; It should NOT be prefixed with your site name.&nbsp; This is the mistake people tend to miss.&nbsp; “I want the site name in every &lt;title&gt;, so when it is bookmarked…”&nbsp; Well, that is the problem.&nbsp; If the H1 is different than your Title, then it isn’t a match.&nbsp; </P>
-
-
-<P>Now some said you can suffix the title with your site’s short-name (just a little text).&nbsp; But there was debates to rather even this was acceptable.&nbsp; I would change my site here for it, but CS is limited in that regard.</P>
-
-
-<P>Next is the Metadata.&nbsp; Yep, that thing that we were all taught back in the 90s was the “key” to searching.&nbsp; Well, it still is to a point.&nbsp; It can’t contain more than 10 keywords (or might get ignored completely).</P>
-
-
-<H2>6. Friendly Urls or SEO Urls</H2>
-
-
-<P>This is what a lot of people think gets ranked high.&nbsp; “Converting my post.aspx?PostID=523 to /archive/2009/09/20/my-cool-post/ is the best thing you can do!”&nbsp; Well, no.&nbsp; That is why it is #6.&nbsp; It is of a lower priority than the rest above, because as mentioned in #5, it goes H1 –&gt; Title –&gt; Metadata –&gt; H2-H6.&nbsp; And THEN it gets to Url.</P>
-
-
-<P>And for those that don’t know, “SEO Friendly Urls” does not mean removing the querystring.&nbsp; Search engines are smart enough to analyze the querystrings and follow them.&nbsp; Google even found the ?p= and logged it as a “Page Index” variable on my site.&nbsp; </P>
-
-
-<P>No, SEO Friend Urls mean removing the integer from the PostID= and making it something legible, and indexable.&nbsp; Like, the post title.&nbsp; </P>
-
-
-<P>This works well for Wordpress blogs that want an SEO url, but does not have access to mod_rewrite.&nbsp; Just change the url to be http://domain.com/?p=%postname% and you should be SEO friendly going forward, without mod_rewrite.</P>
-
-
-<H2>7. XHTML Compliancy</H2>
-
-
-<P>It may seem frivolous, but search engines really are just computer programs with 100s of rules to follow when reading your page.&nbsp; One of those is it attempt to select these H* tags from your page and process them.&nbsp; If you have some funky text, broken html tags, and just general messy html, several of their rules will fail – and you fail to rank higher.&nbsp; </P>
-
-
-<P>Go hit-up a validator to see how your site does: <A title=http://validator.w3.org/ href="http://validator.w3.org/" mce_href="http://validator.w3.org/">http://validator.w3.org/</A></P>
-
-
-<H2>8. Off-page SEO</H2>
-
-
-<P>Everything else above covers what we call “on-page” SEO, which is the SEO you can control from your site’s markup.&nbsp; Off-page SEO is what Google’s entire ranking system is based on – <EM>how many websites link to your website</EM>.&nbsp; So, commission a dozen college students to go out and talk about your site on a few hundred websites to get those “off-page seo” links.&nbsp; Yeah, this is shady and is what causes those, “Oh man, cool post!&nbsp; Check out similar similar here at…” comments and forum posts you see.&nbsp; This is generating off-page SEO for those websites with spam comments.&nbsp; But, it’s what they do – and Google rewards them for it.</P>
-
-
-<H2>Summary</H2>
-
-
-<P>To sum things up, SEO is more than just a pretty url.&nbsp; It is about changing your markup and thinking before you do things.&nbsp; </P>
-
-
-<P>Also, this is what the rules are as of 2009.&nbsp; In 1999, it was all about metadata.&nbsp; Who knows what it will be in 2019.&nbsp; Maybe it will be what images are being shown and how often you should images in each post (I get an image in each one for me).&nbsp; </P>
-
-
-<P>Good luck!</P>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Truth About 802.11n, 2.4Ghz and 5.8Ghz]]></title>
-    <link href="http://eduncan911.com/blog/archives/the-truth-about-802-11n.html"/>
-    <updated>2009-09-20T03:10:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/the-truth-about-802-11n</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<p><a href="http://eduncan911.com/blog/archives/images/Thetruthabout802.11n5Ghzvs2.4Ghz_8309/wirelessnetworkingtips1.jpg" mce_href="/blog/archives/images/Thetruthabout802.11n5Ghzvs2.4Ghz_8309/wirelessnetworkingtips1.jpg"><img style="border-right-width: 0px; margin: 0px 20px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="wireless-networking-tips[1]" border="0" alt="wireless-networking-tips[1]" align="left" src="http://eduncan911.com/blog/archives/images/Thetruthabout802.11n5Ghzvs2.4Ghz_8309/wirelessnetworkingtips1_thumb.jpg" width="232" height="244" mce_src="/blog/archives/images/Thetruthabout802.11n5Ghzvs2.4Ghz_8309/wirelessnetworkingtips1_thumb.jpg" /></a> The odds are that your brand new 802.11n Draft N wireless router may get the same or worse signal than your previous &quot;G&quot; or even &quot;B&quot; setup.&#160; The odds are you are not getting a 5Ghz device, even though you see “Dual Band” and 802.11N plastered all over the box.&#160; So let me take a few minutes to explain the truth behind all of this Wireless 802.11n buzz and why most consumers are not exactly getting what they paid for; but, with a little careful planning ahead of time and some special configurations you can make the most out of the hardware you acquired.&#160; I apologize for sitting on this knowledge for years and not blogging about it earlier, so let me make the wait worth while.</p>
-
-
-<p>  <h2>802.11n Dual Radio</h2>  <p>For those that want and answer right away, you will want to invest $200 into a “Dual Radio” 802.11n router and not a “Dual Band”.&#160; Dual Radio means your router can operate up, away from the interference, in the 5.8Ghz frequency.&#160; There are dozens of “dual band” 802.11n routers out there, but only a select few of dual radio.</p>  <h2>What is the truth behind 2.4Ghz and 5.8Ghz, besides radio bands?</h2>  <p>To quickly sum up, this 802.11b/g 2.4Ghz frequency is flooded from all sorts of cordless device.&#160; From microwaves to cordless phones.&#160; But note that 802.11a over 5.8ghz was golden from day one without any of this fuss.&#160; Now that I have teased you with the interference and bands, let us drive into why all of this matters with 802.11n.</p>  <p>With the mass proliferation of consumer electronics (cordless phones, remote control devices, etc), the FCC approved the radio frequency of 2.4Ghz for up to 1000Mbps to be opened up to consumer-grade electronics in the 90s, across a wide range of bandwidths.&#160; I followed the <strong>HomeRF Working Group</strong> talks (now disbanded though) when they were creating the specifications for home networking across a local area network (LAN), wirelessly, in the 90s.&#160; Their standard basically outlined a &quot;Frequency Hopping&quot; protocol that would allow a device to operate on multiple channels, similar to how cordless phones work and how they can &quot;change channels&quot; when there is interference.&#160; They were responsible for your 802.11b (2.4Ghz) and 802.11a (5Ghz) standards.</p>  <p>In September 2000 the FCC ruled to approve HomeRF requests to increase the bandwidth of 802.11b devices over the 2.4Ghz RF band spectrum to 5Mhz, but with a very limited number of 15 channels and only a maximum of 11Mbps.&#160; I believe the FCC did this because of Bluetooth&rsquo;s (and many other company&rsquo;s) arguments that allowing 802.11b devices to utilize a higher bandwidth would cause massive interference amongst other consumer devices.&#160; </p>  <h2>802.11a/b/g/n differences</h2>  <p>Here is a quick summery of the history of the IEEE 802.11 standards we have had available at this point.&#160; </p>  <ul>   <li>802.11b &ndash; Rated at 11mbps over a 2.4Ghz frequency for the 1Mhz and 5Mhz spectrums, it was the first widely adopted standard. </li>    <li>802.11a &ndash; The need for more speed drove the 802.11a standard at the much higher 5.8Ghz frequency.&#160; </li>    <li>802.11g &ndash; The one we mostly know these days operating in the 2.4Ghz frequency with additional channels over 802.11b. </li>    <li>802.11n &ndash; Operates at both 2.4Ghz and 5.8Ghz.&#160; <em><strong>The new Draft 2.0 forced operation at 2.4Ghz by &lsquo;default&rsquo;.&#160; More on this later.</strong></em> </li> </ul>  <p>Note that there an 802.11y specification floating around which operates at 3.7Ghz.&#160; The advantage of this specification is its massive range &ndash; over 5000 Meters (about 3 miles!).&#160; You may hear more about this later on in the news.</p>  <h2>Why you should care about 802.11-<em>whatever</em> and their differences.</h2>  <p>You see, we have had the technology for 802.11n for a while with 802.11a.&#160; Why did it not succeed?&#160; The 802.11b devices at 2.4Ghz were massively produced, and were cheap. 802.11a devices, while about the same price, operated only at 5.8Ghz and came to the market too late because everyone else had 802.11b in their laptops, homes, and offices.&#160; If you had an &quot;A&quot;, you couldn&rsquo;t connect to &quot;B&quot;.&#160; And vice versa.&#160; This is why &quot;A&quot; died out, even though it was a better technology.</p>  <p>The 802.11g 2.4Ghz standard in 2003 fixed the interference issues with more channels, hoping to get out of the range of other consumer electronics while staying in the cheaper-to-produce-products 2.4Ghz range.&#160; But sadly this is not the case any longer since 1000s of wireless devices now use this “wide open” 2.4Ghz frequency and 1 Mhz and 5 Mhz spectrums.</p>  <p>The 802.11n specification had a great opportunity to fix this interference by going up to 5.8Ghz, once and for all.&#160; All the while allowing for backwards compatibility, which is important for products to succeed.&#160; In a way they did, but for double the cost.</p>  <h2>The reason you get low signals with &quot;G&quot; and now &quot;N&quot; these days.</h2>  <p>Note that if you live out in open rural or large lands, you will not see the problems.&#160; But the vast majority of us have a neighbor within 100 feet of our home (or dozens in an urban environment).</p>  <p>With population comes more wifi devices.&#160; Since there are only 11 channels available in “G”, and there are dozens of wifi devices near you, how much will you bet that there will be a high level of interferance?&#160; A lot as it turns out.</p>  <p>I myself had to deal with this recently with our loft in downtown Dallas.&#160; Opening a wifi scanner, I saw 31 wireless networks, and I could hardly ever use 802.11g in my open home.&#160; Asking the neighbors, they all had issues “getting a router that works, they are all junk.”&#160; Well, it wasn’t the router.&#160; But instead, just the large number of wireless networks near by.</p>  <p>Once I upgraded to the Linksys WRT600N (with dual radios), I was solid! </p>  <h2>Dual Radios vs Dual Channel vs Dual Mode vs Dual Band vs MIMO (The Marketing buzz-words)</h2>  <p>Finally, the nit-n-gritty of this post.&#160; I will say it loud and clear: </p>  <blockquote>   <p><em><strong>Stay away from dual channel devices and only get a two radio device!</strong></em></p> </blockquote>  <p>What is dual-two-huh?&#160; It is simple: To operate a device at a frequency of, say, 2.4Ghz, you need a RF radio to broadcast and receive at that frequency.&#160; To operate at 5.8Ghz, you need a RF radio as well.&#160; To operate at both frequencies (sometimes called Dual Channel or Dual Mode), your radio switches from 2.4Ghz to 5Ghz.&#160; But the limiting factor here is a RF radio can only operate in one mode or the other.&#160; Not both at the same time.&#160; These dual channel/dual mode devices have a history of “cutting out” when mixed G and N devices are connected.&#160; It is better to operate them at 2.4Ghz at all times.</p>  <p>How do you operate at both channels?&#160; Simple, you have two radios: one at 2.4Ghz and the other at 5.8Ghz.</p>  <p>The biggest buzz is that 802.11n specifications allow it to operate at either 2.4Ghz or 5.8Ghz.&#160; This allows you to run at 2.4Ghz and connect all of your 802.11g devices as well as 802.11n devices.&#160; </p>  <h2>Why do I need to operate at both channels or even 2.4Ghz?&#160; Can&rsquo;t I just use 5.8Ghz?</h2>  <p>Good question and this is where a little preparation of selecting the right devices comes into play.&#160; If your home has all 802.11n devices (laptops, Xbox/PS3 wifi adapters, desktop, friends and family visiting over Christmas, etc), then yes you can get one of the cheaper 802.11n routers with &quot;Dual Channels&quot; and setup your 802.11n network for strict 5.8Ghz mode.</p>  <p>Unfortunately, most homes will need 802.11g backwards compatibility.&#160; Your son&rsquo;s friend might stop by with his 802.11g laptop.&#160; Xbox only has an 802.11g wifi adapter (that I know of).&#160; And 100s of other reasons of why you still need 802.11g backwards compatibility.</p>  <p>These cheap &quot;dual mode&quot; or &quot;dual channel&quot; 802.11n devices is what will hurt you.&#160; You will be forced to operate at only the 2.4Ghz band for 802.11n to allow other 802.11g devices to connect, which opens you up to interference from all other consumer electronics on your area.</p>  <h2>And now why you want to pay the extra $80 for a dual radio 802.11n device.</h2>  <p>It allows you to connect your laptops and other devices at 802.11a/n over one radio configured at 5.8Ghz, while supplying the 802.11g/n channel over the more interference-prone 2.4Ghz radio.&#160; That is it.&#160; It simply isolates you at one radio.&#160; This allows your visitors to connect at 2.4Ghz, given not a stable connection in urban America but better than nothing.</p>  <h2>The downside to 5.8Ghz, objects.</h2>  <p>There is always a catch, right?&#160; The 5.8Ghz range of 802.11a and 802.11n are more susceptible to solid devices (i.e. walls, floors, etc).&#160; Even though the 802.11a/n standard allows for further range, the 5.8Ghz frequency is quickly blocked by solid objects, severely cutting down your range.&#160; </p>  <p>As a comparison, take a loud car stereo.&#160; The bass blasting from a neighbor’s car stereo next door, or in the car next to you.&#160; How come you hear the thump thump thump of the subwoofer, but you do not hear the 500W he is pushing to his vocals through your windows or walls (or, they are severely muffled)?&#160; Simple, the sound waves of low frequencies are much longer/further apart and usually carry more power.&#160; This allows for the sound wave to move through solid devices, where higher frequencies are blocked because of the very short and quick sound waves and lower power.&#160; Same applies to the 5.8Ghz range of 802.11a and 802.11n devices.</p>  <p>If you have a 3 level home (like we do), placing the 5.8Ghz device on the middle floor is usually best.&#160; But, could still cause problems just a short distance away, on another floor.&#160; This is where 2.4Ghz might actually be your best bet in your house.</p>  <h2>Optimizing your 802.11n Router</h2>  <p>For those that remain with the dual-band router, or decide that 2.4 Ghz is the best choice due to interference of objects, or want to tweak that 2.4 Ghz channel, you can make sure to optimize the settings to get the most out of the router &ndash; as most router&rsquo;s defaults are &quot;fail safe&quot;, and not optimum.</p>  <p>802.11n includes a protocol for &quot;Wide&quot; channels.&#160; The default freq and speed for 802.11n is 20 Mhz and 130 Mbps.&#160; While a major increase over the previous 54 Mbps cap of 802.11g, it&rsquo;s only half of what the router can actually do.&#160; Switching to &quot;40 Mhz&quot;, otherwise known as &quot;Wide Channel&quot;, you double your speeds up to around 270 Mbps.</p>  <p>There&rsquo;s a catch though.&#160; Bluetooth devices usually operate in the 40 Mhz range of the 2.4 Ghz channel as it really is an unlicensed data range &ndash; this is why a lot of devices clash when you get &quot;out of spec.&quot;</p>  <p>So, in short, if you don&rsquo;t have any bluetooth devices, then set it to 40 Mhz and be happy.&#160; Your older 802.11g devices should still work as well.&#160; But, to each his own &ndash; it may take testing that Xbox or other wifi devices to make sure they can still connect at the older 20 Mhz freq when you have set 40 Mhz (the protocol allows for backwards compatibility).</p>  <h2>802.11n 5.8 Ghz Summary</h2>  <p>In closing, the FCC did a bad thing when it opened 2.4Ghz 1Mhz and 5Mhz spectrums to consumer devices – besides just routers.&#160; This has caused great interference and frustration of thousands of people world wide (cause most of the world adopted the same standards).&#160; So our beloved 802.11g routers are now being lost in the noise, literally!&#160; </p>  <p>So, look for those 802.11a/n/g dual-<strong>radio</strong> devices, and not a dual-band, dual-channel, dual-mode.&#160; </p>  <p>Personally, I run my 2.4 Ghz and 5.8 Ghz radios at 40 Mhz and with different SSIDs (the wifi &quot;name&quot; or identifier), so I know which one I am connected to.&#160; I also have a separate 802.11g device to power those older wifi devices on a 3rd SSID (good ol&#8217; Linksys WRT54G running the <a href="http://www.polarcloud.com/tomato" target="_blank">Tomato</a> firmware) .</p>  <p>Please leave feedback about any issues or questions.</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thirty Posts in Thirty Days]]></title>
-    <link href="http://eduncan911.com/blog/archives/thirty-posts-in-thirty-days.html"/>
-    <updated>2009-09-20T03:07:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/thirty-posts-in-thirty-days</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<P><A href="http://eduncan911.com/blog/archives/images/Thirtypostsinthirtydays_14530/cartoon.jpg" mce_href="/blog/archives/images/Thirtypostsinthirtydays_14530/cartoon.jpg"><IMG style="BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 20px 0px 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" title=cartoon border=0 alt=cartoon align=left src="http://eduncan911.com/blog/archives/images/Thirtypostsinthirtydays_14530/cartoon_thumb.jpg" width=179 height=203 mce_src="/blog/archives/images/Thirtypostsinthirtydays_14530/cartoon_thumb.jpg"></A> Happy one year anniversary!&nbsp; As <A href="http://christoc.com/" mce_href="http://christoc.com">Chris Hammond</A> pointed out this week, it has been exactly one year since I last made a post to my blog – this blog!</P>
-
-
-<P>It is not for a lack of content.&nbsp; I have well over 100 of “should have, will do, todos, blog this” of bookmarks, code snippets, and more.&nbsp; It didn’t ring a bell until christoc actually pinged me this week to tell me.&nbsp; </P>
-
-
-<P>So, today I start a new goal: Thirty posts in thirty days.&nbsp; Now, there may be several posts in one day in succession, and other empty days.&nbsp; But, there will be at least 30.&nbsp; :)</P>
 
 ]]></content>
   </entry>
