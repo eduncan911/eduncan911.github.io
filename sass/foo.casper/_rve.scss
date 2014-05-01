@@ -8,8 +8,8 @@
   padding-bottom: 56.25%; /* 16/9 ratio */
   padding-top: 30px; /* IE6 workaround*/
   height: 0;
-  overflow: hidden;
-  margin-bottom: 1.5em;
+  /* overflow: hidden; */
+  margin-bottom: 3.5em;
 
   iframe, object, embed {
     position: absolute;
@@ -17,5 +17,6 @@
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
   }
 }
