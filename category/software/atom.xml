@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-05-01T14:29:48-04:00</updated>
+  <updated>2014-05-01T14:35:47-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -19,7 +19,7 @@
     <updated>2014-05-01T13:58:40-04:00</updated>
     <id>http://eduncan911.com/software/the-static-blog-boom</id>
     <content type="html"><![CDATA[<p>There is a new movement taking place in web development over the last few years.
-It is called <code>static sites</code>. Just as it sounds, it is simply a collection of <code>.html</code>, &lsquo;.css&rsquo;, &lsquo;.js&rsquo; and images that serves up a complete site. What you may not know is that there are literately 100s of frameworks out there that generate these static sites for you from a single common theme/template.</p>
+It is called <code>static sites</code>. Just as it sounds, it is simply a collection of <code>.html</code>, <code>.css</code>, <code>.js</code> and images that serves up a complete site. What you may not know is that there are literately 100s of frameworks out there that generate these static sites for you from a single common theme/template.</p>
 
 <h2>Static Site Generators</h2>
 
