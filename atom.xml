@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-05-01T14:35:47-04:00</updated>
+  <updated>2014-05-01T15:00:33-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bitcoin's NSA-Blocking 'Dark Wallet' Launched Today]]></title>
+    <link href="http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today.html"/>
+    <updated>2014-05-01T14:38:13-04:00</updated>
+    <id>http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today</id>
+    <content type="html"><![CDATA[<p><a href="http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/">Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</a></p>
+
+<blockquote><p><img src="http://media.coindesk.com/2014/05/dark.jpg" title="'Bitcoin Dark Wallet'" ></p><p>The alpha version of Dark Wallet – the hyper-anonymising bitcoin wallet – goes live today.</p><p>Created by Amir Taaki and Cody Wilson, Dark Wallet provides new tools for financial privacy, including in-built coin mixing and ‘stealth’ wallet addresses.</p><p>As well as making it easier for people to disguise their transactions from the government, Dark Wallet is also a torpedo aimed at those in the bitcoin community who have embraced co-operation with regulators.</p><p>Conceived last year and partly funded by $50,000 raised on Indiegogo, the wallet was developed by unSystem, a collective of anarchist bitcoin developers. It represents an ethos that has been largely excluded from the mainstream discourse around bitcoin.</p><p>In January of this year, Circle CEO Jeremy Allaire told CoinDesk that bitcoin was “absolutely” moving away from its libertarian roots, and described attempts to avoid the regulation of bitcoin as playing into the hands of “anarchists and criminals”.</p><footer><strong>Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</strong> <cite><a href='http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
+
+
+<p>Personally I liked this little nugget from the related article&hellip;</p>
+
+<blockquote><p>If your goals are to create a sort of shadow financial system that runs in offshore jurisdictions and is attractive for anarchists and criminals, then maybe [regulation] is not important.</p><footer><strong>Jeremy Allaire via CoinDesk</strong> <cite><a href='http://www.coindesk.com/bitcoin-abandons-anti-establishment-wall-street/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
+
+
+<p>I first heard about this Dark Wallet protocol a few months ago when <a href="http://pando.com/2014/03/12/moving-on-up-bitcoin-gets-a-boost-as-new-york-opens-applications-for-virtual-currency-exchange-licenses/">New York state</a> announced they are regulating Bitcoin.  And recently when the <a href="http://www.breitbart.com/Big-Government/2014/04/03/IRS-Retroactively-Taxes-Bitcoin">IRS announced it is retroactively taxing Bitcoin as property</a>, the community brought up the Dark Wallet system again.</p>
+
+<p>I have bitcoin and do not plan on paying any tax on it.  I didn&rsquo;t &ldquo;buy&rdquo; any amount using taxable USD, and don&rsquo;t see a need for &ldquo;regulation.&rdquo;  Trying to tax my Bitcoin is basically using a gun to say I need to pay a tax on the open-source software I write: it has value to a select few, and is completely useless to most.</p>
+
+<p>So, I&rsquo;ll be giving Dark Wallet a try here shortly.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Static Blog Boom]]></title>
@@ -2381,32 +2404,6 @@ Html.ActionLink&lt;TController&gt;(<br />    Expression&lt;Action&lt;TController
 
 
 <p>  <p>I will keep updating this post with each post for future references.&#160; So, bookmark it or <a href="http://eduncan911.com/archive/tags/asp.net+mvc/default.aspx" target="_blank">you can subscribe to the series here</a>.</p>  <ul>   <li><a href="http://eduncan911.com/blog/type-safety-with-asp-net-mvc-futures.aspx">Type Safety with ASP.NET MVC Futures</a> </li>    <li><a href="http://eduncan911.com/blog/html-renderaction-for-asp-net-mvc-1-0.aspx">Html.RenderAction&lt;TController&gt; for ASP.NET MVC 1.0</a></li> </ul>  <p>&#160;</p>  <p>You can also follow me on Twitter via eduncan911, if you can weed out my random thoughts from these postings.</p> <img alt='ASP.NET MVC' src='http://eduncan911.com/blog/archives/images/ASP.NETMVC_C748/funnypicturescatdoesnotlikepuppies.jpg'/></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HiPE’s Voice-operated Drive-N Car PC w/Vista]]></title>
-    <link href="http://eduncan911.com/blog/archives/hipe-voice-operated-drive-n-car-pc-vista.html"/>
-    <updated>2009-09-21T06:55:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/hipe-voice-operated-drive-n-car-pc-vista</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<P>This old <A href="http://www.engadget.com/2007/04/24/hipe-intros-voice-operated-drive-n-car-pcs-with-vista-mce/" target=_blank mce_href="http://www.engadget.com/2007/04/24/hipe-intros-voice-operated-drive-n-car-pcs-with-vista-mce/">Engadget post</A> reminds me of my Dell mini-pc I hacked up to fit in a block of foam and fans to run my XP on 12V with 80GB of MP3s and videos, with wireless (to sync from outside in the car).&nbsp; Too bad I never finished the project; but, I did sell it on eBay for a few hundred bucks.&nbsp; That guy wrote some flash interface for it.&nbsp; Nice.</P>
-
-
-<P><A href="http://eduncan911.com/blog/archives/images/HiPEsvoiceoperatedDriveNcarPCwVista_28F7/hipedriven.jpg" mce_href="/blog/archives/images/HiPEsvoiceoperatedDriveNcarPCwVista_28F7/hipedriven.jpg"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: block; FLOAT: none; MARGIN-LEFT: auto; BORDER-TOP: 0px; MARGIN-RIGHT: auto; BORDER-RIGHT: 0px" title=hipe-drive-n border=0 alt=hipe-drive-n src="http://eduncan911.com/blog/archives/images/HiPEsvoiceoperatedDriveNcarPCwVista_28F7/hipedriven_thumb.jpg" width=444 height=226 mce_src="/blog/archives/images/HiPEsvoiceoperatedDriveNcarPCwVista_28F7/hipedriven_thumb.jpg"></A> </P>
-
-
-<BLOCKQUOTE>
-<P><EM>“The units, ranging in price from $799 for a barebones Via C7 in an amp-style chassis up to $2199 for a tricked-out double-DIN touchscreen monster, all run Windows Vista MCE with the One Voice command system, and can be outfitted with GPS, WiFi, Bluetooth, XM, and even a rearview camera. The machines can also interface with your car&#8217;s OBD II unit to let you monitor vehicle diagnostics, as well as clear out some of those annoying error messages you usually have to let the dealer handle.”</EM></P></BLOCKQUOTE>
-
-
-<P>The ODB-II connection is nice.&nbsp; But still, $2k?</P>
-
 ]]></content>
   </entry>
   
