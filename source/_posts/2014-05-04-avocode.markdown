@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Avocode"
+date: 2014-05-04 19:24:04 -0400
+comments: true
+categories: ["software"]
+tags: ["Photoshop", "UX", "CSS", "Less", "Frontend"]
+---
+
+[The bridge between designers and developers](http://avocode.com/)
+
+{% blockquote %}
+
+{% vimeo 93386152 %}
+
+ALWAYS BE IN SYNC
+Share with a link and instantly get updates from your designer.
+No more e-mail attachments or huge PSD uploads.
+
+WEB & NATIVE APP
+Preview and inspect PSDs on the web or use the native app
+on any platform - Mac, Windows or even Linux.
+
+EVERYTHING FROM A PSD
+Choose anything from a PSD and get exactly what
+you need – CSS, SVG, images, fonts or colors…
+
+{% endblockquote %}
+
+You know, I am starting to get that "designer" itch again.  I am not a designer; but, I can pull
+something outta my ass every once in a while.  Going to try to get a private beta to see if
+I can use this for some projects as well.
+
+*HatTip ForgetFoo*
