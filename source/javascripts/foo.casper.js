@@ -35,22 +35,75 @@
  */
 
 /*globals jQuery, document */
-(function ($) {
-    "use strict";
+//(function ($) {
+//    "use strict";
 
-    $(document).ready(function(){
+//    $(document).ready(function(){
         //$(".post-content").fitVids();
-    });
+//    });
 
-}(jQuery));
+//}(jQuery));
 
 
 /***
- * Eric's own twist to the design
- */
-$(".collapsable").each(function () {
-	$(".collapsable-trigger", this).click(function() {
-		$(this).parents(".collapsable:first").find(".post-metadata").toggle();
-		return false;
-	})
-})
+ * Eric's own twists to this design
+ ***/
+var eduncan911 = (function() {
+	var init = function() {
+
+		// handle all audio players
+		audio.init();
+
+		// wire up any meta data for the page/post
+		$(".collapsable").each(function () {
+			$(".collapsable-trigger", this).click(function() {
+				$(this).parents(".collapsable:first").find(".post-metadata").toggle();
+				return false;
+			})
+		});
+	};
+
+	var audio = (function() {
+		var init = function() {
+			$("audio").each(function () {
+				var a = $(this);
+				var m = a.attr("data-mins");
+				var s = a.attr("data-secs");
+				var t = a.attr("data-title");
+				a.before(renderTemplate(m, s, t));
+			});
+			bndClicks();
+		};
+
+		var renderTemplate = function(minutes, seconds, title) {
+			return '\
+<div class="audioplayer"> \
+	<div class="play"><a href="#play"><svg viewBox="0 0 64 64" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"> \
+		 <g><path id="play" style="color:#004225" d="M 0,0 64,32 0,64 z" /></g> \
+		</svg></a></div> \
+	<div class="audioinfo"> \
+		<h3>Listen to this Audio</h3> \
+		<span class="audiotitle">' + title +'</span> \
+		<span class="audiotime">00:00:00</span> \
+		<span class="audiolength">' + minutes + ' min ' + seconds + ' sec</span> \
+	</div> \
+</div>';
+		};
+		/*
+		<svg viewBox="0 0 64 64" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+		  <g><path id="stop" style="color:#004225" d="M 0,64 H 64 V 0 H 0 z"/></g>
+		</svg>
+		*/
+		var bndClicks = function() {
+
+		};
+		return {
+			init: init
+		};
+	})();
+
+	return {
+		init: init
+	};
+})();
+eduncan911.init();
