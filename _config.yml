@@ -54,13 +54,16 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: category
 markdown: rdiscount
-#markdown: redcarpet
 rdiscount:
   extensions:
     - autolink
     - footnotes
     - smart
+#    - text
 pygments: false # default python pygments have been replaced by pygments.rb
+#markdown: redcarpet2
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
