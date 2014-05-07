@@ -11,8 +11,7 @@ tags: [responsive]
 {% blockquote David Marland http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url Responsive Design Begins with the URL %}
 {% img /blog/images/responsive-design-url-schema.jpg "Responsive Design URL Schema" %}
 
-## URLs
-The core principle in creating a potentially enormous website that will last forever is to **get the information architecture right in the first place**. This involves knowing your data objects and how they fit together. It should also determine the URL structure, which for Programmes is the most important aspect. Take the URL for Top Gear’s home page:
+The core principle in creating a potentially enormous website that will last forever is to get the information architecture right in the first place. This involves knowing your data objects and how they fit together. It should also determine the URL structure, which for Programmes is the most important aspect. Take the URL for Top Gear’s home page:
 
 http://www.bbc.co.uk/programmes/b006mj59
 
@@ -20,7 +19,7 @@ After the domain name comes the word “programmes,” which is a simple, unchan
 
 Next is the programme identifier. Note the lack of hierarchy and the lack of a title. Titles change over time, and many programmes do not have a unique title, which would cause a clash. Hierarchies also change — a one-off pilot could be commissioned for a full series. Understanding your objects allows you to recognize what is permanent. In this case, nothing is particularly guaranteed to be permanent, so a simple ID is used instead. Users aren’t expected to type these URLs, though. They will usually arrive through a search engine or by typing in a friendly redirect that has been read out on air, such as bbc.co.uk/topgear. But the key principle of a permanent URL is that inward links are trusted to be shareable and work forever. Cool URIs don’t change.
 
-**A clear information architecture defines the URL scheme.** A piece of content is given a clear canonical home, where appropriate. Links and aggregations between them then clearly appear.
+A clear information architecture defines the URL scheme. A piece of content is given a clear canonical home, where appropriate. Links and aggregations between them then clearly appear.
 
 {% endblockquote %}
 
