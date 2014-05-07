@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-05-06T21:47:18-04:00</updated>
+  <updated>2014-05-07T15:30:53-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Responsive Design Begins With the URL]]></title>
+    <link href="http://eduncan911.com/software/design/responsive-design-begins-with-the-url.html"/>
+    <updated>2014-05-07T11:27:36-04:00</updated>
+    <id>http://eduncan911.com/software/design/responsive-design-begins-with-the-url</id>
+    <content type="html"><![CDATA[<p><a href="http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url/">Responsive Design Begins with the URL</a></p>
+
+<blockquote><p><img src="http://eduncan911.com/blog/images/responsive-design-url-schema.jpg" title="&#34;Responsive Design URL Schema&#34;" alt="&#34;Responsive Design URL Schema&#34;"></p><p>The core principle in creating a potentially enormous website that will last forever is to get the information architecture right in the first place. This involves knowing your data objects and how they fit together. It should also determine the URL structure, which for Programmes is the most important aspect. Take the URL for Top Gear’s home page:</p><p>http://www.bbc.co.uk/programmes/b006mj59</p><p>After the domain name comes the word “programmes,” which is a simple, unchanging English word. It is intended to describe the object, and is not a brand or product name. Plurals are used so that the URL can be hacked backwards to retrieve an index.</p><p>Next is the programme identifier. Note the lack of hierarchy and the lack of a title. Titles change over time, and many programmes do not have a unique title, which would cause a clash. Hierarchies also change — a one-off pilot could be commissioned for a full series. Understanding your objects allows you to recognize what is permanent. In this case, nothing is particularly guaranteed to be permanent, so a simple ID is used instead. Users aren’t expected to type these URLs, though. They will usually arrive through a search engine or by typing in a friendly redirect that has been read out on air, such as bbc.co.uk/topgear. But the key principle of a permanent URL is that inward links are trusted to be shareable and work forever. Cool URIs don’t change.</p><p>A clear information architecture defines the URL scheme. A piece of content is given a clear canonical home, where appropriate. Links and aggregations between them then clearly appear.</p><footer><strong>David Marland</strong> <cite><a href='http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url'>Responsive Design Begins With the URL</a></cite></footer></blockquote>
+
+
+<p>For a decade I have spent a considerable amount of time getting the URLs <em>right</em> for what the user was looking at.  I must have gone through 20 different iterations over the years trying out all sorts of designs, deep linking, &ldquo;walk the url backwards&rdquo; and so on.</p>
+
+<p>You can see on my static site blog here that I paid close attention as well, trying out yet another theme.  I am on my 4th iteration of a url schema for my blog and it has become a PITA when having to keep redirects working of old urls, especially on <a href="https://github.com/eduncan911/eduncan911.github.io/tree/master/blog">this static site with no URL rewrite module</a>.</p>
+
+<p>I almost went the <em>post_id</em> route here on this iteration; but, Jekyll (and therefore Octopress) makes the title url-safe already so I kept it.  Besides that, I agree that urls should play a role in your web architecture.</p>
+
+<p>As long as we are talking about it, ASP.NET MVC&rsquo;s default <code>/Controller/Action/Id</code> has always pissed me off since I first started using it back in 2007.  Coming from a pure-RESTful background, the pure REST urls are more similar to <code>/Controller/Id/Action</code> so you end up with urls like this:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/product/2832/
+</span><span class='line'>/product/2832/edit
+</span><span class='line'>/product/2832/clips
+</span><span class='line'>/product/2832/videos</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And so on.  Which, actually, falls inline with what the BBC article above was saying.</p>
+
+<p><em>HatTip ForgetFoo</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Glass Distracting Drivers]]></title>
@@ -2246,24 +2280,6 @@ del MSpecTDNet.reg
 
 
 <p><img alt='Html.RenderAction for ASP.NET MVC 1.0' src='http://www.spacedaily.com/images/solar-impulse-bg.jpg'/></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Microsoft Announces WebsiteSpark]]></title>
-    <link href="http://eduncan911.com/blog/archives/microsoft-announces-websitespark-program.html"/>
-    <updated>2009-09-24T14:31:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/microsoft-announces-websitespark-program</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<p><img style="border-bottom: 0px; border-left: 0px; margin: 0px 20px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="g_home" border="0" alt="g_home" align="left" src="http://eduncan911.com/blog/archives/images/MicrosoftannouncestheWebsiteSparkProgram_8A1B/g_home.png" width="244" height="184" /> For the first time, Microsoft is licensing a number of software and servers to startups, small businesses, and actual independent web developers - for free.&#160; And, it lasts for three years.&#160; <a href="http://weblogs.asp.net/scottgu/archive/2009/09/24/announcing-the-websitespark-program.aspx" target="_blank">Scott Guthrie tweeted today</a> about the new <a href="http://www.microsoft.com/web/websitespark/" target="_blank">WebsiteSpark Program</a>, which is what this program is called.&#160; Why not call it WebSpark?&#160; I dunno.</p>
-
-
-<p>  <p>I was shocked to see it comes with a 3rd party tool called DotNetPanel, a great Server Control Panel for hosting websites.&#160; But, I am guessing the free version &ndash; not the upgraded ones.&#160; ;)</p>  <h2>Microsoft WebsiteSpark Features</h2>  <p>Now, don’t get too excited.&#160; Here’s the list so far:</p>  <ul>   <li>3 licenses of Visual Studio 2008 Professional Edition </li>    <li>1 license of Expression Studio 3 (which includes Expression Blend, Sketchflow, and Web) </li>    <li>2 licenses of Expression Web 3 </li>    <li>4 processor licenses of Windows Web Server 2008 R2 </li>    <li>4 processor licenses of SQL Server 2008 Web Edition </li>    <li>DotNetPanel control panel (enabling easy remote/hosted management of your servers)</li> </ul>  <p>Some may say, “It doesn’t come with Enterprise editions?!?&#160; Blah!” Don’t be discouraged at the power being given away here.&#160; This is targeting two key business groups:</p>  <ul>   <li>Independent contractors building websites for others.</li>    <li>Small companies of 10 employees or less building websites for others.</li> </ul>  <p>Being in one of these two categories means you really do not have a need for Enterprise editions.&#160; If your website(s) actually do need that level of licensing to run on larger hardware, then Microsoft sees that you can afford the $25/mo licensing fee for Standard or $119/mo for Enterprise because of the traffic, of volume of sites you have running.&#160; </p>  <p>I kind of agree.&#160; Why do startups need to setup these large and expensive 4 webserver, 2 SQL DBs in a high-end failover environment with massive hardware &ndash; for the 6 month to 1 year it will take to develop the software?&#160; Scale back, let your developers develop it. And 30 days before you launch, then get your massive setup and migrate over to it.&#160; You reap the benefits of saving the costs during that time.&#160; If you application(s) are too embedded to be migrated quickly to another set of servers, find a new architect or developer.&#160; </p>  <h2>Microsoft and Open-Source</h2>  <p>I actually have a history with these start-up programs.&#160; It was back in 2006 when I worked on a new Microsoft site called <a href="http://www.microsoftstartupzone.com">www.microsoftstartupzone.com</a> at Telligent.&#160; It was going to be a new low-cost initiative to compete with the free open-source market (LAMP).</p>  <p>One of the first programs to come out of this site was the BizSpark program that we all know and love.&#160; We got BizSpark at GlobalGrind, and I helped setup BizSpark at my former gig as well.&#160; It really is a powerful and inexpensive way to get a company up and going.</p>  <p>And now, we have this WebsiteSpark to get things kicked off.&#160; Excellent.</p></p>
 ]]></content>
   </entry>
   
