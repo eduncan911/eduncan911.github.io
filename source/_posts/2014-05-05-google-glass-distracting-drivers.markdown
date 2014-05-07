@@ -14,7 +14,7 @@ I have several friends, CEOs, CTOs and even strangers tell me they can talk and 
 
 I've always rebuttaled that the human brain can only focus on a single context, at any given time.
 
-{% audio http://pd.npr.org/anon.npr-mp3/npr/atc/2014/03/20140324_atc_does_google_glass_distract_drivers_the_debate_is_on.mp3 04:42 NPR: Does Google Glass Distract Drivers asdasd as da as das a d? %}
+{% audio http://pd.npr.org/anon.npr-mp3/npr/atc/2014/03/20140324_atc_does_google_glass_distract_drivers_the_debate_is_on.mp3 04:42 NPR: Does Google Glass Distract Drivers? %}
 
 A quote in this story summed it up quite well:
 
