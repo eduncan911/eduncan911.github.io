@@ -2218,12 +2218,16 @@ section.babes {
   border-radius: 0 !important;
 }
 
+/* ==========================================================================
+   #. eduncan911 changes 
+   ========================================================================== */
+
 .collapsable {
   margin-top: 20px;
-}
 
-.collapsable .collapsable-trigger {
-  text-decoration: none;
+  .collapsable-trigger {
+    text-decoration: none;
+  }
 }
 
 .pagenation-spacer {
@@ -2251,11 +2255,53 @@ pre {
   margin: 0;
 }
 
-.audioplayer svg {
-  fill: #004225 !important;
-  height: 30px;
-  width: 30px;
+.audioplayer {
+  width: 100%;
+  background-color: #d5d5d5;
+  line-height: 1.2em;
+  .button {
+    display: inline-block;
+    width: 15%;
+    height: 120px;
+    background-color: #004225;
+    cursor: pointer;
+    text-align: center;
+    vertical: middle;
+    vertical-align: middle;
+    svg {
+      fill: #f9f9f9;
+      width: 40px;
+      height: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+    }
+  }
+  .audioinfo {
+    display: inline-block;
+    width: 82%;
+    padding-left: 10px;
+    overflow: hidden;
+    vertical: middle;
+    vertical-align: middle;
+    .audiotext {
+      float: left;
+      font-weight: bold;
+      .audiotitle {
+        font-size: 0.75em;
+        font-weight: normal;
+      }
+    }
+    .audiotime {
+      float: right;
+      font-size: 0.75em;
+      display: inline-block;
+      text-align: right;
+    }
+  }
 }
+
+
 
 /* ==========================================================================
    9. Media Queries 
@@ -2306,6 +2352,16 @@ pre {
   h4 {
     font-size: 2.8rem;
   }
+
+  .audioplayer {
+    .audioinfo {
+      width: 80%;
+      padding-left: 7px;
+      .audiotime {
+        font-size: 0.75em;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -2318,6 +2374,33 @@ pre {
   #disqus_thread {
     margin: 0;
     padding: 20px;
+  }
+
+  .audioplayer {
+    line-height: 1.2em;
+    .button {
+      width: 17%;
+      height: 90px;
+      svg {
+        fill: #f9f9f9;
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+      }
+    }
+    .audioinfo {
+      width: 78%;
+      padding-left: 5px;
+      .audiotext {
+        font-size: 0.80em;
+        .audiocallout {
+          display: none;
+        }
+      }
+      .audiotime {
+        font-size: 0.70em;
+      }
+    }
   }
 }
 
@@ -2434,6 +2517,33 @@ pre {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+  }
+
+  .audioplayer {
+    line-height: 1.2em;
+    .button {
+      width: 30%;
+      height: 90px;
+      svg {
+        fill: #f9f9f9;
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+      }
+    }
+    .audioinfo {
+      width: 60%;
+      padding-left: 5px;
+      .audiotext {
+        font-size: 0.80em;
+        .audiocallout {
+          display: none;
+        }
+      }
+      .audiotime {
+        font-size: 0.70em;
+      }
+    }
   }
 }
 
