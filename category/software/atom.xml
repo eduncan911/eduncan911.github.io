@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-05-01T16:17:16-04:00</updated>
+  <updated>2014-05-06T21:47:18-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Avocode]]></title>
+    <link href="http://eduncan911.com/software/avocode.html"/>
+    <updated>2014-05-04T19:24:04-04:00</updated>
+    <id>http://eduncan911.com/software/avocode</id>
+    <content type="html"><![CDATA[<p><a href="http://avocode.com/">The bridge between designers and developers</a></p>
+
+<p><blockquote><p></p></p><p><p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/93386152 "></iframe></div></p></p><p><p>ALWAYS BE IN SYNC<br/>Share with a link and instantly get updates from your designer.<br/>No more e-mail attachments or huge PSD uploads.</p></p><p><p>WEB &amp; NATIVE APP<br/>Preview and inspect PSDs on the web or use the native app<br/>on any platform &ndash; Mac, Windows or even Linux.</p></p><p><p>EVERYTHING FROM A PSD<br/>Choose anything from a PSD and get exactly what<br/>you need – CSS, SVG, images, fonts or colors…</p></p><p><p></p></blockquote></p>
+
+<p>You know, I am starting to get that &ldquo;designer&rdquo; itch again.  I am not a designer; but, I can pull
+something outta my ass every once in a while.  Going to try to get a private beta to see if
+I can use this for some projects as well.</p>
+
+<p><em>HatTip ForgetFoo</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Static Blog Boom]]></title>

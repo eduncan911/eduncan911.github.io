@@ -35,22 +35,110 @@
  */
 
 /*globals jQuery, document */
-(function ($) {
-    "use strict";
+//(function ($) {
+//    "use strict";
 
-    $(document).ready(function(){
+//    $(document).ready(function(){
         //$(".post-content").fitVids();
-    });
+//    });
 
-}(jQuery));
+//}(jQuery));
 
 
 /***
- * Eric's own twist to the design
- */
-$(".collapsable").each(function () {
-	$(".collapsable-trigger", this).click(function() {
-		$(this).parents(".collapsable:first").find(".post-metadata").toggle();
-		return false;
-	})
-})
+ * Eric's own twists to this design
+ ***/
+var eduncan911 = (function() {
+	var playerIndex = 0;
+	var init = function() {
+
+		// handle all audio players
+		audio.init();
+
+		// wire up any meta data for the page/post
+		$(".collapsable").each(function () {
+			$(".collapsable-trigger", this).click(function() {
+				$(this).parents(".collapsable:first").find(".post-metadata").toggle();
+				return false;
+			})
+		});
+	};
+
+	var audio = (function() {
+
+		var init = function() {
+			$("audio").each(function () {
+				var a = $(this);
+				a.attr("id", "audio" + playerIndex);
+				var m = a.attr("data-mins");
+				var s = a.attr("data-secs");
+				var t = a.attr("data-title");
+				a.before(renderTemplate(m, s, t, a.attr("id")));
+				playerIndex++;
+				bndEvents(this);
+			});
+		};
+
+		var renderTemplate = function(minutes, seconds, title, id) {
+			return '\
+<div class="audioplayer">\
+	<div class="button" id="' + id + '_button"><svg id="' + id + '_svg" viewBox="0 0 64 64" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1">\
+    <defs><style><![CDATA[ .hidden { display: none; } ]]></style></defs>\
+    <g id="play"><path id="play" d="M 0,0 64,32 0,64 z" /></g>\
+    <g id="stop" class="hidden"><path id="stop" d="M 0,64 H 64 V 0 H 0 z" /></g></svg></div>\
+	<div class="audioinfo">\
+		<div class="audiotext">\
+			<span class="audiocallout">Listen to the audio<br /></span>\
+			<span class="audiotitle">' + title +'</span>\
+		</div>\
+		<div class="audiotime">\
+		' + minutes + ' min ' + seconds + ' sec<br />\
+			<span class="audioposition" id="' + id + '_audioposition">00:00:00</span>\
+		</div>\
+	</div>\
+</div><div class="clear"></div>';
+		};
+		/*
+		<svg viewBox="0 0 64 64" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+		  <g><path id="stop" style="color:#004225" d="M 0,64 H 64 V 0 H 0 z"/></g>
+		</svg>
+		*/
+		var bndEvents = function(audio) {
+			if (typeof audio === 'undefined') { alert('oops, nothing found'); return; };
+			var index = $(audio).attr("id");
+			$("#" + index + "_button").click(function(){ audio.play(); return false; });
+
+			$(audio).bind("timeupdate", function() {
+				var time = Math.floor(audio.currentTime);
+				$("#" + index + "_audioposition").text(formatSecondsAsTime(time));
+			});
+			$(audio).bind("play", function() {
+				$("#" + index + "_button").click(function(){ audio.pause(); return false; });
+				$("#" + index + "_svg g#play").attr("class", "hidden");
+				$("#" + index + "_svg g#stop").attr("class", "");
+			});
+			$(audio).bind("pause ended error", function() {
+				$("#" + index + "_button").click(function(){ audio.play(); return false; });
+				$("#" + index + "_svg g#play").attr("class", "");
+				$("#" + index + "_svg g#stop").attr("class", "hidden");
+			});
+		};
+		var formatSecondsAsTime = function (secs) {
+		  var hr  = Math.floor(secs / 3600);
+		  var min = Math.floor((secs - (hr * 3600))/60);
+		  var sec = Math.floor(secs - (hr * 3600) -  (min * 60));
+		  if (hr < 10) hr = "0" + hr;
+		  if (min < 10) min = "0" + min; 
+		  if (sec < 10) sec  = "0" + sec;
+		  return hr + ":" + min + ':' + sec;
+		}
+		return {
+			init: init
+		};
+	})();
+
+	return {
+		init: init
+	};
+})();
+eduncan911.init();

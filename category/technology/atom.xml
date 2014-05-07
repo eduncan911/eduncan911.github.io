@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/technology/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-05-01T16:17:16-04:00</updated>
+  <updated>2014-05-06T21:47:18-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google Glass Distracting Drivers]]></title>
+    <link href="http://eduncan911.com/technology/google-glass-distracting-drivers.html"/>
+    <updated>2014-05-05T11:34:09-04:00</updated>
+    <id>http://eduncan911.com/technology/google-glass-distracting-drivers</id>
+    <content type="html"><![CDATA[<p><a href="http://www.npr.org/blogs/alltechconsidered/2014/03/24/289802359/does-google-glass-distract-drivers-the-debate-is-on">Does Google Glass Distract Drivers? The Debate Is On</a></p>
+
+<p><img src="/blog/images/Google_Glass_Distracting_While_Driving.jpg" title="Google Glass Driving" ></p>
+
+<p>I have several friends, CEOs, CTOs and even strangers tell me they can talk and drive, they can text and drive, they are good drivers, etc.</p>
+
+<p>I&rsquo;ve always rebuttaled that the human brain can only focus on a single context, at any given time.</p>
+
+<p><audio preload="none" data-mins="04" data-secs="42" data-title="NPR: Does Google Glass Distract Drivers?">
+<source src="http://pd.npr.org/anon.npr-mp3/npr/atc/2014/03/20140324_atc_does_google_glass_distract_drivers_the_debate_is_on.mp3">http://pd.npr.org/anon.npr-mp3/npr/atc/2014/03/20140324_atc_does_google_glass_distract_drivers_the_debate_is_on.mp3</a>" >
+Audio player not available in your browser. Please try a newer browser.
+</audio></p>
+
+<p>A quote in this story summed it up quite well:</p>
+
+<p><blockquote><p></p></p><p><p>Earl Miller, a professor of neuroscience at MIT who specializes in multitasking, says this sounds like wishful thinking.</p></p><p><p>&ldquo;You think you&rsquo;re monitoring the road at the same time, when actually what you&rsquo;re doing [is] you&rsquo;re relying on your brain&rsquo;s prediction that nothing was there before, half a second ago — that nothing is there now,&rdquo; he says. &ldquo;But that&rsquo;s an illusion. It can often lead to disastrous results.&rdquo;</p></p><p><p>In other words, the brain fills in the gaps in what you see with memories of what you saw a half-second ago. Among scientists, that statement is not controversial. The politics of Google Glass — and where it&rsquo;s worn — clearly is.</p></p><p><p></p><footer><strong>Does Google Glass Distract Drivers? The Debate Is On <a href="http://www.npr.org/blogs/alltechconsidered/2014/03/24/289802359/does-google-glass-distract-drivers-the-debate-is-on">http://www.npr.org/blogs/alltechconsidered/2014/03/24/289802359/does-google-glass-distract-drivers-the-debate-is-on</a></strong></footer></blockquote></p>
+
+<p>Bingo.  And this includes &ldquo;hands-free&rdquo; conversations as well as GPS.</p>
+
+<p>Then again, in 30 years we may evolve to actually have our brains multi-task.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bitcoin's IRS-blocking 'Dark Wallet' Launched Today]]></title>
