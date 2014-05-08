@@ -5,9 +5,9 @@
 <head>
   <meta charset="utf-8" />
 
-  <title>Responsive Design Begins With the URL - Eric Duncan</title>
+  <title>Look Up - Eric Duncan</title>
   <meta name="author" content="Eric Duncan" />
-  <meta name="description" content="May 7th, 2014 by Eric Duncan in design, software Responsive Design Begins With the URL Responsive Design Begins with the URL The core principle in &hellip;" />
+  <meta name="description" content="May 8th, 2014 by Eric Duncan in technology Look Up It&#8217;s not very likely you&#8217;ll make &#8220;World&#8217;s Greatest Dad&#8221;If you can&# &hellip;" />
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
   <meta name="MobileOptimized" content="320" />
   <meta property="og:site_name" content="Eric Duncan" />
   <meta property="og:type" content="article" />
-  <link rel="canonical" href="http://eduncan911.com/software/design/responsive-design-begins-with-the-url.html" />
+  <link rel="canonical" href="http://eduncan911.com/technology/look-up.html" />
   <link rel="alternate" href="/atom.xml" title="Eric Duncan" type="application/atom+xml" />
   <link rel="shortcut icon" href="/favicon.png" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" type="text/css" />
@@ -48,43 +48,43 @@
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
         <header class="post-header">   
         <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-05-07T11:27:36-04:00" content="2014-05-07T11:27:36-04:00" itemprop="datePublished">May 7<span>th</span>, 2014</time></span>
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-05-08T09:10:30-04:00" content="2014-05-08T09:10:30-04:00" itemprop="datePublished">May 8<span>th</span>, 2014</time></span>
           <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-          in <a class='category' href='/category/design/' rel='category tag'>design</a>, <a class='category' href='/category/software/' rel='category tag'>software</a>
+          in <a class='category' href='/category/technology/' rel='category tag'>technology</a>
         </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">Responsive Design Begins With the URL</a></h1>
+        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">Look Up</a></h1>
         <meta itemprop="url" content="" />
       </header>
       <section class="post-content" itemprop="articleBody">
 
 <!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
 
-<p><a href="http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url/">Responsive Design Begins with the URL</a></p>
-
-<blockquote><p><img src="/blog/images/responsive-design-url-schema.jpg" title="&#34;Responsive Design URL Schema&#34;" alt="&#34;Responsive Design URL Schema&#34;"></p><p>The core principle in creating a potentially enormous website that will last forever is to get the information architecture right in the first place. This involves knowing your data objects and how they fit together. It should also determine the URL structure, which for Programmes is the most important aspect. Take the URL for Top Gear’s home page:</p><p>http://www.bbc.co.uk/programmes/b006mj59</p><p>After the domain name comes the word “programmes,” which is a simple, unchanging English word. It is intended to describe the object, and is not a brand or product name. Plurals are used so that the URL can be hacked backwards to retrieve an index.</p><p>Next is the programme identifier. Note the lack of hierarchy and the lack of a title. Titles change over time, and many programmes do not have a unique title, which would cause a clash. Hierarchies also change — a one-off pilot could be commissioned for a full series. Understanding your objects allows you to recognize what is permanent. In this case, nothing is particularly guaranteed to be permanent, so a simple ID is used instead. Users aren’t expected to type these URLs, though. They will usually arrive through a search engine or by typing in a friendly redirect that has been read out on air, such as bbc.co.uk/topgear. But the key principle of a permanent URL is that inward links are trusted to be shareable and work forever. Cool URIs don’t change.</p><p>A clear information architecture defines the URL scheme. A piece of content is given a clear canonical home, where appropriate. Links and aggregations between them then clearly appear.</p><footer><strong>David Marland</strong> <cite><a href='http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url'>Responsive Design Begins With the URL</a></cite></footer></blockquote>
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Z7dLU6fk9QY "></iframe></div>
 
 
-<p>For a decade I have spent a considerable amount of time getting the URLs <em>right</em> for what the user was looking at.  I must have gone through 20 different iterations over the years trying out all sorts of designs, deep linking, &ldquo;walk the url backwards&rdquo; and so on.</p>
-
-<p>You can see on my static site blog here that I paid close attention as well, trying out yet another theme.  I am on my 4th iteration of a url schema for my blog and it has become a PITA when having to keep redirects working of old urls, especially on <a href="https://github.com/eduncan911/eduncan911.github.io/tree/master/blog">this static site with no URL rewrite module</a>.</p>
-
-<p>I almost went the <em>post_id</em> route here on this iteration; but, Jekyll (and therefore Octopress) makes the title url-safe already so I kept it.  Besides that, I agree that urls should play a role in your web architecture.</p>
-
-<p>As long as we are talking about it, ASP.NET MVC&rsquo;s default <code>/Controller/Action/Id</code> has always pissed me off since I first started using it back in 2007.  Coming from a pure-RESTful background, the pure REST urls are more similar to <code>/Controller/Id/Action</code> so you end up with urls like this:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>/product/2832/
-</span><span class='line'>/product/2832/edit
-</span><span class='line'>/product/2832/clips
-</span><span class='line'>/product/2832/videos</span></code></pre></td></tr></table></div></figure>
 
 
-<p>And so on.  Which, actually, falls inline with what the BBC article above was saying.</p>
+<blockquote><p>It&#8217;s not very likely you&#8217;ll make &#8220;World&#8217;s Greatest Dad&#8221;<br/>If you can&#8217;t entertain a child without using an iPad.</p><p>When I was a child I&#8217;d never be home.  <br/>Be out with my friends on our bikes and we&#8217;d roam.<br/>And wear holes in my trainers and graze up my knees<br/>And build our own clubhouse high up in the trees.</p><p>Now the park is so quiet it gives me a chill.<br/>See no children outside and the swings hanging still.<br/>There&#8217;s no skipping, no hopscotch, no church and no steeple.<br/>We&#8217;re a generation of idiots, smartphones and dumb people.</p><footer><strong>Gary Turk</strong> <cite><a href='https://www.youtube.com/watch?v=Z7dLU6fk9QY'>www.youtube.com/&hellip;</a></cite></footer></blockquote>
 
-<p><em>HatTip ForgetFoo</em></p>
+
+<p>I remember an NPR segment from around ~2008 when I moved to New York hot on the heels of the 2nd generation iPhone, the 3G.  It talked about our society was already significantly affected by the 1st gen iPhone in that we were becoming a race of robots, always starring down at our smartphone.</p>
+
+<p>It went as far as to say how rude it is to look down at your phone at dinner, or while someone was talking to you.  It made a good case about social interactions > your email, to the point of branding you a jackass if you did it.</p>
+
+<p>That segment (sorry, can&rsquo;t find it) changed my view entirely on social interactions and made me overly conscience on my &ldquo;mobile use&rdquo;, along with observing others and their &ldquo;mobile habits.&rdquo;</p>
+
+<p>I tried not to be the asshole that said, &ldquo;Hey, put down your phone and look at me.&rdquo;  Instead, I used other hints that were in the NPR segment such as when noticing someone is paying attention to their mobile device and not looking at you while you are talking, just pause your sentence.  You&rsquo;ll find out that on average 5 seconds go by until they &ldquo;Look Up.&rdquo; Or, you could simply offer a visual clue that they have to focus on.</p>
+
+<p>I am happy to report that after 6 years of this, I find myself placing my smartphone on the table yes; but, I do not do this to monitor it or look at it.  I do this to get the huge 5&#8221; screen bulk + bumper cover out of my pocket so I can sit down.  I place it face down so not to disturb me and to give complete focus to the person(s) I am sitting with.  I am happy to report that some even have had taken notice and started to do the same, even coming back to report to me how it changed their social interactions.</p>
+
+<p>Fast forward to my nearly 3 year old daughter I have now, and this video.  I&rsquo;ve reviewed the results of quite a lot of studies on child raising and these tablets and smartphones.  It basically came down to one thing:</p>
+
+<blockquote><p>Make it a learning experience for the child and learn together with them.  Do not use as an entertainment device and do not leave them alone with it.</p></blockquote>
+
+
+<p>In addition, I take my daughter to the playground in the park often.  The vast majority of the time, there are no kids &ndash; we are the only ones there.  We experience <em>the swings hanging still</em> all too often &ndash; until we jump into them.</p>
+
+<p>~E</p>
 
 
 <!-- END MARKDOWN CONTENT -->
@@ -93,9 +93,8 @@
 
       <section class="collapsable history">
         <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
-        <ul class="post-metadata"><li><strong>Wed May 7 13:00:57 2014</strong><br/>removing formatting in blockquote, this markdown parser doesn't support formatting within blockquotes, ugh!
-</li><li><strong>Wed May 7 11:49:44 2014</strong><br/>new post
-</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2014-05-07-responsive-design-begins-with-the-url.markdown target=_blank>Github</a></p>
+        <ul class="post-metadata"><li><strong>Thu May 8 11:32:31 2014</strong><br/>new post
+</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2014-05-08-look-up.markdown target=_blank>Github</a></p>
       </section>
 
       <section class="collapsable author">
@@ -109,8 +108,8 @@
       </section> -->
       <nav class="pagination navigation paging-navigation" role="navigation">
         <div class="nav-links">
-          <div class="older-posts"><a href="/technology/google-glass-distracting-drivers.html" title="Previous Post: Google Glass Distracting Drivers">&laquo; Google Glass Distracting Drivers</a></div>
-          <div class="newer-posts"><a href="/technology/look-up.html" title="Next Post: Look Up">Look Up &raquo;</a></div>
+          <div class="older-posts"><a href="/software/design/responsive-design-begins-with-the-url.html" title="Previous Post: Responsive Design Begins with the URL">&laquo; Responsive Design Begins with the URL</a></div>
+          
         </div>
       </nav>
       <div class="clear"></div>
@@ -156,8 +155,8 @@
     
       
       // var disqus_developer = 1;
-      var disqus_identifier = 'http://eduncan911.com/software/design/responsive-design-begins-with-the-url.html';
-      var disqus_url = 'http://eduncan911.com/software/design/responsive-design-begins-with-the-url.html';
+      var disqus_identifier = 'http://eduncan911.com/technology/look-up.html';
+      var disqus_url = 'http://eduncan911.com/technology/look-up.html';
       var disqus_script = 'embed.js';
     
     (function () {
