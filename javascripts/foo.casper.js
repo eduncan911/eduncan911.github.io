@@ -50,22 +50,78 @@
  ***/
 var eduncan911 = (function() {
 	var playerIndex = 0;
+
 	var init = function() {
+
+		// wire up the posts and pages content
+		posts.init();
 
 		// handle all audio players
 		audio.init();
 
-		// wire up any meta data for the page/post
-		$(".collapsable").each(function () {
-			$(".collapsable-trigger", this).click(function() {
-				$(this).parents(".collapsable:first").find(".post-metadata").toggle();
-				return false;
-			})
-		});
 	};
 
-	var audio = (function() {
+	var posts = (function() {
+		var disqusPublicKey = 'p5ah01gnHyXhmQgrsBgkPQlcXA8QuHqiPEDSSiCW1ZmBlyqpc7pUMmUtaXtwWaxk';
+		var disqusShortname = 'eduncan911com';
 
+		var init = function() {
+
+			bindMetadataClickEvents();
+			displayCommentCounts();
+		
+		};
+
+		var displayCommentCounts = function() {
+			// are we on a post index page?  if not, exit
+			var commentCountsAnchors = $(".comment-count");
+			if (typeof commentCountsAnchors === 'undefined')
+				return;
+
+			// get an array of all posts we want comment counts for
+			var urlArray = [];
+			commentCountsAnchors.each(function () {
+			  var url = $(this).attr('data-disqus-url');
+			  urlArray.push('link:' + url);
+			});
+			if (urlArray.length == 0)
+				return;
+
+			// reach out to disqus with out collection
+			$.ajax({
+		    type: 'GET',
+		    url: "https://disqus.com/api/3.0/threads/set.jsonp",
+		    data: { api_key: disqusPublicKey, forum : disqusShortname, thread : urlArray },
+		    cache: true,
+		    dataType: 'jsonp',
+		    success: function (result) {
+		      for (var i in result.response) {
+		        var countText = " comments";
+		        var count = result.response[i].posts;
+		        if (count == 1)
+		          countText = " comment";
+		        $('a[data-disqus-url="' + result.response[i].link + '"]').html(count + countText);
+		      }
+		    }
+		  });
+		};
+
+		var bindMetadataClickEvents = function() {
+			// wire up any meta data for the page/post
+			$(".collapsable").each(function () {
+				$(".collapsable-trigger", this).click(function() {
+					$(this).parents(".collapsable:first").find(".post-metadata").toggle();
+					return false;
+				})
+			});
+		};
+
+		return {
+			init: init
+		};
+	})();
+
+	var audio = (function() {
 		var init = function() {
 			$("audio").each(function () {
 				var a = $(this);

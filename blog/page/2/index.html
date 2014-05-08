@@ -47,6 +47,7 @@
   <main id="content" class="content" role="main">
   
   
+  
     
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
       <header class="post-header">   
@@ -68,14 +69,48 @@ Lenovo Helix ultrabook/tablet.  In doing so, I needed a stylus for the active
 digitizer as the one that came with the Helix just isn&rsquo;t going to work for
 diagramming and sketching.</p>
 
+<h2>Research: Styluses for the Lenovo Helix</h2>
+
+<p>I had a problem: I was obsessed for days reading every blog, review and comment
+and watching every video I could find online to figure out what stylus would work
+with the Wacom Active Digitizer that is built into the Helix.</p>
+
+<p>Sadly, I couldn&rsquo;t find a straight answer.</p>
+
+<h2>Wacom ZP501ESE Intuos3 Special Edition Grip Pen</h2>
+
+<p>This is the pen I decided on.  It arrived today and I immediately ripped it open
+only to find out it didn&rsquo;t work.  And yes, I removed the OEM stylus cause there is
+a switch that disables the digitizer when the pen is inserted to save battery.</p>
+
+<h2>So which one?</h2>
+
+<p>Now that I am armed with new search queries <em>e.g. Lenovo Helix Intuos3 doesn&rsquo;t work</em>,
+I&rsquo;ve found new pages with additional info that I wish I&rsquo;d found in the first place.</p>
+
+<p>Usually I am diligent enough to find these errors ahead of time.  But, I failed this
+time around and I&rsquo;m having fun writing on my new Octopress blog &ndash; so, why not whip
+up a quick post to let others know.</p>
+
+<p>I found <a href="http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2">this thread</a>
+that was the most helpful in figuring out which stylus to get.  Specifically, this post:</p>
+
+<blockquote><p>FYI, the Wacom Penabled Digitizer system is not compatible with Intuos, Cintiq, and Bamboo Tablet pens.<br/> <br/>Any other Wacom Penabled Tablet PC Pen will work (as mentioned, Series 7 slate, Asus EP121, Lenovo ThinkPad Tablet 2, Lenovo X61 - X230T series, Fujitsu T900 series, Motion F5t, Wacom Bamboo Feel pens to name just a few).<br/> <br/>Additionally the Wacom Pen Display Pens will work (eg DTU- series).<br/> <br/>These pens come in different shapes, sizes and button configurations, but the pen must match up with the digitizer system that is built into the tablet and many people aren&#8217;t aware that Wacom have different systems.<br/> <br/>The Penabled system is not as advanced as the Intuos or Cintiq unfortunately (fewer pressure degrees, no tilt angles etc), but still very impressive and useful.</p><footer><strong>Brett Gilbertson - Microsoft Tablet and Touch MVP</strong> <cite><a href='http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2'>Wacom Intuos 4 Pen Doesn&#8217;t Work on Helix</a></cite></footer></blockquote>
 
 
-  
-        <a rel="full-article" href="/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix.html">Read on &rarr;</a>
+<p>Well, there we have it.  NewEgg, a return is coming!</p>
+
+<p>~E</p>
+
+
   
 
 <!-- END MARKDOWN CONTENT -->
 
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="The Wacom Intuos3/4 Is Incompatible With the Lenovo Helix" href="/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix.html#comments" data-disqus-url="http://eduncan911.com/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix.html">Comments</a>
       </section>
     </article>
   
@@ -102,14 +137,908 @@ with <a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> now that I am us
 <p>In this post, I am documenting the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.</p>
 
+<h2>Ruby on Windows? No, Yari on Windows</h2>
+
+<p>This is my first exposure to Ruby.  I know, I&rsquo;ve been closed off to anything non-.NET since, well, .NET in 2002.  With that the first
+steps to getting ruby installed.  A few quick searches yielded some issues with Windows and Ruby and Octopress, until I ran across
+<a href="http://blog.zerosharp.com/setting-up-octopress-on-windows-again/">Robert Anderson&rsquo;s Octopress install</a>.</p>
+
+<p>They key point to this type of installing is this golden snippet:</p>
+
+<blockquote><p>Use yari instead of RVM/rbenv</p><p>Scott Muc has written yari which lets you switch between Windows Ruby versions.</p><footer><strong>Robert Anderson</strong> <cite><a href='http://blog.zerosharp.com/setting-up-octopress-on-windows-again/'>Setting Up Octopress on Windows Again</a></cite></footer></blockquote>
 
 
-  
-        <a rel="full-article" href="/software/octopress-powershell-and-posh-git-oh-my.html">Read on &rarr;</a>
+
+
+<!-- TODO: Unfortunately this didn't work for me out right.  I had some issues with the `gem install bundler` command that generated a lot of missing
+dependencies. -->
+
+
+<p>Once all dependencies are fixed up, it&rsquo;s onto following the setup guide over at Octopress:</p>
+
+<p><a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></p>
+
+<h2><code>&gt; rake setup_github_pages</code></h2>
+
+<p>Now, I am going to use GitHub Pages for my static blog hosting.  Those are the instructions I am going to focus on here and below.</p>
+
+<p>The next step is to call the task to setup your repo for GitHub deployments.  Just take a quick gander a what it does,
+as listed on the Octopress install guide:</p>
+
+<ol>
+<li>Ask for and store your Github Pages repository url.</li>
+<li>Rename the remote pointing to imathis/octopress from &lsquo;origin&rsquo; to &lsquo;octopress&rsquo;</li>
+<li>Add your Github Pages repository as the default origin remote.</li>
+<li>Switch the active branch from master to source.</li>
+<li>Configure your blog&rsquo;s url according to your repository.</li>
+<li>Setup a master branch in the _deploy directory for deployment.</li>
+</ol>
+
+
+<p>If that sounds like a lot, wait until you see what actually does happen below.  So, we&rsquo;ll run it and look at the output:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [master +2 ~1 -0 !]&gt; rake setup_github_pages
+</span><span class='line'>## Set the codepage to 65001 for Windows machines
+</span><span class='line'>Enter the read/write url for your repository
+</span><span class='line'>(For example, 'git@github.com:your_username/your_username.github.io.git)
+</span><span class='line'>           or 'https://github.com/your_username/your_username.github.io')
+</span><span class='line'>Repository url: git@github.com:eduncan911/eduncan911.github.io.git
+</span><span class='line'>fatal: remote origin already exists.
+</span><span class='line'>Added remote git@github.com:eduncan911/eduncan911.github.io.git as origin
+</span><span class='line'>Set origin as default remote
+</span><span class='line'>Master branch renamed to 'source' for committing your blog source files
+</span><span class='line'>rm -rf _deploy
+</span><span class='line'>mkdir _deploy
+</span><span class='line'>cd _deploy
+</span><span class='line'>Initialized empty Git repository in C:/gd/code/eduncan911/_deploy/.git/
+</span><span class='line'>'My Octopress Page is coming soon
+</span><span class='line'>'hellip' is not recognized as an internal or external command, operable program or batch file.
+</span><span class='line'>[master (root-commit) f1e0e3f] Octopress init
+</span><span class='line'> 1 file changed, 0 insertions(+), 0 deletions(-)
+</span><span class='line'> create mode 100644 index.html
+</span><span class='line'>fatal: remote origin already exists.
+</span><span class='line'>cd -
+</span><span class='line'>
+</span><span class='line'>---
+</span><span class='line'>## Now you can deploy to git@github.com:eduncan911/eduncan911.github.io.git with `rake deploy` ##
+</span><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Btw, kudos to the developers of Octopress to put this much output in the build processes &ndash; makes
+things much easier to debug than the vast majority of scripts you run.</p>
+
+<p>But doh!  We have our first stumbling blocks.  We have a number of errors to work out here, three exactly.</p>
+
+<p>Fortunately, <code>line 7</code> is an extremely common problem when working git.  Unfortunately though,
+the common fixes doesn&rsquo;t seem to work with any Posh-Git install I&rsquo;ve used to date.</p>
+
+<p>Before we get to that though, let&rsquo;s take a look at the ruby task to see exactly what is going on
+before we jump to any conclusions.</p>
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">desc</span> <span class="s2">&quot;Set up _deploy folder and deploy branch for Github Pages deployment&quot;</span>
+</span><span class='line'><span class="n">task</span> <span class="ss">:setup_github_pages</span><span class="p">,</span> <span class="ss">:repo</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="p">,</span> <span class="n">args</span><span class="o">|</span>
+</span><span class='line'>  <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">repo</span>
+</span><span class='line'>    <span class="n">repo_url</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">repo</span>
+</span><span class='line'>  <span class="k">else</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;Enter the read/write url for your repository&quot;</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;(For example, &#39;git@github.com:your_username/your_username.github.io.git)&quot;</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;           or &#39;https://github.com/your_username/your_username.github.io&#39;)&quot;</span>
+</span><span class='line'>    <span class="n">repo_url</span> <span class="o">=</span> <span class="n">get_stdin</span><span class="p">(</span><span class="s2">&quot;Repository url: &quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">protocol</span> <span class="o">=</span> <span class="p">(</span><span class="n">repo_url</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/(^git)@/</span><span class="p">)</span><span class="o">.</span><span class="n">nil?</span><span class="p">)</span> <span class="p">?</span> <span class="s1">&#39;https&#39;</span> <span class="p">:</span> <span class="s1">&#39;git&#39;</span>
+</span><span class='line'>  <span class="k">if</span> <span class="n">protocol</span> <span class="o">==</span> <span class="s1">&#39;git&#39;</span>
+</span><span class='line'>    <span class="n">user</span> <span class="o">=</span> <span class="n">repo_url</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/:([^\/]+)/</span><span class="p">)</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span>
+</span><span class='line'>  <span class="k">else</span>
+</span><span class='line'>    <span class="n">user</span> <span class="o">=</span> <span class="n">repo_url</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/github\.com\/([^\/]+)/</span><span class="p">)</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">branch</span> <span class="o">=</span> <span class="p">(</span><span class="n">repo_url</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/\/[\w-]+\.github\.(?:io|com)/</span><span class="p">)</span><span class="o">.</span><span class="n">nil?</span><span class="p">)</span> <span class="p">?</span> <span class="s1">&#39;gh-pages&#39;</span> <span class="p">:</span> <span class="s1">&#39;master&#39;</span>
+</span><span class='line'>  <span class="n">project</span> <span class="o">=</span> <span class="p">(</span><span class="n">branch</span> <span class="o">==</span> <span class="s1">&#39;gh-pages&#39;</span><span class="p">)</span> <span class="p">?</span> <span class="n">repo_url</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/\/([^\.]+)/</span><span class="p">)</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="p">:</span> <span class="s1">&#39;&#39;</span>
+</span><span class='line'>  <span class="k">unless</span> <span class="p">(</span><span class="sb">`git remote -v`</span> <span class="o">=~</span> <span class="sr">/origin.+?octopress(?:\.git)?/</span><span class="p">)</span><span class="o">.</span><span class="n">nil?</span>
+</span><span class='line'>    <span class="c1"># If octopress is still the origin remote (from cloning) rename it to octopress</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git remote rename origin octopress&quot;</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">branch</span> <span class="o">==</span> <span class="s1">&#39;master&#39;</span>
+</span><span class='line'>      <span class="c1"># If this is a user/organization pages repository, add the correct origin remote</span>
+</span><span class='line'>      <span class="c1"># and checkout the source branch for committing changes to the blog source.</span>
+</span><span class='line'>      <span class="nb">system</span> <span class="s2">&quot;git remote add origin </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>      <span class="nb">puts</span> <span class="s2">&quot;Added remote </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2"> as origin&quot;</span>
+</span><span class='line'>      <span class="nb">system</span> <span class="s2">&quot;git config branch.master.remote origin&quot;</span>
+</span><span class='line'>      <span class="nb">puts</span> <span class="s2">&quot;Set origin as default remote&quot;</span>
+</span><span class='line'>      <span class="nb">system</span> <span class="s2">&quot;git branch -m master source&quot;</span>
+</span><span class='line'>      <span class="nb">puts</span> <span class="s2">&quot;Master branch renamed to &#39;source&#39; for committing your blog source files&quot;</span>
+</span><span class='line'>    <span class="k">else</span>
+</span><span class='line'>      <span class="k">unless</span> <span class="o">!</span><span class="n">public_dir</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">#{</span><span class="n">project</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">nil?</span>
+</span><span class='line'>        <span class="nb">system</span> <span class="s2">&quot;rake set_root_dir[</span><span class="si">#{</span><span class="n">project</span><span class="si">}</span><span class="s2">]&quot;</span>
+</span><span class='line'>      <span class="k">end</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">jekyll_config</span> <span class="o">=</span> <span class="no">IO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s1">&#39;_config.yml&#39;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">jekyll_config</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/^url:.*$/</span><span class="p">,</span> <span class="s2">&quot;url: </span><span class="si">#{</span><span class="n">blog_url</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">project</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;_config.yml&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">f</span><span class="o">.</span><span class="n">write</span> <span class="n">jekyll_config</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">rm_rf</span> <span class="n">deploy_dir</span>
+</span><span class='line'>  <span class="n">mkdir</span> <span class="n">deploy_dir</span>
+</span><span class='line'>  <span class="n">cd</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">do</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git init&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;echo &#39;My Octopress Page is coming soon &amp;hellip;&#39; &gt; index.html&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -m </span><span class="se">\&quot;</span><span class="s2">Octopress init</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git branch -m gh-pages&quot;</span> <span class="k">unless</span> <span class="n">branch</span> <span class="o">==</span> <span class="s1">&#39;master&#39;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git remote add origin </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="n">rakefile</span> <span class="o">=</span> <span class="no">IO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">rakefile</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/deploy_branch(\s*)=(\s*)([&quot;&#39;])[\w-]*[&quot;&#39;]/</span><span class="p">,</span> <span class="s2">&quot;deploy_branch</span><span class="se">\\</span><span class="s2">1=</span><span class="se">\\</span><span class="s2">2</span><span class="se">\\</span><span class="s2">3</span><span class="si">#{</span><span class="n">branch</span><span class="si">}</span><span class="se">\\</span><span class="s2">3&quot;</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">rakefile</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/deploy_default(\s*)=(\s*)([&quot;&#39;])[\w-]*[&quot;&#39;]/</span><span class="p">,</span> <span class="s2">&quot;deploy_default</span><span class="se">\\</span><span class="s2">1=</span><span class="se">\\</span><span class="s2">2</span><span class="se">\\</span><span class="s2">3push</span><span class="se">\\</span><span class="s2">3&quot;</span><span class="p">)</span>
+</span><span class='line'>    <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+</span><span class='line'>      <span class="n">f</span><span class="o">.</span><span class="n">write</span> <span class="n">rakefile</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">---</span><span class="se">\n</span><span class="s2">## Now you can deploy to </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2"> with `rake deploy` ##&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Let&rsquo;s step through what this task does to our repo:</p>
+
+<!-- start:20 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># If octopress is still the origin remote (from cloning) rename it to octopress</span>
+</span><span class='line'><span class="nb">system</span> <span class="s2">&quot;git remote rename origin octopress&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ok, no problem.  We are renaming origin.  But what you don&rsquo;t know is with Posh-Git, when
+you rename origin, it seems creates an empty origin!  So, when the next system command executes:</p>
+
+<!-- start:22 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">if</span> <span class="n">branch</span> <span class="o">==</span> <span class="s1">&#39;master&#39;</span>
+</span><span class='line'>  <span class="c1"># If this is a user/organization pages repository, add the correct origin remote</span>
+</span><span class='line'>  <span class="c1"># and checkout the source branch for committing changes to the blog source.</span>
+</span><span class='line'>  <span class="nb">system</span> <span class="s2">&quot;git remote add origin </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2">&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>We get our first error, <code>fatal: remote origin already exists.</code></p>
+
+<p>Ok, back on task of what the <code>RakeFile</code> is doing to move forward.</p>
+
+<!--  start:26 mark:27,29 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;Added remote </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2"> as origin&quot;</span>
+</span><span class='line'>  <span class="nb">system</span> <span class="s2">&quot;git config branch.master.remote origin&quot;</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;Set origin as default remote&quot;</span>
+</span><span class='line'>  <span class="nb">system</span> <span class="s2">&quot;git branch -m master source&quot;</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;Master branch renamed to &#39;source&#39; for committing your blog source files&quot;</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'>  <span class="k">unless</span> <span class="o">!</span><span class="n">public_dir</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">#{</span><span class="n">project</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">nil?</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;rake set_root_dir[</span><span class="si">#{</span><span class="n">project</span><span class="si">}</span><span class="s2">]&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>  <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Interesting.  I haven&rsquo;t seen this in my git-ninja code before.  A quick Google and we come up
+with this SO answer on how to setup master to track a remote branch:</p>
+
+<blockquote><p>You can do the following (assuming you are checked out on master and want to push to a remote branch master):</p><p>Set up the &#8216;remote&#8217; if you don&#8217;t have it already</p><p># git remote add origin ssh://&#8230;<br/>Now configure master to know to track:</p><p># git config branch.master.remote origin<br/># git config branch.master.merge refs/heads/master<br/>And push:</p><p># git push origin master</p><footer><strong>Paul Hedderly</strong> <cite><a href='http://stackoverflow.com/a/625460/56693'>stackoverflow.com/a/625460/&hellip;</a></cite></footer></blockquote>
+
+
+<p>So now we have master tracking a remote branch and on <code>line 29</code>, we&rsquo;ve renamed master to a new branch
+called <code>source</code> (which also switches us to <code>source</code> for future commands).</p>
+
+<p>Continuing&hellip;</p>
+
+<!--  start:37 mark:45-48 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">jekyll_config</span> <span class="o">=</span> <span class="no">IO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s1">&#39;_config.yml&#39;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">jekyll_config</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/^url:.*$/</span><span class="p">,</span> <span class="s2">&quot;url: </span><span class="si">#{</span><span class="n">blog_url</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">project</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;_config.yml&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">f</span><span class="o">.</span><span class="n">write</span> <span class="n">jekyll_config</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">rm_rf</span> <span class="n">deploy_dir</span>
+</span><span class='line'>  <span class="n">mkdir</span> <span class="n">deploy_dir</span>
+</span><span class='line'>  <span class="n">cd</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">do</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git init&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;echo &#39;My Octopress Page is coming soon &amp;hellip;&#39; &gt; index.html&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -m </span><span class="se">\&quot;</span><span class="s2">Octopress init</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ah, we are create a new directory (<code>_deploy</code> by default Octopress config) and by calling
+<code>git init</code> we create a new bank repo!  This was not clear to me as to why at first, until I got things
+working.  You&rsquo;ll see why in a bit.</p>
+
+<p>And look here, on <code>line 46</code>, we have our 2nd error in the output.  It would seem this
+is a parsing typo on Windows machines.  So, we never get this index.html file!  No biggie,
+we&rsquo;ll be replacing that very shortly anyways.</p>
+
+<p>Let&rsquo;s move forward.</p>
+
+<!-- start:49 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">system</span> <span class="s2">&quot;git branch -m gh-pages&quot;</span> <span class="k">unless</span> <span class="n">branch</span> <span class="o">==</span> <span class="s1">&#39;master&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is my first Ruby playground, so I am not exactly sure what this line does.  I would say we create
+a branch called gh-pages, but that is for GitHub Projects (for corporate accounts), not our
+GitHub Pages that we using here.</p>
+
+<p>I suspect the <code>unless branch == 'master'</code> is what prevents this line from running on my installation.</p>
+
+<!-- start:50 mark:50 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">system</span> <span class="s2">&quot;git remote add origin </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="n">rakefile</span> <span class="o">=</span> <span class="no">IO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">)</span>
+</span><span class='line'><span class="n">rakefile</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/deploy_branch(\s*)=(\s*)([&quot;&#39;])[\w-]*[&quot;&#39;]/</span><span class="p">,</span> <span class="s2">&quot;deploy_branch</span><span class="se">\\</span><span class="s2">1=</span><span class="se">\\</span><span class="s2">2</span><span class="se">\\</span><span class="s2">3</span><span class="si">#{</span><span class="n">branch</span><span class="si">}</span><span class="se">\\</span><span class="s2">3&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="n">rakefile</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/deploy_default(\s*)=(\s*)([&quot;&#39;])[\w-]*[&quot;&#39;]/</span><span class="p">,</span> <span class="s2">&quot;deploy_default</span><span class="se">\\</span><span class="s2">1=</span><span class="se">\\</span><span class="s2">2</span><span class="se">\\</span><span class="s2">3push</span><span class="se">\\</span><span class="s2">3&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">f</span><span class="o">.</span><span class="n">write</span> <span class="n">rakefile</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">---</span><span class="se">\n</span><span class="s2">## Now you can deploy to </span><span class="si">#{</span><span class="n">repo_url</span><span class="si">}</span><span class="s2"> with `rake deploy` ##&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally we are at the end.  Let&rsquo;s see, back on <code>line 48</code> we are sitting in a new directory
+called <code>_deploy</code> with a new clean <code>git init</code>.  So, on <code>line 50</code> we add a remote for origin&hellip;</p>
+
+<p>And get our 3rd and final error, that we have already seen before.</p>
+
+<h3>fatal: remote origin already exists</h3>
+
+<p>As I mentioned earlier, this is most likely because Posh-Git already creates an origin and never
+leaves an empty remote.</p>
+
+<p>I&rsquo;ve seen this <a href="https://www.google.com/search?q=fatal%3A+remote+origin+already+exists&amp;oq=fatal%3A+remote+origin+already+exists&amp;aqs=chrome..69i57j69i58.840j0j7&amp;sourceid=chrome&amp;espv=210&amp;es_sm=122&amp;ie=UTF-8">fatal: remote origin already exists</a>
+error all too often and it usually means you already have an origin and cannot add another one.  Usually <code>git</code> on Linux allows you to fix with a set of simple and meaningful commands:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># pseudo code, not actually used during this install guide</span>
+</span><span class='line'><span class="nv">$ </span>git remote add temp user@my-url.com/repo.git
+</span><span class='line'><span class="nv">$ </span>git remote rm origin
+</span><span class='line'><span class="nv">$ </span>git remote add origin user@my-url.com/repo.git
+</span><span class='line'><span class="nv">$ </span>git remote rm temp
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But this has never worked for me using Posh-Git.  When trying to remove origin with Posh-Git, you get a new and blocking
+error:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote rm origin
+</span><span class='line'>error: Could not remove config section 'remote.origin'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Searching online basically leads you to a dead end in that this normally works using other versions of git.  I did stumble upon
+a related SO question about remotes using <code>set-url</code>, which <a href="http://stackoverflow.com/a/22826225/56693">lead me to come up with this solution</a>:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote -v
+</span><span class='line'>octopress       git://github.com/imathis/octopress.git (fetch)
+</span><span class='line'>octopress       git://github.com/imathis/octopress.git (push)
+</span><span class='line'>origin</span></code></pre></td></tr></table></div></figure>
+
+
+<p>As you can see, the <code>rake setup_github_pages</code> has renamed our origin to octopress.  But Posh-Git seemed to have created
+another empty origin and it won&rsquo;t the script add one.  Let&rsquo;s fix that:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
+</span><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; git remote -v
+</span><span class='line'>octopress       git://github.com/imathis/octopress.git (fetch)
+</span><span class='line'>octopress       git://github.com/imathis/octopress.git (push)
+</span><span class='line'>origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
+</span><span class='line'>origin  git@github.com:eduncan911/eduncan911.github.io.git (push)</span></code></pre></td></tr></table></div></figure>
+
+
+<p>There we go.  Let&rsquo;s <code>rake</code> that <code>setup_github_pages</code> script again, shall we?</p>
+
+<!-- mark:17 -->
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; rake setup_github_pages
+</span><span class='line'>## Set the codepage to 65001 for Windows machines
+</span><span class='line'>Enter the read/write url for your repository
+</span><span class='line'>(For example, 'git@github.com:your_username/your_username.github.io.git)
+</span><span class='line'>           or 'https://github.com/your_username/your_username.github.io')
+</span><span class='line'>Repository url: git@github.com:eduncan911/eduncan911.github.io.git
+</span><span class='line'>rm -rf _deploy
+</span><span class='line'>mkdir _deploy
+</span><span class='line'>cd _deploy
+</span><span class='line'>Initialized empty Git repository in C:/gd/code/eduncan911/_deploy/.git/
+</span><span class='line'>'My Octopress Page is coming soon
+</span><span class='line'>'hellip' is not recognized as an internal or external command,
+</span><span class='line'>operable program or batch file.
+</span><span class='line'>[master (root-commit) 27d2dd5] Octopress init
+</span><span class='line'> 1 file changed, 0 insertions(+), 0 deletions(-)
+</span><span class='line'> create mode 100644 index.html
+</span><span class='line'>fatal: remote origin already exists.
+</span><span class='line'>cd -
+</span><span class='line'>
+</span><span class='line'>---
+</span><span class='line'>## Now you can deploy to git@github.com:eduncan911/eduncan911.github.io.git with `rake deploy` ##</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Well crap. We still get that <code>fatal: remote origin already exists</code> on <code>line 17</code> error after all we did!</p>
+
+<p>Ah, but remember what I said earlier about a directory called <code>_deploy</code>?  They are making a new repo
+and setting up the <code>origin</code> manually.</p>
+
+<p>So, we have to set that <code>origin</code> ourselves again.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; cd .\_deploy
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+</span><span class='line'>origin</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is just checking to see what was there and as we suspected the <code>git remote add origin</code> command in the task did not work.</p>
+
+<p>You may also notice that when you change directories to the <code>_deploy</code> new repo, we are on <code>master</code> now of a different repo.
+We were previously on `source&#8217; branch of the root repo from the previous scripts.</p>
+
+<p>So let&rsquo;s fix that up.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+</span><span class='line'>origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
+</span><span class='line'>origin  git@github.com:eduncan911/eduncan911.github.io.git (push)
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; cd ..
+</span><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; </span></code></pre></td></tr></table></div></figure>
+
+
+<p>There we go.  All fixed up and ready to continue.  Make sure to change directories <code>cd ..</code> to backup to where you were
+before continuing.</p>
+
+<p>At this point, it is not necessary to run the <code>rake setup_github_pages</code> again because the script continues even with
+errors, as we&rsquo;ve seen above.  The last part of the script seems to modify the <code>RakeFile</code>.  We&rsquo;ll leave that for another
+topic as we want to keep hacking on our new blog to get it up.</p>
+
+<p class='info ' data-title=''>To the keen observer, you may notice that we have two branches of the same repo:</p>
+
+
+<p>git@github.com:eduncan911/eduncan911.github.io.git<br/># master<br/># source</p>
+
+
+<p>The first part of Octopress&#8217; instructions for github actually branches what you cloned from Octopress&#8217; github<br/>into a source branch.  Ok, check.</p>
+
+
+<p>But recall that we created a sub-directory called _deploy and we git init a new clean repo there.  It was<br/>already set to master, and finally we made its origin the same as our original source.</p>
+
+
+<p>What this means is now you will have two branches with completely different code.  Your source branch is what<br/>you will work from, commit to and push up.  While the Octopress ruby framework will handle the generation of the<br/>static site and deployments to the master branch.</p>
+
+
+<p>The last piece to remember is that GitHub Pages will only use the master branch to serve your static site.</p>
+
+
+<p>Sweet!  Our website (aka master branch) will be nice and clean based on this _deploy directory, whereas<br/>our source branch will be the work committed.</p>
+
+
+<h2><code>rake generate</code></h2>
+
+<p>This runs without issue.</p>
+
+<h2><code>rake deploy</code></h2>
+
+<p>Aw shit, it would seem we still have some issues because this task generates errors:</p>
+
+<!-- mark:6-7,24-28 -->
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; rake deploy
+</span><span class='line'>## Set the codepage to 65001 for Windows machines
+</span><span class='line'>## Deploying branch to Github Pages
+</span><span class='line'>## Pulling any updates from Github Pages
+</span><span class='line'>cd _deploy
+</span><span class='line'>fatal: No remote repository specified.  Please, specify either a URL or a
+</span><span class='line'>remote name from which new revisions should be fetched.
+</span><span class='line'>cd -
+</span><span class='line'>rm -rf _deploy/index.html
+</span><span class='line'>
+</span><span class='line'>## Copying public to _deploy
+</span><span class='line'>cp -r public/. _deploy
+</span><span class='line'>cd _deploy
+</span><span class='line'>
+</span><span class='line'>## Committing: Site updated at 2014-04-03 22:58:56 UTC
+</span><span class='line'>[master 5257cf9] Site updated at 2014-04-03 22:58:56 UTC
+</span><span class='line'> 61 files changed, 1118 insertions(+)
+</span><span class='line'> create mode 100644 assets/jwplayer/glow/controlbar/background.png
+</span><span class='line'> ...(snip)...
+</span><span class='line'> create mode 100644 sitemap.xml
+</span><span class='line'> create mode 100644 stylesheets/screen.css
+</span><span class='line'>
+</span><span class='line'>## Pushing generated _deploy website
+</span><span class='line'>fatal: 'origin' does not appear to be a git repository
+</span><span class='line'>fatal: Could not read from remote repository.
+</span><span class='line'>
+</span><span class='line'>Please make sure you have the correct access rights
+</span><span class='line'>and the repository exists.
+</span><span class='line'>
+</span><span class='line'>## Github Pages deploy complete
+</span><span class='line'>cd -
+</span><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>We got two errors to sort out.  Let&rsquo;s take a look at the first one.</p>
+
+<h3>fatal: No remote repository specified.  Please, specify either a URL or a remote name from which new revisions should be fetched.</h3>
+
+<p>Humm, this sounds like a <code>git pull</code> was issued.  Let&rsquo;s take a look at the ruby commands for this.  Again, thanks to
+the great output from the developers, a quick search in the <code>RakeFile</code> finds this code.</p>
+
+<!--  mark:5-6,18 -->
+
+
+<figure class='code'><figcaption><span>RakeFile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">desc</span> <span class="s2">&quot;deploy public directory to github pages&quot;</span>
+</span><span class='line'><span class="n">multitask</span> <span class="ss">:push</span> <span class="k">do</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;## Deploying branch to Github Pages &quot;</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;## Pulling any updates from Github Pages &quot;</span>
+</span><span class='line'>  <span class="n">cd</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">do</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git pull&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="p">(</span><span class="no">Dir</span><span class="o">[</span><span class="s2">&quot;</span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2">/*&quot;</span><span class="o">]</span><span class="p">)</span><span class="o">.</span><span class="n">each</span> <span class="p">{</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="n">rm_rf</span><span class="p">(</span><span class="n">f</span><span class="p">)</span> <span class="p">}</span>
+</span><span class='line'>  <span class="ss">Rake</span><span class="p">:</span><span class="ss">:Task</span><span class="o">[</span><span class="ss">:copydot</span><span class="o">].</span><span class="n">invoke</span><span class="p">(</span><span class="n">public_dir</span><span class="p">,</span> <span class="n">deploy_dir</span><span class="p">)</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">## Copying </span><span class="si">#{</span><span class="n">public_dir</span><span class="si">}</span><span class="s2"> to </span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>  <span class="n">cp_r</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">public_dir</span><span class="si">}</span><span class="s2">/.&quot;</span><span class="p">,</span> <span class="n">deploy_dir</span>
+</span><span class='line'>  <span class="n">cd</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">do</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add -A&quot;</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">## Committing: Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -m </span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">message</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">## Pushing generated </span><span class="si">#{</span><span class="n">deploy_dir</span><span class="si">}</span><span class="s2"> website&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git push origin </span><span class="si">#{</span><span class="n">deploy_branch</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">## Github Pages deploy complete&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ah hah, there marked on lines 5 and 6 is the <code>git pull</code> for the <code>_deploy</code> directory.  Smart, they are pulling down any
+changes you may have made manually to your static pages.  For example, using GitHub&rsquo;s edit file feature to edit a file
+directly in the browser.</p>
+
+<p>I wonder why that didn&rsquo;t work because as you recall, we setup the <code>origin</code> correctly.  Let&rsquo;s figure out why.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; cd .\_deploy
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+</span><span class='line'>origin</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Wha&hellip;  We already set this before.  What happened?  Well, I can tell you that it is because I re-ran the
+<code>rake setup_github_pages</code> a 2nd and 3rd time.  If you recall from the setup_github_pages take, it doesn&rsquo;t care if you have
+an existing deployment directory or not &ndash; it blows out and creates it again!</p>
+
+<p>So, just go add the origin again.  <em>facepalm</em></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote set-url --add origin git@github.com:eduncan911/eduncan911.github.io.git
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+</span><span class='line'>origin  git@github.com:eduncan911/eduncan911.github.io.git (fetch)
+</span><span class='line'>origin  git@github.com:eduncan911/eduncan911.github.io.git (push)
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; git remote -v
+</span><span class='line'>C:\gd\code\eduncan911\_deploy [master]&gt; cd ..
+</span><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Before we continue, let&rsquo;s take a quick look at that second error.  Scrolling down to <code>line 18</code> in the same ruby
+task above we see a <code>git push origin master</code> being executed.</p>
+
+<p>Because we had no <code>origin</code> set correctly, this would cause yet another error.  We got that fixed already though with
+the above <code>git remote set-url --add</code> command.</p>
+
+<p>Let&rsquo;s try to deploy again now that we fixed the <code>_deploy</code> folder.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt; rake deploy
+</span><span class='line'>## Set the codepage to 65001 for Windows machines
+</span><span class='line'>## Deploying branch to Github Pages
+</span><span class='line'>## Pulling any updates from Github Pages
+</span><span class='line'>cd _deploy
+</span><span class='line'>Warning: Permanently added 'github.com,192.30.252.131' (RSA) to the list of known hosts.
+</span><span class='line'>There is no tracking information for the current branch.
+</span><span class='line'>Please specify which branch you want to merge with.
+</span><span class='line'>See git-pull(1) for details
+</span><span class='line'>
+</span><span class='line'>    git pull &lt;remote&gt; &lt;branch&gt;
+</span><span class='line'>
+</span><span class='line'>If you wish to set tracking information for this branch you can do so with:
+</span><span class='line'>
+</span><span class='line'>    git branch --set-upstream-to=origin/&lt;branch&gt; master
+</span><span class='line'>
+</span><span class='line'>cd -
+</span><span class='line'>rm -rf _deploy/assets
+</span><span class='line'>rm -rf _deploy/atom.xml
+</span><span class='line'>rm -rf _deploy/blog
+</span><span class='line'>rm -rf _deploy/favicon.png
+</span><span class='line'>rm -rf _deploy/images
+</span><span class='line'>rm -rf _deploy/index.html
+</span><span class='line'>rm -rf _deploy/javascripts
+</span><span class='line'>rm -rf _deploy/robots.txt
+</span><span class='line'>rm -rf _deploy/sitemap.xml
+</span><span class='line'>rm -rf _deploy/stylesheets
+</span><span class='line'>
+</span><span class='line'>## Copying public to _deploy
+</span><span class='line'>cp -r public/. _deploy
+</span><span class='line'>cd _deploy
+</span><span class='line'>
+</span><span class='line'>## Committing: Site updated at 2014-04-03 23:21:58 UTC
+</span><span class='line'># On branch master
+</span><span class='line'>nothing to commit, working directory clean
+</span><span class='line'>
+</span><span class='line'>## Pushing generated _deploy website
+</span><span class='line'>Warning: Permanently added 'github.com,192.30.252.131' (RSA) to the list of known hosts.
+</span><span class='line'>Counting objects: 79, done.
+</span><span class='line'>Delta compression using up to 12 threads.
+</span><span class='line'>Compressing objects: 100% (72/72), done.
+</span><span class='line'>Writing objects: 100% (79/79), 186.45 KiB | 0 bytes/s, done.
+</span><span class='line'>Total 79 (delta 1), reused 0 (delta 0)
+</span><span class='line'>To git@github.com:eduncan911/eduncan911.github.io.git
+</span><span class='line'> * [new branch]      master -&gt; master
+</span><span class='line'>
+</span><span class='line'>## Github Pages deploy complete
+</span><span class='line'>cd -
+</span><span class='line'>C:\gd\code\eduncan911 [source +2 ~3 -0 !]&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Humm, a few warnings about no tracking information for the remote branch, which we renamed to be <code>source</code> from <code>master</code>
+if you recall from earlier.  I think this is normal because we haven&rsquo;t pushed <code>source</code> up yet.</p>
+
+<h3>git push origin source</h3>
+
+<p>Now, let&rsquo;s see if we can fix the tracking information for our <code>source</code> branch by pushing our changes up.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m 'initial commit of source branch'
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Seems like we are good here.</p>
+
+<p>Let&rsquo;s head over to our GitHub Page and see what&rsquo;s there in the repo.  What&rsquo;s this?  My master is a nice and clean static
+site?  Sweet!</p>
+
+<p><a href="https://github.com/eduncan911/eduncan911.github.io/tree/master">github.com/eduncan911/eduncan911.github.io/tree/master</a></p>
+
+<p>And lookie here, the <code>source</code> branch has the source!</p>
+
+<p><a href="https://github.com/eduncan911/eduncan911.github.io/tree/source">github.com/eduncan911/eduncan911.github.io/tree/source</a></p>
+
+<p>I&rsquo;m sticking a fork in her and calling it&hellip;  These may be normal warnings with the way the remote tracking is handled
+as I don&rsquo;t have a lot of experience with that part of git.</p>
+
+<h2>It&rsquo;s all downhill from here</h2>
+
+<p>If you have stuck with me this long, I have some good news &ndash; you&rsquo;re done!  Time to start blogging!</p>
+
+<p>You can read the rest of the deployment guide from here as they have some useful tips.  Also, make sure to commit
+your work (they mention this too).</p>
+
+<p>My last piece of advice after you get the hang of things and create a few test posts is to look into these commands.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate   <span class="c"># Generates posts and pages into the public directory</span>
+</span><span class='line'>rake watch      <span class="c"># Watches source/ and sass/ for changes and regenerates</span>
+</span><span class='line'>rake preview    <span class="c"># Watches, and mounts a webserver at http://localhost:4000</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You&rsquo;ve already run <code>rake generate</code>; but, take a look at the other two.</p>
+
+<p><code>rake watch</code> is nice to auto-generate files as you change them.</p>
+
+<p><code>rake preview</code> is even better!  It will watch for and auto-generate your site; but, more so it runs a very lightweight
+tiny webserver (much less tiny than IIS!) in the background where you can open a browser and hit refresh to your heart&rsquo;s
+content.</p>
+
+<p>I advise everyone to do that to keep the number of commits down because once  you have a few 100 pages, that generate and
+deploy is going to take a long while.  Might as well get into the habit early!</p>
+
+<p>~E</p>
+
+<p>PS: I am thinking of renting a <a href="http://technichi.com/">Macbook Pro</a> because of the time lost with stuff like this
+under Windows.  Argh&hellip;</p>
+
+
   
 
 <!-- END MARKDOWN CONTENT -->
 
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Octopress and Posh-Git - Oh My" href="/software/octopress-powershell-and-posh-git-oh-my.html#comments" data-disqus-url="http://eduncan911.com/software/octopress-powershell-and-posh-git-oh-my.html">Comments</a>
       </section>
     </article>
   
@@ -142,14 +1071,79 @@ finishing any of them good enough to launch them live.</p>
 <p>For those that haven&rsquo;t heard about it, go <a href="http://octopress.org/">read about it</a>.  In short, it uses Ruby to create a static blog for
 you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And, that&rsquo;s about it.</p>
 
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
 
 
-  
-        <a rel="full-article" href="/software/my-hackers-blog.html">Read on &rarr;</a>
+<p>You write your posts in MarkDown, and be done with it. There are all sorts of little <del>hacks</del> shortcuts when writing posts that I
+am going to have a lot of fun with.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview
+</span><span class='line'># now open browser to eduncan911.local:4000/</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When you go completely static, interesting opportunities start to emerge&hellip;  You no longer need a &ldquo;web host&rdquo; &ndash; all you need is a place
+to dump your files online somewhere.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Enter <a href="https://pages.github.com/">GitHub Pages</a></h3>
+
+<p>GitHub allows you to <a href="https://pages.github.com/">host static pages</a> in a public repo.  I&rsquo;ve been hosting my code.eduncan911.com
+there for years.</p>
+
+<p><span class='pullquote-right' data-pullquote='If I create a static blog, I can just host it at GitHub.'>
+A few Google searches revealed I wasn&rsquo;t the only one who thought this way. If I create a static blog, I can just host it at GitHub.
+At first I stumbled upon <a href="https://github.com/jekyll/jekyll">Jekyll</a> which gives you full control over markup, css, etc.  But here I was in
+the same position &ndash; writing code.  I found that Octopress is built upon Jekyll; but, it already has a default theme, css, plugins, etc.
+</span></p>
+
+<p>The best part is they have step-by-step instructions on how to publish it straight to GitHub Pages.  It really can&rsquo;t get any easier than
+this, for any <del>hacker</del> skill level.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add --all
+</span><span class='line'>git commit -m "new post: My Hacker Blog"
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s right, this blog is hosted at <a href="http://eduncan911.github.io/">eduncan911.github.io</a>.  They have instructions on
+setting up a CNAME (in my case though, an ALIAS for the root eduncan911.com domain) and that&rsquo;s it, you&rsquo;re live.</p>
+
+<p>As a matter of fact, <a href="https://github.com/eduncan911/eduncan911.github.io">go browse my site</a> just like the old &ldquo;directory browsing&rdquo; method.
+If you want to see the source code in how I generate the site, switch branches to <a href="https://github.com/eduncan911/eduncan911.github.io/tree/source"><code>source</code></a> to
+check that out.  Tip: most of that is Octopress.  Drill into the /source/ directory to see the raw nit-n-gritty fun stuff.</p>
+
+<p>I will admit though, it took some tinkering to get Octopress setup and working correctly on Windows with PoshGit and PowerShell.</p>
+
+<h3>The way forward</h3>
+
+<p>There are a number of plug-ins, and there is some work I want to do to the asides (right column).  But I am liberated
+to no longer wait, and just do.</p>
+
+<p>Most of all, being just raw MarkDown, I can write from any device now: tablets, smart phones, anywhere.  And, being on GitHub,
+I can just browse to my source branch and create a new file to start blogging.  There are instructions for a C.I. server to
+take callbacks from GitHub, and to publish it on the site after commits.  Yep, very fun stuff&hellip;</p>
+
+<p>~E</p>
+
+
   
 
 <!-- END MARKDOWN CONTENT -->
 
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="My Hackers' Blog" href="/software/my-hackers-blog.html#comments" data-disqus-url="http://eduncan911.com/software/my-hackers-blog.html">Comments</a>
       </section>
     </article>
   
@@ -178,6 +1172,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 <!-- END MARKDOWN CONTENT -->
 
       </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Power Naps for Everyone" href="/blog/archives/power-naps-for-everyone.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/power-naps-for-everyone.html">Comments</a>
+      </section>
     </article>
   
     
@@ -204,6 +1202,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 
 <!-- END MARKDOWN CONTENT -->
 
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title=".NET 4.0, HTML, and a Potentially Dangerous Request.Form Value" href="/blog/archives/net-4-0-html-and-a-potentially-dangerous-request-form-value.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/net-4-0-html-and-a-potentially-dangerous-request-form-value.html">Comments</a>
       </section>
     </article>
   
@@ -232,6 +1234,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 <!-- END MARKDOWN CONTENT -->
 
       </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Create a Bootable USB Drive With Windows" href="/blog/archives/create-a-bootable-usb-drive-with-windows.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/create-a-bootable-usb-drive-with-windows.html">Comments</a>
+      </section>
     </article>
   
     
@@ -258,6 +1264,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 
 <!-- END MARKDOWN CONTENT -->
 
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Managed Extensibility Framework (MEF) - Microsoft's Official Inversion of Control Container" href="/blog/archives/managed-extensibility-framework-mef-microsofts-official-inversion-of-control-container.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/managed-extensibility-framework-mef-microsofts-official-inversion-of-control-container.html">Comments</a>
       </section>
     </article>
   
@@ -286,6 +1296,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 <!-- END MARKDOWN CONTENT -->
 
       </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Registering MSpec Runners for TestDriven.NET on Windows X64" href="/blog/archives/registering-mspec-runners-for-testdriven-net-on-windows-x64.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/registering-mspec-runners-for-testdriven-net-on-windows-x64.html">Comments</a>
+      </section>
     </article>
   
     
@@ -313,6 +1327,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 <!-- END MARKDOWN CONTENT -->
 
       </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Windows Azure SDK for Microsoft Visual Studio November 2009" href="/blog/archives/windows-azure-sdk-for-microsoft-visual-studio-november-2009.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/windows-azure-sdk-for-microsoft-visual-studio-november-2009.html">Comments</a>
+      </section>
     </article>
   
     
@@ -339,6 +1357,10 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
 
 <!-- END MARKDOWN CONTENT -->
 
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Support Ticket Severity vs Priority" href="/blog/archives/support-ticket-severity-vs-priority.html#comments" data-disqus-url="http://eduncan911.com/blog/archives/support-ticket-severity-vs-priority.html">Comments</a>
       </section>
     </article>
   
@@ -378,18 +1400,6 @@ you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And,
     })();
   </script>
 
-  <script type="text/javascript">
-    var disqus_shortname = 'eduncan911com';
-    
-      
-      var disqus_script = 'count.js';
-    
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-  </script>
 
 
 

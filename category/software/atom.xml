@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-05-08T11:34:32-04:00</updated>
+  <updated>2014-05-08T15:08:18-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -168,9 +168,6 @@ out of the Linux/OSX world from developers that needed to generate a static site
 blog under source revisions.  I would go as far to say that you own it to the community
 to publish all revisions of your blog that was ever public for pure archiving reasons.</p>
 
-<!-- more -->
-
-
 <h2>Revision those files you linked to</h2>
 
 <p>Recently I setup <a href="/software/my-hackers-blog.html">my hacker&rsquo;s blog</a>
@@ -317,9 +314,6 @@ with <a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> now that I am us
 
 <p>In this post, I am documenting the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.</p>
-
-<!-- more -->
-
 
 <h2>Ruby on Windows? No, Yari on Windows</h2>
 
