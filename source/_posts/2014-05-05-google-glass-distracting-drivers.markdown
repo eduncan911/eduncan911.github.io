@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Google Glass Distracting Drivers"
+image: http://eduncan911.com/blog/images/Google_Glass_Distracting_While_Driving.jpg
 date: 2014-05-05 11:34:09 -0400
 comments: true
 categories: [technology]
@@ -31,3 +32,5 @@ In other words, the brain fills in the gaps in what you see with memories of wha
 Bingo.  And this includes "hands-free" conversations as well as GPS.
 
 Then again, in 30 years we may evolve to actually have our brains multi-task.
+
+{% hattip ForgetFoo http://forgetfoo.com %}

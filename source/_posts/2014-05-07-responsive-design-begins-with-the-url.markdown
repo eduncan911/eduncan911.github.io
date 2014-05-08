@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Responsive Design Begins with the URL"
+image: http://eduncan911.com/blog/images/responsive-design-url-schema.jpg
 date: 2014-05-07 11:27:36 -0400
 comments: true
 categories: [software, design]
@@ -40,4 +41,4 @@ As long as we are talking about it, ASP.NET MVC's default `/Controller/Action/Id
 
 And so on.  Which, actually, falls inline with what the BBC article above was saying.
 
-*HatTip ForgetFoo*
+{% hattip ForgetFoo http://forgetfoo.com %}

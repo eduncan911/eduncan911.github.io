@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Avocode"
+image: http://eduncan911.com/blog/images/avocode.png
+video: http://vimeo.com/93386152
 date: 2014-05-04 19:24:04 -0400
 comments: true
 categories: ["software"]
@@ -31,4 +33,4 @@ You know, I am starting to get that "designer" itch again.  I am not a designer;
 something outta my ass every once in a while.  Going to try to get a private beta to see if
 I can use this for some projects as well.
 
-*HatTip ForgetFoo*
+{% hattip ForgetFoo http://forgetfoo.com %}

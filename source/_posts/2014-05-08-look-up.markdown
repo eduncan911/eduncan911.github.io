@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Look Up"
+image: http://eduncan911.com/blog/images/look_up.png
+video: https://www.youtube.com/watch?v=Z7dLU6fk9QY
 date: 2014-05-08 09:10:30 -0400
 comments: true
 categories: [technology]
@@ -48,4 +50,5 @@ In addition, I take my daughter to the playground in the park often.  The vast m
 
 ~E
 
+{% hattip ForgetFoo http://forgetfoo.com %}
 
