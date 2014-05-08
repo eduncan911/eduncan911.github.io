@@ -92,7 +92,7 @@ var eduncan911 = (function() {
 		    type: 'GET',
 		    url: "https://disqus.com/api/3.0/threads/set.jsonp",
 		    data: { api_key: disqusPublicKey, forum : disqusShortname, thread : urlArray },
-		    cache: false,
+		    cache: true,
 		    dataType: 'jsonp',
 		    success: function (result) {
 		      for (var i in result.response) {
