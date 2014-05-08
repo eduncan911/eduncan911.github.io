@@ -19,8 +19,6 @@ finishing any of them good enough to launch them live.
 For those that haven't heard about it, go [read about it](http://octopress.org/).  In short, it uses Ruby to create a static blog for
 you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And, that's about it.
 
-<!-- more -->
-
 ```
 git clone git://github.com/imathis/octopress.git octopress
 cd octopress

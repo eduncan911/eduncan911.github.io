@@ -12,8 +12,6 @@ There are many benefits to both your readers and yourself if you were to put you
 blog under source revisions.  I would go as far to say that you own it to the community
 to publish all revisions of your blog that was ever public for pure archiving reasons.
 
-<!-- more -->
-
 ## Revision those files you linked to
 
 Recently I setup [my hacker's blog](/software/my-hackers-blog.html) 

@@ -8,6 +8,8 @@ categories: ["blog", "archives"]
 tags: []
 alias: ["/blog/a-refresher-course-on-data-annotations-in-net-4-0-and-4-5.aspx"]
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
+<!-- more -->
+
+{% include imported_disclaimer.html %}
+
 <p>IValidableObject, IClientValidatable, string additions, etc</p>

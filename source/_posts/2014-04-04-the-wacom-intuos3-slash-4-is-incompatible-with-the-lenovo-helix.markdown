@@ -11,8 +11,6 @@ Lenovo Helix ultrabook/tablet.  In doing so, I needed a stylus for the active
 digitizer as the one that came with the Helix just isn't going to work for
 diagramming and sketching.
 
-<!-- more -->
-
 ## Research: Styluses for the Lenovo Helix
 
 I had a problem: I was obsessed for days reading every blog, review and comment

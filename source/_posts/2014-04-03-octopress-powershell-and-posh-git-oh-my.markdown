@@ -13,8 +13,6 @@ with [Posh-Git](https://github.com/dahlbyk/posh-git) now that I am using it on a
 In this post, I am documenting the procedure for future installs on Windows; and, maybe I can help someone else who runs across the
 same issues.
 
-<!-- more -->
-
 ## Ruby on Windows? No, Yari on Windows
 
 This is my first exposure to Ruby.  I know, I've been closed off to anything non-.NET since, well, .NET in 2002.  With that the first
