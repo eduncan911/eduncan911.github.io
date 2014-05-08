@@ -1,11 +1,17 @@
 ---
 layout: default
+comments: false
 ---
+  {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
   {% assign index = true %}
   {% for post in paginator.posts %}
     {% assign content = post.content %}
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
     {% include foo.casper/article.html %}
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}" href="{{ post.url }}#comments" data-disqus-url="{{ site.url }}{{ post.url }}">Comments</a>
+      </section>
     </article>
   {% endfor %}
     <nav class="pagination navigation paging-navigation pagenation-spacer" role="navigation">

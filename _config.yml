@@ -118,6 +118,7 @@ delicious_count: 3
 # Disqus Comments
 disqus_short_name: eduncan911com
 disqus_show_comment_count: false
+disqus_api_publickey: p5ah01gnHyXhmQgrsBgkPQlcXA8QuHqiPEDSSiCW1ZmBlyqpc7pUMmUtaXtwWaxk
 
 # Google Analytics
 google_analytics_tracking_id: UA-3705711-1

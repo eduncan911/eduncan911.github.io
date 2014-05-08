@@ -12,6 +12,7 @@ single: true
       </nav>
       <div class="clear"></div>
 {% if site.disqus_short_name and page.comments == true %}
+      <a class="post-comment-anchor" name="comments"></a>
       <section class="post-comment">
         <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
       </section>
