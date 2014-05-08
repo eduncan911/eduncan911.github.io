@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Look Up"
+date: 2014-05-08 09:10:30 -0400
+comments: true
+categories: [technology]
+tags: [Distraction, Lifestyle, Mobile]
+---
+
+{% youtube Z7dLU6fk9QY %}
+
+{% blockquote Gary Turk https://www.youtube.com/watch?v=Z7dLU6fk9QY %}
+
+It's not very likely you'll make "World's Greatest Dad"
+If you can't entertain a child without using an iPad.
+
+When I was a child I'd never be home.  
+Be out with my friends on our bikes and we'd roam.
+And wear holes in my trainers and graze up my knees
+And build our own clubhouse high up in the trees.
+
+Now the park is so quiet it gives me a chill.
+See no children outside and the swings hanging still.
+There's no skipping, no hopscotch, no church and no steeple.
+We're a generation of idiots, smartphones and dumb people.
+
+{% endblockquote %}
+
+I remember an NPR segment from around ~2008 when I moved to New York hot on the heels of the 2nd generation iPhone, the 3G.  It talked about our society was already significantly affected by the 1st gen iPhone in that we were becoming a race of robots, always starring down at our smartphone.
+
+It went as far as to say how rude it is to look down at your phone at dinner, or while someone was talking to you.  It made a good case about social interactions > your email, to the point of branding you a jackass if you did it.
+
+That segment (sorry, can't find it) changed my view entirely on social interactions and made me overly conscience on my "mobile use", along with observing others and their "mobile habits."  
+
+I tried not to be the asshole that said, "Hey, put down your phone and look at me."  Instead, I used other hints that were in the NPR segment such as when noticing someone is paying attention to their mobile device and not looking at you while you are talking, just pause your sentence.  You'll find out that on average 5 seconds go by until they "Look Up." Or, you could simply offer a visual clue that they have to focus on.
+
+I am happy to report that after 6 years of this, I find myself placing my smartphone on the table yes; but, I do not do this to monitor it or look at it.  I do this to get the huge 5" screen bulk + bumper cover out of my pocket so I can sit down.  I place it face down so not to disturb me and to give complete focus to the person(s) I am sitting with.  I am happy to report that some even have had taken notice and started to do the same, even coming back to report to me how it changed their social interactions.  
+
+Fast forward to my nearly 3 year old daughter I have now, and this video.  I've reviewed the results of quite a lot of studies on child raising and these tablets and smartphones.  It basically came down to one thing: 
+
+{% blockquote %}
+
+Make it a learning experience for the child and learn together with them.  Do not use as an entertainment device and do not leave them alone with it.
+
+{% endblockquote %}
+
+In addition, I take my daughter to the playground in the park often.  The vast majority of the time, there are no kids - we are the only ones there.  We experience *the swings hanging still* all too often - until we jump into them.
+
+~E
+
+
