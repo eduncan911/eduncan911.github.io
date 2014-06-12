@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
+  <meta name="generator" content="Octopress 2.0" />
   <meta property="og:site_name" content="{{ site.author }}" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="{{ page.image }}" />
@@ -37,7 +38,7 @@
     <div class="vertical" itemscope itemtype="http://schema.org/Article">
       <div class="site-head-content inner" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <h1 class="blog-title" itemprop="name"><a class="blog-logo" href='{{ root_url }}/' rel='home'>{{ site.title }}</a></h1>
-        {% if site.subtitle %}<h2 class="blog-description" itemprop="jobtitle">{{ site.subtitle }}</h2>{% endif %}
+        {% if page.subtitle %}<h2 class="blog-description" itemprop="jobtitle">{{ page.subtitle }}</h2>{% else if site.subtitle %}<h2 class="blog-description" itemprop="jobtitle">{{ site.subtitle }}</h2>{% endif %}
         <meta itemprop="givenname" content="{{ site.givenname }}" />
         <meta itemprop="familyname" content="{{ site.familyname }}" />
         <meta itemprop="affiliation" content="{{ site.affiliation }}" />

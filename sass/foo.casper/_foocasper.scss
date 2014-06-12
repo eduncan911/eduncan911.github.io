@@ -2301,7 +2301,28 @@ pre {
   }
 }
 
+.home {
+  section.post-content {
+    text-align: justify;
+    .whatido {
+      text-align: center;
+      display: inline-block;
+      width: 32%;
+      vertical-align: top;
 
+      h2 {
+        color: $accent-color;
+        padding-bottom: 0;
+        margin-bottom: 2rem;
+      }
+      p {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: left;
+      }
+    }
+  }
+}
 
 /* ==========================================================================
    9. Media Queries 
@@ -2322,10 +2343,6 @@ pre {
   .blog-title {
     font-size: 4em;
     letter-spacing: -1px;
-  }
-  .blog-description {
-    font-size: 1.7em;
-    line-height: 1.5em;
   }
   .post {
     font-size: 0.9em;
@@ -2369,7 +2386,7 @@ pre {
     font-size: 2.4em;
   }
   .blog-description {
-    font-size: 1.0em;
+    font-size: 0.8em;
   }
   .post-title {
     font-size: 3.2em;
