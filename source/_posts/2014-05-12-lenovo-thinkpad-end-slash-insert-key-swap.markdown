@@ -7,7 +7,7 @@ image:
 video: 
 date: 2014-05-12 12:01:44 -0400
 comments: true
-categories: 
+categories: technology
 tags: 
 ---
 

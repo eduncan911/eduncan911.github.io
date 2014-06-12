@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "58 Facts You Probably Didn't Know About The Star Wars Movies"
-description: 
-image: 
-video: 
+description: "58 Facts You Probably Didn't Know About The Star Wars Movies"
+image: http://s3-ec.buzzfed.com/static/2014-05/enhanced/webdr04/7/10/enhanced-5351-1399472292-3.jpg
+video: https://www.youtube.com/watch?v=uJ3kV3Icm28
 date: 2014-05-08 17:03:48 -0400
 comments: true
-categories: 
-tags: 
+categories: "lifestyle"
+tags: "Star Wars"
 ---
 
 [58 Facts You Probably Didn't Know About The Star Wars Movies](http://www.buzzfeed.com/awesomer/facts-you-probably-didnt-know-about-the-star-wars-movies)
