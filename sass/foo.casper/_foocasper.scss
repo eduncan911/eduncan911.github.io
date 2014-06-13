@@ -2302,8 +2302,13 @@ pre {
 }
 
 .home {
+  margin-bottom: 30px;
   section.post-content {
     text-align: justify;
+    h2 {
+        color: $accent-color;
+        text-transform: lowercase;
+    }
     .whatido {
       text-align: center;
       display: inline-block;
@@ -2311,7 +2316,6 @@ pre {
       vertical-align: top;
 
       h2 {
-        color: $accent-color;
         padding-bottom: 0;
         margin-bottom: 2rem;
       }
@@ -2323,6 +2327,7 @@ pre {
     }
   }
 }
+
 
 /* ==========================================================================
    9. Media Queries 
@@ -2379,39 +2384,6 @@ pre {
       }
     }
   }
-
-  .home {
-    section.post-content {
-      text-align: inherit;
-      .whatido {
-        text-align: left;
-        display: block;
-        width: 100%;
-        vertical-align: top;
-        span {
-          float: left;
-        }
-        div {
-          vertical-align: top;
-          padding-left: 200px;
-          h2 {
-            color: $accent-color;
-            margin-top: 6rem;
-            margin-bottom: 0;
-            padding-top: 2rem;
-            padding-bottom: 0;
-          }
-          p {
-            margin-top: 2rem;
-            margin-bottom: 0;
-            padding-top: 0;
-            text-align: left;
-          }
-        }
-      }
-    }
-  }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -2452,6 +2424,46 @@ pre {
       }
       .audiotime {
         font-size: 0.70em;
+      }
+    }
+  }
+
+
+  .home {
+    margin-bottom: 30px;
+    section.post-content {
+      text-align: inherit;
+      .fa-5x {
+        font-size: 4.2em;
+      }
+      h2 {
+        margin-top: 6rem;
+      }
+      .whatido {
+        text-align: left;
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        span {
+          float: left;
+        }
+        div {
+          vertical-align: top;
+          padding-left: 150px;
+          h2 {
+            color: $accent-color;
+            margin-top: 6rem;
+            margin-bottom: 0;
+  
+            padding-bottom: 0;
+          }
+          p {
+            margin-top: 2rem;
+            margin-bottom: 0;
+            padding-top: 0;
+            text-align: left;
+          }
+        }
       }
     }
   }
@@ -2595,38 +2607,6 @@ pre {
       }
       .audiotime {
         font-size: 0.70em;
-      }
-    }
-  }
-
-  .home {
-    section.post-content {
-      text-align: inherit;
-      .whatido {
-        text-align: left;
-        display: block;
-        width: 100%;
-        vertical-align: top;
-        span {
-          float: left;
-        }
-        div {
-          vertical-align: top;
-          padding-left: 200px;
-          h2 {
-            color: $accent-color;
-            margin-top: 6rem;
-            margin-bottom: 0;
-            padding-top: 2rem;
-            padding-bottom: 0;
-          }
-          p {
-            margin-top: 2rem;
-            margin-bottom: 0;
-            padding-top: 0;
-            text-align: left;
-          }
-        }
       }
     }
   }
