@@ -59,7 +59,71 @@ var eduncan911 = (function() {
 		// handle all audio players
 		audio.init();
 
+		// homepage quotes
+		homepage_quotes.init();
+
 	};
+
+	var homepage_quotes = (function () {	
+		var timeout = 10000;
+		var fadeInDuration = 1000;
+		var quotes = $(".quotes");
+		var timer = setInterval('', 0);
+
+		var init = function() {
+			if (quotes.length==0)
+				return;
+
+			// bind the buttons
+			bindButtonEvents();
+
+			// start the countdown
+			timer = setInterval(showNextQuote, timeout);
+		};
+
+		var showNextQuote = function() {
+		  quotes.find("blockquote:visible:first")
+		  	.stop()
+		  	.hide()
+		  	.next()
+		  	.fadeIn(fadeInDuration);
+		  
+		  // go back to the beginning if we need to
+		  if (quotes.find("blockquote:visible").length==0)
+		  	quotes.find("blockquote:first").fadeIn(fadeInDuration);
+		};
+
+		var showPreviousQuote = function() {
+		  quotes.find("blockquote:visible:first")
+		  	.stop()
+		  	.hide()
+		  	.prev()
+		  	.fadeIn(fadeInDuration);
+		  
+		  // go back to the end if we need to
+		  if (quotes.find("blockquote:visible").length==0)
+		  	quotes.find("blockquote:last").fadeIn(fadeInDuration);
+		};
+
+		var bindButtonEvents = function() {
+			$("a.previous-quote").click(function () {
+				clearInterval(timer);
+				showPreviousQuote();
+				timer = setInterval(showNextQuote, timeout);
+				return false;
+			});
+			$("a.next-quote").click(function () {
+				clearInterval(timer);
+				showNextQuote();
+				timer = setInterval(showNextQuote, timeout);
+				return false;
+			});
+		};
+
+		return {
+			init: init
+		};
+	})();
 
 	var posts = (function() {
 		var disqusPublicKey = 'p5ah01gnHyXhmQgrsBgkPQlcXA8QuHqiPEDSSiCW1ZmBlyqpc7pUMmUtaXtwWaxk';

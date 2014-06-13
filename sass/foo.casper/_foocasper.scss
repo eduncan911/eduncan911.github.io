@@ -2379,6 +2379,39 @@ pre {
       }
     }
   }
+
+  .home {
+    section.post-content {
+      text-align: inherit;
+      .whatido {
+        text-align: left;
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        span {
+          float: left;
+        }
+        div {
+          vertical-align: top;
+          padding-left: 200px;
+          h2 {
+            color: $accent-color;
+            margin-top: 6rem;
+            margin-bottom: 0;
+            padding-top: 2rem;
+            padding-bottom: 0;
+          }
+          p {
+            margin-top: 2rem;
+            margin-bottom: 0;
+            padding-top: 0;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -2562,6 +2595,38 @@ pre {
       }
       .audiotime {
         font-size: 0.70em;
+      }
+    }
+  }
+
+  .home {
+    section.post-content {
+      text-align: inherit;
+      .whatido {
+        text-align: left;
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        span {
+          float: left;
+        }
+        div {
+          vertical-align: top;
+          padding-left: 200px;
+          h2 {
+            color: $accent-color;
+            margin-top: 6rem;
+            margin-bottom: 0;
+            padding-top: 2rem;
+            padding-bottom: 0;
+          }
+          p {
+            margin-top: 2rem;
+            margin-bottom: 0;
+            padding-top: 0;
+            text-align: left;
+          }
+        }
       }
     }
   }
