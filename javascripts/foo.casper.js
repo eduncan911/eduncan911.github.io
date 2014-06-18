@@ -164,6 +164,8 @@ var eduncan911 = (function() {
 		        var count = result.response[i].posts;
 		        if (count == 1)
 		          countText = " comment";
+		        else if (count == 0)
+		        	countText = "Leave a comment";
 		        $('a[data-disqus-url="' + result.response[i].link + '"]').html(count + countText);
 		      }
 		    }
