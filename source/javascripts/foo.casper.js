@@ -160,13 +160,13 @@ var eduncan911 = (function() {
 		    dataType: 'jsonp',
 		    success: function (result) {
 		      for (var i in result.response) {
-		        var countText = " comments";
 		        var count = result.response[i].posts;
+		        var countText = count + " comments";
 		        if (count == 1)
-		          countText = " comment";
+		          countText = count + " comment";
 		        else if (count == 0)
 		        	countText = "Leave a comment";
-		        $('a[data-disqus-url="' + result.response[i].link + '"]').html(count + countText);
+		        $('a[data-disqus-url="' + result.response[i].link + '"]').html(countText);
 		      }
 		    }
 		  });
