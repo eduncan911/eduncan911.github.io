@@ -63,6 +63,12 @@ That's right.  No copyright or patents to infringe on.  The perhaps most importa
 
 It is a real shame that the big players ignore this format, and it is up to us end-users to hack our devices to play them.
 
+## Besides, I can always convert to any format later
+
+Having the video and audio streams alongside the closed caption allows me to convert the MKV into any format I like in the future. 
+
+Once such tool is [Handbrake](http://handbrake.fr/), which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB move and compresses it down to a 1.8 GB file (for the kiddo's tablet).  
+
 ## A callout to Microsoft, Apple and Google
 
 Why hasn't MKV gone mainstream?  Why hasn't one of these companies openly embraced this superior format?
