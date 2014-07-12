@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/technology/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-12T11:42:53-04:00</updated>
+  <updated>2014-07-12T16:30:06-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -69,6 +69,12 @@
 <p>That&rsquo;s right.  No copyright or patents to infringe on.  The perhaps most importantly, the container format is very well documented allowing for anyone to create a set of tools themselves.</p>
 
 <p>It is a real shame that the big players ignore this format, and it is up to us end-users to hack our devices to play them.</p>
+
+<h2>Besides, I can always convert to any format later</h2>
+
+<p>Having the video and audio streams alongside the closed caption allows me to convert the MKV into any format I like in the future.</p>
+
+<p>Once such tool is <a href="http://handbrake.fr/">Handbrake</a>, which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB move and compresses it down to a 1.8 GB file (for the kiddo&rsquo;s tablet).</p>
 
 <h2>A callout to Microsoft, Apple and Google</h2>
 
