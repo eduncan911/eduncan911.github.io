@@ -10,7 +10,7 @@ comments: true
 categories: [software, tools]
 tags: [PuTTY, SSH, Linux]
 ---
-All too often I keep Googling this procedure to sign into SSH terminals with certificate keys instead of passwords since I've been switching to Linux for development.  Like my previous post on how to [Create a Bootable USB Drive with Windows](/blog/archives/create-a-bootable-usb-drive-with-windows.html), I felt it was time to write my own step-by-step guide for my future reference.
+All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I've been switching to Linux for development.  Like my previous post on how to [Create a Bootable USB Drive with Windows](/blog/archives/create-a-bootable-usb-drive-with-windows.html), I felt it was time to write my own step-by-step guide for my future reference.
 
 First, let me explain why I do this.
 
@@ -20,7 +20,7 @@ Everyone knows you log into Windows and Linux machines with a username and passw
 
 What if there was a way to *sign* your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)  
 
-That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate (PuTTY key).
+That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.
 
 ### Other Reasons to use SSH keys for logins
 
@@ -30,7 +30,7 @@ Ok, enough with reasoning - let's setup PuTTY now.
 
 ## First, the PuTTY Quirks 
 
-PuTTY is a great app for Windows.  It's GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that's it).  Unless you hit Load, Save and Delete at the right sequence, things won't be loaded, saved or deleted.
+PuTTY is a great app for Windows.  It's GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that's it).  Unless you hit Load, Save and Delete in the right sequence, things won't be loaded, saved or deleted.
 
 Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.
 
@@ -38,21 +38,21 @@ Because of this, I recommend setting up your Session profile first before we get
 
 Here's the steps I take to create a Session profile.
 
-1. Open PuTTY and you should be in the Session category on the left.
-2. For the `Host Name`, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net
-3. Make sure `Port 22` and `SSH` options are set (usually the default).
+- Open PuTTY and you should be in the Session category on the left.
+- For the `Host Name`, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net
+- Make sure `Port 22` and `SSH` options are set (usually the default).
 
-{% img /blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png "Create Session Profile in PuTTY" %}
+{% img /blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png Create Session Profile in PuTTY %}
 
-4. Set a default `Username` to login with by clicking the category `Connection` then `Data`.  Enter your username in the `Auto-login username` text box.
+- Set a default `Username` to login with by clicking the category `Connection` then `Data`.  Enter your username in the `Auto-login username` text box.
 
-{% img /blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png "Auto-Login Username in PuTTY Session" %}
+{% img /blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png Auto-Login Username in PuTTY Session %}
 
-5. Finally, to save your Session profile, click back on the Session category on the left.  Then under the `Saved Sessions` textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.
+- Finally, to save your Session profile, click back on the Session category on the left.  Then under the `Saved Sessions` textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.
 
-6. Now, press the Save button.  
+- Now, press the Save button.  
 
-{% img /blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png "Save Session Profile in PuTTY" %}
+{% img /blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png Save Session Profile in PuTTY %}
 
 You have now created your first Session profile in PuTTY.  It's usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.
 
@@ -118,7 +118,7 @@ Type `exit` or close your PuTTY, you are done with the shell.
 
 ## Set the Private Key in your PuTTY Session Profile
 
-Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key!
+Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.
 
 Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to `Load` the Saved session first, before we can modify it.
 
