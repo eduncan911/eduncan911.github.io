@@ -4,9 +4,9 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-  <title>Buy KickStarter at MoMA - Eric Duncan</title>
+  <title>Lenovo Thinkpad End/Insert Key Swap - Eric Duncan</title>
   <meta name="author" content="Eric Duncan" />
-  <meta name="description" content="NYC's Museum of Modern Art adds a collection of KickStarter products to its online store." />
+  <meta name="description" content="Instructions on how to swap the End/Insert keys on my Helix, but also works on other ThinkPads" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
@@ -14,10 +14,10 @@
   <meta name="generator" content="Octopress 2.0" />
   <meta property="og:site_name" content="Eric Duncan" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="http://eduncan911.com/blog/images/buy-kickstarter-online-at-moma.png" />
+  <meta property="og:image" content="" />
   <meta property="og:video" content="" />
-  <meta property="og:url" content="http://eduncan911.com/lifestyle/buy-kickstarter-at-moma.html" />
-  <link rel="canonical" href="http://eduncan911.com/lifestyle/buy-kickstarter-at-moma.html" />
+  <meta property="og:url" content="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" />
+  <link rel="canonical" href="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" />
   <link rel="alternate" href="/atom.xml" title="Eric Duncan" type="application/atom+xml" />
   <link rel="shortcut icon" href="/favicon.png" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" type="text/css" />
@@ -50,27 +50,62 @@
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
         <header class="post-header">   
         <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-05-14T16:25:06-04:00" content="2014-05-14T16:25:06-04:00" itemprop="datePublished">May 14<span>th</span>, 2014</time></span>
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-07-01T12:01:44-04:00" content="2014-07-01T12:01:44-04:00" itemprop="datePublished">Jul 1<span>st</span>, 2014</time></span>
           <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-          in <a class='category' href='/category/lifestyle/' rel='category tag'>lifestyle</a>
+          in <a class='category' href='/category/technology/' rel='category tag'>technology</a>
         </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">Buy KickStarter at MoMA</a></h1>
+        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">Lenovo Thinkpad End/Insert Key Swap</a></h1>
         <meta itemprop="url" content="" />
       </header>
       <section class="post-content" itemprop="articleBody">
 
 <!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
 
-<p><a href="http://www.momastore.org/museum/moma/CategoryDisplay_10451_10001_26708_56161_-1_Y_Kickstarter%20at%20MoMA?ref=MoMAxKS">Popular KickStarter projects are available online at the MoMA</a></p>
+<p><a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">Lenovo Helix End/Insert Keys Swapped</a></p>
 
-<p><img src="/blog/images/buy-kickstarter-online-at-moma.png" title="&#34;Buy Kickerstart on the MoMA&#34;" alt="&#34;Buy Kickerstart on the MoMA&#34;"></p>
+<p>I recently switched from the Dell-exclusive club of laptops over the past 15 years to a ThinkPad.  Specifically, the Lenovo ThinkPad Helix.  It was a unit I have been waiting years for to check all the right boxes.</p>
 
-<blockquote><p>In honor of NYCxDESIGN—New York City&#8217;s official citywide celebration of design—the MoMA Design Store is pleased to present a suite of products brought to life by Kickstarter. By involving the public in the creative process, Kickstarter uses the power of community to help designers take great ideas from concept to reality. MoMA Design Store is proud to honor these individuals and their designs as examples of how everyone is capable of making incredible things.</p></blockquote>
+<p>I haven&rsquo;t been privy to the IBM/Lenovo keyboard wars.  I have always heard great things about the IBM ThinkPad keyboard.  Well, it seems this Lenovo Helix came with the newer style of only one row of Function keys + hardware-specific keys (volume, brightness, etc).  Fine by me as I figured out how to lock in the Function-mode-always (a BIOS option).</p>
+
+<p>But now I had a serious problem when coding/writing long documents&hellip;</p>
+
+<h2>The End/Insert Key was Swapped</h2>
+
+<p>Why in the hell would the End/Insert key swap functions when I lock in the Function-key mode of the F1-F12 keys?</p>
+
+<p>This was almost a deal breaker.  Only after crawling the Lenovo forums (a great place to find hacks for Lenovo) did I stumble onto a Lenovo ThinkPad keyboard hack to <a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">reverse the key functions</a>.  It actually remaps the Windows keyboard layout in the registry, an age-old trick I forgot about over a decade ago!</p>
+
+<h2>Swapping the End/Insert key functions</h2>
+
+<p>Instead of supplying a download of a .reg file, which I am not even sure that GitHub supports, I&rsquo;ll explain the instructions on how to create your own .reg file.</p>
+
+<ul>
+<li>Right-click on your desktop, select <code>New -&gt; Text Document</code></li>
+<li>Copy and Paste the following into this document, letter by letter.</li>
+</ul>
 
 
-<p>This came across in my inbox today and immediately jumped in.</p>
+<figure class='code'><figcaption><span>lenovo-helix-end-insert-key-swap.reg</span><a href='https://gist.github.com/eduncan911/f27808d2bb30982b4da5'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Windows Registry Editor Version 5.00
+</span><span class='line'>
+</span><span class='line'>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+</span><span class='line'>&quot;Scancode Map&quot;=hex:00,00,00,00,00,00,00,00,03,00,00,00,52,e0,4f,e0,4f,e0,52,e0,00,00,00,00
+</span></code></pre></td></tr></table></div></figure>
 
-<p>3D Doodler, come to me!  The book lamp and recyclable USB sticks, 4x 8 GB, are also on my list.</p>
+
+<ul>
+<li>Save the file as <code>lenovo-helix-end-insert-key-swap.reg</code></li>
+<li>Double-click it to <code>merge</code> it into your registry.  You will need to be logged in as an Administrator.</li>
+<li>Reboot and you&rsquo;re done.</li>
+</ul>
+
+
+<p>Now, the function of the End/Insert will be swapped.</p>
+
+<p>Also, <a href="http://blog.lenovo.com/products/why-you-should-give-in-to-the-new-thinkpad-keyboard">devoted fans of the previous Thinkpad keyboard: you may want to take your anger here</a>.</p>
 
 
 <!-- END MARKDOWN CONTENT -->
@@ -79,8 +114,8 @@
 
       <section class="collapsable history">
         <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
-        <ul class="post-metadata"><li><strong>Wed May 14 17:47:24 2014</strong><br/>new posts
-</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2014-05-14-buy-kickstarter-at-moma.markdown target=_blank>Github</a></p>
+        <ul class="post-metadata"><li><strong>Sat Jul 12 11:42:26 2014</strong><br/>proof-read and finishing posts
+</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2014-07-01-lenovo-thinkpad-end-slash-insert-key-swap.markdown target=_blank>Github</a></p>
       </section>
 
       <section class="collapsable author">
@@ -94,8 +129,8 @@
       </section> -->
       <nav class="pagination navigation paging-navigation" role="navigation">
         <div class="nav-links">
-          <div class="older-posts"><a href="/software/best-cloud-computing-and-security-talk-evar.html" title="Previous Post: Best Cloud Computing and Security Talk EVAR">&laquo; Best Cloud Computing and Security Talk EVAR</a></div>
-          <div class="newer-posts"><a href="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" title="Next Post: Lenovo Thinkpad End/Insert Key Swap">Lenovo Thinkpad End/Insert Key Swap &raquo;</a></div>
+          <div class="older-posts"><a href="/lifestyle/buy-kickstarter-at-moma.html" title="Previous Post: Buy KickStarter at MoMA">&laquo; Buy KickStarter at MoMA</a></div>
+          <div class="newer-posts"><a href="/technology/why-i-fight-to-keep-mkv-as-my-media.html" title="Next Post: Why I Fight to keep MKV as my Media">Why I Fight to keep MKV as my Media &raquo;</a></div>
         </div>
       </nav>
       <div class="clear"></div>
@@ -143,8 +178,8 @@
     
       
       // var disqus_developer = 1;
-      var disqus_identifier = 'http://eduncan911.com/lifestyle/buy-kickstarter-at-moma.html';
-      var disqus_url = 'http://eduncan911.com/lifestyle/buy-kickstarter-at-moma.html';
+      var disqus_identifier = 'http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html';
+      var disqus_url = 'http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html';
       var disqus_script = 'embed.js';
     
     (function () {

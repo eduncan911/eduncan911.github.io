@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-06-19T13:12:39-04:00</updated>
+  <updated>2014-07-12T11:42:53-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,291 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to: Key-Based SSH Logins With PuTTY]]></title>
+    <link href="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html"/>
+    <updated>2014-07-11T12:43:10-04:00</updated>
+    <id>http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty</id>
+    <content type="html"><![CDATA[<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="http://eduncan911.com/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
+
+<p>First, let me explain why I do this.</p>
+
+<h2>Why use SSH keys to login?</h2>
+
+<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
+
+<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
+
+<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
+
+<h3>Other Reasons to use SSH keys for logins</h3>
+
+<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
+
+<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
+
+<h2>First, the PuTTY Quirks</h2>
+
+<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
+
+<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
+
+<h2>Create and Save a PuTTY Session profile</h2>
+
+<p>Here&rsquo;s the steps I take to create a Session profile.</p>
+
+<ul>
+<li>Open PuTTY and you should be in the Session category on the left.</li>
+<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
+<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
+</ul>
+
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
+
+<ul>
+<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
+</ul>
+
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
+
+<ul>
+<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
+<li><p>Now, press the Save button.</p></li>
+</ul>
+
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
+
+<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
+
+<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
+
+<h2>Generate a PuTTY Public/Private Key Pair</h2>
+
+<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
+
+<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
+
+<ul>
+<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
+<li>Set a passphrase, you will use this as your password when connecting each time.</li>
+</ul>
+
+
+<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
+
+<h2>Take the Public key, and assign it to your Linux box</h2>
+
+<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
+
+<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
+
+<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
+
+<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir ~/.ssh
+</span><span class='line'>chmod 700 ~/.ssh</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, create the file:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pico ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&#34;Linux SSH Public Key Setup for PuTTY&#34;" alt="&#34;Linux SSH Public Key Setup for PuTTY&#34;"></p>
+
+<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
+
+<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>chmod 600 ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
+
+<h2>Set the Private Key in your PuTTY Session Profile</h2>
+
+<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
+
+<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
+
+<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
+
+<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
+
+<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
+
+<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
+
+<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
+
+<h2>Completed.  Now, connect.</h2>
+
+<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
+
+<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;" alt="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;"></p>
+
+<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
+
+<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why I Fight to Keep MKV as My Media]]></title>
+    <link href="http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media.html"/>
+    <updated>2014-07-02T09:57:26-04:00</updated>
+    <id>http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media</id>
+    <content type="html"><![CDATA[<p>I have a fairly high-end home media setup in where I store nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV shows.  I&rsquo;ve archived all the blu-ray and dvds I&rsquo;ve purchased over the last 15 years into a digital format.</p>
+
+<p>Today I want to share with you my reasons for staying with the format MKV, otherwise known as <a href="http://www.matroska.org/">Matroska</a>, over all of these years in lieu of MP4, MOV, AVI, WMV and so on.</p>
+
+<h2>What&rsquo;s wrong with MP4, MOV, AVI, etc?</h2>
+
+<p>Let me start by stating the inherit flaw of these.  I am not going to get into lossless, video quality, etc.  There are 1000s of posts on that.  There&rsquo;s also the fight that WMV won&rsquo;t play on iPads, and the Xbox refusing certain copyrighted encryptions.  No.  None of that.</p>
+
+<p>Instead I want to focus on 1 flaw they all have in common: they are only a single layer of intermixed streams of video and audio, unable to be separated, switched off, or doubled up.</p>
+
+<p>Think about a standard DVD or Blu-ray movie: You have multiple audio tracks including multiple commentaries that makes you want to watch the movie over and over again (I recall watching <em>Alien (1979)</em> multiple times with Sigourney Weaver&rsquo;s commentary, <em>Aliens (1986)</em> is even funnier with Bill Paxton&rsquo;s commentary).  Sometimes there are alternative endings to choose from before you start your movie.  Other times, you may need foreign subtitles for the parts in another language; or, those foreign subtitles are translated incorrectly, and you&rsquo;d rather turn them off and interrupt them yourself.</p>
+
+<p>And there in-lies the problem with a single layer of video and audio in the above mentioned formats: whatever is selected at the time of encoding (English, Japanese subtitles, H264 video stream), is merged into a single layer &ndash; unable to be manipulated, turned off, or changed.</p>
+
+<p>I prefer freedom&hellip;</p>
+
+<h2>It&rsquo;s all about the Matroska Layers</h2>
+
+<p>At the very heart of the Matroska container (aka, file format) is its &ldquo;layer&rdquo; approach which gives it the power to encapsulate as many video, audio and subtitle tracks to your heart&rsquo;s content &ndash; all in their RAW format, unmolested by &ldquo;encoders&rdquo; that have to remix them into a single stream in the other formats.</p>
+
+<p>Want all 5 audio commentaries for <em>Alien (1979)</em>, including the two separate Ridley Scott and Sigourney Weaver tracks?  No problem, the MKV container allows you to store as many audio tracks as you like.</p>
+
+<p>Want the alternative cut and ending to <em>The Abyss (1989)</em> in where the aliens are actually here for a different reason (I won&rsquo;t spoil it here)?  No problem with MKVs.</p>
+
+<p>An MKV file can do this because it essentially is just a <em>wrapper</em> around your raw binary streams (or rips) of H264 video, AAC or FLAC audio, and the subtitle text file(s).  DVDs and Blu-rays store these streams separately &ndash; it is how you can switch audio tracks or alternative endings.  It is only natural that you take these raw streams from these disks, and wrap them in a container of sorts (MKV) to have them all at your fingertips to switch video, audio and languages with a click of the button.</p>
+
+<p>Welcome to Matroska.</p>
+
+<h2>Example: Multiple Camera Angles (multiple video streams)</h2>
+
+<p>One of my favorite DVDs is my <a href="http://www.amazon.com/Peter-Gabriel-Growing-Up-Live/dp/B0000DZ3H4?tag=eduncan911-20"><em>Peter Gabriel&rsquo;s &ndash; Growing Up Live (2003)</em></a>, a live recording in Milan of his <em>Growing Up Tour</em> in 2003.</p>
+
+<p>What&rsquo;s interesting about this DVD (I really wish they would release a blu-ray) is that it has interactive camera angles during multiple titles.  You are able to &ldquo;switch videos streams&rdquo; to a different camera angles.  Pretty cool.</p>
+
+<p>With Matroska, I retained these video angles within the single MKV file I created of the DVD when I ripped it.  Given though, I didn&rsquo;t copy the &ldquo;cue markers&rdquo; overlay from the original DVD viewing.  You kind of have to know when you can change angles, and you can select a different video stream while playing.</p>
+
+<h2>Subtitles</h2>
+
+<p>This one is especially important to my family.  With a spouse of a different nationality, English sub-titles are a near must.</p>
+
+<p>The other formats have to &ldquo;burn-in&rdquo; sub-titles on-top of the video, removing the option to turn it off.  Yes, many decoders allow you to add an .srt file alongside the MP4 and it will overlay the subtitles (if you get the right one, and if it is in sync with its time codes).</p>
+
+<p>Again, thanks to Matroska&rsquo;s layers, this is only a matter of adding (or removing, or reording) the subtitle tracks that are part of the MKV layers.</p>
+
+<p>Don&rsquo;t like the Dutch sub-titles as default?  Reorder them, or remove them.</p>
+
+<h2>MKV is open source and well documented</h2>
+
+<p>That&rsquo;s right.  No copyright or patents to infringe on.  The perhaps most importantly, the container format is very well documented allowing for anyone to create a set of tools themselves.</p>
+
+<p>It is a real shame that the big players ignore this format, and it is up to us end-users to hack our devices to play them.</p>
+
+<h2>A callout to Microsoft, Apple and Google</h2>
+
+<p>Why hasn&rsquo;t MKV gone mainstream?  Why hasn&rsquo;t one of these companies openly embraced this superior format?</p>
+
+<p>The answer is simple: copyright and encryption.  The Matroska does not support either with its free and open container format; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.</p>
+
+<h2>Handle it myself</h2>
+
+<p>So that leaves me, a lone person, burdened to create my own Matroska MKV containers myself.  More cumbersome is the annoyance of getting the MKVs to play on multiple devices in different media centers and tables.</p>
+
+<p>It seems every few years I have to <em>re-evaluate</em> my media devices and setup to ensure everything is compatible.  Seems to come around with each new Windows release, since the hunt for decoders and setup starts all over.</p>
+
+<p>Next time, it&rsquo;s Linux once and for all.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lenovo Thinkpad End/Insert Key Swap]]></title>
+    <link href="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html"/>
+    <updated>2014-07-01T12:01:44-04:00</updated>
+    <id>http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap</id>
+    <content type="html"><![CDATA[<p><a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">Lenovo Helix End/Insert Keys Swapped</a></p>
+
+<p>I recently switched from the Dell-exclusive club of laptops over the past 15 years to a ThinkPad.  Specifically, the Lenovo ThinkPad Helix.  It was a unit I have been waiting years for to check all the right boxes.</p>
+
+<p>I haven&rsquo;t been privy to the IBM/Lenovo keyboard wars.  I have always heard great things about the IBM ThinkPad keyboard.  Well, it seems this Lenovo Helix came with the newer style of only one row of Function keys + hardware-specific keys (volume, brightness, etc).  Fine by me as I figured out how to lock in the Function-mode-always (a BIOS option).</p>
+
+<p>But now I had a serious problem when coding/writing long documents&hellip;</p>
+
+<h2>The End/Insert Key was Swapped</h2>
+
+<p>Why in the hell would the End/Insert key swap functions when I lock in the Function-key mode of the F1-F12 keys?</p>
+
+<p>This was almost a deal breaker.  Only after crawling the Lenovo forums (a great place to find hacks for Lenovo) did I stumble onto a Lenovo ThinkPad keyboard hack to <a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">reverse the key functions</a>.  It actually remaps the Windows keyboard layout in the registry, an age-old trick I forgot about over a decade ago!</p>
+
+<h2>Swapping the End/Insert key functions</h2>
+
+<p>Instead of supplying a download of a .reg file, which I am not even sure that GitHub supports, I&rsquo;ll explain the instructions on how to create your own .reg file.</p>
+
+<ul>
+<li>Right-click on your desktop, select <code>New -&gt; Text Document</code></li>
+<li>Copy and Paste the following into this document, letter by letter.</li>
+</ul>
+
+
+<figure class='code'><figcaption><span>lenovo-helix-end-insert-key-swap.reg</span><a href='https://gist.github.com/eduncan911/f27808d2bb30982b4da5'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Windows Registry Editor Version 5.00
+</span><span class='line'>
+</span><span class='line'>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+</span><span class='line'>&quot;Scancode Map&quot;=hex:00,00,00,00,00,00,00,00,03,00,00,00,52,e0,4f,e0,4f,e0,52,e0,00,00,00,00
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Save the file as <code>lenovo-helix-end-insert-key-swap.reg</code></li>
+<li>Double-click it to <code>merge</code> it into your registry.  You will need to be logged in as an Administrator.</li>
+<li>Reboot and you&rsquo;re done.</li>
+</ul>
+
+
+<p>Now, the function of the End/Insert will be swapped.</p>
+
+<p>Also, <a href="http://blog.lenovo.com/products/why-you-should-give-in-to-the-new-thinkpad-keyboard">devoted fans of the previous Thinkpad keyboard: you may want to take your anger here</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Buy KickStarter at MoMA]]></title>
@@ -1605,91 +1890,6 @@ I can just browse to my source branch and create a new file to start blogging.  
 take callbacks from GitHub, and to publish it on the site after commits.  Yep, very fun stuff&hellip;</p>
 
 <p>~E</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Power Naps for Everyone]]></title>
-    <link href="http://eduncan911.com/blog/archives/power-naps-for-everyone.html"/>
-    <updated>2011-04-25T19:28:35-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/power-naps-for-everyone</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="Mei sleeping on our couch." border="0" alt="Mei sleeping on our couch." align="left" src="http://eduncan911.com/blog/archives/images/How-to-Take-a-Nap_CD86/V__A2E1_thumb.jpg" width="256" height="193" />You may think you know how to take a nap.&#160; Lie down, close eyes, and whenever you wake up that&#8217;s it.&#160; As it turns out, anything beyond 30 minutes puts you into danger of biting your work colleagues heads off when they interrupt you at 40 or 50 minutes into your nap.</p>
-
-
-<p>  <p>I find myself constantly giving this advice to my work colleagues and family members.&#160; So, here&rsquo;s a blog post on what works very well for me.</p>  <p>There was a British study I read some 6 or so years ago that concluded a simple formula for power napping.&#160; And ever since I started to use this formula, it has worked wonders for my afternoon concentration.&#160; </p>  <p><strong>Preparation</strong></p>  <p>First and foremost, caffeine is your enemy here.&#160; If you are a 2+ cups of coffee drinker a day, &quot;because I need it to get going&quot;, then you may have to look elsewhere to prepare.&#160; There&rsquo;s nothing you can do when you crash in the afternoon but to drink more caffeine. </p>  <p>One idea would be to switch to Japanese Green Tea (not the cheap store-brands, but actual shredded green leafs that you control the dosage with).&#160; It is said that the caffeine in Japanese Green Tea absorbs at a much slower pace than coffee, which is less of a shock to your body (and lasts longer).&#160; This could allow you to come down from that high more easily, and allow a power nap.</p>  <p>I actually went caffeine-free for about 6 solid years.&#160; It completely changes your sleep habits (for the good).&#160; The only caffeine I take now is a cup of imported Japanese Green Tea in the morning (but no later than 12 noon), and a piece of chocolate here and there once a week or so.</p>  <p><strong>1. Remove all distractions.</strong></p>  <p>Turn off the computer, all distractions, close the office door, put up a sign in your cubical for Do Not Disturb &ndash; whatever it takes to remove all distractions.&#160; Also, silence any phones in your area (no txt, next chess move alerts, etc).</p>  <p>The problem with New York City when I moved here is I have yet to work in an office with dedicated offices, or even a cubical!&#160; Everyone is squeezed into tight open work areas, and demanded to be at full attention at all hours of the day.&#160; This is a horrible working environment and goes against our basic evolutional bodily functions.&#160; You are yawning at 2pm?&#160; Yeah, no wonder.&#160; All I have to say here is to bring a set of very large headphones, and set a workplace policy that when you have your headphones on, you are to not be disturbed.&#160; Works most of the time actually (even if head laying on the desk).</p>  <p><strong>2. Set an alarm for no longer than 30 minutes.&#160; </strong></p>  <p>You do not want to sleep past 30 minutes, no matter how tired you are.&#160; When the alarm goes off, you must get up &ndash; no exceptions.&#160; This is because your body will start to go into REM Stage I sleep at 35 to 40 minutes, and your body will be expecting to go through all 3 stages of REM &ndash; over the next 3 to 4 hours.&#160; Your body will start to release the chemicals needed for deep sleep at Stage I, and you don&rsquo;t want any of that.&#160; If your REM cycle is interrupted during any of these stages, well, that&rsquo;s when Mr. Groggy comes out and is introduced to your co-workers.</p>  <p>Tip: the use of a smartphone in your workplace is perfect here.&#160; Set some relaxing meditation music on your phone as well as an alarm on the phone for no longer than 30 minutes.&#160; Just turn off the ringer and text message sounds first.</p>  <p><strong>3. Set the proper conditions.</strong></p>  <p>If it is not possible to set a dark area, bring a sleep mask with you to work.&#160; Also, increase the temp if possible or put on a jacket &ndash; even if you are a bit warm already (your body lowers its temp during sleep cycles).&#160; If you cannot use a sleep mask or dim the lights, just lie your forehead on your arms on your desk. </p>  <p><strong>4. Remove all thoughts of stress.&#160; </strong></p>  <p>Do not think about anything related to work, no matter how fun it is.&#160; Think nothing of deadlines or tasks &ndash; that only begets an elevated heart rate. Think of the next vacation for the family instead, or your kids next birthday wish, or that hot rod car project: whatever makes you happy.&#160; </p>  <p><strong>If interrupted from slumber…</strong></p>  <p>There are a few rules to follow if you are interrupted by the kids, or co-workers.</p>  <ul>   <li>Get up immediately.&#160; </li>    <li>Do not attempt to go back to the nap for the next 2 to 3 hours.&#160; Anything earlier than that does not work. </li> </ul>  <p>This is why it is important to set the policy that once you are resting, you are at rest.&#160; </p>  <p><strong>Power Naps are not a replacement for the lack of sleep.</strong></p>  <p>One bad night of sleep?&#160; Fine.&#160; Two or more of consecutive bad nights of sleep?&#160; Power naps aren&rsquo;t going to help much.</p>  <p><strong>Tell the boss you are just thinking.</strong></p>  <p>The British study (if I could find it, I would &ndash; Binging <em>British Power Nap Studies</em> has an endless supply of links) also concluded that power napping makes you more focused in the 2 to 3 hours after the power nap.&#160; Additional research on the study yielded that people tend to have their best ideas just before and just after Stage I REM.</p>  <p>So the next time your boss asks if you are sleeping on the job, say no and you just are thinking.</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[.NET 4.0, HTML, and a Potentially Dangerous Request.Form Value]]></title>
-    <link href="http://eduncan911.com/blog/archives/net-4-0-html-and-a-potentially-dangerous-request-form-value.html"/>
-    <updated>2010-04-09T01:51:41-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/net-4-0-html-and-a-potentially-dangerous-request-form-value</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<p><img style="border-right-width: 0px; margin: 0px 0px 20px 20px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="validation" border="0" alt="validation" align="right" src="http://eduncan911.com/blog/archives/images/ApotentiallydangerousRequest.Formvalue.0_12CAD/validation.jpg" width="312" height="244" /> I ran across a breaking change tonight in the .NET 4.0 CLR&#8217;s version of ASP.NET.&#160; The 4.0 version of the CLR binds to any HTTP request data to validate against.</p>
-
-
-<p>  <p>The entire error you may see is:</p>  <blockquote>   <p><em>A potentially dangerous Request.Form value was detected from the client</em></p> </blockquote>  <p>This is because 4.0 now inspects all request data.&#160; Rather that being the cookies, urls, headers, etc.&#160; A very nice security upgrade, I might say.&#160; This will prevent a hacker from submitting malicious code through cookies or other means that you may be parsing. </p>  <h2>WYSIWYG and/or HTML Editors with .NET 4.0&rsquo;s CLR</h2>  <p>One common issue that immediately creeps up with this new security is when you want to use a rich-text editor or even a textbox that you want to submit HTML data through.&#160; This seems to be now impossible with .NET 4.0&rsquo;s CLR&rsquo;s default validation because you cannot override this behavior, if you remain in 4.0&rsquo;s validation.</p>  <p>And no, there is no way to selectively disable which items to validate.</p>  <h2>ASP.NET MVC&rsquo;s ValidateInput attribute does not work</h2>  <p>You, like me, most likely just slapped a big ol&#8217; fat <font face="Courier New">[ValidateInput]</font> attribute on your MVC controller&rsquo;s action method and thought you were done.&#160; But behold, the error still remains!</p>  <p>This is because your MVC website is running on the .NET 4.0 CLR and therefore continues to be validated.</p>  <h2>The Fix: HttpRuntime requestValidationMode</h2>  <p>The work-around is to place this into your web.config&rsquo;s <font face="Courier New">&lt;system.web&gt;</font> node:</p>  <p></p>  <pre><code>
-&lt;httpRuntime requestValidationMode=&quot;2.0&quot; /&gt;</p>
-
-<p></code></pre></p>
-
-<p></p>
-
-
-
-
-<p>What this does is it forces the CLR to only check the Page&#8217;s html fields, which you can now overwrite with the <font face="Courier New">[ValidateInput]</font> attribute in MVC controllers, or the <font face="Courier New">&lt;%@ Page validateRequest=&quot;false&quot; %&gt;</font>, or any other normal means. </p>
-
-
-
-
-<p>Sadly though, this also disables all of those other checks for the request data.&#160; Obviously, this is not a preferred work-around and even though VS 2010 is due for release on April 12th (just around the corner!), I do not see any notations of this being changed anytime soon.</p>
-
-
-
-
-<p>If someone knows a work around for 4.0, please let me know.&#160; This is a great new feature, but sadly we must disable it for just about any website we develop on.</p>
-
-
-
-
-<p>Unless we move to <a href="http://daringfireball.net/projects/markdown/" target="_blank">MarkDown</a> that is (which I am a big fan of, clients not so much…).</p>
-
-
-
-
-<p><a href="http://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.requestvalidationmode(VS.100).aspx" target="_blank">You can find out more information about this over at MSDN</a></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Create a Bootable USB Drive With Windows]]></title>
-    <link href="http://eduncan911.com/blog/archives/create-a-bootable-usb-drive-with-windows.html"/>
-    <updated>2010-04-01T23:21:00-04:00</updated>
-    <id>http://eduncan911.com/blog/archives/create-a-bootable-usb-drive-with-windows</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
-
-
-<p><img style="border-right-width: 0px; margin: 0px 20px 20px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="5805-1[1]" border="0" alt="5805-1[1]" align="left" mce_src="/blog/archives/images/CreateaBootableUSBDrive_F442/580511.jpg" width="244" height="167" src="http://eduncan911.com/blog/archives/images/CreateaBootableUSBDrive_F442/580511.jpg"> I find myself Bing-ing this every few months to make sure I included each and every step.&nbsp; So often, that I can&#8217;t believe I still Bing it.&nbsp; So below is a manual for anyone (mostly me) to follow in the future.</p>
-
-
-<p>  <h2>USB Boot Linux, Windows or any other operating system</h2>  <p>You will be creating a bootable usb drive with Windows 7 or Vista&rsquo;s diskpart utility.&nbsp; Even though you are using Windows to create the bootable device, the source disk should not matter as long as the os supports booting from fat32.&nbsp; You can have a Linux iso mounted as the source, and the usb stick will end up being a Linux bootable usb.</p>  <p>Without further ado, on with the steps.</p>  <h2>Creating a bootable USB device</h2>  <p>In Windows 7 or Vista, open a command prompt.&nbsp; A shortcut is to press <font face="Courier New"><b>WINDOWS-KEY + R</b></font> and then type <font face="Courier New"><b>CMD</b></font>, press <font face="Courier New"><b>ENTER</b></font>.</p>  <p><font face="Courier New">C:\Users\eduncan911&amp;gt; diskpart</font></p>  <p><font face="Courier New">DISKPART&gt; list disk</font></p>  <blockquote>   <p>Inspect the list and note which one is the USB drive.&nbsp; Tip: It&rsquo;s most likely the last one.</p> </blockquote>  <p><font face="Courier New">DISKPART&gt; select disk 1</font></p>  <blockquote>   <p>Where 1 is the disk number from the <font face="Courier New">list disk</font> command above.</p> </blockquote>  <p><font face="Courier New">DISKPART&gt; detail disk</font></p>  <blockquote>   <p>The <font face="Courier New">detail disk</font> step above lists the details of the selected disk.&nbsp; Make sure the correct one is listed.&nbsp; If not, go back to <font face="Courier New">list disk</font> and start over.</p> </blockquote>  <p><font face="Courier New">DISKPART&gt; clean</font></p>  <p><font face="Courier New">DISKPART&gt; create partition primary</font></p>  <p><font face="Courier New">DISKPART&gt; select partition 1</font></p>  <p><font face="Courier New">DISKPART&gt; active</font></p>  <p><font face="Courier New">DISKPART&gt; format fs=fat32 quick label=&ldquo;USB_16GB&rdquo;</font></p>  <p><font face="Courier New">DISKPART&gt; assign</font></p>  <p><font face="Courier New">DISKPART&gt; detail disk</font></p>  <blockquote>   <p>Note the drive letter listed in the column labeled <font face="Courier New">LTR</font>.</p> </blockquote>  <p><font face="Courier New">DISKPART&gt; exit</font></p>  <p><font face="Courier New">C:\Users\eduncan911&gt; xcopy d:*.* g:\ /E /F</font></p>  <blockquote>   <p>Where d:\ is your mounted ISO or DVD you want to copy from, and g:\ is the USB device to copy to.</p> </blockquote>  <p><font face="Courier New">C:\Users\eduncan911&gt; exit</font></p>  <p>And that&rsquo;s it.&nbsp; Go stick it in something and boot it.</p></p>
 ]]></content>
   </entry>
   

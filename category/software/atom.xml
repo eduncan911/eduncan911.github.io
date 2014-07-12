@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-06-19T13:12:39-04:00</updated>
+  <updated>2014-07-12T11:42:53-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,164 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to: Key-Based SSH Logins With PuTTY]]></title>
+    <link href="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html"/>
+    <updated>2014-07-11T12:43:10-04:00</updated>
+    <id>http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty</id>
+    <content type="html"><![CDATA[<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
+
+<p>First, let me explain why I do this.</p>
+
+<h2>Why use SSH keys to login?</h2>
+
+<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
+
+<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
+
+<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
+
+<h3>Other Reasons to use SSH keys for logins</h3>
+
+<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
+
+<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
+
+<h2>First, the PuTTY Quirks</h2>
+
+<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
+
+<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
+
+<h2>Create and Save a PuTTY Session profile</h2>
+
+<p>Here&rsquo;s the steps I take to create a Session profile.</p>
+
+<ul>
+<li>Open PuTTY and you should be in the Session category on the left.</li>
+<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
+<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
+
+<ul>
+<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
+
+<ul>
+<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
+<li><p>Now, press the Save button.</p></li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
+
+<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
+
+<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
+
+<h2>Generate a PuTTY Public/Private Key Pair</h2>
+
+<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
+
+<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
+
+<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
+
+<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
+
+<ul>
+<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
+<li>Set a passphrase, you will use this as your password when connecting each time.</li>
+</ul>
+
+
+<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
+
+<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
+
+<h2>Take the Public key, and assign it to your Linux box</h2>
+
+<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
+
+<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
+
+<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
+
+<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
+
+<p><code>
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+</code></p>
+
+<p>Now, create the file:</p>
+
+<p><code>
+pico ~/.ssh/authorized_keys2
+</code></p>
+
+<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&ldquo;Linux SSH Public Key Setup for PuTTY&rdquo;" ></p>
+
+<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
+
+<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
+
+<p><code>
+chmod 600 ~/.ssh/authorized_keys2
+</code></p>
+
+<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
+
+<h2>Set the Private Key in your PuTTY Session Profile</h2>
+
+<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
+
+<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
+
+<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&ldquo;Set SSH Private Key in PuTTY for SSH Key-Based Login&rdquo;" ></p>
+
+<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
+
+<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&ldquo;Set SSH Private Key in PuTTY for SSH Key-Based Login&rdquo;" ></p>
+
+<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
+
+<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
+
+<h2>Completed.  Now, connect.</h2>
+
+<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&ldquo;Logging in with PuTTY SSH Key-Base Authentication&rdquo;" ></p>
+
+<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
+
+<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Best Cloud Computing and Security Talk EVAR]]></title>
@@ -169,150 +327,6 @@ out of the Linux/OSX world from developers that needed to generate a static site
 <p>I am now free to write my thoughts in any place I can write notepad.  I insert things like <code>{% blockquote %}</code> and write a small blurb and I&rsquo;m done.  I&rsquo;ve been wanting to switch to Markdown since I started using it with Unfuddle many many years ago, and now I can.</p>
 
 <p>If this post made you think about making more sites static, drop me a line in the comments below.</p>
-
-<p>~E</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Please Put Your Blog Under Source Control]]></title>
-    <link href="http://eduncan911.com/software/please-put-your-blog-under-source-control.html"/>
-    <updated>2014-04-07T10:37:08-04:00</updated>
-    <id>http://eduncan911.com/software/please-put-your-blog-under-source-control</id>
-    <content type="html"><![CDATA[<p>There are many benefits to both your readers and yourself if you were to put your
-blog under source revisions.  I would go as far to say that you own it to the community
-to publish all revisions of your blog that was ever public for pure archiving reasons.</p>
-
-<h2>Revision those files you linked to</h2>
-
-<p>Recently I setup <a href="/software/my-hackers-blog.html">my hacker&rsquo;s blog</a>
-and I had a need to import my old blog posts from CommunityServer.  The steps were a bit
-hackery itself as I had to get data out of CS and into a format that one of the common
-importers of Jekyll/Octopress could read from.  I chose BlogML to export as that seemed
-to have the oldest support (my CS blog was 9 years old).</p>
-
-<h2>Finding that old file that no one cares about any longer</h2>
-
-<p>After spending a few days off and on tweaking the exported BlogML data, I basically found only
-a single BlogML importer for Jekyll.  This is why I chose this route to begin with.  So, when
-it came time to perform the import guess what?  The blogml.rb ruby script links were all broken!</p>
-
-<p>Then I had a thought: if the author of the script was running Jekyll/Octopress, especially on
-GitHub pages, then perhaps there is a revision history.</p>
-
-<p>I had to dig through about 2 years of commits; but, I found it!</p>
-
-<p><a href="https://github.com/philippkueng/philippkueng.github.com/blob/30ef1570f06d33938b18d5eee7767d6641b9a779/source/_import/blogml.rb">Commit 30ef1570f0 for blogml.rb from author</a></p>
-
-<p>You can even backup a folder and see his entire snapshot of his blog during the import process.</p>
-
-<p>Thank you Philipp Küng for revisioning your blog.</p>
-
-<h2>Changing blogging platforms</h2>
-
-<p>What if you are switch blogging software every 5 years?  Keep old snapshots and revisions of your old site
-in tags and refer to them in your change revisions.  Even if you don&rsquo;t keep the same technology,
-having an old copy around for public reference can be useful to the community.</p>
-
-<h2>Domain expiration, hosting company goes under, etc</h2>
-
-<p>So your domain expires or got snatched up by a squatter?  Or your hosting company pulls the plug?
-At least having a revision available will allow you the flexibility, even if you don&rsquo;t continue
-a blog any longer.</p>
-
-<h2>Updates, changes and redactions</h2>
-
-<p>Opinions online can be heated and made in jest.  You may have published something that you wish you
-didn&rsquo;t.  Or after some nice comments are posted, you update the post.  Maybe a DMCA takedown request
-forced you to remove a piece of content.  Wouldn&rsquo;t it be nice to know and show the revision history of your post?</p>
-
-<p>I know that me for one is going to stop with the dozen tiny edits for spelling and grammar because
-of this.  Who knows, it may cause me to actually <em>think</em> before publishing.</p>
-
-<p>And FYI, you can see each revision of each post and page I make to my site here.</p>
-
-<h2>Backups</h2>
-
-<p>Similar to the above, having a full backup you can take with you can be advantageous.</p>
-
-<p>Personally, I not only publish my source code here at GitHub; but, I also have an additional
-remote added for BitBucket and always do the following:</p>
-
-<p>``` bash</p>
-
-<blockquote><p>git add .
-git commit -m &ldquo;fixed spelling and corrected a quote&rdquo;
-git push backup source
-git push origin source
-```</p></blockquote>
-
-<p>Now, you can do this for any source code sure.  It&rsquo;s these next steps that make it viable.</p>
-
-<p>``` bash</p>
-
-<blockquote><p>rake deploy</p>
-
-<pre><code>^- this publishes the live site to GitHub pages
-</code></pre>
-
-<p>cd ./_deploy
-git push backup master
-```</p></blockquote>
-
-<p>Yep, I also deploy a 2nd copy to my BitBucket account.  Even though it will never be used as a real
-site, it&rsquo;s a full backup of the live site in the master branch.</p>
-
-<p>The Optopress command <code>rake deploy</code> also pushed it up to GitHub pages on master &ndash; that&rsquo;s how it
-&ldquo;publishes.&rdquo;  So all I have to do is make a quick backup.  What&rsquo;s even nice is the script does
-a pull request as well, to keep the _deploy folder in sync so when I do perform a backup, it&rsquo;s all there.
-I am new to git branch tracking; so, I may have to tweak that last command by forcing <code>-f</code> up the
-push to backup if it gets out of sync or something.</p>
-
-<p>Finally, having multiple copies of your repo online and publicly accessible can help with&hellip;</p>
-
-<h2>Government seizers</h2>
-
-<p>All too often, governments are taking domains and peoples' hosting accounts in the name of DMCA and
-copyright infringements.  Oh, and free speech as well.</p>
-
-<p>Why not publish your blog open source?</p>
-
-<p>The last step to further solidify your published site and source would be automate a bittorrent release
-for every deployment.  Doesn&rsquo;t seem to far out of reach with these snapshots readily available.</p>
-
-<h2>Death</h2>
-
-<p>What if you were to pass away?  Would your annual payment to your domains continue for decades? What
-about the fee you pay your hosting company?  Same as the previous reason, publishing it may very well
-keep it going for a long time even if the domain is gone, people can still get to the source.</p>
-
-<p>Especially at a place like GitHub pages.</p>
-
-<h2>Why not?</h2>
-
-<p>I hope I sparked some food for thought and I would like your opinions on the matter.</p>
-
-<p>I cannot come up with solid reasons for not to publish your blog open source.  I know at first I
-wrestled with the idea that:</p>
-
-<p><blockquote><p>Wait, my database connection strings would be publicly visible.  I can&rsquo;t do that.</p></blockquote></p>
-
-<p>Then it hit me that Octopress/Jekyll is completely static &ndash; there are no database connection strings.
-Q
-<blockquote><p>My secret keys for my 3rd party integrations may be exposed.</p></blockquote></p>
-
-<p>Actually not.  Twitter, Disqus, LinkedIn and so on all use public kesy/ids to identify you with their
-widgets.  Even Flickr allows for a vast array of public apis.</p>
-
-<p>You would only need private keys on your site if you were programatically pushing or changing content
-elsewhere in a write-permission need.  But again, this was planned as a static site &ndash; no problem here.</p>
-
-<p><blockquote><p>I have private downloads I don&rsquo;t want others to see.</p></blockquote></p>
-
-<p>Ok, this one did get me.  I do have private downloads of password-protected files on my old site.</p>
-
-<p>I have to think back to the longevity of my blog &ndash; do I want the downloads archived forever?  Short
-answer, no.</p>
 
 <p>~E</p>
 ]]></content>
