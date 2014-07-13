@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/technology/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-12T16:30:06-04:00</updated>
+  <updated>2014-07-13T11:11:04-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Only 2 Days Left to Crash the FCC]]></title>
+    <link href="http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc.html"/>
+    <updated>2014-07-13T10:41:03-04:00</updated>
+    <id>http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc</id>
+    <content type="html"><![CDATA[<p><a href="http://www.npr.org/blogs/alltechconsidered/2014/06/03/318458496/john-oliver-helps-rally-45-000-net-neutrality-comments-to-fcc">John Oliver Helps Rally 45,000 Net Neutrality Comments To FCC</a></p>
+
+<p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/fpbOEoRrHyU "></iframe></div></p>
+
+<p>There&rsquo;s only two days left for comments.  At the time I left mine a month ago, there were 65,000 comments.  Now, there are 205,000.</p>
+
+<p><a href="http://www.fcc.gov/comments">The url to file your comments: fcc.gov/comments</a></p>
+
+<p>The YouTube video hit on every point I&rsquo;ve been saying in person when talking about this, and many more.</p>
+
+<p>One of my biggest I tell people is how the former chairman of the FCC left (forced out?), and the new one put in place by Obama last year previously ran (as in chaired and commanded) the lobbying firm for Cable and Wireless (e.g. Comcast and TimeWarner) which was directly responsible for the last attempt to create the two-tier system that the FCC blocked.  And, that sued the government to force this actual change.</p>
+
+<p>Translation by the current FCC chairman: &ldquo;We didn&rsquo;t win last time. Ok, let&rsquo;s sue the FCC/government to force a rule change. When we win the lawsuit, I&rsquo;ll step down as head of this lobbyist group and become head of the FCC [so I can force this rule through].&rdquo;</p>
+
+<p>How fracked up is that?</p>
+
+<p>Also it sucks that NetFlix already has to paid Comcast to get service to its users.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why I Fight to Keep MKV as My Media]]></title>
@@ -199,31 +224,6 @@ Audio player not available in your browser. Please try a newer browser.
 <p>Then again, in 30 years we may evolve to actually have our brains multi-task.</p>
 
 <p><cite>#HatTip ForgetFoo <a href="http://forgetfoo.com">http://forgetfoo.com</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bitcoin's IRS-blocking 'Dark Wallet' Launched Today]]></title>
-    <link href="http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today.html"/>
-    <updated>2014-05-01T14:38:13-04:00</updated>
-    <id>http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today</id>
-    <content type="html"><![CDATA[<p><a href="http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/">Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</a></p>
-
-<p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Ouo7Q6Cf_yc "></iframe></div></p>
-
-<p>I first heard about this Dark Wallet protocol a few months ago when <a href="http://pando.com/2014/03/12/moving-on-up-bitcoin-gets-a-boost-as-new-york-opens-applications-for-virtual-currency-exchange-licenses/">New York state</a> announced they are regulating Bitcoin.  And recently when the <a href="http://www.breitbart.com/Big-Government/2014/04/03/IRS-Retroactively-Taxes-Bitcoin">IRS announced it is retroactively taxing Bitcoin as property</a>, the community brought up the Dark Wallet system again.</p>
-
-<p>I have bitcoin and do not plan on paying any tax on it.  I didn&rsquo;t &ldquo;buy&rdquo; any amount using taxable USD, and don&rsquo;t see a need for &ldquo;regulation.&rdquo;  Trying to tax my Bitcoin is basically using a gun to say I need to pay a tax on the open-source software I write: it has value to a select few, and is completely useless to most.</p>
-
-<p><blockquote><p><img class="<a" src="href="http://media.coindesk.com/2014/05/dark.jpg">http://media.coindesk.com/2014/05/dark.jpg</a>" title="&lsquo;Bitcoin Dark Wallet&rsquo;" ></p></p><p><p>The alpha version of Dark Wallet – the hyper-anonymising bitcoin wallet – goes live today.</p></p><p><p>Created by Amir Taaki and Cody Wilson, Dark Wallet provides new tools for financial privacy, including in-built coin mixing and ‘stealth’ wallet addresses.</p></p><p><p>As well as making it easier for people to disguise their transactions from the government, Dark Wallet is also a torpedo aimed at those in the bitcoin community who have embraced co-operation with regulators.</p></p><p><p>Conceived last year and partly funded by $50,000 raised on Indiegogo, the wallet was developed by unSystem, a collective of anarchist bitcoin developers. It represents an ethos that has been largely excluded from the mainstream discourse around bitcoin.</p></p><p><p>In January of this year, Circle CEO Jeremy Allaire told CoinDesk that bitcoin was “absolutely” moving away from its libertarian roots, and described attempts to avoid the regulation of bitcoin as playing into the hands of “anarchists and criminals”.</p><footer><strong>Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today <a href="http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/">http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/</a></strong></footer></blockquote></p>
-
-<p>And I personally liked this little nugget from the related article&hellip;</p>
-
-<p><blockquote><p>If your goals are to create a sort of shadow financial system that runs in offshore jurisdictions and is attractive for anarchists and criminals, then maybe [regulation] is not important.</p><footer><strong>Jeremy Allaire via CoinDesk <a href="http://www.coindesk.com/bitcoin-abandons-anti-establishment-wall-street/">http://www.coindesk.com/bitcoin-abandons-anti-establishment-wall-street/</a></strong></footer></blockquote></p>
-
-<p>The power to tax involves the power to destroy.</p>
-
-<p>~E</p>
 ]]></content>
   </entry>
   

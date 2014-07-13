@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-12T16:30:06-04:00</updated>
+  <updated>2014-07-13T11:11:04-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Only 2 Days Left to Crash the FCC]]></title>
+    <link href="http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc.html"/>
+    <updated>2014-07-13T10:41:03-04:00</updated>
+    <id>http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc</id>
+    <content type="html"><![CDATA[<p><a href="http://www.npr.org/blogs/alltechconsidered/2014/06/03/318458496/john-oliver-helps-rally-45-000-net-neutrality-comments-to-fcc">John Oliver Helps Rally 45,000 Net Neutrality Comments To FCC</a></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/fpbOEoRrHyU "></iframe></div>
+
+
+<p>There&rsquo;s only two days left for comments.  At the time I left mine a month ago, there were 65,000 comments.  Now, there are 205,000.</p>
+
+<p><a href="http://www.fcc.gov/comments">The url to file your comments: fcc.gov/comments</a></p>
+
+<p>The YouTube video hit on every point I&rsquo;ve been saying in person when talking about this, and many more.</p>
+
+<p>One of my biggest I tell people is how the former chairman of the FCC left (forced out?), and the new one put in place by Obama last year previously ran (as in chaired and commanded) the lobbying firm for Cable and Wireless (e.g. Comcast and TimeWarner) which was directly responsible for the last attempt to create the two-tier system that the FCC blocked.  And, that sued the government to force this actual change.</p>
+
+<p>Translation by the current FCC chairman: &ldquo;We didn&rsquo;t win last time. Ok, let&rsquo;s sue the FCC/government to force a rule change. When we win the lawsuit, I&rsquo;ll step down as head of this lobbyist group and become head of the FCC [so I can force this rule through].&rdquo;</p>
+
+<p>How fracked up is that?</p>
+
+<p>Also it sucks that NetFlix already has to paid Comcast to get service to its users.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to: Key-Based SSH Logins With PuTTY]]></title>
@@ -1812,90 +1838,6 @@ deploy is going to take a long while.  Might as well get into the habit early!</
 
 <p>PS: I am thinking of renting a <a href="http://technichi.com/">Macbook Pro</a> because of the time lost with stuff like this
 under Windows.  Argh&hellip;</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Hackers' Blog]]></title>
-    <link href="http://eduncan911.com/software/my-hackers-blog.html"/>
-    <updated>2014-04-02T23:25:01-04:00</updated>
-    <id>http://eduncan911.com/software/my-hackers-blog</id>
-    <content type="html"><![CDATA[<p>Three years, 11 months and 22 days&hellip; That&rsquo;s how long it has been since my last blog post.</p>
-
-<p>When I originally launched this blog, I was using the software I originally wrote for CommunityServer back in
-2004 and 2005.  Ever since then I have dreamed of grand visions of new blogging software.  Tinkering with new
-design patterns, following <a href="http://invalidlogic.com/2008/12/22/blogging-apps-are-the-new-hello-world/">Ken Robertson&rsquo;s advice of trying out new frameworks with the concept of an Hello Blog</a>,
-where you create a blog using whatever language you want.  While that was all said and good, I never got around to
-finishing any of them good enough to launch them live.</p>
-
-<h3>Enter <a href="http://octopress.org/">Octopress</a>: A blogging framework for hackers</h3>
-
-<p>For those that haven&rsquo;t heard about it, go <a href="http://octopress.org/">read about it</a>.  In short, it uses Ruby to create a static blog for
-you to upload anywhere.  Yes, just raw .html files and css/js/image files.  And, that&rsquo;s about it.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
-</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
-
-
-<p>You write your posts in MarkDown, and be done with it. There are all sorts of little <del>hacks</del> shortcuts when writing posts that I
-am going to have a lot of fun with.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview
-</span><span class='line'># now open browser to eduncan911.local:4000/</span></code></pre></td></tr></table></div></figure>
-
-
-<p>When you go completely static, interesting opportunities start to emerge&hellip;  You no longer need a &ldquo;web host&rdquo; &ndash; all you need is a place
-to dump your files online somewhere.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Enter <a href="https://pages.github.com/">GitHub Pages</a></h3>
-
-<p>GitHub allows you to <a href="https://pages.github.com/">host static pages</a> in a public repo.  I&rsquo;ve been hosting my code.eduncan911.com
-there for years.</p>
-
-<p><span class='pullquote-right' data-pullquote='If I create a static blog, I can just host it at GitHub.'>
-A few Google searches revealed I wasn&rsquo;t the only one who thought this way. If I create a static blog, I can just host it at GitHub.
-At first I stumbled upon <a href="https://github.com/jekyll/jekyll">Jekyll</a> which gives you full control over markup, css, etc.  But here I was in
-the same position &ndash; writing code.  I found that Octopress is built upon Jekyll; but, it already has a default theme, css, plugins, etc.
-</span></p>
-
-<p>The best part is they have step-by-step instructions on how to publish it straight to GitHub Pages.  It really can&rsquo;t get any easier than
-this, for any <del>hacker</del> skill level.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git add --all
-</span><span class='line'>git commit -m "new post: My Hacker Blog"
-</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
-
-
-<p>That&rsquo;s right, this blog is hosted at <a href="http://eduncan911.github.io/">eduncan911.github.io</a>.  They have instructions on
-setting up a CNAME (in my case though, an ALIAS for the root eduncan911.com domain) and that&rsquo;s it, you&rsquo;re live.</p>
-
-<p>As a matter of fact, <a href="https://github.com/eduncan911/eduncan911.github.io">go browse my site</a> just like the old &ldquo;directory browsing&rdquo; method.
-If you want to see the source code in how I generate the site, switch branches to <a href="https://github.com/eduncan911/eduncan911.github.io/tree/source"><code>source</code></a> to
-check that out.  Tip: most of that is Octopress.  Drill into the /source/ directory to see the raw nit-n-gritty fun stuff.</p>
-
-<p>I will admit though, it took some tinkering to get Octopress setup and working correctly on Windows with PoshGit and PowerShell.</p>
-
-<h3>The way forward</h3>
-
-<p>There are a number of plug-ins, and there is some work I want to do to the asides (right column).  But I am liberated
-to no longer wait, and just do.</p>
-
-<p>Most of all, being just raw MarkDown, I can write from any device now: tablets, smart phones, anywhere.  And, being on GitHub,
-I can just browse to my source branch and create a new file to start blogging.  There are instructions for a C.I. server to
-take callbacks from GitHub, and to publish it on the site after commits.  Yep, very fun stuff&hellip;</p>
-
-<p>~E</p>
 ]]></content>
   </entry>
   
