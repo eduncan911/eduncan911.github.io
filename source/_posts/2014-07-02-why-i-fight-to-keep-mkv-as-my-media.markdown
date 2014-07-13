@@ -11,7 +11,7 @@ categories: technology
 tags: [mkv, videos, home server]
 ---
 
-I have a fairly high-end home media setup in where I store nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV shows.  I've archived all the blu-ray and dvds I've purchased over the last 15 years into a digital format.
+I have a fairly high-end home media setup in where I store my backups of nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV series on a server with over 20 TB of storage.  I've archived all the blu-ray and dvds I've purchased over the last 15 years into a digital format.
 
 Today I want to share with you my reasons for staying with the format MKV, otherwise known as [Matroska](http://www.matroska.org/), over all of these years in lieu of MP4, MOV, AVI, WMV and so on.
 
@@ -25,7 +25,7 @@ Think about a standard DVD or Blu-ray movie: You have multiple audio tracks incl
 
 And there in-lies the problem with a single layer of video and audio in the above mentioned formats: whatever is selected at the time of encoding (English, Japanese subtitles, H264 video stream), is merged into a single layer - unable to be manipulated, turned off, or changed.
 
-I prefer freedom...
+I prefer freedom of choice.
 
 ## It's all about the Matroska Layers
 
@@ -65,15 +65,15 @@ It is a real shame that the big players ignore this format, and it is up to us e
 
 ## Besides, I can always convert to any format later
 
-Having the video and audio streams alongside the closed caption allows me to convert the MKV into any format I like in the future. 
+Having all the video and audio streams alongside the closed caption allows me to convert my backups of MKVs into any format I like in the future. 
 
-Once such tool is [Handbrake](http://handbrake.fr/), which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB move and compresses it down to a 1.8 GB file (for the kiddo's tablet).  
+Once such tool is [Handbrake](http://handbrake.fr/), which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB movie and compresses it down to a 1.8 GB file (for the kiddo's tablet).  
 
 ## A callout to Microsoft, Apple and Google
 
 Why hasn't MKV gone mainstream?  Why hasn't one of these companies openly embraced this superior format?
 
-The answer is simple: copyright and encryption.  The Matroska does not support either with its free and open container format; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.
+The answer is simple: copyright and encryption.  The Matroska format does not support either with its free and open container formats; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.
 
 ## Handle it myself
 
