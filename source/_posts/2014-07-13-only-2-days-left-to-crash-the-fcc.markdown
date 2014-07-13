@@ -27,5 +27,5 @@ Translation by the current FCC chairman: "We didn't win last time. Ok, let's sue
 
 How fracked up is that?
 
-Also it sucks that NetFlix already has to paid Comcast to get service to its users.
+Also it sucks that NetFlix already has to pay Comcast to get service to its users.
 
