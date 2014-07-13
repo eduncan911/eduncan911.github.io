@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/technology/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-13T11:17:20-04:00</updated>
+  <updated>2014-07-13T11:25:05-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -43,7 +43,7 @@
     <link href="http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media.html"/>
     <updated>2014-07-02T09:57:26-04:00</updated>
     <id>http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media</id>
-    <content type="html"><![CDATA[<p>I have a fairly high-end home media setup in where I store nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV shows.  I&rsquo;ve archived all the blu-ray and dvds I&rsquo;ve purchased over the last 15 years into a digital format.</p>
+    <content type="html"><![CDATA[<p>I have a fairly high-end home media setup in where I store my backups of nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV series on a server with over 20 TB of storage.  I&rsquo;ve archived all the blu-ray and dvds I&rsquo;ve purchased over the last 15 years into a digital format.</p>
 
 <p>Today I want to share with you my reasons for staying with the format MKV, otherwise known as <a href="http://www.matroska.org/">Matroska</a>, over all of these years in lieu of MP4, MOV, AVI, WMV and so on.</p>
 
@@ -57,7 +57,7 @@
 
 <p>And there in-lies the problem with a single layer of video and audio in the above mentioned formats: whatever is selected at the time of encoding (English, Japanese subtitles, H264 video stream), is merged into a single layer &ndash; unable to be manipulated, turned off, or changed.</p>
 
-<p>I prefer freedom&hellip;</p>
+<p>I prefer freedom of choice.</p>
 
 <h2>It&rsquo;s all about the Matroska Layers</h2>
 
@@ -97,15 +97,15 @@
 
 <h2>Besides, I can always convert to any format later</h2>
 
-<p>Having the video and audio streams alongside the closed caption allows me to convert the MKV into any format I like in the future.</p>
+<p>Having all the video and audio streams alongside the closed caption allows me to convert my backups of MKVs into any format I like in the future.</p>
 
-<p>Once such tool is <a href="http://handbrake.fr/">Handbrake</a>, which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB move and compresses it down to a 1.8 GB file (for the kiddo&rsquo;s tablet).</p>
+<p>Once such tool is <a href="http://handbrake.fr/">Handbrake</a>, which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB movie and compresses it down to a 1.8 GB file (for the kiddo&rsquo;s tablet).</p>
 
 <h2>A callout to Microsoft, Apple and Google</h2>
 
 <p>Why hasn&rsquo;t MKV gone mainstream?  Why hasn&rsquo;t one of these companies openly embraced this superior format?</p>
 
-<p>The answer is simple: copyright and encryption.  The Matroska does not support either with its free and open container format; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.</p>
+<p>The answer is simple: copyright and encryption.  The Matroska format does not support either with its free and open container formats; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.</p>
 
 <h2>Handle it myself</h2>
 
