@@ -11,7 +11,7 @@ categories: [technology]
 tags: ["Nexus 10","Apple"]
 ---
 
-I have beem fighting an ongoing battle with Apple's Wireless Keyboards and a tablet of mine, the Google Nexus 10.  While the keyboard works with all other Android and Apple devices we have (Nexus 5, Nexus 7 2013, Galaxy Nexus and Apple iPod Touch), it does not work with the Google Nexus 10.  I've gone as far as to [asking for help on SE](http://android.stackexchange.com/questions/66496/android-4-4-apple-bluetooth-keyboard-paired-but-not-working).
+I have been fighting an ongoing battle with Apple's Wireless Keyboards and a tablet of mine, the Google Nexus 10.  While the keyboard works with all other Android and Apple devices we have (Nexus 5, Nexus 7 2013, Galaxy Nexus and Apple iPod Touch), it does not work with the Google Nexus 10.  I've gone as far as to [asking for help on SE](http://android.stackexchange.com/questions/66496/android-4-4-apple-bluetooth-keyboard-paired-but-not-working).
 
 Well, that's not entirely accurate.  The story started with a used Apple Wireless Keyboard I got from eBay.  It paired and worked fine; but, some of the keys did not work.  So I bought a new one from Apple.com.
 
