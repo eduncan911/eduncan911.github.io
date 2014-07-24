@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hardware | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/hardware/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-23T21:56:55-04:00</updated>
+  <updated>2014-07-23T22:12:21-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google Nexus 10 and Apple Wireless Keyboard]]></title>
+    <link href="http://eduncan911.com/technology/hardware/google-nexus-10-and-apple-wireless-keyboard.html"/>
+    <updated>2014-07-23T19:50:40-04:00</updated>
+    <id>http://eduncan911.com/technology/hardware/google-nexus-10-and-apple-wireless-keyboard</id>
+    <content type="html"><![CDATA[<p>I have been fighting an ongoing battle with Apple&rsquo;s Wireless Keyboards and a tablet of mine, the Google Nexus 10.  While the keyboard works with all other Android and Apple devices we have (Nexus 5, Nexus 7 2013, Galaxy Nexus and Apple iPod Touch), it does not work with the Google Nexus 10.  I&rsquo;ve gone as far as to <a href="http://android.stackexchange.com/questions/66496/android-4-4-apple-bluetooth-keyboard-paired-but-not-working">asking for help on SE</a>.</p>
+
+<p>Well, that&rsquo;s not entirely accurate.  The story started with a used Apple Wireless Keyboard I got from eBay.  It paired and worked fine; but, some of the keys did not work.  So I bought a new one from Apple.com.</p>
+
+<p>It paired and connected just fine; but, the brand spanking new keyboard did not work.  The Nexus 10 would not recognize an additional input device (the small &ldquo;A&rdquo; symbol in the top left corner of the screen).</p>
+
+<p>To reiterate, this new Apple Wireless Keyboard ordered direct from Apple.com worked fine with all other Android devices (Android 4.2.2, 4.4.2, 4.4.3 and 4.4.4) and the iPod Touch 4th Gen.  It is only this Nexus 10 (Android 4.4.3 and 4.4.4) that it did not.</p>
+
+<h2>Nexus 10 Bluetooth Stack</h2>
+
+<p>As I blogged some time ago, not all <a href="http://eduncan911.com/blog/archives/bluetooth-expedition-the-right-stuff.html">Bluetooth devices are made equal</a>.   Devices implement the Bluetooth stack differently and sometimes miss an implementation detail.</p>
+
+<p>I highly suspect the Nexus 10 has a flawed Bluetooth implementation, causing this incompatibility.</p>
+
+<p>But what exactly is it incompatible with?  It worked fine with the previous Apple keyboard I got used on eBay.  It works fine with all other bluetooth keyboards I have tried.</p>
+
+<p>Why this one Apple keyboard I got direct from apple.com?</p>
+
+<h2>Apple Wireless Keyboard version: 2007, 2009 and 2011</h2>
+
+<p>Atlas only after several trips to some local Apple stores did I stumble onto the issue: there are three versions of the Apple Wireless Keyboard that were sold.  I found this out by looking at about a dozen different iMacs they had, from old to new.  Surprisingly Apple&rsquo;s newest store located in NYC, in Grand Central Terminal, is the one that had the largest collection of older iMacs &ndash; ones that actually had the 2009 keyboard and even one with the 2007 keyboard.</p>
+
+<p>They are identified by their model years.  To take a quote <a href="http://support.apple.com/kb/ht4112">directly from Apple&rsquo;s support site</a>:</p>
+
+<p><blockquote><p>* Apple Wireless Keyboard (2011): Features an aluminum case and uses two AA batteries. You can identify this model by the following icons on the F3 and F4 keys:</p></p><p><p><img src="http://km.support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT4112/HT4112_01----en.png" /></p></p><p><ul><br/><li>Apple Wireless Keyboard (2009): Features an aluminum case and uses two AA batteries. You can identify this model by the following icons on the F3 and F4 keys:</li><br/></ul></p><p><br/><p><img src="http://km.support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT4112/HT4112_02----en.png" /></p></p><p><ul><br/><li>Apple Wireless Keyboard (2007): Features an aluminum case and uses three AA batteries.</li><br/></ul></p><p><br/><p></p><footer><strong>Apple Support <a href="http://support.apple.com/kb/ht4112">http://support.apple.com/kb/ht4112</a> &ldquo;Apple Wireless Keyboard compatibility&rdquo;</strong></footer></blockquote></p>
+
+<p>So, we have three keyboards available to us.  After many trials and errors, I can safely say&hellip;</p>
+
+<h2>Get the 2009 Apple Wireless Keyboard model</h2>
+
+<p>The used eBay model I got was a 2009 and it worked fine, dispite a few keys not working.  The Apple.com model I got was an 2011 with the latest x80 firmware &ndash; and it did not work.</p>
+
+<p>You want to focus on the F3 and F4 keys looking like this:</p>
+
+<p><img src="/blog/images/google-nexus-10-and-apple-wireless-keyboard-2009.jpg" title="Nexus 10 and 2009 Apple Wireless Keyboard" ></p>
+
+<p>Again, the 2011 keyboard works fine with all other Android devices, even back to Android 4.2 on my Galaxy Nexus.  So this is clearly a fault with the Nexus 10&rsquo;s bluetooth hardware.</p>
+
+<p>But none the less, if you want an Apple Wireless Keyboard to work with your Nexus 10, you better seek out the 2009 model.</p>
+
+<h2>2009 Apple Wireless Keyboard Firmware</h2>
+
+<p>And btw, the firmware version of the 2009 I found working at an Apple store has firmware version x50.  You can see it under the system&rsquo;s properties, like this:</p>
+
+<p><img src="/blog/images/google-nexus-10-and-apple-wireless-keyboard-2009-firmware.jpg" title="Nexus 10 and 2009 Apple Wireless Keyboard Firmware" ></p>
+
+<p>I only mention the firmware because I found a number of posts online where people upgraded their 2009 and 2011 keyboard firmwares to the latest, and lost some functionality.  I am not sure if the x50 version of the firmware is the latest.  I am only stating the exact version of the 2009 keyboard that worked flawlessly with the Nexus 10.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Wacom Intuos3/4 Is Incompatible With the Lenovo Helix]]></title>

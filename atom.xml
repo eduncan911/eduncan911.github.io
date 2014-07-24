@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-23T21:56:55-04:00</updated>
+  <updated>2014-07-23T22:12:21-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google Nexus 10 and Apple Wireless Keyboard]]></title>
-    <link href="http://eduncan911.com/technology/google-nexus-10-and-apple-wireless-keyboard.html"/>
+    <link href="http://eduncan911.com/technology/hardware/google-nexus-10-and-apple-wireless-keyboard.html"/>
     <updated>2014-07-23T19:50:40-04:00</updated>
-    <id>http://eduncan911.com/technology/google-nexus-10-and-apple-wireless-keyboard</id>
+    <id>http://eduncan911.com/technology/hardware/google-nexus-10-and-apple-wireless-keyboard</id>
     <content type="html"><![CDATA[<p>I have been fighting an ongoing battle with Apple&rsquo;s Wireless Keyboards and a tablet of mine, the Google Nexus 10.  While the keyboard works with all other Android and Apple devices we have (Nexus 5, Nexus 7 2013, Galaxy Nexus and Apple iPod Touch), it does not work with the Google Nexus 10.  I&rsquo;ve gone as far as to <a href="http://android.stackexchange.com/questions/66496/android-4-4-apple-bluetooth-keyboard-paired-but-not-working">asking for help on SE</a>.</p>
 
 <p>Well, that&rsquo;s not entirely accurate.  The story started with a used Apple Wireless Keyboard I got from eBay.  It paired and worked fine; but, some of the keys did not work.  So I bought a new one from Apple.com.</p>
