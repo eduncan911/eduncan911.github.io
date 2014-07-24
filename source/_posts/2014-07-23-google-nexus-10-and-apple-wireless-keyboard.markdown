@@ -7,7 +7,7 @@ image: http://eduncan911.com/blog/images/google-nexus-10-and-apple-wireless-keyb
 video: 
 date: 2014-07-23 19:50:40 -0400
 comments: true
-categories: [technology]
+categories: [technology,hardware]
 tags: ["Nexus 10","Apple"]
 ---
 
@@ -31,21 +31,21 @@ Why this one Apple keyboard I got direct from apple.com?
 
 ## Apple Wireless Keyboard version: 2007, 2009 and 2011
 
-Atlas only after several trips to some local Apple stores did I stumble onto the issue: there are three versions of the Apple Wireless Keyboard that were sold.  They are identified by their model years.  To take a quote [directly from Apple's support site](http://support.apple.com/kb/ht4112):
+Atlas only after several trips to some local Apple stores did I stumble onto the issue: there are three versions of the Apple Wireless Keyboard that were sold.  I found this out by looking at about a dozen different iMacs they had, from old to new.  Surprisingly Apple's newest store located in NYC, in Grand Central Terminal, is the one that had the largest collection of older iMacs - ones that actually had the 2009 keyboard and even one with the 2007 keyboard.
 
-{% blockquote Apple http://support.apple.com/kb/ht4112 "Apple Wireless Keyboard compatibility" %}
+They are identified by their model years.  To take a quote [directly from Apple's support site](http://support.apple.com/kb/ht4112):
+
+{% blockquote Apple Support http://support.apple.com/kb/ht4112 "Apple Wireless Keyboard compatibility" %}
 * Apple Wireless Keyboard (2011): Features an aluminum case and uses two AA batteries. You can identify this model by the following icons on the F3 and F4 keys:
 
 <img src="http://km.support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT4112/HT4112_01----en.png" />
-
-Note: When using Apple Wireless Keyboard (2011) with iOS 4.3 or earlier, the function keys are limited to the Eject key. Update to iOS 5 or later to enable additional function keys.
 
 * Apple Wireless Keyboard (2009): Features an aluminum case and uses two AA batteries. You can identify this model by the following icons on the F3 and F4 keys:
 
 <img src="http://km.support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT4112/HT4112_02----en.png" />
 
 * Apple Wireless Keyboard (2007): Features an aluminum case and uses three AA batteries.
-The original Apple Wireless Keyboard, introduced in 2003, is not compatible:
+
 {% endblockquote %}
 
 So, we have three keyboards available to us.  After many trials and errors, I can safely say...
@@ -56,7 +56,7 @@ The used eBay model I got was a 2009 and it worked fine, dispite a few keys not 
 
 You want to focus on the F3 and F4 keys looking like this:
 
-{% img http://eduncan911.com/blog/images/google-nexus-10-and-apple-wireless-keyboard-2009.jpg Nexus 10 and 2009 Apple Wireless Keyboard %}
+{% img /blog/images/google-nexus-10-and-apple-wireless-keyboard-2009.jpg Nexus 10 and 2009 Apple Wireless Keyboard %}
 
 Again, the 2011 keyboard works fine with all other Android devices, even back to Android 4.2 on my Galaxy Nexus.  So this is clearly a fault with the Nexus 10's bluetooth hardware.
 
@@ -66,7 +66,7 @@ But none the less, if you want an Apple Wireless Keyboard to work with your Nexu
 
 And btw, the firmware version of the 2009 I found working at an Apple store has firmware version x50.  You can see it under the system's properties, like this:
 
-{% img http://eduncan911.com/blog/images/google-nexus-10-and-apple-wireless-keyboard-2009-firmware.jpg Nexus 10 and 2009 Apple Wireless Keyboard Firmware %}
+{% img /blog/images/google-nexus-10-and-apple-wireless-keyboard-2009-firmware.jpg Nexus 10 and 2009 Apple Wireless Keyboard Firmware %}
 
 I only mention the firmware because I found a number of posts online where people upgraded their 2009 and 2011 keyboard firmwares to the latest, and lost some functionality.  I am not sure if the x50 version of the firmware is the latest.  I am only stating the exact version of the 2009 keyboard that worked flawlessly with the Nexus 10.
 

@@ -7,6 +7,6 @@ image:
 video: 
 date: 2014-07-16 15:51:09 -0400
 comments: true
-categories: 
-tags: 
+categories: [software,design]
+tags: [GoLang,Go,Password]
 ---
