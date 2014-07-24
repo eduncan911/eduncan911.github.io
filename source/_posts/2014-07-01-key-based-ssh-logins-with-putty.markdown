@@ -5,7 +5,7 @@ title: "How To: Key-Based SSH Logins with PuTTY"
 description: This guide steps you through logging into a SSH terminal using key-based certificates using PuTTY on Windows.
 image: 
 video: 
-date: 2014-07-11 12:43:10 -0400
+date: 2014-07-01 12:43:10 -0400
 comments: true
 categories: [software, tools]
 tags: [PuTTY, SSH, Linux]
