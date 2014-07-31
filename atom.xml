@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-23T22:12:21-04:00</updated>
+  <updated>2014-07-31T18:13:57-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,142 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Credit Cards With Tokens?]]></title>
+    <link href="http://eduncan911.com/software/security/processing-credit-cards-with-tokens.html"/>
+    <updated>2014-07-31T14:07:40-04:00</updated>
+    <id>http://eduncan911.com/software/security/processing-credit-cards-with-tokens</id>
+    <content type="html"><![CDATA[<p><audio preload="none" data-mins="03" data-secs="21" data-title="NPR: Visa Makes Big Move To Boost Consumer Spending Online">
+<source src="http://pd.npr.org/anon.npr-mp3/npr/atc/2014/07/20140716_atc_visa_makes_big_move_to_increase_online_spending.mp3" type="audio/mpeg">
+Audio player not available in your browser. Please try a newer browser.
+</audio></p>
+
+<p>Heard this on NPR and decided to investigate further because at first glance it looks like a good idea &ndash; at least from a developer&rsquo;s perspective.</p>
+
+<p>From the PaymentNews website, I found this announcement.</p>
+
+<blockquote><p>Tokenization is the process of replacing a traditional card account number with a unique payment token that is restricted in how it can be used with a specific device, merchant, transaction type or channel. When using tokenization, merchants and digital wallet operators do not need to store card account numbers; instead they are able to store payment tokens that can only be used for their designated purpose. The tokenization process happens in the background in a manner that is expected to be invisible to the consumer.</p><footer><strong>EMVCo to Work on Payment Tokenization Standards</strong> <cite><a href='http://www.paymentsnews.com/2014/01/emvco-to-work-on-payment-tokenization-standards.html'>www.paymentsnews.com/2014/01/&hellip;</a></cite></footer></blockquote>
+
+
+<p>Visa calls it, <a href="https://checkout.visa.com/index.jsp?country=US">VISA checkout</a> and it is supposed to remove the burden of entering a credit card from your smartpohone.</p>
+
+<p>Looking better.  But wait a minute, how do you secure/access a token?</p>
+
+<p>Turns out they are expecting users to sign in with a &ldquo;<em>simple username and password, easy to remember</em>.&rdquo;  And there inlies my first cringe &ndash; passwords?  Let me explain why that is a roadblock IMO:</p>
+
+<ul>
+<li>Either the <a href="http://en.wikipedia.org/wiki/Password_policy">password requirements</a> will be a road block for anyone to easily type or remember.</li>
+<li>Or, the password will be a weaker password &ndash; easy for people to remember, and also to reuse for, say, a forum login <a href="http://lifehacker.com/5853483/a-guide-to-sniffing-out-passwords-and-cookies-and-how-to-protect-yourself-against-it">that can easily get sniffed</a>.</li>
+</ul>
+
+
+<p>Sure, you can mitigate the complex passwords with a password manager.  But, not everyone uses those and some would argue <a href="http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves.html">a password manager is also a bad idea</a>.</p>
+
+<p>Today if presented with an &ldquo;enter credit card details below&rdquo; with an option to &ldquo;sign in with Visa Checkout instead&rdquo;, I still enter the raw CC details.  Which that in and of itself is the problem VISA is trying to fix by focusing the burden on secure storage of those CC details with VISA themselves, instead of the mom-n-pop cake shop&rsquo;s PHP website that is asking for my CC.</p>
+
+<p>What I would suggest is to take a more two-factor approach to authentication.  Someting that involves a simple password, one that is easy to remember; but also, you need to have a second factor of authentication &ndash; like a keyfob or fingerprint reader or possibly even, gasp, something as simple as <a href="http://en.wikipedia.org/wiki/Google_Authenticator">Google&rsquo;s Authenticator</a> that has worked perfectly for me for many websites and devices.</p>
+
+<p>But sadly, we will continue to be forced to obey the <a href="http://www.taipeitimes.com/News/editorials/archives/2010/09/10/2003482490">false sense of security of complex passwords</a>.</p>
+
+<p>Also see: <a href="http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way.html">Passwords &ndash; When Security Gets in the Way</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[FCC Crashed Again for Net Neutrality]]></title>
+    <link href="http://eduncan911.com/technology/fcc/fcc-crashed-again-for-net-neutrality.html"/>
+    <updated>2014-07-31T13:56:49-04:00</updated>
+    <id>http://eduncan911.com/technology/fcc/fcc-crashed-again-for-net-neutrality</id>
+    <content type="html"><![CDATA[<p><audio preload="none" data-mins="01" data-secs="49" data-title="NPR: FCC Extending Net Neutrality Commenting Time After Site Buckles">
+<source src="http://pd.npr.org/anon.npr-mp3/npr/me/2014/07/20140716_me_fcc_extending_net_neutrality_commenting_time_after_site_buckles.mp3?dl=1" >
+Audio player not available in your browser. Please try a newer browser.
+</audio></p>
+
+<blockquote><p>A flood of comments about net neutrality crashed the Federal Communications Commission&#8217;s commenting site on Tuesday, the original deadline for public comments on the controversial Internet proposal. But the tech problems are buying those who want to weigh in some extra time — the deadline for public commenting is now Friday (July 18th, 2014) at midnight.</p><footer><strong>FCC Extending Net Neutrality Commenting Time After Site Buckles</strong> <cite><a href='http://www.npr.org/blogs/alltechconsidered/2014/07/15/331798176/fcc-extending-net-neutrality-commenting-time-after-site-buckles'>www.npr.org/blogs/2014/07/15/&hellip;</a></cite></footer></blockquote>
+
+
+<p>Thank you everyone for <a href="http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc.html">answering my call to crash the FCC</a>.</p>
+
+<p>Well, at least I&rsquo;d like to think I had a hand in it with my awesome blog posts on the matter.  :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Password Managers Are Not Immune to Hacks Themselves]]></title>
+    <link href="http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves.html"/>
+    <updated>2014-07-30T16:11:41-04:00</updated>
+    <id>http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves</id>
+    <content type="html"><![CDATA[<p><a href="http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250">Hacking Password Managers</a></p>
+
+<p><img src="http://eduncan911.com/blog/images/hacking-password-managers.jpg" title="Hacking Password Managers" ></p>
+
+<blockquote><p>&#8220;Our attacks are severe: in four out of the five password managers we studied (LastPass, RoboForm, My1login, PasswordBox, and NeedMyPassword), an attacker can learn a user’s credentials for arbitrary websites. We find vulnerabilities in diverse features like one-time passwords, bookmarklets, and shared passwords. The root-causes of the vulnerabilities are also diverse: ranging from logic and authorization mistakes to misunderstandings about the web security model, in addition to the typical vulnerabilities like CSRF and XSS. Our study suggests that it remains to be a challenge for the password managers to be secure.&#8221;</p><p>&#8220;We found critical vulnerabilities in all three bookmarklets we studied,&#8221; the researchers report. &#8220;If a user clicks on the bookmarklet on an attacker’s site, the attacker, in all three cases, learns credentials for arbitrary websites.&#8221;</p><p>&#8220;Our work is a wake-up call for developers of web-based password managers. The wide spectrum of discovered vulnerabilities, however, makes a single solution unlikely. Instead, we believe developing a secure web-based password manager entails a systematic, defense-in-depth approach&#8230; Future work includes creating tools to automatically identify such vulnerabilities and developing a principled, secure-by-construction password manager.&#8221;</p><footer><strong>Hacking Password Managers</strong> <cite><a href='http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250'>www.darkreading.com/cloud/d/&hellip;</a></cite></footer></blockquote>
+
+
+<p>I can&rsquo;t believe we are still talking about CSRF attacks.  And for websites claiming to be <em>secured</em> for passwords themselves?  Isn&rsquo;t it a common job interview question by now (or better yet, a coding exercise) for developers in how to prevent CSRF attacks?</p>
+
+<p>Oh yeah, and how most of the common web-based password managers are all hackable.  Sure, they fixed THIS vulnerability.  Then when the next zero-day is found, it will be fixed.  And the next and the next.</p>
+
+<p>I use a password manager.  It is not web based, does not integrate into any browser, and still requires manual intervention to open and view &ndash; with copy-n-paste only possible in some circumstances which makes the annoyance ever more livable after reading this article.</p>
+
+<p>Can&rsquo;t wait until next month (August) for the paper to be released.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Passwords - When Security Gets in the Way]]></title>
+    <link href="http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way.html"/>
+    <updated>2014-07-24T16:58:17-04:00</updated>
+    <id>http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way</id>
+    <content type="html"><![CDATA[<p><a href="http://jnd.org/dn.mss/when_security_gets_in_the_way.html">When Security Gets in the Way</a></p>
+
+<p><img src="http://eduncan911.com/blog/images/when-security-gets-in-the-way.jpg" title="When Security Gets in the Way" ></p>
+
+<blockquote><p>The numerous incidents of defeating security measures prompts my cynical slogan: The more secure you make something, the less secure it becomes. Why? Because when security gets in the way, sensible, well-meaning, dedicated people develop hacks and workarounds that defeat the security. Hence the prevalence of doors propped open by bricks and wastebaskets, of passwords pasted on the fronts of monitors or hidden under the keyboard or in the drawer, of home keys hidden under the mat or above the doorframe or under fake rocks that can be purchased for this purpose.</p><p>We are being sent a mixed message: on the one hand, we are continually forced to use arbitrary security procedures. On the other hand, even the professionals ignore many of them. How is the ordinary person to know which ones matter and which don&#8217;t? The confusion has unexpected negative side-effects. I once discovered a computer system that was missing essential security patches. When I queried the computer&#8217;s user, I discovered that the continual warning against clicking on links or agreeing to requests from pop-up windows had been too effective. This user was so frightened of unwittingly agreeing to install all those nasty things from &#8220;out there&#8221; that all requests were denied, even the ones for essential security patches. On reflection, this is sensible behavior: It is very difficult to distinguish the legitimate from the illegitimate. Even experts slip up, as the confessions reported occasionally in various computer digests I attest.</p><footer><strong>Don Norman</strong> <cite><a href='http://jnd.org/dn.mss/when_security_gets_in_the_way.html'>jnd.org/dn.mss/&hellip;</a></cite></footer></blockquote>
+
+
+<p>I recall many years ago when Microsoft proclaimed the end of password management woes with long and memorial <a href="http://technet.microsoft.com/en-us/library/cc512624.aspx">Pass Phrases</a>.  I personally started to really get annoyed at websites that didn&rsquo;t allow me to enter spaces or the password length was something small like 16 characters.</p>
+
+<p>As a previous IT Administrator, having to reset so many user passwords because they locked themselves out or just plain forgot their had-to-change-ever-60-days password, I saw first hand the annoyances that most had with passwords.</p>
+
+<p>It wasn&rsquo;t until just a few years ago that the buzz around complex passwords started to shift to a &ldquo;false sense of security&rdquo; statue.  Which is very true because I have personally <a href="http://en.wikipedia.org/wiki/Brute-force_attack">brute-force attacked</a> several passwords (in the name of education, of course).</p>
+
+<p>Seeing how fast my X79 6-core desktop with over 5,760 GPU cores could churn through a few billion password combinations to guess a 20 character TruCrypt volume (it took only 4 hours by the way), the era of complex passwords deterring hackers is over &ndash; way way over since this hardware can easily be purchased off the shelf by anyone &ndash; and I still have room for another 6000 GPU cores if I ever upgraded.  That&rsquo;s just insane &ndash; 12,000 GPU cores in a single machine.</p>
+
+<h2>Smart Password Hashing</h2>
+
+<p>Now, some password managers are smart.  It wasn&rsquo;t until I read into KeePass&#8217; <a href="http://keepass.info/help/base/security.html#secdictprotect">protection against Dictionary Attacks</a> did I realize a whole &lsquo;nother way of preventing brute-force attacks.  KeePass describes their password hashing like this:</p>
+
+<blockquote><p>You can&#8217;t really prevent these [brute-force dictionary] attacks: nothing prevents an attacker to just try all possible keys and look if the database decrypts. But what we can do (and KeePass does) is to make it harder: by adding a constant work factor to the key initialization, we can make them as hard as we want.</p><footer><strong>KeePass - Protection against Dictionary Attacks</strong> <cite><a href='http://keepass.info/help/base/security.html#secdictprotect'>keepass.info/help/base/&hellip;</a></cite></footer></blockquote>
+
+
+<p>Please go read the rest of that quote for extreme details.  But in short, here is what they do:</p>
+
+<ul>
+<li>Take your Master password and hash it.</li>
+<li>Hash it another <em>N</em> number of times based on a simple pre-determined algorithm (think: PreviousHash + &ldquo;A Salt&rdquo;, PreviousHash + &ldquo;B Salt&rdquo;, etc).</li>
+</ul>
+
+
+<p>The trick that makes this work is that <em>N</em> should be a number of cycles that it takes your computer to compute in about 1 second.  By default, they set it to 6000 to allow for older mobile phones to be able to open the password database within about a second or two.  But this should be much higher.  Like, on a factor of 100,000 times higher.</p>
+
+<p>For example, that same 6-core X79 CPU and 5,760 GPU core desktop I used to crack that 20-character TruCrypt could generate about 18,000,000 passwords each second.  But, when I opened KeePass and told it to calculate how many hashes it needed to perform to take at least 1 second on this machine, the answer was 23,000,000.</p>
+
+<p>So how does rehashing 23,000,000 times work, you may ask?  Instead of my computer generating 23,000,000 passwords a second in a brute-force attack, it follows a pre-determined algorithm hashing 23,000,000 times to generate only 1 password.</p>
+
+<p>I&rsquo;ll let that sink in for a moment&hellip;</p>
+
+<p>If a hackers machine is busy generating only 1 password per second, the possibility of brute force attacking a database goes from 23,000,000 per second down to just 1 per second.</p>
+
+<p>No hacker in the world is going to continue brute-forcing that database.  Most likely they will just look for the <a href="http://www.reuters.com/article/2014/03/31/us-usa-security-nsa-rsa-idUSBREA2U0TY20140331">NSA backdoors available in everything</a> at that point.</p>
+
+<p>I&rsquo;ll end with a final quote from our buddy Don from earlier.</p>
+
+<blockquote><p>Although there is much emphasis on passwords security most break-ins occur through other means. How do thieves break into systems? They usually don&#8217;t use brute force. They phish, luring unsuspecting but helpful people to tell them their login name and password. Or they install sniffers on keyboards and record everything that was typed. The strength of passwords is irrelevant if the thief has already discovered it.</p><footer><strong>Don Norman</strong> <cite><a href='http://jnd.org/dn.mss/when_security_gets_in_the_way.html'>jnd.org/dn.mss/&hellip;</a></cite></footer></blockquote>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Nexus 10 and Apple Wireless Keyboard]]></title>
@@ -734,257 +870,6 @@ canceling our contracts, and then some) and cannot live without the real-time st
 have.</p>
 
 <p>I like how they invite people that are not Ting users to enter the contest as well.</p>
-
-<p>~E</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Is Microsoft Still Building Their Own CPU?]]></title>
-    <link href="http://eduncan911.com/technology/is-microsoft-still-building-their-own-cpu.html"/>
-    <updated>2014-04-30T13:40:08-04:00</updated>
-    <id>http://eduncan911.com/technology/is-microsoft-still-building-their-own-cpu</id>
-    <content type="html"><![CDATA[<p>I was going through some old posts during my import and found where I mentioned that
-<a href="http://eduncan911.com/blog/archives/microsoft-to-build-its-own-cpus.html">Microsoft was to build their own CPUs</a>
-for the next-gen Xbox after the 360 &ndash; nearly 8 years ago (yes, the
-<a href="http://en.wikipedia.org/wiki/Xbox_360">Xbox 360 is almost 9 years old</a>).</p>
-
-<blockquote><p>The Xbox One&#8217;s CPU component brings Microsoft’s architecture of choice back to x86, just like the first-generation Xbox. This time, the company kicked IBM to the curb and opted not to jump into another Intel/Nvidia love triangle. Instead, it put a ring on AMD&#8217;s finger, tapping the same source for general-purpose and graphics computing IP. At the same time, Sony was courting AMD&#8217;s semi-custom division as well. Both competitors ended up sharing a bed, but due to NDAs was never caught laying down.</p><footer><strong>Tomshardware</strong> <cite><a href='http://www.tomshardware.com/reviews/microsoft-xbox-one-console-review,3681-3.html'>Xbox One Review: Unifying Your Living Room Experience</a></cite></footer></blockquote>
-
-
-<p>Microsoft had Intel for Xbox 1st gen.  Then IBM for the 2nd gen.  For the 3rd gen Xbox One and PS4, we
-all know <a href="http://www.anandtech.com/show/6976/amds-jaguar-architecture-the-cpu-powering-xbox-one-playstation-4-kabini-temash">they went with AMD now</a>.</p>
-
-<p>So this got me thinking&hellip; <a href="http://research.microsoft.com/en-us/people/cthacker/">Chuck Thacker is still at Microsoft</a>.  It does take a while to design and produce your CPU.  I wonder if Microsoft will drop that bomb in the next decade.</p>
-
-<p>It&rsquo;s sad because after the Zune fiasco, with Zune software no longer compatible with
-the Zune players, I&rsquo;m left with $600 in media players that are worthless and useless
-cause I can&rsquo;t sync any music to them.  So I don&rsquo;t think I&rsquo;ll ever go back to
-Microsoft products after that.  It was one too many low blows over the last decade.</p>
-
-<p>In related news, a buddy of mine sums up how the Xbox One vs PS4 has played out over the last 6 months:</p>
-
-<blockquote class="twitter-tweet" lang="en"><p>Every time I go to look at new Xbox One releases I regret not buying a PS4 instead.</p>&mdash; Jason Alexander (@jasona) <a href="https://twitter.com/jasona/statuses/460530041789480960">April 27, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>~E</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Please Put Your Blog Under Source Control]]></title>
-    <link href="http://eduncan911.com/software/please-put-your-blog-under-source-control.html"/>
-    <updated>2014-04-07T10:37:08-04:00</updated>
-    <id>http://eduncan911.com/software/please-put-your-blog-under-source-control</id>
-    <content type="html"><![CDATA[<p>There are many benefits to both your readers and yourself if you were to put your
-blog under source revisions.  I would go as far to say that you own it to the community
-to publish all revisions of your blog that was ever public for pure archiving reasons.</p>
-
-<h2>Revision those files you linked to</h2>
-
-<p>Recently I setup <a href="http://eduncan911.com/software/my-hackers-blog.html">my hacker&rsquo;s blog</a>
-and I had a need to import my old blog posts from CommunityServer.  The steps were a bit
-hackery itself as I had to get data out of CS and into a format that one of the common
-importers of Jekyll/Octopress could read from.  I chose BlogML to export as that seemed
-to have the oldest support (my CS blog was 9 years old).</p>
-
-<h2>Finding that old file that no one cares about any longer</h2>
-
-<p>After spending a few days off and on tweaking the exported BlogML data, I basically found only
-a single BlogML importer for Jekyll.  This is why I chose this route to begin with.  So, when
-it came time to perform the import guess what?  The blogml.rb ruby script links were all broken!</p>
-
-<p>Then I had a thought: if the author of the script was running Jekyll/Octopress, especially on
-GitHub pages, then perhaps there is a revision history.</p>
-
-<p>I had to dig through about 2 years of commits; but, I found it!</p>
-
-<p><a href="https://github.com/philippkueng/philippkueng.github.com/blob/30ef1570f06d33938b18d5eee7767d6641b9a779/source/_import/blogml.rb">Commit 30ef1570f0 for blogml.rb from author</a></p>
-
-<p>You can even backup a folder and see his entire snapshot of his blog during the import process.</p>
-
-<p>Thank you Philipp Küng for revisioning your blog.</p>
-
-<h2>Changing blogging platforms</h2>
-
-<p>What if you are switch blogging software every 5 years?  Keep old snapshots and revisions of your old site
-in tags and refer to them in your change revisions.  Even if you don&rsquo;t keep the same technology,
-having an old copy around for public reference can be useful to the community.</p>
-
-<h2>Domain expiration, hosting company goes under, etc</h2>
-
-<p>So your domain expires or got snatched up by a squatter?  Or your hosting company pulls the plug?
-At least having a revision available will allow you the flexibility, even if you don&rsquo;t continue
-a blog any longer.</p>
-
-<h2>Updates, changes and redactions</h2>
-
-<p>Opinions online can be heated and made in jest.  You may have published something that you wish you
-didn&rsquo;t.  Or after some nice comments are posted, you update the post.  Maybe a DMCA takedown request
-forced you to remove a piece of content.  Wouldn&rsquo;t it be nice to know and show the revision history of your post?</p>
-
-<p>I know that me for one is going to stop with the dozen tiny edits for spelling and grammar because
-of this.  Who knows, it may cause me to actually <em>think</em> before publishing.</p>
-
-<p>And FYI, you can see each revision of each post and page I make to my site here.</p>
-
-<h2>Backups</h2>
-
-<p>Similar to the above, having a full backup you can take with you can be advantageous.</p>
-
-<p>Personally, I not only publish my source code here at GitHub; but, I also have an additional
-remote added for BitBucket and always do the following:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>&gt; git add .
-</span><span class='line'>&gt; git commit -m <span class="s2">&quot;fixed spelling and corrected a quote&quot;</span>
-</span><span class='line'>&gt; git push backup <span class="nb">source</span>
-</span><span class='line'>&gt; git push origin <span class="nb">source</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Now, you can do this for any source code sure.  It&rsquo;s these next steps that make it viable.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>&gt; rake deploy
-</span><span class='line'>    ^- this publishes the live site to GitHub pages
-</span><span class='line'>&gt; <span class="nb">cd</span> ./_deploy
-</span><span class='line'>&gt; git push backup master
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Yep, I also deploy a 2nd copy to my BitBucket account.  Even though it will never be used as a real
-site, it&rsquo;s a full backup of the live site in the master branch.</p>
-
-<p>The Optopress command <code>rake deploy</code> also pushed it up to GitHub pages on master &ndash; that&rsquo;s how it
-&ldquo;publishes.&rdquo;  So all I have to do is make a quick backup.  What&rsquo;s even nice is the script does
-a pull request as well, to keep the _deploy folder in sync so when I do perform a backup, it&rsquo;s all there.
-I am new to git branch tracking; so, I may have to tweak that last command by forcing <code>-f</code> up the
-push to backup if it gets out of sync or something.</p>
-
-<p>Finally, having multiple copies of your repo online and publicly accessible can help with&hellip;</p>
-
-<h2>Government seizers</h2>
-
-<p>All too often, governments are taking domains and peoples&#8217; hosting accounts in the name of DMCA and
-copyright infringements.  Oh, and free speech as well.</p>
-
-<p>Why not publish your blog open source?</p>
-
-<p>The last step to further solidify your published site and source would be automate a bittorrent release
-for every deployment.  Doesn&rsquo;t seem to far out of reach with these snapshots readily available.</p>
-
-<h2>Death</h2>
-
-<p>What if you were to pass away?  Would your annual payment to your domains continue for decades? What
-about the fee you pay your hosting company?  Same as the previous reason, publishing it may very well
-keep it going for a long time even if the domain is gone, people can still get to the source.</p>
-
-<p>Especially at a place like GitHub pages.</p>
-
-<h2>Why not?</h2>
-
-<p>I hope I sparked some food for thought and I would like your opinions on the matter.</p>
-
-<p>I cannot come up with solid reasons for not to publish your blog open source.  I know at first I
-wrestled with the idea that:</p>
-
-<blockquote><p>Wait, my database connection strings would be publicly visible.  I can&#8217;t do that.</p></blockquote>
-
-
-<p>Then it hit me that Octopress/Jekyll is completely static &ndash; there are no database connection strings.
-Q</p>
-
-<blockquote><p>My secret keys for my 3rd party integrations may be exposed.</p></blockquote>
-
-
-<p>Actually not.  Twitter, Disqus, LinkedIn and so on all use public kesy/ids to identify you with their
-widgets.  Even Flickr allows for a vast array of public apis.</p>
-
-<p>You would only need private keys on your site if you were programatically pushing or changing content
-elsewhere in a write-permission need.  But again, this was planned as a static site &ndash; no problem here.</p>
-
-<blockquote><p>I have private downloads I don&#8217;t want others to see.</p></blockquote>
-
-
-<p>Ok, this one did get me.  I do have private downloads of password-protected files on my old site.</p>
-
-<p>I have to think back to the longevity of my blog &ndash; do I want the downloads archived forever?  Short
-answer, no.</p>
-
-<p>~E</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Old Pics Have Moved]]></title>
-    <link href="http://eduncan911.com/misc/old-pics-have-moved.html"/>
-    <updated>2014-04-06T21:54:32-04:00</updated>
-    <id>http://eduncan911.com/misc/old-pics-have-moved</id>
-    <content type="html"><![CDATA[<p>If you are reading this, then I get to say this:</p>
-
-<blockquote><p>I moved my blog, and the photos didn&#8217;t go with it.</p></blockquote>
-
-
-<p>You can try browsing the images in <a href="https://www.flickr.com/photos/eduncan911/sets/72157600808141363/">my Flickr set called Blogs</a>
-for the one you were looking for; but alas, I didn&rsquo;t upload all photos (sorry Venna White fans).</p>
-
-<p>Fret not.  If you really need that photo, just use the contact button at in the header and/or footer
-of this site and send me the link you want the photo(s) for.</p>
-
-<p>~E</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Wacom Intuos3/4 Is Incompatible With the Lenovo Helix]]></title>
-    <link href="http://eduncan911.com/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix.html"/>
-    <updated>2014-04-04T10:37:08-04:00</updated>
-    <id>http://eduncan911.com/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix</id>
-    <content type="html"><![CDATA[<p>I recently abandoned my 14 year dedication to Dell laptops in favor of the
-Lenovo Helix ultrabook/tablet.  In doing so, I needed a stylus for the active
-digitizer as the one that came with the Helix just isn&rsquo;t going to work for
-diagramming and sketching.</p>
-
-<h2>Research: Styluses for the Lenovo Helix</h2>
-
-<p>I had a problem: I was obsessed for days reading every blog, review and comment
-and watching every video I could find online to figure out what stylus would work
-with the Wacom Active Digitizer that is built into the Helix.</p>
-
-<p>Sadly, I couldn&rsquo;t find a straight answer.</p>
-
-<h2>Wacom ZP501ESE Intuos3 Special Edition Grip Pen</h2>
-
-<p>This is the pen I decided on.  It arrived today and I immediately ripped it open
-only to find out it didn&rsquo;t work.  And yes, I removed the OEM stylus cause there is
-a switch that disables the digitizer when the pen is inserted to save battery.</p>
-
-<h2>So which one?</h2>
-
-<p>Now that I am armed with new search queries <em>e.g. Lenovo Helix Intuos3 doesn&rsquo;t work</em>,
-I&rsquo;ve found new pages with additional info that I wish I&rsquo;d found in the first place.</p>
-
-<p>Usually I am diligent enough to find these errors ahead of time.  But, I failed this
-time around and I&rsquo;m having fun writing on my new Octopress blog &ndash; so, why not whip
-up a quick post to let others know.</p>
-
-<p>I found <a href="http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2">this thread</a>
-that was the most helpful in figuring out which stylus to get.  Specifically, this post:</p>
-
-<blockquote><p>FYI, the Wacom Penabled Digitizer system is not compatible with Intuos, Cintiq, and Bamboo Tablet pens.<br/> <br/>Any other Wacom Penabled Tablet PC Pen will work (as mentioned, Series 7 slate, Asus EP121, Lenovo ThinkPad Tablet 2, Lenovo X61 - X230T series, Fujitsu T900 series, Motion F5t, Wacom Bamboo Feel pens to name just a few).<br/> <br/>Additionally the Wacom Pen Display Pens will work (eg DTU- series).<br/> <br/>These pens come in different shapes, sizes and button configurations, but the pen must match up with the digitizer system that is built into the tablet and many people aren&#8217;t aware that Wacom have different systems.<br/> <br/>The Penabled system is not as advanced as the Intuos or Cintiq unfortunately (fewer pressure degrees, no tilt angles etc), but still very impressive and useful.</p><footer><strong>Brett Gilbertson - Microsoft Tablet and Touch MVP</strong> <cite><a href='http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2'>Wacom Intuos 4 Pen Doesn&#8217;t Work on Helix</a></cite></footer></blockquote>
-
-
-<p>Well, there we have it.  NewEgg, a return is coming!</p>
 
 <p>~E</p>
 ]]></content>
