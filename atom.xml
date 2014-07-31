@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2014-07-31T18:15:46-04:00</updated>
+  <updated>2014-07-31T18:18:51-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -46,7 +46,7 @@ Audio player not available in your browser. Please try a newer browser.
 
 <p>Today if presented with an &ldquo;enter credit card details below&rdquo; with an option to &ldquo;sign in with Visa Checkout instead&rdquo;, I still enter the raw CC details.  Which that in and of itself is the problem VISA is trying to fix by focusing the burden on secure storage of those CC details with VISA themselves, instead of the mom-n-pop cake shop&rsquo;s PHP website that is asking for my CC.</p>
 
-<p>What I would suggest is to take a more two-factor approach to authentication.  Someting that involves a simple password, one that is easy to remember; but also, you need to have a second factor of authentication &ndash; like a keyfob or fingerprint reader or possibly even, gasp, something as simple as <a href="http://en.wikipedia.org/wiki/Google_Authenticator">Google&rsquo;s Authenticator</a> that has worked perfectly for me for many websites and devices.</p>
+<p>What I would suggest is to take a more two-factor approach to authentication.  Something that involves a simple password, one that is easy to remember; but also, you need to have a second factor of authentication &ndash; like a keyfob or fingerprint reader or possibly even, gasp, something as simple as <a href="http://en.wikipedia.org/wiki/Google_Authenticator">Google&rsquo;s Authenticator</a> that has worked perfectly for me for many websites and devices.</p>
 
 <p>But sadly, we will continue to be forced to obey the <a href="http://www.taipeitimes.com/News/editorials/archives/2010/09/10/2003482490">false sense of security of complex passwords</a>.</p>
 
