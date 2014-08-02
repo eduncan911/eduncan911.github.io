@@ -130,3 +130,129 @@ facebook_like: false
 tag_dir: tags
 tag_title_prefix: tags
 
+# 
+
+# prose.io config
+prose:
+  ignore:
+    - /\..*
+    - /_config.yml
+    - /atom.xml
+    - /LICENSE.md
+    - /public
+  rooturl: "source"
+  siteurl: "http://eduncan911.com/"
+  media: "source/blog/images"
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "page"      
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""      
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "2014-08-01 00:00"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false  
+      - name: "comments"
+        field:
+          element: "hidden"
+          value: false    
+      - name: "sharing"
+        field:
+          element: "hidden"
+          value: false            
+      - name: "footer"
+        field:
+          element: "hidden"
+          value: true
+    "source/_posts":
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "post"      
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "2014-08-01 00:00"          
+      - name: "categories"
+        field:
+          element: "textarea"
+          label: "Categories"
+          help: "An array of categories"
+          value: "[]"    
+      - name: "tags"
+        field:
+          element: "textarea"
+          label: "Tags"
+          help: "An array of Tags"
+          value: "[]"             
+      - name: "image"
+        field:
+          element: "text"
+          label: "ImageUrl"
+          value: ""          
+      - name: "video"
+        field:
+          element: "text"
+          label: "VideoUrl"
+          value: ""                   
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false  
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Comments"
+          value: true    
+      - name: "sharing"
+        field:
+          element: "checkbox"
+          label: "Sharing"
+          value: true              
+      - name: "footer"
+        field:
+          element: "hidden"
+          value: true
+
+     
