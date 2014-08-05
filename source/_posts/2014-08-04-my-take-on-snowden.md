@@ -1,7 +1,7 @@
 ---
 footer: true
 published: false
-title: "2014-08-04-my-take-on-snowden.markdown"
+title: "My Take on Snowden"
 layout: post
 date: "2014-08-04 20:04"
 comments: true
