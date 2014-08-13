@@ -208,7 +208,7 @@ Use the command above to print out the fingerprint of other people's fingerprint
 
 ### Backing up a Secret Key
 
-One method is to export your key as ASCII that allows you to print it (for rescanning later as it would be error prone to type it manually), or to store it in a key store (which in itself may be a bad idea).
+One method is to export your key as ASCII that allows you to print it (for rescanning later as it would be error prone to type it manually), or to store it in a key store ([which in itself may be a bad idea](http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves.html)).
 
 ``` bash Exporting a Secret Key for Backup
 gpg2 --export-secret-key --armor 
