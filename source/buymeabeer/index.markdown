@@ -23,7 +23,9 @@ Clicking the image below shoots you to PayPal for a small $5 USD donation.
 
 ## Other ways to help out
 
-### Ting $25 Credit
+Besides the big-ass $5 PayPal green image above, I have a number of affiliate links that you can use below.  Picking one gives you props on Twitter.
+
+### Get $25 Credit at Ting
 
 [{% img http://1.bp.blogspot.com/-Oti5LupeGCo/UR_VfZiN-uI/AAAAAAAAASU/1AYsQUt73EI/s1600/tingdashboard.jpg 'Ting me and get $25 credit!' 'Ting me and get $25 credit!' %}](https://zc7c9715lq2.ting.com/)
 
@@ -40,6 +42,25 @@ you!  It's a win-win.
 Once you go Ting, you'll never go back.
 
 To get $25 off, use my referral code by clicking [https://ting.com/r/zc7c9715lq2](https://ting.com/r/zc7c9715lq2).
+
+### Dollar Shave Club
+
+{% youtube ZUG9qYTJMsI %}
+
+{% blockquote Michael Dubin, DSC Owner http://www.dollarshaveclub.com/ %}
+Are the blades any good? 
+No.  Our blades are f**cking great!
+...
+And do you think your razor needs a vibrating handle, a flashlight, a backscratcher and 10 blades?  Your handsome-ass grandfather had one blade, and polio.  
+...
+Stop paying for shave-tech you don't need.
+{% endblockquote %}
+
+As a proud member since 2012, [Dollar Shave Club](http://www.dollarshaveclub.com/eduncan911) is exactly what it sounds like - $1 blades; though, I usually opt for the $6 ones with free shipping.
+
+[Use my affiliate link below](http://www.dollarshaveclub.com/eduncan911), and I'll get a $5 credit - just enough to buy a beer.
+
+[www.dollarshaveclub.com/eduncan911](http://www.dollarshaveclub.com/eduncan911)
 
 ### Amazon Affiliate
 
