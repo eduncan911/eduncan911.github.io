@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software | Eric Duncan]]></title>
+  <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
+  <link href="http://eduncan911.com/"/>
+  <updated>2014-08-17T14:36:19-04:00</updated>
+  <id>http://eduncan911.com/</id>
+  <author>
+    <name><![CDATA[Eric Duncan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Credit Cards With Tokens?]]></title>
+    <link href="http://eduncan911.com/software/security/processing-credit-cards-with-tokens.html"/>
+    <updated>2014-07-31T14:07:40-04:00</updated>
+    <id>http://eduncan911.com/software/security/processing-credit-cards-with-tokens</id>
+    <content type="html"><![CDATA[<p><audio preload="none" data-mins="03" data-secs="21" data-title="NPR: Visa Makes Big Move To Boost Consumer Spending Online">
+<source src="http://pd.npr.org/anon.npr-mp3/npr/atc/2014/07/20140716_atc_visa_makes_big_move_to_increase_online_spending.mp3">http://pd.npr.org/anon.npr-mp3/npr/atc/2014/07/20140716_atc_visa_makes_big_move_to_increase_online_spending.mp3</a>" >
+Audio player not available in your browser. Please try a newer browser.
+</audio></p>
+
+<p>Heard this on NPR and decided to investigate further because at first glance it looks like a good idea &ndash; at least from a developer&rsquo;s perspective.</p>
+
+<p>From the PaymentNews website, I found this announcement.</p>
+
+<p><blockquote><p>Tokenization is the process of replacing a traditional card account number with a unique payment token that is restricted in how it can be used with a specific device, merchant, transaction type or channel. When using tokenization, merchants and digital wallet operators do not need to store card account numbers; instead they are able to store payment tokens that can only be used for their designated purpose. The tokenization process happens in the background in a manner that is expected to be invisible to the consumer.</p><footer><strong>EMVCo to Work on Payment Tokenization Standards <a href="http://www.paymentsnews.com/2014/01/emvco-to-work-on-payment-tokenization-standards.html">http://www.paymentsnews.com/2014/01/emvco-to-work-on-payment-tokenization-standards.html</a></strong></footer></blockquote></p>
+
+<p>Visa calls it, <a href="https://checkout.visa.com/index.jsp?country=US">VISA checkout</a> and it is supposed to remove the burden of entering a credit card from your smartpohone.</p>
+
+<p>Looking better.  But wait a minute, how do you secure/access a token?</p>
+
+<p>Turns out they are expecting users to sign in with a &ldquo;<em>simple username and password, easy to remember</em>.&rdquo;  And there inlies my first cringe &ndash; passwords?  Let me explain why that is a roadblock IMO:</p>
+
+<ul>
+<li>Either the <a href="http://en.wikipedia.org/wiki/Password_policy">password requirements</a> will be a road block for anyone to easily type or remember.</li>
+<li>Or, the password will be a weaker password &ndash; easy for people to remember, and also to reuse for, say, a forum login <a href="http://lifehacker.com/5853483/a-guide-to-sniffing-out-passwords-and-cookies-and-how-to-protect-yourself-against-it">that can easily get sniffed</a>.</li>
+</ul>
+
+
+<p>Sure, you can mitigate the complex passwords with a password manager.  But, not everyone uses those and some would argue <a href="/software/security/password-managers-are-not-immune-to-hacks-themselves.html">a password manager is also a bad idea</a>.</p>
+
+<p>Today if presented with an &ldquo;enter credit card details below&rdquo; with an option to &ldquo;sign in with Visa Checkout instead&rdquo;, I still enter the raw CC details.  Which that in and of itself is the problem VISA is trying to fix by focusing the burden on secure storage of those CC details with VISA themselves, instead of the mom-n-pop cake shop&rsquo;s PHP website that is asking for my CC.</p>
+
+<p>What I would suggest is to take a more two-factor approach to authentication.  Something that involves a simple password, one that is easy to remember; but also, you need to have a second factor of authentication &ndash; like a keyfob or fingerprint reader or possibly even, gasp, something as simple as <a href="http://en.wikipedia.org/wiki/Google_Authenticator">Google&rsquo;s Authenticator</a> that has worked perfectly for me for many websites and devices.</p>
+
+<p>But sadly, we will continue to be forced to obey the <a href="http://www.taipeitimes.com/News/editorials/archives/2010/09/10/2003482490">false sense of security of complex passwords</a>.</p>
+
+<p>Also see: <a href="/software/security/passwords-when-security-gets-in-the-way.html">Passwords &ndash; When Security Gets in the Way</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Password Managers Are Not Immune to Hacks Themselves]]></title>
+    <link href="http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves.html"/>
+    <updated>2014-07-30T16:11:41-04:00</updated>
+    <id>http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves</id>
+    <content type="html"><![CDATA[<p><a href="http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250">Hacking Password Managers</a></p>
+
+<p><img src="/blog/images/hacking-password-managers.jpg" title="Hacking Password Managers" ></p>
+
+<p><blockquote><p>&ldquo;Our attacks are severe: in four out of the five password managers we studied (LastPass, RoboForm, My1login, PasswordBox, and NeedMyPassword), an attacker can learn a user’s credentials for arbitrary websites. We find vulnerabilities in diverse features like one-time passwords, bookmarklets, and shared passwords. The root-causes of the vulnerabilities are also diverse: ranging from logic and authorization mistakes to misunderstandings about the web security model, in addition to the typical vulnerabilities like CSRF and XSS. Our study suggests that it remains to be a challenge for the password managers to be secure.&rdquo;</p></p><p><p>&ldquo;We found critical vulnerabilities in all three bookmarklets we studied,&rdquo; the researchers report. &ldquo;If a user clicks on the bookmarklet on an attacker’s site, the attacker, in all three cases, learns credentials for arbitrary websites.&rdquo;</p></p><p><p>&ldquo;Our work is a wake-up call for developers of web-based password managers. The wide spectrum of discovered vulnerabilities, however, makes a single solution unlikely. Instead, we believe developing a secure web-based password manager entails a systematic, defense-in-depth approach&hellip; Future work includes creating tools to automatically identify such vulnerabilities and developing a principled, secure-by-construction password manager.&rdquo;</p><footer><strong>Hacking Password Managers <a href="http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250">http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250</a></strong></footer></blockquote></p>
+
+<p>I can&rsquo;t believe we are still talking about CSRF attacks.  And for websites claiming to be <em>secured</em> for passwords themselves?  Isn&rsquo;t it a common job interview question by now (or better yet, a coding exercise) for developers in how to prevent CSRF attacks?</p>
+
+<p>Oh yeah, and how most of the common web-based password managers are all hackable.  Sure, they fixed THIS vulnerability.  Then when the next zero-day is found, it will be fixed.  And the next and the next.</p>
+
+<p>I use a password manager.  It is not web based, does not integrate into any browser, and still requires manual intervention to open and view &ndash; with copy-n-paste only possible in some circumstances which makes the annoyance ever more livable after reading this article.</p>
+
+<p>Can&rsquo;t wait until next month (August) for the paper to be released.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Passwords - When Security Gets in the Way]]></title>
+    <link href="http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way.html"/>
+    <updated>2014-07-24T16:58:17-04:00</updated>
+    <id>http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way</id>
+    <content type="html"><![CDATA[<p><a href="http://jnd.org/dn.mss/when_security_gets_in_the_way.html">When Security Gets in the Way</a></p>
+
+<p><img src="/blog/images/when-security-gets-in-the-way.jpg" title="When Security Gets in the Way" ></p>
+
+<p><blockquote><p>The numerous incidents of defeating security measures prompts my cynical slogan: The more secure you make something, the less secure it becomes. Why? Because when security gets in the way, sensible, well-meaning, dedicated people develop hacks and workarounds that defeat the security. Hence the prevalence of doors propped open by bricks and wastebaskets, of passwords pasted on the fronts of monitors or hidden under the keyboard or in the drawer, of home keys hidden under the mat or above the doorframe or under fake rocks that can be purchased for this purpose.</p></p><p><p>We are being sent a mixed message: on the one hand, we are continually forced to use arbitrary security procedures. On the other hand, even the professionals ignore many of them. How is the ordinary person to know which ones matter and which don&rsquo;t? The confusion has unexpected negative side-effects. I once discovered a computer system that was missing essential security patches. When I queried the computer&rsquo;s user, I discovered that the continual warning against clicking on links or agreeing to requests from pop-up windows had been too effective. This user was so frightened of unwittingly agreeing to install all those nasty things from &ldquo;out there&rdquo; that all requests were denied, even the ones for essential security patches. On reflection, this is sensible behavior: It is very difficult to distinguish the legitimate from the illegitimate. Even experts slip up, as the confessions reported occasionally in various computer digests I attest.</p><footer><strong>Don Norman <a href="http://jnd.org/dn.mss/when_security_gets_in_the_way.html">http://jnd.org/dn.mss/when_security_gets_in_the_way.html</a></strong></footer></blockquote></p>
+
+<p>I recall many years ago when Microsoft proclaimed the end of password management woes with long and memorial <a href="http://technet.microsoft.com/en-us/library/cc512624.aspx">Pass Phrases</a>.  I personally started to really get annoyed at websites that didn&rsquo;t allow me to enter spaces or the password length was something small like 16 characters.</p>
+
+<p>As a previous IT Administrator, having to reset so many user passwords because they locked themselves out or just plain forgot their had-to-change-ever-60-days password, I saw first hand the annoyances that most had with passwords.</p>
+
+<p>It wasn&rsquo;t until just a few years ago that the buzz around complex passwords started to shift to a &ldquo;false sense of security&rdquo; statue.  Which is very true because I have personally <a href="http://en.wikipedia.org/wiki/Brute-force_attack">brute-force attacked</a> several passwords (in the name of education, of course).</p>
+
+<p>Seeing how fast my X79 6-core desktop with over 5,760 GPU cores could churn through a few billion password combinations to guess a 20 character TruCrypt volume (it took only 4 hours by the way), the era of complex passwords deterring hackers is over &ndash; way way over since this hardware can easily be purchased off the shelf by anyone &ndash; and I still have room for another 6000 GPU cores if I ever upgraded.  That&rsquo;s just insane &ndash; 12,000 GPU cores in a single machine.</p>
+
+<h2>Smart Password Hashing</h2>
+
+<p>Now, some password managers are smart.  It wasn&rsquo;t until I read into KeePass' <a href="http://keepass.info/help/base/security.html#secdictprotect">protection against Dictionary Attacks</a> did I realize a whole &lsquo;nother way of preventing brute-force attacks.  KeePass describes their password hashing like this:</p>
+
+<p><blockquote><p>You can&rsquo;t really prevent these [brute-force dictionary] attacks: nothing prevents an attacker to just try all possible keys and look if the database decrypts. But what we can do (and KeePass does) is to make it harder: by adding a constant work factor to the key initialization, we can make them as hard as we want.</p><footer><strong>KeePass &ndash; Protection against Dictionary Attacks <a href="http://keepass.info/help/base/security.html#secdictprotect">http://keepass.info/help/base/security.html#secdictprotect</a></strong></footer></blockquote></p>
+
+<p>Please go read the rest of that quote for extreme details.  But in short, here is what they do:</p>
+
+<ul>
+<li>Take your Master password and hash it.</li>
+<li>Hash it another <em>N</em> number of times based on a simple pre-determined algorithm (think: PreviousHash + &ldquo;A Salt&rdquo;, PreviousHash + &ldquo;B Salt&rdquo;, etc).</li>
+</ul>
+
+
+<p>The trick that makes this work is that <em>N</em> should be a number of cycles that it takes your computer to compute in about 1 second.  By default, they set it to 6000 to allow for older mobile phones to be able to open the password database within about a second or two.  But this should be much higher.  Like, on a factor of 100,000 times higher.</p>
+
+<p>For example, that same 6-core X79 CPU and 5,760 GPU core desktop I used to crack that 20-character TruCrypt could generate about 18,000,000 passwords each second.  But, when I opened KeePass and told it to calculate how many hashes it needed to perform to take at least 1 second on this machine, the answer was 23,000,000.</p>
+
+<p>So how does rehashing 23,000,000 times work, you may ask?  Instead of my computer generating 23,000,000 passwords a second in a brute-force attack, it follows a pre-determined algorithm hashing 23,000,000 times to generate only 1 password.</p>
+
+<p>I&rsquo;ll let that sink in for a moment&hellip;</p>
+
+<p>If a hackers machine is busy generating only 1 password per second, the possibility of brute force attacking a database goes from 23,000,000 per second down to just 1 per second.</p>
+
+<p>No hacker in the world is going to continue brute-forcing that database.  Most likely they will just look for the <a href="http://www.reuters.com/article/2014/03/31/us-usa-security-nsa-rsa-idUSBREA2U0TY20140331">NSA backdoors available in everything</a> at that point.</p>
+
+<p>I&rsquo;ll end with a final quote from our buddy Don from earlier.</p>
+
+<p><blockquote><p>Although there is much emphasis on passwords security most break-ins occur through other means. How do thieves break into systems? They usually don&rsquo;t use brute force. They phish, luring unsuspecting but helpful people to tell them their login name and password. Or they install sniffers on keyboards and record everything that was typed. The strength of passwords is irrelevant if the thief has already discovered it.</p><footer><strong>Don Norman <a href="http://jnd.org/dn.mss/when_security_gets_in_the_way.html">http://jnd.org/dn.mss/when_security_gets_in_the_way.html</a></strong></footer></blockquote></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to: Key-Based SSH Logins With PuTTY]]></title>
+    <link href="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html"/>
+    <updated>2014-07-01T12:43:10-04:00</updated>
+    <id>http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty</id>
+    <content type="html"><![CDATA[<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
+
+<p>First, let me explain why I do this.</p>
+
+<h2>Why use SSH keys to login?</h2>
+
+<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
+
+<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
+
+<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
+
+<h3>Other Reasons to use SSH keys for logins</h3>
+
+<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
+
+<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
+
+<h2>First, the PuTTY Quirks</h2>
+
+<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
+
+<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
+
+<h2>Create and Save a PuTTY Session profile</h2>
+
+<p>Here&rsquo;s the steps I take to create a Session profile.</p>
+
+<ul>
+<li>Open PuTTY and you should be in the Session category on the left.</li>
+<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
+<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
+
+<ul>
+<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
+
+<ul>
+<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
+<li><p>Now, press the Save button.</p></li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
+
+<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
+
+<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
+
+<h2>Generate a PuTTY Public/Private Key Pair</h2>
+
+<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
+
+<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
+
+<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
+
+<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
+
+<ul>
+<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
+<li>Set a passphrase, you will use this as your password when connecting each time.</li>
+</ul>
+
+
+<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
+
+<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
+
+<h2>Take the Public key, and assign it to your Linux box</h2>
+
+<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
+
+<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
+
+<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
+
+<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
+
+<p><code>
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+</code></p>
+
+<p>Now, create the file:</p>
+
+<p><code>
+pico ~/.ssh/authorized_keys2
+</code></p>
+
+<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&ldquo;Linux SSH Public Key Setup for PuTTY&rdquo;" ></p>
+
+<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
+
+<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
+
+<p><code>
+chmod 600 ~/.ssh/authorized_keys2
+</code></p>
+
+<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
+
+<h2>Set the Private Key in your PuTTY Session Profile</h2>
+
+<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
+
+<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
+
+<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&ldquo;Set SSH Private Key in PuTTY for SSH Key-Based Login&rdquo;" ></p>
+
+<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
+
+<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&ldquo;Set SSH Private Key in PuTTY for SSH Key-Based Login&rdquo;" ></p>
+
+<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
+
+<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
+
+<h2>Completed.  Now, connect.</h2>
+
+<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&ldquo;Logging in with PuTTY SSH Key-Base Authentication&rdquo;" ></p>
+
+<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
+
+<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Best Cloud Computing and Security Talk EVAR]]></title>
+    <link href="http://eduncan911.com/software/best-cloud-computing-and-security-talk-evar.html"/>
+    <updated>2014-05-14T03:13:47-04:00</updated>
+    <id>http://eduncan911.com/software/best-cloud-computing-and-security-talk-evar</id>
+    <content type="html"><![CDATA[<p><a href="http://vimeo.com/95066828">James Mickens on distributed computing at PDX 2014</a></p>
+
+<p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/95066828 "></iframe></div></p>
+
+<p>This showed up in my twitter feed; so, I gave it 30m of my life and I am glad I did.</p>
+
+<p><cite>#HatTip Xander Sherry <a href="https://twitter.com/xandersherry">https://twitter.com/xandersherry</a></cite></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Design | Eric Duncan]]></title>
+  <link href="http://eduncan911.com/category/design/atom.xml" rel="self"/>
+  <link href="http://eduncan911.com/"/>
+  <updated>2014-08-17T14:36:19-04:00</updated>
+  <id>http://eduncan911.com/</id>
+  <author>
+    <name><![CDATA[Eric Duncan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Responsive Design Begins With the URL]]></title>
+    <link href="http://eduncan911.com/software/design/responsive-design-begins-with-the-url.html"/>
+    <updated>2014-05-07T11:27:36-04:00</updated>
+    <id>http://eduncan911.com/software/design/responsive-design-begins-with-the-url</id>
+    <content type="html"><![CDATA[<p><a href="http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url/">Responsive Design Begins with the URL</a></p>
+
+<p><blockquote><p><img src="/blog/images/responsive-design-url-schema.jpg" title="&ldquo;Responsive Design URL Schema&rdquo;" ></p></p><p><p>The core principle in creating a potentially enormous website that will last forever is to get the information architecture right in the first place. This involves knowing your data objects and how they fit together. It should also determine the URL structure, which for Programmes is the most important aspect. Take the URL for Top Gear’s home page:</p></p><p><p><a href="http://www.bbc.co.uk/programmes/b006mj59">http://www.bbc.co.uk/programmes/b006mj59</a></p></p><p><p>After the domain name comes the word “programmes,” which is a simple, unchanging English word. It is intended to describe the object, and is not a brand or product name. Plurals are used so that the URL can be hacked backwards to retrieve an index.</p></p><p><p>Next is the programme identifier. Note the lack of hierarchy and the lack of a title. Titles change over time, and many programmes do not have a unique title, which would cause a clash. Hierarchies also change — a one-off pilot could be commissioned for a full series. Understanding your objects allows you to recognize what is permanent. In this case, nothing is particularly guaranteed to be permanent, so a simple ID is used instead. Users aren’t expected to type these URLs, though. They will usually arrive through a search engine or by typing in a friendly redirect that has been read out on air, such as bbc.co.uk/topgear. But the key principle of a permanent URL is that inward links are trusted to be shareable and work forever. Cool URIs don’t change.</p></p><p><p>A clear information architecture defines the URL scheme. A piece of content is given a clear canonical home, where appropriate. Links and aggregations between them then clearly appear.</p></p><p><p></p><footer><strong>David Marland <a href="http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url">http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url</a> Responsive Design Begins with the URL</strong></footer></blockquote></p>
+
+<p>For a decade I have spent a considerable amount of time getting the URLs <em>right</em> for what the user was looking at.  I must have gone through 20 different iterations over the years trying out all sorts of designs, deep linking, &ldquo;walk the url backwards&rdquo; and so on.</p>
+
+<p>You can see on my static site blog here that I paid close attention as well, trying out yet another theme.  I am on my 4th iteration of a url schema for my blog and it has become a PITA when having to keep redirects working of old urls, especially on <a href="https://github.com/eduncan911/eduncan911.github.io/tree/master/blog">this static site with no URL rewrite module</a>.</p>
+
+<p>I almost went the <em>post_id</em> route here on this iteration; but, Jekyll (and therefore Octopress) makes the title url-safe already so I kept it.  Besides that, I agree that urls should play a role in your web architecture.</p>
+
+<p>As long as we are talking about it, ASP.NET MVC&rsquo;s default <code>/Controller/Action/Id</code> has always pissed me off since I first started using it back in 2007.  Coming from a pure-RESTful background, the pure REST urls are more similar to <code>/Controller/Id/Action</code> so you end up with urls like this:</p>
+
+<p><code>
+/product/2832/
+/product/2832/edit
+/product/2832/clips
+/product/2832/videos
+</code></p>
+
+<p>And so on.  Which, actually, falls inline with what the BBC article above was saying.</p>
+
+<p><cite>#HatTip ForgetFoo <a href="http://forgetfoo.com">http://forgetfoo.com</a></cite></p>
+]]></content>
+  </entry>
+  
+</feed>
