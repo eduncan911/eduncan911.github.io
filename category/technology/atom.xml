@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/technology/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2015-08-28T02:11:07-04:00</updated>
+  <updated>2015-08-31T19:42:45-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,145 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google Authenticator's Databases: Copy, Move and Fix]]></title>
+    <link href="http://eduncan911.com/technology/hardware/google-authenticator-databases-move-copy-fix.html"/>
+    <updated>2015-08-31T18:03:55-04:00</updated>
+    <id>http://eduncan911.com/technology/hardware/google-authenticator-databases-move-copy-fix</id>
+    <content type="html"><![CDATA[<p><img src="/blog/images/FeatureImage-GoogleAuthenticator.jpg" title="&ldquo;Google Authenticator&rdquo;" ></p>
+
+<p>Google Authenticator is a two-factor application that runs on your mobile or tablet device.  Typically you only run it on one device because the secrets you store in its databases cannot be shared between devices.</p>
+
+<p>In this post, I explain some technical details about this database and how you can exploit the details for your gain (from an Android&rsquo;s perspective).</p>
+
+<h2>Factor Resets</h2>
+
+<p>So when an Android update comes out, I can not update.  I am forced to backup my configurations first, upgrade the device and then restore my configurations after the apps are reloaded.  The reason I have to do this is because I run a custom bootloader.  I also encrypt my device which further mandates a factor reset upon unlocking and locking to regain root access.  What a PITA.</p>
+
+<p>But these annoyances have afforded me the luxury of learning more details about the apps and system processes, along with their configurations.</p>
+
+<p>I use custom bootloaders to gain access to the device in the event of a MMC failure (has happened once, I was able to get important data off of it before it totally was lost).</p>
+
+<p>Encryption is used because, well, I&rsquo;m just <a href="http://motherboard.vice.com/read/fbi-director-if-apple-and-google-wont-decrypt-phones-well-force-them-to">paranoid like that</a>.</p>
+
+<h2>Google&rsquo;s Warning: Stay away from GA&rsquo;s Databases!</h2>
+
+<p>Google has stated (insert ref here) that you should not be copying your Google Authenticator&rsquo;s databases from device to device.  This is true as it could lead to you leaking your secrets by, say, copying the file to your cloud storage to sync to another device.</p>
+
+<p>Not only have you given your cloud provider access to your secrets (that is now backed up and replicated on their systems); but, if hackers gain access to your cloud platform (which several have Undelete options!), that&rsquo;s game over man.</p>
+
+<p>Me?  I always copy directly from my device to a USB stick.  Do my thing on the device and when ready, push it back from the USB stick to my device.  When done, wipe the USB stick (or write an ISO to it, which I do very very often).</p>
+
+<h2>Why Even Bother?</h2>
+
+<p>So why do I go to such extremes?  Google&rsquo;s very own security supplies a way for you to move your secret (a new secret) to a new device, a process I consider the absolute model of perfection of moving your secrets.</p>
+
+<p>One answer: 17.</p>
+
+<p>I have 17 Google Authenticator &ldquo;secrets&rdquo; on my device for 17 services across my personal services and several clients' access.</p>
+
+<p>Have you ever tried to regain access to an account once you lost your two-factor authentication secret?  I have.  I have a 2:5 win/loss ratio when I had to play that game.  No more.</p>
+
+<p>So, it&rsquo;s time to hack this thing to take matters into my own hands.</p>
+
+<p>This, ladies and gentlemen, is why I own Android&hellip;</p>
+
+<h2>Google Authenticator&rsquo;s Database</h2>
+
+<p>If you got Root, then you have more options.</p>
+
+<p>On Android, the Google Authenticator <code>databases</code> file is located at:</p>
+
+<p><code>
+/data/data/com.google.android.apps.authenticator2/databases/
+</code></p>
+
+<p>Within this directory is a &lsquo;databases&rsquo; file:</p>
+
+<p><code>
+root@hammerhead:/data/data/com.google.android.apps.authenticator2/databases # ls -l
+-rwxrw-rw- u0_a92     u0_a92        16384 2015-06-22 19:17 databases
+</code></p>
+
+<p>And no, that&rsquo;s not a misprint.  There is a directory called <code>databases</code> with a file in it called <code>databases</code>.</p>
+
+<h2>Permissions</h2>
+
+<p>The first dumbfounded thing I found during my first attempt at copying my second version of GA&rsquo;s databases is the permissions.  Take a look closely at the <code>ls</code> command above.  Notice anything?</p>
+
+<p>```
+-rwx&mdash;&mdash;&mdash;
+User: Read/Write/Execute</p>
+
+<p>&mdash;&mdash;rw&mdash;&mdash;
+Group: Read/Write</p>
+
+<p>&mdash;&mdash;&mdash;-rw-
+World: Read/Write
+```</p>
+
+<p>WTF?  Everyone has access to this file?</p>
+
+<p>During my first restore, I had Google Authenticator constantly crashing on launch.  Come to find out, it did not like my <code>700</code> permissions access I first gave it.  Only after frustration of the app crashing over and over did I just give it full 777 permissions&hellip;  And the app opened without a crash?  It needs world read/write?</p>
+
+<p>I then found out the parent <code>databases</code> directly itself needed the same permissions.</p>
+
+<p>Now, I know that Android has some special user-space for each app to isolate each app&rsquo;s access to the rest of the file system.  Perhaps it&rsquo;s enough to <em>trust</em> Android in that its app isolation is good enough.</p>
+
+<p>I don&rsquo;t trust anyone with this data; but, unfortunately if you want GA running you have to set the correct permissions at this time:</p>
+
+<p>```</p>
+
+<h1>cd /data/data/com.google.android.apps.authenticator2/</h1>
+
+<h1>chmod 766 databases</h1>
+
+<h1>cd databases/</h1>
+
+<h1>chmod 766 databases</h1>
+
+<p>```</p>
+
+<p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
+
+<h2>Inspecting the Database</h2>
+
+<p>The <code>databases</code> file itself is a <code>sqlite</code> database.  This makes it easy to write an application to look at the database and query directly against it.</p>
+
+<p><code>
+$ sqlite3 ./databases
+SQLite version 3.8.11.1 2015-07-29 20:00:57
+Enter ".help" for usage hints.
+sqlite&gt; .fullschema
+CREATE TABLE android_metadata (locale TEXT);
+CREATE TABLE accounts (_id INTEGER PRIMARY KEY, email TEXT NOT NULL, secret TEXT NOT NULL, counter INTEGER DEFAULT 0, type INTEGER, provider INTEGER DEFAULT 0, issuer TEXT DEFAULT NULL, original_name TEXT DEFAULT NULL);
+/* No STAT tables available */
+</code></p>
+
+<p>Here above we can see two tables in this file.  An <code>android_metadata</code> table and an <code>accounts</code> table.</p>
+
+<p>Run this command:</p>
+
+<p><code>
+sqlite&gt; SELECT * FROM accounts;
+</code></p>
+
+<p>Did you notice everything is in the clear here?  No encryption?</p>
+
+<p>It was so much so that I started to copy and paste my output of 17 accounts; but, it was too much to redact.  I figured I&rsquo;ll just posted the schema above and let you query your own database.</p>
+
+<h2>Takeaways</h2>
+
+<p>There a few things to take away from all of this.</p>
+
+<p>Google Authenticator has world read/write permissions: Is that a security issue?</p>
+
+<p>Google Authenticator stores everything in the clear in Sqlite: Is that a security issue?</p>
+
+<p>I am going to reach out to Google for comment about this one.  But for now, you have the details and know-how to move this file as you see fit.  No more having to reset 17+ accounts, just for an Android update!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[FCC Crashed Again for Net Neutrality]]></title>
@@ -187,55 +326,6 @@ Audio player not available in your browser. Please try a newer browser.
 <p>It seems every few years I have to <em>re-evaluate</em> my media devices and setup to ensure everything is compatible.  Seems to come around with each new Windows release, since the hunt for decoders and setup starts all over.</p>
 
 <p>Next time, it&rsquo;s Linux once and for all.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lenovo Thinkpad End/Insert Key Swap]]></title>
-    <link href="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html"/>
-    <updated>2014-07-01T12:01:44-04:00</updated>
-    <id>http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap</id>
-    <content type="html"><![CDATA[<p><a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">Lenovo Helix End/Insert Keys Swapped</a></p>
-
-<p>I recently switched from the Dell-exclusive club of laptops over the past 15 years to a ThinkPad.  Specifically, the Lenovo ThinkPad Helix.  It was a unit I have been waiting years for to check all the right boxes.</p>
-
-<p>I haven&rsquo;t been privy to the IBM/Lenovo keyboard wars.  I have always heard great things about the IBM ThinkPad keyboard.  Well, it seems this Lenovo Helix came with the newer style of only one row of Function keys + hardware-specific keys (volume, brightness, etc).  Fine by me as I figured out how to lock in the Function-mode-always (a BIOS option).</p>
-
-<p>But now I had a serious problem when coding/writing long documents&hellip;</p>
-
-<h2>The End/Insert Key was Swapped</h2>
-
-<p>Why in the hell would the End/Insert key swap functions when I lock in the Function-key mode of the F1-F12 keys?</p>
-
-<p>This was almost a deal breaker.  Only after crawling the Lenovo forums (a great place to find hacks for Lenovo) did I stumble onto a Lenovo ThinkPad keyboard hack to <a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">reverse the key functions</a>.  It actually remaps the Windows keyboard layout in the registry, an age-old trick I forgot about over a decade ago!</p>
-
-<h2>Swapping the End/Insert key functions</h2>
-
-<p>Instead of supplying a download of a .reg file, which I am not even sure that GitHub supports, I&rsquo;ll explain the instructions on how to create your own .reg file.</p>
-
-<ul>
-<li>Right-click on your desktop, select <code>New -&gt; Text Document</code></li>
-<li>Copy and Paste the following into this document, letter by letter.</li>
-</ul>
-
-
-<p>``` text lenovo-helix-end-insert-key-swap.reg <a href="https://gist.github.com/eduncan911/f27808d2bb30982b4da5">https://gist.github.com/eduncan911/f27808d2bb30982b4da5</a>
-Windows Registry Editor Version 5.00</p>
-
-<p>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
-&ldquo;Scancode Map&rdquo;=hex:00,00,00,00,00,00,00,00,03,00,00,00,52,e0,4f,e0,4f,e0,52,e0,00,00,00,00
-```</p>
-
-<ul>
-<li>Save the file as <code>lenovo-helix-end-insert-key-swap.reg</code></li>
-<li>Double-click it to <code>merge</code> it into your registry.  You will need to be logged in as an Administrator.</li>
-<li>Reboot and you&rsquo;re done.</li>
-</ul>
-
-
-<p>Now, the function of the End/Insert will be swapped.</p>
-
-<p>Also, <a href="http://blog.lenovo.com/products/why-you-should-give-in-to-the-new-thinkpad-keyboard">devoted fans of the previous Thinkpad keyboard: you may want to take your anger here</a>.</p>
 ]]></content>
   </entry>
   

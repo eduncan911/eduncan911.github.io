@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Google Authenticator's Databases: Copy, Move and Fix - Eric Duncan</title>
+  <meta name="author" content="Eric Duncan" />
+  <meta name="description" content="You can backup and/or copy your Google Authenticator from device to device, providing you follow a few rules." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="generator" content="Octopress 2.0" />
+  <meta property="og:site_name" content="Eric Duncan" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://eduncan911.com/blog/images/FeatureImage-GoogleAuthenticator.jpg" />
+  <meta property="og:video" content="" />
+  <meta property="og:url" content="http://eduncan911.com/technology/hardware/google-authenticator-databases-move-copy-fix.html" />
+  <link rel="canonical" href="http://eduncan911.com/technology/hardware/google-authenticator-databases-move-copy-fix.html" />
+  <link rel="alternate" href="/atom.xml" title="Eric Duncan" type="application/atom+xml" />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" type="text/css" />
+  <link rel="stylesheet" href="/stylesheets/screen.css" media="screen, projection" type="text/css" />
+  <style type="text/css">
+    header .blog-title a, header .blog-description { 
+      color: #ffffff; 
+      text-transform: lowercase;
+    } 
+  </style>
+  <script src="/javascripts/modernizr-2.0.js"></script>
+
+</head>
+<body class="home blog">
+
+  <header id="masthead" role="banner" class="site-head site-header">
+    <div class="vertical" itemscope itemtype="http://schema.org/Article">
+      <div class="site-head-content inner" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <h1 class="blog-title" itemprop="name"><a class="blog-logo" href='/' rel='home'>Eric Duncan</a></h1>
+        <h2 class="blog-description" itemprop="jobtitle">spawning a race of beings</h2>
+        <meta itemprop="givenname" content="Eric" />
+        <meta itemprop="familyname" content="Duncan" />
+        <meta itemprop="affiliation" content="eduncan911" />
+        <meta itemprop="jobtitle" content="Software Architect" />
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="content" role="main">
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+        <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2015-08-31T18:03:55-04:00" content="2015-08-31T18:03:55-04:00" itemprop="datePublished">Aug 31<span>st</span>, 2015</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/hardware/' rel='category tag'>hardware</a>, <a class='category' href='/category/technology/' rel='category tag'>technology</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">Google Authenticator's Databases: Copy, Move and Fix</a></h1>
+        <meta itemprop="url" content="" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p><img src="/blog/images/FeatureImage-GoogleAuthenticator.jpg" title="&#34;Google Authenticator&#34;" alt="&#34;Google Authenticator&#34;"></p>
+
+<p>Google Authenticator is a two-factor application that runs on your mobile or tablet device.  Typically you only run it on one device because the secrets you store in its databases cannot be shared between devices.</p>
+
+<p>In this post, I explain some technical details about this database and how you can exploit the details for your gain (from an Android&rsquo;s perspective).</p>
+
+<h2>Factor Resets</h2>
+
+<p>So when an Android update comes out, I can not update.  I am forced to backup my configurations first, upgrade the device and then restore my configurations after the apps are reloaded.  The reason I have to do this is because I run a custom bootloader.  I also encrypt my device which further mandates a factor reset upon unlocking and locking to regain root access.  What a PITA.</p>
+
+<p>But these annoyances have afforded me the luxury of learning more details about the apps and system processes, along with their configurations.</p>
+
+<p>I use custom bootloaders to gain access to the device in the event of a MMC failure (has happened once, I was able to get important data off of it before it totally was lost).</p>
+
+<p>Encryption is used because, well, I&rsquo;m just <a href="http://motherboard.vice.com/read/fbi-director-if-apple-and-google-wont-decrypt-phones-well-force-them-to">paranoid like that</a>.</p>
+
+<h2>Google&rsquo;s Warning: Stay away from GA&rsquo;s Databases!</h2>
+
+<p>Google has stated (insert ref here) that you should not be copying your Google Authenticator&rsquo;s databases from device to device.  This is true as it could lead to you leaking your secrets by, say, copying the file to your cloud storage to sync to another device.</p>
+
+<p>Not only have you given your cloud provider access to your secrets (that is now backed up and replicated on their systems); but, if hackers gain access to your cloud platform (which several have Undelete options!), that&rsquo;s game over man.</p>
+
+<p>Me?  I always copy directly from my device to a USB stick.  Do my thing on the device and when ready, push it back from the USB stick to my device.  When done, wipe the USB stick (or write an ISO to it, which I do very very often).</p>
+
+<h2>Why Even Bother?</h2>
+
+<p>So why do I go to such extremes?  Google&rsquo;s very own security supplies a way for you to move your secret (a new secret) to a new device, a process I consider the absolute model of perfection of moving your secrets.</p>
+
+<p>One answer: 17.</p>
+
+<p>I have 17 Google Authenticator &ldquo;secrets&rdquo; on my device for 17 services across my personal services and several clients&#8217; access.</p>
+
+<p>Have you ever tried to regain access to an account once you lost your two-factor authentication secret?  I have.  I have a 2:5 win/loss ratio when I had to play that game.  No more.</p>
+
+<p>So, it&rsquo;s time to hack this thing to take matters into my own hands.</p>
+
+<p>This, ladies and gentlemen, is why I own Android&hellip;</p>
+
+<h2>Google Authenticator&rsquo;s Database</h2>
+
+<p>If you got Root, then you have more options.</p>
+
+<p>On Android, the Google Authenticator <code>databases</code> file is located at:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/data/data/com.google.android.apps.authenticator2/databases/</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Within this directory is a &lsquo;databases&rsquo; file:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>root@hammerhead:/data/data/com.google.android.apps.authenticator2/databases # ls -l
+</span><span class='line'>-rwxrw-rw- u0_a92     u0_a92        16384 2015-06-22 19:17 databases</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And no, that&rsquo;s not a misprint.  There is a directory called <code>databases</code> with a file in it called <code>databases</code>.</p>
+
+<h2>Permissions</h2>
+
+<p>The first dumbfounded thing I found during my first attempt at copying my second version of GA&rsquo;s databases is the permissions.  Take a look closely at the <code>ls</code> command above.  Notice anything?</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>-rwx------
+</span><span class='line'>User: Read/Write/Execute
+</span><span class='line'>
+</span><span class='line'>----rw----
+</span><span class='line'>Group: Read/Write
+</span><span class='line'>
+</span><span class='line'>-------rw-
+</span><span class='line'>World: Read/Write</span></code></pre></td></tr></table></div></figure>
+
+
+<p>WTF?  Everyone has access to this file?</p>
+
+<p>During my first restore, I had Google Authenticator constantly crashing on launch.  Come to find out, it did not like my <code>700</code> permissions access I first gave it.  Only after frustration of the app crashing over and over did I just give it full 777 permissions&hellip;  And the app opened without a crash?  It needs world read/write?</p>
+
+<p>I then found out the parent <code>databases</code> directly itself needed the same permissions.</p>
+
+<p>Now, I know that Android has some special user-space for each app to isolate each app&rsquo;s access to the rest of the file system.  Perhaps it&rsquo;s enough to <em>trust</em> Android in that its app isolation is good enough.</p>
+
+<p>I don&rsquo;t trust anyone with this data; but, unfortunately if you want GA running you have to set the correct permissions at this time:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># cd /data/data/com.google.android.apps.authenticator2/
+</span><span class='line'># chmod 766 databases
+</span><span class='line'># cd databases/
+</span><span class='line'># chmod 766 databases</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
+
+<h2>Inspecting the Database</h2>
+
+<p>The <code>databases</code> file itself is a <code>sqlite</code> database.  This makes it easy to write an application to look at the database and query directly against it.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ sqlite3 ./databases
+</span><span class='line'>SQLite version 3.8.11.1 2015-07-29 20:00:57
+</span><span class='line'>Enter ".help" for usage hints.
+</span><span class='line'>sqlite&gt; .fullschema
+</span><span class='line'>CREATE TABLE android_metadata (locale TEXT);
+</span><span class='line'>CREATE TABLE accounts (_id INTEGER PRIMARY KEY, email TEXT NOT NULL, secret TEXT NOT NULL, counter INTEGER DEFAULT 0, type INTEGER, provider INTEGER DEFAULT 0, issuer TEXT DEFAULT NULL, original_name TEXT DEFAULT NULL);
+</span><span class='line'>/* No STAT tables available */</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here above we can see two tables in this file.  An <code>android_metadata</code> table and an <code>accounts</code> table.</p>
+
+<p>Run this command:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sqlite&gt; SELECT * FROM accounts;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Did you notice everything is in the clear here?  No encryption?</p>
+
+<p>It was so much so that I started to copy and paste my output of 17 accounts; but, it was too much to redact.  I figured I&rsquo;ll just posted the schema above and let you query your own database.</p>
+
+<h2>Takeaways</h2>
+
+<p>There a few things to take away from all of this.</p>
+
+<p>Google Authenticator has world read/write permissions: Is that a security issue?</p>
+
+<p>Google Authenticator stores everything in the clear in Sqlite: Is that a security issue?</p>
+
+<p>I am going to reach out to Google for comment about this one.  But for now, you have the details and know-how to move this file as you see fit.  No more having to reset 17+ accounts, just for an Android update!</p>
+
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+
+      <section class="collapsable history">
+        <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
+        <ul class="post-metadata"><li><strong>Mon Aug 31 19:42:33 2015</strong><br/>Google Authenticator, move copy and fix
+</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2015-08-31-google-authenticator-databases-move-copy-fix.markdown target=_blank>Github</a></p>
+      </section>
+
+      <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; About the author</a></h5>
+        <p class="post-metadata">Eric has been in a wide variety of software development roles with 18+ years experience developing and managing technologies for several industries such as prepaid card services, advertising, legal and manufacturing. He is a pioneer of open-sourced social networking and communication solutions.</p>
+      </section>
+
+      <!-- <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; Related Posts</a></h5>
+        <p class="post-metadata">(coming soon)</p>
+      </section> -->
+      <nav class="pagination navigation paging-navigation" role="navigation">
+        <div class="nav-links">
+          <div class="older-posts"><a href="/software/security/processing-credit-cards-with-tokens.html" title="Previous Post: Processing Credit Cards with Tokens?">&laquo; Processing Credit Cards with Tokens?</a></div>
+          
+        </div>
+      </nav>
+      <div class="clear"></div>
+
+      <a class="post-comment-anchor" name="comments"></a>
+      <section class="post-comment">
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <a class="subscribe icon-feed" href="/atom.xml"><span class="tooltip">Subscribe!</span></a>
+    <div><a href="/blog">Blog</a></div>
+    <div><a href="/blog/archives">Archives</a></div>
+    <div><a href="/contact">Contact Me</a></div>
+    <div><a href="/buymeabeer">Buy Me a Beer</a></div>
+    <div><a href="/blogtegrity">Blogtegrity</a></div>
+    <div><a href="/keys">PGP Keys</a></div>
+    <div><a href="/privacy">Privacy</a></div>
+    <div>&nbsp;</div>
+    <div class="site-info inner"><section class="copyright">© 2015 Eric Duncan <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></section></div>
+    <div>a <a href="http://www.forgetfoo.me/" title="one of a 100 kickass designs by this guy">forgetfoo</a> design</div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script type='text/javascript' src='/javascripts/foo.casper.js?ver=20140422'></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3705711-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'eduncan911com';
+    
+      
+      // var disqus_developer = 1;
+      var disqus_identifier = 'http://eduncan911.com/technology/hardware/google-authenticator-databases-move-copy-fix.html';
+      var disqus_url = 'http://eduncan911.com/technology/hardware/google-authenticator-databases-move-copy-fix.html';
+      var disqus_script = 'embed.js';
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+  </script>
+
+
+
+
+</body>
+</html>
