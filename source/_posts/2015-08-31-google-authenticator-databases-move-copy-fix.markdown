@@ -94,13 +94,35 @@ Now, I know that Android has some special user-space for each app to isolate eac
 I don't trust anyone with this data; but, unfortunately if you want GA running you have to set the correct permissions at this time:
 
 ```
-# cd /data/data/com.google.android.apps.authenticator2/
-# chmod 766 databases
-# cd databases/
-# chmod 766 databases
+# NOTE: You will need to be "su" root user to run these
+
+cd /data/data/com.google.android.apps.authenticator2/
+chmod 766 databases
+cd databases/
+chmod 766 databases
 ```
 
 The parent `databases/` folder, and the `databases` file itself requires world read and write access - or the Google Authenticator's app won't even open (crashes).
+
+## Ownership
+
+In addition, and what stemmed me to write this post, is I had another issue.  I was not able to add any new entries to my Google Authenticator.  I had the permissions right, so I thought.
+
+Upon inspection, I could see that the directories surrounding the databases/ directory was owned by a different user.  In my case, that userid was `u0_a92`.  
+
+I am not sure if this was the user space dedicated to this app or not.  But in any case, once I set the owner and group to this user, I was able to add new entries:
+
+```
+# NOTE: you will need to be "su" root user to run these
+# NOTE 2: perform an "ls -l" like I did above and change u0_a92 to match.
+
+cd /data/data/com.google.android.apps.authenticator2/
+chown u0_a92:u0_a92 databases
+cd databases
+chown u0_a92:u0_a92 databases
+```
+
+And now I was able to add new entries.
 
 ## Inspecting the Database
 
