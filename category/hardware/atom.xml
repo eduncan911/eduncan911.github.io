@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hardware | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/hardware/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2015-08-31T19:42:45-04:00</updated>
+  <updated>2015-09-01T11:19:00-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -102,17 +102,37 @@ World: Read/Write
 
 <p>```</p>
 
-<h1>cd /data/data/com.google.android.apps.authenticator2/</h1>
+<h1>NOTE: You will need to be &ldquo;su&rdquo; root user to run these</h1>
 
-<h1>chmod 766 databases</h1>
+<p>cd /data/data/com.google.android.apps.authenticator2/
+chmod 766 databases
+cd databases/
+chmod 766 databases
+```</p>
 
-<h1>cd databases/</h1>
+<p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
 
-<h1>chmod 766 databases</h1>
+<h2>Ownership</h2>
+
+<p>In addition, and what stemmed me to write this post, is I had another issue.  I was not able to add any new entries to my Google Authenticator.  I had the permissions right, so I thought.</p>
+
+<p>Upon inspection, I could see that the directories surrounding the databases/ directory was owned by a different user.  In my case, that userid was <code>u0_a92</code>.</p>
+
+<p>I am not sure if this was the user space dedicated to this app or not.  But in any case, once I set the owner and group to this user, I was able to add new entries:</p>
 
 <p>```</p>
 
-<p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
+<h1>NOTE: you will need to be &ldquo;su&rdquo; root user to run these</h1>
+
+<h1>NOTE 2: perform an &ldquo;ls -l&rdquo; like I did above and change u0_a92 to match.</h1>
+
+<p>cd /data/data/com.google.android.apps.authenticator2/
+chown u0_a92:u0_a92 databases
+cd databases
+chown u0_a92:u0_a92 databases
+```</p>
+
+<p>And now I was able to add new entries.</p>
 
 <h2>Inspecting the Database</h2>
 
@@ -204,50 +224,6 @@ sqlite&gt; SELECT * FROM accounts;
 <p><img src="/blog/images/google-nexus-10-and-apple-wireless-keyboard-2009-firmware.jpg" title="Nexus 10 and 2009 Apple Wireless Keyboard Firmware" ></p>
 
 <p>I only mention the firmware because I found a number of posts online where people upgraded their 2009 and 2011 keyboard firmwares to the latest, and lost some functionality.  I am not sure if the x50 version of the firmware is the latest.  I am only stating the exact version of the 2009 keyboard that worked flawlessly with the Nexus 10.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Wacom Intuos3/4 Is Incompatible With the Lenovo Helix]]></title>
-    <link href="http://eduncan911.com/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix.html"/>
-    <updated>2014-04-04T10:37:08-04:00</updated>
-    <id>http://eduncan911.com/hardware/the-wacom-intuos3-slash-4-is-incompatible-with-the-lenovo-helix</id>
-    <content type="html"><![CDATA[<p>I recently abandoned my 14 year dedication to Dell laptops in favor of the
-Lenovo Helix ultrabook/tablet.  In doing so, I needed a stylus for the active
-digitizer as the one that came with the Helix just isn&rsquo;t going to work for
-diagramming and sketching.</p>
-
-<h2>Research: Styluses for the Lenovo Helix</h2>
-
-<p>I had a problem: I was obsessed for days reading every blog, review and comment
-and watching every video I could find online to figure out what stylus would work
-with the Wacom Active Digitizer that is built into the Helix.</p>
-
-<p>Sadly, I couldn&rsquo;t find a straight answer.</p>
-
-<h2>Wacom ZP501ESE Intuos3 Special Edition Grip Pen</h2>
-
-<p>This is the pen I decided on.  It arrived today and I immediately ripped it open
-only to find out it didn&rsquo;t work.  And yes, I removed the OEM stylus cause there is
-a switch that disables the digitizer when the pen is inserted to save battery.</p>
-
-<h2>So which one?</h2>
-
-<p>Now that I am armed with new search queries <em>e.g. Lenovo Helix Intuos3 doesn&rsquo;t work</em>,
-I&rsquo;ve found new pages with additional info that I wish I&rsquo;d found in the first place.</p>
-
-<p>Usually I am diligent enough to find these errors ahead of time.  But, I failed this
-time around and I&rsquo;m having fun writing on my new Octopress blog &ndash; so, why not whip
-up a quick post to let others know.</p>
-
-<p>I found <a href="http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2">this thread</a>
-that was the most helpful in figuring out which stylus to get.  Specifically, this post:</p>
-
-<p><blockquote><p>FYI, the Wacom Penabled Digitizer system is not compatible with Intuos, Cintiq, and Bamboo Tablet pens.</p></p><p><p>Any other Wacom Penabled Tablet PC Pen will work (as mentioned, Series 7 slate, Asus EP121, Lenovo ThinkPad Tablet 2, Lenovo X61 &ndash; X230T series, Fujitsu T900 series, Motion F5t, Wacom Bamboo Feel pens to name just a few).</p></p><p><p>Additionally the Wacom Pen Display Pens will work (eg DTU- series).</p></p><p><p>These pens come in different shapes, sizes and button configurations, but the pen must match up with the digitizer system that is built into the tablet and many people aren&rsquo;t aware that Wacom have different systems.</p></p><p><p>The Penabled system is not as advanced as the Intuos or Cintiq unfortunately (fewer pressure degrees, no tilt angles etc), but still very impressive and useful.</p><footer><strong>Brett Gilbertson &ndash; Microsoft Tablet and Touch MVP <a href="http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2">http://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Wacom-Intuos-4-pen-doesn-t-work-on-Helix/td-p/1153403/page/2</a> Wacom Intuos 4 pen doesn&rsquo;t work on Helix</strong></footer></blockquote></p>
-
-<p>Well, there we have it.  NewEgg, a return is coming!</p>
-
-<p>~E</p>
 ]]></content>
   </entry>
   

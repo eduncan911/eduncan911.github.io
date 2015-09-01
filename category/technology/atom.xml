@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/technology/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2015-08-31T19:42:45-04:00</updated>
+  <updated>2015-09-01T11:19:00-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -102,17 +102,37 @@ World: Read/Write
 
 <p>```</p>
 
-<h1>cd /data/data/com.google.android.apps.authenticator2/</h1>
+<h1>NOTE: You will need to be &ldquo;su&rdquo; root user to run these</h1>
 
-<h1>chmod 766 databases</h1>
+<p>cd /data/data/com.google.android.apps.authenticator2/
+chmod 766 databases
+cd databases/
+chmod 766 databases
+```</p>
 
-<h1>cd databases/</h1>
+<p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
 
-<h1>chmod 766 databases</h1>
+<h2>Ownership</h2>
+
+<p>In addition, and what stemmed me to write this post, is I had another issue.  I was not able to add any new entries to my Google Authenticator.  I had the permissions right, so I thought.</p>
+
+<p>Upon inspection, I could see that the directories surrounding the databases/ directory was owned by a different user.  In my case, that userid was <code>u0_a92</code>.</p>
+
+<p>I am not sure if this was the user space dedicated to this app or not.  But in any case, once I set the owner and group to this user, I was able to add new entries:</p>
 
 <p>```</p>
 
-<p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
+<h1>NOTE: you will need to be &ldquo;su&rdquo; root user to run these</h1>
+
+<h1>NOTE 2: perform an &ldquo;ls -l&rdquo; like I did above and change u0_a92 to match.</h1>
+
+<p>cd /data/data/com.google.android.apps.authenticator2/
+chown u0_a92:u0_a92 databases
+cd databases
+chown u0_a92:u0_a92 databases
+```</p>
+
+<p>And now I was able to add new entries.</p>
 
 <h2>Inspecting the Database</h2>
 
@@ -149,24 +169,6 @@ sqlite&gt; SELECT * FROM accounts;
 <p>Google Authenticator stores everything in the clear in Sqlite: Is that a security issue?</p>
 
 <p>I am going to reach out to Google for comment about this one.  But for now, you have the details and know-how to move this file as you see fit.  No more having to reset 17+ accounts, just for an Android update!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[FCC Crashed Again for Net Neutrality]]></title>
-    <link href="http://eduncan911.com/technology/fcc/fcc-crashed-again-for-net-neutrality.html"/>
-    <updated>2014-07-31T13:56:49-04:00</updated>
-    <id>http://eduncan911.com/technology/fcc/fcc-crashed-again-for-net-neutrality</id>
-    <content type="html"><![CDATA[<p><audio preload="none" data-mins="01" data-secs="49" data-title="NPR: FCC Extending Net Neutrality Commenting Time After Site Buckles">
-<source src="http://pd.npr.org/anon.npr-mp3/npr/me/2014/07/20140716_me_fcc_extending_net_neutrality_commenting_time_after_site_buckles.mp3?dl=1">http://pd.npr.org/anon.npr-mp3/npr/me/2014/07/20140716_me_fcc_extending_net_neutrality_commenting_time_after_site_buckles.mp3?dl=1</a>" >
-Audio player not available in your browser. Please try a newer browser.
-</audio></p>
-
-<p><blockquote><p>A flood of comments about net neutrality crashed the Federal Communications Commission&rsquo;s commenting site on Tuesday, the original deadline for public comments on the controversial Internet proposal. But the tech problems are buying those who want to weigh in some extra time — the deadline for public commenting is now Friday (July 18th, 2014) at midnight.</p><footer><strong>FCC Extending Net Neutrality Commenting Time After Site Buckles <a href="http://www.npr.org/blogs/alltechconsidered/2014/07/15/331798176/fcc-extending-net-neutrality-commenting-time-after-site-buckles">http://www.npr.org/blogs/alltechconsidered/2014/07/15/331798176/fcc-extending-net-neutrality-commenting-time-after-site-buckles</a></strong></footer></blockquote></p>
-
-<p>Thank you everyone for <a href="/technology/fcc/only-2-days-left-to-crash-the-fcc.html">answering my call to crash the FCC</a>.</p>
-
-<p>Well, at least I&rsquo;d like to think I had a hand in it with my awesome blog posts on the matter.  :)</p>
 ]]></content>
   </entry>
   
@@ -226,106 +228,32 @@ Audio player not available in your browser. Please try a newer browser.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Only 2 Days Left to Crash the FCC]]></title>
-    <link href="http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc.html"/>
-    <updated>2014-07-13T10:41:03-04:00</updated>
-    <id>http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc</id>
-    <content type="html"><![CDATA[<p><a href="http://www.npr.org/blogs/alltechconsidered/2014/06/03/318458496/john-oliver-helps-rally-45-000-net-neutrality-comments-to-fcc">John Oliver Helps Rally 45,000 Net Neutrality Comments To FCC</a></p>
+    <title type="html"><![CDATA[Google Glass Distracting Drivers]]></title>
+    <link href="http://eduncan911.com/technology/google-glass-distracting-drivers.html"/>
+    <updated>2014-05-05T11:34:09-04:00</updated>
+    <id>http://eduncan911.com/technology/google-glass-distracting-drivers</id>
+    <content type="html"><![CDATA[<p><a href="http://www.npr.org/blogs/alltechconsidered/2014/03/24/289802359/does-google-glass-distract-drivers-the-debate-is-on">Does Google Glass Distract Drivers? The Debate Is On</a></p>
 
-<p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/fpbOEoRrHyU " frameborder="0" allowfullscreen></iframe></div></p>
+<p><img src="/blog/images/Google_Glass_Distracting_While_Driving.jpg" title="Google Glass Driving" ></p>
 
-<p>There&rsquo;s only two days left for comments.  At the time I left mine a month ago, there were 65,000 comments.  Now, there are 205,000.</p>
+<p>I have several friends, CEOs, CTOs and even strangers tell me they can talk and drive, they can text and drive, they are good drivers, etc.</p>
 
-<p><a href="http://www.fcc.gov/comments">The url to file your comments: fcc.gov/comments</a></p>
+<p>I&rsquo;ve always rebuttaled that the human brain can only focus on a single context, at any given time.</p>
 
-<p>The YouTube video hit on every point I&rsquo;ve been saying in person when talking about this, and many more.</p>
+<p><audio preload="none" data-mins="04" data-secs="42" data-title="NPR: Does Google Glass Distract Drivers?">
+<source src="http://pd.npr.org/anon.npr-mp3/npr/atc/2014/03/20140324_atc_does_google_glass_distract_drivers_the_debate_is_on.mp3">http://pd.npr.org/anon.npr-mp3/npr/atc/2014/03/20140324_atc_does_google_glass_distract_drivers_the_debate_is_on.mp3</a>" >
+Audio player not available in your browser. Please try a newer browser.
+</audio></p>
 
-<p>One of my biggest I tell people is how the former chairman of the FCC left (forced out?), and the new one put in place by Obama last year previously ran (as in chaired and commanded) the lobbying firm for Cable and Wireless (e.g. Comcast and TimeWarner) which was directly responsible for the last attempt to create the two-tier system that the FCC blocked.  And, that sued the government to force this actual change.</p>
+<p>A quote in this story summed it up quite well:</p>
 
-<p>Translation by the current FCC chairman: &ldquo;We didn&rsquo;t win last time. Ok, let&rsquo;s sue the FCC/government to force a rule change. When we win the lawsuit, I&rsquo;ll step down as head of this lobbyist group and become head of the FCC [so I can force this rule through].&rdquo;</p>
+<p><blockquote><p></p></p><p><p>Earl Miller, a professor of neuroscience at MIT who specializes in multitasking, says this sounds like wishful thinking.</p></p><p><p>&ldquo;You think you&rsquo;re monitoring the road at the same time, when actually what you&rsquo;re doing [is] you&rsquo;re relying on your brain&rsquo;s prediction that nothing was there before, half a second ago — that nothing is there now,&rdquo; he says. &ldquo;But that&rsquo;s an illusion. It can often lead to disastrous results.&rdquo;</p></p><p><p>In other words, the brain fills in the gaps in what you see with memories of what you saw a half-second ago. Among scientists, that statement is not controversial. The politics of Google Glass — and where it&rsquo;s worn — clearly is.</p></p><p><p></p><footer><strong>Does Google Glass Distract Drivers? The Debate Is On <a href="http://www.npr.org/blogs/alltechconsidered/2014/03/24/289802359/does-google-glass-distract-drivers-the-debate-is-on">http://www.npr.org/blogs/alltechconsidered/2014/03/24/289802359/does-google-glass-distract-drivers-the-debate-is-on</a></strong></footer></blockquote></p>
 
-<p>How fracked up is that?</p>
+<p>Bingo.  And this includes &ldquo;hands-free&rdquo; conversations as well as GPS.</p>
 
-<p>Also it sucks that NetFlix already has to pay Comcast to get service to its users.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Why I Fight to Keep MKV as My Media]]></title>
-    <link href="http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media.html"/>
-    <updated>2014-07-02T09:57:26-04:00</updated>
-    <id>http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media</id>
-    <content type="html"><![CDATA[<p>I have a fairly high-end home media setup in where I store my backups of nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV series on a server with over 20 TB of storage.  I&rsquo;ve archived all the blu-ray and dvds I&rsquo;ve purchased over the last 15 years into a digital format.</p>
+<p>Then again, in 30 years we may evolve to actually have our brains multi-task.</p>
 
-<p>Today I want to share with you my reasons for staying with the format MKV, otherwise known as <a href="http://www.matroska.org/">Matroska</a>, over all of these years in lieu of MP4, MOV, AVI, WMV and so on.</p>
-
-<h2>What&rsquo;s wrong with MP4, MOV, AVI, etc?</h2>
-
-<p>Let me start by stating the inherit flaw of these.  I am not going to get into lossless, video quality, etc.  There are 1000s of posts on that.  There&rsquo;s also the fight that WMV won&rsquo;t play on iPads, and the Xbox refusing certain copyrighted encryptions.  No.  None of that.</p>
-
-<p>Instead I want to focus on 1 flaw they all have in common: they are only a single layer of intermixed streams of video and audio, unable to be separated, switched off, or doubled up.</p>
-
-<p>Think about a standard DVD or Blu-ray movie: You have multiple audio tracks including multiple commentaries that makes you want to watch the movie over and over again (I recall watching <em>Alien (1979)</em> multiple times with Sigourney Weaver&rsquo;s commentary, <em>Aliens (1986)</em> is even funnier with Bill Paxton&rsquo;s commentary).  Sometimes there are alternative endings to choose from before you start your movie.  Other times, you may need foreign subtitles for the parts in another language; or, those foreign subtitles are translated incorrectly, and you&rsquo;d rather turn them off and interrupt them yourself.</p>
-
-<p>And there in-lies the problem with a single layer of video and audio in the above mentioned formats: whatever is selected at the time of encoding (English, Japanese subtitles, H264 video stream), is merged into a single layer &ndash; unable to be manipulated, turned off, or changed.</p>
-
-<p>I prefer freedom of choice.</p>
-
-<h2>It&rsquo;s all about the Matroska Layers</h2>
-
-<p>At the very heart of the Matroska container (aka, file format) is its &ldquo;layer&rdquo; approach which gives it the power to encapsulate as many video, audio and subtitle tracks to your heart&rsquo;s content &ndash; all in their RAW format, unmolested by &ldquo;encoders&rdquo; that have to remix them into a single stream in the other formats.</p>
-
-<p>Want all 5 audio commentaries for <em>Alien (1979)</em>, including the two separate Ridley Scott and Sigourney Weaver tracks?  No problem, the MKV container allows you to store as many audio tracks as you like.</p>
-
-<p>Want the alternative cut and ending to <em>The Abyss (1989)</em> in where the aliens are actually here for a different reason (I won&rsquo;t spoil it here)?  No problem with MKVs.</p>
-
-<p>An MKV file can do this because it essentially is just a <em>wrapper</em> around your raw binary streams (or rips) of H264 video, AAC or FLAC audio, and the subtitle text file(s).  DVDs and Blu-rays store these streams separately &ndash; it is how you can switch audio tracks or alternative endings.  It is only natural that you take these raw streams from these disks, and wrap them in a container of sorts (MKV) to have them all at your fingertips to switch video, audio and languages with a click of the button.</p>
-
-<p>Welcome to Matroska.</p>
-
-<h2>Example: Multiple Camera Angles (multiple video streams)</h2>
-
-<p>One of my favorite DVDs is my <a href="http://www.amazon.com/Peter-Gabriel-Growing-Up-Live/dp/B0000DZ3H4?tag=eduncan911-20"><em>Peter Gabriel&rsquo;s &ndash; Growing Up Live (2003)</em></a>, a live recording in Milan of his <em>Growing Up Tour</em> in 2003.</p>
-
-<p>What&rsquo;s interesting about this DVD (I really wish they would release a blu-ray) is that it has interactive camera angles during multiple titles.  You are able to &ldquo;switch videos streams&rdquo; to a different camera angles.  Pretty cool.</p>
-
-<p>With Matroska, I retained these video angles within the single MKV file I created of the DVD when I ripped it.  Given though, I didn&rsquo;t copy the &ldquo;cue markers&rdquo; overlay from the original DVD viewing.  You kind of have to know when you can change angles, and you can select a different video stream while playing.</p>
-
-<h2>Subtitles</h2>
-
-<p>This one is especially important to my family.  With a spouse of a different nationality, English sub-titles are a near must.</p>
-
-<p>The other formats have to &ldquo;burn-in&rdquo; sub-titles on-top of the video, removing the option to turn it off.  Yes, many decoders allow you to add an .srt file alongside the MP4 and it will overlay the subtitles (if you get the right one, and if it is in sync with its time codes).</p>
-
-<p>Again, thanks to Matroska&rsquo;s layers, this is only a matter of adding (or removing, or reording) the subtitle tracks that are part of the MKV layers.</p>
-
-<p>Don&rsquo;t like the Dutch sub-titles as default?  Reorder them, or remove them.</p>
-
-<h2>MKV is open source and well documented</h2>
-
-<p>That&rsquo;s right.  No copyright or patents to infringe on.  The perhaps most importantly, the container format is very well documented allowing for anyone to create a set of tools themselves.</p>
-
-<p>It is a real shame that the big players ignore this format, and it is up to us end-users to hack our devices to play them.</p>
-
-<h2>Besides, I can always convert to any format later</h2>
-
-<p>Having all the video and audio streams alongside the closed caption allows me to convert my backups of MKVs into any format I like in the future.</p>
-
-<p>Once such tool is <a href="http://handbrake.fr/">Handbrake</a>, which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB movie and compresses it down to a 1.8 GB file (for the kiddo&rsquo;s tablet).</p>
-
-<h2>A callout to Microsoft, Apple and Google</h2>
-
-<p>Why hasn&rsquo;t MKV gone mainstream?  Why hasn&rsquo;t one of these companies openly embraced this superior format?</p>
-
-<p>The answer is simple: copyright and encryption.  The Matroska format does not support either with its free and open container formats; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.</p>
-
-<h2>Handle it myself</h2>
-
-<p>So that leaves me, a lone person, burdened to create my own Matroska MKV containers myself.  More cumbersome is the annoyance of getting the MKVs to play on multiple devices in different media centers and tables.</p>
-
-<p>It seems every few years I have to <em>re-evaluate</em> my media devices and setup to ensure everything is compatible.  Seems to come around with each new Windows release, since the hunt for decoders and setup starts all over.</p>
-
-<p>Next time, it&rsquo;s Linux once and for all.</p>
+<p><cite>#HatTip ForgetFoo <a href="http://forgetfoo.com">http://forgetfoo.com</a></cite></p>
 ]]></content>
   </entry>
   

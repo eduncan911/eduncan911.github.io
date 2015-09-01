@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2015-08-31T19:42:45-04:00</updated>
+  <updated>2015-09-01T11:19:00-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -112,13 +112,43 @@
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'># cd /data/data/com.google.android.apps.authenticator2/
-</span><span class='line'># chmod 766 databases
-</span><span class='line'># cd databases/
-</span><span class='line'># chmod 766 databases</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># NOTE: You will need to be "su" root user to run these
+</span><span class='line'>
+</span><span class='line'>cd /data/data/com.google.android.apps.authenticator2/
+</span><span class='line'>chmod 766 databases
+</span><span class='line'>cd databases/
+</span><span class='line'>chmod 766 databases</span></code></pre></td></tr></table></div></figure>
 
 
 <p>The parent <code>databases/</code> folder, and the <code>databases</code> file itself requires world read and write access &ndash; or the Google Authenticator&rsquo;s app won&rsquo;t even open (crashes).</p>
+
+<h2>Ownership</h2>
+
+<p>In addition, and what stemmed me to write this post, is I had another issue.  I was not able to add any new entries to my Google Authenticator.  I had the permissions right, so I thought.</p>
+
+<p>Upon inspection, I could see that the directories surrounding the databases/ directory was owned by a different user.  In my case, that userid was <code>u0_a92</code>.</p>
+
+<p>I am not sure if this was the user space dedicated to this app or not.  But in any case, once I set the owner and group to this user, I was able to add new entries:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># NOTE: you will need to be "su" root user to run these
+</span><span class='line'># NOTE 2: perform an "ls -l" like I did above and change u0_a92 to match.
+</span><span class='line'>
+</span><span class='line'>cd /data/data/com.google.android.apps.authenticator2/
+</span><span class='line'>chown u0_a92:u0_a92 databases
+</span><span class='line'>cd databases
+</span><span class='line'>chown u0_a92:u0_a92 databases</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And now I was able to add new entries.</p>
 
 <h2>Inspecting the Database</h2>
 
@@ -161,142 +191,6 @@
 <p>Google Authenticator stores everything in the clear in Sqlite: Is that a security issue?</p>
 
 <p>I am going to reach out to Google for comment about this one.  But for now, you have the details and know-how to move this file as you see fit.  No more having to reset 17+ accounts, just for an Android update!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Processing Credit Cards With Tokens?]]></title>
-    <link href="http://eduncan911.com/software/security/processing-credit-cards-with-tokens.html"/>
-    <updated>2014-07-31T14:07:40-04:00</updated>
-    <id>http://eduncan911.com/software/security/processing-credit-cards-with-tokens</id>
-    <content type="html"><![CDATA[<p><audio preload="none" data-mins="03" data-secs="21" data-title="NPR: Visa Makes Big Move To Boost Consumer Spending Online">
-<source src="http://pd.npr.org/anon.npr-mp3/npr/atc/2014/07/20140716_atc_visa_makes_big_move_to_increase_online_spending.mp3" type="audio/mpeg">
-Audio player not available in your browser. Please try a newer browser.
-</audio></p>
-
-<p>Heard this on NPR and decided to investigate further because at first glance it looks like a good idea &ndash; at least from a developer&rsquo;s perspective.</p>
-
-<p>From the PaymentNews website, I found this announcement.</p>
-
-<blockquote><p>Tokenization is the process of replacing a traditional card account number with a unique payment token that is restricted in how it can be used with a specific device, merchant, transaction type or channel. When using tokenization, merchants and digital wallet operators do not need to store card account numbers; instead they are able to store payment tokens that can only be used for their designated purpose. The tokenization process happens in the background in a manner that is expected to be invisible to the consumer.</p><footer><strong>EMVCo to Work on Payment Tokenization Standards</strong> <cite><a href='http://www.paymentsnews.com/2014/01/emvco-to-work-on-payment-tokenization-standards.html'>www.paymentsnews.com/2014/01/&hellip;</a></cite></footer></blockquote>
-
-
-<p>Visa calls it, <a href="https://checkout.visa.com/index.jsp?country=US">VISA checkout</a> and it is supposed to remove the burden of entering a credit card from your smartpohone.</p>
-
-<p>Looking better.  But wait a minute, how do you secure/access a token?</p>
-
-<p>Turns out they are expecting users to sign in with a &ldquo;<em>simple username and password, easy to remember</em>.&rdquo;  And there inlies my first cringe &ndash; passwords?  Let me explain why that is a roadblock IMO:</p>
-
-<ul>
-<li>Either the <a href="http://en.wikipedia.org/wiki/Password_policy">password requirements</a> will be a road block for anyone to easily type or remember.</li>
-<li>Or, the password will be a weaker password &ndash; easy for people to remember, and also to reuse for, say, a forum login <a href="http://lifehacker.com/5853483/a-guide-to-sniffing-out-passwords-and-cookies-and-how-to-protect-yourself-against-it">that can easily get sniffed</a>.</li>
-</ul>
-
-
-<p>Sure, you can mitigate the complex passwords with a password manager.  But, not everyone uses those and some would argue <a href="http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves.html">a password manager is also a bad idea</a>.</p>
-
-<p>Today if presented with an &ldquo;enter credit card details below&rdquo; with an option to &ldquo;sign in with Visa Checkout instead&rdquo;, I still enter the raw CC details.  Which that in and of itself is the problem VISA is trying to fix by focusing the burden on secure storage of those CC details with VISA themselves, instead of the mom-n-pop cake shop&rsquo;s PHP website that is asking for my CC.</p>
-
-<p>What I would suggest is to take a more two-factor approach to authentication.  Something that involves a simple password, one that is easy to remember; but also, you need to have a second factor of authentication &ndash; like a keyfob or fingerprint reader or possibly even, gasp, something as simple as <a href="http://en.wikipedia.org/wiki/Google_Authenticator">Google&rsquo;s Authenticator</a> that has worked perfectly for me for many websites and devices.</p>
-
-<p>But sadly, we will continue to be forced to obey the <a href="http://www.taipeitimes.com/News/editorials/archives/2010/09/10/2003482490">false sense of security of complex passwords</a>.</p>
-
-<p>Also see: <a href="http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way.html">Passwords &ndash; When Security Gets in the Way</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[FCC Crashed Again for Net Neutrality]]></title>
-    <link href="http://eduncan911.com/technology/fcc/fcc-crashed-again-for-net-neutrality.html"/>
-    <updated>2014-07-31T13:56:49-04:00</updated>
-    <id>http://eduncan911.com/technology/fcc/fcc-crashed-again-for-net-neutrality</id>
-    <content type="html"><![CDATA[<p><audio preload="none" data-mins="01" data-secs="49" data-title="NPR: FCC Extending Net Neutrality Commenting Time After Site Buckles">
-<source src="http://pd.npr.org/anon.npr-mp3/npr/me/2014/07/20140716_me_fcc_extending_net_neutrality_commenting_time_after_site_buckles.mp3?dl=1" >
-Audio player not available in your browser. Please try a newer browser.
-</audio></p>
-
-<blockquote><p>A flood of comments about net neutrality crashed the Federal Communications Commission&#8217;s commenting site on Tuesday, the original deadline for public comments on the controversial Internet proposal. But the tech problems are buying those who want to weigh in some extra time — the deadline for public commenting is now Friday (July 18th, 2014) at midnight.</p><footer><strong>FCC Extending Net Neutrality Commenting Time After Site Buckles</strong> <cite><a href='http://www.npr.org/blogs/alltechconsidered/2014/07/15/331798176/fcc-extending-net-neutrality-commenting-time-after-site-buckles'>www.npr.org/blogs/2014/07/15/&hellip;</a></cite></footer></blockquote>
-
-
-<p>Thank you everyone for <a href="http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc.html">answering my call to crash the FCC</a>.</p>
-
-<p>Well, at least I&rsquo;d like to think I had a hand in it with my awesome blog posts on the matter.  :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Password Managers Are Not Immune to Hacks Themselves]]></title>
-    <link href="http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves.html"/>
-    <updated>2014-07-30T16:11:41-04:00</updated>
-    <id>http://eduncan911.com/software/security/password-managers-are-not-immune-to-hacks-themselves</id>
-    <content type="html"><![CDATA[<p><a href="http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250">Hacking Password Managers</a></p>
-
-<p><img src="http://eduncan911.com/blog/images/hacking-password-managers.jpg" title="Hacking Password Managers" ></p>
-
-<blockquote><p>&#8220;Our attacks are severe: in four out of the five password managers we studied (LastPass, RoboForm, My1login, PasswordBox, and NeedMyPassword), an attacker can learn a user’s credentials for arbitrary websites. We find vulnerabilities in diverse features like one-time passwords, bookmarklets, and shared passwords. The root-causes of the vulnerabilities are also diverse: ranging from logic and authorization mistakes to misunderstandings about the web security model, in addition to the typical vulnerabilities like CSRF and XSS. Our study suggests that it remains to be a challenge for the password managers to be secure.&#8221;</p><p>&#8220;We found critical vulnerabilities in all three bookmarklets we studied,&#8221; the researchers report. &#8220;If a user clicks on the bookmarklet on an attacker’s site, the attacker, in all three cases, learns credentials for arbitrary websites.&#8221;</p><p>&#8220;Our work is a wake-up call for developers of web-based password managers. The wide spectrum of discovered vulnerabilities, however, makes a single solution unlikely. Instead, we believe developing a secure web-based password manager entails a systematic, defense-in-depth approach&#8230; Future work includes creating tools to automatically identify such vulnerabilities and developing a principled, secure-by-construction password manager.&#8221;</p><footer><strong>Hacking Password Managers</strong> <cite><a href='http://www.darkreading.com/cloud/hacking-password-managers/d/d-id/1297250'>www.darkreading.com/cloud/d/&hellip;</a></cite></footer></blockquote>
-
-
-<p>I can&rsquo;t believe we are still talking about CSRF attacks.  And for websites claiming to be <em>secured</em> for passwords themselves?  Isn&rsquo;t it a common job interview question by now (or better yet, a coding exercise) for developers in how to prevent CSRF attacks?</p>
-
-<p>Oh yeah, and how most of the common web-based password managers are all hackable.  Sure, they fixed THIS vulnerability.  Then when the next zero-day is found, it will be fixed.  And the next and the next.</p>
-
-<p>I use a password manager.  It is not web based, does not integrate into any browser, and still requires manual intervention to open and view &ndash; with copy-n-paste only possible in some circumstances which makes the annoyance ever more livable after reading this article.</p>
-
-<p>Can&rsquo;t wait until next month (August) for the paper to be released.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Passwords - When Security Gets in the Way]]></title>
-    <link href="http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way.html"/>
-    <updated>2014-07-24T16:58:17-04:00</updated>
-    <id>http://eduncan911.com/software/security/passwords-when-security-gets-in-the-way</id>
-    <content type="html"><![CDATA[<p><a href="http://jnd.org/dn.mss/when_security_gets_in_the_way.html">When Security Gets in the Way</a></p>
-
-<p><img src="http://eduncan911.com/blog/images/when-security-gets-in-the-way.jpg" title="When Security Gets in the Way" ></p>
-
-<blockquote><p>The numerous incidents of defeating security measures prompts my cynical slogan: The more secure you make something, the less secure it becomes. Why? Because when security gets in the way, sensible, well-meaning, dedicated people develop hacks and workarounds that defeat the security. Hence the prevalence of doors propped open by bricks and wastebaskets, of passwords pasted on the fronts of monitors or hidden under the keyboard or in the drawer, of home keys hidden under the mat or above the doorframe or under fake rocks that can be purchased for this purpose.</p><p>We are being sent a mixed message: on the one hand, we are continually forced to use arbitrary security procedures. On the other hand, even the professionals ignore many of them. How is the ordinary person to know which ones matter and which don&#8217;t? The confusion has unexpected negative side-effects. I once discovered a computer system that was missing essential security patches. When I queried the computer&#8217;s user, I discovered that the continual warning against clicking on links or agreeing to requests from pop-up windows had been too effective. This user was so frightened of unwittingly agreeing to install all those nasty things from &#8220;out there&#8221; that all requests were denied, even the ones for essential security patches. On reflection, this is sensible behavior: It is very difficult to distinguish the legitimate from the illegitimate. Even experts slip up, as the confessions reported occasionally in various computer digests I attest.</p><footer><strong>Don Norman</strong> <cite><a href='http://jnd.org/dn.mss/when_security_gets_in_the_way.html'>jnd.org/dn.mss/&hellip;</a></cite></footer></blockquote>
-
-
-<p>I recall many years ago when Microsoft proclaimed the end of password management woes with long and memorial <a href="http://technet.microsoft.com/en-us/library/cc512624.aspx">Pass Phrases</a>.  I personally started to really get annoyed at websites that didn&rsquo;t allow me to enter spaces or the password length was something small like 16 characters.</p>
-
-<p>As a previous IT Administrator, having to reset so many user passwords because they locked themselves out or just plain forgot their had-to-change-ever-60-days password, I saw first hand the annoyances that most had with passwords.</p>
-
-<p>It wasn&rsquo;t until just a few years ago that the buzz around complex passwords started to shift to a &ldquo;false sense of security&rdquo; statue.  Which is very true because I have personally <a href="http://en.wikipedia.org/wiki/Brute-force_attack">brute-force attacked</a> several passwords (in the name of education, of course).</p>
-
-<p>Seeing how fast my X79 6-core desktop with over 5,760 GPU cores could churn through a few billion password combinations to guess a 20 character TruCrypt volume (it took only 4 hours by the way), the era of complex passwords deterring hackers is over &ndash; way way over since this hardware can easily be purchased off the shelf by anyone &ndash; and I still have room for another 6000 GPU cores if I ever upgraded.  That&rsquo;s just insane &ndash; 12,000 GPU cores in a single machine.</p>
-
-<h2>Smart Password Hashing</h2>
-
-<p>Now, some password managers are smart.  It wasn&rsquo;t until I read into KeePass&#8217; <a href="http://keepass.info/help/base/security.html#secdictprotect">protection against Dictionary Attacks</a> did I realize a whole &lsquo;nother way of preventing brute-force attacks.  KeePass describes their password hashing like this:</p>
-
-<blockquote><p>You can&#8217;t really prevent these [brute-force dictionary] attacks: nothing prevents an attacker to just try all possible keys and look if the database decrypts. But what we can do (and KeePass does) is to make it harder: by adding a constant work factor to the key initialization, we can make them as hard as we want.</p><footer><strong>KeePass - Protection against Dictionary Attacks</strong> <cite><a href='http://keepass.info/help/base/security.html#secdictprotect'>keepass.info/help/base/&hellip;</a></cite></footer></blockquote>
-
-
-<p>Please go read the rest of that quote for extreme details.  But in short, here is what they do:</p>
-
-<ul>
-<li>Take your Master password and hash it.</li>
-<li>Hash it another <em>N</em> number of times based on a simple pre-determined algorithm (think: PreviousHash + &ldquo;A Salt&rdquo;, PreviousHash + &ldquo;B Salt&rdquo;, etc).</li>
-</ul>
-
-
-<p>The trick that makes this work is that <em>N</em> should be a number of cycles that it takes your computer to compute in about 1 second.  By default, they set it to 6000 to allow for older mobile phones to be able to open the password database within about a second or two.  But this should be much higher.  Like, on a factor of 100,000 times higher.</p>
-
-<p>For example, that same 6-core X79 CPU and 5,760 GPU core desktop I used to crack that 20-character TruCrypt could generate about 18,000,000 passwords each second.  But, when I opened KeePass and told it to calculate how many hashes it needed to perform to take at least 1 second on this machine, the answer was 23,000,000.</p>
-
-<p>So how does rehashing 23,000,000 times work, you may ask?  Instead of my computer generating 23,000,000 passwords a second in a brute-force attack, it follows a pre-determined algorithm hashing 23,000,000 times to generate only 1 password.</p>
-
-<p>I&rsquo;ll let that sink in for a moment&hellip;</p>
-
-<p>If a hackers machine is busy generating only 1 password per second, the possibility of brute force attacking a database goes from 23,000,000 per second down to just 1 per second.</p>
-
-<p>No hacker in the world is going to continue brute-forcing that database.  Most likely they will just look for the <a href="http://www.reuters.com/article/2014/03/31/us-usa-security-nsa-rsa-idUSBREA2U0TY20140331">NSA backdoors available in everything</a> at that point.</p>
-
-<p>I&rsquo;ll end with a final quote from our buddy Don from earlier.</p>
-
-<blockquote><p>Although there is much emphasis on passwords security most break-ins occur through other means. How do thieves break into systems? They usually don&#8217;t use brute force. They phish, luring unsuspecting but helpful people to tell them their login name and password. Or they install sniffers on keyboards and record everything that was typed. The strength of passwords is irrelevant if the thief has already discovered it.</p><footer><strong>Don Norman</strong> <cite><a href='http://jnd.org/dn.mss/when_security_gets_in_the_way.html'>jnd.org/dn.mss/&hellip;</a></cite></footer></blockquote>
-
 ]]></content>
   </entry>
   
@@ -357,476 +251,6 @@ Audio player not available in your browser. Please try a newer browser.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Only 2 Days Left to Crash the FCC]]></title>
-    <link href="http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc.html"/>
-    <updated>2014-07-13T10:41:03-04:00</updated>
-    <id>http://eduncan911.com/technology/fcc/only-2-days-left-to-crash-the-fcc</id>
-    <content type="html"><![CDATA[<p><a href="http://www.npr.org/blogs/alltechconsidered/2014/06/03/318458496/john-oliver-helps-rally-45-000-net-neutrality-comments-to-fcc">John Oliver Helps Rally 45,000 Net Neutrality Comments To FCC</a></p>
-
-<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/fpbOEoRrHyU " frameborder="0" allowfullscreen></iframe></div>
-
-
-<p>There&rsquo;s only two days left for comments.  At the time I left mine a month ago, there were 65,000 comments.  Now, there are 205,000.</p>
-
-<p><a href="http://www.fcc.gov/comments">The url to file your comments: fcc.gov/comments</a></p>
-
-<p>The YouTube video hit on every point I&rsquo;ve been saying in person when talking about this, and many more.</p>
-
-<p>One of my biggest I tell people is how the former chairman of the FCC left (forced out?), and the new one put in place by Obama last year previously ran (as in chaired and commanded) the lobbying firm for Cable and Wireless (e.g. Comcast and TimeWarner) which was directly responsible for the last attempt to create the two-tier system that the FCC blocked.  And, that sued the government to force this actual change.</p>
-
-<p>Translation by the current FCC chairman: &ldquo;We didn&rsquo;t win last time. Ok, let&rsquo;s sue the FCC/government to force a rule change. When we win the lawsuit, I&rsquo;ll step down as head of this lobbyist group and become head of the FCC [so I can force this rule through].&rdquo;</p>
-
-<p>How fracked up is that?</p>
-
-<p>Also it sucks that NetFlix already has to pay Comcast to get service to its users.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Why I Fight to Keep MKV as My Media]]></title>
-    <link href="http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media.html"/>
-    <updated>2014-07-02T09:57:26-04:00</updated>
-    <id>http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media</id>
-    <content type="html"><![CDATA[<p>I have a fairly high-end home media setup in where I store my backups of nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV series on a server with over 20 TB of storage.  I&rsquo;ve archived all the blu-ray and dvds I&rsquo;ve purchased over the last 15 years into a digital format.</p>
-
-<p>Today I want to share with you my reasons for staying with the format MKV, otherwise known as <a href="http://www.matroska.org/">Matroska</a>, over all of these years in lieu of MP4, MOV, AVI, WMV and so on.</p>
-
-<h2>What&rsquo;s wrong with MP4, MOV, AVI, etc?</h2>
-
-<p>Let me start by stating the inherit flaw of these.  I am not going to get into lossless, video quality, etc.  There are 1000s of posts on that.  There&rsquo;s also the fight that WMV won&rsquo;t play on iPads, and the Xbox refusing certain copyrighted encryptions.  No.  None of that.</p>
-
-<p>Instead I want to focus on 1 flaw they all have in common: they are only a single layer of intermixed streams of video and audio, unable to be separated, switched off, or doubled up.</p>
-
-<p>Think about a standard DVD or Blu-ray movie: You have multiple audio tracks including multiple commentaries that makes you want to watch the movie over and over again (I recall watching <em>Alien (1979)</em> multiple times with Sigourney Weaver&rsquo;s commentary, <em>Aliens (1986)</em> is even funnier with Bill Paxton&rsquo;s commentary).  Sometimes there are alternative endings to choose from before you start your movie.  Other times, you may need foreign subtitles for the parts in another language; or, those foreign subtitles are translated incorrectly, and you&rsquo;d rather turn them off and interrupt them yourself.</p>
-
-<p>And there in-lies the problem with a single layer of video and audio in the above mentioned formats: whatever is selected at the time of encoding (English, Japanese subtitles, H264 video stream), is merged into a single layer &ndash; unable to be manipulated, turned off, or changed.</p>
-
-<p>I prefer freedom of choice.</p>
-
-<h2>It&rsquo;s all about the Matroska Layers</h2>
-
-<p>At the very heart of the Matroska container (aka, file format) is its &ldquo;layer&rdquo; approach which gives it the power to encapsulate as many video, audio and subtitle tracks to your heart&rsquo;s content &ndash; all in their RAW format, unmolested by &ldquo;encoders&rdquo; that have to remix them into a single stream in the other formats.</p>
-
-<p>Want all 5 audio commentaries for <em>Alien (1979)</em>, including the two separate Ridley Scott and Sigourney Weaver tracks?  No problem, the MKV container allows you to store as many audio tracks as you like.</p>
-
-<p>Want the alternative cut and ending to <em>The Abyss (1989)</em> in where the aliens are actually here for a different reason (I won&rsquo;t spoil it here)?  No problem with MKVs.</p>
-
-<p>An MKV file can do this because it essentially is just a <em>wrapper</em> around your raw binary streams (or rips) of H264 video, AAC or FLAC audio, and the subtitle text file(s).  DVDs and Blu-rays store these streams separately &ndash; it is how you can switch audio tracks or alternative endings.  It is only natural that you take these raw streams from these disks, and wrap them in a container of sorts (MKV) to have them all at your fingertips to switch video, audio and languages with a click of the button.</p>
-
-<p>Welcome to Matroska.</p>
-
-<h2>Example: Multiple Camera Angles (multiple video streams)</h2>
-
-<p>One of my favorite DVDs is my <a href="http://www.amazon.com/Peter-Gabriel-Growing-Up-Live/dp/B0000DZ3H4?tag=eduncan911-20"><em>Peter Gabriel&rsquo;s &ndash; Growing Up Live (2003)</em></a>, a live recording in Milan of his <em>Growing Up Tour</em> in 2003.</p>
-
-<p>What&rsquo;s interesting about this DVD (I really wish they would release a blu-ray) is that it has interactive camera angles during multiple titles.  You are able to &ldquo;switch videos streams&rdquo; to a different camera angles.  Pretty cool.</p>
-
-<p>With Matroska, I retained these video angles within the single MKV file I created of the DVD when I ripped it.  Given though, I didn&rsquo;t copy the &ldquo;cue markers&rdquo; overlay from the original DVD viewing.  You kind of have to know when you can change angles, and you can select a different video stream while playing.</p>
-
-<h2>Subtitles</h2>
-
-<p>This one is especially important to my family.  With a spouse of a different nationality, English sub-titles are a near must.</p>
-
-<p>The other formats have to &ldquo;burn-in&rdquo; sub-titles on-top of the video, removing the option to turn it off.  Yes, many decoders allow you to add an .srt file alongside the MP4 and it will overlay the subtitles (if you get the right one, and if it is in sync with its time codes).</p>
-
-<p>Again, thanks to Matroska&rsquo;s layers, this is only a matter of adding (or removing, or reording) the subtitle tracks that are part of the MKV layers.</p>
-
-<p>Don&rsquo;t like the Dutch sub-titles as default?  Reorder them, or remove them.</p>
-
-<h2>MKV is open source and well documented</h2>
-
-<p>That&rsquo;s right.  No copyright or patents to infringe on.  The perhaps most importantly, the container format is very well documented allowing for anyone to create a set of tools themselves.</p>
-
-<p>It is a real shame that the big players ignore this format, and it is up to us end-users to hack our devices to play them.</p>
-
-<h2>Besides, I can always convert to any format later</h2>
-
-<p>Having all the video and audio streams alongside the closed caption allows me to convert my backups of MKVs into any format I like in the future.</p>
-
-<p>Once such tool is <a href="http://handbrake.fr/">Handbrake</a>, which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB movie and compresses it down to a 1.8 GB file (for the kiddo&rsquo;s tablet).</p>
-
-<h2>A callout to Microsoft, Apple and Google</h2>
-
-<p>Why hasn&rsquo;t MKV gone mainstream?  Why hasn&rsquo;t one of these companies openly embraced this superior format?</p>
-
-<p>The answer is simple: copyright and encryption.  The Matroska format does not support either with its free and open container formats; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.</p>
-
-<h2>Handle it myself</h2>
-
-<p>So that leaves me, a lone person, burdened to create my own Matroska MKV containers myself.  More cumbersome is the annoyance of getting the MKVs to play on multiple devices in different media centers and tables.</p>
-
-<p>It seems every few years I have to <em>re-evaluate</em> my media devices and setup to ensure everything is compatible.  Seems to come around with each new Windows release, since the hunt for decoders and setup starts all over.</p>
-
-<p>Next time, it&rsquo;s Linux once and for all.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to: Key-Based SSH Logins With PuTTY]]></title>
-    <link href="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html"/>
-    <updated>2014-07-01T12:43:10-04:00</updated>
-    <id>http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty</id>
-    <content type="html"><![CDATA[<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="http://eduncan911.com/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
-
-<p>First, let me explain why I do this.</p>
-
-<h2>Why use SSH keys to login?</h2>
-
-<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
-
-<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
-
-<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
-
-<h3>Other Reasons to use SSH keys for logins</h3>
-
-<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
-
-<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
-
-<h2>First, the PuTTY Quirks</h2>
-
-<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
-
-<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
-
-<h2>Create and Save a PuTTY Session profile</h2>
-
-<p>Here&rsquo;s the steps I take to create a Session profile.</p>
-
-<ul>
-<li>Open PuTTY and you should be in the Session category on the left.</li>
-<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
-<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
-</ul>
-
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
-
-<ul>
-<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
-</ul>
-
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
-
-<ul>
-<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
-<li><p>Now, press the Save button.</p></li>
-</ul>
-
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
-
-<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
-
-<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
-
-<h2>Generate a PuTTY Public/Private Key Pair</h2>
-
-<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
-
-<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
-
-<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
-
-<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
-
-<ul>
-<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
-<li>Set a passphrase, you will use this as your password when connecting each time.</li>
-</ul>
-
-
-<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
-
-<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
-
-<h2>Take the Public key, and assign it to your Linux box</h2>
-
-<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
-
-<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
-
-<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
-
-<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir ~/.ssh
-</span><span class='line'>chmod 700 ~/.ssh</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Now, create the file:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>pico ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
-
-
-<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&#34;Linux SSH Public Key Setup for PuTTY&#34;" alt="&#34;Linux SSH Public Key Setup for PuTTY&#34;"></p>
-
-<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
-
-<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>chmod 600 ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
-
-<h2>Set the Private Key in your PuTTY Session Profile</h2>
-
-<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
-
-<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
-
-<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
-
-<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
-
-<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
-
-<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
-
-<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
-
-<h2>Completed.  Now, connect.</h2>
-
-<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
-
-<p><img src="http://eduncan911.com/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;" alt="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;"></p>
-
-<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
-
-<h2>Final Thoughts</h2>
-
-<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
-
-<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lenovo Thinkpad End/Insert Key Swap]]></title>
-    <link href="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html"/>
-    <updated>2014-07-01T12:01:44-04:00</updated>
-    <id>http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap</id>
-    <content type="html"><![CDATA[<p><a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">Lenovo Helix End/Insert Keys Swapped</a></p>
-
-<p>I recently switched from the Dell-exclusive club of laptops over the past 15 years to a ThinkPad.  Specifically, the Lenovo ThinkPad Helix.  It was a unit I have been waiting years for to check all the right boxes.</p>
-
-<p>I haven&rsquo;t been privy to the IBM/Lenovo keyboard wars.  I have always heard great things about the IBM ThinkPad keyboard.  Well, it seems this Lenovo Helix came with the newer style of only one row of Function keys + hardware-specific keys (volume, brightness, etc).  Fine by me as I figured out how to lock in the Function-mode-always (a BIOS option).</p>
-
-<p>But now I had a serious problem when coding/writing long documents&hellip;</p>
-
-<h2>The End/Insert Key was Swapped</h2>
-
-<p>Why in the hell would the End/Insert key swap functions when I lock in the Function-key mode of the F1-F12 keys?</p>
-
-<p>This was almost a deal breaker.  Only after crawling the Lenovo forums (a great place to find hacks for Lenovo) did I stumble onto a Lenovo ThinkPad keyboard hack to <a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">reverse the key functions</a>.  It actually remaps the Windows keyboard layout in the registry, an age-old trick I forgot about over a decade ago!</p>
-
-<h2>Swapping the End/Insert key functions</h2>
-
-<p>Instead of supplying a download of a .reg file, which I am not even sure that GitHub supports, I&rsquo;ll explain the instructions on how to create your own .reg file.</p>
-
-<ul>
-<li>Right-click on your desktop, select <code>New -&gt; Text Document</code></li>
-<li>Copy and Paste the following into this document, letter by letter.</li>
-</ul>
-
-
-<figure class='code'><figcaption><span>lenovo-helix-end-insert-key-swap.reg</span><a href='https://gist.github.com/eduncan911/f27808d2bb30982b4da5'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>Windows Registry Editor Version 5.00
-</span><span class='line'>
-</span><span class='line'>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
-</span><span class='line'>&quot;Scancode Map&quot;=hex:00,00,00,00,00,00,00,00,03,00,00,00,52,e0,4f,e0,4f,e0,52,e0,00,00,00,00
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Save the file as <code>lenovo-helix-end-insert-key-swap.reg</code></li>
-<li>Double-click it to <code>merge</code> it into your registry.  You will need to be logged in as an Administrator.</li>
-<li>Reboot and you&rsquo;re done.</li>
-</ul>
-
-
-<p>Now, the function of the End/Insert will be swapped.</p>
-
-<p>Also, <a href="http://blog.lenovo.com/products/why-you-should-give-in-to-the-new-thinkpad-keyboard">devoted fans of the previous Thinkpad keyboard: you may want to take your anger here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Buy KickStarter at MoMA]]></title>
-    <link href="http://eduncan911.com/lifestyle/buy-kickstarter-at-moma.html"/>
-    <updated>2014-05-14T16:25:06-04:00</updated>
-    <id>http://eduncan911.com/lifestyle/buy-kickstarter-at-moma</id>
-    <content type="html"><![CDATA[<p><a href="http://www.momastore.org/museum/moma/CategoryDisplay_10451_10001_26708_56161_-1_Y_Kickstarter%20at%20MoMA?ref=MoMAxKS">Popular KickStarter projects are available online at the MoMA</a></p>
-
-<p><img src="http://eduncan911.com/blog/images/buy-kickstarter-online-at-moma.png" title="&#34;Buy Kickerstart on the MoMA&#34;" alt="&#34;Buy Kickerstart on the MoMA&#34;"></p>
-
-<blockquote><p>In honor of NYCxDESIGN—New York City&#8217;s official citywide celebration of design—the MoMA Design Store is pleased to present a suite of products brought to life by Kickstarter. By involving the public in the creative process, Kickstarter uses the power of community to help designers take great ideas from concept to reality. MoMA Design Store is proud to honor these individuals and their designs as examples of how everyone is capable of making incredible things.</p></blockquote>
-
-
-<p>This came across in my inbox today and immediately jumped in.</p>
-
-<p>3D Doodler, come to me!  The book lamp and recyclable USB sticks, 4x 8 GB, are also on my list.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Best Cloud Computing and Security Talk EVAR]]></title>
-    <link href="http://eduncan911.com/software/best-cloud-computing-and-security-talk-evar.html"/>
-    <updated>2014-05-14T03:13:47-04:00</updated>
-    <id>http://eduncan911.com/software/best-cloud-computing-and-security-talk-evar</id>
-    <content type="html"><![CDATA[<p><a href="http://vimeo.com/95066828">James Mickens on distributed computing at PDX 2014</a></p>
-
-<div class="embed-video-container"><iframe src="http://player.vimeo.com/video/95066828 "></iframe></div>
-
-
-<p>This showed up in my twitter feed; so, I gave it 30m of my life and I am glad I did.</p>
-
-<p><cite>#HatTip <a href='https://twitter.com/xandersherry'>Xander Sherry</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[58 Facts You Probably Didn't Know About the Star Wars Movies]]></title>
-    <link href="http://eduncan911.com/lifestyle/58-facts-you-probably-didnt-know-about-the-star-wars-movies.html"/>
-    <updated>2014-05-08T17:03:48-04:00</updated>
-    <id>http://eduncan911.com/lifestyle/58-facts-you-probably-didnt-know-about-the-star-wars-movies</id>
-    <content type="html"><![CDATA[<p><a href="http://www.buzzfeed.com/awesomer/facts-you-probably-didnt-know-about-the-star-wars-movies">58 Facts You Probably Didn&rsquo;t Know About The Star Wars Movies</a></p>
-
-<blockquote><p>1. The actor who played Obi-Wan Kenobi, Alec Guiness, thought of the Star Wars films as “fairy-tale rubbish”.</p><p>2. Despite this, he negotiated a deal to earn 2% of the gross box office receipts for the movies he appeared in, earning him over $95 million.</p><p>3. Harrison Ford was paid $10,000 for his performance in Star Wars: Episode IV - A New Hope.</p><p>4. Peter Cushing, who played Grand Moff Tarkin, found his costume boots so uncomfortable that he wore slippers during many of his scenes, and insisted his feet just never be in the shots.</p><p>5. The sound of the TIE Fighter engines is actually the sound of an elephant call mixed with the sounds of a car driving on wet pavement.</p><p>6. Steven Spielberg made a bet with George Lucas for a percentage of the Star Wars films, which has earned him millions of dollars since.</p><p>7. While shooting the scene in the trash compactor, Mark Hamill held his breath for so long that he burst a blood vessel in the side of his face. They had to adjust framing while shooting the rest of the scene to avoid showing the blemish.</p><p>8. Many of the buildings constructed to be used in shots of Tatooine are still standing in Tunisia. In fact, some of them are still used by locals.</p><p>9. Denis Lawson, who played Wedge Antilles, is Ewan McGregor’s uncle.</p><p>10. Luke Skywalker was originally going to be named Luke Starkiller, and retained the name up until the film begin shooting. Luckily, the name was never mentioned, so it was changed to Skywalker with little effort.</p><p>11. The starship that became the Blockade Runner seen at the beginning of Star Wars: Episode IV - A New Hope was the original design for the Millennium Falcon.</p><p>12. The Jawa language is based on a sped-up version of the Zulu language.</p><p>13. The language Greedo speaks is a South American language called Quechua.</p><p>14. The bounty hunter Bossk’s clothing is a recycled spacesuit from Doctor Who.</p><p>15. Yoda’s species has never been named.</p><p>16. Mark Hamill was in a bad car accident before filming started on Star Wars: Episode V - The Empire Strikes Back, causing severe facial trauma. The scene in which Luke Skywalker is mauled by a Wampa was added to account for the scarring on his face.</p><p>17. Yoda was originally going to played by a monkey carrying a cane and wearing a mask.</p><p>18. During the evacuation of Cloud City, you can see an extra running with what appears to be an ice cream maker. The extra has since been given an elaborate backstory, and the supposed ice cream maker is meant to be a database of contacts within the Rebellion.</p><p>19. The word “ewok” is never said out loud in the Star Wars movies.</p><p>20. Luke’s lightsaber in Star Wars: Episode VI - Return of the Jedi was originally going to be blue to match the lightsaber he lost in the previous film, but George Lucas was worried that it would confuse audiences, and thought a green lightsaber would look better, so he made the change.</p><p>21. At one point, Star Wars: Episode VI - Return of the Jedi was going to be called “Revenge of the Jedi” and there were actually trailers and posters produced with the original title.</p><p>22. In fact, the producers of Star Trek II: The Wrath of Khan changed the name of their film from “Revenge of Khan” to avoid confusion between the two films.</p><p>23. The bounty hunter droid IG-88 was actually built from recycled film props. His head is the drink dispenser from the cantina scene in Star Wars: Episode IV - A New Hope.</p><p>24. Three of the aliens seen on Jabba’s barge in Star Wars: Episode VI - Return of the Jedi are named Klaatu, Barada, and Nikto. Their names are a referenced in Army Of Darkness as the words one must say to destroy the book of the dead. The names themselves are a reference to the words that must be spoken to shut down the robot in The Day the Earth Stood Still.</p><p>25. While filming Star Wars: Episode VI - Return of the Jedi, the codename for the project was Blue Harvest, which was supposed to be a horror film with the tagline “horror beyond imagination.”</p><p>26. The cast actually seriously considered making Blue Harvest when a series of sandstorms halted filming for several days.</p><p>27. Blue Harvest is a reference to the 1929 novel “Red Harvest,” which was the inspiration for the film Yojimbo, which itself was inspiration for the Star Wars films.</p><p>28. In one draft of Star Wars: Episode VI - Return of the Jedi, Obi Wan Kenobi and Yoda were going to leave the Force, and return to their physical bodies again to either assist Luke in his confrontation with Darth Vader and the Emperor, or to join him during the celebration on Endor.</p><p>29. Star Wars: Episode I - The Phantom Menace was labelled as “The Doll House” when it shipped to theaters.</p><p>30. No physical clone trooper outfits were actually produced for the films. Every clone trooper seen in the Star Wars films was created with CGI.</p><p>31. The communicator Qui-Gon Jinn uses is actually an altered Gillete Sensor Excel women’s razor.</p><p>32. Samuel L. Jackson claims that the words “bad motherfucker” were engraved on the lightsaber he used in the Star Wars films.</p><p>33. While filming lightsaber fight scenes, Ewan McGregor kept getting carried away and making the sounds of the weapon himself, which had to be removed in post-production.</p><p>34. Tupac Shakur auditioned for the role of Mace Windu.</p><p>35. An early draft of the Star Wars saga began with “This is the story of Mace Windu, a revered Jedi-bendu of Opuchi who was related to Usby C.J. Thape, a padawan learner of the famed Jedi.” It wasn’t until Star Wars: Episode I - The Phantom Menace that Mace Windu and Padawans first made an appearance.</p><p>36. The waterfalls cascading around the capital city of Naboo was actually salt.</p><p>37. Star Wars: Episode II - Attack of the Clones was labelled as “Cue Ball” when it shipped to theaters.</p><p>38. The cow-like creature seen grazing in the fields behind Anakin and Padmé in Star Wars: Episode II - Attack of the Clones can be seen again as an asteroid later in the film.</p><p>39. The members of NSYNC made a cameo in Star Wars: Episode II - Attack of the Clones to appease George Lucas’ daughters, but the scene was cut from the final version of the film.</p><p>40. Ahmed Best, the actor that plays Jar Jar Binks, makes an appearance out of costume in the background of one scene.</p><p>41. So does Anthony Daniels, who plays C-3PO.</p><p>42. George Lucas’ daughter Katie Lucas appears as a Twi’lek dancer in Star Wars: Episode II - Attack of the Clones.</p><p>43. Her sister, Amanda Lucas, appears as a background extra.</p><p>44. Their brother, Jett Lucas, appears as a young Padawan in the Jedi archives.</p><p>45. Star Wars: Episode III - Revenge of the Sith was labelled as “The Bridge” when it shipped to theaters.</p><p>46. While standing in on the Galactic Senate, Jar Jar Binks votes in favor of Order 66, leading to the destruction of the Jedi and the rise of the Galactic Empire. Even more reason to hate him.</p><p>47. The top-down shot of a severely burned Anakin Skywalker near the end of Star Wars: Episode III - Revenge of the Sith has the character framed within the symbol of the Galactic Empire.</p><p>48. The in-universe name for the genre of music heard during the cantina scene is “jizz.”</p><p>49. Anakin Skywalker/Darth Vader meets six of the nine diagnostic criteria for Borderline Personality Disorder, which is one more than is required to make the diagnosis.</p><p>50. Lucasfilm has someone on staff whose job is just to maintain Star Wars canon.</p><p>51. E.T.’s alien species are part of the Star Wars universe. A delegation of the aliens can be seen in the Galactic Senate.</p><p>52. In an early draft of the Star Wars story, R2-D2 speaks standard English, and is actually kind of a jerk.</p><p>53. George Lucas came up with the name R2-D2 while filming American Graffiti. A member of the sound crew asked him to retrieve reel #2 of the second dialogue track, which in the parlance would be, “Could you get R2-D2 for me?”</p><p>54. The phrase “I have a bad feeling about this” is said in every film.</p><p>55. There’s an island nation called Niue that accepts collectible Star Wars coins.</p><p>56. Every Star Wars film has been released the week after George Lucas’ birthday on May 14.</p><p>57. Anakin Skywalker/Darth Vader has been played by six different people: David Prowse, James Earl Jones, Bob Anderson, Sebastian Shaw, Jake Lloyd, and Hayden Christensen.</p><p>58. A disco version of the Star Wars theme became a No. 1 hit in 1977, and held the spot for two weeks.</p><p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/uJ3kV3Icm28 " frameborder="0" allowfullscreen></iframe></div></p></blockquote>
-
-
-<p>And as a bonus, #32 &hellip;</p>
-
-<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/ubyo5eZz_Jc " frameborder="0" allowfullscreen></iframe></div>
-
-
-<p><cite>#HatTip <a href='https://twitter.com/MeatAssassin'>Todd Major</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[FiveFingers Maker Vibram Agrees to Settle Class Action Lawsuit]]></title>
-    <link href="http://eduncan911.com/lifestyle/fivefingers-maker-vibram-agrees-to-settle-class-action-lawsuit.html"/>
-    <updated>2014-05-08T17:02:51-04:00</updated>
-    <id>http://eduncan911.com/lifestyle/fivefingers-maker-vibram-agrees-to-settle-class-action-lawsuit</id>
-    <content type="html"><![CDATA[<p><a href="http://www.runnersworld.com/general-interest/vibram-agrees-to-settle-class-action-lawsuit">Vibram Agrees to Settle Class Action Lawsuit Claiming Company Deceived Consumers</a></p>
-
-<p><img src="http://eduncan911.com/blog/images/fivefingers_shoes.jpg" title="FiveFinger Vibram Shoes" ></p>
-
-<blockquote><p>Vibram USA, the company that makes FiveFingers running shoes, has agreed to settle a lawsuit that alleged the company made false and unsubstantiated claims about the health benefits of its glove-like footwear. According to the court filings, Vibram settled to put the matter to rest and avoid any additional legal expenses. “Vibram expressly denied and continues to deny any wrongdoing alleged in the Actions, and neither admits nor concedes any actual or potential fault, wrongdoing or liability,” read the court brief.</p><p>Valerie Bezdek brought the class action suit against Vibram in March 2012.  She filed her complaint in Massachusetts, the state where Vibram’s U.S. headquarters are located. Bezdek alleged that Vibram deceived consumers by advertising that the footwear could reduce foot injuries and strengthen foot muscles, without basing those assertions on any scientific merit. “The gist of her claim is that Vibram illegally obtained an economic windfall from her because it was only by making false health claims that Vibram induced consumers to buy FiveFingers shoes, and to pay more for them than they would have otherwise[.]”</p><footer><strong>Matt McCue</strong> <cite><a href='http://www.runnersworld.com/general-interest/vibram-agrees-to-settle-class-action-lawsuit'>Vibram Agrees to Settle Class Action Lawsuit</a></cite></footer></blockquote>
-
-
-<p>I get the whole false claims thing that it could reduce foot injuries which wasn&rsquo;t based on any facts.  Just seems silly to see lawsuits like this after all this time based on mis-representation in advertising.  America, the land of the <em>litigated</em>.</p>
-
-<p>A quick Google for <a href="https://www.google.com/search?q=Valerie+Bezdek&amp;num=50&amp;es_sm=122&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=hfhrU8uIJ6fesATAs4DgDQ&amp;ved=0CAgQ_AUoAQ&amp;biw=1211&amp;bih=852">Valerie Bezdek</a> shows someone proud of her FiveFingers shoes.</p>
-
-<p>Personally, I cannot live without my FiveFingers shoes.  I&rsquo;ve had them for a little over 2 years now and keep using them (I got the extra durable ones).  Before getting them I was already <a href="http://zenhabits.net/barefoot-running/">running barefooted on the balls of my feet</a>, for proper technique.  I got these and they have allowed me to run in more places &ndash; again, on the balls of my feet, not my heel.</p>
-
-<p>I can easily see those that don&rsquo;t run on the balls of their feet getting injuries.</p>
-
-<p>In the end, if you want to submit a claim the url will be:</p>
-
-<p><a href="http://www.fivefingerssettlement.com">http://www.fivefingerssettlement.com</a></p>
-
-<p>In addition, it seems people who wear these shoes are thought of as snobs?  Give me a break.</p>
-
-<p><cite>#HatTip <a href='https://twitter.com/MeatAssassin'>Todd Major</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Look Up]]></title>
-    <link href="http://eduncan911.com/technology/look-up.html"/>
-    <updated>2014-05-08T09:10:30-04:00</updated>
-    <id>http://eduncan911.com/technology/look-up</id>
-    <content type="html"><![CDATA[<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Z7dLU6fk9QY " frameborder="0" allowfullscreen></iframe></div>
-
-
-
-
-<blockquote><p>It&#8217;s not very likely you&#8217;ll make &#8220;World&#8217;s Greatest Dad&#8221;<br/>If you can&#8217;t entertain a child without using an iPad.</p><p>When I was a child I&#8217;d never be home.  <br/>Be out with my friends on our bikes and we&#8217;d roam.<br/>And wear holes in my trainers and graze up my knees<br/>And build our own clubhouse high up in the trees.</p><p>Now the park is so quiet it gives me a chill.<br/>See no children outside and the swings hanging still.<br/>There&#8217;s no skipping, no hopscotch, no church and no steeple.<br/>We&#8217;re a generation of idiots, smartphones and dumb people.</p><footer><strong>Gary Turk</strong> <cite><a href='https://www.youtube.com/watch?v=Z7dLU6fk9QY'>www.youtube.com/&hellip;</a></cite></footer></blockquote>
-
-
-<p>I remember an NPR segment from around ~2008 when I moved to New York hot on the heels of the 2nd generation iPhone, the 3G.  It talked about our society was already significantly affected by the 1st gen iPhone in that we were becoming a race of robots, always starring down at our smartphone.</p>
-
-<p>It went as far as to say how rude it is to look down at your phone at dinner, or while someone was talking to you.  It made a good case about social interactions > your email, to the point of branding you a jackass if you did it.</p>
-
-<p>That segment (sorry, can&rsquo;t find it) changed my view entirely on social interactions and made me overly conscience on my &ldquo;mobile use&rdquo;, along with observing others and their &ldquo;mobile habits.&rdquo;</p>
-
-<p>I tried not to be the asshole that said, &ldquo;Hey, put down your phone and look at me.&rdquo;  Instead, I used other hints that were in the NPR segment such as when noticing someone is paying attention to their mobile device and not looking at you while you are talking, just pause your sentence.  You&rsquo;ll find out that on average 5 seconds go by until they &ldquo;Look Up.&rdquo; Or, you could simply offer a visual clue that they have to focus on.</p>
-
-<p>I am happy to report that after 6 years of this, I find myself placing my smartphone on the table yes; but, I do not do this to monitor it or look at it.  I do this to get the huge 5&#8221; screen bulk + bumper cover out of my pocket so I can sit down.  I place it face down so not to disturb me and to give complete focus to the person(s) I am sitting with.  I am happy to report that some even have had taken notice and started to do the same, even coming back to report to me how it changed their social interactions.</p>
-
-<p>Fast forward to my nearly 3 year old daughter I have now, and this video.  I&rsquo;ve reviewed the results of quite a lot of studies on child raising and these tablets and smartphones.  It basically came down to one thing:</p>
-
-<blockquote><p>Make it a learning experience for the child and learn together with them.  Do not use as an entertainment device and do not leave them alone with it.</p></blockquote>
-
-
-<p>In addition, I take my daughter to the playground in the park often.  The vast majority of the time, there are no kids &ndash; we are the only ones there.  We experience <em>the swings hanging still</em> all too often &ndash; until we jump into them.</p>
-
-<p>~E</p>
-
-<p><cite>#HatTip <a href='http://forgetfoo.com'>ForgetFoo</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Responsive Design Begins With the URL]]></title>
-    <link href="http://eduncan911.com/software/design/responsive-design-begins-with-the-url.html"/>
-    <updated>2014-05-07T11:27:36-04:00</updated>
-    <id>http://eduncan911.com/software/design/responsive-design-begins-with-the-url</id>
-    <content type="html"><![CDATA[<p><a href="http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url/">Responsive Design Begins with the URL</a></p>
-
-<blockquote><p><img src="http://eduncan911.com/blog/images/responsive-design-url-schema.jpg" title="&#34;Responsive Design URL Schema&#34;" alt="&#34;Responsive Design URL Schema&#34;"></p><p>The core principle in creating a potentially enormous website that will last forever is to get the information architecture right in the first place. This involves knowing your data objects and how they fit together. It should also determine the URL structure, which for Programmes is the most important aspect. Take the URL for Top Gear’s home page:</p><p>http://www.bbc.co.uk/programmes/b006mj59</p><p>After the domain name comes the word “programmes,” which is a simple, unchanging English word. It is intended to describe the object, and is not a brand or product name. Plurals are used so that the URL can be hacked backwards to retrieve an index.</p><p>Next is the programme identifier. Note the lack of hierarchy and the lack of a title. Titles change over time, and many programmes do not have a unique title, which would cause a clash. Hierarchies also change — a one-off pilot could be commissioned for a full series. Understanding your objects allows you to recognize what is permanent. In this case, nothing is particularly guaranteed to be permanent, so a simple ID is used instead. Users aren’t expected to type these URLs, though. They will usually arrive through a search engine or by typing in a friendly redirect that has been read out on air, such as bbc.co.uk/topgear. But the key principle of a permanent URL is that inward links are trusted to be shareable and work forever. Cool URIs don’t change.</p><p>A clear information architecture defines the URL scheme. A piece of content is given a clear canonical home, where appropriate. Links and aggregations between them then clearly appear.</p><footer><strong>David Marland</strong> <cite><a href='http://www.smashingmagazine.com/2014/05/02/responsive-design-begins-with-the-url'>Responsive Design Begins With the URL</a></cite></footer></blockquote>
-
-
-<p>For a decade I have spent a considerable amount of time getting the URLs <em>right</em> for what the user was looking at.  I must have gone through 20 different iterations over the years trying out all sorts of designs, deep linking, &ldquo;walk the url backwards&rdquo; and so on.</p>
-
-<p>You can see on my static site blog here that I paid close attention as well, trying out yet another theme.  I am on my 4th iteration of a url schema for my blog and it has become a PITA when having to keep redirects working of old urls, especially on <a href="https://github.com/eduncan911/eduncan911.github.io/tree/master/blog">this static site with no URL rewrite module</a>.</p>
-
-<p>I almost went the <em>post_id</em> route here on this iteration; but, Jekyll (and therefore Octopress) makes the title url-safe already so I kept it.  Besides that, I agree that urls should play a role in your web architecture.</p>
-
-<p>As long as we are talking about it, ASP.NET MVC&rsquo;s default <code>/Controller/Action/Id</code> has always pissed me off since I first started using it back in 2007.  Coming from a pure-RESTful background, the pure REST urls are more similar to <code>/Controller/Id/Action</code> so you end up with urls like this:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>/product/2832/
-</span><span class='line'>/product/2832/edit
-</span><span class='line'>/product/2832/clips
-</span><span class='line'>/product/2832/videos</span></code></pre></td></tr></table></div></figure>
-
-
-<p>And so on.  Which, actually, falls inline with what the BBC article above was saying.</p>
-
-<p><cite>#HatTip <a href='http://forgetfoo.com'>ForgetFoo</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Google Glass Distracting Drivers]]></title>
     <link href="http://eduncan911.com/technology/google-glass-distracting-drivers.html"/>
     <updated>2014-05-05T11:34:09-04:00</updated>
@@ -858,147 +282,140 @@ Audio player not available in your browser. Please try a newer browser.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Avocode]]></title>
-    <link href="http://eduncan911.com/software/avocode.html"/>
-    <updated>2014-05-04T19:24:04-04:00</updated>
-    <id>http://eduncan911.com/software/avocode</id>
-    <content type="html"><![CDATA[<p><a href="http://avocode.com/">The bridge between designers and developers</a></p>
-
-<blockquote><p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/93386152 "></iframe></div></p><p>ALWAYS BE IN SYNC<br/>Share with a link and instantly get updates from your designer.<br/>No more e-mail attachments or huge PSD uploads.</p><p>WEB & NATIVE APP<br/>Preview and inspect PSDs on the web or use the native app<br/>on any platform - Mac, Windows or even Linux.</p><p>EVERYTHING FROM A PSD<br/>Choose anything from a PSD and get exactly what<br/>you need – CSS, SVG, images, fonts or colors…</p></blockquote>
+    <title type="html"><![CDATA[Google Chrome Popups Gets Jiggy With It]]></title>
+    <link href="http://eduncan911.com/blog/archives/google-chrome-popups-gets-jiggy-with-it.html"/>
+    <updated>2008-09-15T20:15:00-04:00</updated>
+    <id>http://eduncan911.com/blog/archives/google-chrome-popups-gets-jiggy-with-it</id>
+    <content type="html"><![CDATA[<!-- more -->
 
 
-<p>You know, I am starting to get that &ldquo;designer&rdquo; itch again.  I am not a designer; but, I can pull
-something outta my ass every once in a while.  Going to try to get a private beta to see if
-I can use this for some projects as well.</p>
+<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
 
-<p><cite>#HatTip <a href='http://forgetfoo.com'>ForgetFoo</a></cite></p>
+
+<P><IMG style="WIDTH: 110px; HEIGHT: 110px" align=left src="http://i.cmpnet.com/infoweek/graphics_library/110x110/google_chrome_noshadow.jpg" width=110 height=110 mce_src="http://i.cmpnet.com/infoweek/graphics_library/110x110/google_chrome_noshadow.jpg">There are dozens of reviews for Google Chrome out there. So I will not bore you with any (except I am really liking&nbsp;the isolated tabs, besides the alpha issues).&nbsp;But, as I am doing Google Chrome testing today I noticed something interesting on how Google Chrome handles popups.&nbsp;Check out the video I recorded today.</P>
+
+
+<P>Interesting how Google does not block the popup.&nbsp; But instead, they&nbsp;animate the window by moving it down and across the bottom of the screen!</P>
+
+
+<P>I have not isolated the exact reason to why&nbsp;as Chrome does not&nbsp;move other window.open popups such as Facebook&#8217;s Share on YouTube.&nbsp; But the one fact I have found is the Facebook Connect uses XSS (cross-site scripting) which we have had to configure to allow them to run scripts.&nbsp; If someone wants to test it on other sites that are using XSS, please let me know your results.&nbsp; The Facebook development team was also able to reproduce it, which removes my machine as a possible source (or virus).</P>
+
+
+<P>[video]</P>
+
+
+<P><A href="http://eduncan911.com/downloads/fbconnect-moving.wmv" target=_blank mce_href="/downloads/fbconnect-moving.wmv">(direct download, right-click and save-as - 3 MB)</A></P>
+
+
+<P mce_keep="true">&nbsp;</P>
+
+
+<DIV></DIV>
+
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Bitcoin's IRS-blocking 'Dark Wallet' Launched Today]]></title>
-    <link href="http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today.html"/>
-    <updated>2014-05-01T14:38:13-04:00</updated>
-    <id>http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today</id>
-    <content type="html"><![CDATA[<p><a href="http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/">Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</a></p>
-
-<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Ouo7Q6Cf_yc " frameborder="0" allowfullscreen></iframe></div>
+    <title type="html"><![CDATA[Google Condones Spamming?]]></title>
+    <link href="http://eduncan911.com/blog/archives/google-condones-spamming.html"/>
+    <updated>2006-05-07T05:02:00-04:00</updated>
+    <id>http://eduncan911.com/blog/archives/google-condones-spamming</id>
+    <content type="html"><![CDATA[<!-- more -->
 
 
-<p>I first heard about this Dark Wallet protocol a few months ago when <a href="http://pando.com/2014/03/12/moving-on-up-bitcoin-gets-a-boost-as-new-york-opens-applications-for-virtual-currency-exchange-licenses/">New York state</a> announced they are regulating Bitcoin.  And recently when the <a href="http://www.breitbart.com/Big-Government/2014/04/03/IRS-Retroactively-Taxes-Bitcoin">IRS announced it is retroactively taxing Bitcoin as property</a>, the community brought up the Dark Wallet system again.</p>
-
-<p>I have bitcoin and do not plan on paying any tax on it.  I didn&rsquo;t &ldquo;buy&rdquo; any amount using taxable USD, and don&rsquo;t see a need for &ldquo;regulation.&rdquo;  Trying to tax my Bitcoin is basically using a gun to say I need to pay a tax on the open-source software I write: it has value to a select few, and is completely useless to most.</p>
-
-<blockquote><p><img src="http://media.coindesk.com/2014/05/dark.jpg" title="'Bitcoin Dark Wallet'" ></p><p>The alpha version of Dark Wallet – the hyper-anonymising bitcoin wallet – goes live today.</p><p>Created by Amir Taaki and Cody Wilson, Dark Wallet provides new tools for financial privacy, including in-built coin mixing and ‘stealth’ wallet addresses.</p><p>As well as making it easier for people to disguise their transactions from the government, Dark Wallet is also a torpedo aimed at those in the bitcoin community who have embraced co-operation with regulators.</p><p>Conceived last year and partly funded by $50,000 raised on Indiegogo, the wallet was developed by unSystem, a collective of anarchist bitcoin developers. It represents an ethos that has been largely excluded from the mainstream discourse around bitcoin.</p><p>In January of this year, Circle CEO Jeremy Allaire told CoinDesk that bitcoin was “absolutely” moving away from its libertarian roots, and described attempts to avoid the regulation of bitcoin as playing into the hands of “anarchists and criminals”.</p><footer><strong>Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</strong> <cite><a href='http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
+<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
 
 
-<p>And I personally liked this little nugget from the related article&hellip;</p>
-
-<blockquote><p>If your goals are to create a sort of shadow financial system that runs in offshore jurisdictions and is attractive for anarchists and criminals, then maybe [regulation] is not important.</p><footer><strong>Jeremy Allaire via CoinDesk</strong> <cite><a href='http://www.coindesk.com/bitcoin-abandons-anti-establishment-wall-street/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
-
-
-<p>The power to tax involves the power to destroy.</p>
-
-<p>~E</p>
+<p><img align="right" border="0" height="463" src="http://eduncan911.com/blog/archives/images/google-condones-spamming.jpg" /><p>Precursor: BlogSpot (owned and operated by Google, Inc&nbsp;) is spamming.&nbsp; </p><p>&quot;There, I said it.&quot;, quoting David Spade as it&#39;s what I&#39;m saying now.</p><p>Ever since I upgraded to CS 2.0 from a previous version, I have been getting flooded with a large number of spam comments to my blog posts, about 20 to 30 a day.&nbsp;Where they come from seems to be related to online poker and porn sites.</p><p>Now I&#39;ve set CS 2.0 to allow anonymous comments, but they will be Disapproved when posted here &ndash; until I go in and approve them.</p><p>But somehow these spambots get past this restriction in CS 2.0, and flood my blog comments.&nbsp; I have this logged as a bug in CS 2.0, to be resolved in CS 2.1.&nbsp; But for now, we must fight this.</p><p>One way is to enable the Spam CSModule that now comes with CS 2.0.&nbsp; Have it look for more then 5 links in a comment, then automatically disapprove or even delete the post.&nbsp; </p><p>I went a more drastic approach and started to find the source of these boneheads.&nbsp; </p><p>I found them &ndash; BlogSpot.com is the home to all of this Poker spamming.&nbsp; I found them by looking at my Urchin web stats and started comparing these odd Referral urls below to the time entries of the recent spamming comments.&nbsp; Here are but a few of the DNS names that are spamming the comments:</p><p dir="ltr" style="margin-right: 0px"><table border="0" cellpadding="3" cellspacing="0" width="100%"><tbody><tr bgcolor="#eeeeee" id="data_1301|3"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">3.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://party-poker-i.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">party-poker-i.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">43&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.87%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;party-poker-i.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|4"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">4.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-poker-the.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-poker-the.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">41&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.83%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;online-poker-the.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|5"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">5.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://poker-a.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">poker-a.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">35&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.71%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;poker-a.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|6"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">6.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://casino-there.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">casino-there.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">32&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.65%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;casino-there.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|7"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="left" class="font5" width="275"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;google.co.uk/search&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|8"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">8.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-poker-those.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-poker-those.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">26&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.53%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;online-poker-those.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|9"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">9.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-poker-that.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-poker-that.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">25&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.51%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;online-poker-that.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|10"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">10.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-casinos-i.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-casinos-i.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">22&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.44%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"><img height="8" src="http://localhost:9999/uicons/default/hbar2.gif" width="1" /></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=1&#39;,&#39;1301&#39;,&#39;online-casinos-i.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;</font></td></tr></tbody></table></p><table border="0" cellpadding="3" cellspacing="0" width="100%"><tbody><tr bgcolor="#eeeeee" id="data_1301|11"><td align="right" class="font5" valign="top"><p dir="ltr"><font color="#0000ff" face="Courier New" size="2">11.</font></p></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-casino-i.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-casino-i.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">22&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.44%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;online-casino-i.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|12"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">12.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://casino-this.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">casino-this.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">21&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.42%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;casino-this.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|13"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="left" class="font5" width="275"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;images.google.com/imgres&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|14"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">14.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-casino-the.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-casino-the.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">19&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.38%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;online-casino-the.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|15"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">15.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-casinos-there.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-casinos-there.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">18&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.36%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;online-casinos-there.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|16"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="left" class="font5" width="275"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;www.google.ca/search&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|17"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">17.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://poker-this.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">poker-this.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">18&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.36%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;poker-this.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|18"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="left" class="font5" width="275"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;search.msn.com/results.aspx&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#eeeeee" id="data_1301|19"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">19.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://online-casinos-that.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">online-casinos-that.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">16&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.32%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New" size="2"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;online-casinos-that.blogspot.com/&#39;); return false;"></a><font color="#0000ff" face="Courier New" size="2">&nbsp;&nbsp;&nbsp; </font></td></tr><tr bgcolor="#ffffff" id="data_1301|20"><td align="right" class="font5" valign="top"><font color="#0000ff" face="Courier New" size="2">20.</font></td><td align="left" class="font5" width="275"><a class="normal" href="http://poker-the.blogspot.com/" target="eduncan911.com"><font color="#0000ff" face="Courier New" size="2">poker-the.blogspot.com/</font></a><font color="#0000ff" face="Courier New" size="2"> </font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">16&nbsp;&nbsp;</font></td><td align="right" class="font5"><font color="#0000ff" face="Courier New" size="2">0.32%&nbsp;&nbsp;</font></td><td align="left"><font color="#0000ff" face="Courier New"></font></td><td align="right"><a class="normal" href="javascript: uVoid();" onclick="openTOD(&#39;session.cgi?sid=2406889536-0000000001&amp;app=urchin.cgi&amp;action=prop&amp;rid=16&amp;n=10&amp;vid=1301&amp;dtc=0&amp;gtype=5&amp;g=11&#39;,&#39;1301&#39;,&#39;poker-the.blogspot.com/&#39;); return false;"></a>&nbsp; </td></tr></tbody></table><p dir="ltr" style="margin-right: 0px">&nbsp;</p><p>And this was just over the last 48 hours.&nbsp; </p><p>As you can see, blogspot is using Google resources (Google&#39;s own DNS servers)&nbsp;to generate these valid DNS names/servers to&nbsp;almost legit the&nbsp;spam to you.&nbsp; One thing I noticed is they all point to the same IP address, that is hitting my server.</p><p>I dug a little deeper and it doesn&#39;t seem they have any MX, TXT or PTR records (much less SPF) for any of these domains, or even blogspot.com.&nbsp; Just the parent domain of blogger.com:</p><blockquote dir="ltr" style="margin-right: 0px" dir="ltr" style="margin-right: 0px"><p><font color="#0000ff" face="Courier New" size="2">Server:&nbsp; ns1.google.com<br />Address:&nbsp; 216.239.32.10</font></p><p><font color="#0000ff" face="Courier New" size="2">blogger.com&nbsp;&nbsp;&nbsp;&nbsp; MX preference = 10, mail exchanger = mail.blogger.com<br />blogger.com&nbsp;&nbsp;&nbsp;&nbsp; nameserver = ns1.google.com<br />blogger.com&nbsp;&nbsp;&nbsp;&nbsp; nameserver = ns2.google.com<br />blogger.com&nbsp;&nbsp;&nbsp;&nbsp; nameserver = ns3.google.com<br />blogger.com&nbsp;&nbsp;&nbsp;&nbsp; nameserver = ns4.google.com<br />mail.blogger.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; internet address = 66.102.15.85<br />ns1.google.com&nbsp; internet address = 216.239.32.10<br />ns2.google.com&nbsp; internet address = 216.239.34.10<br />ns3.google.com&nbsp; internet address = 216.239.36.10<br />ns4.google.com&nbsp; internet address = 216.239.38.10</font></p></blockquote><p>So today, I blocked their IPs from being able to access my server at all.&nbsp; I even blocked their parent company (blogger.com) as it was just one IP address lower from the same thing.</p><p>Here are the IP addresses I blocked and I highly suggest you do the same:</p><blockquote dir="ltr" style="margin-right: 0px" dir="ltr" style="margin-right: 0px"><p><font color="#0000ff" face="Courier New"><strong>66.102.15.100</strong></font> (blogger.com &ndash; parent company web address)<br /><font color="#0000ff" face="Courier New"><strong>66.102.15.101</strong></font> (where all of my spam comments are sourced from)</p></blockquote><p>I will start investigating my Junk Mail now to see if any of the Poker-related junk is from the mail records above.&nbsp; If so, I may start to block those IPs as well.</p><p>Here is the Whois record for BlogSpot, owned and operated by Google, Inc:</p><blockquote dir="ltr" style="margin-right: 0px" dir="ltr" style="margin-right: 0px"><p><font color="#0000ff"><font face="Courier New" size="2">Registrant:<br />Google Inc.<br />(DOM-345046)<br />1600 Amphitheatre Parkway<br />Mountain View<br />CA<br />94043<br />US<br /><br />&nbsp;&nbsp;&nbsp; Domain Name: blogspot.com<br /><br />Registrar Name: Markmonitor.com<br />Registrar Whois: whois.markmonitor.com<br />Registrar Homepage: <a href="http://www.markmonitor.com">http://www.markmonitor.com</a><br /><br />&nbsp;&nbsp;&nbsp; Administrative Contact:<br />DNS Admin<br />(NIC-1467103) <br />Google Inc.<br />1600 Amphitheatre Parkway<br />Mountain View<br />CA<br />94043<br />US<br /><a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x64;&#110;&#x73;&#45;&#97;&#x64;&#109;&#105;&#x6e;&#64;&#103;&#111;&#111;&#103;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;">&#100;&#110;&#115;&#x2d;&#x61;&#100;&#x6d;&#105;&#110;&#x40;&#x67;&#x6f;&#x6f;&#103;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;</a><br />+1.6502530000<br />Fax- +1.6506188571<br />&nbsp;&nbsp;&nbsp; Technical Contact, Zone Contact:<br />DNS Admin<br />(NIC-1467103) <br />Google Inc.<br />1600 Amphitheatre Parkway<br />Mountain View<br />CA<br />94043<br />US<br /><a href="&#109;&#x61;&#105;&#108;&#x74;&#111;&#58;&#100;&#x6e;&#115;&#45;&#x61;&#100;&#x6d;&#x69;&#x6e;&#x40;&#103;&#x6f;&#x6f;&#x67;&#108;&#x65;&#46;&#99;&#x6f;&#x6d;">&#100;&#x6e;&#115;&#45;&#x61;&#100;&#x6d;&#x69;&#x6e;&#x40;&#x67;&#111;&#111;&#x67;&#108;&#x65;&#46;&#x63;&#111;&#x6d;</a><br />+1.6502530000<br />Fax- +1.6506188571<br /><br /></font></font><font color="#000000" face="Courier New" size="3"><font color="#0000ff" size="2">Domain servers in listed order:<br /><br />NS1.GOOGLE.COM <br />NS2.GOOGLE.COM <br />NS3.GOOGLE.COM <br />NS4.GOOGLE.COM</font> </font></p></blockquote><p>I hate spammers.&nbsp; And now Google allows it?</p><p>So who do we yell at?&nbsp; Who would be the authority on this?&nbsp; Who do we report this to?</p><p>This is the same as if President Bush decided that Homeland Security is our safest bet for inter-department communications,&nbsp;but then&nbsp;allows oil companies&nbsp;to spam you&nbsp;by allowing the oil companies access to all of Homeland Security resources to use for the task.</p><p>Am I the only one saying, &quot;What the ****?&quot;</p><p>Perhaps Mr Anti-Google was right in creating <a href="http://www.google-watch.org/">Google-Watch.org</a>.&nbsp; Maybe someone does need to take a good hard look at Google and what they are doing.</p><p>For now,&nbsp;let&#39;s give Google Inc. the benefit of the doubt and say they re-sold some resources (such as DNS Server usage) to some 3rd party.&nbsp; And it&#39;s that 3rd party that is responsible for the spamming.&nbsp; I&#39;ll attempt to contact Google via the registry info above to see if that is the case.</p><p>&nbsp;</p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Static Blog Boom]]></title>
-    <link href="http://eduncan911.com/software/the-static-blog-boom.html"/>
-    <updated>2014-05-01T13:58:40-04:00</updated>
-    <id>http://eduncan911.com/software/the-static-blog-boom</id>
-    <content type="html"><![CDATA[<p>There is a new movement taking place in web development over the last few years.
-It is called <code>static sites</code>. Just as it sounds, it is simply a collection of <code>.html</code>, <code>.css</code>, <code>.js</code> and images that serves up a complete site. What you may not know is that there are literately 100s of frameworks out there that generate these static sites for you from a single common theme/template.</p>
-
-<h2>Static Site Generators</h2>
-
-<p>I stumbled upon a collection of these frameworks here:</p>
-
-<p><a href="http://staticsitegenerators.net/">http://staticsitegenerators.net/</a></p>
-
-<p>This is pure opinion, but it would seem that most of these frameworks came
-out of the Linux/OSX world from developers that needed to generate a static site for this or that.  Those that did it often, needed a way to regenerate a whole static site by just changing, say, the header area.</p>
-
-<p>I know that after my recent conversion to <a href="http://octopress.org">Octopress</a> (aka Jekyll) I have been brainstorming about my own static site generator.  As you can see in the link above, I am not the only one that had a similar thought.</p>
-
-<h2>Advantages to Static Sites</h2>
-
-<p>If you sit back and think about it, there are a number of advantages for running a static site.</p>
-
-<h3>Hosting costs</h3>
-
-<p>Can you really get any cheaper than free?  GitHub pages can host your static site for free.  If you really want to pay for something, then upload your static site files to Amazon S3 file storage and serve your site from there &ndash; for about $0.25/mo for 1000 uniques.</p>
-
-<h3>Security</h3>
-
-<p>You never have to worry about someone hacking your site.  No SQL injection, XSS, CSRF attacks.</p>
-
-<p>Even if someone was to gain access to your hosting account, there is no database or code to hide backdoors in.</p>
-
-<h3>Defacing</h3>
-
-<p>If someone gains access to where you are storing the files and defaces the site, just redeploy &ndash; which overwrites everything.</p>
-
-<h3>Simplicity (aka Serenity)</h3>
-
-<p>It is just a bunch of html, images, css and js files.  You really can&rsquo;t get any simpler than that.</p>
-
-<h2>How a static site becomes dynamic</h2>
-
-<p>The real power behind these static sites is the interactions that the end user have on your site using 3rd party remote widgets.  It makes your site seem fairly dynamic by giving recent information. Just to give you an idea, here are a few widgets built into most of these frameworks:</p>
-
-<ul>
-<li>Flickr photo albums, single photos</li>
-<li>Disqus commenting system</li>
-<li>Google Forms/Surveys (aka Contact Us, product support, etc)</li>
-<li>Stackexchange Profile</li>
-<li>GitHub Profile</li>
-<li>GitHub Repo browser</li>
-<li>Twitter feed, single quotes</li>
-<li>Sitemap generators</li>
-</ul>
+    <title type="html"><![CDATA[Google Desktop (Again)]]></title>
+    <link href="http://eduncan911.com/blog/archives/google-desktop-again.html"/>
+    <updated>2006-04-06T00:15:00-04:00</updated>
+    <id>http://eduncan911.com/blog/archives/google-desktop-again</id>
+    <content type="html"><![CDATA[<!-- more -->
 
 
-<p>&hellip;and a lot more.  By using these widgets, and carefully skinned to look like your site, it creates a dynamic site of sorts that continually updates even it really is a static site.</p>
-
-<p>I use Google Forms here on my site as an example for my <a href="http://eduncan911.com/contact">Contact page</a>.  It looks and feels like I actually did something on the backend to send me an email &ndash; I didn&rsquo;t.</p>
-
-<h2>Customizing the generated output</h2>
-
-<p>Almost all of these frameworks support plugins and extensions allowing for customizing the generated site to your preferences.  Basically these plugins work like this.</p>
-
-<ul>
-<li>Parse article/post content, usually on some plain-text form like Markdown</li>
-<li>Process categories and tags</li>
-<li>Redirects by creating <code>/old-url/index.html</code> kind of pages</li>
-<li>Code highlighting</li>
-<li>Pagination</li>
-</ul>
+<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
 
 
-<p>And so on.  Perhaps an indicator of the quality of the framework is the article/post/page parser with its extensions built into it, and how extensible it is.  Take Octopress for example, it has butt load:</p>
+<p><P>It&rsquo;s been a while since I installed this gem.&nbsp; I had it on my previous desktop, but haven&rsquo;t gotten around to installing on my laptop yet.&lt;?xml:namespace prefix = o ns = &ldquo;urn:schemas-microsoft-com:office:office&rdquo; />&lt;o:p>&lt;/o:p></P>
+<P>I&rsquo;ve been using the inadequate built-in Find for searching for my emails on the Exchange and remote IMAP and local Personal Folder files.&lt;o:p>&lt;/o:p></P>
+<P>Yesterday, I got fed up when I couldn&rsquo;t find an email for work.&nbsp; So when I got home late, I installed the Google Desktop, fired up Outlook and connected to the Exchange server, and let the laptop site on all night &ndash; Indexing.&lt;o:p>&lt;/o:p></P>
+<P>I woke up and before hopping into the shower, decided to test my newly installed Google desktop to see if I could find that one email.&lt;o:p>&lt;/o:p></P>
+<P>Within the first search, the 2nd result was what I was looking for.&lt;o:p>&lt;/o:p></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt">&lt;o:p>&nbsp;I may try MSN Desktop Search next.&lt;/o:p></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt">&lt;o:p>&lt;/o:p>&nbsp;</P></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GoogleSearch MODs]]></title>
+    <link href="http://eduncan911.com/blog/archives/googlesearch-mods.html"/>
+    <updated>2005-08-08T14:00:00-04:00</updated>
+    <id>http://eduncan911.com/blog/archives/googlesearch-mods</id>
+    <content type="html"><![CDATA[<!-- more -->
 
-<ul>
-<li>blockquote</li>
-<li>code</li>
-<li>date</li>
-<li>GitHub gist</li>
-<li>img</li>
-<li>pullquote</li>
-<li>video</li>
-</ul>
+
+<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
 
 
-<p>Creating your own tag is fairly straight forward using a well documented Liquid Template parser for ruby.</p>
+<P>I&nbsp;stumbled across&nbsp;a blog&nbsp;post the other day where someone modified the GoogleSearch and GoogleIndex binaries to get additional files indexed.&nbsp; </P>
 
-<h2>Speeding up writing is key (for me at least)</h2>
 
-<p>I am now free to write my thoughts in any place I can write notepad.  I insert things like <code>{% blockquote %}</code> and write a small blurb and I&rsquo;m done.  I&rsquo;ve been wanting to switch to Markdown since I started using it with Unfuddle many many years ago, and now I can.</p>
+<P>Larry Gadea has wrapped those changes, and more, into some nice easy plugins to the Google Desktop Search.&nbsp; <A href="http://www.trivex.net/">http://www.trivex.net/</A></P>
 
-<p>If this post made you think about making more sites static, drop me a line in the comments below.</p>
 
-<p>~E</p>
+<P>Also, for those unaware Google has opened most of their downloaded features to the public:</P>
+
+
+<P><A href="http://code.google.com/">http://code.google.com/</A></P>
+
+
+<P>&nbsp;</P>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Host Your Videos on Google!]]></title>
+    <link href="http://eduncan911.com/blog/archives/videos-on-google.html"/>
+    <updated>2005-06-28T14:42:00-04:00</updated>
+    <id>http://eduncan911.com/blog/archives/videos-on-google</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<blockquote><p>Please note that this post was migrated to my new blog platform. There may be bad formating, broken links, images, downloads and so on.  If you need an item on this page, please contact me and I will do my best to get it from my backups.</p><footer><strong>~E</strong></footer></blockquote>
+
+
+<P>*** UPDATE 8/9/2005 - Google launched this service about a month ago and I&#8217;ve been serving videos since.&nbsp; It&#8217;s VERY cool, but requires you to download a browser plugin.</P>
+
+
+<P>Google is about to launch a new Video service.&nbsp; From what I gather, it will do two things.&nbsp; </P>
+
+
+<P>The first is unlimited storage/hosting of your video!&nbsp; I&#8217;ve uploaded about 890MB and they haven&#8217;t even batted an eye.&nbsp; No longer will you have to upload your video to a server somewhere to be hosted &#8216;cause Google seems to be solving that issue (i.e. home videos?).</P>
+
+
+<P>The other thing is indexing META data for searching.&nbsp;&nbsp;For Google&#8217;s Videos, this information are things such as Title, Description, Language, Production company, Genre, dates, credits, etc.&nbsp; It also allows someone to upload a Transcript of the video!&nbsp; All of this information is indexed in Google&#8217;s massive search library.&nbsp; </P>
+
+
+<P>It also allows you to charge for access.&nbsp; I&#8217;m not sure how that will work, but it&#8217;s there.</P>
+
+
+<P>Here&#8217;s the link that will be soon heard around the world: </P>
+
+
+<P><A href="http://video.google.com/">http://video.google.com/</A></P>
+
+
+<P>If you need a Gmail account, let me know as I have quite a few invitations left.</P>
+
+
+<P>&nbsp;</P>
+
 ]]></content>
   </entry>
   
