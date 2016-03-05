@@ -74,13 +74,13 @@ The first dumbfounded thing I found during my first attempt at copying my second
 
 ```
 -rwx------
-User: Read/Write/Execute
+World: Read/Write/Execute
 
 ----rw----
 Group: Read/Write
 
 -------rw-
-World: Read/Write
+User: Read/Write
 ```
 
 WTF?  Everyone has access to this file?
