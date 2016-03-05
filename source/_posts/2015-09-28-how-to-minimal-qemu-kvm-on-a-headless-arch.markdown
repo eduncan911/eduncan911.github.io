@@ -77,7 +77,7 @@ running only via CLI.  Ok, so I'll just install libvirt and use just virsh...
 The first step is to install a version of QEMU without the X-Windows dependencies.  You could download QEMU source and modify it to remove them.  Or, 
 you can just use the [Arch AUR package](https://aur.archlinux.org/packages/qemu-minimal/).
 
-``` bash
+```
 ~ $ cd ~/build
 ~/build/ $ git clone https://aur.archlinux.org/qemu-minimal.git
 ~/build/ $ cd qemu-minimal
@@ -90,7 +90,7 @@ Do note the `-sr` options.  `-r` is used to remove the dependencies after it bui
 
 Once it is done, install the package:
 
-``` bash
+```
 # use tab completion to fill out the fill name of the package
 ~/build/qemu-minimal/ $ sudo pacman -U qemu-minimal-2.4.0-2-x86_64.pkg.tar 
 loading packages...
