@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <title>Eric Duncan</title>
   <meta name="author" content="Eric Duncan" />
-  <meta name="description" content="by Eric Duncan Mounting Vmdk Images Under Linux I recently converted my Lenovo ThinkPad Helix touch device over to Linux (Antergos/ArchLinux) and &hellip;" />
+  <meta name="description" content="Aug 31st, 2015 by Eric Duncan in hardware, technology Google Authenticator&#8217;s Databases: Copy, Move and Fix Google Authenticator is a two- &hellip;" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
@@ -49,137 +49,6 @@
   <main id="content" class="content" role="main">
   
   
-  
-    
-    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
-      <header class="post-header">   
-        <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2016-02-02T00:00:00-05:00" content="2016-02-02T00:00:00-05:00" itemprop="datePublished"></time></span>
-          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-  
-        </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="/mounting-vmdk-images-under-linux.html" rel="bookmark">Mounting Vmdk Images Under Linux</a></h1>
-        
-        <meta itemprop="url" content="/mounting-vmdk-images-under-linux.html" />
-      </header>
-      <section class="post-content" itemprop="articleBody">
-
-<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
-
-<p>I recently converted my Lenovo ThinkPad Helix touch device over to Linux (Antergos/ArchLinux) and needed to bring over
-my development files from my old VMware vmdk file images.</p>
-
-<h2>Problem: kpartx no longer works with vmdk</h2>
-
-<p>In the past, one could use <code>kpartx</code> to simply expose the block devices to mount.  But this isn&rsquo;t working as of 2016 and the latest vmdk (at least not for me).</p>
-
-<p>It must be an Arch thing as things would work under Ubuntu as of late 2015.  Anyhoot&hellip;</p>
-
-<h2>Convert VMDK to VDI</h2>
-
-<p>What I ended up doing was to convert the vmdk file over to VirtualBox&rsquo;s vdi format.</p>
-
-<pre><code># vboxmanage clonehd --format VDI wash-sda.vmdk wash-sda.vdi
-0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
-Clone medium created in format 'VDI'. UUID: 65b26588-946c-46c2-aa26-7c43783dd0cc
-</code></pre>
-
-<h2>Expose VDI as block device using QEMU</h2>
-
-<p>kpartx continued to return empty on this vdi.  So, next steps was to use QEMU for the network block device.</p>
-
-<pre><code># modprobe nbd max_part=16
-# qemu-nbd -c /dev/nbd0 wash-sda.vdi
-</code></pre>
-
-<p>Now, let&rsquo;s see what <code>kpartx</code> shows.</p>
-
-<pre><code># kpartx -l /dev/nbd0 
-nbd0p1 : 0 1048576 /dev/nbd0 2048
-nbd0p2 : 0 248510465 /dev/nbd0 1050624
-</code></pre>
-
-<p>Bingo!  There are my two partitions from my very valuable dev VM: /boot and / (root) respectfully!</p>
-
-<h2>Mount the partitions with kpartx</h2>
-
-<p>With the partitions now known, we can use kpartx to create the loopback devices.</p>
-
-<pre><code># kpartx -av /dev/nbd0 
-add map nbd0p1 (254:1): 0 1048576 linear 43:0 2048
-add map nbd0p2 (254:2): 0 248510465 linear 43:0 1050624
-</code></pre>
-
-<p>Perfect.</p>
-
-<p>All that is left now is to mount them:</p>
-
-<pre><code># mount /dev/mapper/nbd0p1 /mnt/wash/boot
-# mount /dev/mapper/nbd0p2 /mnt/wash/root
-</code></pre>
-
-<p>And there we have it.</p>
-
-<p>It was more complicated then I&rsquo;d like (converting to another format, doubling the space) and would take a while to convert back to vmdk.  But for my needs,
-of just moving my dev files over from an outdated VM, this is all I needed.</p>
-
-<h2>Source</h2>
-
-<p>[<a href="https://bethesignal.org/blog/2011/01/05/how-to-mount-virtualbox-vdi-image/">https://bethesignal.org/blog/2011/01/05/how-to-mount-virtualbox-vdi-image/</a> Jeff&rsquo;s old post] pointed me in the right direction; but, it was incomplete.</p>
-
-<p>It was [<a href="https://bethesignal.org/blog/2011/01/05/how-to-mount-virtualbox-vdi-image/#comment-111744">https://bethesignal.org/blog/2011/01/05/how-to-mount-virtualbox-vdi-image/#comment-111744</a> @su&rsquo;s comment] that was the answer I was looking for.</p>
-
-
-  
-
-<!-- END MARKDOWN CONTENT -->
-
-      </section>
-      <section class="post-comment">
-      <span class="comments-link">
-        <a class="comment-count" title="Mounting Vmdk Images Under Linux" href="/mounting-vmdk-images-under-linux.html#comments" data-disqus-url="http://eduncan911.com/mounting-vmdk-images-under-linux.html">Leave a comment</a>
-      </section>
-    </article>
-  
-    
-    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
-      <header class="post-header">   
-        <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2015-12-19T00:00:00-05:00" content="2015-12-19T00:00:00-05:00" itemprop="datePublished"></time></span>
-          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-  
-        </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="/extract-google-auth-codes-from-database.html" rel="bookmark">Extract Google Auth Codes From Database</a></h1>
-        
-        <meta itemprop="url" content="/extract-google-auth-codes-from-database.html" />
-      </header>
-      <section class="post-content" itemprop="articleBody">
-
-<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
-
-<p>I wiped up a script to display QR codes from a Google Authenticator&rsquo;s database file.  Useful to move to another authenticator app or to extract secrets.</p>
-
-<pre><code>for i in {1..9}; do URI=$(echo "SELECT * FROM accounts WHERE _id = $i;" \
-| sqlite3 databases \
-| awk -F'|' '{print "otpauth://totp/"$2"?secret="$3"&amp;issuer="$7}') \
-&amp;&amp; echo $URI | qrencode -t ASCII -o "/tmp/qrcode-$i.txt" \
-&amp;&amp; cat "/tmp/qrcode-$i.txt" | sed 's/ /█/g' | sed 's/#/ /g' \
-&gt; "/tmp/qrcode-$i-2.txt" \
-&amp;&amp; echo "$URI" \
-&amp;&amp; cat "/tmp/qrcode-$i-2.txt"; done
-</code></pre>
-
-
-  
-
-<!-- END MARKDOWN CONTENT -->
-
-      </section>
-      <section class="post-comment">
-      <span class="comments-link">
-        <a class="comment-count" title="Extract Google Auth Codes From Database" href="/extract-google-auth-codes-from-database.html#comments" data-disqus-url="http://eduncan911.com/extract-google-auth-codes-from-database.html">Leave a comment</a>
-      </section>
-    </article>
   
     
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
@@ -824,6 +693,260 @@ Audio player not available in your browser. Please try a newer browser.
       <section class="post-comment">
       <span class="comments-link">
         <a class="comment-count" title="Why I Fight to Keep MKV as My Media" href="/technology/why-i-fight-to-keep-mkv-as-my-media.html#comments" data-disqus-url="http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media.html">Leave a comment</a>
+      </section>
+    </article>
+  
+    
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-07-01T12:43:10-04:00" content="2014-07-01T12:43:10-04:00" itemprop="datePublished">Jul 1<span>st</span>, 2014</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/software/' rel='category tag'>software</a>, <a class='category' href='/category/tools/' rel='category tag'>tools</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="/software/tools/key-based-ssh-logins-with-putty.html" rel="bookmark">How to: Key-Based SSH Logins With PuTTY</a></h1>
+        
+        <meta itemprop="url" content="/software/tools/key-based-ssh-logins-with-putty.html" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
+
+<p>First, let me explain why I do this.</p>
+
+<h2>Why use SSH keys to login?</h2>
+
+<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
+
+<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
+
+<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
+
+<h3>Other Reasons to use SSH keys for logins</h3>
+
+<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
+
+<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
+
+<h2>First, the PuTTY Quirks</h2>
+
+<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
+
+<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
+
+<h2>Create and Save a PuTTY Session profile</h2>
+
+<p>Here&rsquo;s the steps I take to create a Session profile.</p>
+
+<ul>
+<li>Open PuTTY and you should be in the Session category on the left.</li>
+<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
+<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
+
+<ul>
+<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
+
+<ul>
+<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
+<li><p>Now, press the Save button.</p></li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
+
+<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
+
+<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
+
+<h2>Generate a PuTTY Public/Private Key Pair</h2>
+
+<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
+
+<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
+
+<ul>
+<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
+<li>Set a passphrase, you will use this as your password when connecting each time.</li>
+</ul>
+
+
+<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
+
+<h2>Take the Public key, and assign it to your Linux box</h2>
+
+<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
+
+<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
+
+<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
+
+<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir ~/.ssh
+</span><span class='line'>chmod 700 ~/.ssh</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, create the file:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pico ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&#34;Linux SSH Public Key Setup for PuTTY&#34;" alt="&#34;Linux SSH Public Key Setup for PuTTY&#34;"></p>
+
+<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
+
+<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>chmod 600 ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
+
+<h2>Set the Private Key in your PuTTY Session Profile</h2>
+
+<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
+
+<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
+
+<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
+
+<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
+
+<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
+
+<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
+
+<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
+
+<h2>Completed.  Now, connect.</h2>
+
+<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;" alt="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;"></p>
+
+<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
+
+<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
+
+
+  
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="How to: Key-Based SSH Logins With PuTTY" href="/software/tools/key-based-ssh-logins-with-putty.html#comments" data-disqus-url="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html">Leave a comment</a>
+      </section>
+    </article>
+  
+    
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-07-01T12:01:44-04:00" content="2014-07-01T12:01:44-04:00" itemprop="datePublished">Jul 1<span>st</span>, 2014</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/technology/' rel='category tag'>technology</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" rel="bookmark">Lenovo Thinkpad End/Insert Key Swap</a></h1>
+        
+        <meta itemprop="url" content="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p><a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">Lenovo Helix End/Insert Keys Swapped</a></p>
+
+<p>I recently switched from the Dell-exclusive club of laptops over the past 15 years to a ThinkPad.  Specifically, the Lenovo ThinkPad Helix.  It was a unit I have been waiting years for to check all the right boxes.</p>
+
+<p>I haven&rsquo;t been privy to the IBM/Lenovo keyboard wars.  I have always heard great things about the IBM ThinkPad keyboard.  Well, it seems this Lenovo Helix came with the newer style of only one row of Function keys + hardware-specific keys (volume, brightness, etc).  Fine by me as I figured out how to lock in the Function-mode-always (a BIOS option).</p>
+
+<p>But now I had a serious problem when coding/writing long documents&hellip;</p>
+
+<h2>The End/Insert Key was Swapped</h2>
+
+<p>Why in the hell would the End/Insert key swap functions when I lock in the Function-key mode of the F1-F12 keys?</p>
+
+<p>This was almost a deal breaker.  Only after crawling the Lenovo forums (a great place to find hacks for Lenovo) did I stumble onto a Lenovo ThinkPad keyboard hack to <a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">reverse the key functions</a>.  It actually remaps the Windows keyboard layout in the registry, an age-old trick I forgot about over a decade ago!</p>
+
+<h2>Swapping the End/Insert key functions</h2>
+
+<p>Instead of supplying a download of a .reg file, which I am not even sure that GitHub supports, I&rsquo;ll explain the instructions on how to create your own .reg file.</p>
+
+<ul>
+<li>Right-click on your desktop, select <code>New -&gt; Text Document</code></li>
+<li>Copy and Paste the following into this document, letter by letter.</li>
+</ul>
+
+
+<figure class='code'><figcaption><span>lenovo-helix-end-insert-key-swap.reg</span><a href='https://gist.github.com/eduncan911/f27808d2bb30982b4da5'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Windows Registry Editor Version 5.00
+</span><span class='line'>
+</span><span class='line'>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+</span><span class='line'>&quot;Scancode Map&quot;=hex:00,00,00,00,00,00,00,00,03,00,00,00,52,e0,4f,e0,4f,e0,52,e0,00,00,00,00
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Save the file as <code>lenovo-helix-end-insert-key-swap.reg</code></li>
+<li>Double-click it to <code>merge</code> it into your registry.  You will need to be logged in as an Administrator.</li>
+<li>Reboot and you&rsquo;re done.</li>
+</ul>
+
+
+<p>Now, the function of the End/Insert will be swapped.</p>
+
+<p>Also, <a href="http://blog.lenovo.com/products/why-you-should-give-in-to-the-new-thinkpad-keyboard">devoted fans of the previous Thinkpad keyboard: you may want to take your anger here</a>.</p>
+
+
+  
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Lenovo Thinkpad End/Insert Key Swap" href="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html#comments" data-disqus-url="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html">Leave a comment</a>
       </section>
     </article>
   
