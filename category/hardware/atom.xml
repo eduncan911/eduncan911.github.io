@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hardware | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/hardware/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2016-02-03T13:11:56-05:00</updated>
+  <updated>2016-03-04T20:16:51-05:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -81,13 +81,13 @@ root@hammerhead:/data/data/com.google.android.apps.authenticator2/databases # ls
 
 <p>```
 -rwx&mdash;&mdash;&mdash;
-User: Read/Write/Execute</p>
+World: Read/Write/Execute</p>
 
 <p>&mdash;&mdash;rw&mdash;&mdash;
 Group: Read/Write</p>
 
 <p>&mdash;&mdash;&mdash;-rw-
-World: Read/Write
+User: Read/Write
 ```</p>
 
 <p>WTF?  Everyone has access to this file?</p>
