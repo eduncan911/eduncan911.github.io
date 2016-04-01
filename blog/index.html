@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <title>Eric Duncan</title>
   <meta name="author" content="Eric Duncan" />
-  <meta name="description" content="Aug 31st, 2015 by Eric Duncan in hardware, technology Google Authenticator&#8217;s Databases: Copy, Move and Fix Google Authenticator is a two- &hellip;" />
+  <meta name="description" content="Apr 1st, 2016 by Eric Duncan in software Fix Slow Scrolling in VIM and Neovim I am three months into my (4th) new development environment that I &hellip;" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
@@ -49,6 +49,241 @@
   <main id="content" class="content" role="main">
   
   
+  
+    
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2016-04-01T12:43:22-04:00" content="2016-04-01T12:43:22-04:00" itemprop="datePublished">Apr 1<span>st</span>, 2016</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/software/' rel='category tag'>software</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="/software/fix-slow-scrolling-in-vim-and-neovim.html" rel="bookmark">Fix Slow Scrolling in VIM and Neovim</a></h1>
+        
+        <meta itemprop="url" content="/software/fix-slow-scrolling-in-vim-and-neovim.html" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p>I am three months into my (4th) new development environment that I have bounced
+around over the last three decades.  I finally put in the time to learn
+vim/neovim to get away from graphical IDEs and return back to shell development.
+With this brings a whole new timesuck of constantly tweaking your <code>.vimrc</code> to
+the never reaching goal of perfection.</p>
+
+<p>Now that I have my plugins and environments setup, I recently enabled a setting
+to help me find my cursor faster in my <code>.vimrc</code> file.</p>
+
+<pre><code>set cursorline
+</code></pre>
+
+<p>I was warned in the vim documentation that <em>&ldquo;Will make screen redrawing
+slower.&rdquo;</em>  Little did I know just how slow it would make it crawl! I first
+noticed it with neovim.  To confirm it wasn&rsquo;t neovim itself, I attempted to load
+vim with the same config and oh wow how horrible slow things scrolled.  CPU
+usage of both neovim and vim spiked to 99% on OS X under iterm2 and tmux.</p>
+
+<p>The issue is exasperated when you increase your keyboard&rsquo;s key repeat and
+shorten the repeat delay.  OS X is not fast enough for me; so, I have to use
+<em>Karabiner</em>&rsquo;s Key Repeat feature to speed things up greatly (Delay @ 150ms, Key
+Repeat at 10ms is just right).</p>
+
+<p>A few quick Google searches surfaced the issue: <code>cursorline</code>, and similar
+<code>cursorcolumn</code> was the issue when you have a plugin that highlights a bunch of
+text.  Most people were having issues with Ruby&rsquo;s code plugins.</p>
+
+<p>I was using <code>vim-go</code>, and its highlighting, when I noticed the issue.</p>
+
+<p>This <a href="http://stackoverflow.com/a/20519492/56693">Stackoverflow answer</a> is, as the comments say,
+a lifesaver.  Basically it outlines the very reason why scrolling is slow and
+how to debug exactly what regex pattern is causing it.</p>
+
+<h2>How to Debug Slow Scrolling in VIM</h2>
+
+<p>You can debug what is slowing things down by first enabling the vim option
+called <code>syntime</code> which is adequately defined as <em>&ldquo;When scrolling is slow.&rdquo;</em></p>
+
+<pre><code>:syntime on
+</code></pre>
+
+<p>Then scroll up and down a lot, get it to bog down.  I also recommend doing this
+within vim instead of neovim to really make things slow.  After 10 seconds or
+so, generate a report with the following.</p>
+
+<pre><code>:syntime report
+</code></pre>
+
+<p>For me, here&rsquo;s the top 10 results when a <code>FileType</code> of <code>go</code> was being scrolled:</p>
+
+<pre><code>TOTAL      COUNT  MATCH   SLOWEST     AVERAGE   NAME               PATTERN
+2.482624   7066   0       0.009561    0.000351  goInterfaceDef     \(type\s\+\)\@&lt;=\w\+\(\s\+interface\s\+{\)\@=
+2.476090   7066   0       0.008820    0.000350  goStructDef        \(type\s\+\)\@&lt;=\w\+\(\s\+struct\s\+{\)\@=
+2.457858   7278   212     0.008375    0.000338  goFunction         \(func\s\+\)\@&lt;=\w\+\((\)\@=
+2.440439   7066   0       0.007554    0.000345  goFunction         \()\s\+\)\@&lt;=\w\+\((\)\@=
+0.757577   7180   114     0.001380    0.000106  goInterface        \(.\)\@&lt;=\w\+\({\)\@=
+0.745827   7104   38      0.001105    0.000105  goStruct           \(.\)\@&lt;=\w\+\({\)\@=
+0.640945   7064   0       0.004620    0.000091  goSpaceError       \(\(^\|[={(,;]\)\s*&lt;-\)\@&lt;=\s\+
+0.223065   12827  5910    0.000239    0.000017  goMethod           \(\.\)\@&lt;=\w\+\((\)\@=
+0.071478   7064   0       0.000128    0.000010  goSpaceError       \(\(&lt;-\)\@&lt;!\&lt;chan\&gt;\)\@&lt;=\s\+\(&lt;-\)\@=
+0.058679   7064   0       0.000100    0.000008  goSpaceError       \(\(\&lt;chan\&gt;\)\@&lt;!&lt;-\)\@&lt;=\s\+\(\&lt;chan\&gt;\)\@=
+</code></pre>
+
+<p>Immediately you can see it is <code>vim-go</code>&rsquo;s regex patterns that is slowing down the
+scrolling.  Interesting how there were two <code>goFunction</code> regex patterns caught,
+and both are slow.</p>
+
+<p>At first glance, there doesn&rsquo;t seem to be any big issues with them.  Just a lot
+of matching.  Running the first one through regex101.com shows the following
+definition:</p>
+
+<pre><code>/\(type\s\+\)\@&lt;=\w\+\(\s\+interface\s\+{\)\@=/
+\( matches the character ( literally
+type matches the characters type literally (case sensitive)
+\s match any white space character [\r\n\t\f ]
+\+ matches the character + literally
+\) matches the character ) literally
+\@ matches the character @ literally
+&lt;= matches the characters &lt;= literally
+\w match any word character [a-zA-Z0-9_]
+\+ matches the character + literally
+\( matches the character ( literally
+\s match any white space character [\r\n\t\f ]
+\+ matches the character + literally
+interface matches the characters interface literally (case sensitive)
+\s match any white space character [\r\n\t\f ]
+\+ matches the character + literally
+{ matches the character { literally
+\) matches the character ) literally
+\@ matches the character @ literally
+= matches the character = literally
+</code></pre>
+
+<p>That is a lot of matching in a single regex!  Perhaps vim&rsquo;s regex interrupter is
+just that bad.  I notice a significant speedup when using Neovim over Vim; but,
+it is still very slow.</p>
+
+<h2>The Fix for Slow Scrolling in VIM</h2>
+
+<p>Now, I could spend some time debugging this regex, inserting conditionals and
+groupings in an attempt to limit the amount of matching which should in theory
+speed that up.  But I need to get some work done.</p>
+
+<p>One could just toggle off <code>cursorline</code> when it is slow and move on and toggle it
+back on with the same command later.  Set it to a mapped key to make it faster.</p>
+
+<pre><code>:set cursorline!
+</code></pre>
+
+<p>Some people have gotten success by disabling syntax highlighting after 128
+columns and/or minlines set to 256.  Neither worked for my environment though.</p>
+
+<pre><code>set synmaxcol=128
+syntax sync minlines=256
+</code></pre>
+
+<p>Personally, I just disabled some of (but not all of) <code>vim-go</code>&rsquo;s syntax
+highlighting because I visually value the  <code>cursorline</code> highlighting more
+than syntax highlight.  Besides, <a href="https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ">Rob Pike calls syntax highlighting
+juvenile</a>.</p>
+
+<p>This option is very <code>plugin</code> specific; so, your mileage will vary of rather
+your vim plugin supports selective disabling of syntax highlighting.</p>
+
+<p>For <code>vim-go</code>, they have highlighting disabled by default and you must explicitly
+enable it.  To disable syntax highlighting, just remove what you did to enable it
+in the first place in your <code>.vimrc</code>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>function! VimGoSetup()
+</span><span class='line'>  " vim-go related mappings
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;r &lt;Plug&gt;(go-run)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;b &lt;Plug&gt;(go-build)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;t &lt;Plug&gt;(go-test)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;i &lt;Plug&gt;(go-info)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;s &lt;Plug&gt;(go-implements)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;c &lt;Plug&gt;(go-coverage)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;e &lt;Plug&gt;(go-rename)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;gi &lt;Plug&gt;(go-imports)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;gI &lt;Plug&gt;(go-install)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;gd &lt;Plug&gt;(go-doc)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;gv &lt;Plug&gt;(go-doc-vertical)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;gb &lt;Plug&gt;(go-doc-browser)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;ds &lt;Plug&gt;(go-def-split)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;dv &lt;Plug&gt;(go-def-vertical)
+</span><span class='line'>  au FileType go nmap &lt;Leader&gt;dt &lt;Plug&gt;(go-def-tab)
+</span><span class='line'>  let g:go_auto_type_info = 1
+</span><span class='line'>  let g:go_fmt_command = "gofmt"
+</span><span class='line'>  let g:go_fmt_experimental = 1
+</span><span class='line'>  let g:go_dispatch_enabled = 0 " vim-dispatch needed
+</span><span class='line'>  let g:go_metalinter_autosave = 1
+</span><span class='line'>  let g:go_metalinter_autosave_enabled = ['vet', 'golint']
+</span><span class='line'>  let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
+</span><span class='line'>  let g:go_term_enabled = 0
+</span><span class='line'>  let g:go_term_mode = "vertical"
+</span><span class='line'>" let g:go_highlight_functions = 1
+</span><span class='line'>  let g:go_highlight_methods = 1
+</span><span class='line'>" let g:go_highlight_structs = 1
+</span><span class='line'>" let g:go_highlight_interfaces = 1
+</span><span class='line'>  let g:go_highlight_operators = 1
+</span><span class='line'>  let g:go_highlight_extra_types = 1
+</span><span class='line'>  let g:go_highlight_build_constraints = 1
+</span><span class='line'>  let g:go_highlight_chan_whitespace_error = 1
+</span><span class='line'>endfunction
+</span><span class='line'>call VimGoSetup()</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You can see the three lines I commented out above.  I still get plenty of syntax
+highlighting without it.  So I&rsquo;m good with this for now.</p>
+
+<p>Finally, one could just use more of PageUp/PageDown to move around the file.</p>
+
+
+  
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="Fix Slow Scrolling in VIM and Neovim" href="/software/fix-slow-scrolling-in-vim-and-neovim.html#comments" data-disqus-url="http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html">Leave a comment</a>
+      </section>
+    </article>
   
     
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
@@ -873,80 +1108,6 @@ Audio player not available in your browser. Please try a newer browser.
       <section class="post-comment">
       <span class="comments-link">
         <a class="comment-count" title="How to: Key-Based SSH Logins With PuTTY" href="/software/tools/key-based-ssh-logins-with-putty.html#comments" data-disqus-url="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html">Leave a comment</a>
-      </section>
-    </article>
-  
-    
-    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
-      <header class="post-header">   
-        <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-07-01T12:01:44-04:00" content="2014-07-01T12:01:44-04:00" itemprop="datePublished">Jul 1<span>st</span>, 2014</time></span>
-          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-          in <a class='category' href='/category/technology/' rel='category tag'>technology</a>
-        </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" rel="bookmark">Lenovo Thinkpad End/Insert Key Swap</a></h1>
-        
-        <meta itemprop="url" content="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html" />
-      </header>
-      <section class="post-content" itemprop="articleBody">
-
-<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
-
-<p><a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">Lenovo Helix End/Insert Keys Swapped</a></p>
-
-<p>I recently switched from the Dell-exclusive club of laptops over the past 15 years to a ThinkPad.  Specifically, the Lenovo ThinkPad Helix.  It was a unit I have been waiting years for to check all the right boxes.</p>
-
-<p>I haven&rsquo;t been privy to the IBM/Lenovo keyboard wars.  I have always heard great things about the IBM ThinkPad keyboard.  Well, it seems this Lenovo Helix came with the newer style of only one row of Function keys + hardware-specific keys (volume, brightness, etc).  Fine by me as I figured out how to lock in the Function-mode-always (a BIOS option).</p>
-
-<p>But now I had a serious problem when coding/writing long documents&hellip;</p>
-
-<h2>The End/Insert Key was Swapped</h2>
-
-<p>Why in the hell would the End/Insert key swap functions when I lock in the Function-key mode of the F1-F12 keys?</p>
-
-<p>This was almost a deal breaker.  Only after crawling the Lenovo forums (a great place to find hacks for Lenovo) did I stumble onto a Lenovo ThinkPad keyboard hack to <a href="https://forums.lenovo.com/t5/X-Series-Tablet-ThinkPad-Laptops/Helix-End-Insert-keys-swapped/m-p/1136273/highlight/true#M21181">reverse the key functions</a>.  It actually remaps the Windows keyboard layout in the registry, an age-old trick I forgot about over a decade ago!</p>
-
-<h2>Swapping the End/Insert key functions</h2>
-
-<p>Instead of supplying a download of a .reg file, which I am not even sure that GitHub supports, I&rsquo;ll explain the instructions on how to create your own .reg file.</p>
-
-<ul>
-<li>Right-click on your desktop, select <code>New -&gt; Text Document</code></li>
-<li>Copy and Paste the following into this document, letter by letter.</li>
-</ul>
-
-
-<figure class='code'><figcaption><span>lenovo-helix-end-insert-key-swap.reg</span><a href='https://gist.github.com/eduncan911/f27808d2bb30982b4da5'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>Windows Registry Editor Version 5.00
-</span><span class='line'>
-</span><span class='line'>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
-</span><span class='line'>&quot;Scancode Map&quot;=hex:00,00,00,00,00,00,00,00,03,00,00,00,52,e0,4f,e0,4f,e0,52,e0,00,00,00,00
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Save the file as <code>lenovo-helix-end-insert-key-swap.reg</code></li>
-<li>Double-click it to <code>merge</code> it into your registry.  You will need to be logged in as an Administrator.</li>
-<li>Reboot and you&rsquo;re done.</li>
-</ul>
-
-
-<p>Now, the function of the End/Insert will be swapped.</p>
-
-<p>Also, <a href="http://blog.lenovo.com/products/why-you-should-give-in-to-the-new-thinkpad-keyboard">devoted fans of the previous Thinkpad keyboard: you may want to take your anger here</a>.</p>
-
-
-  
-
-<!-- END MARKDOWN CONTENT -->
-
-      </section>
-      <section class="post-comment">
-      <span class="comments-link">
-        <a class="comment-count" title="Lenovo Thinkpad End/Insert Key Swap" href="/technology/lenovo-thinkpad-end-slash-insert-key-swap.html#comments" data-disqus-url="http://eduncan911.com/technology/lenovo-thinkpad-end-slash-insert-key-swap.html">Leave a comment</a>
       </section>
     </article>
   

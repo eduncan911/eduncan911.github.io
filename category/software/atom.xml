@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2016-03-08T16:46:45-05:00</updated>
+  <updated>2016-04-01T14:25:07-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,185 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fix Slow Scrolling in VIM and Neovim]]></title>
+    <link href="http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html"/>
+    <updated>2016-04-01T12:43:22-04:00</updated>
+    <id>http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim</id>
+    <content type="html"><![CDATA[<p>I am three months into my (4th) new development environment that I have bounced
+around over the last three decades.  I finally put in the time to learn
+vim/neovim to get away from graphical IDEs and return back to shell development.
+With this brings a whole new timesuck of constantly tweaking your <code>.vimrc</code> to
+the never reaching goal of perfection.</p>
+
+<p>Now that I have my plugins and environments setup, I recently enabled a setting
+to help me find my cursor faster in my <code>.vimrc</code> file.</p>
+
+<pre><code>set cursorline
+</code></pre>
+
+<p>I was warned in the vim documentation that <em>&ldquo;Will make screen redrawing
+slower.&rdquo;</em>  Little did I know just how slow it would make it crawl! I first
+noticed it with neovim.  To confirm it wasn&rsquo;t neovim itself, I attempted to load
+vim with the same config and oh wow how horrible slow things scrolled.  CPU
+usage of both neovim and vim spiked to 99% on OS X under iterm2 and tmux.</p>
+
+<p>The issue is exasperated when you increase your keyboard&rsquo;s key repeat and
+shorten the repeat delay.  OS X is not fast enough for me; so, I have to use
+<em>Karabiner</em>&rsquo;s Key Repeat feature to speed things up greatly (Delay @ 150ms, Key
+Repeat at 10ms is just right).</p>
+
+<p>A few quick Google searches surfaced the issue: <code>cursorline</code>, and similar
+<code>cursorcolumn</code> was the issue when you have a plugin that highlights a bunch of
+text.  Most people were having issues with Ruby&rsquo;s code plugins.</p>
+
+<p>I was using <code>vim-go</code>, and its highlighting, when I noticed the issue.</p>
+
+<p>This <a href="http://stackoverflow.com/a/20519492/56693">Stackoverflow answer</a> is, as the comments say,
+a lifesaver.  Basically it outlines the very reason why scrolling is slow and
+how to debug exactly what regex pattern is causing it.</p>
+
+<h2>How to Debug Slow Scrolling in VIM</h2>
+
+<p>You can debug what is slowing things down by first enabling the vim option
+called <code>syntime</code> which is adequately defined as <em>&ldquo;When scrolling is slow.&rdquo;</em></p>
+
+<pre><code>:syntime on
+</code></pre>
+
+<p>Then scroll up and down a lot, get it to bog down.  I also recommend doing this
+within vim instead of neovim to really make things slow.  After 10 seconds or
+so, generate a report with the following.</p>
+
+<pre><code>:syntime report
+</code></pre>
+
+<p>For me, here&rsquo;s the top 10 results when a <code>FileType</code> of <code>go</code> was being scrolled:</p>
+
+<pre><code>TOTAL      COUNT  MATCH   SLOWEST     AVERAGE   NAME               PATTERN
+2.482624   7066   0       0.009561    0.000351  goInterfaceDef     \(type\s\+\)\@&lt;=\w\+\(\s\+interface\s\+{\)\@=
+2.476090   7066   0       0.008820    0.000350  goStructDef        \(type\s\+\)\@&lt;=\w\+\(\s\+struct\s\+{\)\@=
+2.457858   7278   212     0.008375    0.000338  goFunction         \(func\s\+\)\@&lt;=\w\+\((\)\@=
+2.440439   7066   0       0.007554    0.000345  goFunction         \()\s\+\)\@&lt;=\w\+\((\)\@=
+0.757577   7180   114     0.001380    0.000106  goInterface        \(.\)\@&lt;=\w\+\({\)\@=
+0.745827   7104   38      0.001105    0.000105  goStruct           \(.\)\@&lt;=\w\+\({\)\@=
+0.640945   7064   0       0.004620    0.000091  goSpaceError       \(\(^\|[={(,;]\)\s*&lt;-\)\@&lt;=\s\+
+0.223065   12827  5910    0.000239    0.000017  goMethod           \(\.\)\@&lt;=\w\+\((\)\@=
+0.071478   7064   0       0.000128    0.000010  goSpaceError       \(\(&lt;-\)\@&lt;!\&lt;chan\&gt;\)\@&lt;=\s\+\(&lt;-\)\@=
+0.058679   7064   0       0.000100    0.000008  goSpaceError       \(\(\&lt;chan\&gt;\)\@&lt;!&lt;-\)\@&lt;=\s\+\(\&lt;chan\&gt;\)\@=
+</code></pre>
+
+<p>Immediately you can see it is <code>vim-go</code>&rsquo;s regex patterns that is slowing down the
+scrolling.  Interesting how there were two <code>goFunction</code> regex patterns caught,
+and both are slow.</p>
+
+<p>At first glance, there doesn&rsquo;t seem to be any big issues with them.  Just a lot
+of matching.  Running the first one through regex101.com shows the following
+definition:</p>
+
+<pre><code>/\(type\s\+\)\@&lt;=\w\+\(\s\+interface\s\+{\)\@=/
+\( matches the character ( literally
+type matches the characters type literally (case sensitive)
+\s match any white space character [\r\n\t\f ]
+\+ matches the character + literally
+\) matches the character ) literally
+\@ matches the character @ literally
+&lt;= matches the characters &lt;= literally
+\w match any word character [a-zA-Z0-9_]
+\+ matches the character + literally
+\( matches the character ( literally
+\s match any white space character [\r\n\t\f ]
+\+ matches the character + literally
+interface matches the characters interface literally (case sensitive)
+\s match any white space character [\r\n\t\f ]
+\+ matches the character + literally
+{ matches the character { literally
+\) matches the character ) literally
+\@ matches the character @ literally
+= matches the character = literally
+</code></pre>
+
+<p>That is a lot of matching in a single regex!  Perhaps vim&rsquo;s regex interrupter is
+just that bad.  I notice a significant speedup when using Neovim over Vim; but,
+it is still very slow.</p>
+
+<h2>The Fix for Slow Scrolling in VIM</h2>
+
+<p>Now, I could spend some time debugging this regex, inserting conditionals and
+groupings in an attempt to limit the amount of matching which should in theory
+speed that up.  But I need to get some work done.</p>
+
+<p>One could just toggle off <code>cursorline</code> when it is slow and move on and toggle it
+back on with the same command later.  Set it to a mapped key to make it faster.</p>
+
+<pre><code>:set cursorline!
+</code></pre>
+
+<p>Some people have gotten success by disabling syntax highlighting after 128
+columns and/or minlines set to 256.  Neither worked for my environment though.</p>
+
+<pre><code>set synmaxcol=128
+syntax sync minlines=256
+</code></pre>
+
+<p>Personally, I just disabled some of (but not all of) <code>vim-go</code>&rsquo;s syntax
+highlighting because I visually value the  <code>cursorline</code> highlighting more
+than syntax highlight.  Besides, <a href="https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ">Rob Pike calls syntax highlighting
+juvenile</a>.</p>
+
+<p>This option is very <code>plugin</code> specific; so, your mileage will vary of rather
+your vim plugin supports selective disabling of syntax highlighting.</p>
+
+<p>For <code>vim-go</code>, they have highlighting disabled by default and you must explicitly
+enable it.  To disable syntax highlighting, just remove what you did to enable it
+in the first place in your <code>.vimrc</code>:</p>
+
+<p><code>
+function! VimGoSetup()
+  " vim-go related mappings
+  au FileType go nmap &lt;Leader&gt;r &lt;Plug&gt;(go-run)
+  au FileType go nmap &lt;Leader&gt;b &lt;Plug&gt;(go-build)
+  au FileType go nmap &lt;Leader&gt;t &lt;Plug&gt;(go-test)
+  au FileType go nmap &lt;Leader&gt;i &lt;Plug&gt;(go-info)
+  au FileType go nmap &lt;Leader&gt;s &lt;Plug&gt;(go-implements)
+  au FileType go nmap &lt;Leader&gt;c &lt;Plug&gt;(go-coverage)
+  au FileType go nmap &lt;Leader&gt;e &lt;Plug&gt;(go-rename)
+  au FileType go nmap &lt;Leader&gt;gi &lt;Plug&gt;(go-imports)
+  au FileType go nmap &lt;Leader&gt;gI &lt;Plug&gt;(go-install)
+  au FileType go nmap &lt;Leader&gt;gd &lt;Plug&gt;(go-doc)
+  au FileType go nmap &lt;Leader&gt;gv &lt;Plug&gt;(go-doc-vertical)
+  au FileType go nmap &lt;Leader&gt;gb &lt;Plug&gt;(go-doc-browser)
+  au FileType go nmap &lt;Leader&gt;ds &lt;Plug&gt;(go-def-split)
+  au FileType go nmap &lt;Leader&gt;dv &lt;Plug&gt;(go-def-vertical)
+  au FileType go nmap &lt;Leader&gt;dt &lt;Plug&gt;(go-def-tab)
+  let g:go_auto_type_info = 1
+  let g:go_fmt_command = "gofmt"
+  let g:go_fmt_experimental = 1
+  let g:go_dispatch_enabled = 0 " vim-dispatch needed
+  let g:go_metalinter_autosave = 1
+  let g:go_metalinter_autosave_enabled = ['vet', 'golint']
+  let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
+  let g:go_term_enabled = 0
+  let g:go_term_mode = "vertical"
+" let g:go_highlight_functions = 1
+  let g:go_highlight_methods = 1
+" let g:go_highlight_structs = 1
+" let g:go_highlight_interfaces = 1
+  let g:go_highlight_operators = 1
+  let g:go_highlight_extra_types = 1
+  let g:go_highlight_build_constraints = 1
+  let g:go_highlight_chan_whitespace_error = 1
+endfunction
+call VimGoSetup()
+</code></p>
+
+<p>You can see the three lines I commented out above.  I still get plenty of syntax
+highlighting without it.  So I&rsquo;m good with this for now.</p>
+
+<p>Finally, one could just use more of PageUp/PageDown to move around the file.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Processing Credit Cards With Tokens?]]></title>
@@ -280,21 +459,6 @@ chmod 600 ~/.ssh/authorized_keys2
 <p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
 
 <p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Best Cloud Computing and Security Talk EVAR]]></title>
-    <link href="http://eduncan911.com/software/best-cloud-computing-and-security-talk-evar.html"/>
-    <updated>2014-05-14T03:13:47-04:00</updated>
-    <id>http://eduncan911.com/software/best-cloud-computing-and-security-talk-evar</id>
-    <content type="html"><![CDATA[<p><a href="http://vimeo.com/95066828">James Mickens on distributed computing at PDX 2014</a></p>
-
-<p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/95066828 "></iframe></div></p>
-
-<p>This showed up in my twitter feed; so, I gave it 30m of my life and I am glad I did.</p>
-
-<p><cite>#HatTip Xander Sherry <a href="https://twitter.com/xandersherry">https://twitter.com/xandersherry</a></cite></p>
 ]]></content>
   </entry>
   
