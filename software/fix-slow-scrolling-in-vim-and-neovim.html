@@ -170,6 +170,13 @@ back on with the same command later.  Set it to a mapped key to make it faster.<
 <pre><code>:set cursorline!
 </code></pre>
 
+<p>An option that I found in the help that does speed things up is <code>lazyredraw</code>.<br/>
+Though, it is tolerable with Neovim, vim was still a little bit choppy.  I have
+this enabled as default in my <code>.vimrc</code> regardless.</p>
+
+<pre><code>:set lazyredraw
+</code></pre>
+
 <p>Some people have gotten success by disabling syntax highlighting after 128
 columns and/or minlines set to 256.  Neither worked for my environment though.</p>
 
@@ -275,7 +282,8 @@ highlighting without it.  So I&rsquo;m good with this for now.</p>
 
       <section class="collapsable history">
         <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
-        <ul class="post-metadata"><li><strong>Fri Apr 1 14:23:59 2016</strong><br/>initial creation
+        <ul class="post-metadata"><li><strong>Fri Apr 1 14:34:59 2016</strong><br/>added another option
+</li><li><strong>Fri Apr 1 14:23:59 2016</strong><br/>initial creation
 </li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2016-04-01-fix-slow-scrolling-in-vim-and-neovim.markdown target=_blank>Github</a></p>
       </section>
 

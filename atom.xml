@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2016-04-01T14:25:07-04:00</updated>
+  <updated>2016-04-01T14:35:07-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -125,6 +125,13 @@ speed that up.  But I need to get some work done.</p>
 back on with the same command later.  Set it to a mapped key to make it faster.</p>
 
 <pre><code>:set cursorline!
+</code></pre>
+
+<p>An option that I found in the help that does speed things up is <code>lazyredraw</code>.<br/>
+Though, it is tolerable with Neovim, vim was still a little bit choppy.  I have
+this enabled as default in my <code>.vimrc</code> regardless.</p>
+
+<pre><code>:set lazyredraw
 </code></pre>
 
 <p>Some people have gotten success by disabling syntax highlighting after 128

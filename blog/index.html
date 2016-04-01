@@ -175,6 +175,13 @@ back on with the same command later.  Set it to a mapped key to make it faster.<
 <pre><code>:set cursorline!
 </code></pre>
 
+<p>An option that I found in the help that does speed things up is <code>lazyredraw</code>.<br/>
+Though, it is tolerable with Neovim, vim was still a little bit choppy.  I have
+this enabled as default in my <code>.vimrc</code> regardless.</p>
+
+<pre><code>:set lazyredraw
+</code></pre>
+
 <p>Some people have gotten success by disabling syntax highlighting after 128
 columns and/or minlines set to 256.  Neither worked for my environment though.</p>
 
