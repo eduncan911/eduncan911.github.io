@@ -114,12 +114,17 @@ back on with the same command later.  Set it to a mapped key to make it faster.
 
     :set cursorline!
 
+An option that I found in the help that does speed things up is `lazyredraw`.  
+Though, it is tolerable with Neovim, vim was still a little bit choppy.  I have 
+this enabled as default in my `.vimrc` regardless.
+
+    :set lazyredraw
+
 Some people have gotten success by disabling syntax highlighting after 128
 columns and/or minlines set to 256.  Neither worked for my environment though.
 
     set synmaxcol=128
     syntax sync minlines=256
-
 
 Personally, I just disabled some of (but not all of) `vim-go`'s syntax
 highlighting because I visually value the  `cursorline` highlighting more
