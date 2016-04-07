@@ -54,7 +54,7 @@ I only develop using NeoVim + Tmux anyhow; so, I don't need GUI or Windows
 interactions.  I just need bash and proper screen redraw with 256 colors.  
 That's it.
 
-## WLS and Linux User Mode RTM Release Date
+## WSL and Linux User Mode RTM Release Date
 
 It was suspiciously awkward that nothing made note of its availability; not from
 the keynote nor from Hanselman's and MSDN's introduction blog posts.  All that
