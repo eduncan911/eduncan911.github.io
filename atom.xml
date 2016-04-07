@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2016-04-07T11:31:53-04:00</updated>
+  <updated>2016-04-07T12:23:31-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -124,7 +124,7 @@ Like this:</p>
 
 <p>Download and install.  You may want to go make some tea.</p>
 
-<p>The final set of mouse-ninja-moves is to add the Bash features:</p>
+<p>Another set of mouse-ninja-moves is to add the Bash features:</p>
 
 <ul>
 <li>click <strong>Start</strong> and type <em>&ldquo;Windows Features&rdquo;</em> and choose <em>&ldquo;Turn Windows
@@ -136,27 +136,35 @@ features on or off&rdquo;</em></li>
 
 <p><img src="http://eduncan911.com/blog/images/windows-subsystem-for-linux-enabling.png" alt="Enabling Windows Subsystem for Linux" /></p>
 
-<p>You now have Linux bash (based on Ubuntu).</p>
+<h2>Install Bash on Ubuntu On Windows</h2>
 
-<h2>Windows 10 Bash: Let&rsquo;s Poke around</h2>
+<p>If only we were done.  We now need to download and install the <strong><em>Bash on Ubuntu
+on Windows</em></strong> desktop application, which currently seems to be done via a &ldquo;bash&rdquo;
+command line utility.</p>
 
-<p>I wanted to end the article with a number of tools to install and get started
-with.  But sadly, I kept being greeted with the errors:</p>
+<ul>
+<li>Launch Console (Start &ndash;> type &ldquo;CMD&rdquo; and press Enter)</li>
+<li>Enter &ldquo;bash&rdquo; at the prompt and press &ldquo;Enter&rdquo;.</li>
+<li>Follow the prompt to download and install Ubuntu 14.04 LTS ISO.</li>
+<li>Once done, <strong><em>REBOOT</em></strong> (or at least I did).</li>
+</ul>
 
-<pre><code>Err http://security.ubuntu.com trusty-security Release.gpg
-Could not resolve 'security.ubuntu.com'
 
-W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty/Release.gpg  
-Could not resolve 'archive.ubuntu.com'
-</code></pre>
+<p>Once rebooted, you now have a new Desktop app you can launch called <strong><em>Bash on
+Ubuntu on Windows</em></strong></p>
 
-<p>So, no package installer works just quite yet.  Most likely a network issue or something. I&rsquo;ll debug it in the morning.</p>
+<p><img src="http://eduncan911.com/blog/images/windows-bash-on-ubuntu-on-windows-subsystem-for-linux.png" alt="Bash on Ubuntu on Windows desktop app" /></p>
 
-<p>Next up is my <strong>Inconsolata</strong> development font, Vim/NeoVim plugins I use and
-more.</p>
+<p>I thought once I hit &ldquo;y&rdquo; to install bash, I was in bash.  It sure seemed like it
+but I had a few issues poking around.  I went ahead and rebooted and noticed
+a new app was installed.</p>
 
-<p>I&rsquo;ll play around for a little while and if I can become productive with my
-CLI-fu, I&rsquo;ll create another blog post about some additional features.</p>
+<h2>Quirky</h2>
+
+<p>A number of things weren&rsquo;t working with my default installation.  I&rsquo;ll work on
+those and will update this post, or create another walk-through.</p>
+
+<p>Stay tuned!</p>
 ]]></content>
   </entry>
   
