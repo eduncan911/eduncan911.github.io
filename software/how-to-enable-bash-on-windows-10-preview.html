@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>How to Enable Bash on Windows 10 Preview - Eric Duncan</title>
+  <meta name="author" content="Eric Duncan" />
+  <meta name="description" content="This post describes how to install Bash that is part of Windows 10 Preview." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="generator" content="Octopress 2.0" />
+  <meta property="og:site_name" content="Eric Duncan" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="" />
+  <meta property="og:video" content="" />
+  <meta property="og:url" content="http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview.html" />
+  <link rel="canonical" href="http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview.html" />
+  <link rel="alternate" href="/atom.xml" title="Eric Duncan" type="application/atom+xml" />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" type="text/css" />
+  <link rel="stylesheet" href="/stylesheets/screen.css" media="screen, projection" type="text/css" />
+  <style type="text/css">
+    header .blog-title a, header .blog-description { 
+      color: #ffffff; 
+      text-transform: lowercase;
+    } 
+  </style>
+  <script src="/javascripts/modernizr-2.0.js"></script>
+
+</head>
+<body class="home blog">
+
+  <header id="masthead" role="banner" class="site-head site-header">
+    <div class="vertical" itemscope itemtype="http://schema.org/Article">
+      <div class="site-head-content inner" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <h1 class="blog-title" itemprop="name"><a class="blog-logo" href='/' rel='home'>Eric Duncan</a></h1>
+        <h2 class="blog-description" itemprop="jobtitle">spawning a race of beings</h2>
+        <meta itemprop="givenname" content="Eric" />
+        <meta itemprop="familyname" content="Duncan" />
+        <meta itemprop="affiliation" content="eduncan911" />
+        <meta itemprop="jobtitle" content="Software Architect" />
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="content" role="main">
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+        <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2016-04-03T13:13:34-04:00" content="2016-04-03T13:13:34-04:00" itemprop="datePublished">Apr 3<span>rd</span>, 2016</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/software/' rel='category tag'>software</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="" rel="bookmark">How to Enable Bash on Windows 10 Preview</a></h1>
+        <meta itemprop="url" content="" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p>Today I am going to outline how you can install and use the <a href="http://www.hanselman.com/blog/DevelopersCanRunBashShellAndUsermodeUbuntuLinuxBinariesOnWindows10.aspx">Linux User Mode
+(UML)</a>
+in Windows 10 based on the new <a href="https://blogs.windows.com/buildingapps/2016/03/30/run-bash-on-ubuntu-on-windows/">Windows Subsystem for Linux
+(WSL)</a>
+that was announced at Windows Build 2016.</p>
+
+<h2>Why Bother?  OS X works fine.</h2>
+
+<p>I am writing this jamming away on my Macbook Pro 15&#8221; connected to three external
+1080p 120 Hz 3D monitors, my precision mouse and CODE mechanical keyboard.  Once
+running ArchLinux for over a year, I&rsquo;ve recently went back to OS X purely for
+the user experience.  I miss my Arch installs; but, I don&rsquo;t miss the annoyances
+around docking/undocking my tri-monitor setup and switching from HiDPI and my
+1080p monitors.  It was a painful experience when disconnecting and reconnecting.</p>
+
+<p>I also ran Windows 10 natively on it for a few months as I got annoyed at VMware
+crashing Arch all the time.  I was doing my C# Mono work in my Linux VM anyways
+and not natively on Windows.  Battery life sucked with the VM though.</p>
+
+<p>OS X just nails HiDPI perfectly when docking and undocking, switching primary
+monitors, etc.</p>
+
+<p>No.  The real reason I am interested in Linux on Windows is:</p>
+
+<ul>
+<li>Going back to Desktop Development</li>
+</ul>
+
+
+<p>I have a 4.8 Ghz hex-core, 5300+ GPU core gaming beast of a machine (also
+connected to those same 3 monitors) just sitting idle, unused for months.
+ArchLinux natively on that Asus motherboard was ok; but, I miss my Windows games
+and no longer could control my TEC waterchiller (it was Windows software I wrote
+for it).</p>
+
+<p>All Windows was missing was my GNU Linux tooling.  I spent the better part of a
+week replacing all OS X versions of the tools (sed, ack, grep, etc) with the
+real GNU versions.  OS X has Homebrew; Windows now has WSL.</p>
+
+<p>To have the ability to have Linux natively available on Windows is just perfect
+for my desktop machine.</p>
+
+<p>I only develop using NeoVim + Tmux anyhow; so, I don&rsquo;t need GUI or Windows
+interactions.  I just need bash and proper screen redraw with 256 colors.<br/>
+That&rsquo;s it.</p>
+
+<h2>WLS and Linux User Mode RTM Release Date</h2>
+
+<p>It was suspiciously awkward that nothing made note of its availability; not from
+the keynote nor from Hanselman&rsquo;s and MSDN&rsquo;s introduction blog posts.  All that
+was said was that the Windows 10 Insider Preview refresh released in January
+2016 contained this new WSL platform, and that the bash tooling would be
+released for it soon.  There was even a Windows Insider/dev that noticed the new
+WSL binaries/framework available back in January, before it was announced.</p>
+
+<p>So a few of us kept poking and prodding at our MS resources, trying to get our
+hands on it.</p>
+
+<p>It turns out that you have to take a few initiatives to get your system ready
+for UML.  This experience has taught me the <em>new</em> way in which MS will be
+releasing features into Windows going forward.</p>
+
+<h2>Enough Already, How to Install It?</h2>
+
+<p>First, you can&rsquo;t install it on your existing Windows 10.  Not for some time, not
+until it is ready for public consumption.  Currently Microsoft has said it will
+be part of the Anniversary build due out this summer.</p>
+
+<p>This post is about getting access to the Insider Preview edition, before it is
+released.</p>
+
+<p>Here&rsquo;s the overview of what you need to do:</p>
+
+<ul>
+<li>Download Windows Insider Preview 14295 (14316 ISO is not out as of the time
+this writing.  But there is a Windows Update to upgrade to 14316).</li>
+<li>Install it (recommended in a VM, as Previews usually expire).</li>
+<li>Go straight to Start &ndash;> Settings &ndash;> Updates and Security.</li>
+<li>Under &ldquo;Update settings&rdquo;, click Advanced options.</li>
+<li>Under &ldquo;Get Insider Preview Builds&rdquo;, click &ldquo;Fix me&rdquo; or whatever may show here.</li>
+</ul>
+
+
+<p>You should end up with a slider, asking you to <em>Choose your insider level</em>.
+Like this:</p>
+
+<p><img src="/blog/images/windows-insider-preview-builds.png" alt="Windows Insider Preview slider level" /></p>
+
+<p>Move it all the way to the right, for <em>Fast</em>.</p>
+
+<p>The next series of mouse-contortions is to turn on <em>Developer Mode</em>.</p>
+
+<ul>
+<li>Start &ndash;> Settings &ndash;> Update &amp; security</li>
+<li>On the left, click <strong>For developers</strong></li>
+<li>Select the option for <strong>Developer mode</strong></li>
+<li>Restart.</li>
+</ul>
+
+
+<p>You should be able to run Windows Update and see that <strong>Windows 10 Insider Preview 14316</strong> is available.</p>
+
+<p><img src="/blog/images/windows-insider-preview-build-14316.png" alt="Windows 10 Insider Preview 14316 Update" /></p>
+
+<p>Download and install.  You may want to go make some tea.</p>
+
+<p>The final set of mouse-ninja-moves is to add the Bash features:</p>
+
+<ul>
+<li>click <strong>Start</strong> and type <em>&ldquo;Windows Features&rdquo;</em> and choose <em>&ldquo;Turn Windows
+features on or off&rdquo;</em></li>
+<li>scroll down and enable <strong><em>&ldquo;Windows Subsystem for Linux (Beta)&rdquo;</em></strong></li>
+<li>Click OK and Restart.</li>
+</ul>
+
+
+<p><img src="/blog/images/windows-subsystem-for-linux-enabling.png" alt="Enabling Windows Subsystem for Linux" /></p>
+
+<p>You now have Linux bash (based on Ubuntu).</p>
+
+<h2>Windows 10 Bash: Let&rsquo;s Poke around</h2>
+
+<p>I wanted to end the article with a number of tools to install and get started
+with.  But sadly, I kept being greeted with the errors:</p>
+
+<pre><code>Err http://security.ubuntu.com trusty-security Release.gpg
+Could not resolve 'security.ubuntu.com'
+
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty/Release.gpg  
+Could not resolve 'archive.ubuntu.com'
+</code></pre>
+
+<p>So, no package installer works just quite yet.  Most likely a network issue or something. I&rsquo;ll debug it in the morning.</p>
+
+<p>Next up is my <strong>Inconsolata</strong> development font, Vim/NeoVim plugins I use and
+more.</p>
+
+<p>I&rsquo;ll play around for a little while and if I can become productive with my
+CLI-fu, I&rsquo;ll create another blog post about some additional features.</p>
+
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+
+      <section class="collapsable history">
+        <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
+        <ul class="post-metadata"><li><strong>Thu Apr 7 01:24:10 2016</strong><br/>initial post
+</li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2016-04-03-how-to-enable-bash-on-windows-10-preview.markdown target=_blank>Github</a></p>
+      </section>
+
+      <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; About the author</a></h5>
+        <p class="post-metadata">Eric has been in a wide variety of software development roles with 18+ years experience developing and managing technologies for several industries such as prepaid card services, advertising, legal and manufacturing. He is a pioneer of open-sourced social networking and communication solutions.</p>
+      </section>
+
+      <!-- <section class="collapsable author">
+        <h5><a class="collapsable-trigger" href="#">&gt; Related Posts</a></h5>
+        <p class="post-metadata">(coming soon)</p>
+      </section> -->
+      <nav class="pagination navigation paging-navigation" role="navigation">
+        <div class="nav-links">
+          <div class="older-posts"><a href="/software/fix-slow-scrolling-in-vim-and-neovim.html" title="Previous Post: Fix Slow Scrolling in VIM and Neovim">&laquo; Fix Slow Scrolling in VIM and Neovim</a></div>
+          
+        </div>
+      </nav>
+      <div class="clear"></div>
+
+      <a class="post-comment-anchor" name="comments"></a>
+      <section class="post-comment">
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <a class="subscribe icon-feed" href="/atom.xml"><span class="tooltip">Subscribe!</span></a>
+    <div><a href="/blog">Blog</a></div>
+    <div><a href="/blog/archives">Archives</a></div>
+    <div><a href="/contact">Contact Me</a></div>
+    <div><a href="/buymeabeer">Buy Me a Beer</a></div>
+    <div><a href="/blogtegrity">Blogtegrity</a></div>
+    <div><a href="/keys">PGP Keys</a></div>
+    <div><a href="/privacy">Privacy</a></div>
+    <div>&nbsp;</div>
+    <div class="site-info inner"><section class="copyright">© 2016 Eric Duncan <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></section></div>
+    <div>a <a href="http://www.forgetfoo.me/" title="one of a 100 kickass designs by this guy">forgetfoo</a> design</div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script type='text/javascript' src='/javascripts/foo.casper.js?ver=20140422'></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3705711-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'eduncan911com';
+    
+      
+      // var disqus_developer = 1;
+      var disqus_identifier = 'http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview.html';
+      var disqus_url = 'http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview.html';
+      var disqus_script = 'embed.js';
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+  </script>
+
+
+
+
+</body>
+</html>

@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <title>Eric Duncan</title>
   <meta name="author" content="Eric Duncan" />
-  <meta name="description" content="Jul 1st, 2014 by Eric Duncan in technology Lenovo Thinkpad End/Insert Key Swap Lenovo Helix End/Insert Keys Swapped I recently switched from the &hellip;" />
+  <meta name="description" content="Jul 1st, 2014 by Eric Duncan in software, tools How to: Key-Based SSH Logins With PuTTY All too often I keep Googling this procedure to sign into &hellip;" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
@@ -49,6 +49,186 @@
   <main id="content" class="content" role="main">
   
   
+  
+    
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-07-01T12:43:10-04:00" content="2014-07-01T12:43:10-04:00" itemprop="datePublished">Jul 1<span>st</span>, 2014</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/software/' rel='category tag'>software</a>, <a class='category' href='/category/tools/' rel='category tag'>tools</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="/software/tools/key-based-ssh-logins-with-putty.html" rel="bookmark">How to: Key-Based SSH Logins With PuTTY</a></h1>
+        
+        <meta itemprop="url" content="/software/tools/key-based-ssh-logins-with-putty.html" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
+
+<p>First, let me explain why I do this.</p>
+
+<h2>Why use SSH keys to login?</h2>
+
+<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
+
+<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
+
+<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
+
+<h3>Other Reasons to use SSH keys for logins</h3>
+
+<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
+
+<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
+
+<h2>First, the PuTTY Quirks</h2>
+
+<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
+
+<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
+
+<h2>Create and Save a PuTTY Session profile</h2>
+
+<p>Here&rsquo;s the steps I take to create a Session profile.</p>
+
+<ul>
+<li>Open PuTTY and you should be in the Session category on the left.</li>
+<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
+<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
+
+<ul>
+<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
+
+<ul>
+<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
+<li><p>Now, press the Save button.</p></li>
+</ul>
+
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
+
+<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
+
+<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
+
+<h2>Generate a PuTTY Public/Private Key Pair</h2>
+
+<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
+
+<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
+
+<ul>
+<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
+<li>Set a passphrase, you will use this as your password when connecting each time.</li>
+</ul>
+
+
+<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&#34;Generate SSH Keys in PuTTY&#34;" alt="&#34;Generate SSH Keys in PuTTY&#34;"></p>
+
+<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
+
+<h2>Take the Public key, and assign it to your Linux box</h2>
+
+<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
+
+<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
+
+<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
+
+<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir ~/.ssh
+</span><span class='line'>chmod 700 ~/.ssh</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, create the file:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pico ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&#34;Linux SSH Public Key Setup for PuTTY&#34;" alt="&#34;Linux SSH Public Key Setup for PuTTY&#34;"></p>
+
+<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
+
+<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>chmod 600 ~/.ssh/authorized_keys2</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
+
+<h2>Set the Private Key in your PuTTY Session Profile</h2>
+
+<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
+
+<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
+
+<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
+
+<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
+
+<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;" alt="&#34;Set SSH Private Key in PuTTY for SSH Key-Based Login&#34;"></p>
+
+<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
+
+<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
+
+<h2>Completed.  Now, connect.</h2>
+
+<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
+
+<p><img src="/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;" alt="&#34;Logging in with PuTTY SSH Key-Base Authentication&#34;"></p>
+
+<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
+
+<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
+
+
+  
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="How to: Key-Based SSH Logins With PuTTY" href="/software/tools/key-based-ssh-logins-with-putty.html#comments" data-disqus-url="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html">Leave a comment</a>
+      </section>
+    </article>
   
     
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
@@ -491,55 +671,6 @@ I can use this for some projects as well.</p>
       <section class="post-comment">
       <span class="comments-link">
         <a class="comment-count" title="Avocode" href="/software/avocode.html#comments" data-disqus-url="http://eduncan911.com/software/avocode.html">Leave a comment</a>
-      </section>
-    </article>
-  
-    
-    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
-      <header class="post-header">   
-        <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-05-01T14:38:13-04:00" content="2014-05-01T14:38:13-04:00" itemprop="datePublished">May 1<span>st</span>, 2014</time></span>
-          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-          in <a class='category' href='/category/technology/' rel='category tag'>technology</a>
-        </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="/technology/bitcoins-dark-wallet-launched-today.html" rel="bookmark">Bitcoin&#8217;s IRS-blocking &#8216;Dark Wallet&#8217; Launched Today</a></h1>
-        
-        <meta itemprop="url" content="/technology/bitcoins-dark-wallet-launched-today.html" />
-      </header>
-      <section class="post-content" itemprop="articleBody">
-
-<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
-
-<p><a href="http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/">Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</a></p>
-
-<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Ouo7Q6Cf_yc " frameborder="0" allowfullscreen></iframe></div>
-
-
-<p>I first heard about this Dark Wallet protocol a few months ago when <a href="http://pando.com/2014/03/12/moving-on-up-bitcoin-gets-a-boost-as-new-york-opens-applications-for-virtual-currency-exchange-licenses/">New York state</a> announced they are regulating Bitcoin.  And recently when the <a href="http://www.breitbart.com/Big-Government/2014/04/03/IRS-Retroactively-Taxes-Bitcoin">IRS announced it is retroactively taxing Bitcoin as property</a>, the community brought up the Dark Wallet system again.</p>
-
-<p>I have bitcoin and do not plan on paying any tax on it.  I didn&rsquo;t &ldquo;buy&rdquo; any amount using taxable USD, and don&rsquo;t see a need for &ldquo;regulation.&rdquo;  Trying to tax my Bitcoin is basically using a gun to say I need to pay a tax on the open-source software I write: it has value to a select few, and is completely useless to most.</p>
-
-<blockquote><p><img src="http://media.coindesk.com/2014/05/dark.jpg" title="'Bitcoin Dark Wallet'" ></p><p>The alpha version of Dark Wallet – the hyper-anonymising bitcoin wallet – goes live today.</p><p>Created by Amir Taaki and Cody Wilson, Dark Wallet provides new tools for financial privacy, including in-built coin mixing and ‘stealth’ wallet addresses.</p><p>As well as making it easier for people to disguise their transactions from the government, Dark Wallet is also a torpedo aimed at those in the bitcoin community who have embraced co-operation with regulators.</p><p>Conceived last year and partly funded by $50,000 raised on Indiegogo, the wallet was developed by unSystem, a collective of anarchist bitcoin developers. It represents an ethos that has been largely excluded from the mainstream discourse around bitcoin.</p><p>In January of this year, Circle CEO Jeremy Allaire told CoinDesk that bitcoin was “absolutely” moving away from its libertarian roots, and described attempts to avoid the regulation of bitcoin as playing into the hands of “anarchists and criminals”.</p><footer><strong>Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</strong> <cite><a href='http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
-
-
-<p>And I personally liked this little nugget from the related article&hellip;</p>
-
-<blockquote><p>If your goals are to create a sort of shadow financial system that runs in offshore jurisdictions and is attractive for anarchists and criminals, then maybe [regulation] is not important.</p><footer><strong>Jeremy Allaire via CoinDesk</strong> <cite><a href='http://www.coindesk.com/bitcoin-abandons-anti-establishment-wall-street/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
-
-
-<p>The power to tax involves the power to destroy.</p>
-
-<p>~E</p>
-
-
-  
-
-<!-- END MARKDOWN CONTENT -->
-
-      </section>
-      <section class="post-comment">
-      <span class="comments-link">
-        <a class="comment-count" title="Bitcoin's IRS-blocking 'Dark Wallet' Launched Today" href="/technology/bitcoins-dark-wallet-launched-today.html#comments" data-disqus-url="http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today.html">Leave a comment</a>
       </section>
     </article>
   

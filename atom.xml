@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Duncan]]></title>
   <link href="http://eduncan911.com/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2016-04-01T14:35:07-04:00</updated>
+  <updated>2016-04-07T01:25:03-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,153 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Enable Bash on Windows 10 Preview]]></title>
+    <link href="http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview.html"/>
+    <updated>2016-04-03T13:13:34-04:00</updated>
+    <id>http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview</id>
+    <content type="html"><![CDATA[<p>Today I am going to outline how you can install and use the <a href="http://www.hanselman.com/blog/DevelopersCanRunBashShellAndUsermodeUbuntuLinuxBinariesOnWindows10.aspx">Linux User Mode
+(UML)</a>
+in Windows 10 based on the new <a href="https://blogs.windows.com/buildingapps/2016/03/30/run-bash-on-ubuntu-on-windows/">Windows Subsystem for Linux
+(WSL)</a>
+that was announced at Windows Build 2016.</p>
+
+<h2>Why Bother?  OS X works fine.</h2>
+
+<p>I am writing this jamming away on my Macbook Pro 15&#8221; connected to three external
+1080p 120 Hz 3D monitors, my precision mouse and CODE mechanical keyboard.  Once
+running ArchLinux for over a year, I&rsquo;ve recently went back to OS X purely for
+the user experience.  I miss my Arch installs; but, I don&rsquo;t miss the annoyances
+around docking/undocking my tri-monitor setup and switching from HiDPI and my
+1080p monitors.  It was a painful experience when disconnecting and reconnecting.</p>
+
+<p>I also ran Windows 10 natively on it for a few months as I got annoyed at VMware
+crashing Arch all the time.  I was doing my C# Mono work in my Linux VM anyways
+and not natively on Windows.  Battery life sucked with the VM though.</p>
+
+<p>OS X just nails HiDPI perfectly when docking and undocking, switching primary
+monitors, etc.</p>
+
+<p>No.  The real reason I am interested in Linux on Windows is:</p>
+
+<ul>
+<li>Going back to Desktop Development</li>
+</ul>
+
+
+<p>I have a 4.8 Ghz hex-core, 5300+ GPU core gaming beast of a machine (also
+connected to those same 3 monitors) just sitting idle, unused for months.
+ArchLinux natively on that Asus motherboard was ok; but, I miss my Windows games
+and no longer could control my TEC waterchiller (it was Windows software I wrote
+for it).</p>
+
+<p>All Windows was missing was my GNU Linux tooling.  I spent the better part of a
+week replacing all OS X versions of the tools (sed, ack, grep, etc) with the
+real GNU versions.  OS X has Homebrew; Windows now has WSL.</p>
+
+<p>To have the ability to have Linux natively available on Windows is just perfect
+for my desktop machine.</p>
+
+<p>I only develop using NeoVim + Tmux anyhow; so, I don&rsquo;t need GUI or Windows
+interactions.  I just need bash and proper screen redraw with 256 colors.<br/>
+That&rsquo;s it.</p>
+
+<h2>WLS and Linux User Mode RTM Release Date</h2>
+
+<p>It was suspiciously awkward that nothing made note of its availability; not from
+the keynote nor from Hanselman&rsquo;s and MSDN&rsquo;s introduction blog posts.  All that
+was said was that the Windows 10 Insider Preview refresh released in January
+2016 contained this new WSL platform, and that the bash tooling would be
+released for it soon.  There was even a Windows Insider/dev that noticed the new
+WSL binaries/framework available back in January, before it was announced.</p>
+
+<p>So a few of us kept poking and prodding at our MS resources, trying to get our
+hands on it.</p>
+
+<p>It turns out that you have to take a few initiatives to get your system ready
+for UML.  This experience has taught me the <em>new</em> way in which MS will be
+releasing features into Windows going forward.</p>
+
+<h2>Enough Already, How to Install It?</h2>
+
+<p>First, you can&rsquo;t install it on your existing Windows 10.  Not for some time, not
+until it is ready for public consumption.  Currently Microsoft has said it will
+be part of the Anniversary build due out this summer.</p>
+
+<p>This post is about getting access to the Insider Preview edition, before it is
+released.</p>
+
+<p>Here&rsquo;s the overview of what you need to do:</p>
+
+<ul>
+<li>Download Windows Insider Preview 14295 (14316 ISO is not out as of the time
+this writing.  But there is a Windows Update to upgrade to 14316).</li>
+<li>Install it (recommended in a VM, as Previews usually expire).</li>
+<li>Go straight to Start &ndash;> Settings &ndash;> Updates and Security.</li>
+<li>Under &ldquo;Update settings&rdquo;, click Advanced options.</li>
+<li>Under &ldquo;Get Insider Preview Builds&rdquo;, click &ldquo;Fix me&rdquo; or whatever may show here.</li>
+</ul>
+
+
+<p>You should end up with a slider, asking you to <em>Choose your insider level</em>.
+Like this:</p>
+
+<p><img src="http://eduncan911.com/blog/images/windows-insider-preview-builds.png" alt="Windows Insider Preview slider level" /></p>
+
+<p>Move it all the way to the right, for <em>Fast</em>.</p>
+
+<p>The next series of mouse-contortions is to turn on <em>Developer Mode</em>.</p>
+
+<ul>
+<li>Start &ndash;> Settings &ndash;> Update &amp; security</li>
+<li>On the left, click <strong>For developers</strong></li>
+<li>Select the option for <strong>Developer mode</strong></li>
+<li>Restart.</li>
+</ul>
+
+
+<p>You should be able to run Windows Update and see that <strong>Windows 10 Insider Preview 14316</strong> is available.</p>
+
+<p><img src="http://eduncan911.com/blog/images/windows-insider-preview-build-14316.png" alt="Windows 10 Insider Preview 14316 Update" /></p>
+
+<p>Download and install.  You may want to go make some tea.</p>
+
+<p>The final set of mouse-ninja-moves is to add the Bash features:</p>
+
+<ul>
+<li>click <strong>Start</strong> and type <em>&ldquo;Windows Features&rdquo;</em> and choose <em>&ldquo;Turn Windows
+features on or off&rdquo;</em></li>
+<li>scroll down and enable <strong><em>&ldquo;Windows Subsystem for Linux (Beta)&rdquo;</em></strong></li>
+<li>Click OK and Restart.</li>
+</ul>
+
+
+<p><img src="http://eduncan911.com/blog/images/windows-subsystem-for-linux-enabling.png" alt="Enabling Windows Subsystem for Linux" /></p>
+
+<p>You now have Linux bash (based on Ubuntu).</p>
+
+<h2>Windows 10 Bash: Let&rsquo;s Poke around</h2>
+
+<p>I wanted to end the article with a number of tools to install and get started
+with.  But sadly, I kept being greeted with the errors:</p>
+
+<pre><code>Err http://security.ubuntu.com trusty-security Release.gpg
+Could not resolve 'security.ubuntu.com'
+
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty/Release.gpg  
+Could not resolve 'archive.ubuntu.com'
+</code></pre>
+
+<p>So, no package installer works just quite yet.  Most likely a network issue or something. I&rsquo;ll debug it in the morning.</p>
+
+<p>Next up is my <strong>Inconsolata</strong> development font, Vim/NeoVim plugins I use and
+more.</p>
+
+<p>I&rsquo;ll play around for a little while and if I can become productive with my
+CLI-fu, I&rsquo;ll create another blog post about some additional features.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fix Slow Scrolling in VIM and Neovim]]></title>
@@ -1123,34 +1270,6 @@ something outta my ass every once in a while.  Going to try to get a private bet
 I can use this for some projects as well.</p>
 
 <p><cite>#HatTip <a href='http://forgetfoo.com'>ForgetFoo</a></cite></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bitcoin's IRS-blocking 'Dark Wallet' Launched Today]]></title>
-    <link href="http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today.html"/>
-    <updated>2014-05-01T14:38:13-04:00</updated>
-    <id>http://eduncan911.com/technology/bitcoins-dark-wallet-launched-today</id>
-    <content type="html"><![CDATA[<p><a href="http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/">Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</a></p>
-
-<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Ouo7Q6Cf_yc " frameborder="0" allowfullscreen></iframe></div>
-
-
-<p>I first heard about this Dark Wallet protocol a few months ago when <a href="http://pando.com/2014/03/12/moving-on-up-bitcoin-gets-a-boost-as-new-york-opens-applications-for-virtual-currency-exchange-licenses/">New York state</a> announced they are regulating Bitcoin.  And recently when the <a href="http://www.breitbart.com/Big-Government/2014/04/03/IRS-Retroactively-Taxes-Bitcoin">IRS announced it is retroactively taxing Bitcoin as property</a>, the community brought up the Dark Wallet system again.</p>
-
-<p>I have bitcoin and do not plan on paying any tax on it.  I didn&rsquo;t &ldquo;buy&rdquo; any amount using taxable USD, and don&rsquo;t see a need for &ldquo;regulation.&rdquo;  Trying to tax my Bitcoin is basically using a gun to say I need to pay a tax on the open-source software I write: it has value to a select few, and is completely useless to most.</p>
-
-<blockquote><p><img src="http://media.coindesk.com/2014/05/dark.jpg" title="'Bitcoin Dark Wallet'" ></p><p>The alpha version of Dark Wallet – the hyper-anonymising bitcoin wallet – goes live today.</p><p>Created by Amir Taaki and Cody Wilson, Dark Wallet provides new tools for financial privacy, including in-built coin mixing and ‘stealth’ wallet addresses.</p><p>As well as making it easier for people to disguise their transactions from the government, Dark Wallet is also a torpedo aimed at those in the bitcoin community who have embraced co-operation with regulators.</p><p>Conceived last year and partly funded by $50,000 raised on Indiegogo, the wallet was developed by unSystem, a collective of anarchist bitcoin developers. It represents an ethos that has been largely excluded from the mainstream discourse around bitcoin.</p><p>In January of this year, Circle CEO Jeremy Allaire told CoinDesk that bitcoin was “absolutely” moving away from its libertarian roots, and described attempts to avoid the regulation of bitcoin as playing into the hands of “anarchists and criminals”.</p><footer><strong>Hyper-Anonymising Bitcoin Service ‘Dark Wallet’ Launches Today</strong> <cite><a href='http://www.coindesk.com/hyper-anonymising-bitcoin-service-dark-wallet-launches-today/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
-
-
-<p>And I personally liked this little nugget from the related article&hellip;</p>
-
-<blockquote><p>If your goals are to create a sort of shadow financial system that runs in offshore jurisdictions and is attractive for anarchists and criminals, then maybe [regulation] is not important.</p><footer><strong>Jeremy Allaire via CoinDesk</strong> <cite><a href='http://www.coindesk.com/bitcoin-abandons-anti-establishment-wall-street/'>www.coindesk.com/&hellip;</a></cite></footer></blockquote>
-
-
-<p>The power to tax involves the power to destroy.</p>
-
-<p>~E</p>
 ]]></content>
   </entry>
   

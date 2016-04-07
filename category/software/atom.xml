@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/software/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2016-04-01T14:35:07-04:00</updated>
+  <updated>2016-04-07T01:25:03-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -12,6 +12,153 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Enable Bash on Windows 10 Preview]]></title>
+    <link href="http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview.html"/>
+    <updated>2016-04-03T13:13:34-04:00</updated>
+    <id>http://eduncan911.com/software/how-to-enable-bash-on-windows-10-preview</id>
+    <content type="html"><![CDATA[<p>Today I am going to outline how you can install and use the <a href="http://www.hanselman.com/blog/DevelopersCanRunBashShellAndUsermodeUbuntuLinuxBinariesOnWindows10.aspx">Linux User Mode
+(UML)</a>
+in Windows 10 based on the new <a href="https://blogs.windows.com/buildingapps/2016/03/30/run-bash-on-ubuntu-on-windows/">Windows Subsystem for Linux
+(WSL)</a>
+that was announced at Windows Build 2016.</p>
+
+<h2>Why Bother?  OS X works fine.</h2>
+
+<p>I am writing this jamming away on my Macbook Pro 15" connected to three external
+1080p 120 Hz 3D monitors, my precision mouse and CODE mechanical keyboard.  Once
+running ArchLinux for over a year, I&rsquo;ve recently went back to OS X purely for
+the user experience.  I miss my Arch installs; but, I don&rsquo;t miss the annoyances
+around docking/undocking my tri-monitor setup and switching from HiDPI and my
+1080p monitors.  It was a painful experience when disconnecting and reconnecting.</p>
+
+<p>I also ran Windows 10 natively on it for a few months as I got annoyed at VMware
+crashing Arch all the time.  I was doing my C# Mono work in my Linux VM anyways
+and not natively on Windows.  Battery life sucked with the VM though.</p>
+
+<p>OS X just nails HiDPI perfectly when docking and undocking, switching primary
+monitors, etc.</p>
+
+<p>No.  The real reason I am interested in Linux on Windows is:</p>
+
+<ul>
+<li>Going back to Desktop Development</li>
+</ul>
+
+
+<p>I have a 4.8 Ghz hex-core, 5300+ GPU core gaming beast of a machine (also
+connected to those same 3 monitors) just sitting idle, unused for months.
+ArchLinux natively on that Asus motherboard was ok; but, I miss my Windows games
+and no longer could control my TEC waterchiller (it was Windows software I wrote
+for it).</p>
+
+<p>All Windows was missing was my GNU Linux tooling.  I spent the better part of a
+week replacing all OS X versions of the tools (sed, ack, grep, etc) with the
+real GNU versions.  OS X has Homebrew; Windows now has WSL.</p>
+
+<p>To have the ability to have Linux natively available on Windows is just perfect
+for my desktop machine.</p>
+
+<p>I only develop using NeoVim + Tmux anyhow; so, I don&rsquo;t need GUI or Windows
+interactions.  I just need bash and proper screen redraw with 256 colors.<br/>
+That&rsquo;s it.</p>
+
+<h2>WLS and Linux User Mode RTM Release Date</h2>
+
+<p>It was suspiciously awkward that nothing made note of its availability; not from
+the keynote nor from Hanselman&rsquo;s and MSDN&rsquo;s introduction blog posts.  All that
+was said was that the Windows 10 Insider Preview refresh released in January
+2016 contained this new WSL platform, and that the bash tooling would be
+released for it soon.  There was even a Windows Insider/dev that noticed the new
+WSL binaries/framework available back in January, before it was announced.</p>
+
+<p>So a few of us kept poking and prodding at our MS resources, trying to get our
+hands on it.</p>
+
+<p>It turns out that you have to take a few initiatives to get your system ready
+for UML.  This experience has taught me the <em>new</em> way in which MS will be
+releasing features into Windows going forward.</p>
+
+<h2>Enough Already, How to Install It?</h2>
+
+<p>First, you can&rsquo;t install it on your existing Windows 10.  Not for some time, not
+until it is ready for public consumption.  Currently Microsoft has said it will
+be part of the Anniversary build due out this summer.</p>
+
+<p>This post is about getting access to the Insider Preview edition, before it is
+released.</p>
+
+<p>Here&rsquo;s the overview of what you need to do:</p>
+
+<ul>
+<li>Download Windows Insider Preview 14295 (14316 ISO is not out as of the time
+this writing.  But there is a Windows Update to upgrade to 14316).</li>
+<li>Install it (recommended in a VM, as Previews usually expire).</li>
+<li>Go straight to Start &ndash;> Settings &ndash;> Updates and Security.</li>
+<li>Under &ldquo;Update settings&rdquo;, click Advanced options.</li>
+<li>Under &ldquo;Get Insider Preview Builds&rdquo;, click &ldquo;Fix me&rdquo; or whatever may show here.</li>
+</ul>
+
+
+<p>You should end up with a slider, asking you to <em>Choose your insider level</em>.
+Like this:</p>
+
+<p><img src="/blog/images/windows-insider-preview-builds.png" alt="Windows Insider Preview slider level" /></p>
+
+<p>Move it all the way to the right, for <em>Fast</em>.</p>
+
+<p>The next series of mouse-contortions is to turn on <em>Developer Mode</em>.</p>
+
+<ul>
+<li>Start &ndash;> Settings &ndash;> Update &amp; security</li>
+<li>On the left, click <strong>For developers</strong></li>
+<li>Select the option for <strong>Developer mode</strong></li>
+<li>Restart.</li>
+</ul>
+
+
+<p>You should be able to run Windows Update and see that <strong>Windows 10 Insider Preview 14316</strong> is available.</p>
+
+<p><img src="/blog/images/windows-insider-preview-build-14316.png" alt="Windows 10 Insider Preview 14316 Update" /></p>
+
+<p>Download and install.  You may want to go make some tea.</p>
+
+<p>The final set of mouse-ninja-moves is to add the Bash features:</p>
+
+<ul>
+<li>click <strong>Start</strong> and type <em>&ldquo;Windows Features&rdquo;</em> and choose <em>&ldquo;Turn Windows
+features on or off&rdquo;</em></li>
+<li>scroll down and enable <strong><em>&ldquo;Windows Subsystem for Linux (Beta)&rdquo;</em></strong></li>
+<li>Click OK and Restart.</li>
+</ul>
+
+
+<p><img src="/blog/images/windows-subsystem-for-linux-enabling.png" alt="Enabling Windows Subsystem for Linux" /></p>
+
+<p>You now have Linux bash (based on Ubuntu).</p>
+
+<h2>Windows 10 Bash: Let&rsquo;s Poke around</h2>
+
+<p>I wanted to end the article with a number of tools to install and get started
+with.  But sadly, I kept being greeted with the errors:</p>
+
+<pre><code>Err http://security.ubuntu.com trusty-security Release.gpg
+Could not resolve 'security.ubuntu.com'
+
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty/Release.gpg  
+Could not resolve 'archive.ubuntu.com'
+</code></pre>
+
+<p>So, no package installer works just quite yet.  Most likely a network issue or something. I&rsquo;ll debug it in the morning.</p>
+
+<p>Next up is my <strong>Inconsolata</strong> development font, Vim/NeoVim plugins I use and
+more.</p>
+
+<p>I&rsquo;ll play around for a little while and if I can become productive with my
+CLI-fu, I&rsquo;ll create another blog post about some additional features.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fix Slow Scrolling in VIM and Neovim]]></title>
@@ -308,164 +455,6 @@ Audio player not available in your browser. Please try a newer browser.
 <p>I&rsquo;ll end with a final quote from our buddy Don from earlier.</p>
 
 <p><blockquote><p>Although there is much emphasis on passwords security most break-ins occur through other means. How do thieves break into systems? They usually don&rsquo;t use brute force. They phish, luring unsuspecting but helpful people to tell them their login name and password. Or they install sniffers on keyboards and record everything that was typed. The strength of passwords is irrelevant if the thief has already discovered it.</p><footer><strong>Don Norman <a href="http://jnd.org/dn.mss/when_security_gets_in_the_way.html">http://jnd.org/dn.mss/when_security_gets_in_the_way.html</a></strong></footer></blockquote></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to: Key-Based SSH Logins With PuTTY]]></title>
-    <link href="http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty.html"/>
-    <updated>2014-07-01T12:43:10-04:00</updated>
-    <id>http://eduncan911.com/software/tools/key-based-ssh-logins-with-putty</id>
-    <content type="html"><![CDATA[<p>All too often I keep Googling this procedure to sign into SSH terminals with certificate keys since I&rsquo;ve been switching to Linux for development.  Like my previous post on how to <a href="/blog/archives/create-a-bootable-usb-drive-with-windows.html">Create a Bootable USB Drive with Windows</a>, I felt it was time to write my own step-by-step guide for my future reference.</p>
-
-<p>First, let me explain why I do this.</p>
-
-<h2>Why use SSH keys to login?</h2>
-
-<p>Everyone knows you log into Windows and Linux machines with a username and password.  The obvious issue is, what happens when someone gets your username and password?  Yep, they can now login.</p>
-
-<p>What if there was a way to <em>sign</em> your specific machine, say your desktop, to only allow connections from it?  Then, combine that machine signature with yet another password (called a passphrase) for an impromptu two-factor authentication to login?  (Factor 1, the certificate key; Factor 2, your passphrase)</p>
-
-<p>That is my take on why I use SSH keys to sign into Linux machines.  You not only need my password; but, you also need my certificate.</p>
-
-<h3>Other Reasons to use SSH keys for logins</h3>
-
-<p>There are other reasons to use SSH keys for logins.  I also use them for script automation across multiple Linux machines, in which the script needs to log into the remote machine to perform commands.  The easiest way to do that is to not use a passphrase, then the user account that the script runs under will have the ssh keys added allowing them to remotely signin.  Less secure, but also less of a headache to setup.  You can still use a passphrase in your scripts, and even encrypt it so it isn&rsquo;t in the clear text.  That is beyond this post though.</p>
-
-<p>Ok, enough with reasoning &ndash; let&rsquo;s setup PuTTY now.</p>
-
-<h2>First, the PuTTY Quirks</h2>
-
-<p>PuTTY is a great app for Windows.  It&rsquo;s GUI though is a little odd and takes some getting used to.  Specifically, it is a bit quirky around the Sessions, aka Profiles that allows you to save settings for quick connections in the future (just select it, click Open and that&rsquo;s it).  Unless you hit Load, Save and Delete in the right sequence, things won&rsquo;t be loaded, saved or deleted.</p>
-
-<p>Because of this, I recommend setting up your Session profile first before we get started with SSH keys.  Nothing worse than going through all the steps to create a Session profile, and missing one step, having it all wiped out to start over.</p>
-
-<h2>Create and Save a PuTTY Session profile</h2>
-
-<p>Here&rsquo;s the steps I take to create a Session profile.</p>
-
-<ul>
-<li>Open PuTTY and you should be in the Session category on the left.</li>
-<li>For the <code>Host Name</code>, enter the DNS or IP address.  E.g. mylinuxvm.cloudapp.net</li>
-<li>Make sure <code>Port 22</code> and <code>SSH</code> options are set (usually the default).</li>
-</ul>
-
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/1-putty-create-session.png" title="Create Session Profile in PuTTY" ></p>
-
-<ul>
-<li>Set a default <code>Username</code> to login with by clicking the category <code>Connection</code> then <code>Data</code>.  Enter your username in the <code>Auto-login username</code> text box.</li>
-</ul>
-
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/2-putty-create-session.png" title="Auto-Login Username in PuTTY Session" ></p>
-
-<ul>
-<li><p>Finally, to save your Session profile, click back on the Session category on the left.  Then under the <code>Saved Sessions</code> textbox, enter a name for this session. I like to call my sessions the name of my VMs, e.g. mylinuxvm.cloudapp.net.</p></li>
-<li><p>Now, press the Save button.</p></li>
-</ul>
-
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/3-putty-create-session.png" title="Save Session Profile in PuTTY" ></p>
-
-<p>You have now created your first Session profile in PuTTY.  It&rsquo;s usually during this Save process that I may inadvertently click on one of the existing Saved Sessions, in which your profile is now completed wiped out and you have to start all over.</p>
-
-<p>It is now time to generate your Public and Private key pair that you will need to setup on the remote Linux box.</p>
-
-<h2>Generate a PuTTY Public/Private Key Pair</h2>
-
-<p>The next step is to generate the key pair that you&rsquo;ll configure your shell to use.  We do this with PuTTY&rsquo;s included <code>PUTTYGEN.EXE</code> file in the directory of where you installed/unzipped PuTTY to.</p>
-
-<p>Running <code>PUTTYGEN.EXE</code> opens a new window.</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/4-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
-
-<p>You will need to <code>Generate</code> a new public/private key pair and save both the public key and private key separately to continue.  Start by clicking the <code>Generate</code> button, and move your mouse around to generate a random key.</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/5-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
-
-<p>Once the key pair has been generated, you have a few options.  It is highly recommend to change the following:</p>
-
-<ul>
-<li>Change the <code>Key comment</code> to be your email address, or machine name.</li>
-<li>Set a passphrase, you will use this as your password when connecting each time.</li>
-</ul>
-
-
-<p>Now, it is time to save the Public key file and Private key file.  Click the buttons and save each file in a safe place.</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/6-generate-ssh-keys-in-putty.png" title="&ldquo;Generate SSH Keys in PuTTY&rdquo;" ></p>
-
-<p>CAUTION: If you are going to disable password logins for your box, and only allow SSH key logins, you will want to keep the private key in a very safe, and backed up, place as if you loose it you will loose access to the machine.</p>
-
-<h2>Take the Public key, and assign it to your Linux box</h2>
-
-<p>Now it is time to copy the contents of the Public key file and place it on the remote server.</p>
-
-<p>Load up PuTTY again and click on your Saved Session, then click Open.  Enter your normal username&rsquo;s password when you setup the Linux box when prompted &ndash; do not enter your Passphrase just yet.  If prompted for the security warning, click Yes as it is your first connection to the server.</p>
-
-<p>You are going to create an <code>authorized_keys2</code> file in your shell, and copy your public key text directly into it.</p>
-
-<p>For this, I am going to assume you already have an ~/.ssh/ directory.  If not, just create it:</p>
-
-<p><code>
-mkdir ~/.ssh
-chmod 700 ~/.ssh
-</code></p>
-
-<p>Now, create the file:</p>
-
-<p><code>
-pico ~/.ssh/authorized_keys2
-</code></p>
-
-<p>You must now paste the entire Public key, all on one line, here within the editor.  Again, make sure it is all on one line.  It should look like this:</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/7-copy-public-ssh-key-to-shell.png" title="&ldquo;Linux SSH Public Key Setup for PuTTY&rdquo;" ></p>
-
-<p>In Pico (now nano), press <code>CTRL-X</code> to exit.  It will ask you to save, press <code>Y</code> and you are done.</p>
-
-<p>It is recommended to set the permissions read/write for your user only.  To do this, execute the following:</p>
-
-<p><code>
-chmod 600 ~/.ssh/authorized_keys2
-</code></p>
-
-<p>Type <code>exit</code> or close your PuTTY, you are done with the shell.</p>
-
-<h2>Set the Private Key in your PuTTY Session Profile</h2>
-
-<p>Remember that Session profile we first created at the beginning?  Now it is time to set it up to use your new public/private key.</p>
-
-<p>Open PuTTY yet again and when prompted for which Saved session, we have to be a little careful with the quirkiness.  You will want to <code>Load</code> the Saved session first, before we can modify it.</p>
-
-<p>Select your Saved Session you previously created, and click the <code>Load</code> button.</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/8-set-private-key-in-PuTTY-for-ssh-login.png" title="&ldquo;Set SSH Private Key in PuTTY for SSH Key-Based Login&rdquo;" ></p>
-
-<p>Then on the left, click the <code>Connection -&gt; SSH -&gt; Auth</code> category.</p>
-
-<p>Click the Browse button and select the previously saved <code>Private key</code> this time.</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/9-set-private-key-in-PuTTY-for-ssh-login.png" title="&ldquo;Set SSH Private Key in PuTTY for SSH Key-Based Login&rdquo;" ></p>
-
-<p>Almost done, you need to go back and <code>Save</code> your Session profile again.  Do this by clicking the Session category on the left again.</p>
-
-<p>Simply press <code>Save</code> here.  Do nothing else. Do not click on your previous Saved Session, as this will erase what you just changed.  Do not reload it, as that will erase it again.  Yep, PuTTY quirkiness.  Just click <code>Save</code> and you are done.</p>
-
-<h2>Completed.  Now, connect.</h2>
-
-<p>Now it is time to test it.  Click on your Saved Session, and click Open.  You should be created with something similar to this:</p>
-
-<p><img src="/blog/images/key-based-ssh-logins-with-putty/10-logging-in-with-putty-ssh-key.png" title="&ldquo;Logging in with PuTTY SSH Key-Base Authentication&rdquo;" ></p>
-
-<p>Enter your passphrase you setup at the beginning of this guide, and that should be it.</p>
-
-<h2>Final Thoughts</h2>
-
-<p>While it is not recommended, you could skip the passphrase creation and leave it blank.  This can give you a kind of auto-login when connecting.  But do note, anyone who gets your private key file can log into that shell with no password as well.</p>
-
-<p>You are also able to setup multiple public keys for a single shell account by adding additional lines to that <code>authorized_keys2</code> file &ndash; one per line.  This can help segment control to multiple parties logging into the same machine (say a dev ops team that deploys &ndash; each member gets their own public/private key pair to use).  That way, you can reject a login at a later time by simply removing the line from the <code>authorized_keys2</code> file.</p>
 ]]></content>
   </entry>
   
