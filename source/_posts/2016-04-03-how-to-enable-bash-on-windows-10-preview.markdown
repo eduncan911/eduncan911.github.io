@@ -108,7 +108,7 @@ You should be able to run Windows Update and see that **Windows 10 Insider Previ
 
 Download and install.  You may want to go make some tea.
 
-The final set of mouse-ninja-moves is to add the Bash features:
+Another set of mouse-ninja-moves is to add the Bash features:
 
 * click **Start** and type *"Windows Features"* and choose *"Turn Windows
 features on or off"*
@@ -117,23 +117,29 @@ features on or off"*
 
 ![Enabling Windows Subsystem for Linux](/blog/images/windows-subsystem-for-linux-enabling.png)
 
-You now have Linux bash (based on Ubuntu).
+## Install Bash on Ubuntu On Windows
 
-## Windows 10 Bash: Let's Poke around
+If only we were done.  We now need to download and install the ***Bash on Ubuntu
+on Windows*** desktop application, which currently seems to be done via a "bash"
+command line utility.
 
-I wanted to end the article with a number of tools to install and get started
-with.  But sadly, I kept being greeted with the errors:
+* Launch Console (Start -> type "CMD" and press Enter)
+* Enter "bash" at the prompt and press "Enter".
+* Follow the prompt to download and install Ubuntu 14.04 LTS ISO.
+* Once done, ***REBOOT*** (or at least I did).
 
-    Err http://security.ubuntu.com trusty-security Release.gpg
-    Could not resolve 'security.ubuntu.com'
+Once rebooted, you now have a new Desktop app you can launch called ***Bash on
+Ubuntu on Windows***
 
-    W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty/Release.gpg  
-    Could not resolve 'archive.ubuntu.com'
+![Bash on Ubuntu on Windows desktop app](/blog/images/windows-bash-on-ubuntu-on-windows-subsystem-for-linux.png)
 
-So, no package installer works just quite yet.  Most likely a network issue or something. I'll debug it in the morning.
+I thought once I hit "y" to install bash, I was in bash.  It sure seemed like it
+but I had a few issues poking around.  I went ahead and rebooted and noticed
+a new app was installed.  
 
-Next up is my **Inconsolata** development font, Vim/NeoVim plugins I use and
-more.
+## Quirky
 
-I'll play around for a little while and if I can become productive with my
-CLI-fu, I'll create another blog post about some additional features.
+A number of things weren't working with my default installation.  I'll work on
+those and will update this post, or create another walk-through.
+
+Stay tuned!
