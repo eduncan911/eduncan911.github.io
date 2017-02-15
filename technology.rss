@@ -1,123 +1,225 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Technology : NPR</title>
     <link>http://www.npr.org/sections/technology/</link>
     <description>Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.</description>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
-    <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
-    <generator>html2podcast v0.1 (github.com/eduncan911/html2podcast)</generator>
+    <generator>go podcast v1.2.0 (github.com/eduncan911/podcast)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Feb 2017 02:02:30 +0000</lastBuildDate>
+    <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+    <image>
+      <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
+    </image>
+    <itunes:summary><![CDATA[Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed. <a href="http://www.npr.org/sections/technology/">http://www.npr.org/sections/technology/</a>]]></itunes:summary>
+    <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <item>
-      <title>Yes, &#39;World&#39;s Largest Nerf Gun&#39; Is An Actual World Record. This Engineer Made It</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/01/20170122_wesun_yes_worlds_largest_nerf_gun_is_an_actual_world_record_this_engineer_made_it.mp3?orgId=1&amp;topicId=1091&amp;d=170&amp;p=10&amp;story=511048797&amp;t=progseg&amp;e=511048747&amp;seg=9&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 22, 2017 • Mark Rober designed a huge Nerf gun to win an office Nerf war. He talks to NPR&#39;s Lulu Garcia-Navarro about how he designed it, and what happens when you get hit with a pool noodle at 40 mph. http://www.npr.org/2017/01/22/511048797/yes-worlds-largest-nerf-gun-is-an-actual-world-record-this-engineer-made-it</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/01/20170122_wesun_yes_worlds_largest_nerf_gun_is_an_actual_world_record_this_engineer_made_it.mp3?orgId=1&amp;topicId=1091&amp;d=170&amp;p=10&amp;story=511048797&amp;t=progseg&amp;e=511048747&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="170" type="audio/mpeg"></enclosure>
-      <guid>ce2ff4fbacab651761ae0ab0b4e49d33</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_if_you_build_charging_stations_will_the_electric_cars_come.mp3?orgId=1&amp;topicId=1019&amp;d=497&amp;p=2&amp;story=514517425&amp;t=progseg&amp;e=515153847&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>In America&#39;s Heartland, A Power Company Leads Charge For Electric Cars</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/14/514517425/in-americas-heartland-a-power-company-leads-charge-for-electric-cars</link>
+      <description>February 14, 2017 - Kansas City Power &amp; Light is building an ambitious, $20 million network of 1,000 charging stations. It&#39;s turning its service area into one of the fastest-growing electric vehicle markets in the U.S.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_if_you_build_charging_stations_will_the_electric_cars_come.mp3?orgId=1&amp;topicId=1019&amp;d=497&amp;p=2&amp;story=514517425&amp;t=progseg&amp;e=515153847&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="497" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/10/img_2287_wide-682f411257a2e9aaf1093ff54f7737e6b6ceeebc-s800-c15.jpg"></a>
+
+February 14, 2017 - Kansas City Power & Light is building an ambitious, $20 million network of 1,000 charging stations. It's turning its service area into one of the fastest-growing electric vehicle markets in the U.S.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/14/514517425/in-americas-heartland-a-power-company-leads-charge-for-electric-cars">http://www.npr.org/sections/alltechconsidered/2017/02/14/514517425/in-americas-heartland-a-power-company-leads-charge-for-electric-cars</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/img_2287_wide-682f411257a2e9aaf1093ff54f7737e6b6ceeebc-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>497</itunes:duration>
     </item>
     <item>
-      <title>Survey Finds Lyft Drivers Happier Than Uber, Though Pay Has Declined</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/01/21/510479642/survey-finds-lyft-drivers-happier-than-uber-though-pay-has-declined</link>
-      <description>January 21, 2017 • A survey of 1,150 drivers found that those working for Lyft made more on average than those at Uber. It also illustrates demographics of participants in the ride-hailing industry. http://www.npr.org/sections/alltechconsidered/2017/01/21/510479642/survey-finds-lyft-drivers-happier-than-uber-though-pay-has-declined</description>
-      <guid>528c57c68afa445c7cba7dc8e47ac16c</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/14/515184619/disney-company-drops-youtube-star-pewdiepie-over-anti-semitic-jokes</guid>
+      <title>Disney Company Drops YouTube Star PewDiePie Over Anti-Semitic Jokes</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/14/515184619/disney-company-drops-youtube-star-pewdiepie-over-anti-semitic-jokes</link>
+      <description>February 14, 2017 - More than 50 million people are subscribed to videos by gamer and comedian Felix Kjellberg. Now he&#39;s lost a lucrative contract with a Disney-owned firm, The Wall Street Journal reports.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/14/gettyimages-494848198_wide-fed5b08e3646c233982229ef2d532275fdcab4b2-s800-c15.jpg"></a>
+
+February 14, 2017 - More than 50 million people are subscribed to videos by gamer and comedian Felix Kjellberg. Now he's lost a lucrative contract with a Disney-owned firm, The Wall Street Journal reports.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/14/515184619/disney-company-drops-youtube-star-pewdiepie-over-anti-semitic-jokes">http://www.npr.org/sections/thetwo-way/2017/02/14/515184619/disney-company-drops-youtube-star-pewdiepie-over-anti-semitic-jokes</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gettyimages-494848198_wide-fed5b08e3646c233982229ef2d532275fdcab4b2-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>Digital Transition Of Power Is Not So Peaceful</title>
-      <link>http://www.npr.org/2017/01/20/510847064/digital-transition-of-power-is-not-so-peaceful</link>
-      <description>January 20, 2017 • As with every new administration, Donald Trump and his team took over the White House website Friday. http://www.npr.org/2017/01/20/510847064/digital-transition-of-power-is-not-so-peaceful</description>
-      <guid>84bf0785ab861d7abf1a15533cb8b04e</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/14/515172686/with-more-rain-forecast-crews-work-to-reinforce-oroville-dam</guid>
+      <title>With More Rain Forecast, Crews Work To Reinforce Oroville Dam</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/14/515172686/with-more-rain-forecast-crews-work-to-reinforce-oroville-dam</link>
+      <description>February 14, 2017 - Water damage to an emergency spillway on the Oroville Dam in Northern California prompted the evacuation of nearly 200,000 people from the area. More rain is forecast for the region this week.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/14/gettyimages-635176024_wide-bdd500bd5d684f27bff43111cc38fdce73df7b77-s800-c15.jpg"></a>
+
+February 14, 2017 - Water damage to an emergency spillway on the Oroville Dam in Northern California prompted the evacuation of nearly 200,000 people from the area. More rain is forecast for the region this week.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/14/515172686/with-more-rain-forecast-crews-work-to-reinforce-oroville-dam">http://www.npr.org/sections/thetwo-way/2017/02/14/515172686/with-more-rain-forecast-crews-work-to-reinforce-oroville-dam</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gettyimages-635176024_wide-bdd500bd5d684f27bff43111cc38fdce73df7b77-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>On The Day Of White House Transitions, Twitter Shifts @POTUS To Donald Trump</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/01/20/510784802/on-the-day-of-white-house-transitions-twitter-shifts-potus-to-donald-trump</link>
-      <description>January 20, 2017 • Twitter will automatically switch 13 million @POTUS followers to follow both the new Trump account and Barack Obama&#39;s archived @POTUS44 account. http://www.npr.org/sections/alltechconsidered/2017/01/20/510784802/on-the-day-of-white-house-transitions-twitter-shifts-potus-to-donald-trump</description>
-      <guid>b6bfb6a1bcf52aa6ae795d0bd3c2ed9c</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170212_wesun_is_donald_trump_helping_or_hurting_twitter.mp3?orgId=1&amp;topicId=1003&amp;d=250&amp;story=515024727&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Is Donald Trump Helping Or Hurting Twitter?</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/14/515024727/is-donald-trump-helping-or-hurting-twitter</link>
+      <description>February 14, 2017 - The tweeter-in-chief has brought a new level of notoriety to the social media company, but it hasn&#39;t helped Twitter&#39;s bottom line. Analysts say Trump-related harassment continues to hurt the platform.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170212_wesun_is_donald_trump_helping_or_hurting_twitter.mp3?orgId=1&amp;topicId=1003&amp;d=250&amp;story=515024727&amp;siteplayer=true&amp;dl=1" length="250" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/13/ap_17003339361851_wide-f472c167915516f0cdd45b3273e403348b3594fc-s800-c15.jpg"></a>
+
+February 14, 2017 - The tweeter-in-chief has brought a new level of notoriety to the social media company, but it hasn't helped Twitter's bottom line. Analysts say Trump-related harassment continues to hurt the platform.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/14/515024727/is-donald-trump-helping-or-hurting-twitter">http://www.npr.org/sections/alltechconsidered/2017/02/14/515024727/is-donald-trump-helping-or-hurting-twitter</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/ap_17003339361851_wide-f472c167915516f0cdd45b3273e403348b3594fc-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>250</itunes:duration>
     </item>
     <item>
-      <title>Tristram Wyatt: How Do Pheromones Really Work?</title>
-      <link>http://www.npr.org/2017/01/20/510625135/how-do-pheromones-really-work</link>
-      <description>January 19, 2017 • Pheromones are mysterious compounds that can make a mammal smell more sexy--but that&#39;s not true for humans. Zoologist Tristram Wyatt says human pheremones are hard to find. http://www.npr.org/2017/01/20/510625135/how-do-pheromones-really-work</description>
-      <guid>3161e02e8f07edd059dc8e1d673cfeb8</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_using_h-1b_visas_for_tech_workers_is_misusing_system_some_say.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=514990545&amp;t=progseg&amp;e=514941171&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Using H-1B Visas To Help Outsource IT Work Draws Criticism, Scrutiny</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/13/514990545/using-h-1b-visas-to-help-outsource-it-work-draws-criticism-scrutiny</link>
+      <description>February 13, 2017 - A number of companies and universities are cutting IT jobs and shipping them off to India. The practice has drawn scrutiny amid the debate over how H1-B visas for high-skilled workers are used.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_using_h-1b_visas_for_tech_workers_is_misusing_system_some_say.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=514990545&amp;t=progseg&amp;e=514941171&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="215" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/13/gettyimages-521101912_wide-adb09ba50fec37a381a469300a03df605750389f-s800-c15.jpg"></a>
+
+February 13, 2017 - A number of companies and universities are cutting IT jobs and shipping them off to India. The practice has drawn scrutiny amid the debate over how H1-B visas for high-skilled workers are used.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/13/514990545/using-h-1b-visas-to-help-outsource-it-work-draws-criticism-scrutiny">http://www.npr.org/sections/alltechconsidered/2017/02/13/514990545/using-h-1b-visas-to-help-outsource-it-work-draws-criticism-scrutiny</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/gettyimages-521101912_wide-adb09ba50fec37a381a469300a03df605750389f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>215</itunes:duration>
     </item>
     <item>
-      <title>Expletive-Laden Speech By Steelers&#39; Coach Streamed On Facebook Live</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/01/20170117_me_expletive-laden_speech_by_steelers_head_coach_streamed_on_facebook_live.mp3?orgId=1&amp;topicId=1055&amp;d=134&amp;p=3&amp;story=510204514&amp;t=progseg&amp;e=510187067&amp;seg=8&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 17, 2017 • Pittsburgh head coach Mike Tomlin warned his players to keep a low profile on social media in the run-up to Sunday&#39;s playoff game. Antonio Brown surreptitiously streamed the speech on Facebook Live. http://www.npr.org/2017/01/17/510204514/expletive-laden-speech-by-steelers-coach-streamed-on-facebook-live</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/01/20170117_me_expletive-laden_speech_by_steelers_head_coach_streamed_on_facebook_live.mp3?orgId=1&amp;topicId=1055&amp;d=134&amp;p=3&amp;story=510204514&amp;t=progseg&amp;e=510187067&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="134" type="audio/mpeg"></enclosure>
-      <guid>e4fb0f0f12e39c73fb1e14017a1c8062</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_rollout_of_chevy_bolt_may_mark_turning_point_for_electric_car_market.mp3?orgId=1&amp;topicId=1019&amp;d=472&amp;p=2&amp;story=514513439&amp;t=progseg&amp;e=514941171&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Rollout Of Chevy Bolt May Mark Turning Point For Electric Car Market</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/13/514513439/rollout-of-chevy-bolt-may-mark-turning-point-for-electric-car-market</link>
+      <description>February 13, 2017 - The Chevy Bolt can go 238 miles on a single charge and costs about $30,000, after a federal tax credit. But the clean-car industry needs government support to thrive, and that&#39;s far from certain.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_rollout_of_chevy_bolt_may_mark_turning_point_for_electric_car_market.mp3?orgId=1&amp;topicId=1019&amp;d=472&amp;p=2&amp;story=514513439&amp;t=progseg&amp;e=514941171&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="472" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/10/ap_16250457875397_wide-592af7e1d2ba089543122d0f19347fd82efdcf7c-s800-c15.jpg"></a>
+
+February 13, 2017 - The Chevy Bolt can go 238 miles on a single charge and costs about $30,000, after a federal tax credit. But the clean-car industry needs government support to thrive, and that's far from certain.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/13/514513439/rollout-of-chevy-bolt-may-mark-turning-point-for-electric-car-market">http://www.npr.org/sections/alltechconsidered/2017/02/13/514513439/rollout-of-chevy-bolt-may-mark-turning-point-for-electric-car-market</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/ap_16250457875397_wide-592af7e1d2ba089543122d0f19347fd82efdcf7c-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>472</itunes:duration>
     </item>
     <item>
-      <title>Takeaways From The Day Dyn Was Attacked And We Couldn&#39;t Tweet</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170116_atc_dyn_and_denial_of_service_attacks.mp3?orgId=1&amp;topicId=1019&amp;d=186&amp;p=2&amp;story=510128857&amp;t=progseg&amp;e=510053091&amp;seg=7&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 16, 2017 • Last October, a cyber attack made it hard for people to access Twitter, Netflix, Spotify and other popular sites. Here&#39;s what we learned from that massive &#34;distributed denial of service,&#34; attack. http://www.npr.org/2017/01/16/510128857/takeaways-from-the-day-dyn-was-attacked-and-we-couldnt-tweet</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170116_atc_dyn_and_denial_of_service_attacks.mp3?orgId=1&amp;topicId=1019&amp;d=186&amp;p=2&amp;story=510128857&amp;t=progseg&amp;e=510053091&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="186" type="audio/mpeg"></enclosure>
-      <guid>d96ad97d347b778757a3e097f538fd85</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/02/13/514988364/a-40-000-drone-failed-to-lift-off-but-there-was-a-silver-lining</guid>
+      <title>A $40,000 Drone Failed To Lift Off. But There Was A Silver Lining</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/02/13/514988364/a-40-000-drone-failed-to-lift-off-but-there-was-a-silver-lining</link>
+      <description>February 13, 2017 - A drone test in a remote Amazonian village in Peru failed. And that, says one of the testers, was the best possible outcome.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/13/perudec16-0409-img_8276_wide-c488cd1eedbf968edc9fa9999756b4ef0eae3b78-s800-c15.jpg"></a>
+
+February 13, 2017 - A drone test in a remote Amazonian village in Peru failed. And that, says one of the testers, was the best possible outcome.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/02/13/514988364/a-40-000-drone-failed-to-lift-off-but-there-was-a-silver-lining">http://www.npr.org/sections/goatsandsoda/2017/02/13/514988364/a-40-000-drone-failed-to-lift-off-but-there-was-a-silver-lining</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/perudec16-0409-img_8276_wide-c488cd1eedbf968edc9fa9999756b4ef0eae3b78-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>&#39;Robot Lawyer&#39; Makes The Case Against Parking Tickets</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170116_atc_robot_lawyer_makes_the_case_against_parking_tickets.mp3?orgId=1&amp;topicId=1019&amp;d=284&amp;p=2&amp;story=510096767&amp;t=progseg&amp;e=510053091&amp;seg=8&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 16, 2017 • The online service DoNotPay has helped motorists in London, New York City and Seattle overturn more than 200,000 parking tickets, the creator says. Now, the service is expanding across the U.S. http://www.npr.org/2017/01/16/510096767/robot-lawyer-makes-the-case-against-parking-tickets</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170116_atc_robot_lawyer_makes_the_case_against_parking_tickets.mp3?orgId=1&amp;topicId=1019&amp;d=284&amp;p=2&amp;story=510096767&amp;t=progseg&amp;e=510053091&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="284" type="audio/mpeg"></enclosure>
-      <guid>9e43506848e09d9aae1fefe0d2028a38</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170213_fa_01.mp3?orgId=427869011&amp;topicId=1033&amp;d=1829&amp;p=13&amp;story=514322899&amp;t=progseg&amp;e=514984649&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>&#39;Aisles Have Eyes&#39; Warns That Brick-And-Mortar Stores Are Watching You</title>
+      <link>http://www.npr.org/2017/02/13/514322899/aisles-have-eyes-warns-that-brick-and-mortar-stores-are-watching-you</link>
+      <description>February 13, 2017 - Consumers have grown accustomed to the idea of online retailers collecting information about them, but author Joseph Turow says that now physical stores are doing it too.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170213_fa_01.mp3?orgId=427869011&amp;topicId=1033&amp;d=1829&amp;p=13&amp;story=514322899&amp;t=progseg&amp;e=514984649&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="1829" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[February 13, 2017 - Consumers have grown accustomed to the idea of online retailers collecting information about them, but author Joseph Turow says that now physical stores are doing it too.
+
+<a href="http://www.npr.org/2017/02/13/514322899/aisles-have-eyes-warns-that-brick-and-mortar-stores-are-watching-you">http://www.npr.org/2017/02/13/514322899/aisles-have-eyes-warns-that-brick-and-mortar-stores-are-watching-you</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>1829</itunes:duration>
     </item>
     <item>
-      <title>Spider Silk Is Stronger Than Steel — And Now It Can Be Made In A Lab</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/01/20170114_wesat_synthetic_spider_silk.mp3?orgId=1&amp;topicId=1007&amp;d=211&amp;p=7&amp;story=509807212&amp;t=progseg&amp;e=509806998&amp;seg=10&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 14, 2017 • Swedish scientist Dr. Anna Rising was among a team of researchers to discover how to synthesize artificial spider silk. She says they hope to use the strong silk in medical applications and textiles. http://www.npr.org/2017/01/14/509807212/spider-silk-is-stronger-than-steel-and-now-it-can-be-made-in-a-lab</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/01/20170114_wesat_synthetic_spider_silk.mp3?orgId=1&amp;topicId=1007&amp;d=211&amp;p=7&amp;story=509807212&amp;t=progseg&amp;e=509806998&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="211" type="audio/mpeg"></enclosure>
-      <guid>2d7933a418e07b7b6759fd7cd7113fbc</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/12/514386766/reading-the-game-the-flame-in-the-flood</guid>
+      <title>Reading The Game: The Flame In The Flood</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/12/514386766/reading-the-game-the-flame-in-the-flood</link>
+      <description>February 12, 2017 - In The Flame in the Flood, you play as a young girl surviving in a post-apocalyptic landscape, floating down a river on an improvised raft, with nothing but your wits and your faithful dog beside you.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/09/wolf_shanty_a_wide-e60b5e595a12c5bf9d19937c23cd70072a3f9eb3-s800-c15.jpg"></a>
+
+February 12, 2017 - In The Flame in the Flood, you play as a young girl surviving in a post-apocalyptic landscape, floating down a river on an improvised raft, with nothing but your wits and your faithful dog beside you.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/12/514386766/reading-the-game-the-flame-in-the-flood">http://www.npr.org/sections/alltechconsidered/2017/02/12/514386766/reading-the-game-the-flame-in-the-flood</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/09/wolf_shanty_a_wide-e60b5e595a12c5bf9d19937c23cd70072a3f9eb3-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>Takata To Pay $1 Billion Over Air Bag Fraud; 3 Executives Criminally Charged</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/01/13/509665912/takata-to-pay-1-billion-over-airbag-fraud-3-executives-criminally-charged</link>
-      <description>January 13, 2017 • The settlement with the Justice Department is tied to a deadly defect in air bags that has been linked to at least 16 deaths. The associated recall is the largest in U.S. auto safety history. http://www.npr.org/sections/thetwo-way/2017/01/13/509665912/takata-to-pay-1-billion-over-airbag-fraud-3-executives-criminally-charged</description>
-      <guid>bf8826cbd09cbca6208c38cec37f182c</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170211_atc_new_fcc_chief.mp3?orgId=1&amp;topicId=1019&amp;d=236&amp;p=2&amp;story=514732239&amp;t=progseg&amp;e=514731658&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Ajit Pai Starts To Roll Back Latest Internet Regulations From Obama&#39;s Team</title>
+      <link>http://www.npr.org/2017/02/11/514732239/ajit-pai-starts-to-roll-back-latest-internet-regulations-from-obamas-team</link>
+      <description>February 11, 2017 - The new head of the Federal Communications Commission has taken steps to unravel many of his predecessor&#39;s policies. These changes might directly affect consumers and their access to the Internet.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170211_atc_new_fcc_chief.mp3?orgId=1&amp;topicId=1019&amp;d=236&amp;p=2&amp;story=514732239&amp;t=progseg&amp;e=514731658&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="236" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[February 11, 2017 - The new head of the Federal Communications Commission has taken steps to unravel many of his predecessor's policies. These changes might directly affect consumers and their access to the Internet.
+
+<a href="http://www.npr.org/2017/02/11/514732239/ajit-pai-starts-to-roll-back-latest-internet-regulations-from-obamas-team">http://www.npr.org/2017/02/11/514732239/ajit-pai-starts-to-roll-back-latest-internet-regulations-from-obamas-team</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>236</itunes:duration>
     </item>
     <item>
-      <title>Avi Rubin: What Happens When Hackers Hijack Our Smart Devices?</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/01/20170112_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=696&amp;p=57&amp;story=509355546&amp;t=progseg&amp;e=509349587&amp;seg=3&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 13, 2017 • Computer scientist Avi Rubin says all our smart devices — cars, phones, even fitness trackers — can be hacked. He warns that our network of connected technology puts us at risk for cyberattacks. http://www.npr.org/2017/01/13/509355546/what-happens-when-hackers-hijack-our-smart-devices</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/01/20170112_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=696&amp;p=57&amp;story=509355546&amp;t=progseg&amp;e=509349587&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="696" type="audio/mpeg"></enclosure>
-      <guid>2c07c6e6be3d13233750e7d3fbe1d568</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_wired_declares_coding_as_next_blue-collar_job_boom.mp3?orgId=1&amp;topicId=1019&amp;d=237&amp;p=2&amp;story=514566974&amp;t=progseg&amp;e=514465135&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
+      <title>&#39;Wired&#39; Declares Coding As Next Blue-Collar Job Boom</title>
+      <link>http://www.npr.org/2017/02/10/514566974/wired-declares-coding-as-next-blue-collar-job-boom</link>
+      <description>February 10, 2017 - This week, an article in Wired declared, &#34;The Next Big Blue-Collar Job Is Coding.&#34; NPR&#39;s Kelly McEvers speaks with reporter Clive Thompson about the article.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_wired_declares_coding_as_next_blue-collar_job_boom.mp3?orgId=1&amp;topicId=1019&amp;d=237&amp;p=2&amp;story=514566974&amp;t=progseg&amp;e=514465135&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="237" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[February 10, 2017 - This week, an article in Wired declared, "The Next Big Blue-Collar Job Is Coding." NPR's Kelly McEvers speaks with reporter Clive Thompson about the article.
+
+<a href="http://www.npr.org/2017/02/10/514566974/wired-declares-coding-as-next-blue-collar-job-boom">http://www.npr.org/2017/02/10/514566974/wired-declares-coding-as-next-blue-collar-job-boom</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>237</itunes:duration>
     </item>
     <item>
-      <title>Wanis Kabbaj: Can We Improve Our Transportation Network Using...Biology? </title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/01/20170112_ted_02.mp3?orgId=1&amp;topicId=1008&amp;d=691&amp;p=57&amp;story=509353176&amp;t=progseg&amp;e=509349587&amp;seg=2&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 13, 2017 • Wanis Kabbaj wants traffic to flow smoothly and efficiently, like the blood in our veins. He says driverless cars may be the solution to today&#39;s highway gridlock. http://www.npr.org/2017/01/13/509353176/can-we-improve-our-transportation-network-using-biology</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/01/20170112_ted_02.mp3?orgId=1&amp;topicId=1008&amp;d=691&amp;p=57&amp;story=509353176&amp;t=progseg&amp;e=509349587&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="691" type="audio/mpeg"></enclosure>
-      <guid>0ecb6e149572bd2892f910cb447686e0</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_migrant_hire_connects_refugees_to_german_tech_industry.mp3?orgId=1&amp;topicId=1124&amp;d=227&amp;p=2&amp;story=514566961&amp;t=progseg&amp;e=514465135&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>&#39;Migrant Hire&#39; Connects Refugees To German Tech Industry</title>
+      <link>http://www.npr.org/2017/02/10/514566961/migrant-hire-connects-refugees-to-german-tech-industry</link>
+      <description>February 10, 2017 - With an aging population and skilled labor shortage, German industry leaders view the almost million migrants who have arrived since 2015 as an opportunity. But integrating them quickly into the labor market is a challenge. Syrian refugee Hussein Shaker may have the answer. He&#39;s founded Migrant Hire, a website that helps refugees with software development skills obtain jobs in the capital&#39;s lively tech scene.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_migrant_hire_connects_refugees_to_german_tech_industry.mp3?orgId=1&amp;topicId=1124&amp;d=227&amp;p=2&amp;story=514566961&amp;t=progseg&amp;e=514465135&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="227" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[February 10, 2017 - With an aging population and skilled labor shortage, German industry leaders view the almost million migrants who have arrived since 2015 as an opportunity. But integrating them quickly into the labor market is a challenge. Syrian refugee Hussein Shaker may have the answer. He's founded Migrant Hire, a website that helps refugees with software development skills obtain jobs in the capital's lively tech scene.
+
+<a href="http://www.npr.org/2017/02/10/514566961/migrant-hire-connects-refugees-to-german-tech-industry">http://www.npr.org/2017/02/10/514566961/migrant-hire-connects-refugees-to-german-tech-industry</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>227</itunes:duration>
     </item>
     <item>
-      <title>EPA Accuses Fiat Chrysler Of Installing Emissions-Cheating Software </title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/01/12/509493597/epa-accuses-fiat-chrysler-of-installing-emissions-cheating-software</link>
-      <description>January 12, 2017 • The Environmental Protection Agency says Fiat Chrysler violated the Clean Air Act by allegedly installing software in about 104,000 vehicles that masked the true level of emissions. http://www.npr.org/sections/thetwo-way/2017/01/12/509493597/epa-accuses-fiat-chrysler-of-installing-emissions-cheating-software</description>
-      <guid>c94196d73558aad66e2ac7f22634fe1c</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world</guid>
+      <title>Denmark&#39;s Foreign Service Will Soon Send An Ambassador To The Tech World</title>
+      <link>http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world</link>
+      <description>February 10, 2017 - Danish Foreign Minister Anders Samuelsen says the new diplomatic post is a nod to the digital world&#39;s impact on people&#39;s day-to-day lives, which he says is greater than most nations&#39; impact.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/09/denmark-parliament_wide-98e80ce960a02d49021e2841822f5a2f984f250c-s800-c15.jpg"></a>
+
+February 10, 2017 - Danish Foreign Minister Anders Samuelsen says the new diplomatic post is a nod to the digital world's impact on people's day-to-day lives, which he says is greater than most nations' impact.
+
+<a href="http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world">http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/09/denmark-parliament_wide-98e80ce960a02d49021e2841822f5a2f984f250c-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>Rudy Giuliani To Advise Trump On Cyber Issues</title>
-      <link>http://www.npr.org/2017/01/12/509485046/rudy-giuliani-to-advise-trump-on-cyber-issues</link>
-      <description>January 12, 2017 • The president-elect plans to issue a report in 90 days on how the government can improve cyber security. http://www.npr.org/2017/01/12/509485046/rudy-giuliani-to-advise-trump-on-cyber-issues</description>
-      <guid>2188caef6a4d13422dee15743101a065</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170210_ted_05.mp3?orgId=1&amp;topicId=1128&amp;d=709&amp;p=57&amp;story=514158225&amp;t=progseg&amp;e=514121462&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Can The Internet Help You Get The Right Diagnosis?</title>
+      <link>http://www.npr.org/2017/02/10/514158225/can-the-internet-help-you-get-the-right-diagnosis</link>
+      <description>February 10, 2017 - Doctors told Jen Brea that her symptoms were psychosomatic, so she filmed herself and turned to the Internet for guidance. She describes how her online community helped her find the right diagnosis.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170210_ted_05.mp3?orgId=1&amp;topicId=1128&amp;d=709&amp;p=57&amp;story=514158225&amp;t=progseg&amp;e=514121462&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="709" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/08/jenniferbrea_2016t-embed_wide-0ba46839ac0f520fb9ffae926fb328ed05c700bd-s800-c15.jpg"></a>
+
+February 10, 2017 - Doctors told Jen Brea that her symptoms were psychosomatic, so she filmed herself and turned to the Internet for guidance. She describes how her online community helped her find the right diagnosis.
+
+<a href="http://www.npr.org/2017/02/10/514158225/can-the-internet-help-you-get-the-right-diagnosis">http://www.npr.org/2017/02/10/514158225/can-the-internet-help-you-get-the-right-diagnosis</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/jenniferbrea_2016t-embed_wide-0ba46839ac0f520fb9ffae926fb328ed05c700bd-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>709</itunes:duration>
     </item>
     <item>
-      <title>In Social Media Age, Young Cops Get Trained For Real-Life Conversation</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/01/20170112_me_cops_get_a_new_type_of_training_conversation.mp3?orgId=1&amp;topicId=1091&amp;d=286&amp;p=3&amp;story=509444309&amp;t=progseg&amp;e=509444204&amp;seg=11&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 12, 2017 • Some police officials say their millennial-aged recruits are so used to communicating using social media that they need training in talking with people face to face. http://www.npr.org/sections/alltechconsidered/2017/01/12/509444309/in-social-media-age-young-cops-get-trained-for-real-life-conversation</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/01/20170112_me_cops_get_a_new_type_of_training_conversation.mp3?orgId=1&amp;topicId=1091&amp;d=286&amp;p=3&amp;story=509444309&amp;t=progseg&amp;e=509444204&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="286" type="audio/mpeg"></enclosure>
-      <guid>b6b39cb25a330d4703a0414a1b27390d</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:13 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170210_me_self-driving_cars_could_ease_our_commutes_but_thatll_take_a_while.mp3?orgId=1&amp;topicId=1019&amp;d=222&amp;p=3&amp;story=514091049&amp;t=progseg&amp;e=514458569&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Self-Driving Cars Could Ease Our Commutes, But That&#39;ll Take A While</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/10/514091049/self-driving-cars-could-ease-our-commutes-but-thatll-take-a-while</link>
+      <description>February 10, 2017 - One of the promises of autonomous vehicles is that they&#39;ll reduce traffic jams. Self-driving cars will bring many changes, but traffic flows won&#39;t improve until enough human drivers are off the roads.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170210_me_self-driving_cars_could_ease_our_commutes_but_thatll_take_a_while.mp3?orgId=1&amp;topicId=1019&amp;d=222&amp;p=3&amp;story=514091049&amp;t=progseg&amp;e=514458569&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="222" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/08/gettyimages-605519688_wide-46a2ce471b5e8da23ec6757dc3810f0c22ba43a5-s800-c15.jpg"></a>
+
+February 10, 2017 - One of the promises of autonomous vehicles is that they'll reduce traffic jams. Self-driving cars will bring many changes, but traffic flows won't improve until enough human drivers are off the roads.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/10/514091049/self-driving-cars-could-ease-our-commutes-but-thatll-take-a-while">http://www.npr.org/sections/alltechconsidered/2017/02/10/514091049/self-driving-cars-could-ease-our-commutes-but-thatll-take-a-while</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/gettyimages-605519688_wide-46a2ce471b5e8da23ec6757dc3810f0c22ba43a5-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>222</itunes:duration>
     </item>
   </channel>
 </rss>

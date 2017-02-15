@@ -1,121 +1,221 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Science : NPR</title>
     <link>http://www.npr.org/sections/science/</link>
     <description>The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp;amp; Science podcast.</description>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
-    <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
-    <generator>html2podcast v0.1 (github.com/eduncan911/html2podcast)</generator>
+    <generator>go podcast v1.2.0 (github.com/eduncan911/podcast)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Feb 2017 02:02:31 +0000</lastBuildDate>
+    <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+    <itunes:summary><![CDATA[The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp; Science podcast. <a href="http://www.npr.org/sections/science/">http://www.npr.org/sections/science/</a>]]></itunes:summary>
     <item>
-      <title>Yes, &#39;World&#39;s Largest Nerf Gun&#39; Is An Actual World Record. This Engineer Made It</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/01/20170122_wesun_yes_worlds_largest_nerf_gun_is_an_actual_world_record_this_engineer_made_it.mp3?orgId=1&amp;topicId=1091&amp;d=170&amp;p=10&amp;story=511048797&amp;t=progseg&amp;e=511048747&amp;seg=9&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 22, 2017 • Mark Rober designed a huge Nerf gun to win an office Nerf war. He talks to NPR&#39;s Lulu Garcia-Navarro about how he designed it, and what happens when you get hit with a pool noodle at 40 mph. http://www.npr.org/2017/01/22/511048797/yes-worlds-largest-nerf-gun-is-an-actual-world-record-this-engineer-made-it</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/01/20170122_wesun_yes_worlds_largest_nerf_gun_is_an_actual_world_record_this_engineer_made_it.mp3?orgId=1&amp;topicId=1091&amp;d=170&amp;p=10&amp;story=511048797&amp;t=progseg&amp;e=511048747&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="170" type="audio/mpeg"></enclosure>
-      <guid>ce2ff4fbacab651761ae0ab0b4e49d33</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_scientific_panel_says_editing_heritable_human_genes_could_be_ok_in_the_future.mp3?orgId=1&amp;topicId=1128&amp;d=252&amp;p=2&amp;story=514580162&amp;t=progseg&amp;e=515153847&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Scientific Panel Says Editing Heritable Human Genes Could Be OK In The Future</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/14/514580162/scientific-panel-says-editing-heritable-human-genes-could-be-ok-in-the-future</link>
+      <description>February 14, 2017 - The National Academy of Medicine and National Academy of Sciences say a long-standing taboo on editing human genes could be lifted — even if the changes can be carried through to future generations.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_scientific_panel_says_editing_heritable_human_genes_could_be_ok_in_the_future.mp3?orgId=1&amp;topicId=1128&amp;d=252&amp;p=2&amp;story=514580162&amp;t=progseg&amp;e=515153847&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="252" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/14/human-egg_wide-3f501b592f37b8713f1322e19a0b45d7f69d7167-s800-c15.jpg"></a>
+
+February 14, 2017 - The National Academy of Medicine and National Academy of Sciences say a long-standing taboo on editing human genes could be lifted — even if the changes can be carried through to future generations.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/14/514580162/scientific-panel-says-editing-heritable-human-genes-could-be-ok-in-the-future">http://www.npr.org/sections/health-shots/2017/02/14/514580162/scientific-panel-says-editing-heritable-human-genes-could-be-ok-in-the-future</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/human-egg_wide-3f501b592f37b8713f1322e19a0b45d7f69d7167-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>252</itunes:duration>
     </item>
     <item>
-      <title>How To Use Math To Pick A Favorite Football Team</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/01/20170122_wesun_how_to_use_math_to_pick_a_favorite_football_team.mp3?orgId=1&amp;topicId=1055&amp;d=297&amp;p=10&amp;story=511048783&amp;t=progseg&amp;e=511048747&amp;seg=6&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 22, 2017 • If your team leaves town, don&#39;t cry. Just pick a new team to root for. NPR&#39;s Lulu Garcia-Navarro speaks to FiveThirtyEight&#39;s Blythe Terrell about the math analysis that led her to find her new team. http://www.npr.org/2017/01/22/511048783/how-to-use-math-to-pick-a-favorite-football-team</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/01/20170122_wesun_how_to_use_math_to_pick_a_favorite_football_team.mp3?orgId=1&amp;topicId=1055&amp;d=297&amp;p=10&amp;story=511048783&amp;t=progseg&amp;e=511048747&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="297" type="audio/mpeg"></enclosure>
-      <guid>f93984713e3211773fbef121ec547769</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/14/515032512/iron-age-potters-carefully-recorded-earths-magnetic-field-by-accident</guid>
+      <title>Iron Age Potters Carefully Recorded Earth&#39;s Magnetic Field — By Accident</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/14/515032512/iron-age-potters-carefully-recorded-earths-magnetic-field-by-accident</link>
+      <description>February 14, 2017 - The planet&#39;s magnetic field is weakening. Scientists aren&#39;t sure why, but studying ancient jars could help them find out. The ceramics provide a remarkable window onto Earth&#39;s magnetic past.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/13/16-15797large2_wide-3ddccf4f45adae92d4c63e4b278be7afc0fb3906-s800-c15.jpg"></a>
+
+February 14, 2017 - The planet's magnetic field is weakening. Scientists aren't sure why, but studying ancient jars could help them find out. The ceramics provide a remarkable window onto Earth's magnetic past.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/14/515032512/iron-age-potters-carefully-recorded-earths-magnetic-field-by-accident">http://www.npr.org/sections/thetwo-way/2017/02/14/515032512/iron-age-potters-carefully-recorded-earths-magnetic-field-by-accident</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/16-15797large2_wide-3ddccf4f45adae92d4c63e4b278be7afc0fb3906-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>Haight Ashbury&#39;s Free Health Clinic Still Groovy</title>
-      <link>http://www.npr.org/sections/health-shots/2017/01/22/510622207/haight-ashburys-free-health-clinic-middle-aged-and-still-groovy</link>
-      <description>January 22, 2017 • A series of mergers with other nonprofit clinics has transformed the 50-year-old San Francisco clinic into a $110 million health care system that provides networked care up and down California. http://www.npr.org/sections/health-shots/2017/01/22/510622207/haight-ashburys-free-health-clinic-middle-aged-and-still-groovy</description>
-      <guid>0d2d33cff6887097982cd24c62bc8ea7</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/02/14/512875686/from-vector-to-zoonotic-a-glossary-for-infectious-diseases</guid>
+      <title>From Vector To Zoonotic: A Glossary For Infectious Diseases</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/02/14/512875686/from-vector-to-zoonotic-a-glossary-for-infectious-diseases</link>
+      <description>February 14, 2017 - The world of infectious diseases has more than a few words and phrases you might want to know more about. We&#39;ve got definitions for 11 key terms.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/01/vectors_final_vibrance-20_wide-29a8391d6bc11319a8260facbaa80f4943aa0253-s800-c15.jpg"></a>
+
+February 14, 2017 - The world of infectious diseases has more than a few words and phrases you might want to know more about. We've got definitions for 11 key terms.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/02/14/512875686/from-vector-to-zoonotic-a-glossary-for-infectious-diseases">http://www.npr.org/sections/goatsandsoda/2017/02/14/512875686/from-vector-to-zoonotic-a-glossary-for-infectious-diseases</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/01/vectors_final_vibrance-20_wide-29a8391d6bc11319a8260facbaa80f4943aa0253-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>David Linden: The Science Of Touching And Feeling</title>
-      <link>http://www.npr.org/2017/01/20/510627341/why-is-it-important-to-be-touched</link>
-      <description>January 19, 2017 • Neuroscientist David Linden thinks that of the five senses, touch is the most overlooked, and perhaps the most important for promoting psychological health. http://www.npr.org/2017/01/20/510627341/why-is-it-important-to-be-touched</description>
-      <guid>84115b11342185be765a28fae12a1409</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_why_killer_viruses_are_on_the_rise.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=497&amp;p=2&amp;story=511227050&amp;t=progseg&amp;e=515153847&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Why Killer Viruses Are On The Rise</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/02/14/511227050/why-killer-viruses-are-on-the-rise</link>
+      <description>February 14, 2017 - If you think there are more dangerous infectious diseases than ever, you&#39;re right. One big reason: pushing animals like this one out of their homes.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_why_killer_viruses_are_on_the_rise.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=497&amp;p=2&amp;story=511227050&amp;t=progseg&amp;e=515153847&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="497" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/01/31/deepforest-0-1_wide-51e192a49bd9b88a3f955d6d871df7e557080be3-s800-c15.jpg"></a>
+
+February 14, 2017 - If you think there are more dangerous infectious diseases than ever, you're right. One big reason: pushing animals like this one out of their homes.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/02/14/511227050/why-killer-viruses-are-on-the-rise">http://www.npr.org/sections/goatsandsoda/2017/02/14/511227050/why-killer-viruses-are-on-the-rise</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/01/31/deepforest-0-1_wide-51e192a49bd9b88a3f955d6d871df7e557080be3-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>497</itunes:duration>
     </item>
     <item>
-      <title>Tristram Wyatt: How Do Pheromones Really Work?</title>
-      <link>http://www.npr.org/2017/01/20/510625135/how-do-pheromones-really-work</link>
-      <description>January 19, 2017 • Pheromones are mysterious compounds that can make a mammal smell more sexy--but that&#39;s not true for humans. Zoologist Tristram Wyatt says human pheremones are hard to find. http://www.npr.org/2017/01/20/510625135/how-do-pheromones-really-work</description>
-      <guid>3161e02e8f07edd059dc8e1d673cfeb8</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>http://www.npr.org/2017/02/14/514578429/hookup-culture-the-unspoken-rules-of-sex-on-college-campuses</guid>
+      <title>Hookup Culture: The Unspoken Rules of Sex on College Campuses</title>
+      <link>http://www.npr.org/2017/02/14/514578429/hookup-culture-the-unspoken-rules-of-sex-on-college-campuses</link>
+      <description>February 14, 2017 - Research suggests that college students are not having more sex than their parents were a generation ago. But sociologist Lisa Wade says the culture around sex has changed dramatically.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/13/gettyimages-534985024-3-_wide-6aa3c9329548391fb1118c80a70b6e131e0c979e-s800-c15.jpg"></a>
+
+February 14, 2017 - Research suggests that college students are not having more sex than their parents were a generation ago. But sociologist Lisa Wade says the culture around sex has changed dramatically.
+
+<a href="http://www.npr.org/2017/02/14/514578429/hookup-culture-the-unspoken-rules-of-sex-on-college-campuses">http://www.npr.org/2017/02/14/514578429/hookup-culture-the-unspoken-rules-of-sex-on-college-campuses</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/gettyimages-534985024-3-_wide-6aa3c9329548391fb1118c80a70b6e131e0c979e-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>Nicole Garneau: Are There More Than Five Basic Tastes?</title>
-      <link>http://www.npr.org/2017/01/20/510621715/are-there-more-than-five-basic-tastes</link>
-      <description>January 19, 2017 • Scientists have long believed we have just five tastes - salty, sweet, bitter, sour and umami (or savory). Geneticist Nicole Garneau argues we might be able to taste a sixth — fat. http://www.npr.org/2017/01/20/510621715/are-there-more-than-five-basic-tastes</description>
-      <guid>a08b65f71890e0de3485a1520f5f9014</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/13/515057834/90-percent-of-fish-we-use-for-fishmeal-could-be-used-to-feed-humans-instead</guid>
+      <title>90 Percent Of Fish We Use For Fishmeal Could Be Used To Feed Humans Instead</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/13/515057834/90-percent-of-fish-we-use-for-fishmeal-could-be-used-to-feed-humans-instead</link>
+      <description>February 13, 2017 - Currently, one-fourth of all fish caught globally goes to produce fishmeal and fish oil for farmed seafood, pigs and chickens. A lot of it is &#34;food grade&#34; and could be feeding the world&#39;s hungry.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/13/anchovy2_wide-f5f821adfb32e3fd0f10619479c1098d23923169-s800-c15.jpg"></a>
+
+February 13, 2017 - Currently, one-fourth of all fish caught globally goes to produce fishmeal and fish oil for farmed seafood, pigs and chickens. A lot of it is "food grade" and could be feeding the world's hungry.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/13/515057834/90-percent-of-fish-we-use-for-fishmeal-could-be-used-to-feed-humans-instead">http://www.npr.org/sections/thesalt/2017/02/13/515057834/90-percent-of-fish-we-use-for-fishmeal-could-be-used-to-feed-humans-instead</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/anchovy2_wide-f5f821adfb32e3fd0f10619479c1098d23923169-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>5th &#39;Mars Mission&#39; Simulation Ready For Launch In Hawaii</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/01/19/510566033/5th-mars-mission-simulation-ready-for-launch-in-hawaii</link>
-      <description>January 19, 2017 • Starting Thursday, six people will spend eight months in a dome on Mauna Loa volcano to study what living on Mars might be like. The mission is co-sponsored by the University of Hawaii and NASA. http://www.npr.org/sections/thetwo-way/2017/01/19/510566033/5th-mars-mission-simulation-ready-for-launch-in-hawaii</description>
-      <guid>4ee163e2e0d97304d6c1d22b2d8c7960</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170214_me_pollution_has_worked_its_way_down_to_the_worlds_deepest_waters.mp3?orgId=1&amp;topicId=1025&amp;d=149&amp;p=3&amp;story=514997248&amp;t=progseg&amp;e=515138410&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Pollution Has Worked Its Way Down To The World&#39;s Deepest Waters</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/13/514997248/pollution-has-worked-its-way-down-to-the-worlds-deepest-waters</link>
+      <description>February 13, 2017 - Tiny creatures in the Mariana Trench have high levels of industrial contamination. The new findings suggest that even Earth&#39;s most remote locales feel the effects of human beings.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170214_me_pollution_has_worked_its_way_down_to_the_worlds_deepest_waters.mp3?orgId=1&amp;topicId=1025&amp;d=149&amp;p=3&amp;story=514997248&amp;t=progseg&amp;e=515138410&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="149" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/13/hirondellea-gigas2_wide-0b6a385ea9f57976aedaf93a02a4a8333b30a283-s800-c15.jpg"></a>
+
+February 13, 2017 - Tiny creatures in the Mariana Trench have high levels of industrial contamination. The new findings suggest that even Earth's most remote locales feel the effects of human beings.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/13/514997248/pollution-has-worked-its-way-down-to-the-worlds-deepest-waters">http://www.npr.org/sections/thetwo-way/2017/02/13/514997248/pollution-has-worked-its-way-down-to-the-worlds-deepest-waters</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/hirondellea-gigas2_wide-0b6a385ea9f57976aedaf93a02a4a8333b30a283-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>149</itunes:duration>
     </item>
     <item>
-      <title>Athlete-Turned-Trucker Works To Improve Truckers&#39; Health</title>
-      <link>http://www.npr.org/sections/health-shots/2017/01/19/508014615/athlete-turned-trucker-works-to-improve-truckers-health</link>
-      <description>January 19, 2017 • Once an elite swimmer and a Yale grad, Siphiwe Baleka now coaches 3,000 fellow truckers on the best ways to work out, eat right and stay connected on the road. Drivers say his wellness plan works. http://www.npr.org/sections/health-shots/2017/01/19/508014615/athlete-turned-trucker-works-to-improve-truckers-health</description>
-      <guid>0544094ae5cf9f8be95d4fb3a92cf082</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_a_brain_tweak_lets_mice_abstain_from_cocaine.mp3?orgId=1&amp;topicId=1128&amp;d=143&amp;p=2&amp;story=514590646&amp;t=progseg&amp;e=514941171&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Brain Tweak Lets Mice Abstain From Cocaine</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/13/514590646/a-brain-tweak-lets-mice-abstain-from-cocaine</link>
+      <description>February 13, 2017 - Scientists have created addiction-resistant mice by altering the reward system in their brains. The findings shed light on the biochemistry of addiction.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_a_brain_tweak_lets_mice_abstain_from_cocaine.mp3?orgId=1&amp;topicId=1128&amp;d=143&amp;p=2&amp;story=514590646&amp;t=progseg&amp;e=514941171&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="143" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/13/cocaine-mice_wide-16e0ad9edfaa9813afc3af17003e1beacd61a817-s800-c15.jpg"></a>
+
+February 13, 2017 - Scientists have created addiction-resistant mice by altering the reward system in their brains. The findings shed light on the biochemistry of addiction.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/13/514590646/a-brain-tweak-lets-mice-abstain-from-cocaine">http://www.npr.org/sections/health-shots/2017/02/13/514590646/a-brain-tweak-lets-mice-abstain-from-cocaine</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/cocaine-mice_wide-16e0ad9edfaa9813afc3af17003e1beacd61a817-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>143</itunes:duration>
     </item>
     <item>
-      <title>Scientists Needn&#39;t Get A Patient&#39;s Consent To Study Blood Or DNA</title>
-      <link>http://www.npr.org/sections/health-shots/2017/01/18/510442240/scientists-neednt-get-a-patients-consent-to-study-blood-or-dna</link>
-      <description>January 18, 2017 • In its update of ethics rules aimed at protecting patients, the Obama administration decided against a provision that scientists said would hinder research. Consumer advocates aren&#39;t happy. http://www.npr.org/sections/health-shots/2017/01/18/510442240/scientists-neednt-get-a-patients-consent-to-study-blood-or-dna</description>
-      <guid>71e43dece0261774e20579136b067804</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/13/514070632/to-save-the-planet-give-cows-better-pasture</guid>
+      <title>To Save The Planet, Give Cows Better Pasture</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/13/514070632/to-save-the-planet-give-cows-better-pasture</link>
+      <description>February 13, 2017 - What&#39;s the single most important thing that the world&#39;s farmers could do to reduce global warming? Give cattle — especially in the tropics — faster-growing, more nutritious pasture.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/10/np-cauca-colombia---forages-54_wide-72aa7b62eeb3640b2b9f94c7c6e7f24d9d183523-s800-c15.jpg"></a>
+
+February 13, 2017 - What's the single most important thing that the world's farmers could do to reduce global warming? Give cattle — especially in the tropics — faster-growing, more nutritious pasture.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/13/514070632/to-save-the-planet-give-cows-better-pasture">http://www.npr.org/sections/thesalt/2017/02/13/514070632/to-save-the-planet-give-cows-better-pasture</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/np-cauca-colombia---forages-54_wide-72aa7b62eeb3640b2b9f94c7c6e7f24d9d183523-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>U.S. Report Confirms 2016 Was The Hottest Year On Record</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170118_atc_us_report_confirms_2016_was_the_hottest_year_on_record.mp3?orgId=1&amp;topicId=1007&amp;d=179&amp;p=2&amp;story=510472493&amp;t=progseg&amp;e=510396176&amp;seg=16&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 18, 2017 • 2016 was the warmest year on record, according to a new report by the U.S. government. This is the third year in a row that global temperatures have soared above the 20th century average. The report comes ahead of the inauguration of Donald Trump, who has at times, referred to global warming as a &#34;hoax.&#34; http://www.npr.org/2017/01/18/510472493/u-s-report-confirms-2016-was-the-hottest-year-on-record</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170118_atc_us_report_confirms_2016_was_the_hottest_year_on_record.mp3?orgId=1&amp;topicId=1007&amp;d=179&amp;p=2&amp;story=510472493&amp;t=progseg&amp;e=510396176&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="179" type="audio/mpeg"></enclosure>
-      <guid>92e77058f605f6deb8f8f9a21bfa7ec2</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170213_me_oroville_dam.mp3?orgId=1&amp;topicId=1025&amp;d=244&amp;story=514955209&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Signs Of Hope At Oroville Dam, After Overflow Sparked Large Evacuation Sunday</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/13/514955209/signs-of-hope-at-oroville-dam-after-water-overflowed-emergency-spillway</link>
+      <description>February 13, 2017 - Lake Oroville&#39;s water level has finally dropped below its record high, after residents scrambled to comply with an evacuation order Sunday.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170213_me_oroville_dam.mp3?orgId=1&amp;topicId=1025&amp;d=244&amp;story=514955209&amp;siteplayer=true&amp;dl=1" length="244" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/13/ap_17043841291800_wide-8c60a54141cbef8c524c5d2cc126fb7af9aa0397-s800-c15.jpg"></a>
+
+February 13, 2017 - Lake Oroville's water level has finally dropped below its record high, after residents scrambled to comply with an evacuation order Sunday.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/13/514955209/signs-of-hope-at-oroville-dam-after-water-overflowed-emergency-spillway">http://www.npr.org/sections/thetwo-way/2017/02/13/514955209/signs-of-hope-at-oroville-dam-after-water-overflowed-emergency-spillway</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/ap_17043841291800_wide-8c60a54141cbef8c524c5d2cc126fb7af9aa0397-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>244</itunes:duration>
     </item>
     <item>
-      <title>States Could Take Lead On Environmental Regulation Under Trump</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170118_atc_states_could_take_lead_on_environmental_regulation_under_trump.mp3?orgId=1&amp;topicId=1025&amp;d=222&amp;p=2&amp;story=510472419&amp;t=progseg&amp;e=510396176&amp;seg=2&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 18, 2017 • NPR&#39;s Robert Siegel talks with Dallas Burtraw, senior fellow with the nonpartisan think tank Resources for the Future, about what role states have traditionally played in environmental regulation, and what a decentralized approach under the Trump administration would look like. http://www.npr.org/2017/01/18/510472419/states-could-take-lead-on-environmental-regulation-under-trump</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170118_atc_states_could_take_lead_on_environmental_regulation_under_trump.mp3?orgId=1&amp;topicId=1025&amp;d=222&amp;p=2&amp;story=510472419&amp;t=progseg&amp;e=510396176&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="222" type="audio/mpeg"></enclosure>
-      <guid>6d1ce73306f78ad3a4c0c1c5e53924c7</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/13/514106139/this-heatless-habanero-packs-all-of-the-flavor-with-none-of-the-burn</guid>
+      <title>This Heatless Habanero Packs All Of The Flavor With None Of The Burn</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/13/514106139/this-heatless-habanero-packs-all-of-the-flavor-with-none-of-the-burn</link>
+      <description>February 13, 2017 - Some breeders vie to grow ever more mouth-burning peppers. The guy behind the Habanada had a different goal: a habanero with no heat all. The aromatic, melon-like result is winning over top chefs.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/08/courtesy-of-blue-hill_wide-c5cc9826988b5f02b39c24812baced0abf58e85c-s800-c15.jpg"></a>
+
+February 13, 2017 - Some breeders vie to grow ever more mouth-burning peppers. The guy behind the Habanada had a different goal: a habanero with no heat all. The aromatic, melon-like result is winning over top chefs.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/13/514106139/this-heatless-habanero-packs-all-of-the-flavor-with-none-of-the-burn">http://www.npr.org/sections/thesalt/2017/02/13/514106139/this-heatless-habanero-packs-all-of-the-flavor-with-none-of-the-burn</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/courtesy-of-blue-hill_wide-c5cc9826988b5f02b39c24812baced0abf58e85c-s3000-c15.jpg"></itunes:image>
     </item>
     <item>
-      <title>EPA Nominee Scott Pruitt Acknowledges Existence Of Climate Change</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170118_atc_epa_nominee_scott_pruitt_acknowledges_existence_of_climate_change.mp3?orgId=1&amp;topicId=1014&amp;d=220&amp;p=2&amp;story=510472412&amp;t=progseg&amp;e=510396176&amp;seg=1&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 18, 2017 • Trump&#39;s pick to head the Environmental Protection Agency has acknowledged that human activity plays &#34;some&#34; role in the changing climate. In his confirmation hearing on Wednesday, Scott Pruitt said he wants to work with states to protect the environment while also encouraging economic growth. http://www.npr.org/2017/01/18/510472412/epa-nominee-scott-pruitt-acknowledges-existence-of-climate-change</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/01/20170118_atc_epa_nominee_scott_pruitt_acknowledges_existence_of_climate_change.mp3?orgId=1&amp;topicId=1014&amp;d=220&amp;p=2&amp;story=510472412&amp;t=progseg&amp;e=510396176&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="220" type="audio/mpeg"></enclosure>
-      <guid>3d9b4af2aa93b71b2944d9a67abc96c9</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170213_me_depression_strikes_todays_teen_girls_especially_hard.mp3?orgId=1&amp;topicId=1128&amp;d=257&amp;p=3&amp;story=514353285&amp;t=progseg&amp;e=514934996&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Depression Strikes Today&#39;s Teen Girls Especially Hard</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/13/514353285/depression-strikes-todays-teen-girls-especially-hard</link>
+      <description>February 13, 2017 - A study tracking depression rates among U.S. teens from 2005 to 2014 finds an increase — especially among girls. A steady diet of harsh judgments from social media may play a role, researchers say.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170213_me_depression_strikes_todays_teen_girls_especially_hard.mp3?orgId=1&amp;topicId=1128&amp;d=257&amp;p=3&amp;story=514353285&amp;t=progseg&amp;e=514934996&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="257" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/10/depression_wide-4dfd13fd4e6b6a084aeb662577c63bd801a123d2-s800-c15.jpeg"></a>
+
+February 13, 2017 - A study tracking depression rates among U.S. teens from 2005 to 2014 finds an increase — especially among girls. A steady diet of harsh judgments from social media may play a role, researchers say.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/13/514353285/depression-strikes-todays-teen-girls-especially-hard">http://www.npr.org/sections/health-shots/2017/02/13/514353285/depression-strikes-todays-teen-girls-especially-hard</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/depression_wide-4dfd13fd4e6b6a084aeb662577c63bd801a123d2-s3000-c15.jpeg"></itunes:image>
+      <itunes:duration>257</itunes:duration>
     </item>
     <item>
-      <title>What Does It Mean When Cancer Findings Can&#39;t Be Reproduced?</title>
-      <link>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/01/20170119_me_what_does_it_mean_when_cancer_findings_cant_be_reproduced.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=510304871&amp;t=progseg&amp;e=510533913&amp;seg=13&amp;siteplayer=true&amp;dl=1</link>
-      <description>January 18, 2017 • Results from some key cancer studies were different when the experiments were redone in different labs. Scientists don&#39;t yet know why but say the answer could have health implications for patients. http://www.npr.org/sections/health-shots/2017/01/18/510304871/what-does-it-mean-when-cancer-findings-cant-be-reproduced</description>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/01/20170119_me_what_does_it_mean_when_cancer_findings_cant_be_reproduced.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=510304871&amp;t=progseg&amp;e=510533913&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="258" type="audio/mpeg"></enclosure>
-      <guid>5c7d5b6900910d3318f607fcb1f23f1f</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170211_wesat_edutainer_remembered.mp3?orgId=1&amp;topicId=1062&amp;d=234&amp;p=7&amp;story=514650904&amp;t=progseg&amp;e=514650882&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Remembering The &#39;Edutainer&#39; Who Made Statistics Come To Life</title>
+      <link>http://www.npr.org/2017/02/11/514650904/remembering-the-edutainer-who-made-statistics-come-to-life</link>
+      <description>February 11, 2017 - He called himself an &#34;edutainer.&#34; His gift was bringing statistics about the world to life. Stanford mathematician Keith Devlin remembers Swedish statistician Hans Rosling, who died this week.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170211_wesat_edutainer_remembered.mp3?orgId=1&amp;topicId=1062&amp;d=234&amp;p=7&amp;story=514650904&amp;t=progseg&amp;e=514650882&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="234" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[February 11, 2017 - He called himself an "edutainer." His gift was bringing statistics about the world to life. Stanford mathematician Keith Devlin remembers Swedish statistician Hans Rosling, who died this week.
+
+<a href="http://www.npr.org/2017/02/11/514650904/remembering-the-edutainer-who-made-statistics-come-to-life">http://www.npr.org/2017/02/11/514650904/remembering-the-edutainer-who-made-statistics-come-to-life</a>]]></itunes:summary>
+      <itunes:duration>234</itunes:duration>
     </item>
     <item>
-      <title>2016 Was The Hottest Year Yet, Scientists Declare</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/01/18/510405739/2016-was-the-hottest-year-yet-scientists-declare</link>
-      <description>January 18, 2017 • Global temperatures soared above the 20th century average last year, as the climate continues to change. It&#39;s the hottest it has been since scientists started tracking global temperatures in 1880. http://www.npr.org/sections/thetwo-way/2017/01/18/510405739/2016-was-the-hottest-year-yet-scientists-declare</description>
-      <guid>e0bedb6ef79c1d8da2d0bfb0120e55f1</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170211_wesat_saving_the_planet_one_burger_at_a_time_this_juicy_patty_is_meat-free.mp3?orgId=1&amp;topicId=1053&amp;d=336&amp;p=7&amp;story=514544431&amp;t=progseg&amp;e=514650882&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Saving The Planet, One Burger At A Time: This Juicy Patty Is Meat-Free</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/11/514544431/saving-the-planet-one-burger-at-a-time-this-juicy-patty-is-meat-free</link>
+      <description>February 11, 2017 - Pat Brown was a renowned biomedical researcher. But he left that to tackle what he saw as the biggest problem facing Earth: animal agriculture. His solution: a veggie burger so beef-like it bleeds.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170211_wesat_saving_the_planet_one_burger_at_a_time_this_juicy_patty_is_meat-free.mp3?orgId=1&amp;topicId=1053&amp;d=336&amp;p=7&amp;story=514544431&amp;t=progseg&amp;e=514650882&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="336" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/10/img_3488_1_wide-a3807660bbbe2f8579e0c97924fe8a275544d3ed-s800-c15.jpg"></a>
+
+February 11, 2017 - Pat Brown was a renowned biomedical researcher. But he left that to tackle what he saw as the biggest problem facing Earth: animal agriculture. His solution: a veggie burger so beef-like it bleeds.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/11/514544431/saving-the-planet-one-burger-at-a-time-this-juicy-patty-is-meat-free">http://www.npr.org/sections/thesalt/2017/02/11/514544431/saving-the-planet-one-burger-at-a-time-this-juicy-patty-is-meat-free</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/img_3488_1_wide-a3807660bbbe2f8579e0c97924fe8a275544d3ed-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>336</itunes:duration>
     </item>
     <item>
-      <title>Coronations, Coups, And Keeping Up With The Kardashians</title>
-      <link>http://www.npr.org/2017/01/17/509561647/coronations-coups-and-keeping-up-with-the-kardashians</link>
-      <description>January 17, 2017 • It&#39;s in our nature to idolize the rich and famous. But this week on Hidden Brain, we explore the other side of our nature: the part of us that wants to see the rich and powerful fall from grace. http://www.npr.org/2017/01/17/509561647/coronations-coups-and-keeping-up-with-the-kardashians</description>
-      <guid>d5b2ec8dda864c50a5b1a57f2ebc0df4</guid>
-      <pubDate>Mon, 23 Jan 2017 01:11:15 -0500</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_look_up_astronomer_details_upcoming_trifecta_of_celestial_activity.mp3?orgId=1&amp;topicId=1026&amp;d=112&amp;p=2&amp;story=514566981&amp;t=progseg&amp;e=514465135&amp;seg=20&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Look Up! Astronomer Details Upcoming Trifecta Of Celestial Activity</title>
+      <link>http://www.npr.org/2017/02/10/514566981/look-up-astronomer-details-upcoming-trifecta-of-celestial-activity</link>
+      <description>February 10, 2017 - First, go outside, then look up! There&#39;s a trifecta of celestial activity Friday night, says astronomer Jackie Faherty, plus another sky watching tip.</description>
+      <pubDate>Wed, 15 Feb 2017 02:02:31 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_look_up_astronomer_details_upcoming_trifecta_of_celestial_activity.mp3?orgId=1&amp;topicId=1026&amp;d=112&amp;p=2&amp;story=514566981&amp;t=progseg&amp;e=514465135&amp;seg=20&amp;siteplayer=true&amp;dl=1" length="112" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[February 10, 2017 - First, go outside, then look up! There's a trifecta of celestial activity Friday night, says astronomer Jackie Faherty, plus another sky watching tip.
+
+<a href="http://www.npr.org/2017/02/10/514566981/look-up-astronomer-details-upcoming-trifecta-of-celestial-activity">http://www.npr.org/2017/02/10/514566981/look-up-astronomer-details-upcoming-trifecta-of-celestial-activity</a>]]></itunes:summary>
+      <itunes:duration>112</itunes:duration>
     </item>
   </channel>
 </rss>
