@@ -4,22 +4,53 @@
     <title>Technology : NPR</title>
     <link>http://www.npr.org/sections/technology/</link>
     <description>Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.</description>
+    <category>technology</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
-    <generator>go podcast v1.2.0 (github.com/eduncan911/podcast)</generator>
+    <generator>go podcast v1.2.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2017 02:02:30 +0000</lastBuildDate>
-    <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+    <lastBuildDate>Thu, 16 Feb 2017 02:21:07 +0000</lastBuildDate>
+    <pubDate>Thu, 16 Feb 2017 02:21:07 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
     </image>
+    <itunes:subtitle>Latest technology news and breakthroughs in technology, scien...</itunes:subtitle>
     <itunes:summary><![CDATA[Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed. <a href="http://www.npr.org/sections/technology/">http://www.npr.org/sections/technology/</a>]]></itunes:summary>
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+    <itunes:category text="technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves</guid>
+      <title>Nokia&#39;s Famously Indestructible Phone Rumored To Be Returning To Shelves</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves</link>
+      <description>February 15, 2017 - Launched in 2000, the Nokia 3310 was a rugged little brick that won Internet fame for its durability. There are rumors, which HMD Global won&#39;t confirm, that the company is bringing the phone back.</description>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/gettyimages-90739545_wide-a7ed9e8578b8214ad04022a88182c288cd1d43ce-s800-c15.jpg"></a>
+
+February 15, 2017 - Launched in 2000, the Nokia 3310 was a rugged little brick that won Internet fame for its durability. There are rumors, which HMD Global won't confirm, that the company is bringing the phone back.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves">http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/gettyimages-90739545_wide-a7ed9e8578b8214ad04022a88182c288cd1d43ce-s3000-c15.jpg"></itunes:image>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_india-visa_rule_fears.mp3?orgId=1&amp;topicId=1004&amp;d=236&amp;p=2&amp;story=515232929&amp;t=progseg&amp;e=515153847&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Indian IT Outsourcers Anxious Over Potential Changes To H1-B Visas</title>
+      <link>http://www.npr.org/sections/parallels/2017/02/14/515232929/indian-it-outsourcers-anxious-over-potential-changes-to-h1-b-visas</link>
+      <description>February 14, 2017 - President Trump vows to &#34;protect jobs at home.&#34; Indian firms say that if there were qualified Americans, Indian nationals wouldn&#39;t be needed — that it&#39;s a trade dispute, not an immigration issue.</description>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_india-visa_rule_fears.mp3?orgId=1&amp;topicId=1004&amp;d=236&amp;p=2&amp;story=515232929&amp;t=progseg&amp;e=515153847&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="236" type="audio/mpeg"></enclosure>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/14/gettyimages-452018818_wide-9b9dd88cc6561573b3b44e122e9df1076726ea01-s800-c15.jpg"></a>
+
+February 14, 2017 - President Trump vows to "protect jobs at home." Indian firms say that if there were qualified Americans, Indian nationals wouldn't be needed — that it's a trade dispute, not an immigration issue.
+
+<a href="http://www.npr.org/sections/parallels/2017/02/14/515232929/indian-it-outsourcers-anxious-over-potential-changes-to-h1-b-visas">http://www.npr.org/sections/parallels/2017/02/14/515232929/indian-it-outsourcers-anxious-over-potential-changes-to-h1-b-visas</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gettyimages-452018818_wide-9b9dd88cc6561573b3b44e122e9df1076726ea01-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>236</itunes:duration>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_if_you_build_charging_stations_will_the_electric_cars_come.mp3?orgId=1&amp;topicId=1019&amp;d=497&amp;p=2&amp;story=514517425&amp;t=progseg&amp;e=515153847&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
       <title>In America&#39;s Heartland, A Power Company Leads Charge For Electric Cars</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/14/514517425/in-americas-heartland-a-power-company-leads-charge-for-electric-cars</link>
       <description>February 14, 2017 - Kansas City Power &amp; Light is building an ambitious, $20 million network of 1,000 charging stations. It&#39;s turning its service area into one of the fastest-growing electric vehicle markets in the U.S.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170214_atc_if_you_build_charging_stations_will_the_electric_cars_come.mp3?orgId=1&amp;topicId=1019&amp;d=497&amp;p=2&amp;story=514517425&amp;t=progseg&amp;e=515153847&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="497" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/10/img_2287_wide-682f411257a2e9aaf1093ff54f7737e6b6ceeebc-s800-c15.jpg"></a>
 
@@ -34,7 +65,7 @@ February 14, 2017 - Kansas City Power & Light is building an ambitious, $20 mill
       <title>Disney Company Drops YouTube Star PewDiePie Over Anti-Semitic Jokes</title>
       <link>http://www.npr.org/sections/thetwo-way/2017/02/14/515184619/disney-company-drops-youtube-star-pewdiepie-over-anti-semitic-jokes</link>
       <description>February 14, 2017 - More than 50 million people are subscribed to videos by gamer and comedian Felix Kjellberg. Now he&#39;s lost a lucrative contract with a Disney-owned firm, The Wall Street Journal reports.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/14/gettyimages-494848198_wide-fed5b08e3646c233982229ef2d532275fdcab4b2-s800-c15.jpg"></a>
 
 February 14, 2017 - More than 50 million people are subscribed to videos by gamer and comedian Felix Kjellberg. Now he's lost a lucrative contract with a Disney-owned firm, The Wall Street Journal reports.
@@ -47,7 +78,7 @@ February 14, 2017 - More than 50 million people are subscribed to videos by game
       <title>With More Rain Forecast, Crews Work To Reinforce Oroville Dam</title>
       <link>http://www.npr.org/sections/thetwo-way/2017/02/14/515172686/with-more-rain-forecast-crews-work-to-reinforce-oroville-dam</link>
       <description>February 14, 2017 - Water damage to an emergency spillway on the Oroville Dam in Northern California prompted the evacuation of nearly 200,000 people from the area. More rain is forecast for the region this week.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/14/gettyimages-635176024_wide-bdd500bd5d684f27bff43111cc38fdce73df7b77-s800-c15.jpg"></a>
 
 February 14, 2017 - Water damage to an emergency spillway on the Oroville Dam in Northern California prompted the evacuation of nearly 200,000 people from the area. More rain is forecast for the region this week.
@@ -60,7 +91,7 @@ February 14, 2017 - Water damage to an emergency spillway on the Oroville Dam in
       <title>Is Donald Trump Helping Or Hurting Twitter?</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/14/515024727/is-donald-trump-helping-or-hurting-twitter</link>
       <description>February 14, 2017 - The tweeter-in-chief has brought a new level of notoriety to the social media company, but it hasn&#39;t helped Twitter&#39;s bottom line. Analysts say Trump-related harassment continues to hurt the platform.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170212_wesun_is_donald_trump_helping_or_hurting_twitter.mp3?orgId=1&amp;topicId=1003&amp;d=250&amp;story=515024727&amp;siteplayer=true&amp;dl=1" length="250" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/13/ap_17003339361851_wide-f472c167915516f0cdd45b3273e403348b3594fc-s800-c15.jpg"></a>
 
@@ -75,7 +106,7 @@ February 14, 2017 - The tweeter-in-chief has brought a new level of notoriety to
       <title>Using H-1B Visas To Help Outsource IT Work Draws Criticism, Scrutiny</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/13/514990545/using-h-1b-visas-to-help-outsource-it-work-draws-criticism-scrutiny</link>
       <description>February 13, 2017 - A number of companies and universities are cutting IT jobs and shipping them off to India. The practice has drawn scrutiny amid the debate over how H1-B visas for high-skilled workers are used.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_using_h-1b_visas_for_tech_workers_is_misusing_system_some_say.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=514990545&amp;t=progseg&amp;e=514941171&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="215" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/13/gettyimages-521101912_wide-adb09ba50fec37a381a469300a03df605750389f-s800-c15.jpg"></a>
 
@@ -90,7 +121,7 @@ February 13, 2017 - A number of companies and universities are cutting IT jobs a
       <title>Rollout Of Chevy Bolt May Mark Turning Point For Electric Car Market</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/13/514513439/rollout-of-chevy-bolt-may-mark-turning-point-for-electric-car-market</link>
       <description>February 13, 2017 - The Chevy Bolt can go 238 miles on a single charge and costs about $30,000, after a federal tax credit. But the clean-car industry needs government support to thrive, and that&#39;s far from certain.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170213_atc_rollout_of_chevy_bolt_may_mark_turning_point_for_electric_car_market.mp3?orgId=1&amp;topicId=1019&amp;d=472&amp;p=2&amp;story=514513439&amp;t=progseg&amp;e=514941171&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="472" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/10/ap_16250457875397_wide-592af7e1d2ba089543122d0f19347fd82efdcf7c-s800-c15.jpg"></a>
 
@@ -105,7 +136,7 @@ February 13, 2017 - The Chevy Bolt can go 238 miles on a single charge and costs
       <title>A $40,000 Drone Failed To Lift Off. But There Was A Silver Lining</title>
       <link>http://www.npr.org/sections/goatsandsoda/2017/02/13/514988364/a-40-000-drone-failed-to-lift-off-but-there-was-a-silver-lining</link>
       <description>February 13, 2017 - A drone test in a remote Amazonian village in Peru failed. And that, says one of the testers, was the best possible outcome.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/13/perudec16-0409-img_8276_wide-c488cd1eedbf968edc9fa9999756b4ef0eae3b78-s800-c15.jpg"></a>
 
 February 13, 2017 - A drone test in a remote Amazonian village in Peru failed. And that, says one of the testers, was the best possible outcome.
@@ -118,7 +149,7 @@ February 13, 2017 - A drone test in a remote Amazonian village in Peru failed. A
       <title>&#39;Aisles Have Eyes&#39; Warns That Brick-And-Mortar Stores Are Watching You</title>
       <link>http://www.npr.org/2017/02/13/514322899/aisles-have-eyes-warns-that-brick-and-mortar-stores-are-watching-you</link>
       <description>February 13, 2017 - Consumers have grown accustomed to the idea of online retailers collecting information about them, but author Joseph Turow says that now physical stores are doing it too.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170213_fa_01.mp3?orgId=427869011&amp;topicId=1033&amp;d=1829&amp;p=13&amp;story=514322899&amp;t=progseg&amp;e=514984649&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="1829" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[February 13, 2017 - Consumers have grown accustomed to the idea of online retailers collecting information about them, but author Joseph Turow says that now physical stores are doing it too.
 
@@ -131,7 +162,7 @@ February 13, 2017 - A drone test in a remote Amazonian village in Peru failed. A
       <title>Reading The Game: The Flame In The Flood</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/12/514386766/reading-the-game-the-flame-in-the-flood</link>
       <description>February 12, 2017 - In The Flame in the Flood, you play as a young girl surviving in a post-apocalyptic landscape, floating down a river on an improvised raft, with nothing but your wits and your faithful dog beside you.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/09/wolf_shanty_a_wide-e60b5e595a12c5bf9d19937c23cd70072a3f9eb3-s800-c15.jpg"></a>
 
 February 12, 2017 - In The Flame in the Flood, you play as a young girl surviving in a post-apocalyptic landscape, floating down a river on an improvised raft, with nothing but your wits and your faithful dog beside you.
@@ -144,7 +175,7 @@ February 12, 2017 - In The Flame in the Flood, you play as a young girl survivin
       <title>Ajit Pai Starts To Roll Back Latest Internet Regulations From Obama&#39;s Team</title>
       <link>http://www.npr.org/2017/02/11/514732239/ajit-pai-starts-to-roll-back-latest-internet-regulations-from-obamas-team</link>
       <description>February 11, 2017 - The new head of the Federal Communications Commission has taken steps to unravel many of his predecessor&#39;s policies. These changes might directly affect consumers and their access to the Internet.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170211_atc_new_fcc_chief.mp3?orgId=1&amp;topicId=1019&amp;d=236&amp;p=2&amp;story=514732239&amp;t=progseg&amp;e=514731658&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="236" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[February 11, 2017 - The new head of the Federal Communications Commission has taken steps to unravel many of his predecessor's policies. These changes might directly affect consumers and their access to the Internet.
 
@@ -157,7 +188,7 @@ February 12, 2017 - In The Flame in the Flood, you play as a young girl survivin
       <title>&#39;Wired&#39; Declares Coding As Next Blue-Collar Job Boom</title>
       <link>http://www.npr.org/2017/02/10/514566974/wired-declares-coding-as-next-blue-collar-job-boom</link>
       <description>February 10, 2017 - This week, an article in Wired declared, &#34;The Next Big Blue-Collar Job Is Coding.&#34; NPR&#39;s Kelly McEvers speaks with reporter Clive Thompson about the article.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_wired_declares_coding_as_next_blue-collar_job_boom.mp3?orgId=1&amp;topicId=1019&amp;d=237&amp;p=2&amp;story=514566974&amp;t=progseg&amp;e=514465135&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="237" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[February 10, 2017 - This week, an article in Wired declared, "The Next Big Blue-Collar Job Is Coding." NPR's Kelly McEvers speaks with reporter Clive Thompson about the article.
 
@@ -170,7 +201,7 @@ February 12, 2017 - In The Flame in the Flood, you play as a young girl survivin
       <title>&#39;Migrant Hire&#39; Connects Refugees To German Tech Industry</title>
       <link>http://www.npr.org/2017/02/10/514566961/migrant-hire-connects-refugees-to-german-tech-industry</link>
       <description>February 10, 2017 - With an aging population and skilled labor shortage, German industry leaders view the almost million migrants who have arrived since 2015 as an opportunity. But integrating them quickly into the labor market is a challenge. Syrian refugee Hussein Shaker may have the answer. He&#39;s founded Migrant Hire, a website that helps refugees with software development skills obtain jobs in the capital&#39;s lively tech scene.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170210_atc_migrant_hire_connects_refugees_to_german_tech_industry.mp3?orgId=1&amp;topicId=1124&amp;d=227&amp;p=2&amp;story=514566961&amp;t=progseg&amp;e=514465135&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="227" type="audio/mpeg"></enclosure>
       <itunes:summary><![CDATA[February 10, 2017 - With an aging population and skilled labor shortage, German industry leaders view the almost million migrants who have arrived since 2015 as an opportunity. But integrating them quickly into the labor market is a challenge. Syrian refugee Hussein Shaker may have the answer. He's founded Migrant Hire, a website that helps refugees with software development skills obtain jobs in the capital's lively tech scene.
 
@@ -183,43 +214,13 @@ February 12, 2017 - In The Flame in the Flood, you play as a young girl survivin
       <title>Denmark&#39;s Foreign Service Will Soon Send An Ambassador To The Tech World</title>
       <link>http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world</link>
       <description>February 10, 2017 - Danish Foreign Minister Anders Samuelsen says the new diplomatic post is a nod to the digital world&#39;s impact on people&#39;s day-to-day lives, which he says is greater than most nations&#39; impact.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/09/denmark-parliament_wide-98e80ce960a02d49021e2841822f5a2f984f250c-s800-c15.jpg"></a>
 
 February 10, 2017 - Danish Foreign Minister Anders Samuelsen says the new diplomatic post is a nod to the digital world's impact on people's day-to-day lives, which he says is greater than most nations' impact.
 
 <a href="http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world">http://www.npr.org/sections/parallels/2017/02/10/514170277/denmarks-foreign-service-will-soon-send-an-ambassador-to-the-tech-world</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/09/denmark-parliament_wide-98e80ce960a02d49021e2841822f5a2f984f250c-s3000-c15.jpg"></itunes:image>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170210_ted_05.mp3?orgId=1&amp;topicId=1128&amp;d=709&amp;p=57&amp;story=514158225&amp;t=progseg&amp;e=514121462&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Can The Internet Help You Get The Right Diagnosis?</title>
-      <link>http://www.npr.org/2017/02/10/514158225/can-the-internet-help-you-get-the-right-diagnosis</link>
-      <description>February 10, 2017 - Doctors told Jen Brea that her symptoms were psychosomatic, so she filmed herself and turned to the Internet for guidance. She describes how her online community helped her find the right diagnosis.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170210_ted_05.mp3?orgId=1&amp;topicId=1128&amp;d=709&amp;p=57&amp;story=514158225&amp;t=progseg&amp;e=514121462&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="709" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/08/jenniferbrea_2016t-embed_wide-0ba46839ac0f520fb9ffae926fb328ed05c700bd-s800-c15.jpg"></a>
-
-February 10, 2017 - Doctors told Jen Brea that her symptoms were psychosomatic, so she filmed herself and turned to the Internet for guidance. She describes how her online community helped her find the right diagnosis.
-
-<a href="http://www.npr.org/2017/02/10/514158225/can-the-internet-help-you-get-the-right-diagnosis">http://www.npr.org/2017/02/10/514158225/can-the-internet-help-you-get-the-right-diagnosis</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/jenniferbrea_2016t-embed_wide-0ba46839ac0f520fb9ffae926fb328ed05c700bd-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>709</itunes:duration>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170210_me_self-driving_cars_could_ease_our_commutes_but_thatll_take_a_while.mp3?orgId=1&amp;topicId=1019&amp;d=222&amp;p=3&amp;story=514091049&amp;t=progseg&amp;e=514458569&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Self-Driving Cars Could Ease Our Commutes, But That&#39;ll Take A While</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/10/514091049/self-driving-cars-could-ease-our-commutes-but-thatll-take-a-while</link>
-      <description>February 10, 2017 - One of the promises of autonomous vehicles is that they&#39;ll reduce traffic jams. Self-driving cars will bring many changes, but traffic flows won&#39;t improve until enough human drivers are off the roads.</description>
-      <pubDate>Wed, 15 Feb 2017 02:02:30 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170210_me_self-driving_cars_could_ease_our_commutes_but_thatll_take_a_while.mp3?orgId=1&amp;topicId=1019&amp;d=222&amp;p=3&amp;story=514091049&amp;t=progseg&amp;e=514458569&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="222" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/08/gettyimages-605519688_wide-46a2ce471b5e8da23ec6757dc3810f0c22ba43a5-s800-c15.jpg"></a>
-
-February 10, 2017 - One of the promises of autonomous vehicles is that they'll reduce traffic jams. Self-driving cars will bring many changes, but traffic flows won't improve until enough human drivers are off the roads.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/10/514091049/self-driving-cars-could-ease-our-commutes-but-thatll-take-a-while">http://www.npr.org/sections/alltechconsidered/2017/02/10/514091049/self-driving-cars-could-ease-our-commutes-but-thatll-take-a-while</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/gettyimages-605519688_wide-46a2ce471b5e8da23ec6757dc3810f0c22ba43a5-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>222</itunes:duration>
     </item>
   </channel>
 </rss>
