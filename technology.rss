@@ -8,20 +8,20 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 19:25:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:29:38 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 22 Feb 2017 19:25:58 +0000</pubDate>
+    <pubDate>Wed, 22 Feb 2017 19:29:38 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
       <link>http://www.npr.org/sections/technology/</link>
     </image>
-    <atom:link href="http://www.npr.org/sections/technology/archive" rel="self" type="application/rss+xml"></atom:link>
+    <atom:link href="http://eduncan911.com/technology.rss" rel="self" type="application/rss+xml"></atom:link>
     <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
     <itunes:subtitle>Latest technology news and breakthroughs in technology, scien...</itunes:subtitle>
     <itunes:summary><![CDATA[Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed. <a href="http://www.npr.org/sections/technology/">http://www.npr.org/sections/technology/</a>]]></itunes:summary>
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-    <itunes:explicit>False</itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>

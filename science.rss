@@ -8,20 +8,20 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 19:25:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:29:39 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 22 Feb 2017 19:25:59 +0000</pubDate>
+    <pubDate>Wed, 22 Feb 2017 19:29:39 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
       <link>http://www.npr.org/sections/science/</link>
     </image>
-    <atom:link href="http://www.npr.org/sections/science/archive" rel="self" type="application/rss+xml"></atom:link>
+    <atom:link href="http://eduncan911.com/science.rss" rel="self" type="application/rss+xml"></atom:link>
     <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
     <itunes:subtitle>The latest health and science news. Updates on medicine, heal...</itunes:subtitle>
     <itunes:summary><![CDATA[The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp; Science podcast. <a href="http://www.npr.org/sections/science/">http://www.npr.org/sections/science/</a>]]></itunes:summary>
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-    <itunes:explicit>False</itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</guid>
