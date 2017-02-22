@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 19:29:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:30:41 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 22 Feb 2017 19:29:39 +0000</pubDate>
+    <pubDate>Wed, 22 Feb 2017 19:30:41 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -36,7 +36,7 @@ February 22, 2017 - Some of the planets could be home to liquid water, but it re
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star">http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/trappist-3_wide-fa4fcb72129875cd2737984fa40e3b330a574720-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</guid>
@@ -51,7 +51,7 @@ February 22, 2017 - The capsule called Columbia hasn't left the Smithsonian's Na
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission">http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/columbia-1_wide-b6179bd08fbb8f4d83fb15b6f02db387d59d14d2-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</guid>
@@ -66,7 +66,7 @@ February 22, 2017 - The private spaceflight company launched its Falcon 9 rocket
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again">http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_16230616892944_wide-dc72b7c61b0dd64f3b0e746d8341ae2fb7628010-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</guid>
@@ -81,7 +81,7 @@ February 22, 2017 - The woman set to run the Centers for Medicare & Medicaid Ser
 
 <a href="http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits">http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</guid>
@@ -96,7 +96,7 @@ February 22, 2017 - It's gruesome, but from a scientific standpoint, there's a p
 
 <a href="http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues">http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/17/gettyimages-81537508_wide-007f26bf2f43a415c3837c981d449bba5e7cf001-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
@@ -113,7 +113,7 @@ February 21, 2017 - Yuval Noah Harari expects we'll soon engineer our bodies in 
 <a href="http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so">http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s3000-c15.jpg"></itunes:image>
       <itunes:duration>298</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
@@ -130,7 +130,7 @@ February 21, 2017 - Low levels of iron in the blood may indicate a serious but t
 <a href="http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic">http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s3000-c15.jpg"></itunes:image>
       <itunes:duration>114</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_does_studying_economics_make_you_selfish.mp3?orgId=1&amp;topicId=1024&amp;d=214&amp;p=3&amp;story=516375434&amp;t=progseg&amp;e=516361491&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
@@ -145,7 +145,7 @@ February 21, 2017 - Low levels of iron in the blood may indicate a serious but t
 <a href="http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish">http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>214</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
@@ -162,7 +162,7 @@ February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses
 <a href="http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head">http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s3000-c15.jpg"></itunes:image>
       <itunes:duration>436</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</guid>
@@ -177,7 +177,7 @@ February 21, 2017 - We hear a lot about senseless violence: people who lose thei
 
 <a href="http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens">http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/01/27/gettyimages-630729282_wide-0ed85530dd0e8dd90ae9c324e43bfef6fab380af-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_new_research_shows_how_atmospheric_rivers_wreak_havoc_around_the_globe.mp3?orgId=1&amp;topicId=1025&amp;d=138&amp;p=2&amp;story=515838078&amp;t=progseg&amp;e=516216257&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
@@ -194,7 +194,7 @@ February 20, 2017 - The idea of plumes of moisture curling above our heads might
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe">http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/17/1983v1_20170103-gfsw_wide-8aabd17f45c9d537ce2753859b635a1abaf4bf91-s3000-c15.png"></itunes:image>
       <itunes:duration>138</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
@@ -211,7 +211,7 @@ February 20, 2017 - Scientific evidence showing health benefits from engaging in
 <a href="http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes">http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s3000-c15.jpg"></itunes:image>
       <itunes:duration>265</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</guid>
@@ -226,7 +226,7 @@ February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch C
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad">http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/19/gettyimages-642685416_wide-7dd6e908793ddefa767f383a1fa849027c6825de-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_an_alien_world_in_antarctica.mp3?orgId=1&amp;topicId=1007&amp;d=243&amp;p=10&amp;story=516064742&amp;t=progseg&amp;e=516064623&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
@@ -241,7 +241,7 @@ February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch C
 <a href="http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica">http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>243</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_space_poop.mp3?orgId=1&amp;topicId=1026&amp;d=198&amp;p=10&amp;story=516064679&amp;siteplayer=true&amp;dl=1</guid>
@@ -256,7 +256,7 @@ February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch C
 <a href="http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge">http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>198</itunes:duration>
-      <itunes:explicit>False</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
 </rss>
