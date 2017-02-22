@@ -1,18 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Science : NPR</title>
     <link>http://www.npr.org/sections/science/</link>
     <description>The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp;amp; Science podcast.</description>
-    <category>science</category>
+    <category>Science &amp; Medicine</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Feb 2017 17:55:12 +0000</lastBuildDate>
-    <pubDate>Tue, 21 Feb 2017 17:55:12 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:25:59 +0000</lastBuildDate>
+    <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
+    <pubDate>Wed, 22 Feb 2017 19:25:59 +0000</pubDate>
+    <image>
+      <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
+      <title>Science : NPR</title>
+      <link>http://www.npr.org/sections/science/</link>
+    </image>
+    <atom:link href="http://www.npr.org/sections/science/archive" rel="self" type="application/rss+xml"></atom:link>
+    <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
     <itunes:subtitle>The latest health and science news. Updates on medicine, heal...</itunes:subtitle>
     <itunes:summary><![CDATA[The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp; Science podcast. <a href="http://www.npr.org/sections/science/">http://www.npr.org/sections/science/</a>]]></itunes:summary>
-    <itunes:category text="science"></itunes:category>
+    <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+    <itunes:explicit>False</itunes:explicit>
+    <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</guid>
+      <title>Astronomers Find 7 Earth-Size Planets Around A Nearby Star</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</link>
+      <description>February 22, 2017 - Some of the planets could be home to liquid water, but it remains unclear whether life could exist on such strange worlds.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/trappist-3_wide-fa4fcb72129875cd2737984fa40e3b330a574720-s800-c15.jpg"></a>
+
+February 22, 2017 - Some of the planets could be home to liquid water, but it remains unclear whether life could exist on such strange worlds.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star">http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/trappist-3_wide-fa4fcb72129875cd2737984fa40e3b330a574720-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</guid>
+      <title>Apollo 11 Space Capsule Is Going On Another Mission</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</link>
+      <description>February 22, 2017 - The capsule called Columbia hasn&#39;t left the Smithsonian&#39;s National Air and Space Museum in Washington, D.C., since 1976. It&#39;s heading out on tour to celebrate the 50th anniversary of the moon landing.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/columbia-1_wide-b6179bd08fbb8f4d83fb15b6f02db387d59d14d2-s800-c15.jpg"></a>
+
+February 22, 2017 - The capsule called Columbia hasn't left the Smithsonian's National Air and Space Museum in Washington, D.C., since 1976. It's heading out on tour to celebrate the 50th anniversary of the moon landing.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission">http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/columbia-1_wide-b6179bd08fbb8f4d83fb15b6f02db387d59d14d2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</guid>
+      <title>SpaceX Cargo Craft Fails To Dock With Space Station, Will Try Again</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</link>
+      <description>February 22, 2017 - The private spaceflight company launched its Falcon 9 rocket on Sunday, only to have the rocket&#39;s cargo capsule encounter an error in its navigation system on Wednesday during a docking attempt.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/ap_16230616892944_wide-dc72b7c61b0dd64f3b0e746d8341ae2fb7628010-s800-c15.jpg"></a>
+
+February 22, 2017 - The private spaceflight company launched its Falcon 9 rocket on Sunday, only to have the rocket's cargo capsule encounter an error in its navigation system on Wednesday during a docking attempt.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again">http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_16230616892944_wide-dc72b7c61b0dd64f3b0e746d8341ae2fb7628010-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</guid>
+      <title>GOP Considers Trimming Health Law&#39;s 10 Essential Benefits</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</link>
+      <description>February 22, 2017 - The woman set to run the Centers for Medicare &amp; Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s800-c15.jpg"></a>
+
+February 22, 2017 - The woman set to run the Centers for Medicare & Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits">http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</guid>
+      <title>Cannibalism: It&#39;s &#39;Perfectly Natural,&#39; A New Scientific History Argues</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</link>
+      <description>February 22, 2017 - It&#39;s gruesome, but from a scientific standpoint, there&#39;s a predictable calculus for when humans and animals go cannibal, a new book says. And who knew European aristocrats ate body parts as medicine?</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/gettyimages-81537508_wide-007f26bf2f43a415c3837c981d449bba5e7cf001-s800-c15.jpg"></a>
+
+February 22, 2017 - It's gruesome, but from a scientific standpoint, there's a predictable calculus for when humans and animals go cannibal, a new book says. And who knew European aristocrats ate body parts as medicine?
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues">http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/gettyimages-81537508_wide-007f26bf2f43a415c3837c981d449bba5e7cf001-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Are Cyborgs In Our Future? &#39;Homo Deus&#39; Author Thinks So</title>
+      <link>http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</link>
+      <description>February 21, 2017 - Yuval Noah Harari expects we&#39;ll soon engineer our bodies in the same way we design products. &#34;I think in general medicine ... will switch from healing the sick to upgrading the healthy,&#34; he says.</description>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s800-c15.jpg"></a>
+
+February 21, 2017 - Yuval Noah Harari expects we'll soon engineer our bodies in the same way we design products. "I think in general medicine ... will switch from healing the sick to upgrading the healthy," he says.
+
+<a href="http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so">http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>298</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Researchers Failed To Tell Testosterone Trial Patients They Were Anemic</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</link>
+      <description>February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.</description>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s800-c15.jpg"></a>
+
+February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic">http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>114</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_does_studying_economics_make_you_selfish.mp3?orgId=1&amp;topicId=1024&amp;d=214&amp;p=3&amp;story=516375434&amp;t=progseg&amp;e=516361491&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
       <title>Does Studying Economics Make You Selfish?</title>
@@ -20,10 +139,13 @@
       <description>February 21, 2017 - Social science research finds that students who are taught classical economics about how humans act in their rational self-interest, become more likely to act selfishly after learning those lessons.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_does_studying_economics_make_you_selfish.mp3?orgId=1&amp;topicId=1024&amp;d=214&amp;p=3&amp;story=516375434&amp;t=progseg&amp;e=516361491&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 21, 2017 - Social science research finds that students who are taught classical economics about how humans act in their rational self-interest, become more likely to act selfishly after learning those lessons.
 
 <a href="http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish">http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>214</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
@@ -32,6 +154,7 @@
       <description>February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s800-c15.jpg"></a>
 
 February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.
@@ -39,6 +162,7 @@ February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses
 <a href="http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head">http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s3000-c15.jpg"></itunes:image>
       <itunes:duration>436</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</guid>
@@ -46,12 +170,14 @@ February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses
       <link>http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</link>
       <description>February 21, 2017 - We hear a lot about senseless violence: people who lose their lives or their freedom over a stolen backpack, or perceived slight. Two researchers think social science might help prevent these crimes.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/01/27/gettyimages-630729282_wide-0ed85530dd0e8dd90ae9c324e43bfef6fab380af-s800-c15.jpg"></a>
 
 February 21, 2017 - We hear a lot about senseless violence: people who lose their lives or their freedom over a stolen backpack, or perceived slight. Two researchers think social science might help prevent these crimes.
 
 <a href="http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens">http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/01/27/gettyimages-630729282_wide-0ed85530dd0e8dd90ae9c324e43bfef6fab380af-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_new_research_shows_how_atmospheric_rivers_wreak_havoc_around_the_globe.mp3?orgId=1&amp;topicId=1025&amp;d=138&amp;p=2&amp;story=515838078&amp;t=progseg&amp;e=516216257&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
@@ -60,6 +186,7 @@ February 21, 2017 - We hear a lot about senseless violence: people who lose thei
       <description>February 20, 2017 - The idea of plumes of moisture curling above our heads might seem beautiful, but new research shows atmospheric rivers to be among the most damaging of weather systems.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_new_research_shows_how_atmospheric_rivers_wreak_havoc_around_the_globe.mp3?orgId=1&amp;topicId=1025&amp;d=138&amp;p=2&amp;story=515838078&amp;t=progseg&amp;e=516216257&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/1983v1_20170103-gfsw_wide-8aabd17f45c9d537ce2753859b635a1abaf4bf91-s800-c15.png"></a>
 
 February 20, 2017 - The idea of plumes of moisture curling above our heads might seem beautiful, but new research shows atmospheric rivers to be among the most damaging of weather systems.
@@ -67,6 +194,7 @@ February 20, 2017 - The idea of plumes of moisture curling above our heads might
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe">http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/17/1983v1_20170103-gfsw_wide-8aabd17f45c9d537ce2753859b635a1abaf4bf91-s3000-c15.png"></itunes:image>
       <itunes:duration>138</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
@@ -75,6 +203,7 @@ February 20, 2017 - The idea of plumes of moisture curling above our heads might
       <description>February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s800-c15.jpg"></a>
 
 February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.
@@ -82,6 +211,7 @@ February 20, 2017 - Scientific evidence showing health benefits from engaging in
 <a href="http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes">http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s3000-c15.jpg"></itunes:image>
       <itunes:duration>265</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</guid>
@@ -89,12 +219,14 @@ February 20, 2017 - Scientific evidence showing health benefits from engaging in
       <link>http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</link>
       <description>February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA&#39;s Launch Complex 39A, site of the shuttle program and the mission that first sent humans to the moon. Their second try succeeded Sunday.</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/19/gettyimages-642685416_wide-7dd6e908793ddefa767f383a1fa849027c6825de-s800-c15.jpg"></a>
 
 February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch Complex 39A, site of the shuttle program and the mission that first sent humans to the moon. Their second try succeeded Sunday.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad">http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/19/gettyimages-642685416_wide-7dd6e908793ddefa767f383a1fa849027c6825de-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_an_alien_world_in_antarctica.mp3?orgId=1&amp;topicId=1007&amp;d=243&amp;p=10&amp;story=516064742&amp;t=progseg&amp;e=516064623&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
@@ -103,10 +235,13 @@ February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch C
       <description>February 19, 2017 - Covered in ice and filled with bubbling lava, the Antarctic volcano Mount Erebus is the perfect proxy for an alien world. That&#39;s why NASA&#39;s Aaron Curtis travels there to test space exploration robots.</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_an_alien_world_in_antarctica.mp3?orgId=1&amp;topicId=1007&amp;d=243&amp;p=10&amp;story=516064742&amp;t=progseg&amp;e=516064623&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 19, 2017 - Covered in ice and filled with bubbling lava, the Antarctic volcano Mount Erebus is the perfect proxy for an alien world. That's why NASA's Aaron Curtis travels there to test space exploration robots.
 
 <a href="http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica">http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>243</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_space_poop.mp3?orgId=1&amp;topicId=1026&amp;d=198&amp;p=10&amp;story=516064679&amp;siteplayer=true&amp;dl=1</guid>
@@ -115,108 +250,13 @@ February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch C
       <description>February 19, 2017 - Even astronauts have to go number two. NASA recently asked the public for suggestions on how to better deal with poop in spacesuits.&#xA;&#xA; - http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_space_poop.mp3?orgId=1&amp;topicId=1026&amp;d=198&amp;p=10&amp;story=516064679&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 19, 2017 - Even astronauts have to go number two. NASA recently asked the public for suggestions on how to better deal with poop in spacesuits.
 
 <a href="http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge">http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>198</itunes:duration>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</guid>
-      <title>Can Changing When And What We Eat Help Outwit Disease?</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</link>
-      <description>February 19, 2017 - I&#39;m fasting intermittently as part of a research study, to see if changing my gut microbiome affects my multiple sclerosis. But maybe living on Peanut Chews isn&#39;t the best strategy.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-9a2fd2b3e4e1d66339268bd4924f32108042e783-s800-c15.jpg"></a>
-
-February 19, 2017 - I'm fasting intermittently as part of a research study, to see if changing my gut microbiome affects my multiple sclerosis. But maybe living on Peanut Chews isn't the best strategy.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease">http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-9a2fd2b3e4e1d66339268bd4924f32108042e783-s3000-c15.jpg"></itunes:image>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_have_spare_time_try_to_discover_a_planet.mp3?orgId=1&amp;topicId=1026&amp;aggIds=156490415&amp;d=169&amp;p=3&amp;story=515810147&amp;t=progseg&amp;e=516187826&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Have Spare Time? Try To Discover A Planet</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/18/515810147/have-spare-time-try-to-discover-a-planet</link>
-      <description>February 18, 2017 - Astronomers think there&#39;s an undiscovered planet lurking in the far reaches of the solar system, and they&#39;re asking the public&#39;s help to find it.</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_have_spare_time_try_to_discover_a_planet.mp3?orgId=1&amp;topicId=1026&amp;aggIds=156490415&amp;d=169&amp;p=3&amp;story=515810147&amp;t=progseg&amp;e=516187826&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/pia17254_wide-91e02fa04858dd893d5bcc988c60efe580dc50c0-s800-c15.jpg"></a>
-
-February 18, 2017 - Astronomers think there's an undiscovered planet lurking in the far reaches of the solar system, and they're asking the public's help to find it.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/18/515810147/have-spare-time-try-to-discover-a-planet">http://www.npr.org/sections/thetwo-way/2017/02/18/515810147/have-spare-time-try-to-discover-a-planet</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/pia17254_wide-91e02fa04858dd893d5bcc988c60efe580dc50c0-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>169</itunes:duration>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/18/515946936/watch-live-spacex-launch-marks-a-milestone-for-nasas-historic-pad</guid>
-      <title>A Liftoff Deferred: SpaceX Mission From NASA&#39;s Historic Launch Pad Delayed</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/18/515946936/watch-live-spacex-launch-marks-a-milestone-for-nasas-historic-pad</link>
-      <description>February 18, 2017 - Launch Complex 39A, the site of the Apollo 11 mission, has quite a storied past. Now, it&#39;s on the brink of a new era — but it&#39;ll have to wait a bit, after Saturday&#39;s launch was scrubbed for 24 hours.</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/18/gettyimages-642426914_wide-bcec2820fcbba4a32e71d7224a3734087c2201db-s800-c15.jpg"></a>
-
-February 18, 2017 - Launch Complex 39A, the site of the Apollo 11 mission, has quite a storied past. Now, it's on the brink of a new era — but it'll have to wait a bit, after Saturday's launch was scrubbed for 24 hours.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/18/515946936/watch-live-spacex-launch-marks-a-milestone-for-nasas-historic-pad">http://www.npr.org/sections/thetwo-way/2017/02/18/515946936/watch-live-spacex-launch-marks-a-milestone-for-nasas-historic-pad</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/18/gettyimages-642426914_wide-bcec2820fcbba4a32e71d7224a3734087c2201db-s3000-c15.jpg"></itunes:image>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_when_their_food_ran_out_these_reindeer_kept_digging.mp3?orgId=1&amp;topicId=1132&amp;d=236&amp;p=7&amp;story=514523987&amp;t=progseg&amp;e=515921238&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>When Their Food Ran Out, These Reindeer Kept Digging</title>
-      <link>http://www.npr.org/2017/02/18/514523987/when-their-food-ran-out-these-reindeer-kept-digging</link>
-      <description>February 18, 2017 - Reindeer are thought to face a grim future as climate change threatens lichen, a key winter food source. But on one Alaskan island, reindeer have found a new food source, making scientists hopeful.</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_when_their_food_ran_out_these_reindeer_kept_digging.mp3?orgId=1&amp;topicId=1132&amp;d=236&amp;p=7&amp;story=514523987&amp;t=progseg&amp;e=515921238&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/10/reindeer-count-image-1sept14_wide-4811fdf24ad41c28e15e47e26f6b49b2e5c73d91-s800-c15.jpg"></a>
-
-February 18, 2017 - Reindeer are thought to face a grim future as climate change threatens lichen, a key winter food source. But on one Alaskan island, reindeer have found a new food source, making scientists hopeful.
-
-<a href="http://www.npr.org/2017/02/18/514523987/when-their-food-ran-out-these-reindeer-kept-digging">http://www.npr.org/2017/02/18/514523987/when-their-food-ran-out-these-reindeer-kept-digging</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/reindeer-count-image-1sept14_wide-4811fdf24ad41c28e15e47e26f6b49b2e5c73d91-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>236</itunes:duration>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_saturday_essay.mp3?orgId=1&amp;topicId=1060&amp;aggIds=4495795&amp;d=176&amp;p=7&amp;story=515863313&amp;t=progseg&amp;e=515921238&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>&#39;Are We Alone?&#39; Churchill Concludes It&#39;s Likely Life Circles Other Suns</title>
-      <link>http://www.npr.org/2017/02/18/515863313/are-we-alone-churchill-concludes-its-likely-life-circles-other-suns</link>
-      <description>February 18, 2017 - In an essay written in 1939, Winston Churchill pondered the possibility that there might be life elsewhere in the universe. The document was recently rediscovered in a museum in Fulton, Mo.</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_saturday_essay.mp3?orgId=1&amp;topicId=1060&amp;aggIds=4495795&amp;d=176&amp;p=7&amp;story=515863313&amp;t=progseg&amp;e=515921238&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/18/ap_761840436687_wide-903ae2a8c11dea4988dc10af9ba54ebb46a2479f-s800-c15.jpg"></a>
-
-February 18, 2017 - In an essay written in 1939, Winston Churchill pondered the possibility that there might be life elsewhere in the universe. The document was recently rediscovered in a museum in Fulton, Mo.
-
-<a href="http://www.npr.org/2017/02/18/515863313/are-we-alone-churchill-concludes-its-likely-life-circles-other-suns">http://www.npr.org/2017/02/18/515863313/are-we-alone-churchill-concludes-its-likely-life-circles-other-suns</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/18/ap_761840436687_wide-903ae2a8c11dea4988dc10af9ba54ebb46a2479f-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>176</itunes:duration>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_home_by_the_shore.mp3?orgId=1&amp;topicId=1025&amp;d=433&amp;p=2&amp;story=515621902&amp;t=progseg&amp;e=515734048&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>In Massachusetts, Coastal Residents Consider How To Adapt To Climate Change</title>
-      <link>http://www.npr.org/2017/02/17/515621902/in-massachusetts-coastal-residents-consider-how-to-adapt-to-climate-change</link>
-      <description>February 17, 2017 - Living by the shore in the age of climate change means managing risk. In the community of Nahant, Mass., residents are trying to decide how to adapt.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_home_by_the_shore.mp3?orgId=1&amp;topicId=1025&amp;d=433&amp;p=2&amp;story=515621902&amp;t=progseg&amp;e=515734048&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/nahantlandingpage-hr_jmmg1rl_wide-a640324fbd7b4a3f5e3e141c7eea1ef52a86cc57-s800-c15.jpg"></a>
-
-February 17, 2017 - Living by the shore in the age of climate change means managing risk. In the community of Nahant, Mass., residents are trying to decide how to adapt.
-
-<a href="http://www.npr.org/2017/02/17/515621902/in-massachusetts-coastal-residents-consider-how-to-adapt-to-climate-change">http://www.npr.org/2017/02/17/515621902/in-massachusetts-coastal-residents-consider-how-to-adapt-to-climate-change</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/nahantlandingpage-hr_jmmg1rl_wide-a640324fbd7b4a3f5e3e141c7eea1ef52a86cc57-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>433</itunes:duration>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_senate_confirms_scott_pruitt_to_lead_environmental_protection_agency.mp3?orgId=1&amp;topicId=1014&amp;d=210&amp;p=2&amp;story=515841090&amp;t=progseg&amp;e=515734048&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Senate Confirms Scott Pruitt To Lead Environmental Protection Agency</title>
-      <link>http://www.npr.org/2017/02/17/515841090/senate-confirms-scott-pruitt-to-lead-environmental-protection-agency</link>
-      <description>February 17, 2017 - Scott Pruitt is promising an aggressive rollback of regulations at the Environmental Protection Agency. NPR takes a look at what he&#39;s likely to target and the challenges he will face.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_senate_confirms_scott_pruitt_to_lead_environmental_protection_agency.mp3?orgId=1&amp;topicId=1014&amp;d=210&amp;p=2&amp;story=515841090&amp;t=progseg&amp;e=515734048&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[February 17, 2017 - Scott Pruitt is promising an aggressive rollback of regulations at the Environmental Protection Agency. NPR takes a look at what he's likely to target and the challenges he will face.
-
-<a href="http://www.npr.org/2017/02/17/515841090/senate-confirms-scott-pruitt-to-lead-environmental-protection-agency">http://www.npr.org/2017/02/17/515841090/senate-confirms-scott-pruitt-to-lead-environmental-protection-agency</a>]]></itunes:summary>
-      <itunes:duration>210</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
   </channel>
 </rss>

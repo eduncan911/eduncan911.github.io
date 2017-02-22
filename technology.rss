@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Technology : NPR</title>
     <link>http://www.npr.org/sections/technology/</link>
     <description>Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.</description>
-    <category>technology</category>
+    <category>Technology</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Feb 2017 17:55:11 +0000</lastBuildDate>
-    <pubDate>Tue, 21 Feb 2017 17:55:11 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:25:58 +0000</lastBuildDate>
+    <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
+    <pubDate>Wed, 22 Feb 2017 19:25:58 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
+      <title>Technology : NPR</title>
+      <link>http://www.npr.org/sections/technology/</link>
     </image>
+    <atom:link href="http://www.npr.org/sections/technology/archive" rel="self" type="application/rss+xml"></atom:link>
+    <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
     <itunes:subtitle>Latest technology news and breakthroughs in technology, scien...</itunes:subtitle>
     <itunes:summary><![CDATA[Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed. <a href="http://www.npr.org/sections/technology/">http://www.npr.org/sections/technology/</a>]]></itunes:summary>
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-    <itunes:category text="technology"></itunes:category>
+    <itunes:explicit>False</itunes:explicit>
+    <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Are Cyborgs In Our Future? &#39;Homo Deus&#39; Author Thinks So</title>
+      <link>http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</link>
+      <description>February 21, 2017 - Yuval Noah Harari expects we&#39;ll soon engineer our bodies in the same way we design products. &#34;I think in general medicine ... will switch from healing the sick to upgrading the healthy,&#34; he says.</description>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s800-c15.jpg"></a>
+
+February 21, 2017 - Yuval Noah Harari expects we'll soon engineer our bodies in the same way we design products. "I think in general medicine ... will switch from healing the sick to upgrading the healthy," he says.
+
+<a href="http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so">http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>298</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_uber_orders_investigation_into_sexual_harassment_claims.mp3?orgId=1&amp;topicId=1006&amp;d=223&amp;p=2&amp;story=516292319&amp;t=progseg&amp;e=516216257&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
       <title>Uber Orders Investigation Into Sexual Harassment Claims</title>
@@ -24,11 +47,13 @@
       <description>February 20, 2017 - A former engineer for the ride-hailing app Uber published a blog post this weekend claiming that she faced sexual harassment while working at the company. Uber says it&#39;s investigating the allegations.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_uber_orders_investigation_into_sexual_harassment_claims.mp3?orgId=1&amp;topicId=1006&amp;d=223&amp;p=2&amp;story=516292319&amp;t=progseg&amp;e=516216257&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 20, 2017 - A former engineer for the ride-hailing app Uber published a blog post this weekend claiming that she faced sexual harassment while working at the company. Uber says it's investigating the allegations.
 
 <a href="http://www.npr.org/2017/02/20/516292319/uber-orders-investigation-into-sexual-harassment-claims">http://www.npr.org/2017/02/20/516292319/uber-orders-investigation-into-sexual-harassment-claims</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>223</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_republic_author_describes_how_social_media_hurts_democracy.mp3?orgId=1&amp;topicId=1033&amp;d=315&amp;p=2&amp;story=516292286&amp;t=progseg&amp;e=516216257&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
@@ -37,11 +62,13 @@
       <description>February 20, 2017 - NPR&#39;s Kelly McEvers speaks to Cass Sunstein about his new book, #Republic: Divided Democracy in the Age of Social Media. He says democracy needs people to come across a variety of viewpoints, and much of social media limits that exposure.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_republic_author_describes_how_social_media_hurts_democracy.mp3?orgId=1&amp;topicId=1033&amp;d=315&amp;p=2&amp;story=516292286&amp;t=progseg&amp;e=516216257&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 20, 2017 - NPR's Kelly McEvers speaks to Cass Sunstein about his new book, #Republic: Divided Democracy in the Age of Social Media. He says democracy needs people to come across a variety of viewpoints, and much of social media limits that exposure.
 
 <a href="http://www.npr.org/2017/02/20/516292286/-republic-author-describes-how-social-media-hurts-democracy">http://www.npr.org/2017/02/20/516292286/-republic-author-describes-how-social-media-hurts-democracy</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>315</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</guid>
@@ -49,12 +76,14 @@
       <link>http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</link>
       <description>February 20, 2017 - Uber&#39;s CEO has ordered an investigation into a sexual harassment claim made by a female engineer after she published a blog post detailing her experience.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/20/ap_16307585078228_wide-4a0a8ea90481b595376c899449bd3e45275559cc-s800-c15.jpg"></a>
 
 February 20, 2017 - Uber's CEO has ordered an investigation into a sexual harassment claim made by a female engineer after she published a blog post detailing her experience.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer">http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/20/ap_16307585078228_wide-4a0a8ea90481b595376c899449bd3e45275559cc-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_facebook_wants_great_power_but_what_about_responsibility_.mp3?orgId=1&amp;topicId=1059&amp;d=210&amp;p=3&amp;story=516094134&amp;t=progseg&amp;e=516187826&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
@@ -63,6 +92,7 @@ February 20, 2017 - Uber's CEO has ordered an investigation into a sexual harass
       <description>February 19, 2017 - Mark Zuckerberg has announced a plan to make Facebook the only primary platform people use to connect to others virtually. But he fails to discuss the responsibilities that come with that power.</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_facebook_wants_great_power_but_what_about_responsibility_.mp3?orgId=1&amp;topicId=1059&amp;d=210&amp;p=3&amp;story=516094134&amp;t=progseg&amp;e=516187826&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/19/istock-504757660_wide-fcdd4578e26c69f80887e83ef792aa6318127a16-s800-c15.jpg"></a>
 
 February 19, 2017 - Mark Zuckerberg has announced a plan to make Facebook the only primary platform people use to connect to others virtually. But he fails to discuss the responsibilities that come with that power.
@@ -70,6 +100,7 @@ February 19, 2017 - Mark Zuckerberg has announced a plan to make Facebook the on
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/19/516094134/facebook-wants-great-power-but-what-about-responsibility">http://www.npr.org/sections/alltechconsidered/2017/02/19/516094134/facebook-wants-great-power-but-what-about-responsibility</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/19/istock-504757660_wide-fcdd4578e26c69f80887e83ef792aa6318127a16-s3000-c15.jpg"></itunes:image>
       <itunes:duration>210</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers</guid>
@@ -77,12 +108,14 @@ February 19, 2017 - Mark Zuckerberg has announced a plan to make Facebook the on
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers</link>
       <description>February 18, 2017 - A new feature allows users to create lists of places and share them with friends. Is Google Maps trying to become a social network or to collect more information about its users? Maybe both.</description>
       <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/16/_mg_0301-2_wide-e7e6d4accd5e7b02eacb7a6e0c39111697c4b13f-s800-c15.jpg"></a>
 
 February 18, 2017 - A new feature allows users to create lists of places and share them with friends. Is Google Maps trying to become a social network or to collect more information about its users? Maybe both.
 
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers">http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/16/_mg_0301-2_wide-e7e6d4accd5e7b02eacb7a6e0c39111697c4b13f-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_local_police_departments_invest_in_cell_phone_spy_tools.mp3?orgId=1&amp;topicId=1019&amp;d=255&amp;p=2&amp;story=515841069&amp;t=progseg&amp;e=515734048&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
@@ -91,11 +124,13 @@ February 18, 2017 - A new feature allows users to create lists of places and sha
       <description>February 17, 2017 - As we depend on our cell phones more and more, the tools to peek into our phones are getting better. Local police departments across the country are investing heavily in this technology. And, with few laws governing what police can collect and store, that has a lot of privacy advocates alarmed. NPR&#39;s Robert Siegel talks to City Lab reporter George Joseph about the spread of tools that let police collect cell phone data.</description>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_local_police_departments_invest_in_cell_phone_spy_tools.mp3?orgId=1&amp;topicId=1019&amp;d=255&amp;p=2&amp;story=515841069&amp;t=progseg&amp;e=515734048&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 17, 2017 - As we depend on our cell phones more and more, the tools to peek into our phones are getting better. Local police departments across the country are investing heavily in this technology. And, with few laws governing what police can collect and store, that has a lot of privacy advocates alarmed. NPR's Robert Siegel talks to City Lab reporter George Joseph about the spread of tools that let police collect cell phone data.
 
 <a href="http://www.npr.org/2017/02/17/515841069/local-police-departments-invest-in-cell-phone-spy-tools">http://www.npr.org/2017/02/17/515841069/local-police-departments-invest-in-cell-phone-spy-tools</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>255</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_scientific_conference_planners_concerned_about_immigration_policy.mp3?orgId=1&amp;topicId=1014&amp;d=234&amp;p=2&amp;story=515785189&amp;t=progseg&amp;e=515734048&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
@@ -104,11 +139,13 @@ February 18, 2017 - A new feature allows users to create lists of places and sha
       <description>February 17, 2017 - There&#39;s increasing concern among planners of science and technical conferences about the Trump administration&#39;s immigration restrictions. Many groups signed a letter asking Trump to rescind the order.</description>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_scientific_conference_planners_concerned_about_immigration_policy.mp3?orgId=1&amp;topicId=1014&amp;d=234&amp;p=2&amp;story=515785189&amp;t=progseg&amp;e=515734048&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 17, 2017 - There's increasing concern among planners of science and technical conferences about the Trump administration's immigration restrictions. Many groups signed a letter asking Trump to rescind the order.
 
 <a href="http://www.npr.org/2017/02/17/515785189/scientific-conference-planners-concerned-about-immigration-policy">http://www.npr.org/2017/02/17/515785189/scientific-conference-planners-concerned-about-immigration-policy</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>234</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device</guid>
@@ -116,12 +153,14 @@ February 18, 2017 - A new feature allows users to create lists of places and sha
       <link>http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device</link>
       <description>February 17, 2017 - The doll Cayla looks like an everyday toy and gives no notice that it collects and transmits everything it hears, German regulators say.</description>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/17/img_3809_wide-56133a625835385ca8c610debaf810f1cae0e106-s800-c15.jpg"></a>
 
 February 17, 2017 - The doll Cayla looks like an everyday toy and gives no notice that it collects and transmits everything it hears, German regulators say.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device">http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/17/img_3809_wide-56133a625835385ca8c610debaf810f1cae0e106-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</guid>
@@ -129,12 +168,14 @@ February 17, 2017 - The doll Cayla looks like an everyday toy and gives no notic
       <link>http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</link>
       <description>February 17, 2017 - Members of The Turtles lost their New York class action in a ruling from the state&#39;s appeals court.&#xA;&#xA; - http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</description>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/17/gettyimages-570510595_wide-02d10e70e8186413ad71275c2fe6a6e4d6759da5-s800-c15.jpg"></a>
 
 February 17, 2017 - Members of The Turtles lost their New York class action in a ruling from the state's appeals court.
 
 <a href="http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york">http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/17/gettyimages-570510595_wide-02d10e70e8186413ad71275c2fe6a6e4d6759da5-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170217_me_using_the_blockchain_to_change_prisons.mp3?orgId=1&amp;topicId=1017&amp;aggIds=94427042&amp;d=211&amp;p=3&amp;story=515728601&amp;t=progseg&amp;e=515728565&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
@@ -143,11 +184,13 @@ February 17, 2017 - Members of The Turtles lost their New York class action in a
       <description>February 17, 2017 - Charlie Shrem went to prison for his involvement in Bitcoin trading. Now he&#39;s out and part of the next evolution of Bitcoin&#39;s future, investments that trade using Bitcoin&#39;s underlying technology.</description>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170217_me_using_the_blockchain_to_change_prisons.mp3?orgId=1&amp;topicId=1017&amp;aggIds=94427042&amp;d=211&amp;p=3&amp;story=515728601&amp;t=progseg&amp;e=515728565&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 17, 2017 - Charlie Shrem went to prison for his involvement in Bitcoin trading. Now he's out and part of the next evolution of Bitcoin's future, investments that trade using Bitcoin's underlying technology.
 
 <a href="http://www.npr.org/2017/02/17/515728601/using-the-blockchain-to-change-prisons">http://www.npr.org/2017/02/17/515728601/using-the-blockchain-to-change-prisons</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>211</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen</guid>
@@ -155,12 +198,14 @@ February 17, 2017 - Members of The Turtles lost their New York class action in a
       <link>http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen</link>
       <description>February 16, 2017 - The company warned some users that their accounts may have been accessed using forged cookies in connection with a previously disclosed hack in 2014.</description>
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/16/ap_17006386449414_wide-4f58eeb88ede30e6e9ee2ef7cc17cefb5995c81d-s800-c15.jpg"></a>
 
 February 16, 2017 - The company warned some users that their accounts may have been accessed using forged cookies in connection with a previously disclosed hack in 2014.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen">http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/16/ap_17006386449414_wide-4f58eeb88ede30e6e9ee2ef7cc17cefb5995c81d-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone</guid>
@@ -168,12 +213,14 @@ February 16, 2017 - The company warned some users that their accounts may have b
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone</link>
       <description>February 16, 2017 - You may have heard of drone racing, but people keep coming up with new ways to enjoy these flying machines. A Latvian firm has developed a drone to pull snowboarders in a sport called &#34;droneboarding.&#34;</description>
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/gettyimages-631820166_wide-6293ec5909f74c19d68439a0a2b1c925296990b2-s800-c15.jpg"></a>
 
 February 16, 2017 - You may have heard of drone racing, but people keep coming up with new ways to enjoy these flying machines. A Latvian firm has developed a drone to pull snowboarders in a sport called "droneboarding."
 
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone">http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/15/gettyimages-631820166_wide-6293ec5909f74c19d68439a0a2b1c925296990b2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_south_has_been_slow_to_harness_its_wind_but_thats_changing.mp3?orgId=1&amp;topicId=1131&amp;d=229&amp;p=3&amp;story=515376114&amp;t=progseg&amp;e=516361491&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
@@ -182,6 +229,7 @@ February 16, 2017 - You may have heard of drone racing, but people keep coming u
       <description>February 16, 2017 - There are several reasons the region is lagging in wind energy — including lower wind speeds. But now North Carolina is home to the first large-scale commercial wind farm in the Southeast.</description>
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_south_has_been_slow_to_harness_its_wind_but_thats_changing.mp3?orgId=1&amp;topicId=1131&amp;d=229&amp;p=3&amp;story=515376114&amp;t=progseg&amp;e=516361491&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/img_1355_wide-311dcd6d9109ddf336e5bcdd78c42649e4e17b7d-s800-c15.jpg"></a>
 
 February 16, 2017 - There are several reasons the region is lagging in wind energy — including lower wind speeds. But now North Carolina is home to the first large-scale commercial wind farm in the Southeast.
@@ -189,6 +237,7 @@ February 16, 2017 - There are several reasons the region is lagging in wind ener
 <a href="http://www.npr.org/2017/02/16/515376114/the-south-has-been-slow-to-harness-its-wind-but-thats-changing">http://www.npr.org/2017/02/16/515376114/the-south-has-been-slow-to-harness-its-wind-but-thats-changing</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/15/img_1355_wide-311dcd6d9109ddf336e5bcdd78c42649e4e17b7d-s3000-c15.jpg"></itunes:image>
       <itunes:duration>229</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news</guid>
@@ -196,25 +245,14 @@ February 16, 2017 - There are several reasons the region is lagging in wind ener
       <link>http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news</link>
       <description>February 16, 2017 - In an era of national attention to what&#39;s real and what isn&#39;t, we asked educators to share their strategies for helping students sort out fact from fiction.</description>
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/simonsays-toned_wide-b0a4a9a0e77213e7a5813dd023d62c8c0ef44d33-s800-c15.jpg"></a>
 
 February 16, 2017 - In an era of national attention to what's real and what isn't, we asked educators to share their strategies for helping students sort out fact from fiction.
 
 <a href="http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news">http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/15/simonsays-toned_wide-b0a4a9a0e77213e7a5813dd023d62c8c0ef44d33-s3000-c15.jpg"></itunes:image>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves</guid>
-      <title>Nokia&#39;s Famously Indestructible Phone Rumored To Be Returning To Shelves</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves</link>
-      <description>February 15, 2017 - Launched in 2000, the Nokia 3310 was a rugged little brick that won Internet fame for its durability. There are rumors, which HMD Global won&#39;t confirm, that the company is bringing the phone back.</description>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/gettyimages-90739545_wide-a7ed9e8578b8214ad04022a88182c288cd1d43ce-s800-c15.jpg"></a>
-
-February 15, 2017 - Launched in 2000, the Nokia 3310 was a rugged little brick that won Internet fame for its durability. There are rumors, which HMD Global won't confirm, that the company is bringing the phone back.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves">http://www.npr.org/sections/thetwo-way/2017/02/15/515419519/nokias-famously-indestructible-phone-rumored-to-be-returning-to-shelves</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/gettyimages-90739545_wide-a7ed9e8578b8214ad04022a88182c288cd1d43ce-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
   </channel>
 </rss>

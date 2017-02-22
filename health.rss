@@ -1,30 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Health : NPR</title>
     <link>http://www.npr.org/sections/health/</link>
     <description>Health</description>
-    <category>health</category>
+    <category>Health</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Feb 2017 17:55:12 +0000</lastBuildDate>
-    <pubDate>Tue, 21 Feb 2017 17:55:12 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:26:00 +0000</lastBuildDate>
+    <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
+    <pubDate>Wed, 22 Feb 2017 19:26:00 +0000</pubDate>
+    <image>
+      <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
+      <title>Health : NPR</title>
+      <link>http://www.npr.org/sections/health/</link>
+    </image>
+    <atom:link href="http://www.npr.org/sections/health/archive" rel="self" type="application/rss+xml"></atom:link>
+    <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
     <itunes:subtitle>Health</itunes:subtitle>
     <itunes:summary><![CDATA[Health <a href="http://www.npr.org/sections/health/">http://www.npr.org/sections/health/</a>]]></itunes:summary>
-    <itunes:category text="health"></itunes:category>
+    <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+    <itunes:explicit>False</itunes:explicit>
+    <itunes:category text="Health"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends</guid>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now</guid>
+      <title>Judge Rules Texas Can&#39;t Cut Off Medicaid Funds To Planned Parenthood — For Now</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now</link>
+      <description>February 22, 2017 - After Texas officials moved to block the health provider from receiving Medicaid dollars, a federal judge issued a preliminary injunction against the state, allowing the group to stay in the program.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/ap_16179603552157_wide-eb6ab0168dae67912be666c286c5455746307b48-s800-c15.jpg"></a>
+
+February 22, 2017 - After Texas officials moved to block the health provider from receiving Medicaid dollars, a federal judge issued a preliminary injunction against the state, allowing the group to stay in the program.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now">http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_16179603552157_wide-eb6ab0168dae67912be666c286c5455746307b48-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves</guid>
+      <title>Heart Screening For Teens May Cause More Problems Than It Solves</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves</link>
+      <description>February 22, 2017 - There&#39;s no evidence that screening adolescents with electrocardiograms prevents deaths, yet the heart tests have become widespread despite the false alarms they often cause.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/heart-health_wide-0fa361079eb45d51ec02f0d7448db4e125b1bd9b-s800-c15.jpg"></a>
+
+February 22, 2017 - There's no evidence that screening adolescents with electrocardiograms prevents deaths, yet the heart tests have become widespread despite the false alarms they often cause.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves">http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/heart-health_wide-0fa361079eb45d51ec02f0d7448db4e125b1bd9b-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</guid>
+      <title>GOP Considers Trimming Health Law&#39;s 10 Essential Benefits</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</link>
+      <description>February 22, 2017 - The woman set to run the Centers for Medicare &amp; Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s800-c15.jpg"></a>
+
+February 22, 2017 - The woman set to run the Centers for Medicare & Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits">http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo</guid>
+      <title>Threat Of Obamacare Repeal Leaves Community Health Centers In Limbo</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo</link>
+      <description>February 22, 2017 - These clinics have long provided health care to low-income patients and enjoyed expansion under the Affordable Care Act. With repeal looming, the centers&#39; doctors worry about what&#39;s next.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/img_3435-pena-clinic_wide-4ac55fd55d16204a38e5222cce79641d00ba2bcc-s800-c15.jpg"></a>
+
+February 22, 2017 - These clinics have long provided health care to low-income patients and enjoyed expansion under the Affordable Care Act. With repeal looming, the centers' doctors worry about what's next.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo">http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/img_3435-pena-clinic_wide-4ac55fd55d16204a38e5222cce79641d00ba2bcc-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Researchers Failed To Tell Testosterone Trial Patients They Were Anemic</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</link>
+      <description>February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.</description>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s800-c15.jpg"></a>
+
+February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic">http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>114</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_does_testosterone_improve_older_mens_health_it_depends.mp3?orgId=1&amp;topicId=1128&amp;d=185&amp;p=2&amp;story=515456194&amp;t=progseg&amp;e=516377596&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
       <title>Does Testosterone Improve Older Men&#39;s Health? It Depends</title>
       <link>http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends</link>
-      <description>February 21, 2017 - Several studies out this week show mixed results for testosterone supplements. They appear to protect bone density and strength and prevent anemia, but there is no effect on memory and cognition.</description>
+      <description>February 21, 2017 - Several studies out this week show mixed results for testosterone replacement. It appears to protect bone density and strength and prevent anemia, but there is no effect on memory and cognition.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_does_testosterone_improve_older_mens_health_it_depends.mp3?orgId=1&amp;topicId=1128&amp;d=185&amp;p=2&amp;story=515456194&amp;t=progseg&amp;e=516377596&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/mens-health_wide-a31e8d0928f0b233ea81d9ff9974eb73ad93ac98-s800-c15.jpg"></a>
 
-February 21, 2017 - Several studies out this week show mixed results for testosterone supplements. They appear to protect bone density and strength and prevent anemia, but there is no effect on memory and cognition.
+February 21, 2017 - Several studies out this week show mixed results for testosterone replacement. It appears to protect bone density and strength and prevent anemia, but there is no effect on memory and cognition.
 
 <a href="http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends">http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/mens-health_wide-a31e8d0928f0b233ea81d9ff9974eb73ad93ac98-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>185</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming</guid>
@@ -32,12 +123,14 @@ February 21, 2017 - Several studies out this week show mixed results for testost
       <link>http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming</link>
       <description>February 21, 2017 - There are many challenges to farming: It&#39;s often grueling work that relies on unpredictable factors such as weather and global market prices. But one aspect that&#39;s often ignored: health care costs.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/14/farm1_wide-be72a0626da7e7b3eeb84dd8fab47bab4e9590b3-s800-c15.jpg"></a>
 
 February 21, 2017 - There are many challenges to farming: It's often grueling work that relies on unpredictable factors such as weather and global market prices. But one aspect that's often ignored: health care costs.
 
 <a href="http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming">http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/14/farm1_wide-be72a0626da7e7b3eeb84dd8fab47bab4e9590b3-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support</guid>
@@ -45,12 +138,14 @@ February 21, 2017 - There are many challenges to farming: It's often grueling wo
       <link>http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support</link>
       <description>February 21, 2017 - More dads are getting involved with parenting, but the resources to help them are much slimmer than those available for moms.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/dad-parenting_wide-fc1845d54e010cde012d57bfb206310d927e386f-s800-c15.jpg"></a>
 
 February 21, 2017 - More dads are getting involved with parenting, but the resources to help them are much slimmer than those available for moms.
 
 <a href="http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support">http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/16/dad-parenting_wide-fc1845d54e010cde012d57bfb206310d927e386f-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
@@ -59,6 +154,7 @@ February 21, 2017 - More dads are getting involved with parenting, but the resou
       <description>February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.</description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s800-c15.jpg"></a>
 
 February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.
@@ -66,6 +162,7 @@ February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses
 <a href="http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head">http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s3000-c15.jpg"></itunes:image>
       <itunes:duration>436</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
@@ -74,6 +171,7 @@ February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses
       <description>February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s800-c15.jpg"></a>
 
 February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.
@@ -81,6 +179,7 @@ February 20, 2017 - Scientific evidence showing health benefits from engaging in
 <a href="http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes">http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s3000-c15.jpg"></itunes:image>
       <itunes:duration>265</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_got_back_pain_try_yoga_or_massage_before_reaching_for_the_pills.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=123&amp;p=3&amp;story=515675259&amp;t=progseg&amp;e=516187826&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
@@ -89,6 +188,7 @@ February 20, 2017 - Scientific evidence showing health benefits from engaging in
       <description>February 20, 2017 - New guidelines encourage doctors to tell patients to try non-drug therapies for acute lower back pain first.</description>
       <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_got_back_pain_try_yoga_or_massage_before_reaching_for_the_pills.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=123&amp;p=3&amp;story=515675259&amp;t=progseg&amp;e=516187826&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/18/yoga-back-pain_wide-7ebe92e21e19f8c4bec1b40f8cd99a6c40594882-s800-c15.jpg"></a>
 
 February 20, 2017 - New guidelines encourage doctors to tell patients to try non-drug therapies for acute lower back pain first.
@@ -96,6 +196,7 @@ February 20, 2017 - New guidelines encourage doctors to tell patients to try non
 <a href="http://www.npr.org/sections/health-shots/2017/02/20/515675259/got-back-pain-try-yoga-or-massage-before-reaching-for-the-pills">http://www.npr.org/sections/health-shots/2017/02/20/515675259/got-back-pain-try-yoga-or-massage-before-reaching-for-the-pills</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/18/yoga-back-pain_wide-7ebe92e21e19f8c4bec1b40f8cd99a6c40594882-s3000-c15.jpg"></itunes:image>
       <itunes:duration>123</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_foster_parent_for_terminally_ill_children.mp3?orgId=1&amp;topicId=1091&amp;d=236&amp;p=10&amp;story=516064735&amp;t=progseg&amp;e=516064623&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
@@ -104,10 +205,13 @@ February 20, 2017 - New guidelines encourage doctors to tell patients to try non
       <description>February 19, 2017 - NPR&#39;s Lulu Garcia-Navarro talks to Los Angeles foster parent Mohamed Bzeek. He takes care of terminally ill foster children and tends full-time to their medical needs.</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_foster_parent_for_terminally_ill_children.mp3?orgId=1&amp;topicId=1091&amp;d=236&amp;p=10&amp;story=516064735&amp;t=progseg&amp;e=516064623&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[February 19, 2017 - NPR's Lulu Garcia-Navarro talks to Los Angeles foster parent Mohamed Bzeek. He takes care of terminally ill foster children and tends full-time to their medical needs.
 
 <a href="http://www.npr.org/2017/02/19/516064735/a-foster-parent-for-terminally-ill-children">http://www.npr.org/2017/02/19/516064735/a-foster-parent-for-terminally-ill-children</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>236</itunes:duration>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle</guid>
@@ -115,12 +219,14 @@ February 20, 2017 - New guidelines encourage doctors to tell patients to try non
       <link>http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle</link>
       <description>February 19, 2017 - The one-legged orphan in Liberia had figured out how to use a crutch as an improvised prosthetic leg. But he wanted the real deal.</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/13/132a0404_wide-fd0690d754b8ae02c9d885651d368619b97461c3-s800-c15.jpg"></a>
 
 February 19, 2017 - The one-legged orphan in Liberia had figured out how to use a crutch as an improvised prosthetic leg. But he wanted the real deal.
 
 <a href="http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle">http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/13/132a0404_wide-fd0690d754b8ae02c9d885651d368619b97461c3-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</guid>
@@ -128,12 +234,14 @@ February 19, 2017 - The one-legged orphan in Liberia had figured out how to use 
       <link>http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</link>
       <description>February 19, 2017 - I&#39;m fasting intermittently as part of a research study, to see if changing my gut microbiome affects my multiple sclerosis. But maybe living on Peanut Chews isn&#39;t the best strategy.</description>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-9a2fd2b3e4e1d66339268bd4924f32108042e783-s800-c15.jpg"></a>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-39713c851ff780a0a920728ee193ef46cf957d59-s800-c15.jpg"></a>
 
 February 19, 2017 - I'm fasting intermittently as part of a research study, to see if changing my gut microbiome affects my multiple sclerosis. But maybe living on Peanut Chews isn't the best strategy.
 
 <a href="http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease">http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-9a2fd2b3e4e1d66339268bd4924f32108042e783-s3000-c15.jpg"></itunes:image>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-39713c851ff780a0a920728ee193ef46cf957d59-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_gop_leaders_urge_return_to_high-risk_insurance_pools_that_critics_call_costly.mp3?orgId=111&amp;topicId=1128&amp;d=213&amp;p=7&amp;story=514991567&amp;t=progseg&amp;e=515921238&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
@@ -142,6 +250,7 @@ February 19, 2017 - I'm fasting intermittently as part of a research study, to s
       <description>February 18, 2017 - Some Republicans in Congress say they could partly fix the federal health law by again separating people who buy insurance into two categories — sick and healthy. Critics say it won&#39;t save money.</description>
       <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_gop_leaders_urge_return_to_high-risk_insurance_pools_that_critics_call_costly.mp3?orgId=111&amp;topicId=1128&amp;d=213&amp;p=7&amp;story=514991567&amp;t=progseg&amp;e=515921238&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/13/514991567_high-risk-pool-1_wide-a55f5ffcb144b452f56633dcf8c9752ceb157822-s800-c15.jpg"></a>
 
 February 18, 2017 - Some Republicans in Congress say they could partly fix the federal health law by again separating people who buy insurance into two categories — sick and healthy. Critics say it won't save money.
@@ -149,75 +258,7 @@ February 18, 2017 - Some Republicans in Congress say they could partly fix the f
 <a href="http://www.npr.org/sections/health-shots/2017/02/18/514991567/gop-leaders-urge-return-to-high-risk-insurance-pools-that-critics-call-costly">http://www.npr.org/sections/health-shots/2017/02/18/514991567/gop-leaders-urge-return-to-high-risk-insurance-pools-that-critics-call-costly</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/13/514991567_high-risk-pool-1_wide-a55f5ffcb144b452f56633dcf8c9752ceb157822-s3000-c15.jpg"></itunes:image>
       <itunes:duration>213</itunes:duration>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/18/515620562/why-oh-why-is-there-phlegm</guid>
-      <title>Why Oh Why Is There Phlegm?</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/18/515620562/why-oh-why-is-there-phlegm</link>
-      <description>February 18, 2017 - Having a cold or a flu is unpleasant enough without suffering the indignity of phlegm. But those gobs of goo are there for a reason.&#xA;&#xA; - http://www.npr.org/sections/health-shots/2017/02/18/515620562/why-oh-why-is-there-phlegm</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/17/phlegm-updated.jpg_wide-579bf9aba80954d8faf52f48ce3e2d392ef4658a-s800-c15.jpeg"></a>
-
-February 18, 2017 - Having a cold or a flu is unpleasant enough without suffering the indignity of phlegm. But those gobs of goo are there for a reason.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/18/515620562/why-oh-why-is-there-phlegm">http://www.npr.org/sections/health-shots/2017/02/18/515620562/why-oh-why-is-there-phlegm</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/phlegm-updated.jpg_wide-579bf9aba80954d8faf52f48ce3e2d392ef4658a-s3000-c15.jpeg"></itunes:image>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_how_hermann_rorschachs_inkblots_took_on_a_life_of_their_own.mp3?orgId=1&amp;topicId=1033&amp;d=357&amp;p=2&amp;story=515449428&amp;t=progseg&amp;e=515734048&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
-      <title>How Hermann Rorschach&#39;s &#39;Inkblots&#39; Took On A Life Of Their Own</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/17/515449428/how-hermann-rorschachs-inkblots-took-on-a-life-of-their-own</link>
-      <description>February 17, 2017 - These days, you&#39;re more likely to come across the concept of a Rorschach test in a cultural context than a clinical one. In a new book, author Damion Searls traces the history of the famous inkblots.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_how_hermann_rorschachs_inkblots_took_on_a_life_of_their_own.mp3?orgId=1&amp;topicId=1033&amp;d=357&amp;p=2&amp;story=515449428&amp;t=progseg&amp;e=515734048&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/inkblot-1_wide-4721996e4c8fb2aaa203cbe26968c64b742ebaa9-s800-c15.jpg"></a>
-
-February 17, 2017 - These days, you're more likely to come across the concept of a Rorschach test in a cultural context than a clinical one. In a new book, author Damion Searls traces the history of the famous inkblots.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/17/515449428/how-hermann-rorschachs-inkblots-took-on-a-life-of-their-own">http://www.npr.org/sections/health-shots/2017/02/17/515449428/how-hermann-rorschachs-inkblots-took-on-a-life-of-their-own</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/inkblot-1_wide-4721996e4c8fb2aaa203cbe26968c64b742ebaa9-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>357</itunes:duration>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170216_atc_russia_-_domestic_violence_law.mp3?orgId=1&amp;topicId=1004&amp;d=234&amp;story=515765902&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Rights Advocates Warn Russian Domestic Abuse Law Will &#39;Protect The Oppressor&#39;</title>
-      <link>http://www.npr.org/sections/parallels/2017/02/17/515765902/rights-advocates-warn-russian-domestic-abuse-law-will-protect-the-oppressor</link>
-      <description>February 17, 2017 - &#34;The law mentions one blow, but with one blow you can kill someone,&#34; says a young mom hiding in a shelter. &#34;What kind of husbands, what kind of families, will we have with that law? Is that normal?&#34;</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170216_atc_russia_-_domestic_violence_law.mp3?orgId=1&amp;topicId=1004&amp;d=234&amp;story=515765902&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/17/russia-img_0408-edit_wide-993cb114056e832c9bf9b998aff8a9df47da8697-s800-c15.jpg"></a>
-
-February 17, 2017 - "The law mentions one blow, but with one blow you can kill someone," says a young mom hiding in a shelter. "What kind of husbands, what kind of families, will we have with that law? Is that normal?"
-
-<a href="http://www.npr.org/sections/parallels/2017/02/17/515765902/rights-advocates-warn-russian-domestic-abuse-law-will-protect-the-oppressor">http://www.npr.org/sections/parallels/2017/02/17/515765902/rights-advocates-warn-russian-domestic-abuse-law-will-protect-the-oppressor</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/russia-img_0408-edit_wide-993cb114056e832c9bf9b998aff8a9df47da8697-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/02/17/515444290/brazils-expanding-yellow-fever-outbreak-started-with-monkeys</guid>
-      <title>Brazil&#39;s Expanding Yellow Fever Outbreak Started With Monkeys</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/17/515444290/brazils-expanding-yellow-fever-outbreak-started-with-monkeys</link>
-      <description>February 17, 2017 - Since December, there have been more than 1,000 suspected human cases of yellow fever and hundreds more probable cases in monkeys.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/15/7957356628_9e633bc29c_o_wide-7637d479295846729d4692245859c44d6e0598f6-s800-c15.jpg"></a>
-
-February 17, 2017 - Since December, there have been more than 1,000 suspected human cases of yellow fever and hundreds more probable cases in monkeys.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/17/515444290/brazils-expanding-yellow-fever-outbreak-started-with-monkeys">http://www.npr.org/sections/goatsandsoda/2017/02/17/515444290/brazils-expanding-yellow-fever-outbreak-started-with-monkeys</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/7957356628_9e633bc29c_o_wide-7637d479295846729d4692245859c44d6e0598f6-s3000-c15.jpg"></itunes:image>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/17/514583390/as-our-leaders-live-longer-calls-for-presidential-dementia-testing-grow-louder</guid>
-      <title>As Presidents Live Longer, Doctors Debate Whether To Test For Dementia</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/17/514583390/as-our-leaders-live-longer-calls-for-presidential-dementia-testing-grow-louder</link>
-      <description>February 17, 2017 - The true health of politicians has likely been cloaked in secrecy since the days of Mesopotamian kings, but definitely since the Wilson administration. Has the time come to test presidents&#39; cognition?</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/10/gettyimages-515409998_wide-72f88b61b7cc2676aa8aaa4609b52b001c6e77e2-s800-c15.jpg"></a>
-
-February 17, 2017 - The true health of politicians has likely been cloaked in secrecy since the days of Mesopotamian kings, but definitely since the Wilson administration. Has the time come to test presidents' cognition?
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/17/514583390/as-our-leaders-live-longer-calls-for-presidential-dementia-testing-grow-louder">http://www.npr.org/sections/health-shots/2017/02/17/514583390/as-our-leaders-live-longer-calls-for-presidential-dementia-testing-grow-louder</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/10/gettyimages-515409998_wide-72f88b61b7cc2676aa8aaa4609b52b001c6e77e2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>False</itunes:explicit>
     </item>
   </channel>
 </rss>
