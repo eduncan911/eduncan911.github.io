@@ -6,11 +6,11 @@
     <description>The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp;amp; Science podcast.</description>
     <category>Science &amp; Medicine</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
-    <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
+    <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 19:30:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2017 05:19:51 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 22 Feb 2017 19:30:41 +0000</pubDate>
+    <pubDate>Sat, 25 Feb 2017 05:19:51 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -24,238 +24,246 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</guid>
-      <title>Astronomers Find 7 Earth-Size Planets Around A Nearby Star</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</link>
-      <description>February 22, 2017 - Some of the planets could be home to liquid water, but it remains unclear whether life could exist on such strange worlds.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_vx_the_nerve_agent_used_to_kill_kim_jong_nam_is_rare_and_deadly.mp3?orgId=1&amp;topicId=1122&amp;d=221&amp;p=2&amp;story=517053496&amp;t=progseg&amp;e=516997865&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>VX: The Nerve Agent Used To Kill Kim Jong Nam Is Rare And Deadly</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/517053496/vx-the-nerve-agent-used-to-kill-kim-jong-nam-is-rare-and-deadly</link>
+      <description>February 24, 2017 - A colorless, odorless liquid, similar in consistency to motor oil, VX kills in tiny quantities that can be absorbed through the skin. It is among the deadliest chemical weapons ever devised.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_vx_the_nerve_agent_used_to_kill_kim_jong_nam_is_rare_and_deadly.mp3?orgId=1&amp;topicId=1122&amp;d=221&amp;p=2&amp;story=517053496&amp;t=progseg&amp;e=516997865&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/trappist-3_wide-fa4fcb72129875cd2737984fa40e3b330a574720-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/vx_wide-b3b017c27d839d85453bc95dfc742ea48aae2ed0-s800-c15.jpg"></a>
 
-February 22, 2017 - Some of the planets could be home to liquid water, but it remains unclear whether life could exist on such strange worlds.
+February 24, 2017 - A colorless, odorless liquid, similar in consistency to motor oil, VX kills in tiny quantities that can be absorbed through the skin. It is among the deadliest chemical weapons ever devised.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star">http://www.npr.org/sections/thetwo-way/2017/02/22/516431116/astronomers-find-7-earth-sized-planets-around-a-nearby-star</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/trappist-3_wide-fa4fcb72129875cd2737984fa40e3b330a574720-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/517053496/vx-the-nerve-agent-used-to-kill-kim-jong-nam-is-rare-and-deadly">http://www.npr.org/sections/thetwo-way/2017/02/24/517053496/vx-the-nerve-agent-used-to-kill-kim-jong-nam-is-rare-and-deadly</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/vx_wide-b3b017c27d839d85453bc95dfc742ea48aae2ed0-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>221</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</guid>
-      <title>Apollo 11 Space Capsule Is Going On Another Mission</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</link>
-      <description>February 22, 2017 - The capsule called Columbia hasn&#39;t left the Smithsonian&#39;s National Air and Space Museum in Washington, D.C., since 1976. It&#39;s heading out on tour to celebrate the 50th anniversary of the moon landing.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_advice_from_patients_on_a_studys_design_makes_for_better_science_.mp3?orgId=1&amp;topicId=1128&amp;d=377&amp;p=2&amp;story=515226648&amp;t=progseg&amp;e=516997865&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Advice From Patients On A Study&#39;s Design Makes For Better Science </title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/24/515226648/advice-from-patients-on-a-studys-design-makes-for-better-science</link>
+      <description>February 24, 2017 - Increasingly, advocates for patients are in the room when big medical studies are designed. They demand answers to big questions: &#34;Will the results of this study actually help anybody?&#34;</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_advice_from_patients_on_a_studys_design_makes_for_better_science_.mp3?orgId=1&amp;topicId=1128&amp;d=377&amp;p=2&amp;story=515226648&amp;t=progseg&amp;e=516997865&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/columbia-1_wide-b6179bd08fbb8f4d83fb15b6f02db387d59d14d2-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/nancy-roach_wide-3efaa9998a84f0c6fdf1567ef6ae83bf7fa71a6f-s800-c15.jpg"></a>
 
-February 22, 2017 - The capsule called Columbia hasn't left the Smithsonian's National Air and Space Museum in Washington, D.C., since 1976. It's heading out on tour to celebrate the 50th anniversary of the moon landing.
+February 24, 2017 - Increasingly, advocates for patients are in the room when big medical studies are designed. They demand answers to big questions: "Will the results of this study actually help anybody?"
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission">http://www.npr.org/sections/thetwo-way/2017/02/22/516431692/apollo-11-space-capsule-is-going-on-another-mission</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/columbia-1_wide-b6179bd08fbb8f4d83fb15b6f02db387d59d14d2-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/02/24/515226648/advice-from-patients-on-a-studys-design-makes-for-better-science">http://www.npr.org/sections/health-shots/2017/02/24/515226648/advice-from-patients-on-a-studys-design-makes-for-better-science</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/nancy-roach_wide-3efaa9998a84f0c6fdf1567ef6ae83bf7fa71a6f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>377</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</guid>
-      <title>SpaceX Cargo Craft Fails To Dock With Space Station, Will Try Again</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</link>
-      <description>February 22, 2017 - The private spaceflight company launched its Falcon 9 rocket on Sunday, only to have the rocket&#39;s cargo capsule encounter an error in its navigation system on Wednesday during a docking attempt.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/24/517004254/mildred-dresselhaus-queen-of-carbon-and-nanoscience-trailblazer-dies-at-86</guid>
+      <title>Mildred Dresselhaus, &#39;Queen Of Carbon&#39; And Nanoscience Trailblazer, Dies At 86</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/517004254/mildred-dresselhaus-queen-of-carbon-and-nanoscience-trailblazer-dies-at-86</link>
+      <description>February 24, 2017 - The daughter of poor immigrants, Dresselhaus became science royalty for her work with carbon materials. Along the way she opened opportunities for female scientists that didn&#39;t exist when she started.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/ap_16230616892944_wide-dc72b7c61b0dd64f3b0e746d8341ae2fb7628010-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/31972368335_d379f982ee_o_wide-0f849a8f55847f6666ed4ef88c659fc54200cf3e-s800-c15.jpg"></a>
 
-February 22, 2017 - The private spaceflight company launched its Falcon 9 rocket on Sunday, only to have the rocket's cargo capsule encounter an error in its navigation system on Wednesday during a docking attempt.
+February 24, 2017 - The daughter of poor immigrants, Dresselhaus became science royalty for her work with carbon materials. Along the way she opened opportunities for female scientists that didn't exist when she started.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again">http://www.npr.org/sections/thetwo-way/2017/02/22/516614289/spacex-cargo-craft-fails-to-dock-with-space-station-will-try-again</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_16230616892944_wide-dc72b7c61b0dd64f3b0e746d8341ae2fb7628010-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/517004254/mildred-dresselhaus-queen-of-carbon-and-nanoscience-trailblazer-dies-at-86">http://www.npr.org/sections/thetwo-way/2017/02/24/517004254/mildred-dresselhaus-queen-of-carbon-and-nanoscience-trailblazer-dies-at-86</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/31972368335_d379f982ee_o_wide-0f849a8f55847f6666ed4ef88c659fc54200cf3e-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</guid>
-      <title>GOP Considers Trimming Health Law&#39;s 10 Essential Benefits</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</link>
-      <description>February 22, 2017 - The woman set to run the Centers for Medicare &amp; Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_05.mp3?orgId=1&amp;topicId=1007&amp;d=646&amp;p=57&amp;story=516727050&amp;t=progseg&amp;e=514152888&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Eric Haseltine: Can The Past Guide Us To Future Scientific Breakthroughs?</title>
+      <link>http://www.npr.org/2017/02/24/516727050/eric-haseltine-can-the-past-guide-us-to-future-scientific-breakthroughs</link>
+      <description>February 24, 2017 - Trained as a neuroscientist, Eric Haseltine always asks questions. He&#39;s identified four concepts that lead to scientific breakthrough. One of them: acknowledging we&#39;re not the center of the universe.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_05.mp3?orgId=1&amp;topicId=1007&amp;d=646&amp;p=57&amp;story=516727050&amp;t=progseg&amp;e=514152888&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/erichaseltine_2015p-embed_wide-6ea55d38da8acf860013531ee39e403208f83bd0-s800-c15.jpg"></a>
 
-February 22, 2017 - The woman set to run the Centers for Medicare & Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.
+February 24, 2017 - Trained as a neuroscientist, Eric Haseltine always asks questions. He's identified four concepts that lead to scientific breakthrough. One of them: acknowledging we're not the center of the universe.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits">http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/02/24/516727050/eric-haseltine-can-the-past-guide-us-to-future-scientific-breakthroughs">http://www.npr.org/2017/02/24/516727050/eric-haseltine-can-the-past-guide-us-to-future-scientific-breakthroughs</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/erichaseltine_2015p-embed_wide-6ea55d38da8acf860013531ee39e403208f83bd0-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>646</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</guid>
-      <title>Cannibalism: It&#39;s &#39;Perfectly Natural,&#39; A New Scientific History Argues</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</link>
-      <description>February 22, 2017 - It&#39;s gruesome, but from a scientific standpoint, there&#39;s a predictable calculus for when humans and animals go cannibal, a new book says. And who knew European aristocrats ate body parts as medicine?</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_04.mp3?orgId=1&amp;topicId=1013&amp;d=422&amp;p=57&amp;story=516726045&amp;t=progseg&amp;e=514152888&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Liz Coleman: How Do We Teach College Students To Ask Big Questions?</title>
+      <link>http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</link>
+      <description>February 24, 2017 - Former Bennington College President Liz Coleman believes higher education is overly-specialized &amp; complacent. She says we need to encourage students to ask bigger questions and take more risks.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_04.mp3?orgId=1&amp;topicId=1013&amp;d=422&amp;p=57&amp;story=516726045&amp;t=progseg&amp;e=514152888&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/gettyimages-81537508_wide-007f26bf2f43a415c3837c981d449bba5e7cf001-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s800-c15.jpg"></a>
 
-February 22, 2017 - It's gruesome, but from a scientific standpoint, there's a predictable calculus for when humans and animals go cannibal, a new book says. And who knew European aristocrats ate body parts as medicine?
+February 24, 2017 - Former Bennington College President Liz Coleman believes higher education is overly-specialized & complacent. She says we need to encourage students to ask bigger questions and take more risks.
 
-<a href="http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues">http://www.npr.org/sections/thesalt/2017/02/22/515668867/cannibalism-its-perfectly-natural-a-new-scientific-history-argues</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/gettyimages-81537508_wide-007f26bf2f43a415c3837c981d449bba5e7cf001-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions">http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>422</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Are Cyborgs In Our Future? &#39;Homo Deus&#39; Author Thinks So</title>
-      <link>http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</link>
-      <description>February 21, 2017 - Yuval Noah Harari expects we&#39;ll soon engineer our bodies in the same way we design products. &#34;I think in general medicine ... will switch from healing the sick to upgrading the healthy,&#34; he says.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Kevin Jones: Can Embracing Uncertainty Lead To Better Medicine?</title>
+      <link>http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</link>
+      <description>February 24, 2017 - Sometimes, doctors just don&#39;t have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s800-c15.jpg"></a>
 
-February 21, 2017 - Yuval Noah Harari expects we'll soon engineer our bodies in the same way we design products. "I think in general medicine ... will switch from healing the sick to upgrading the healthy," he says.
+February 24, 2017 - Sometimes, doctors just don't have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.
 
-<a href="http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so">http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>298</itunes:duration>
+<a href="http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine">http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>627</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Researchers Failed To Tell Testosterone Trial Patients They Were Anemic</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</link>
-      <description>February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_02.mp3?orgId=1&amp;topicId=1130&amp;d=785&amp;p=57&amp;story=516709308&amp;t=progseg&amp;e=514152888&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Naomi Oreskes: Why Should We Believe In Science?</title>
+      <link>http://www.npr.org/2017/02/24/516709308/naomi-oreskes-why-should-we-believe-in-science</link>
+      <description>February 24, 2017 - In school, we&#39;re taught we should trust science because the scientific method leads to measurable results and hard facts. But Naomi Oreskes says the process of inquiry doesn&#39;t end there.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_02.mp3?orgId=1&amp;topicId=1130&amp;d=785&amp;p=57&amp;story=516709308&amp;t=progseg&amp;e=514152888&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/naomioreskes_2014s-embed_wide-f4d16e86b5f30d21620f74cca8059ea63461c32c-s800-c15.jpg"></a>
 
-February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.
+February 24, 2017 - In school, we're taught we should trust science because the scientific method leads to measurable results and hard facts. But Naomi Oreskes says the process of inquiry doesn't end there.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic">http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>114</itunes:duration>
+<a href="http://www.npr.org/2017/02/24/516709308/naomi-oreskes-why-should-we-believe-in-science">http://www.npr.org/2017/02/24/516709308/naomi-oreskes-why-should-we-believe-in-science</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/naomioreskes_2014s-embed_wide-f4d16e86b5f30d21620f74cca8059ea63461c32c-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>785</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_does_studying_economics_make_you_selfish.mp3?orgId=1&amp;topicId=1024&amp;d=214&amp;p=3&amp;story=516375434&amp;t=progseg&amp;e=516361491&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Does Studying Economics Make You Selfish?</title>
-      <link>http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish</link>
-      <description>February 21, 2017 - Social science research finds that students who are taught classical economics about how humans act in their rational self-interest, become more likely to act selfishly after learning those lessons.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_does_studying_economics_make_you_selfish.mp3?orgId=1&amp;topicId=1024&amp;d=214&amp;p=3&amp;story=516375434&amp;t=progseg&amp;e=516361491&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_01.mp3?orgId=1&amp;topicId=1129&amp;d=440&amp;p=57&amp;story=516704705&amp;t=progseg&amp;e=514152888&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Michael Stevens: How Do You Find Smart Answers to Quirky Questions?  </title>
+      <link>http://www.npr.org/2017/02/24/516704705/michael-stevens-how-do-you-find-smart-answers-to-quirky-questions</link>
+      <description>February 24, 2017 - When Michael Stevens is confronted with a quirky question, he responsibly searches for the answer and posts it to YouTube — inviting millions of people to follow his journey of discovery.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_01.mp3?orgId=1&amp;topicId=1129&amp;d=440&amp;p=57&amp;story=516704705&amp;t=progseg&amp;e=514152888&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 21, 2017 - Social science research finds that students who are taught classical economics about how humans act in their rational self-interest, become more likely to act selfishly after learning those lessons.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/michaelstevens_2013a-embed_wide-67e17cdcdf94ecc99a64bc73c4e6ff4bbf096732-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish">http://www.npr.org/2017/02/21/516375434/does-studying-economics-make-you-selfish</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>214</itunes:duration>
+February 24, 2017 - When Michael Stevens is confronted with a quirky question, he responsibly searches for the answer and posts it to YouTube — inviting millions of people to follow his journey of discovery.
+
+<a href="http://www.npr.org/2017/02/24/516704705/michael-stevens-how-do-you-find-smart-answers-to-quirky-questions">http://www.npr.org/2017/02/24/516704705/michael-stevens-how-do-you-find-smart-answers-to-quirky-questions</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/michaelstevens_2013a-embed_wide-67e17cdcdf94ecc99a64bc73c4e6ff4bbf096732-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>440</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The Next Pandemic Could Be Dripping On Your Head</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</link>
-      <description>February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably</guid>
+      <title>Could A Bumblebee Learn To Play Fetch? Probably</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably</link>
+      <description>February 24, 2017 - Scientists found that bumblebees are nimble learners, especially when there&#39;s a sugary reward at the end. No wonder they&#39;re such good pollinators.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/bumblebee_wide-43b22617e34292ad8cbdc79931fe099677c7802b-s800-c15.jpg"></a>
 
-February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.
+February 24, 2017 - Scientists found that bumblebees are nimble learners, especially when there's a sugary reward at the end. No wonder they're such good pollinators.
 
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head">http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>436</itunes:duration>
+<a href="http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably">http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/bumblebee_wide-43b22617e34292ad8cbdc79931fe099677c7802b-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</guid>
-      <title>On the Knife&#39;s Edge: Using Therapy To Address Violence Among Teens</title>
-      <link>http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</link>
-      <description>February 21, 2017 - We hear a lot about senseless violence: people who lose their lives or their freedom over a stolen backpack, or perceived slight. Two researchers think social science might help prevent these crimes.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170224_me_chemical_weapon_found_on_body_of_north_korean_leaders_half-brother.mp3?orgId=1&amp;topicId=1125&amp;d=202&amp;p=3&amp;story=516978090&amp;t=progseg&amp;e=516983694&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Chemical Weapon Found On Body Of North Korean Leader&#39;s Half-Brother</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/516978090/chemical-weapon-found-on-body-of-north-korean-leaders-half-brother</link>
+      <description>February 24, 2017 - Malaysian police said VX nerve agent — classified as a weapon of mass destruction — was found on Kim Jong Nam&#39;s body. South Korea says North Korea ordered the hit.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170224_me_chemical_weapon_found_on_body_of_north_korean_leaders_half-brother.mp3?orgId=1&amp;topicId=1125&amp;d=202&amp;p=3&amp;story=516978090&amp;t=progseg&amp;e=516983694&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/01/27/gettyimages-630729282_wide-0ed85530dd0e8dd90ae9c324e43bfef6fab380af-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/ap_17046100434004_wide-63f7448d37feb46f77f76faf3808acbac189f9fe-s800-c15.jpg"></a>
 
-February 21, 2017 - We hear a lot about senseless violence: people who lose their lives or their freedom over a stolen backpack, or perceived slight. Two researchers think social science might help prevent these crimes.
+February 24, 2017 - Malaysian police said VX nerve agent — classified as a weapon of mass destruction — was found on Kim Jong Nam's body. South Korea says North Korea ordered the hit.
 
-<a href="http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens">http://www.npr.org/2017/02/21/512035150/on-the-knifes-edge-using-therapy-to-address-violence-among-teens</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/01/27/gettyimages-630729282_wide-0ed85530dd0e8dd90ae9c324e43bfef6fab380af-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/516978090/chemical-weapon-found-on-body-of-north-korean-leaders-half-brother">http://www.npr.org/sections/thetwo-way/2017/02/24/516978090/chemical-weapon-found-on-body-of-north-korean-leaders-half-brother</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/ap_17046100434004_wide-63f7448d37feb46f77f76faf3808acbac189f9fe-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>202</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_new_research_shows_how_atmospheric_rivers_wreak_havoc_around_the_globe.mp3?orgId=1&amp;topicId=1025&amp;d=138&amp;p=2&amp;story=515838078&amp;t=progseg&amp;e=516216257&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>New Research Shows How &#39;Atmospheric Rivers&#39; Wreak Havoc Around The Globe</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe</link>
-      <description>February 20, 2017 - The idea of plumes of moisture curling above our heads might seem beautiful, but new research shows atmospheric rivers to be among the most damaging of weather systems.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_new_research_shows_how_atmospheric_rivers_wreak_havoc_around_the_globe.mp3?orgId=1&amp;topicId=1025&amp;d=138&amp;p=2&amp;story=515838078&amp;t=progseg&amp;e=516216257&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp</guid>
+      <title>PHOTOS: The Final Hours Of A Dakota Access Pipeline Protest Camp</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp</link>
+      <description>February 23, 2017 - On Thursday morning, law enforcement cleared out the Oceti Sakowin camp in North Dakota, ending a months-long protest against the completion of the nearby Dakota Access Pipeline.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/1983v1_20170103-gfsw_wide-8aabd17f45c9d537ce2753859b635a1abaf4bf91-s800-c15.png"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/mordant-standingrock-01_wide-86b271242ad3c4021800f83dbc2ca8443c35d188-s800-c15.jpg"></a>
 
-February 20, 2017 - The idea of plumes of moisture curling above our heads might seem beautiful, but new research shows atmospheric rivers to be among the most damaging of weather systems.
+February 23, 2017 - On Thursday morning, law enforcement cleared out the Oceti Sakowin camp in North Dakota, ending a months-long protest against the completion of the nearby Dakota Access Pipeline.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe">http://www.npr.org/sections/thetwo-way/2017/02/20/515838078/new-research-shows-how-atmospheric-rivers-wreak-havoc-around-the-globe</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/1983v1_20170103-gfsw_wide-8aabd17f45c9d537ce2753859b635a1abaf4bf91-s3000-c15.png"></itunes:image>
-      <itunes:duration>138</itunes:duration>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp">http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/mordant-standingrock-01_wide-86b271242ad3c4021800f83dbc2ca8443c35d188-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Can Poetry Keep You Young? Science Is Still Out, But The Heart Says Yes</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</link>
-      <description>February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</guid>
+      <title>To Test Zika Vaccines, Scientists Need A New Outbreak</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</link>
+      <description>February 23, 2017 - It&#39;s a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s800-c15.jpg"></a>
 
-February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.
+February 23, 2017 - It's a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes">http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>265</itunes:duration>
+<a href="http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak">http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</guid>
-      <title>On Second Attempt, SpaceX Launches Rocket At NASA&#39;s Historic Pad</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</link>
-      <description>February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA&#39;s Launch Complex 39A, site of the shuttle program and the mission that first sent humans to the moon. Their second try succeeded Sunday.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking</guid>
+      <title>SpaceX Cargo Craft Is Now In Space Station&#39;s Grip, One Day After Aborted Docking</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking</link>
+      <description>February 23, 2017 - NASA had originally planned for the Dragon craft to reach the space station three days ago. It&#39;s carrying crew supplies and a range of scientific experiments.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/19/gettyimages-642685416_wide-7dd6e908793ddefa767f383a1fa849027c6825de-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_17054391768105_wide-da16214f58e1ffea7f58574e8e1e1a87f7eaa75d-s800-c15.jpg"></a>
 
-February 19, 2017 - SpaceX scrubbed a launch attempt Saturday at NASA's Launch Complex 39A, site of the shuttle program and the mission that first sent humans to the moon. Their second try succeeded Sunday.
+February 23, 2017 - NASA had originally planned for the Dragon craft to reach the space station three days ago. It's carrying crew supplies and a range of scientific experiments.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad">http://www.npr.org/sections/thetwo-way/2017/02/19/516082519/watch-live-all-systems-go-for-spacex-launch-at-nasas-historic-pad</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/19/gettyimages-642685416_wide-7dd6e908793ddefa767f383a1fa849027c6825de-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking">http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_17054391768105_wide-da16214f58e1ffea7f58574e8e1e1a87f7eaa75d-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_an_alien_world_in_antarctica.mp3?orgId=1&amp;topicId=1007&amp;d=243&amp;p=10&amp;story=516064742&amp;t=progseg&amp;e=516064623&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Why NASA Is Exploring An Alien World In Antarctica</title>
-      <link>http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica</link>
-      <description>February 19, 2017 - Covered in ice and filled with bubbling lava, the Antarctic volcano Mount Erebus is the perfect proxy for an alien world. That&#39;s why NASA&#39;s Aaron Curtis travels there to test space exploration robots.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_an_alien_world_in_antarctica.mp3?orgId=1&amp;topicId=1007&amp;d=243&amp;p=10&amp;story=516064742&amp;t=progseg&amp;e=516064623&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</guid>
+      <title>Poverty Plus A Poisonous Plant Blamed For Paralysis In Rural Africa</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</link>
+      <description>February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people&#39;s main food is a bitter, poisonous variety of cassava.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 19, 2017 - Covered in ice and filled with bubbling lava, the Antarctic volcano Mount Erebus is the perfect proxy for an alien world. That's why NASA's Aaron Curtis travels there to test space exploration robots.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica">http://www.npr.org/2017/02/19/516064742/why-nasa-is-exploring-an-alien-world-in-antarctica</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>243</itunes:duration>
+February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people's main food is a bitter, poisonous variety of cassava.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa">http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_space_poop.mp3?orgId=1&amp;topicId=1026&amp;d=198&amp;p=10&amp;story=516064679&amp;siteplayer=true&amp;dl=1</guid>
-      <title>NASA Announces Winners In &#39;Space Poop Challenge&#39;</title>
-      <link>http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge</link>
-      <description>February 19, 2017 - Even astronauts have to go number two. NASA recently asked the public for suggestions on how to better deal with poop in spacesuits.&#xA;&#xA; - http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_space_poop.mp3?orgId=1&amp;topicId=1026&amp;d=198&amp;p=10&amp;story=516064679&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Should Scientists March? U.S. Researchers Still Debating Pros And Cons</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</link>
+      <description>February 23, 2017 - A &#34;March for Science&#34; is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 19, 2017 - Even astronauts have to go number two. NASA recently asked the public for suggestions on how to better deal with poop in spacesuits.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge">http://www.npr.org/2017/02/19/516064679/nasa-announces-winners-in-space-poop-challenge</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>198</itunes:duration>
+February 23, 2017 - A "March for Science" is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons">http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>234</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

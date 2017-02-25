@@ -6,11 +6,11 @@
     <description>Health</description>
     <category>Health</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
-    <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
+    <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 19:30:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2017 05:19:52 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 22 Feb 2017 19:30:40 +0000</pubDate>
+    <pubDate>Sat, 25 Feb 2017 05:19:52 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -24,240 +24,238 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now</guid>
-      <title>Judge Rules Texas Can&#39;t Cut Off Medicaid Funds To Planned Parenthood — For Now</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now</link>
-      <description>February 22, 2017 - After Texas officials moved to block the health provider from receiving Medicaid dollars, a federal judge issued a preliminary injunction against the state, allowing the group to stay in the program.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/24/517074764/gop-health-bill-draft-would-cut-medicaid-emphasize-tax-credits</guid>
+      <title>GOP Health Bill Draft Would Cut Medicaid, Emphasize Tax Credits</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/24/517074764/gop-health-bill-draft-would-cut-medicaid-emphasize-tax-credits</link>
+      <description>February 24, 2017 - The plan would replace insurance subsidies for low-income families with tax credits for everyone, eliminate the requirement to buy health care, and end taxes on medical devices.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/ap_16179603552157_wide-eb6ab0168dae67912be666c286c5455746307b48-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/24/aca-anger_wide-9ee22566a3a93131c77f1d741e17e75c78e1bcf0-s800-c15.jpg"></a>
 
-February 22, 2017 - After Texas officials moved to block the health provider from receiving Medicaid dollars, a federal judge issued a preliminary injunction against the state, allowing the group to stay in the program.
+February 24, 2017 - The plan would replace insurance subsidies for low-income families with tax credits for everyone, eliminate the requirement to buy health care, and end taxes on medical devices.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now">http://www.npr.org/sections/thetwo-way/2017/02/22/516631590/judge-rules-texas-cant-cut-off-medicaid-funds-to-planned-parenthood-for-now</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_16179603552157_wide-eb6ab0168dae67912be666c286c5455746307b48-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/02/24/517074764/gop-health-bill-draft-would-cut-medicaid-emphasize-tax-credits">http://www.npr.org/sections/health-shots/2017/02/24/517074764/gop-health-bill-draft-would-cut-medicaid-emphasize-tax-credits</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/aca-anger_wide-9ee22566a3a93131c77f1d741e17e75c78e1bcf0-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves</guid>
-      <title>Heart Screening For Teens May Cause More Problems Than It Solves</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves</link>
-      <description>February 22, 2017 - There&#39;s no evidence that screening adolescents with electrocardiograms prevents deaths, yet the heart tests have become widespread despite the false alarms they often cause.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_advice_from_patients_on_a_studys_design_makes_for_better_science_.mp3?orgId=1&amp;topicId=1128&amp;d=377&amp;p=2&amp;story=515226648&amp;t=progseg&amp;e=516997865&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Advice From Patients On A Study&#39;s Design Makes For Better Science </title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/24/515226648/advice-from-patients-on-a-studys-design-makes-for-better-science</link>
+      <description>February 24, 2017 - Increasingly, advocates for patients are in the room when big medical studies are designed. They demand answers to big questions: &#34;Will the results of this study actually help anybody?&#34;</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_advice_from_patients_on_a_studys_design_makes_for_better_science_.mp3?orgId=1&amp;topicId=1128&amp;d=377&amp;p=2&amp;story=515226648&amp;t=progseg&amp;e=516997865&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/heart-health_wide-0fa361079eb45d51ec02f0d7448db4e125b1bd9b-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/nancy-roach_wide-3efaa9998a84f0c6fdf1567ef6ae83bf7fa71a6f-s800-c15.jpg"></a>
 
-February 22, 2017 - There's no evidence that screening adolescents with electrocardiograms prevents deaths, yet the heart tests have become widespread despite the false alarms they often cause.
+February 24, 2017 - Increasingly, advocates for patients are in the room when big medical studies are designed. They demand answers to big questions: "Will the results of this study actually help anybody?"
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves">http://www.npr.org/sections/health-shots/2017/02/22/516406346/heart-screening-for-teens-may-cause-more-problems-than-it-solves</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/heart-health_wide-0fa361079eb45d51ec02f0d7448db4e125b1bd9b-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/02/24/515226648/advice-from-patients-on-a-studys-design-makes-for-better-science">http://www.npr.org/sections/health-shots/2017/02/24/515226648/advice-from-patients-on-a-studys-design-makes-for-better-science</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/nancy-roach_wide-3efaa9998a84f0c6fdf1567ef6ae83bf7fa71a6f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>377</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</guid>
-      <title>GOP Considers Trimming Health Law&#39;s 10 Essential Benefits</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</link>
-      <description>February 22, 2017 - The woman set to run the Centers for Medicare &amp; Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/2017/02/24/515379885/environmental-groups-say-californias-climate-program-has-not-helped-them</guid>
+      <title>Environmental Groups Say California&#39;s Climate Program Has Not Helped Them</title>
+      <link>http://www.npr.org/2017/02/24/515379885/environmental-groups-say-californias-climate-program-has-not-helped-them</link>
+      <description>February 24, 2017 - California&#39;s signature climate plan is under attack from environmental justice groups. Some say the cap-and-trade program hasn&#39;t done anything to clean up the air in low-income communities.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/15/refinery-pollution-edit_wide-e43431c9af3fdfac9b342ef6de3f2b741f673e97-s800-c15.jpg"></a>
 
-February 22, 2017 - The woman set to run the Centers for Medicare & Medicaid Services told senators that maternity coverage should be optional in individual and small group plans. Other services could be cut entirely.
+February 24, 2017 - California's signature climate plan is under attack from environmental justice groups. Some say the cap-and-trade program hasn't done anything to clean up the air in low-income communities.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits">http://www.npr.org/sections/health-shots/2017/02/22/516465156/gop-seeks-reduction-in-health-law-s-10-essential-benefits</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/seema_wide-266addb3484dc1b65d6876f3be874179d301f459-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/02/24/515379885/environmental-groups-say-californias-climate-program-has-not-helped-them">http://www.npr.org/2017/02/24/515379885/environmental-groups-say-californias-climate-program-has-not-helped-them</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/refinery-pollution-edit_wide-e43431c9af3fdfac9b342ef6de3f2b741f673e97-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo</guid>
-      <title>Threat Of Obamacare Repeal Leaves Community Health Centers In Limbo</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo</link>
-      <description>February 22, 2017 - These clinics have long provided health care to low-income patients and enjoyed expansion under the Affordable Care Act. With repeal looming, the centers&#39; doctors worry about what&#39;s next.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Kevin Jones: Can Embracing Uncertainty Lead To Better Medicine?</title>
+      <link>http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</link>
+      <description>February 24, 2017 - Sometimes, doctors just don&#39;t have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/img_3435-pena-clinic_wide-4ac55fd55d16204a38e5222cce79641d00ba2bcc-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s800-c15.jpg"></a>
 
-February 22, 2017 - These clinics have long provided health care to low-income patients and enjoyed expansion under the Affordable Care Act. With repeal looming, the centers' doctors worry about what's next.
+February 24, 2017 - Sometimes, doctors just don't have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo">http://www.npr.org/sections/health-shots/2017/02/22/515413111/threat-of-obamacare-repeal-leaves-community-health-centers-in-limbo</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/img_3435-pena-clinic_wide-4ac55fd55d16204a38e5222cce79641d00ba2bcc-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine">http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>627</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Researchers Failed To Tell Testosterone Trial Patients They Were Anemic</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</link>
-      <description>February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_researchers_failed_to_tell_testosterone_trial_patients_they_were_anemic.mp3?orgId=1&amp;topicId=1128&amp;d=114&amp;p=2&amp;story=516463092&amp;t=progseg&amp;e=516377596&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/24/516704082/indiana-s-claims-about-its-medicaid-program-dont-all-check-out</guid>
+      <title>Indiana&#39;s Claims About Its Medicaid Experiment Don&#39;t All Check Out</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/24/516704082/indiana-s-claims-about-its-medicaid-program-dont-all-check-out</link>
+      <description>February 24, 2017 - Indiana&#39;s health program for low-income people is experimental, and needs federal approval to continue. The state says its program is working, but some claims lack much-needed context.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/hip_wide-e44ba86b284bf486ebaa3d8698667db5834e3992-s800-c15.jpg"></a>
 
-February 21, 2017 - Low levels of iron in the blood may indicate a serious but treatable medical condition if caught early, but patients in a testosterone trial were not informed, a bioethicist finds.
+February 24, 2017 - Indiana's health program for low-income people is experimental, and needs federal approval to continue. The state says its program is working, but some claims lack much-needed context.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic">http://www.npr.org/sections/health-shots/2017/02/21/516463092/researchers-failed-to-tell-testosterone-trial-patients-they-were-anemic</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/blood-anemia_wide-5ebdc8226f267fbaf1d3af2bc77fb6698d628c59-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>114</itunes:duration>
+<a href="http://www.npr.org/sections/health-shots/2017/02/24/516704082/indiana-s-claims-about-its-medicaid-program-dont-all-check-out">http://www.npr.org/sections/health-shots/2017/02/24/516704082/indiana-s-claims-about-its-medicaid-program-dont-all-check-out</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/hip_wide-e44ba86b284bf486ebaa3d8698667db5834e3992-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_does_testosterone_improve_older_mens_health_it_depends.mp3?orgId=1&amp;topicId=1128&amp;d=185&amp;p=2&amp;story=515456194&amp;t=progseg&amp;e=516377596&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Does Testosterone Improve Older Men&#39;s Health? It Depends</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends</link>
-      <description>February 21, 2017 - Several studies out this week show mixed results for testosterone replacement. It appears to protect bone density and strength and prevent anemia, but there is no effect on memory and cognition.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_does_testosterone_improve_older_mens_health_it_depends.mp3?orgId=1&amp;topicId=1128&amp;d=185&amp;p=2&amp;story=515456194&amp;t=progseg&amp;e=516377596&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516945294/white-house-spokesman-predicts-more-federal-action-against-marijuana</guid>
+      <title>White House Spokesman Predicts More Federal Action Against Marijuana</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516945294/white-house-spokesman-predicts-more-federal-action-against-marijuana</link>
+      <description>February 23, 2017 - Press secretary Sean Spicer&#39;s comments on Thursday came as a poll indicated a majority of Americans support legalizing marijuana.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/21/mens-health_wide-a31e8d0928f0b233ea81d9ff9974eb73ad93ac98-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/gettyimages-632180888_wide-ce09df832487c6fb5e3a1fb44acbf4aea6fa6829-s800-c15.jpg"></a>
 
-February 21, 2017 - Several studies out this week show mixed results for testosterone replacement. It appears to protect bone density and strength and prevent anemia, but there is no effect on memory and cognition.
+February 23, 2017 - Press secretary Sean Spicer's comments on Thursday came as a poll indicated a majority of Americans support legalizing marijuana.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends">http://www.npr.org/sections/health-shots/2017/02/21/515456194/does-testosterone-improve-older-mens-health-it-depends</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/mens-health_wide-a31e8d0928f0b233ea81d9ff9974eb73ad93ac98-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516945294/white-house-spokesman-predicts-more-federal-action-against-marijuana">http://www.npr.org/sections/thetwo-way/2017/02/23/516945294/white-house-spokesman-predicts-more-federal-action-against-marijuana</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/gettyimages-632180888_wide-ce09df832487c6fb5e3a1fb44acbf4aea6fa6829-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy</guid>
+      <title>Some Teachers, Principals And Students Condemn Trump Transgender Policy</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy</link>
+      <description>February 23, 2017 - Supporters say it was wrong to force local schools to allow transgender students to choose which bathroom to use. Critics say rescinding that policy empowers those who harass transgender kids.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_16237587589211_wide-1425db5435d9eace8ce0fd5756e21d97e146b4c3-s800-c15.jpg"></a>
+
+February 23, 2017 - Supporters say it was wrong to force local schools to allow transgender students to choose which bathroom to use. Critics say rescinding that policy empowers those who harass transgender kids.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy">http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_16237587589211_wide-1425db5435d9eace8ce0fd5756e21d97e146b4c3-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170223_atc_what_does_famine_mean.mp3?orgId=1&amp;topicId=1031&amp;d=234&amp;p=2&amp;story=516642447&amp;t=progseg&amp;e=516797929&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Who Declares A Famine? And What Does That Actually Mean?</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean</link>
+      <description>February 23, 2017 - Just as we rank hurricanes and earthquakes, officials have developed a five-phase scale to rank food crises.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170223_atc_what_does_famine_mean.mp3?orgId=1&amp;topicId=1031&amp;d=234&amp;p=2&amp;story=516642447&amp;t=progseg&amp;e=516797929&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/gettyimages-613944358_wide-43c39931ff714fe07eabb867f38d3aecf659b413-s800-c15.jpg"></a>
+
+February 23, 2017 - Just as we rank hurricanes and earthquakes, officials have developed a five-phase scale to rank food crises.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean">http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/gettyimages-613944358_wide-43c39931ff714fe07eabb867f38d3aecf659b413-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>234</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law</guid>
+      <title>Arkansas Supreme Court Strikes Down Local Anti-Discrimination Law</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law</link>
+      <description>February 23, 2017 - The court ruled that a Fayetteville, Ark., law protecting LGBT people violated a state law barring cities from protecting people from discrimination who are not already covered at the state level.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_17031679883112_wide-9b059bb2bfa1e0916037686d9f47285fbfee0bf5-s800-c15.jpg"></a>
+
+February 23, 2017 - The court ruled that a Fayetteville, Ark., law protecting LGBT people violated a state law barring cities from protecting people from discrimination who are not already covered at the state level.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law">http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_17031679883112_wide-9b059bb2bfa1e0916037686d9f47285fbfee0bf5-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit</guid>
+      <title>Ice Fishing Has Its Rewards, But Bring A First Aid Kit </title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit</link>
+      <description>February 23, 2017 - Every winter people flock to the frigid lakes of Canada and the northern U.S.A. to ice fish. According to a new study, thislow and seemingly harmless sport has some risks of injuries.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/tom-hansen-pike-baudette-bay1_wide-a4bcb78926f24676ef1e0e3fd62f934b61a1180d-s800-c15.jpg"></a>
+
+February 23, 2017 - Every winter people flock to the frigid lakes of Canada and the northern U.S.A. to ice fish. According to a new study, thislow and seemingly harmless sport has some risks of injuries.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit">http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/tom-hansen-pike-baudette-bay1_wide-a4bcb78926f24676ef1e0e3fd62f934b61a1180d-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</guid>
+      <title>To Test Zika Vaccines, Scientists Need A New Outbreak</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</link>
+      <description>February 23, 2017 - It&#39;s a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s800-c15.jpg"></a>
+
+February 23, 2017 - It's a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak">http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</guid>
+      <title>Poverty Plus A Poisonous Plant Blamed For Paralysis In Rural Africa</title>
+      <link>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</link>
+      <description>February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people&#39;s main food is a bitter, poisonous variety of cassava.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s800-c15.jpg"></a>
+
+February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people's main food is a bitter, poisonous variety of cassava.
+
+<a href="http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa">http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_whats_next_for_the_affordable_care_act_your_questions_answered.mp3?orgId=105043435&amp;topicId=1128&amp;d=185&amp;p=3&amp;story=516697149&amp;t=progseg&amp;e=516787637&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>What&#39;s Next For The Affordable Care Act? Your Questions Answered</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/23/516697149/whats-next-for-the-affordable-care-act-your-questions-answered</link>
+      <description>February 23, 2017 - A lot of people are confused about when and if Republicans can &#34;repeal and replace&#34; the Affordable Care Act. Kaiser Health News&#39; Julie Rovner clears things up in the first of a series.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_whats_next_for_the_affordable_care_act_your_questions_answered.mp3?orgId=105043435&amp;topicId=1128&amp;d=185&amp;p=3&amp;story=516697149&amp;t=progseg&amp;e=516787637&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/gettyimages-4628023661_wide-bb51efc34830ce534319f4ceb403ccecde11b509-s800-c15.jpg"></a>
+
+February 23, 2017 - A lot of people are confused about when and if Republicans can "repeal and replace" the Affordable Care Act. Kaiser Health News' Julie Rovner clears things up in the first of a series.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/23/516697149/whats-next-for-the-affordable-care-act-your-questions-answered">http://www.npr.org/sections/health-shots/2017/02/23/516697149/whats-next-for-the-affordable-care-act-your-questions-answered</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/gettyimages-4628023661_wide-bb51efc34830ce534319f4ceb403ccecde11b509-s3000-c15.jpg"></itunes:image>
       <itunes:duration>185</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming</guid>
-      <title>Health Insurance Woes Add To The Risky Business Of Farming</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming</link>
-      <description>February 21, 2017 - There are many challenges to farming: It&#39;s often grueling work that relies on unpredictable factors such as weather and global market prices. But one aspect that&#39;s often ignored: health care costs.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Should Scientists March? U.S. Researchers Still Debating Pros And Cons</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</link>
+      <description>February 23, 2017 - A &#34;March for Science&#34; is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/14/farm1_wide-be72a0626da7e7b3eeb84dd8fab47bab4e9590b3-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s800-c15.jpg"></a>
 
-February 21, 2017 - There are many challenges to farming: It's often grueling work that relies on unpredictable factors such as weather and global market prices. But one aspect that's often ignored: health care costs.
+February 23, 2017 - A "March for Science" is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.
 
-<a href="http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming">http://www.npr.org/sections/thesalt/2017/02/21/515196225/health-insurance-woes-add-to-the-risky-business-of-farming</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/farm1_wide-be72a0626da7e7b3eeb84dd8fab47bab4e9590b3-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons">http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>234</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support</guid>
-      <title>As They Dig Deeper Into Parenting, Fathers Seek Community, Support</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support</link>
-      <description>February 21, 2017 - More dads are getting involved with parenting, but the resources to help them are much slimmer than those available for moms.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use</guid>
+      <title>Trump Administration Rescinds Obama Rule On Transgender Students&#39; Bathroom Use</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use</link>
+      <description>February 22, 2017 - The administration will not direct public schools to allow students to use facilities that match their gender identities. It notes the primary role of state and local districts in education policy.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/dad-parenting_wide-fc1845d54e010cde012d57bfb206310d927e386f-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/gettyimages-530272200_wide-08a88b1246436665302cad35275a6f2861cc14c5-s800-c15.jpg"></a>
 
-February 21, 2017 - More dads are getting involved with parenting, but the resources to help them are much slimmer than those available for moms.
+February 22, 2017 - The administration will not direct public schools to allow students to use facilities that match their gender identities. It notes the primary role of state and local districts in education policy.
 
-<a href="http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support">http://www.npr.org/sections/health-shots/2017/02/21/515414558/as-they-dig-deeper-into-parenting-fathers-seek-community-support</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/dad-parenting_wide-fc1845d54e010cde012d57bfb206310d927e386f-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The Next Pandemic Could Be Dripping On Your Head</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</link>
-      <description>February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_next_pandemic_could_be_dripping_on_your_head.mp3?orgId=1&amp;topicId=1031&amp;aggIds=512014971&amp;d=436&amp;p=3&amp;story=508060742&amp;t=progseg&amp;e=516361491&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s800-c15.jpg"></a>
-
-February 21, 2017 - Bats, birds and tourists love a good cave. And so do viruses. Scientists say this mixture could trigger a deadly outbreak.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head">http://www.npr.org/sections/goatsandsoda/2017/02/21/508060742/the-next-pandemic-could-be-dripping-on-your-head</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/14/gomantong-0-1_wide-3e6512fa8de45e649c0d33db8dbe116fdc0cc1a1-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>436</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Can Poetry Keep You Young? Science Is Still Out, But The Heart Says Yes</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</link>
-      <description>February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_can_poetry_keep_you_young_science_is_still_out_but_the_heart_says_yes.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=265&amp;p=3&amp;story=514558968&amp;t=progseg&amp;e=516187826&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s800-c15.jpg"></a>
-
-February 20, 2017 - Scientific evidence showing health benefits from engaging in the arts is still weak. But Los Angeles students in their 80s say their poetry class gives them joy, solace, community and a voice.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes">http://www.npr.org/sections/health-shots/2017/02/20/514558968/can-poetry-keep-you-young-science-is-still-out-but-the-heart-says-yes</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/poetry_wide-8c9aff0dbc40b7acf4d50f2d0e61a393fd114c78-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>265</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_got_back_pain_try_yoga_or_massage_before_reaching_for_the_pills.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=123&amp;p=3&amp;story=515675259&amp;t=progseg&amp;e=516187826&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Got Back Pain? Try Yoga Or Massage Before Reaching For The Pills</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/20/515675259/got-back-pain-try-yoga-or-massage-before-reaching-for-the-pills</link>
-      <description>February 20, 2017 - New guidelines encourage doctors to tell patients to try non-drug therapies for acute lower back pain first.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_got_back_pain_try_yoga_or_massage_before_reaching_for_the_pills.mp3?orgId=1&amp;topicId=1128&amp;aggIds=128851279&amp;d=123&amp;p=3&amp;story=515675259&amp;t=progseg&amp;e=516187826&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/18/yoga-back-pain_wide-7ebe92e21e19f8c4bec1b40f8cd99a6c40594882-s800-c15.jpg"></a>
-
-February 20, 2017 - New guidelines encourage doctors to tell patients to try non-drug therapies for acute lower back pain first.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/20/515675259/got-back-pain-try-yoga-or-massage-before-reaching-for-the-pills">http://www.npr.org/sections/health-shots/2017/02/20/515675259/got-back-pain-try-yoga-or-massage-before-reaching-for-the-pills</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/18/yoga-back-pain_wide-7ebe92e21e19f8c4bec1b40f8cd99a6c40594882-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>123</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_foster_parent_for_terminally_ill_children.mp3?orgId=1&amp;topicId=1091&amp;d=236&amp;p=10&amp;story=516064735&amp;t=progseg&amp;e=516064623&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
-      <title>A Foster Parent For Terminally Ill Children</title>
-      <link>http://www.npr.org/2017/02/19/516064735/a-foster-parent-for-terminally-ill-children</link>
-      <description>February 19, 2017 - NPR&#39;s Lulu Garcia-Navarro talks to Los Angeles foster parent Mohamed Bzeek. He takes care of terminally ill foster children and tends full-time to their medical needs.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170219_wesun_foster_parent_for_terminally_ill_children.mp3?orgId=1&amp;topicId=1091&amp;d=236&amp;p=10&amp;story=516064735&amp;t=progseg&amp;e=516064623&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 19, 2017 - NPR's Lulu Garcia-Navarro talks to Los Angeles foster parent Mohamed Bzeek. He takes care of terminally ill foster children and tends full-time to their medical needs.
-
-<a href="http://www.npr.org/2017/02/19/516064735/a-foster-parent-for-terminally-ill-children">http://www.npr.org/2017/02/19/516064735/a-foster-parent-for-terminally-ill-children</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>236</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle</guid>
-      <title>Top Items On This 12-Year-Old&#39;s Wish List: &#39;A Leg, A Bicycle&#39;</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle</link>
-      <description>February 19, 2017 - The one-legged orphan in Liberia had figured out how to use a crutch as an improvised prosthetic leg. But he wanted the real deal.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/13/132a0404_wide-fd0690d754b8ae02c9d885651d368619b97461c3-s800-c15.jpg"></a>
-
-February 19, 2017 - The one-legged orphan in Liberia had figured out how to use a crutch as an improvised prosthetic leg. But he wanted the real deal.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle">http://www.npr.org/sections/goatsandsoda/2017/02/19/514534638/top-items-on-this-12-year-olds-wish-list-a-leg-a-bicycle</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/132a0404_wide-fd0690d754b8ae02c9d885651d368619b97461c3-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</guid>
-      <title>Can Changing When And What We Eat Help Outwit Disease?</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</link>
-      <description>February 19, 2017 - I&#39;m fasting intermittently as part of a research study, to see if changing my gut microbiome affects my multiple sclerosis. But maybe living on Peanut Chews isn&#39;t the best strategy.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-39713c851ff780a0a920728ee193ef46cf957d59-s800-c15.jpg"></a>
-
-February 19, 2017 - I'm fasting intermittently as part of a research study, to see if changing my gut microbiome affects my multiple sclerosis. But maybe living on Peanut Chews isn't the best strategy.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease">http://www.npr.org/sections/health-shots/2017/02/19/514179856/can-changing-when-and-what-we-eat-help-outwit-disease</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/brandie-2_wide-39713c851ff780a0a920728ee193ef46cf957d59-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_gop_leaders_urge_return_to_high-risk_insurance_pools_that_critics_call_costly.mp3?orgId=111&amp;topicId=1128&amp;d=213&amp;p=7&amp;story=514991567&amp;t=progseg&amp;e=515921238&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
-      <title>GOP Leaders Urge Return To &#39;High-Risk Insurance Pools&#39; That Critics Call Costly</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/18/514991567/gop-leaders-urge-return-to-high-risk-insurance-pools-that-critics-call-costly</link>
-      <description>February 18, 2017 - Some Republicans in Congress say they could partly fix the federal health law by again separating people who buy insurance into two categories — sick and healthy. Critics say it won&#39;t save money.</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170218_wesat_gop_leaders_urge_return_to_high-risk_insurance_pools_that_critics_call_costly.mp3?orgId=111&amp;topicId=1128&amp;d=213&amp;p=7&amp;story=514991567&amp;t=progseg&amp;e=515921238&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/13/514991567_high-risk-pool-1_wide-a55f5ffcb144b452f56633dcf8c9752ceb157822-s800-c15.jpg"></a>
-
-February 18, 2017 - Some Republicans in Congress say they could partly fix the federal health law by again separating people who buy insurance into two categories — sick and healthy. Critics say it won't save money.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/18/514991567/gop-leaders-urge-return-to-high-risk-insurance-pools-that-critics-call-costly">http://www.npr.org/sections/health-shots/2017/02/18/514991567/gop-leaders-urge-return-to-high-risk-insurance-pools-that-critics-call-costly</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/514991567_high-risk-pool-1_wide-a55f5ffcb144b452f56633dcf8c9752ceb157822-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>213</itunes:duration>
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use">http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/gettyimages-530272200_wide-08a88b1246436665302cad35275a6f2861cc14c5-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

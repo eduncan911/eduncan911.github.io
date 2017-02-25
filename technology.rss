@@ -6,11 +6,11 @@
     <description>Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.</description>
     <category>Technology</category>
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
-    <generator>go podcast v1.3.0 (github.com/eduncan911/podcast)</generator>
+    <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 19:30:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2017 05:19:49 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 22 Feb 2017 19:30:40 +0000</pubDate>
+    <pubDate>Sat, 25 Feb 2017 05:19:49 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,181 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</guid>
+      <title>FCC Chairman Goes After His Predecessor&#39;s Internet Privacy Rules</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</link>
+      <description>February 24, 2017 - The new telecom chief is moving to halt one part of the sweeping rules for Internet service providers, which were passed last year in part based on &#34;net neutrality&#34; regulations.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/ap_638357301139_wide-4fe139ad9342bda1123b9310bcad20e4419e9cc8-s800-c15.jpg"></a>
+
+February 24, 2017 - The new telecom chief is moving to halt one part of the sweeping rules for Internet service providers, which were passed last year in part based on "net neutrality" regulations.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules">http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/ap_638357301139_wide-4fe139ad9342bda1123b9310bcad20e4419e9cc8-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_trump_administration_weighs_increased_social_media_scrutiny_of_refugees_.mp3?orgId=1&amp;topicId=1003&amp;d=246&amp;p=2&amp;story=516867413&amp;t=progseg&amp;e=516997865&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Trump Administration Weighs Increased Scrutiny Of Refugees&#39; Social Media </title>
+      <link>http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media</link>
+      <description>February 24, 2017 - The Obama administration began checking social media accounts of prospective Syrian refugees more than a year ago. Such steps could expand as President Trump prepares a new executive order on vetting.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_trump_administration_weighs_increased_social_media_scrutiny_of_refugees_.mp3?orgId=1&amp;topicId=1003&amp;d=246&amp;p=2&amp;story=516867413&amp;t=progseg&amp;e=516997865&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-85595140_wide-ff5809255a3382fc828bb5cfd365fd2aed29ba11-s800-c15.jpg"></a>
+
+February 24, 2017 - The Obama administration began checking social media accounts of prospective Syrian refugees more than a year ago. Such steps could expand as President Trump prepares a new executive order on vetting.
+
+<a href="http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media">http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-85595140_wide-ff5809255a3382fc828bb5cfd365fd2aed29ba11-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>246</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des</guid>
+      <title>Google Spinoff Sues Uber, Saying Leader Of Autonomous Vehicle Unit Stole Key Designs</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des</link>
+      <description>February 24, 2017 - Waymo, the company that began as Google&#39;s self-driving-car project, says a former manager &#34;took extraordinary efforts to raid Waymo&#39;s design server and then conceal his activities.&#34;</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-605519778_wide-216f40071ee93e981e7b614a7f15f5aa177de50d-s800-c15.jpg"></a>
+
+February 24, 2017 - Waymo, the company that began as Google's self-driving-car project, says a former manager "took extraordinary efforts to raid Waymo's design server and then conceal his activities."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des">http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-605519778_wide-216f40071ee93e981e7b614a7f15f5aa177de50d-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_04.mp3?orgId=1&amp;topicId=1013&amp;d=422&amp;p=57&amp;story=516726045&amp;t=progseg&amp;e=514152888&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Liz Coleman: How Do We Teach College Students To Ask Big Questions?</title>
+      <link>http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</link>
+      <description>February 24, 2017 - Former Bennington College President Liz Coleman believes higher education is overly-specialized &amp; complacent. She says we need to encourage students to ask bigger questions and take more risks.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_04.mp3?orgId=1&amp;topicId=1013&amp;d=422&amp;p=57&amp;story=516726045&amp;t=progseg&amp;e=514152888&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s800-c15.jpg"></a>
+
+February 24, 2017 - Former Bennington College President Liz Coleman believes higher education is overly-specialized & complacent. She says we need to encourage students to ask bigger questions and take more risks.
+
+<a href="http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions">http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>422</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Kevin Jones: Can Embracing Uncertainty Lead To Better Medicine?</title>
+      <link>http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</link>
+      <description>February 24, 2017 - Sometimes, doctors just don&#39;t have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s800-c15.jpg"></a>
+
+February 24, 2017 - Sometimes, doctors just don't have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.
+
+<a href="http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine">http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>627</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world</guid>
+      <title>The Struggles Of Austin&#39;s Music Scene Mirror A Widened World</title>
+      <link>http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world</link>
+      <description>February 24, 2017 - As the face of Austin&#39;s music office prepares to depart, the city&#39;s problems and successes may offer a lesson for the world at large about globalization and technology.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/23/gettyimages-538805311_wide-2db2445f5858f0073ada9bd67978c0c6cb526d71-s800-c15.jpg"></a>
+
+February 24, 2017 - As the face of Austin's music office prepares to depart, the city's problems and successes may offer a lesson for the world at large about globalization and technology.
+
+<a href="http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world">http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/gettyimages-538805311_wide-2db2445f5858f0073ada9bd67978c0c6cb526d71-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</guid>
+      <title>Reading The Game: Shadow Of Mordor</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</link>
+      <description>February 24, 2017 - As part of our occasional series on storytelling in video games, we&#39;re looking at a game where the story fails: Shadow of Mordor, which won awards for its gameplay, but lacks a compelling narrative.</description>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/mordor-03_wide-92b3626fbc277bd4dc2c3afe8b7da884a9042ef9-s800-c15.jpg"></a>
+
+February 24, 2017 - As part of our occasional series on storytelling in video games, we're looking at a game where the story fails: Shadow of Mordor, which won awards for its gameplay, but lacks a compelling narrative.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor">http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/mordor-03_wide-92b3626fbc277bd4dc2c3afe8b7da884a9042ef9-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers</guid>
+      <title>WATCH: In The War Between Tigers And Drone, Chalk One Up For Tigers</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers</link>
+      <description>February 23, 2017 - Sure they might be chubby — to put it charitably — but they&#39;re still tigers. And when Chinese zookeepers mobilized a drone to get them some exercise, the big cats had little trouble bringing it down.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/23/tiger-capture_wide-c12a5d449cd3d015da8a89acc89bd42298ff02b1-s800-c15.png"></a>
+
+February 23, 2017 - Sure they might be chubby — to put it charitably — but they're still tigers. And when Chinese zookeepers mobilized a drone to get them some exercise, the big cats had little trouble bringing it down.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers">http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/tiger-capture_wide-c12a5d449cd3d015da8a89acc89bd42298ff02b1-s3000-c15.png"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten</guid>
+      <title>Go To College, Play Video Games. E-Sports Make A Play For The Big Ten</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten</link>
+      <description>February 23, 2017 - There&#39;s no prize money involved, although League of Legends maker Riot Games offers scholarships for the e-sports teams at Ohio State and competitors at other Big Ten campuses.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/17/osu-league-0078_wide-2cf67d2ed9901982c2fb7749d2a2063007f43d97-s800-c15.jpg"></a>
+
+February 23, 2017 - There's no prize money involved, although League of Legends maker Riot Games offers scholarships for the e-sports teams at Ohio State and competitors at other Big Ten campuses.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten">http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/osu-league-0078_wide-2cf67d2ed9901982c2fb7749d2a2063007f43d97-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Should Scientists March? U.S. Researchers Still Debating Pros And Cons</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</link>
+      <description>February 23, 2017 - A &#34;March for Science&#34; is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.</description>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s800-c15.jpg"></a>
+
+February 23, 2017 - A "March for Science" is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons">http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>234</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170222_atc_dr_jemison_future_of_space_exploration.mp3?orgId=1&amp;topicId=1026&amp;d=290&amp;p=2&amp;story=516695456&amp;t=progseg&amp;e=516603816&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>After Making History In Space, Mae Jemison Works To Prime Future Scientists </title>
+      <link>http://www.npr.org/2017/02/22/516695456/after-making-history-in-space-mae-jemison-works-to-prime-future-scientists</link>
+      <description>February 22, 2017 - For the first African-American woman in space, her path to spaceflight and beyond includes trying to pave the way for more girls of color to follow in her footsteps.</description>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170222_atc_dr_jemison_future_of_space_exploration.mp3?orgId=1&amp;topicId=1026&amp;d=290&amp;p=2&amp;story=516695456&amp;t=progseg&amp;e=516603816&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/ap_83062319031_wide-a8599e667a8e2e44c902f11cbce311c94bcbdde9-s800-c15.jpg"></a>
+
+February 22, 2017 - For the first African-American woman in space, her path to spaceflight and beyond includes trying to pave the way for more girls of color to follow in her footsteps.
+
+<a href="http://www.npr.org/2017/02/22/516695456/after-making-history-in-space-mae-jemison-works-to-prime-future-scientists">http://www.npr.org/2017/02/22/516695456/after-making-history-in-space-mae-jemison-works-to-prime-future-scientists</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_83062319031_wide-a8599e667a8e2e44c902f11cbce311c94bcbdde9-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>290</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
       <title>Are Cyborgs In Our Future? &#39;Homo Deus&#39; Author Thinks So</title>
@@ -83,175 +258,6 @@ February 20, 2017 - Uber's CEO has ordered an investigation into a sexual harass
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer">http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/20/ap_16307585078228_wide-4a0a8ea90481b595376c899449bd3e45275559cc-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_facebook_wants_great_power_but_what_about_responsibility_.mp3?orgId=1&amp;topicId=1059&amp;d=210&amp;p=3&amp;story=516094134&amp;t=progseg&amp;e=516187826&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Facebook Wants Great Power, But What About Responsibility? </title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/19/516094134/facebook-wants-great-power-but-what-about-responsibility</link>
-      <description>February 19, 2017 - Mark Zuckerberg has announced a plan to make Facebook the only primary platform people use to connect to others virtually. But he fails to discuss the responsibilities that come with that power.</description>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170220_me_facebook_wants_great_power_but_what_about_responsibility_.mp3?orgId=1&amp;topicId=1059&amp;d=210&amp;p=3&amp;story=516094134&amp;t=progseg&amp;e=516187826&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/19/istock-504757660_wide-fcdd4578e26c69f80887e83ef792aa6318127a16-s800-c15.jpg"></a>
-
-February 19, 2017 - Mark Zuckerberg has announced a plan to make Facebook the only primary platform people use to connect to others virtually. But he fails to discuss the responsibilities that come with that power.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/19/516094134/facebook-wants-great-power-but-what-about-responsibility">http://www.npr.org/sections/alltechconsidered/2017/02/19/516094134/facebook-wants-great-power-but-what-about-responsibility</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/19/istock-504757660_wide-fcdd4578e26c69f80887e83ef792aa6318127a16-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>210</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers</guid>
-      <title>Your Shareable Google Maps Lists May Be Really Interesting To Advertisers</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers</link>
-      <description>February 18, 2017 - A new feature allows users to create lists of places and share them with friends. Is Google Maps trying to become a social network or to collect more information about its users? Maybe both.</description>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/16/_mg_0301-2_wide-e7e6d4accd5e7b02eacb7a6e0c39111697c4b13f-s800-c15.jpg"></a>
-
-February 18, 2017 - A new feature allows users to create lists of places and share them with friends. Is Google Maps trying to become a social network or to collect more information about its users? Maybe both.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers">http://www.npr.org/sections/alltechconsidered/2017/02/18/515564392/your-shareable-google-maps-lists-may-be-really-interesting-to-advertisers</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/_mg_0301-2_wide-e7e6d4accd5e7b02eacb7a6e0c39111697c4b13f-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_local_police_departments_invest_in_cell_phone_spy_tools.mp3?orgId=1&amp;topicId=1019&amp;d=255&amp;p=2&amp;story=515841069&amp;t=progseg&amp;e=515734048&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Local Police Departments Invest In Cell Phone Spy Tools</title>
-      <link>http://www.npr.org/2017/02/17/515841069/local-police-departments-invest-in-cell-phone-spy-tools</link>
-      <description>February 17, 2017 - As we depend on our cell phones more and more, the tools to peek into our phones are getting better. Local police departments across the country are investing heavily in this technology. And, with few laws governing what police can collect and store, that has a lot of privacy advocates alarmed. NPR&#39;s Robert Siegel talks to City Lab reporter George Joseph about the spread of tools that let police collect cell phone data.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_local_police_departments_invest_in_cell_phone_spy_tools.mp3?orgId=1&amp;topicId=1019&amp;d=255&amp;p=2&amp;story=515841069&amp;t=progseg&amp;e=515734048&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 17, 2017 - As we depend on our cell phones more and more, the tools to peek into our phones are getting better. Local police departments across the country are investing heavily in this technology. And, with few laws governing what police can collect and store, that has a lot of privacy advocates alarmed. NPR's Robert Siegel talks to City Lab reporter George Joseph about the spread of tools that let police collect cell phone data.
-
-<a href="http://www.npr.org/2017/02/17/515841069/local-police-departments-invest-in-cell-phone-spy-tools">http://www.npr.org/2017/02/17/515841069/local-police-departments-invest-in-cell-phone-spy-tools</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>255</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_scientific_conference_planners_concerned_about_immigration_policy.mp3?orgId=1&amp;topicId=1014&amp;d=234&amp;p=2&amp;story=515785189&amp;t=progseg&amp;e=515734048&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Scientific Conference Planners Concerned About Immigration Policy</title>
-      <link>http://www.npr.org/2017/02/17/515785189/scientific-conference-planners-concerned-about-immigration-policy</link>
-      <description>February 17, 2017 - There&#39;s increasing concern among planners of science and technical conferences about the Trump administration&#39;s immigration restrictions. Many groups signed a letter asking Trump to rescind the order.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170217_atc_scientific_conference_planners_concerned_about_immigration_policy.mp3?orgId=1&amp;topicId=1014&amp;d=234&amp;p=2&amp;story=515785189&amp;t=progseg&amp;e=515734048&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 17, 2017 - There's increasing concern among planners of science and technical conferences about the Trump administration's immigration restrictions. Many groups signed a letter asking Trump to rescind the order.
-
-<a href="http://www.npr.org/2017/02/17/515785189/scientific-conference-planners-concerned-about-immigration-policy">http://www.npr.org/2017/02/17/515785189/scientific-conference-planners-concerned-about-immigration-policy</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device</guid>
-      <title>Banned In Germany: Kids&#39; Doll Is Labeled An Espionage Device</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device</link>
-      <description>February 17, 2017 - The doll Cayla looks like an everyday toy and gives no notice that it collects and transmits everything it hears, German regulators say.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/17/img_3809_wide-56133a625835385ca8c610debaf810f1cae0e106-s800-c15.jpg"></a>
-
-February 17, 2017 - The doll Cayla looks like an everyday toy and gives no notice that it collects and transmits everything it hears, German regulators say.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device">http://www.npr.org/sections/thetwo-way/2017/02/17/515775874/banned-in-germany-kids-doll-is-labeled-an-espionage-device</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/img_3809_wide-56133a625835385ca8c610debaf810f1cae0e106-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</guid>
-      <title>The Turtles Lose Case Over Rights To Their Oldies In New York</title>
-      <link>http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</link>
-      <description>February 17, 2017 - Members of The Turtles lost their New York class action in a ruling from the state&#39;s appeals court.&#xA;&#xA; - http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/17/gettyimages-570510595_wide-02d10e70e8186413ad71275c2fe6a6e4d6759da5-s800-c15.jpg"></a>
-
-February 17, 2017 - Members of The Turtles lost their New York class action in a ruling from the state's appeals court.
-
-<a href="http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york">http://www.npr.org/sections/therecord/2017/02/17/515770648/the-turtles-lose-case-over-rights-to-their-oldies-in-new-york</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/gettyimages-570510595_wide-02d10e70e8186413ad71275c2fe6a6e4d6759da5-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170217_me_using_the_blockchain_to_change_prisons.mp3?orgId=1&amp;topicId=1017&amp;aggIds=94427042&amp;d=211&amp;p=3&amp;story=515728601&amp;t=progseg&amp;e=515728565&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Using The Blockchain To Change Prisons</title>
-      <link>http://www.npr.org/2017/02/17/515728601/using-the-blockchain-to-change-prisons</link>
-      <description>February 17, 2017 - Charlie Shrem went to prison for his involvement in Bitcoin trading. Now he&#39;s out and part of the next evolution of Bitcoin&#39;s future, investments that trade using Bitcoin&#39;s underlying technology.</description>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170217_me_using_the_blockchain_to_change_prisons.mp3?orgId=1&amp;topicId=1017&amp;aggIds=94427042&amp;d=211&amp;p=3&amp;story=515728601&amp;t=progseg&amp;e=515728565&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 17, 2017 - Charlie Shrem went to prison for his involvement in Bitcoin trading. Now he's out and part of the next evolution of Bitcoin's future, investments that trade using Bitcoin's underlying technology.
-
-<a href="http://www.npr.org/2017/02/17/515728601/using-the-blockchain-to-change-prisons">http://www.npr.org/2017/02/17/515728601/using-the-blockchain-to-change-prisons</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>211</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen</guid>
-      <title>Yahoo Warns More Users That Their Private Information May Have Been Stolen</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen</link>
-      <description>February 16, 2017 - The company warned some users that their accounts may have been accessed using forged cookies in connection with a previously disclosed hack in 2014.</description>
-      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/16/ap_17006386449414_wide-4f58eeb88ede30e6e9ee2ef7cc17cefb5995c81d-s800-c15.jpg"></a>
-
-February 16, 2017 - The company warned some users that their accounts may have been accessed using forged cookies in connection with a previously disclosed hack in 2014.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen">http://www.npr.org/sections/thetwo-way/2017/02/16/515568599/yahoo-warns-more-users-that-their-private-information-may-have-been-stolen</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/ap_17006386449414_wide-4f58eeb88ede30e6e9ee2ef7cc17cefb5995c81d-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone</guid>
-      <title>Recipe For New Sports? Just Add A Drone</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone</link>
-      <description>February 16, 2017 - You may have heard of drone racing, but people keep coming up with new ways to enjoy these flying machines. A Latvian firm has developed a drone to pull snowboarders in a sport called &#34;droneboarding.&#34;</description>
-      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/gettyimages-631820166_wide-6293ec5909f74c19d68439a0a2b1c925296990b2-s800-c15.jpg"></a>
-
-February 16, 2017 - You may have heard of drone racing, but people keep coming up with new ways to enjoy these flying machines. A Latvian firm has developed a drone to pull snowboarders in a sport called "droneboarding."
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone">http://www.npr.org/sections/alltechconsidered/2017/02/16/515199129/recipe-for-new-sports-just-add-a-drone</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/gettyimages-631820166_wide-6293ec5909f74c19d68439a0a2b1c925296990b2-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_south_has_been_slow_to_harness_its_wind_but_thats_changing.mp3?orgId=1&amp;topicId=1131&amp;d=229&amp;p=3&amp;story=515376114&amp;t=progseg&amp;e=516361491&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The South Has Been Slow To Harness Its Wind, But That&#39;s Changing</title>
-      <link>http://www.npr.org/2017/02/16/515376114/the-south-has-been-slow-to-harness-its-wind-but-thats-changing</link>
-      <description>February 16, 2017 - There are several reasons the region is lagging in wind energy — including lower wind speeds. But now North Carolina is home to the first large-scale commercial wind farm in the Southeast.</description>
-      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170221_me_the_south_has_been_slow_to_harness_its_wind_but_thats_changing.mp3?orgId=1&amp;topicId=1131&amp;d=229&amp;p=3&amp;story=515376114&amp;t=progseg&amp;e=516361491&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/img_1355_wide-311dcd6d9109ddf336e5bcdd78c42649e4e17b7d-s800-c15.jpg"></a>
-
-February 16, 2017 - There are several reasons the region is lagging in wind energy — including lower wind speeds. But now North Carolina is home to the first large-scale commercial wind farm in the Southeast.
-
-<a href="http://www.npr.org/2017/02/16/515376114/the-south-has-been-slow-to-harness-its-wind-but-thats-changing">http://www.npr.org/2017/02/16/515376114/the-south-has-been-slow-to-harness-its-wind-but-thats-changing</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/img_1355_wide-311dcd6d9109ddf336e5bcdd78c42649e4e17b7d-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>229</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news</guid>
-      <title>5 Ways Teachers Are Fighting Fake News </title>
-      <link>http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news</link>
-      <description>February 16, 2017 - In an era of national attention to what&#39;s real and what isn&#39;t, we asked educators to share their strategies for helping students sort out fact from fiction.</description>
-      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/15/simonsays-toned_wide-b0a4a9a0e77213e7a5813dd023d62c8c0ef44d33-s800-c15.jpg"></a>
-
-February 16, 2017 - In an era of national attention to what's real and what isn't, we asked educators to share their strategies for helping students sort out fact from fiction.
-
-<a href="http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news">http://www.npr.org/sections/ed/2017/02/16/514364210/5-ways-teachers-are-fighting-fake-news</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/15/simonsays-toned_wide-b0a4a9a0e77213e7a5813dd023d62c8c0ef44d33-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
