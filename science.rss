@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2017 18:31:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 19:04:55 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Mon, 27 Feb 2017 18:31:49 +0000</pubDate>
+    <pubDate>Mon, 27 Feb 2017 19:04:55 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,23 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170227_fa_01.mp3?orgId=427869011&amp;topicId=1132&amp;d=1838&amp;p=13&amp;story=517481473&amp;t=progseg&amp;e=517481354&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Photographer Builds A &#39;Photo Ark&#39; For 6,500 Animal Species And Counting</title>
+      <link>http://www.npr.org/2017/02/27/517481473/photographer-builds-a-photo-ark-for-6-500-animal-species-and-counting</link>
+      <description>February 27, 2017 - National Geographic photographer Joel Sartore is on a mission to document every captive animal species in the world. He talks about getting an arctic fox to hold still, and Photoshopping out poop.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170227_fa_01.mp3?orgId=427869011&amp;topicId=1132&amp;d=1838&amp;p=13&amp;story=517481473&amp;t=progseg&amp;e=517481354&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/photoark-page451_wide-3ed2c939afc85b65bd4dc574d321458f2e6bb321-s800-c15.jpg"></a>
+
+February 27, 2017 - National Geographic photographer Joel Sartore is on a mission to document every captive animal species in the world. He talks about getting an arctic fox to hold still, and Photoshopping out poop.
+
+<a href="http://www.npr.org/2017/02/27/517481473/photographer-builds-a-photo-ark-for-6-500-animal-species-and-counting">http://www.npr.org/2017/02/27/517481473/photographer-builds-a-photo-ark-for-6-500-animal-species-and-counting</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/photoark-page451_wide-3ed2c939afc85b65bd4dc574d321458f2e6bb321-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>1838</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</guid>
       <title>Your Name Might Shape Your Face, Researchers Say</title>
@@ -245,23 +262,6 @@ February 24, 2017 - Former Bennington College President Liz Coleman believes hig
 <a href="http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions">http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s3000-c15.jpg"></itunes:image>
       <itunes:duration>422</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Kevin Jones: Can Embracing Uncertainty Lead To Better Medicine?</title>
-      <link>http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</link>
-      <description>February 24, 2017 - Sometimes, doctors just don&#39;t have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s800-c15.jpg"></a>
-
-February 24, 2017 - Sometimes, doctors just don't have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.
-
-<a href="http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine">http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>627</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
