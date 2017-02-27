@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Feb 2017 05:19:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 18:31:51 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sat, 25 Feb 2017 05:19:52 +0000</pubDate>
+    <pubDate>Mon, 27 Feb 2017 18:31:51 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -23,6 +23,147 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</guid>
+      <title>Your Name Might Shape Your Face, Researchers Say</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</link>
+      <description>February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s800-c15.jpg"></a>
+
+February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say">http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_models_are_still_pressured_to_be_ultra-thin_survey_says.mp3?orgId=1&amp;topicId=1134&amp;d=125&amp;p=3&amp;story=517458922&amp;t=progseg&amp;e=517438977&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Models Are Still Pressured To Be Ultra-Thin, Survey Says</title>
+      <link>http://www.npr.org/2017/02/27/517458922/models-are-still-pressured-to-be-ultra-thin-survey-says</link>
+      <description>February 27, 2017 - A majority of models say they&#39;re threatened with job loss if they don&#39;t shed pounds. Researchers worry this contributes to poor body image and might increase eating disorders among teenage girls.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_models_are_still_pressured_to_be_ultra-thin_survey_says.mp3?orgId=1&amp;topicId=1134&amp;d=125&amp;p=3&amp;story=517458922&amp;t=progseg&amp;e=517438977&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 27, 2017 - A majority of models say they're threatened with job loss if they don't shed pounds. Researchers worry this contributes to poor body image and might increase eating disorders among teenage girls.
+
+<a href="http://www.npr.org/2017/02/27/517458922/models-are-still-pressured-to-be-ultra-thin-survey-says">http://www.npr.org/2017/02/27/517458922/models-are-still-pressured-to-be-ultra-thin-survey-says</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>125</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Medicine That Blunts The Buzz Of Alcohol Can Help Drinkers Cut Back</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</link>
+      <description>February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don&#39;t know that when combined with counseling it can help people resist the urge to drink too much.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s800-c15.jpg"></a>
+
+February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don't know that when combined with counseling it can help people resist the urge to drink too much.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back">http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>258</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_the_call-in_opiods.mp3?orgId=1&amp;topicId=1003&amp;d=826&amp;p=10&amp;story=517305305&amp;t=progseg&amp;e=517305173&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>The Call-In: The Opioid Epidemic And How Opioids Have Affected Your Lives</title>
+      <link>http://www.npr.org/2017/02/26/517305305/the-call-in-the-opioid-epidemic-and-how-opioids-have-affected-your-lives</link>
+      <description>February 26, 2017 - The opioid epidemic is growing. Lulu Garcia-Navarro speaks with Jim Barnum, whose brother died after an opioid addiction and Chuck Rosenberg, acting administrator of the DEA.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_the_call-in_opiods.mp3?orgId=1&amp;topicId=1003&amp;d=826&amp;p=10&amp;story=517305305&amp;t=progseg&amp;e=517305173&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 26, 2017 - The opioid epidemic is growing. Lulu Garcia-Navarro speaks with Jim Barnum, whose brother died after an opioid addiction and Chuck Rosenberg, acting administrator of the DEA.
+
+<a href="http://www.npr.org/2017/02/26/517305305/the-call-in-the-opioid-epidemic-and-how-opioids-have-affected-your-lives">http://www.npr.org/2017/02/26/517305305/the-call-in-the-opioid-epidemic-and-how-opioids-have-affected-your-lives</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>826</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=326&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Dentists Work To Ease Patients&#39; Pain With Fewer Opioids</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</link>
+      <description>February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient&#39;s pain. Now they&#39;re learning to counsel patients about better, less addictive alternatives.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=326&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s800-c15.jpg"></a>
+
+February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient's pain. Now they're learning to counsel patients about better, less addictive alternatives.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids">http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>326</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170225_atc_doctor_takes_death_education_to_high_school_classrooms.mp3?orgId=1&amp;topicId=1003&amp;d=308&amp;p=2&amp;story=517262420&amp;t=progseg&amp;e=517262158&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Doctor Takes Death Education To High School Classrooms</title>
+      <link>http://www.npr.org/2017/02/25/517262420/doctor-takes-death-education-to-high-school-classrooms</link>
+      <description>February 25, 2017 - NPR&#39;s Michel Martin talks with Dr. Jessica Zitter about preparing high-school students to deal with end-of-life care. Zitter is a critical care and palliative medical doctor in Oakland, Calif.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170225_atc_doctor_takes_death_education_to_high_school_classrooms.mp3?orgId=1&amp;topicId=1003&amp;d=308&amp;p=2&amp;story=517262420&amp;t=progseg&amp;e=517262158&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 25, 2017 - NPR's Michel Martin talks with Dr. Jessica Zitter about preparing high-school students to deal with end-of-life care. Zitter is a critical care and palliative medical doctor in Oakland, Calif.
+
+<a href="http://www.npr.org/2017/02/25/517262420/doctor-takes-death-education-to-high-school-classrooms">http://www.npr.org/2017/02/25/517262420/doctor-takes-death-education-to-high-school-classrooms</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>308</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/25/517221933/lucille-horn-who-was-nursed-to-health-in-a-coney-island-sideshow-dies-at-96</guid>
+      <title>Lucille Horn, Who Was Nursed To Health In A Coney Island Sideshow, Dies At 96</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/25/517221933/lucille-horn-who-was-nursed-to-health-in-a-coney-island-sideshow-dies-at-96</link>
+      <description>February 25, 2017 - At a time when incubators were rejected by most doctors, Martin Couney treated Horn with one at a sideshow of premature infants. She died earlier this month, 96 years after most experts expected.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/25/ap_274532146501_wide-d989cf0ed8430425a319a156f415c6929bd53dd7-s800-c15.jpg"></a>
+
+February 25, 2017 - At a time when incubators were rejected by most doctors, Martin Couney treated Horn with one at a sideshow of premature infants. She died earlier this month, 96 years after most experts expected.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/25/517221933/lucille-horn-who-was-nursed-to-health-in-a-coney-island-sideshow-dies-at-96">http://www.npr.org/sections/thetwo-way/2017/02/25/517221933/lucille-horn-who-was-nursed-to-health-in-a-coney-island-sideshow-dies-at-96</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/25/ap_274532146501_wide-d989cf0ed8430425a319a156f415c6929bd53dd7-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_a_taste_for_pork_helped_a_deadly_virus_jump_to_humans.mp3?orgId=1&amp;topicId=1031&amp;aggIds=128851279,512014971&amp;d=448&amp;p=7&amp;story=515258818&amp;t=progseg&amp;e=517181302&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Taste For Pork Helped A Deadly Virus Jump To Humans</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans</link>
+      <description>February 25, 2017 - People were dropping dead in Malaysia, and no one could figure out why their brains were swelling. A young scientist solved the mystery. Then he had to get people to believe him.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_a_taste_for_pork_helped_a_deadly_virus_jump_to_humans.mp3?orgId=1&amp;topicId=1031&amp;aggIds=128851279,512014971&amp;d=448&amp;p=7&amp;story=515258818&amp;t=progseg&amp;e=517181302&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_99032201486_wide-0e80be0860f50b8c7884f8d1150e0dc1a4be5246-s800-c15.jpg"></a>
+
+February 25, 2017 - People were dropping dead in Malaysia, and no one could figure out why their brains were swelling. A young scientist solved the mystery. Then he had to get people to believe him.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans">http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_99032201486_wide-0e80be0860f50b8c7884f8d1150e0dc1a4be5246-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>448</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge</guid>
+      <title>When You Love An Old Dog, Managing Care Can Be A Challenge</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge</link>
+      <description>February 25, 2017 - Aging dogs often need extra medical care. But there comes a time to be realistic about what can and can&#39;t be done, veterinarians say. The pet&#39;s comfort is paramount.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/24/dogdays_wide-953d5b8aaccb1f16f4aabb088faaff30122d77f3-s800-c15.jpeg"></a>
+
+February 25, 2017 - Aging dogs often need extra medical care. But there comes a time to be realistic about what can and can't be done, veterinarians say. The pet's comfort is paramount.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge">http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/dogdays_wide-953d5b8aaccb1f16f4aabb088faaff30122d77f3-s3000-c15.jpeg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/02/24/517074764/gop-health-bill-draft-would-cut-medicaid-emphasize-tax-credits</guid>
       <title>GOP Health Bill Draft Would Cut Medicaid, Emphasize Tax Credits</title>
@@ -115,147 +256,6 @@ February 23, 2017 - Press secretary Sean Spicer's comments on Thursday came as a
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516945294/white-house-spokesman-predicts-more-federal-action-against-marijuana">http://www.npr.org/sections/thetwo-way/2017/02/23/516945294/white-house-spokesman-predicts-more-federal-action-against-marijuana</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/23/gettyimages-632180888_wide-ce09df832487c6fb5e3a1fb44acbf4aea6fa6829-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy</guid>
-      <title>Some Teachers, Principals And Students Condemn Trump Transgender Policy</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy</link>
-      <description>February 23, 2017 - Supporters say it was wrong to force local schools to allow transgender students to choose which bathroom to use. Critics say rescinding that policy empowers those who harass transgender kids.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_16237587589211_wide-1425db5435d9eace8ce0fd5756e21d97e146b4c3-s800-c15.jpg"></a>
-
-February 23, 2017 - Supporters say it was wrong to force local schools to allow transgender students to choose which bathroom to use. Critics say rescinding that policy empowers those who harass transgender kids.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy">http://www.npr.org/sections/thetwo-way/2017/02/23/516878336/some-teachers-principals-and-students-condemn-trump-transgender-policy</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_16237587589211_wide-1425db5435d9eace8ce0fd5756e21d97e146b4c3-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170223_atc_what_does_famine_mean.mp3?orgId=1&amp;topicId=1031&amp;d=234&amp;p=2&amp;story=516642447&amp;t=progseg&amp;e=516797929&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Who Declares A Famine? And What Does That Actually Mean?</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean</link>
-      <description>February 23, 2017 - Just as we rank hurricanes and earthquakes, officials have developed a five-phase scale to rank food crises.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170223_atc_what_does_famine_mean.mp3?orgId=1&amp;topicId=1031&amp;d=234&amp;p=2&amp;story=516642447&amp;t=progseg&amp;e=516797929&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/gettyimages-613944358_wide-43c39931ff714fe07eabb867f38d3aecf659b413-s800-c15.jpg"></a>
-
-February 23, 2017 - Just as we rank hurricanes and earthquakes, officials have developed a five-phase scale to rank food crises.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean">http://www.npr.org/sections/goatsandsoda/2017/02/23/516642447/who-declares-a-famine-and-what-does-that-actually-mean</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/gettyimages-613944358_wide-43c39931ff714fe07eabb867f38d3aecf659b413-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law</guid>
-      <title>Arkansas Supreme Court Strikes Down Local Anti-Discrimination Law</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law</link>
-      <description>February 23, 2017 - The court ruled that a Fayetteville, Ark., law protecting LGBT people violated a state law barring cities from protecting people from discrimination who are not already covered at the state level.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_17031679883112_wide-9b059bb2bfa1e0916037686d9f47285fbfee0bf5-s800-c15.jpg"></a>
-
-February 23, 2017 - The court ruled that a Fayetteville, Ark., law protecting LGBT people violated a state law barring cities from protecting people from discrimination who are not already covered at the state level.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law">http://www.npr.org/sections/thetwo-way/2017/02/23/516702975/arkansas-supreme-court-strikes-down-local-anti-discrimination-law</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_17031679883112_wide-9b059bb2bfa1e0916037686d9f47285fbfee0bf5-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit</guid>
-      <title>Ice Fishing Has Its Rewards, But Bring A First Aid Kit </title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit</link>
-      <description>February 23, 2017 - Every winter people flock to the frigid lakes of Canada and the northern U.S.A. to ice fish. According to a new study, thislow and seemingly harmless sport has some risks of injuries.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/tom-hansen-pike-baudette-bay1_wide-a4bcb78926f24676ef1e0e3fd62f934b61a1180d-s800-c15.jpg"></a>
-
-February 23, 2017 - Every winter people flock to the frigid lakes of Canada and the northern U.S.A. to ice fish. According to a new study, thislow and seemingly harmless sport has some risks of injuries.
-
-<a href="http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit">http://www.npr.org/sections/thesalt/2017/02/23/516701563/ice-fishing-has-its-rewards-but-bring-a-first-aid-kit</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/tom-hansen-pike-baudette-bay1_wide-a4bcb78926f24676ef1e0e3fd62f934b61a1180d-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</guid>
-      <title>To Test Zika Vaccines, Scientists Need A New Outbreak</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</link>
-      <description>February 23, 2017 - It&#39;s a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s800-c15.jpg"></a>
-
-February 23, 2017 - It's a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak">http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</guid>
-      <title>Poverty Plus A Poisonous Plant Blamed For Paralysis In Rural Africa</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</link>
-      <description>February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people&#39;s main food is a bitter, poisonous variety of cassava.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s800-c15.jpg"></a>
-
-February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people's main food is a bitter, poisonous variety of cassava.
-
-<a href="http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa">http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_whats_next_for_the_affordable_care_act_your_questions_answered.mp3?orgId=105043435&amp;topicId=1128&amp;d=185&amp;p=3&amp;story=516697149&amp;t=progseg&amp;e=516787637&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>What&#39;s Next For The Affordable Care Act? Your Questions Answered</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/23/516697149/whats-next-for-the-affordable-care-act-your-questions-answered</link>
-      <description>February 23, 2017 - A lot of people are confused about when and if Republicans can &#34;repeal and replace&#34; the Affordable Care Act. Kaiser Health News&#39; Julie Rovner clears things up in the first of a series.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_whats_next_for_the_affordable_care_act_your_questions_answered.mp3?orgId=105043435&amp;topicId=1128&amp;d=185&amp;p=3&amp;story=516697149&amp;t=progseg&amp;e=516787637&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/gettyimages-4628023661_wide-bb51efc34830ce534319f4ceb403ccecde11b509-s800-c15.jpg"></a>
-
-February 23, 2017 - A lot of people are confused about when and if Republicans can "repeal and replace" the Affordable Care Act. Kaiser Health News' Julie Rovner clears things up in the first of a series.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/23/516697149/whats-next-for-the-affordable-care-act-your-questions-answered">http://www.npr.org/sections/health-shots/2017/02/23/516697149/whats-next-for-the-affordable-care-act-your-questions-answered</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/gettyimages-4628023661_wide-bb51efc34830ce534319f4ceb403ccecde11b509-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>185</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Should Scientists March? U.S. Researchers Still Debating Pros And Cons</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</link>
-      <description>February 23, 2017 - A &#34;March for Science&#34; is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s800-c15.jpg"></a>
-
-February 23, 2017 - A "March for Science" is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons">http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use</guid>
-      <title>Trump Administration Rescinds Obama Rule On Transgender Students&#39; Bathroom Use</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use</link>
-      <description>February 22, 2017 - The administration will not direct public schools to allow students to use facilities that match their gender identities. It notes the primary role of state and local districts in education policy.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/gettyimages-530272200_wide-08a88b1246436665302cad35275a6f2861cc14c5-s800-c15.jpg"></a>
-
-February 22, 2017 - The administration will not direct public schools to allow students to use facilities that match their gender identities. It notes the primary role of state and local districts in education policy.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use">http://www.npr.org/sections/thetwo-way/2017/02/22/516664633/trump-administration-rescinds-obama-rule-on-transgender-students-bathroom-use</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/gettyimages-530272200_wide-08a88b1246436665302cad35275a6f2861cc14c5-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

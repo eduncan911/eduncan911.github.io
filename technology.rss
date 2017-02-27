@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Feb 2017 05:19:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 18:31:48 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sat, 25 Feb 2017 05:19:49 +0000</pubDate>
+    <pubDate>Mon, 27 Feb 2017 18:31:48 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,53 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_how_the_media_are_using_encryption_tools_to_collect_anonymous_tips.mp3?orgId=1&amp;topicId=1019&amp;d=241&amp;p=3&amp;story=517037537&amp;t=progseg&amp;e=517438977&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>How The Media Are Using Encryption Tools To Collect Anonymous Tips</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</link>
+      <description>February 27, 2017 - Technology has made for more ways to leak scoops to the press than ever before. And newsrooms across the country are taking advantage of that.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_how_the_media_are_using_encryption_tools_to_collect_anonymous_tips.mp3?orgId=1&amp;topicId=1019&amp;d=241&amp;p=3&amp;story=517037537&amp;t=progseg&amp;e=517438977&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-6ddca7509760028a7c00338660d2617bf2dcc8c0-s800-c15.jpg"></a>
+
+February 27, 2017 - Technology has made for more ways to leak scoops to the press than ever before. And newsrooms across the country are taking advantage of that.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips">http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-6ddca7509760028a7c00338660d2617bf2dcc8c0-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>241</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</guid>
+      <title>The Early 2000s Are Calling: New Nokia 3310 Phones Revealed</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</link>
+      <description>February 26, 2017 - We reported earlier this month on rumors that the Internet&#39;s favorite indestructible brick of a phone would be returning to shelves. Now it&#39;s official. The not-so-smartphone will cost about $50.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/26/nokia_3310_range_wide-9831de24a2261dc47f9fb40bf9be7ec691a0ddc1-s800-c15.jpg"></a>
+
+February 26, 2017 - We reported earlier this month on rumors that the Internet's favorite indestructible brick of a phone would be returning to shelves. Now it's official. The not-so-smartphone will cost about $50.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed">http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/26/nokia_3310_range_wide-9831de24a2261dc47f9fb40bf9be7ec691a0ddc1-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</guid>
+      <title>North Carolina Law Makes Facebook A Felony For Former Sex Offenders</title>
+      <link>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</link>
+      <description>February 26, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s800-c15.jpg"></a>
+
+February 26, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.
+
+<a href="http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders">http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</guid>
       <title>FCC Chairman Goes After His Predecessor&#39;s Internet Privacy Rules</title>
@@ -213,51 +260,6 @@ February 21, 2017 - Yuval Noah Harari expects we'll soon engineer our bodies in 
 <a href="http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so">http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s3000-c15.jpg"></itunes:image>
       <itunes:duration>298</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_uber_orders_investigation_into_sexual_harassment_claims.mp3?orgId=1&amp;topicId=1006&amp;d=223&amp;p=2&amp;story=516292319&amp;t=progseg&amp;e=516216257&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Uber Orders Investigation Into Sexual Harassment Claims</title>
-      <link>http://www.npr.org/2017/02/20/516292319/uber-orders-investigation-into-sexual-harassment-claims</link>
-      <description>February 20, 2017 - A former engineer for the ride-hailing app Uber published a blog post this weekend claiming that she faced sexual harassment while working at the company. Uber says it&#39;s investigating the allegations.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_uber_orders_investigation_into_sexual_harassment_claims.mp3?orgId=1&amp;topicId=1006&amp;d=223&amp;p=2&amp;story=516292319&amp;t=progseg&amp;e=516216257&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 20, 2017 - A former engineer for the ride-hailing app Uber published a blog post this weekend claiming that she faced sexual harassment while working at the company. Uber says it's investigating the allegations.
-
-<a href="http://www.npr.org/2017/02/20/516292319/uber-orders-investigation-into-sexual-harassment-claims">http://www.npr.org/2017/02/20/516292319/uber-orders-investigation-into-sexual-harassment-claims</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>223</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_republic_author_describes_how_social_media_hurts_democracy.mp3?orgId=1&amp;topicId=1033&amp;d=315&amp;p=2&amp;story=516292286&amp;t=progseg&amp;e=516216257&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>&#39;#Republic&#39; Author Describes How Social Media Hurts Democracy</title>
-      <link>http://www.npr.org/2017/02/20/516292286/-republic-author-describes-how-social-media-hurts-democracy</link>
-      <description>February 20, 2017 - NPR&#39;s Kelly McEvers speaks to Cass Sunstein about his new book, #Republic: Divided Democracy in the Age of Social Media. He says democracy needs people to come across a variety of viewpoints, and much of social media limits that exposure.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170220_atc_republic_author_describes_how_social_media_hurts_democracy.mp3?orgId=1&amp;topicId=1033&amp;d=315&amp;p=2&amp;story=516292286&amp;t=progseg&amp;e=516216257&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 20, 2017 - NPR's Kelly McEvers speaks to Cass Sunstein about his new book, #Republic: Divided Democracy in the Age of Social Media. He says democracy needs people to come across a variety of viewpoints, and much of social media limits that exposure.
-
-<a href="http://www.npr.org/2017/02/20/516292286/-republic-author-describes-how-social-media-hurts-democracy">http://www.npr.org/2017/02/20/516292286/-republic-author-describes-how-social-media-hurts-democracy</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>315</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</guid>
-      <title>Uber Will Investigate Sexual Harassment Claims By Engineer</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</link>
-      <description>February 20, 2017 - Uber&#39;s CEO has ordered an investigation into a sexual harassment claim made by a female engineer after she published a blog post detailing her experience.</description>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/20/ap_16307585078228_wide-4a0a8ea90481b595376c899449bd3e45275559cc-s800-c15.jpg"></a>
-
-February 20, 2017 - Uber's CEO has ordered an investigation into a sexual harassment claim made by a female engineer after she published a blog post detailing her experience.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer">http://www.npr.org/sections/thetwo-way/2017/02/20/516260638/uber-will-investigate-sexual-harassment-claims-by-engineer</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/20/ap_16307585078228_wide-4a0a8ea90481b595376c899449bd3e45275559cc-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

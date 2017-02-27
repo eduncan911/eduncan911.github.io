@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Feb 2017 05:19:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 18:31:49 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sat, 25 Feb 2017 05:19:51 +0000</pubDate>
+    <pubDate>Mon, 27 Feb 2017 18:31:49 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,147 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</guid>
+      <title>Your Name Might Shape Your Face, Researchers Say</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</link>
+      <description>February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s800-c15.jpg"></a>
+
+February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say">http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Medicine That Blunts The Buzz Of Alcohol Can Help Drinkers Cut Back</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</link>
+      <description>February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don&#39;t know that when combined with counseling it can help people resist the urge to drink too much.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s800-c15.jpg"></a>
+
+February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don't know that when combined with counseling it can help people resist the urge to drink too much.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back">http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>258</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170226_atc_fearing_climate_change_policy_under_trump_stem_group_is_working_to_get_scientists_elected.mp3?orgId=1&amp;topicId=1003&amp;d=209&amp;p=2&amp;story=517394115&amp;t=progseg&amp;e=517377639&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Fearing Climate Change Policy Under Trump, STEM Group Works To Get Scientists Elected</title>
+      <link>http://www.npr.org/2017/02/26/517394115/fearing-climate-change-policy-under-trump-stem-group-is-working-to-get-scientist</link>
+      <description>February 26, 2017 - Scientists across the country are planning to go to Washington — and take office. Shaughnessy Naughton is the founder of 314 Action a non profit that helps scientists run for office.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170226_atc_fearing_climate_change_policy_under_trump_stem_group_is_working_to_get_scientists_elected.mp3?orgId=1&amp;topicId=1003&amp;d=209&amp;p=2&amp;story=517394115&amp;t=progseg&amp;e=517377639&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 26, 2017 - Scientists across the country are planning to go to Washington — and take office. Shaughnessy Naughton is the founder of 314 Action a non profit that helps scientists run for office.
+
+<a href="http://www.npr.org/2017/02/26/517394115/fearing-climate-change-policy-under-trump-stem-group-is-working-to-get-scientist">http://www.npr.org/2017/02/26/517394115/fearing-climate-change-policy-under-trump-stem-group-is-working-to-get-scientist</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>209</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_7_exoplanets_around_trappist-1.mp3?orgId=1&amp;topicId=1026&amp;d=330&amp;p=10&amp;story=517305291&amp;t=progseg&amp;e=517305173&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Astronomers Find 7 Potentially Habitable Planets</title>
+      <link>http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets</link>
+      <description>February 26, 2017 - Astronomers have discovered a solar system full of potentially habitable planets. Lulu Garcia-Navarro talks to Seth Shostak of the SETI Institute, which searches for extraterrestrial intelligence.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_7_exoplanets_around_trappist-1.mp3?orgId=1&amp;topicId=1026&amp;d=330&amp;p=10&amp;story=517305291&amp;t=progseg&amp;e=517305173&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 26, 2017 - Astronomers have discovered a solar system full of potentially habitable planets. Lulu Garcia-Navarro talks to Seth Shostak of the SETI Institute, which searches for extraterrestrial intelligence.
+
+<a href="http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets">http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>330</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_warm_weather_in_february.mp3?orgId=1&amp;topicId=1025&amp;d=195&amp;p=10&amp;story=517305249&amp;t=progseg&amp;e=517305173&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Why It&#39;s Been So Warm On The East Coast</title>
+      <link>http://www.npr.org/2017/02/26/517305249/why-its-been-so-warm-on-the-east-coast</link>
+      <description>February 26, 2017 - The east coast saw record-breaking high temperatures this past week. Meteorologist Bob Henson talks with NPR&#39;s Lulu Garcia-Navarro about what&#39;s behind the early spring weather.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_warm_weather_in_february.mp3?orgId=1&amp;topicId=1025&amp;d=195&amp;p=10&amp;story=517305249&amp;t=progseg&amp;e=517305173&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 26, 2017 - The east coast saw record-breaking high temperatures this past week. Meteorologist Bob Henson talks with NPR's Lulu Garcia-Navarro about what's behind the early spring weather.
+
+<a href="http://www.npr.org/2017/02/26/517305249/why-its-been-so-warm-on-the-east-coast">http://www.npr.org/2017/02/26/517305249/why-its-been-so-warm-on-the-east-coast</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>195</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=326&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Dentists Work To Ease Patients&#39; Pain With Fewer Opioids</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</link>
+      <description>February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient&#39;s pain. Now they&#39;re learning to counsel patients about better, less addictive alternatives.</description>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=326&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s800-c15.jpg"></a>
+
+February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient's pain. Now they're learning to counsel patients about better, less addictive alternatives.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids">http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>326</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_sizzling_sound_of_meteors.mp3?orgId=1&amp;topicId=1007&amp;d=197&amp;p=7&amp;story=517181421&amp;t=progseg&amp;e=517181302&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Explaining The Sizzling Sound Of Meteors</title>
+      <link>http://www.npr.org/2017/02/25/517181421/explaining-the-sizzling-sound-of-meteors</link>
+      <description>February 25, 2017 - Scientists recently published a paper explaining why some meteors create strange sounds. NPR&#39;s Scott Simon talks with researcher Bill Sweatt about what creates this &#34;sizzling&#34; sound.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_sizzling_sound_of_meteors.mp3?orgId=1&amp;topicId=1007&amp;d=197&amp;p=7&amp;story=517181421&amp;t=progseg&amp;e=517181302&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 25, 2017 - Scientists recently published a paper explaining why some meteors create strange sounds. NPR's Scott Simon talks with researcher Bill Sweatt about what creates this "sizzling" sound.
+
+<a href="http://www.npr.org/2017/02/25/517181421/explaining-the-sizzling-sound-of-meteors">http://www.npr.org/2017/02/25/517181421/explaining-the-sizzling-sound-of-meteors</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>197</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_a_taste_for_pork_helped_a_deadly_virus_jump_to_humans.mp3?orgId=1&amp;topicId=1031&amp;aggIds=128851279,512014971&amp;d=448&amp;p=7&amp;story=515258818&amp;t=progseg&amp;e=517181302&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Taste For Pork Helped A Deadly Virus Jump To Humans</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans</link>
+      <description>February 25, 2017 - People were dropping dead in Malaysia, and no one could figure out why their brains were swelling. A young scientist solved the mystery. Then he had to get people to believe him.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_a_taste_for_pork_helped_a_deadly_virus_jump_to_humans.mp3?orgId=1&amp;topicId=1031&amp;aggIds=128851279,512014971&amp;d=448&amp;p=7&amp;story=515258818&amp;t=progseg&amp;e=517181302&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_99032201486_wide-0e80be0860f50b8c7884f8d1150e0dc1a4be5246-s800-c15.jpg"></a>
+
+February 25, 2017 - People were dropping dead in Malaysia, and no one could figure out why their brains were swelling. A young scientist solved the mystery. Then he had to get people to believe him.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans">http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_99032201486_wide-0e80be0860f50b8c7884f8d1150e0dc1a4be5246-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>448</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge</guid>
+      <title>When You Love An Old Dog, Managing Care Can Be A Challenge</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge</link>
+      <description>February 25, 2017 - Aging dogs often need extra medical care. But there comes a time to be realistic about what can and can&#39;t be done, veterinarians say. The pet&#39;s comfort is paramount.</description>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/dogdays_wide-953d5b8aaccb1f16f4aabb088faaff30122d77f3-s800-c15.jpeg"></a>
+
+February 25, 2017 - Aging dogs often need extra medical care. But there comes a time to be realistic about what can and can't be done, veterinarians say. The pet's comfort is paramount.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge">http://www.npr.org/sections/health-shots/2017/02/25/515610795/when-you-love-an-old-dog-managing-care-can-be-a-challenge</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/dogdays_wide-953d5b8aaccb1f16f4aabb088faaff30122d77f3-s3000-c15.jpeg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_vx_the_nerve_agent_used_to_kill_kim_jong_nam_is_rare_and_deadly.mp3?orgId=1&amp;topicId=1122&amp;d=221&amp;p=2&amp;story=517053496&amp;t=progseg&amp;e=516997865&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
       <title>VX: The Nerve Agent Used To Kill Kim Jong Nam Is Rare And Deadly</title>
@@ -121,149 +262,6 @@ February 24, 2017 - Sometimes, doctors just don't have the answers. Surgeon Kevi
 <a href="http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine">http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s3000-c15.jpg"></itunes:image>
       <itunes:duration>627</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_02.mp3?orgId=1&amp;topicId=1130&amp;d=785&amp;p=57&amp;story=516709308&amp;t=progseg&amp;e=514152888&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Naomi Oreskes: Why Should We Believe In Science?</title>
-      <link>http://www.npr.org/2017/02/24/516709308/naomi-oreskes-why-should-we-believe-in-science</link>
-      <description>February 24, 2017 - In school, we&#39;re taught we should trust science because the scientific method leads to measurable results and hard facts. But Naomi Oreskes says the process of inquiry doesn&#39;t end there.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_02.mp3?orgId=1&amp;topicId=1130&amp;d=785&amp;p=57&amp;story=516709308&amp;t=progseg&amp;e=514152888&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/naomioreskes_2014s-embed_wide-f4d16e86b5f30d21620f74cca8059ea63461c32c-s800-c15.jpg"></a>
-
-February 24, 2017 - In school, we're taught we should trust science because the scientific method leads to measurable results and hard facts. But Naomi Oreskes says the process of inquiry doesn't end there.
-
-<a href="http://www.npr.org/2017/02/24/516709308/naomi-oreskes-why-should-we-believe-in-science">http://www.npr.org/2017/02/24/516709308/naomi-oreskes-why-should-we-believe-in-science</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/naomioreskes_2014s-embed_wide-f4d16e86b5f30d21620f74cca8059ea63461c32c-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>785</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_01.mp3?orgId=1&amp;topicId=1129&amp;d=440&amp;p=57&amp;story=516704705&amp;t=progseg&amp;e=514152888&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Michael Stevens: How Do You Find Smart Answers to Quirky Questions?  </title>
-      <link>http://www.npr.org/2017/02/24/516704705/michael-stevens-how-do-you-find-smart-answers-to-quirky-questions</link>
-      <description>February 24, 2017 - When Michael Stevens is confronted with a quirky question, he responsibly searches for the answer and posts it to YouTube — inviting millions of people to follow his journey of discovery.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_01.mp3?orgId=1&amp;topicId=1129&amp;d=440&amp;p=57&amp;story=516704705&amp;t=progseg&amp;e=514152888&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/22/michaelstevens_2013a-embed_wide-67e17cdcdf94ecc99a64bc73c4e6ff4bbf096732-s800-c15.jpg"></a>
-
-February 24, 2017 - When Michael Stevens is confronted with a quirky question, he responsibly searches for the answer and posts it to YouTube — inviting millions of people to follow his journey of discovery.
-
-<a href="http://www.npr.org/2017/02/24/516704705/michael-stevens-how-do-you-find-smart-answers-to-quirky-questions">http://www.npr.org/2017/02/24/516704705/michael-stevens-how-do-you-find-smart-answers-to-quirky-questions</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/michaelstevens_2013a-embed_wide-67e17cdcdf94ecc99a64bc73c4e6ff4bbf096732-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>440</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably</guid>
-      <title>Could A Bumblebee Learn To Play Fetch? Probably</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably</link>
-      <description>February 24, 2017 - Scientists found that bumblebees are nimble learners, especially when there&#39;s a sugary reward at the end. No wonder they&#39;re such good pollinators.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/bumblebee_wide-43b22617e34292ad8cbdc79931fe099677c7802b-s800-c15.jpg"></a>
-
-February 24, 2017 - Scientists found that bumblebees are nimble learners, especially when there's a sugary reward at the end. No wonder they're such good pollinators.
-
-<a href="http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably">http://www.npr.org/sections/thesalt/2017/02/24/516532358/could-a-bumblebee-learn-to-play-fetch-probably</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/bumblebee_wide-43b22617e34292ad8cbdc79931fe099677c7802b-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170224_me_chemical_weapon_found_on_body_of_north_korean_leaders_half-brother.mp3?orgId=1&amp;topicId=1125&amp;d=202&amp;p=3&amp;story=516978090&amp;t=progseg&amp;e=516983694&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Chemical Weapon Found On Body Of North Korean Leader&#39;s Half-Brother</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/516978090/chemical-weapon-found-on-body-of-north-korean-leaders-half-brother</link>
-      <description>February 24, 2017 - Malaysian police said VX nerve agent — classified as a weapon of mass destruction — was found on Kim Jong Nam&#39;s body. South Korea says North Korea ordered the hit.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170224_me_chemical_weapon_found_on_body_of_north_korean_leaders_half-brother.mp3?orgId=1&amp;topicId=1125&amp;d=202&amp;p=3&amp;story=516978090&amp;t=progseg&amp;e=516983694&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/ap_17046100434004_wide-63f7448d37feb46f77f76faf3808acbac189f9fe-s800-c15.jpg"></a>
-
-February 24, 2017 - Malaysian police said VX nerve agent — classified as a weapon of mass destruction — was found on Kim Jong Nam's body. South Korea says North Korea ordered the hit.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/516978090/chemical-weapon-found-on-body-of-north-korean-leaders-half-brother">http://www.npr.org/sections/thetwo-way/2017/02/24/516978090/chemical-weapon-found-on-body-of-north-korean-leaders-half-brother</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/ap_17046100434004_wide-63f7448d37feb46f77f76faf3808acbac189f9fe-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>202</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp</guid>
-      <title>PHOTOS: The Final Hours Of A Dakota Access Pipeline Protest Camp</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp</link>
-      <description>February 23, 2017 - On Thursday morning, law enforcement cleared out the Oceti Sakowin camp in North Dakota, ending a months-long protest against the completion of the nearby Dakota Access Pipeline.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/mordant-standingrock-01_wide-86b271242ad3c4021800f83dbc2ca8443c35d188-s800-c15.jpg"></a>
-
-February 23, 2017 - On Thursday morning, law enforcement cleared out the Oceti Sakowin camp in North Dakota, ending a months-long protest against the completion of the nearby Dakota Access Pipeline.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp">http://www.npr.org/sections/thetwo-way/2017/02/23/516920484/photos-the-final-hours-of-a-dakota-access-pipeline-protest-camp</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/mordant-standingrock-01_wide-86b271242ad3c4021800f83dbc2ca8443c35d188-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</guid>
-      <title>To Test Zika Vaccines, Scientists Need A New Outbreak</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</link>
-      <description>February 23, 2017 - It&#39;s a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s800-c15.jpg"></a>
-
-February 23, 2017 - It's a bit of a paradox, but researchers say they need Zika virus to re-emerge this year so they can test vaccines designed to defeat it.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak">http://www.npr.org/sections/health-shots/2017/02/23/516822252/to-test-zika-vaccines-scientists-need-a-new-outbreak</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/zika-vaccine_wide-1b95ace4f9a18351ae0502f5af98b73108be36d7-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking</guid>
-      <title>SpaceX Cargo Craft Is Now In Space Station&#39;s Grip, One Day After Aborted Docking</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking</link>
-      <description>February 23, 2017 - NASA had originally planned for the Dragon craft to reach the space station three days ago. It&#39;s carrying crew supplies and a range of scientific experiments.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_17054391768105_wide-da16214f58e1ffea7f58574e8e1e1a87f7eaa75d-s800-c15.jpg"></a>
-
-February 23, 2017 - NASA had originally planned for the Dragon craft to reach the space station three days ago. It's carrying crew supplies and a range of scientific experiments.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking">http://www.npr.org/sections/thetwo-way/2017/02/23/516802421/spacex-cargo-craft-is-now-in-space-stations-grip-one-day-after-aborted-docking</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_17054391768105_wide-da16214f58e1ffea7f58574e8e1e1a87f7eaa75d-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</guid>
-      <title>Poverty Plus A Poisonous Plant Blamed For Paralysis In Rural Africa</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</link>
-      <description>February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people&#39;s main food is a bitter, poisonous variety of cassava.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s800-c15.jpg"></a>
-
-February 23, 2017 - Some African countries have long witnessed mysterious outbreaks of paralysis. Affected regions are poor and conflict-ridden, where people's main food is a bitter, poisonous variety of cassava.
-
-<a href="http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa">http://www.npr.org/sections/thesalt/2017/02/23/515819034/poverty-plus-a-poisonous-plant-blamed-for-paralysis-in-rural-africa</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/img_67501_wide-7c9473a45c05a47895f918bfb8160648d56df34d-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Should Scientists March? U.S. Researchers Still Debating Pros And Cons</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</link>
-      <description>February 23, 2017 - A &#34;March for Science&#34; is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s800-c15.jpg"></a>
-
-February 23, 2017 - A "March for Science" is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons">http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
