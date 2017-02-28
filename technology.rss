@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2017 19:36:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Feb 2017 20:18:35 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Mon, 27 Feb 2017 19:36:16 +0000</pubDate>
+    <pubDate>Tue, 28 Feb 2017 20:18:35 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -24,6 +24,96 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</guid>
+      <title>Trump May Weigh In On H-1B Visas, But Major Reform Depends On Congress</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</link>
+      <description>February 28, 2017 - President Trump has said he wants to crack down on abuses and protect American workers. But it&#39;s Congress that holds the power to fundamentally reform the program, and work there is underway.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/ap_16343710265256_wide-4cadf77a8968cc469b5b478ebd5b1408fa77cf1a-s800-c15.jpg"></a>
+
+February 28, 2017 - President Trump has said he wants to crack down on abuses and protect American workers. But it's Congress that holds the power to fundamentally reform the program, and work there is underway.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress">http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/ap_16343710265256_wide-4cadf77a8968cc469b5b478ebd5b1408fa77cf1a-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no</guid>
+      <title>Can Sex Offenders Be Barred From Social Media? Justices Lean Toward No</title>
+      <link>http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no</link>
+      <description>February 27, 2017 - The court heard two cases today: One on whether the government can deport a resident for a statutory rape conviction, and another on whether a state can criminalize social media use for sex offenders.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/27/packingham-2_wide-8d43cc011116f16808c2f8fdbf1c0907158d0bc0-s800-c15.jpg"></a>
+
+February 27, 2017 - The court heard two cases today: One on whether the government can deport a resident for a statutory rape conviction, and another on whether a state can criminalize social media use for sex offenders.
+
+<a href="http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no">http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/packingham-2_wide-8d43cc011116f16808c2f8fdbf1c0907158d0bc0-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_privacy_paradox_how_to_gain_more_control_over_your_data.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=517563179&amp;t=progseg&amp;e=517513387&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Privacy Paradox: How To Gain More Control Over Your Data</title>
+      <link>http://www.npr.org/2017/02/27/517563179/privacy-paradox-how-to-gain-more-control-over-your-data</link>
+      <description>February 27, 2017 - The WNYC podcast, &#34;Note to Self,&#34; conducted an experiment called The Privacy Paradox, which involved thousands of people who tried to strengthen control over their personal information online.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_privacy_paradox_how_to_gain_more_control_over_your_data.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=517563179&amp;t=progseg&amp;e=517513387&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 27, 2017 - The WNYC podcast, "Note to Self," conducted an experiment called The Privacy Paradox, which involved thousands of people who tried to strengthen control over their personal information online.
+
+<a href="http://www.npr.org/2017/02/27/517563179/privacy-paradox-how-to-gain-more-control-over-your-data">http://www.npr.org/2017/02/27/517563179/privacy-paradox-how-to-gain-more-control-over-your-data</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_new_fcc_chairman_plans_to_block_privacy_regulations.mp3?orgId=1&amp;topicId=1014&amp;d=156&amp;p=2&amp;story=517563172&amp;t=progseg&amp;e=517513387&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>New FCC Chairman Plans To Block Privacy Regulations</title>
+      <link>http://www.npr.org/2017/02/27/517563172/new-fcc-chairman-plans-to-block-privacy-regulations</link>
+      <description>February 27, 2017 - The Federal Communications Commission&#39;s new chairman wants to block a rule approved by his predecessor requiring Internet service providers like Comcast and Verizon adhere to new privacy standards.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_new_fcc_chairman_plans_to_block_privacy_regulations.mp3?orgId=1&amp;topicId=1014&amp;d=156&amp;p=2&amp;story=517563172&amp;t=progseg&amp;e=517513387&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 27, 2017 - The Federal Communications Commission's new chairman wants to block a rule approved by his predecessor requiring Internet service providers like Comcast and Verizon adhere to new privacy standards.
+
+<a href="http://www.npr.org/2017/02/27/517563172/new-fcc-chairman-plans-to-block-privacy-regulations">http://www.npr.org/2017/02/27/517563172/new-fcc-chairman-plans-to-block-privacy-regulations</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>156</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</guid>
+      <title>North Carolina Law Makes Facebook A Felony For Former Sex Offenders</title>
+      <link>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</link>
+      <description>February 27, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s800-c15.jpg"></a>
+
+February 27, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.
+
+<a href="http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders">http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</guid>
+      <title>To Keep Teens Safe Online, They Need To Learn To Manage Risk</title>
+      <link>http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</link>
+      <description>February 27, 2017 - Teens should be included in efforts to mitigate their online risks, researchers say, but apps focus more on parents controlling access by monitoring and blocking sites.</description>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s800-c15.jpg"></a>
+
+February 27, 2017 - Teens should be included in efforts to mitigate their online risks, researchers say, but apps focus more on parents controlling access by monitoring and blocking sites.
+
+<a href="http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk">http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_how_the_media_are_using_encryption_tools_to_collect_anonymous_tips.mp3?orgId=1&amp;topicId=1019&amp;d=241&amp;p=3&amp;story=517037537&amp;t=progseg&amp;e=517438977&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
       <title>How The Media Are Using Encryption Tools To Collect Anonymous Tips</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</link>
@@ -31,12 +121,12 @@
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_how_the_media_are_using_encryption_tools_to_collect_anonymous_tips.mp3?orgId=1&amp;topicId=1019&amp;d=241&amp;p=3&amp;story=517037537&amp;t=progseg&amp;e=517438977&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-6ddca7509760028a7c00338660d2617bf2dcc8c0-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-8886a561c391804520fbbc1db7378d4c11d073f2-s800-c15.jpg"></a>
 
 February 27, 2017 - Technology has made for more ways to leak scoops to the press than ever before. And newsrooms across the country are taking advantage of that.
 
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips">http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-6ddca7509760028a7c00338660d2617bf2dcc8c0-s3000-c15.jpg"></itunes:image>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-8886a561c391804520fbbc1db7378d4c11d073f2-s3000-c15.jpg"></itunes:image>
       <itunes:duration>241</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -53,21 +143,6 @@ February 26, 2017 - We reported earlier this month on rumors that the Internet's
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed">http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/26/nokia_3310_range_wide-9831de24a2261dc47f9fb40bf9be7ec691a0ddc1-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</guid>
-      <title>North Carolina Law Makes Facebook A Felony For Former Sex Offenders</title>
-      <link>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</link>
-      <description>February 26, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s800-c15.jpg"></a>
-
-February 26, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.
-
-<a href="http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders">http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -179,87 +254,6 @@ February 24, 2017 - As part of our occasional series on storytelling in video ga
 
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor">http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/22/mordor-03_wide-92b3626fbc277bd4dc2c3afe8b7da884a9042ef9-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers</guid>
-      <title>WATCH: In The War Between Tigers And Drone, Chalk One Up For Tigers</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers</link>
-      <description>February 23, 2017 - Sure they might be chubby — to put it charitably — but they&#39;re still tigers. And when Chinese zookeepers mobilized a drone to get them some exercise, the big cats had little trouble bringing it down.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/23/tiger-capture_wide-c12a5d449cd3d015da8a89acc89bd42298ff02b1-s800-c15.png"></a>
-
-February 23, 2017 - Sure they might be chubby — to put it charitably — but they're still tigers. And when Chinese zookeepers mobilized a drone to get them some exercise, the big cats had little trouble bringing it down.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers">http://www.npr.org/sections/thetwo-way/2017/02/23/516845664/watch-in-the-war-between-tigers-and-drone-chalk-one-up-for-tigers</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/tiger-capture_wide-c12a5d449cd3d015da8a89acc89bd42298ff02b1-s3000-c15.png"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten</guid>
-      <title>Go To College, Play Video Games. E-Sports Make A Play For The Big Ten</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten</link>
-      <description>February 23, 2017 - There&#39;s no prize money involved, although League of Legends maker Riot Games offers scholarships for the e-sports teams at Ohio State and competitors at other Big Ten campuses.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/17/osu-league-0078_wide-2cf67d2ed9901982c2fb7749d2a2063007f43d97-s800-c15.jpg"></a>
-
-February 23, 2017 - There's no prize money involved, although League of Legends maker Riot Games offers scholarships for the e-sports teams at Ohio State and competitors at other Big Ten campuses.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten">http://www.npr.org/sections/alltechconsidered/2017/02/23/515853132/go-to-college-play-video-games-e-sports-make-a-play-for-the-big-ten</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/17/osu-league-0078_wide-2cf67d2ed9901982c2fb7749d2a2063007f43d97-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Should Scientists March? U.S. Researchers Still Debating Pros And Cons</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</link>
-      <description>February 23, 2017 - A &#34;March for Science&#34; is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.</description>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170223_me_should_scientists_march_us_researchers_still_debating_pros_and_cons.mp3?orgId=1&amp;topicId=1007&amp;d=234&amp;p=3&amp;story=515584634&amp;t=progseg&amp;e=516787637&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s800-c15.jpg"></a>
-
-February 23, 2017 - A "March for Science" is set for April 22 in Washington, D.C., to show support for evidence-based public policy. But some worry the march will be seen as partisan, and may even undermine sound policy.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons">http://www.npr.org/sections/thetwo-way/2017/02/23/515584634/should-scientists-march-u-s-researchers-still-debating-pros-and-cons</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/16/scientists-1_wide-db9c6961f3cc9b69f7b3585026c4360c2338986f-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170222_atc_dr_jemison_future_of_space_exploration.mp3?orgId=1&amp;topicId=1026&amp;d=290&amp;p=2&amp;story=516695456&amp;t=progseg&amp;e=516603816&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
-      <title>After Making History In Space, Mae Jemison Works To Prime Future Scientists </title>
-      <link>http://www.npr.org/2017/02/22/516695456/after-making-history-in-space-mae-jemison-works-to-prime-future-scientists</link>
-      <description>February 22, 2017 - For the first African-American woman in space, her path to spaceflight and beyond includes trying to pave the way for more girls of color to follow in her footsteps.</description>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170222_atc_dr_jemison_future_of_space_exploration.mp3?orgId=1&amp;topicId=1026&amp;d=290&amp;p=2&amp;story=516695456&amp;t=progseg&amp;e=516603816&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/ap_83062319031_wide-a8599e667a8e2e44c902f11cbce311c94bcbdde9-s800-c15.jpg"></a>
-
-February 22, 2017 - For the first African-American woman in space, her path to spaceflight and beyond includes trying to pave the way for more girls of color to follow in her footsteps.
-
-<a href="http://www.npr.org/2017/02/22/516695456/after-making-history-in-space-mae-jemison-works-to-prime-future-scientists">http://www.npr.org/2017/02/22/516695456/after-making-history-in-space-mae-jemison-works-to-prime-future-scientists</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/ap_83062319031_wide-a8599e667a8e2e44c902f11cbce311c94bcbdde9-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>290</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Are Cyborgs In Our Future? &#39;Homo Deus&#39; Author Thinks So</title>
-      <link>http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</link>
-      <description>February 21, 2017 - Yuval Noah Harari expects we&#39;ll soon engineer our bodies in the same way we design products. &#34;I think in general medicine ... will switch from healing the sick to upgrading the healthy,&#34; he says.</description>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170221_atc_homo_deus_author_forsees_future_of_human_innovation.mp3?orgId=1&amp;topicId=1033&amp;d=298&amp;p=2&amp;story=516484639&amp;t=progseg&amp;e=516377596&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s800-c15.jpg"></a>
-
-February 21, 2017 - Yuval Noah Harari expects we'll soon engineer our bodies in the same way we design products. "I think in general medicine ... will switch from healing the sick to upgrading the healthy," he says.
-
-<a href="http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so">http://www.npr.org/2017/02/21/516484639/are-cyborgs-in-our-future-homo-deus-author-thinks-so</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/21/homo-deus_wide-74727b38d1b992d4b71e75465bc7e665f20cdcfd-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>298</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
