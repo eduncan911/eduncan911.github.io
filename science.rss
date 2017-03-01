@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2017 20:18:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2017 20:04:18 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Tue, 28 Feb 2017 20:18:37 +0000</pubDate>
+    <pubDate>Wed, 01 Mar 2017 20:04:18 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -24,18 +24,78 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
     <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</guid>
+      <title>Some See &#39;Flat-Fee Primary Care&#39; As A GOP-Friendly Way To Provide Routine Care</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</link>
+      <description>March 1, 2017 - In &#34;direct primary care,&#34; a model favored by HHS Secretary Tom Price, patients pay a monthly fee to doctors for basic health care. But does that really provide better value?</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/stethoscope_wide-b1275df2ba2dd40a90abbfdeef3ab510135feff5-s800-c15.jpg"></a>
+
+March 1, 2017 - In "direct primary care," a model favored by HHS Secretary Tom Price, patients pay a monthly fee to doctors for basic health care. But does that really provide better value?
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care">http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/stethoscope_wide-b1275df2ba2dd40a90abbfdeef3ab510135feff5-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_spacex_moves_to_launch_first-ever_private_mission_to_the_moon.mp3?orgId=1&amp;topicId=1026&amp;d=229&amp;p=2&amp;story=517779759&amp;t=progseg&amp;e=517670891&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>SpaceX Moves To Launch First-Ever Private Mission To The Moon</title>
+      <link>http://www.npr.org/2017/02/28/517779759/spacex-moves-to-launch-first-ever-private-mission-to-the-moon</link>
+      <description>February 28, 2017 - SpaceX claims it will launch the first ever private moon mission in 2018, which would send people to the moon for the first time in 45 years. The announcement may signify the start of a new race to the moon, this time between NASA and the private space industry.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_spacex_moves_to_launch_first-ever_private_mission_to_the_moon.mp3?orgId=1&amp;topicId=1026&amp;d=229&amp;p=2&amp;story=517779759&amp;t=progseg&amp;e=517670891&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 28, 2017 - SpaceX claims it will launch the first ever private moon mission in 2018, which would send people to the moon for the first time in 45 years. The announcement may signify the start of a new race to the moon, this time between NASA and the private space industry.
+
+<a href="http://www.npr.org/2017/02/28/517779759/spacex-moves-to-launch-first-ever-private-mission-to-the-moon">http://www.npr.org/2017/02/28/517779759/spacex-moves-to-launch-first-ever-private-mission-to-the-moon</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>229</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_orders_review_of_obama-era_clean_water_rule.mp3?orgId=1&amp;topicId=1025&amp;d=108&amp;p=2&amp;story=517779801&amp;t=progseg&amp;e=517670891&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Trump Orders Review Of Obama-Era Clean Water Rule</title>
+      <link>http://www.npr.org/2017/02/28/517779801/trump-orders-review-of-obama-era-clean-water-rule</link>
+      <description>February 28, 2017 - President Trump takes action to roll back another environmental regulation. The Clean Water Rule extends federal authority over smaller streams and marshes, but farmers, builders and others say it goes too far.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_orders_review_of_obama-era_clean_water_rule.mp3?orgId=1&amp;topicId=1025&amp;d=108&amp;p=2&amp;story=517779801&amp;t=progseg&amp;e=517670891&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 28, 2017 - President Trump takes action to roll back another environmental regulation. The Clean Water Rule extends federal authority over smaller streams and marshes, but farmers, builders and others say it goes too far.
+
+<a href="http://www.npr.org/2017/02/28/517779801/trump-orders-review-of-obama-era-clean-water-rule">http://www.npr.org/2017/02/28/517779801/trump-orders-review-of-obama-era-clean-water-rule</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>108</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://play.podtrac.com/npr-510308/ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_chicago_leaders_use_cognitive_behavorial_therapy_to_combat_violent_crime.mp3?orgId=1&amp;topicId=1007&amp;aggIds=423302056&amp;d=347&amp;p=2&amp;story=517779745&amp;t=progseg&amp;e=517670891&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Chicago Leaders Use Cognitive Behavorial Therapy To Combat Violent Crime</title>
+      <link>http://www.npr.org/2017/02/28/517779745/chicago-leaders-use-cognitive-behavorial-therapy-to-combat-violent-crime</link>
+      <description>February 28, 2017 - Chicago is in dire need of solutions for its violent crime. A cognitive behavioral therapy program has been able to help keep teenage boys from acting out on their impulses.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://play.podtrac.com/npr-510308/ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_chicago_leaders_use_cognitive_behavorial_therapy_to_combat_violent_crime.mp3?orgId=1&amp;topicId=1007&amp;aggIds=423302056&amp;d=347&amp;p=2&amp;story=517779745&amp;t=progseg&amp;e=517670891&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 28, 2017 - Chicago is in dire need of solutions for its violent crime. A cognitive behavioral therapy program has been able to help keep teenage boys from acting out on their impulses.
+
+<a href="http://www.npr.org/2017/02/28/517779745/chicago-leaders-use-cognitive-behavorial-therapy-to-combat-violent-crime">http://www.npr.org/2017/02/28/517779745/chicago-leaders-use-cognitive-behavorial-therapy-to-combat-violent-crime</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>347</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</guid>
       <title>Trump Aims To &#39;Eliminate&#39; Clean Water Rule </title>
       <link>http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</link>
-      <description>February 28, 2017 - The Obama-era &#34;Waters of the United States&#34; rule defines which smaller bodies of water are under U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it poses a burden.</description>
+      <description>February 28, 2017 - The Obama-era &#34;Waters of the United States&#34; rule defines which small bodies of water are subject to U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it goes too far.</description>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/ap_993627085377_wide-179c18962297c59bf2c3c5dbc16b95700d69df67-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-5325d22fa050f45d8a3de4eb7f07c2e6d5f39b11-s800-c15.jpg"></a>
 
-February 28, 2017 - The Obama-era "Waters of the United States" rule defines which smaller bodies of water are under U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it poses a burden.
+February 28, 2017 - The Obama-era "Waters of the United States" rule defines which small bodies of water are subject to U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it goes too far.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule">http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/ap_993627085377_wide-179c18962297c59bf2c3c5dbc16b95700d69df67-s3000-c15.jpg"></itunes:image>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-5325d22fa050f45d8a3de4eb7f07c2e6d5f39b11-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -196,70 +256,6 @@ February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than
 <a href="http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets">http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>330</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_warm_weather_in_february.mp3?orgId=1&amp;topicId=1025&amp;d=195&amp;p=10&amp;story=517305249&amp;t=progseg&amp;e=517305173&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Why It&#39;s Been So Warm On The East Coast</title>
-      <link>http://www.npr.org/2017/02/26/517305249/why-its-been-so-warm-on-the-east-coast</link>
-      <description>February 26, 2017 - The east coast saw record-breaking high temperatures this past week. Meteorologist Bob Henson talks with NPR&#39;s Lulu Garcia-Navarro about what&#39;s behind the early spring weather.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_warm_weather_in_february.mp3?orgId=1&amp;topicId=1025&amp;d=195&amp;p=10&amp;story=517305249&amp;t=progseg&amp;e=517305173&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 26, 2017 - The east coast saw record-breaking high temperatures this past week. Meteorologist Bob Henson talks with NPR's Lulu Garcia-Navarro about what's behind the early spring weather.
-
-<a href="http://www.npr.org/2017/02/26/517305249/why-its-been-so-warm-on-the-east-coast">http://www.npr.org/2017/02/26/517305249/why-its-been-so-warm-on-the-east-coast</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>195</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=322&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Dentists Work To Ease Patients&#39; Pain With Fewer Opioids</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</link>
-      <description>February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient&#39;s pain. Now they&#39;re learning to counsel patients about better, less addictive alternatives.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=322&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s800-c15.jpg"></a>
-
-February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient's pain. Now they're learning to counsel patients about better, less addictive alternatives.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids">http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>322</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_sizzling_sound_of_meteors.mp3?orgId=1&amp;topicId=1007&amp;d=197&amp;p=7&amp;story=517181421&amp;t=progseg&amp;e=517181302&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Explaining The Sizzling Sound Of Meteors</title>
-      <link>http://www.npr.org/2017/02/25/517181421/explaining-the-sizzling-sound-of-meteors</link>
-      <description>February 25, 2017 - Scientists recently published a paper explaining why some meteors create strange sounds. NPR&#39;s Scott Simon talks with researcher Bill Sweatt about what creates this &#34;sizzling&#34; sound.</description>
-      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_sizzling_sound_of_meteors.mp3?orgId=1&amp;topicId=1007&amp;d=197&amp;p=7&amp;story=517181421&amp;t=progseg&amp;e=517181302&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 25, 2017 - Scientists recently published a paper explaining why some meteors create strange sounds. NPR's Scott Simon talks with researcher Bill Sweatt about what creates this "sizzling" sound.
-
-<a href="http://www.npr.org/2017/02/25/517181421/explaining-the-sizzling-sound-of-meteors">http://www.npr.org/2017/02/25/517181421/explaining-the-sizzling-sound-of-meteors</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>197</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_a_taste_for_pork_helped_a_deadly_virus_jump_to_humans.mp3?orgId=1&amp;topicId=1031&amp;aggIds=128851279,512014971&amp;d=448&amp;p=7&amp;story=515258818&amp;t=progseg&amp;e=517181302&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
-      <title>A Taste For Pork Helped A Deadly Virus Jump To Humans</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans</link>
-      <description>February 25, 2017 - People were dropping dead in Malaysia, and no one could figure out why their brains were swelling. A young scientist solved the mystery. Then he had to get people to believe him.</description>
-      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/02/20170225_wesat_a_taste_for_pork_helped_a_deadly_virus_jump_to_humans.mp3?orgId=1&amp;topicId=1031&amp;aggIds=128851279,512014971&amp;d=448&amp;p=7&amp;story=515258818&amp;t=progseg&amp;e=517181302&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/23/ap_99032201486_wide-0e80be0860f50b8c7884f8d1150e0dc1a4be5246-s800-c15.jpg"></a>
-
-February 25, 2017 - People were dropping dead in Malaysia, and no one could figure out why their brains were swelling. A young scientist solved the mystery. Then he had to get people to believe him.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans">http://www.npr.org/sections/goatsandsoda/2017/02/25/515258818/a-taste-for-pork-helped-a-deadly-virus-jump-to-humans</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/ap_99032201486_wide-0e80be0860f50b8c7884f8d1150e0dc1a4be5246-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>448</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

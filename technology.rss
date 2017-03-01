@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2017 20:18:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2017 20:04:16 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Tue, 28 Feb 2017 20:18:35 +0000</pubDate>
+    <pubDate>Wed, 01 Mar 2017 20:04:16 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -24,11 +24,87 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</guid>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</guid>
+      <title>After Video Of Dispute With Driver, Uber CEO Says He Needs To &#39;Grow Up&#39;</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</link>
+      <description>March 1, 2017 - Travis Kalanick apologized Tuesday for his actions in a video posted this week, in which Kalanick had a heated argument with an Uber driver after the driver raised complaints about pay.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/gettyimages-461766240_wide-9059dc1d4a247ee25ff130cbc950716834bd0509-s800-c15.jpg"></a>
+
+March 1, 2017 - Travis Kalanick apologized Tuesday for his actions in a video posted this week, in which Kalanick had a heated argument with an Uber driver after the driver raised complaints about pay.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up">http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/gettyimages-461766240_wide-9059dc1d4a247ee25ff130cbc950716834bd0509-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps</guid>
+      <title>Amazon Cloud Outage Disrupts Traffic For Websites, Apps</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps</link>
+      <description>March 1, 2017 - The cloud-computing service went down around midday on Tuesday, and Amazon said the issue was resolved just after 5 p.m. ET. Thousands of companies were affected by the outage.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/gettyimages-515553214_wide-2b57e712b9b218a5a07627e100a2873bb93a5711-s800-c15.jpg"></a>
+
+March 1, 2017 - The cloud-computing service went down around midday on Tuesday, and Amazon said the issue was resolved just after 5 p.m. ET. Thousands of companies were affected by the outage.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps">http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/gettyimages-515553214_wide-2b57e712b9b218a5a07627e100a2873bb93a5711-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities</guid>
+      <title>Lawsuit Alleges That PayPal Diverted Donations To Different Charities</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities</link>
+      <description>February 28, 2017 - The PayPal Giving Fund says it allows donors to give to a charity of their choice. A class action lawsuit claims the company would, with no notification, redirect funds to different organizations.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/gettyimages-454754269_wide-75c2edfd939019cb5acb08a543d3ec38954ed5f2-s800-c15.jpg"></a>
+
+February 28, 2017 - The PayPal Giving Fund says it allows donors to give to a charity of their choice. A class action lawsuit claims the company would, with no notification, redirect funds to different organizations.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities">http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/gettyimages-454754269_wide-75c2edfd939019cb5acb08a543d3ec38954ed5f2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_hmd_global_plans_to_bring_back_nokia_3310_cell_phone.mp3?orgId=1&amp;topicId=1019&amp;d=126&amp;p=2&amp;story=517779794&amp;t=progseg&amp;e=517670891&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>HMD Global Plans To Bring Back Nokia 3310 Cell Phone</title>
+      <link>http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone</link>
+      <description>February 28, 2017 - HMD Global will be relaunching the Nokia 3310, the iconic phone that originally came out in 2000 and became one of the best-selling mobile phones ever.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_hmd_global_plans_to_bring_back_nokia_3310_cell_phone.mp3?orgId=1&amp;topicId=1019&amp;d=126&amp;p=2&amp;story=517779794&amp;t=progseg&amp;e=517670891&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 28, 2017 - HMD Global will be relaunching the Nokia 3310, the iconic phone that originally came out in 2000 and became one of the best-selling mobile phones ever.
+
+<a href="http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone">http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>126</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_ford_replaces_cd_player_with_streaming_music_in_new_vehicle.mp3?orgId=1&amp;topicId=1006&amp;d=186&amp;p=2&amp;story=517779766&amp;t=progseg&amp;e=517670891&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Ford Replaces CD Player With Streaming Music In New Vehicle</title>
+      <link>http://www.npr.org/2017/02/28/517779766/ford-replaces-cd-player-with-streaming-music-in-new-vehicle</link>
+      <description>February 28, 2017 - For the first time in 25 years, Ford Motor Company is offering a vehicle without a CD player. The company will replace the CD player with streaming audio and video.</description>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_ford_replaces_cd_player_with_streaming_music_in_new_vehicle.mp3?orgId=1&amp;topicId=1006&amp;d=186&amp;p=2&amp;story=517779766&amp;t=progseg&amp;e=517670891&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[February 28, 2017 - For the first time in 25 years, Ford Motor Company is offering a vehicle without a CD player. The company will replace the CD player with streaming audio and video.
+
+<a href="http://www.npr.org/2017/02/28/517779766/ford-replaces-cd-player-with-streaming-music-in-new-vehicle">http://www.npr.org/2017/02/28/517779766/ford-replaces-cd-player-with-streaming-music-in-new-vehicle</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>186</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_may_weigh_in_on_h-1b_visas_but_major_reform_depends_on_congress.mp3?orgId=1&amp;topicId=1019&amp;d=233&amp;p=2&amp;story=517496648&amp;t=progseg&amp;e=517670891&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
       <title>Trump May Weigh In On H-1B Visas, But Major Reform Depends On Congress</title>
       <link>http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</link>
       <description>February 28, 2017 - President Trump has said he wants to crack down on abuses and protect American workers. But it&#39;s Congress that holds the power to fundamentally reform the program, and work there is underway.</description>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_may_weigh_in_on_h-1b_visas_but_major_reform_depends_on_congress.mp3?orgId=1&amp;topicId=1019&amp;d=233&amp;p=2&amp;story=517496648&amp;t=progseg&amp;e=517670891&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/ap_16343710265256_wide-4cadf77a8968cc469b5b478ebd5b1408fa77cf1a-s800-c15.jpg"></a>
 
@@ -36,6 +112,7 @@ February 28, 2017 - President Trump has said he wants to crack down on abuses an
 
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress">http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/28/ap_16343710265256_wide-4cadf77a8968cc469b5b478ebd5b1408fa77cf1a-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>233</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -175,85 +252,6 @@ February 24, 2017 - The Obama administration began checking social media account
 <a href="http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media">http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-85595140_wide-ff5809255a3382fc828bb5cfd365fd2aed29ba11-s3000-c15.jpg"></itunes:image>
       <itunes:duration>246</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des</guid>
-      <title>Google Spinoff Sues Uber, Saying Leader Of Autonomous Vehicle Unit Stole Key Designs</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des</link>
-      <description>February 24, 2017 - Waymo, the company that began as Google&#39;s self-driving-car project, says a former manager &#34;took extraordinary efforts to raid Waymo&#39;s design server and then conceal his activities.&#34;</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-605519778_wide-216f40071ee93e981e7b614a7f15f5aa177de50d-s800-c15.jpg"></a>
-
-February 24, 2017 - Waymo, the company that began as Google's self-driving-car project, says a former manager "took extraordinary efforts to raid Waymo's design server and then conceal his activities."
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des">http://www.npr.org/sections/thetwo-way/2017/02/24/517027719/google-spin-off-sues-uber-saying-leader-of-autonomous-vehicle-unit-stole-key-des</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-605519778_wide-216f40071ee93e981e7b614a7f15f5aa177de50d-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_04.mp3?orgId=1&amp;topicId=1013&amp;d=422&amp;p=57&amp;story=516726045&amp;t=progseg&amp;e=514152888&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Liz Coleman: How Do We Teach College Students To Ask Big Questions?</title>
-      <link>http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</link>
-      <description>February 24, 2017 - Former Bennington College President Liz Coleman believes higher education is overly-specialized &amp; complacent. She says we need to encourage students to ask bigger questions and take more risks.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_04.mp3?orgId=1&amp;topicId=1013&amp;d=422&amp;p=57&amp;story=516726045&amp;t=progseg&amp;e=514152888&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s800-c15.jpg"></a>
-
-February 24, 2017 - Former Bennington College President Liz Coleman believes higher education is overly-specialized & complacent. She says we need to encourage students to ask bigger questions and take more risks.
-
-<a href="http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions">http://www.npr.org/2017/02/24/516726045/liz-coleman-how-do-we-teach-college-students-to-ask-big-questions</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/lizcoleman_2009-embed_wide-9dd77aaa6b8af84db18959ff887641352484d420-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>422</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Kevin Jones: Can Embracing Uncertainty Lead To Better Medicine?</title>
-      <link>http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</link>
-      <description>February 24, 2017 - Sometimes, doctors just don&#39;t have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/ted/2017/02/20170224_ted_03.mp3?orgId=1&amp;topicId=1008&amp;d=627&amp;p=57&amp;story=516710048&amp;t=progseg&amp;e=514152888&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s800-c15.jpg"></a>
-
-February 24, 2017 - Sometimes, doctors just don't have the answers. Surgeon Kevin Jones says having the humility to acknowledge this leads to better medicine.
-
-<a href="http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine">http://www.npr.org/2017/02/24/516710048/kevin-jones-can-embracing-uncertainty-lead-to-better-medicine</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/kevinjones_2015x-embed_wide-0f36bbd2ee3e188020568584cf9ea4033d092c2f-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>627</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world</guid>
-      <title>The Struggles Of Austin&#39;s Music Scene Mirror A Widened World</title>
-      <link>http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world</link>
-      <description>February 24, 2017 - As the face of Austin&#39;s music office prepares to depart, the city&#39;s problems and successes may offer a lesson for the world at large about globalization and technology.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/23/gettyimages-538805311_wide-2db2445f5858f0073ada9bd67978c0c6cb526d71-s800-c15.jpg"></a>
-
-February 24, 2017 - As the face of Austin's music office prepares to depart, the city's problems and successes may offer a lesson for the world at large about globalization and technology.
-
-<a href="http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world">http://www.npr.org/sections/therecord/2017/02/24/516904340/the-struggles-of-austins-music-scene-mirror-a-widened-world</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/gettyimages-538805311_wide-2db2445f5858f0073ada9bd67978c0c6cb526d71-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</guid>
-      <title>Reading The Game: Shadow Of Mordor</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</link>
-      <description>February 24, 2017 - As part of our occasional series on storytelling in video games, we&#39;re looking at a game where the story fails: Shadow of Mordor, which won awards for its gameplay, but lacks a compelling narrative.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/22/mordor-03_wide-92b3626fbc277bd4dc2c3afe8b7da884a9042ef9-s800-c15.jpg"></a>
-
-February 24, 2017 - As part of our occasional series on storytelling in video games, we're looking at a game where the story fails: Shadow of Mordor, which won awards for its gameplay, but lacks a compelling narrative.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor">http://www.npr.org/sections/alltechconsidered/2017/02/24/515685000/reading-the-game-shadow-of-mordor</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/mordor-03_wide-92b3626fbc277bd4dc2c3afe8b7da884a9042ef9-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
