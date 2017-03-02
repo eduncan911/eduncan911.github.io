@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 14:52:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 15:41:59 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Thu, 02 Mar 2017 14:52:05 +0000</pubDate>
+    <pubDate>Thu, 02 Mar 2017 15:41:59 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,21 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</guid>
+      <title>Parent Alert! Your Child Just Skipped Class</title>
+      <link>http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</link>
+      <description>March 2, 2017 - In a study, automated text messages to parents reduced absences and the number of F&#39;s earned by high school students.&#xA;&#xA; - http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/text-helper_wide-91b4d28a539ee310b203059319cb6ab027edcbf5-s800-c15.jpg"></a>
+
+March 2, 2017 - In a study, automated text messages to parents reduced absences and the number of F's earned by high school students.
+
+<a href="http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class">http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/text-helper_wide-91b4d28a539ee310b203059319cb6ab027edcbf5-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</guid>
       <title>Someday Disposable Drones May Deliver A Payload, Then Vanish </title>
@@ -233,23 +248,6 @@ February 27, 2017 - Teens should be included in efforts to mitigate their online
 
 <a href="http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk">http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_how_the_media_are_using_encryption_tools_to_collect_anonymous_tips.mp3?orgId=1&amp;topicId=1019&amp;d=241&amp;p=3&amp;story=517037537&amp;t=progseg&amp;e=517438977&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>How The Media Are Using Encryption Tools To Collect Anonymous Tips</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</link>
-      <description>February 27, 2017 - Technology has made for more ways to leak scoops to the press than ever before. And newsrooms across the country are taking advantage of that.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_how_the_media_are_using_encryption_tools_to_collect_anonymous_tips.mp3?orgId=1&amp;topicId=1019&amp;d=241&amp;p=3&amp;story=517037537&amp;t=progseg&amp;e=517438977&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-8886a561c391804520fbbc1db7378d4c11d073f2-s800-c15.jpg"></a>
-
-February 27, 2017 - Technology has made for more ways to leak scoops to the press than ever before. And newsrooms across the country are taking advantage of that.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips">http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-8886a561c391804520fbbc1db7378d4c11d073f2-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>241</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
