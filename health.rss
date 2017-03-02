@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2017 20:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 14:52:09 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 01 Mar 2017 20:04:21 +0000</pubDate>
+    <pubDate>Thu, 02 Mar 2017 14:52:09 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -23,6 +23,147 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Embryo Experiments Reveal Earliest Human Development, But Stir Ethical Debate</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</link>
+      <description>March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s800-c15.jpg"></a>
+
+March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate">http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>395</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</guid>
+      <title>Birth Control Is Working Better – Or At Least, It&#39;s Failing Less</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</link>
+      <description>March 1, 2017 - Failure rates for the most common forms of contraception are down, but it&#39;s not entirely clear whether it&#39;s due to education, availability, or other reasons.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s800-c15.jpg"></a>
+
+March 1, 2017 - Failure rates for the most common forms of contraception are down, but it's not entirely clear whether it's due to education, availability, or other reasons.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less">http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</guid>
+      <title>This Tiny Patch Of Mold Cost One Lucky Buyer Nearly $15,000</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</link>
+      <description>March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a &#34;holy relic&#34;: some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s800-c15.jpg"></a>
+
+March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a "holy relic": some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000">http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_youth_radio_texas_abortion.mp3?orgId=1&amp;topicId=1014&amp;aggIds=4692815&amp;d=341&amp;p=2&amp;story=517988090&amp;t=progseg&amp;e=517895528&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>At Texas Clinic, 2 Women Explain What Changed Their Minds On Abortion</title>
+      <link>http://www.npr.org/2017/03/01/517988090/at-texas-clinic-2-women-explain-what-changed-their-minds-on-abortion</link>
+      <description>March 1, 2017 - Since the election of Donald Trump, the abortion debate has been ramping up. At one clinic in Texas, two women on opposite sides recently changed their minds about how they view abortion.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_youth_radio_texas_abortion.mp3?orgId=1&amp;topicId=1014&amp;aggIds=4692815&amp;d=341&amp;p=2&amp;story=517988090&amp;t=progseg&amp;e=517895528&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/20170121-img_5617_wide-ff04b5b6e3421ea43e5b02c0e8c6180555d346a4-s800-c15.jpg"></a>
+
+March 1, 2017 - Since the election of Donald Trump, the abortion debate has been ramping up. At one clinic in Texas, two women on opposite sides recently changed their minds about how they view abortion.
+
+<a href="http://www.npr.org/2017/03/01/517988090/at-texas-clinic-2-women-explain-what-changed-their-minds-on-abortion">http://www.npr.org/2017/03/01/517988090/at-texas-clinic-2-women-explain-what-changed-their-minds-on-abortion</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/20170121-img_5617_wide-ff04b5b6e3421ea43e5b02c0e8c6180555d346a4-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>341</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</guid>
+      <title>Michigan Ends Water Subsidies To Flint Despite Mayor&#39;s Opposition</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</link>
+      <description>March 1, 2017 - The city&#39;s crisis over lead-laced water dates back to 2014, and the state has paid more than $40 million in credits for the unsafe water in an effort to ease the burden for residents.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17024661727821_wide-9d1c5469597d2bf88ce4b8a74b2f443fee2c5f35-s800-c15.jpg"></a>
+
+March 1, 2017 - The city's crisis over lead-laced water dates back to 2014, and the state has paid more than $40 million in credits for the unsafe water in an effort to ease the burden for residents.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition">http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17024661727821_wide-9d1c5469597d2bf88ce4b8a74b2f443fee2c5f35-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_targeting_the_immune_system_may_help_stop_the_itch_of_eczema_.mp3?orgId=1&amp;topicId=1128&amp;d=183&amp;p=2&amp;story=517933633&amp;t=progseg&amp;e=517895528&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Targeting The Immune System May Help Stop The Itch Of Eczema </title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/01/517933633/targeting-the-immune-system-may-help-stop-the-itch-of-eczema</link>
+      <description>March 1, 2017 - About 35 million people have eczema, a skin disease that includes itchy patches of inflamed dry skin. About 10 percent of cases are moderate to severe and may be helped with a new treatment.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_targeting_the_immune_system_may_help_stop_the_itch_of_eczema_.mp3?orgId=1&amp;topicId=1128&amp;d=183&amp;p=2&amp;story=517933633&amp;t=progseg&amp;e=517895528&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/scratching_wide-d826ec3b8495a4486f96da1998c243bd153cb131-s800-c15.jpg"></a>
+
+March 1, 2017 - About 35 million people have eczema, a skin disease that includes itchy patches of inflamed dry skin. About 10 percent of cases are moderate to severe and may be helped with a new treatment.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/01/517933633/targeting-the-immune-system-may-help-stop-the-itch-of-eczema">http://www.npr.org/sections/health-shots/2017/03/01/517933633/targeting-the-immune-system-may-help-stop-the-itch-of-eczema</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/scratching_wide-d826ec3b8495a4486f96da1998c243bd153cb131-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>183</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_trump_outlines_plan_for_health_care_in_address_to_congress.mp3?orgId=1&amp;topicId=1128&amp;d=226&amp;p=2&amp;story=517988149&amp;t=progseg&amp;e=517895528&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Trump Outlines Plan For Health Care In Address To Congress</title>
+      <link>http://www.npr.org/2017/03/01/517988149/trump-outlines-plan-for-health-care-in-address-to-congress</link>
+      <description>March 1, 2017 - In his first address to a joint session of Congress, President Trump outlined his plan to repeal and replace the Affordable Care Act, which has long been a rallying cry for the Republican Party. But how realistic is it? NPR takes a closer look at the president&#39;s proposal to overhaul the health care system.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_trump_outlines_plan_for_health_care_in_address_to_congress.mp3?orgId=1&amp;topicId=1128&amp;d=226&amp;p=2&amp;story=517988149&amp;t=progseg&amp;e=517895528&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 1, 2017 - In his first address to a joint session of Congress, President Trump outlined his plan to repeal and replace the Affordable Care Act, which has long been a rallying cry for the Republican Party. But how realistic is it? NPR takes a closer look at the president's proposal to overhaul the health care system.
+
+<a href="http://www.npr.org/2017/03/01/517988149/trump-outlines-plan-for-health-care-in-address-to-congress">http://www.npr.org/2017/03/01/517988149/trump-outlines-plan-for-health-care-in-address-to-congress</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>226</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_despite_continued_water_safety_fears_michigan_ends_subsidies_for_flint.mp3?orgId=1&amp;topicId=1091&amp;d=157&amp;p=2&amp;story=517988171&amp;t=progseg&amp;e=517895528&amp;seg=20&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Despite Continued Water Safety Fears, Michigan Ends Subsidies For Flint</title>
+      <link>http://www.npr.org/2017/03/01/517988171/despite-continued-water-safety-fears-michigan-ends-subsidies-for-flint</link>
+      <description>March 1, 2017 - The state of Michigan is ending subsidies for water costs for Flint residents. The state says the water is now safe to drink after an ongoing water crisis. But the mayor and many residents disagree.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_despite_continued_water_safety_fears_michigan_ends_subsidies_for_flint.mp3?orgId=1&amp;topicId=1091&amp;d=157&amp;p=2&amp;story=517988171&amp;t=progseg&amp;e=517895528&amp;seg=20&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 1, 2017 - The state of Michigan is ending subsidies for water costs for Flint residents. The state says the water is now safe to drink after an ongoing water crisis. But the mayor and many residents disagree.
+
+<a href="http://www.npr.org/2017/03/01/517988171/despite-continued-water-safety-fears-michigan-ends-subsidies-for-flint">http://www.npr.org/2017/03/01/517988171/despite-continued-water-safety-fears-michigan-ends-subsidies-for-flint</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>157</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_kentucky_residents_fear_consequences_of_obamacare_repeal.mp3?orgId=1&amp;topicId=1091&amp;d=147&amp;p=2&amp;story=517988156&amp;t=progseg&amp;e=517895528&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Kentucky Residents Fear Consequences Of Obamacare Repeal</title>
+      <link>http://www.npr.org/2017/03/01/517988156/kentucky-residents-fear-consequences-of-obamacare-repeal</link>
+      <description>March 1, 2017 - Kentucky was one of the states that embraced the Affordable Care Act. Residents talk about their experiences with the law and how a potential repeal might affect them.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_kentucky_residents_fear_consequences_of_obamacare_repeal.mp3?orgId=1&amp;topicId=1091&amp;d=147&amp;p=2&amp;story=517988156&amp;t=progseg&amp;e=517895528&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 1, 2017 - Kentucky was one of the states that embraced the Affordable Care Act. Residents talk about their experiences with the law and how a potential repeal might affect them.
+
+<a href="http://www.npr.org/2017/03/01/517988156/kentucky-residents-fear-consequences-of-obamacare-repeal">http://www.npr.org/2017/03/01/517988156/kentucky-residents-fear-consequences-of-obamacare-repeal</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>147</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/goatsandsoda/2017/03/01/515822228/a-husband-loses-his-best-friend-salome-karwah-ebola-hero</guid>
       <title>A Husband Loses His &#39;Best Friend&#39; — Salome Karwah, Ebola Hero</title>
@@ -111,147 +252,6 @@ February 28, 2017 - A key part of GOP plans to reform health care may include ma
 <a href="http://www.npr.org/2017/02/28/517706249/river-on-fire-explores-genius-madness-and-the-poetry-of-robert-lowell">http://www.npr.org/2017/02/28/517706249/river-on-fire-explores-genius-madness-and-the-poetry-of-robert-lowell</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>1761</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</guid>
-      <title>Why Are More Young Americans Getting Colon Cancer? </title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</link>
-      <description>February 28, 2017 - Data suggests that the rate of colon cancer among people under 50 is on the rise, but there are lots of possible explanations for that. Scientists say teasing out the truth will be tricky.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/27/colon-cancer_wide-8b822a5344655ed24ff9381ccc014eb3a85567d0-s800-c15.jpg"></a>
-
-February 28, 2017 - Data suggests that the rate of colon cancer among people under 50 is on the rise, but there are lots of possible explanations for that. Scientists say teasing out the truth will be tricky.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer">http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/colon-cancer_wide-8b822a5344655ed24ff9381ccc014eb3a85567d0-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/02/28/517529348/whos-first-ever-list-of-the-dirty-dozen-superbugs</guid>
-      <title>WHO&#39;s First-Ever List Of The Dirty Dozen Superbugs</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/02/28/517529348/whos-first-ever-list-of-the-dirty-dozen-superbugs</link>
-      <description>February 28, 2017 - For the first time, the World Health Organization has released a list of 12 bacteria that &#34;pose the greatest threat to human health&#34; because of their antibiotic resistance.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/27/16221300454_5170edc26b_o_wide-8873484c91c1c3305f3c7aab35562a82dd421c74-s800-c15.jpg"></a>
-
-February 28, 2017 - For the first time, the World Health Organization has released a list of 12 bacteria that "pose the greatest threat to human health" because of their antibiotic resistance.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/02/28/517529348/whos-first-ever-list-of-the-dirty-dozen-superbugs">http://www.npr.org/sections/goatsandsoda/2017/02/28/517529348/whos-first-ever-list-of-the-dirty-dozen-superbugs</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/16221300454_5170edc26b_o_wide-8873484c91c1c3305f3c7aab35562a82dd421c74-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_this_ceos_small_insurance_firm_mostly_turned_a_profit_under_obamacare_heres_how.mp3?orgId=150&amp;topicId=1128&amp;d=246&amp;p=3&amp;story=516495579&amp;t=progseg&amp;e=517670891&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
-      <title>This CEO&#39;s Small Insurance Firm Mostly Turned A Profit Under Obamacare. Here&#39;s How</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/28/516495579/this-ceos-small-insurance-firm-mostly-turned-a-profit-under-obamacare-heres-how</link>
-      <description>February 28, 2017 - The health law just needs a tuneup, says the CEO of Molina Healthcare, which operates in 12 states and Puerto Rico. The California-based insurer has seen profits, while Humana and Aetna struggled.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_this_ceos_small_insurance_firm_mostly_turned_a_profit_under_obamacare_heres_how.mp3?orgId=150&amp;topicId=1128&amp;d=246&amp;p=3&amp;story=516495579&amp;t=progseg&amp;e=517670891&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/23/david-molina-reviewing-medical-records12_wide-0bae6657be6e4aa51c4cbfad324ed6420d169bc7-s800-c15.jpg"></a>
-
-February 28, 2017 - The health law just needs a tuneup, says the CEO of Molina Healthcare, which operates in 12 states and Puerto Rico. The California-based insurer has seen profits, while Humana and Aetna struggled.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/28/516495579/this-ceos-small-insurance-firm-mostly-turned-a-profit-under-obamacare-heres-how">http://www.npr.org/sections/health-shots/2017/02/28/516495579/this-ceos-small-insurance-firm-mostly-turned-a-profit-under-obamacare-heres-how</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/23/david-molina-reviewing-medical-records12_wide-0bae6657be6e4aa51c4cbfad324ed6420d169bc7-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>246</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</guid>
-      <title>To Keep Teens Safe Online, They Need To Learn To Manage Risk</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</link>
-      <description>February 27, 2017 - Teens should be included in efforts to mitigate their online risks, researchers say, but apps focus more on parents controlling access by monitoring and blocking sites.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s800-c15.jpg"></a>
-
-February 27, 2017 - Teens should be included in efforts to mitigate their online risks, researchers say, but apps focus more on parents controlling access by monitoring and blocking sites.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk">http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</guid>
-      <title>Your Name Might Shape Your Face, Researchers Say</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</link>
-      <description>February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s800-c15.jpg"></a>
-
-February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say">http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_models_are_still_pressured_to_be_ultra-thin_survey_says.mp3?orgId=1&amp;topicId=1134&amp;d=125&amp;p=3&amp;story=517458922&amp;t=progseg&amp;e=517438977&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Models Are Still Pressured To Be Ultra-Thin, Survey Says</title>
-      <link>http://www.npr.org/2017/02/27/517458922/models-are-still-pressured-to-be-ultra-thin-survey-says</link>
-      <description>February 27, 2017 - A majority of models say they&#39;re threatened with job loss if they don&#39;t shed pounds. Researchers worry this contributes to poor body image and might increase eating disorders among teenage girls.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_models_are_still_pressured_to_be_ultra-thin_survey_says.mp3?orgId=1&amp;topicId=1134&amp;d=125&amp;p=3&amp;story=517458922&amp;t=progseg&amp;e=517438977&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 27, 2017 - A majority of models say they're threatened with job loss if they don't shed pounds. Researchers worry this contributes to poor body image and might increase eating disorders among teenage girls.
-
-<a href="http://www.npr.org/2017/02/27/517458922/models-are-still-pressured-to-be-ultra-thin-survey-says">http://www.npr.org/2017/02/27/517458922/models-are-still-pressured-to-be-ultra-thin-survey-says</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>125</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>A Medicine That Blunts The Buzz Of Alcohol Can Help Drinkers Cut Back</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</link>
-      <description>February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don&#39;t know that when combined with counseling it can help people resist the urge to drink too much.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s800-c15.jpg"></a>
-
-February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don't know that when combined with counseling it can help people resist the urge to drink too much.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back">http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>258</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_the_call-in_opiods.mp3?orgId=1&amp;topicId=1003&amp;d=531&amp;p=10&amp;story=517305305&amp;t=progseg&amp;e=517305173&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The Call-In: The Opioid Epidemic And How Opioids Have Affected Your Lives</title>
-      <link>http://www.npr.org/2017/02/26/517305305/the-call-in-the-opioid-epidemic-and-how-opioids-have-affected-your-lives</link>
-      <description>February 26, 2017 - The opioid epidemic is growing. Lulu Garcia-Navarro speaks with Jim Barnum, whose brother died after an opioid addiction and Chuck Rosenberg, acting administrator of the DEA.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_the_call-in_opiods.mp3?orgId=1&amp;topicId=1003&amp;d=531&amp;p=10&amp;story=517305305&amp;t=progseg&amp;e=517305173&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 26, 2017 - The opioid epidemic is growing. Lulu Garcia-Navarro speaks with Jim Barnum, whose brother died after an opioid addiction and Chuck Rosenberg, acting administrator of the DEA.
-
-<a href="http://www.npr.org/2017/02/26/517305305/the-call-in-the-opioid-epidemic-and-how-opioids-have-affected-your-lives">http://www.npr.org/2017/02/26/517305305/the-call-in-the-opioid-epidemic-and-how-opioids-have-affected-your-lives</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>531</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=322&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Dentists Work To Ease Patients&#39; Pain With Fewer Opioids</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</link>
-      <description>February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient&#39;s pain. Now they&#39;re learning to counsel patients about better, less addictive alternatives.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_dentists_work_to_ease_patients_pain_with_fewer_opioids.mp3?orgId=432&amp;topicId=1128&amp;d=322&amp;p=10&amp;story=513865623&amp;t=progseg&amp;e=517305173&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s800-c15.jpg"></a>
-
-February 26, 2017 - After minor surgeries, many dentists used to reflexively prescribe quick-acting opioids to relieve a patient's pain. Now they're learning to counsel patients about better, less addictive alternatives.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids">http://www.npr.org/sections/health-shots/2017/02/26/513865623/dentists-work-to-ease-patients-pain-with-fewer-opioids</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/dentists_wide-02ff0bc99619da886c2ecacdcffc7a88d90c35fb-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>322</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

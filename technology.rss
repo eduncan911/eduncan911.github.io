@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2017 20:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 14:52:05 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 01 Mar 2017 20:04:16 +0000</pubDate>
+    <pubDate>Thu, 02 Mar 2017 14:52:05 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,51 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</guid>
+      <title>Someday Disposable Drones May Deliver A Payload, Then Vanish </title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</link>
+      <description>March 2, 2017 - DARPA, the Pentagon&#39;s R&amp;D agency, is working with partners to develop low-cost gliders that travel about 100 miles and disappear within hours. The vehicles could have humanitarian and military uses.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/otherlab-drone_wide-e755fddc137fa72ef3edc98297ca2f8c2f0c22fe-s800-c15.jpg"></a>
+
+March 2, 2017 - DARPA, the Pentagon's R&D agency, is working with partners to develop low-cost gliders that travel about 100 miles and disappear within hours. The vehicles could have humanitarian and military uses.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish">http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/otherlab-drone_wide-e755fddc137fa72ef3edc98297ca2f8c2f0c22fe-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</guid>
+      <title>Snapchat Parent To Begin Trading On The New York Stock Exchange Thursday</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</link>
+      <description>March 2, 2017 - Snap Inc., the company behind the popular disappearing-message app Snapchat, has priced its initial public offering of 200 million nonvoting shares at $17 each.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_17060817295571_wide-b4325a1c5053688e4a4ec43849b33713af7e5b13-s800-c15.jpg"></a>
+
+March 2, 2017 - Snap Inc., the company behind the popular disappearing-message app Snapchat, has priced its initial public offering of 200 million nonvoting shares at $17 each.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday">http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_17060817295571_wide-b4325a1c5053688e4a4ec43849b33713af7e5b13-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_uber_ceo_apologizes_over_video_of_dispute_with_driver.mp3?orgId=1&amp;topicId=1019&amp;d=188&amp;p=2&amp;story=517988142&amp;t=progseg&amp;e=517895528&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Uber CEO Apologizes Over Video Of Dispute With Driver</title>
+      <link>http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver</link>
+      <description>March 1, 2017 - Uber&#39;s founder Travis Kalanick says he needs leadership help. The frank acknowledgement comes after video surfaced of him berating an Uber driver, and follows a blistering blog post by a  former engineer who said she was subjected to repeated sexual harassment and the company failed to stop it. The question many are asking now is whether Kalanick can continue to serve as the public face of the company he created.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_uber_ceo_apologizes_over_video_of_dispute_with_driver.mp3?orgId=1&amp;topicId=1019&amp;d=188&amp;p=2&amp;story=517988142&amp;t=progseg&amp;e=517895528&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 1, 2017 - Uber's founder Travis Kalanick says he needs leadership help. The frank acknowledgement comes after video surfaced of him berating an Uber driver, and follows a blistering blog post by a  former engineer who said she was subjected to repeated sexual harassment and the company failed to stop it. The question many are asking now is whether Kalanick can continue to serve as the public face of the company he created.
+
+<a href="http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver">http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>188</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</guid>
       <title>After Video Of Dispute With Driver, Uber CEO Says He Needs To &#39;Grow Up&#39;</title>
@@ -205,53 +250,6 @@ February 27, 2017 - Technology has made for more ways to leak scoops to the pres
 <a href="http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips">http://www.npr.org/sections/alltechconsidered/2017/02/27/517037537/how-the-media-are-using-encryption-tools-to-collect-anonymous-tips</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-513568270_wide-8886a561c391804520fbbc1db7378d4c11d073f2-s3000-c15.jpg"></itunes:image>
       <itunes:duration>241</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</guid>
-      <title>The Early 2000s Are Calling: New Nokia 3310 Phones Revealed</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</link>
-      <description>February 26, 2017 - We reported earlier this month on rumors that the Internet&#39;s favorite indestructible brick of a phone would be returning to shelves. Now it&#39;s official. The not-so-smartphone will cost about $50.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/26/nokia_3310_range_wide-9831de24a2261dc47f9fb40bf9be7ec691a0ddc1-s800-c15.jpg"></a>
-
-February 26, 2017 - We reported earlier this month on rumors that the Internet's favorite indestructible brick of a phone would be returning to shelves. Now it's official. The not-so-smartphone will cost about $50.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed">http://www.npr.org/sections/thetwo-way/2017/02/26/517377642/the-early-2000s-are-calling-new-nokia-3310-phones-revealed</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/26/nokia_3310_range_wide-9831de24a2261dc47f9fb40bf9be7ec691a0ddc1-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</guid>
-      <title>FCC Chairman Goes After His Predecessor&#39;s Internet Privacy Rules</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</link>
-      <description>February 24, 2017 - The new telecom chief is moving to halt one part of the sweeping rules for Internet service providers, which were passed last year in part based on &#34;net neutrality&#34; regulations.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/ap_638357301139_wide-4fe139ad9342bda1123b9310bcad20e4419e9cc8-s800-c15.jpg"></a>
-
-February 24, 2017 - The new telecom chief is moving to halt one part of the sweeping rules for Internet service providers, which were passed last year in part based on "net neutrality" regulations.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules">http://www.npr.org/sections/thetwo-way/2017/02/24/517050966/fcc-chairman-goes-after-his-predecessors-internet-privacy-rules</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/ap_638357301139_wide-4fe139ad9342bda1123b9310bcad20e4419e9cc8-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_trump_administration_weighs_increased_social_media_scrutiny_of_refugees_.mp3?orgId=1&amp;topicId=1003&amp;d=246&amp;p=2&amp;story=516867413&amp;t=progseg&amp;e=516997865&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Trump Administration Weighs Increased Scrutiny Of Refugees&#39; Social Media </title>
-      <link>http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media</link>
-      <description>February 24, 2017 - The Obama administration began checking social media accounts of prospective Syrian refugees more than a year ago. Such steps could expand as President Trump prepares a new executive order on vetting.</description>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170224_atc_trump_administration_weighs_increased_social_media_scrutiny_of_refugees_.mp3?orgId=1&amp;topicId=1003&amp;d=246&amp;p=2&amp;story=516867413&amp;t=progseg&amp;e=516997865&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/gettyimages-85595140_wide-ff5809255a3382fc828bb5cfd365fd2aed29ba11-s800-c15.jpg"></a>
-
-February 24, 2017 - The Obama administration began checking social media accounts of prospective Syrian refugees more than a year ago. Such steps could expand as President Trump prepares a new executive order on vetting.
-
-<a href="http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media">http://www.npr.org/sections/parallels/2017/02/24/516867413/trump-administration-weighs-increased-scrutiny-of-refugees-social-media</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/gettyimages-85595140_wide-ff5809255a3382fc828bb5cfd365fd2aed29ba11-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>246</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

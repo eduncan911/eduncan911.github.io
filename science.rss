@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2017 20:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 14:52:07 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Wed, 01 Mar 2017 20:04:18 +0000</pubDate>
+    <pubDate>Thu, 02 Mar 2017 14:52:07 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,130 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <title>New Research Looks At Ways To Help Stop Airbnb Racial Discrimination</title>
+      <link>http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination</link>
+      <description>March 2, 2017 - Airbnb has come under fire in the last year following reports that hosts are less likely to rent to African-Americans compared to whites. New research looked at ways to address the discrimination.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 2, 2017 - Airbnb has come under fire in the last year following reports that hosts are less likely to rent to African-Americans compared to whites. New research looked at ways to address the discrimination.
+
+<a href="http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination">http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>216</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Embryo Experiments Reveal Earliest Human Development, But Stir Ethical Debate</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</link>
+      <description>March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s800-c15.jpg"></a>
+
+March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate">http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>395</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</guid>
+      <title>Sierra Snowpack Smacks California&#39;s Drought</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</link>
+      <description>March 1, 2017 - Despite one of the wettest winters on record, California Gov. Jerry Brown hasn&#39;t declared the five-year drought over yet. But the water shortages may to be over.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17060770452021_wide-343d56d347454ba165a63aa264e83015f49eb718-s800-c15.jpg"></a>
+
+March 1, 2017 - Despite one of the wettest winters on record, California Gov. Jerry Brown hasn't declared the five-year drought over yet. But the water shortages may to be over.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought">http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17060770452021_wide-343d56d347454ba165a63aa264e83015f49eb718-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</guid>
+      <title>Birth Control Is Working Better – Or At Least, It&#39;s Failing Less</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</link>
+      <description>March 1, 2017 - Failure rates for the most common forms of contraception are down, but it&#39;s not entirely clear whether it&#39;s due to education, availability, or other reasons.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s800-c15.jpg"></a>
+
+March 1, 2017 - Failure rates for the most common forms of contraception are down, but it's not entirely clear whether it's due to education, availability, or other reasons.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less">http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</guid>
+      <title>This Tiny Patch Of Mold Cost One Lucky Buyer Nearly $15,000</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</link>
+      <description>March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a &#34;holy relic&#34;: some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s800-c15.jpg"></a>
+
+March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a "holy relic": some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000">http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_tiny_fossils_could_be_oldest_evidence_of_life_on_earth.mp3?orgId=1&amp;topicId=1007&amp;d=98&amp;p=3&amp;story=517915868&amp;t=progseg&amp;e=518087519&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Tiny Fossils Could Be Oldest Evidence Of Life On Earth</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517915868/tiny-fossils-could-be-oldest-evidence-of-life-on-earth</link>
+      <description>March 1, 2017 - Scientists say they&#39;ve found the remains of tube- and string-like organisms in Canadian rocks that are at least 3.7 billion years old. But findings like these are always controversial.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_tiny_fossils_could_be_oldest_evidence_of_life_on_earth.mp3?orgId=1&amp;topicId=1007&amp;d=98&amp;p=3&amp;story=517915868&amp;t=progseg&amp;e=518087519&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/image-2-iron_structures3.5_200x_wide-c36151e505707009c6ea3e7124a92a755155921e-s800-c15.jpg"></a>
+
+March 1, 2017 - Scientists say they've found the remains of tube- and string-like organisms in Canadian rocks that are at least 3.7 billion years old. But findings like these are always controversial.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517915868/tiny-fossils-could-be-oldest-evidence-of-life-on-earth">http://www.npr.org/sections/thetwo-way/2017/03/01/517915868/tiny-fossils-could-be-oldest-evidence-of-life-on-earth</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/image-2-iron_structures3.5_200x_wide-c36151e505707009c6ea3e7124a92a755155921e-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>98</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_warmer_temperatures_signal_early_start_to_spring_weather.mp3?orgId=1&amp;topicId=1025&amp;d=193&amp;p=2&amp;story=517988120&amp;t=progseg&amp;e=517895528&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Warmer Temperatures Signal Early Start To Spring Weather</title>
+      <link>http://www.npr.org/2017/03/01/517988120/warmer-temperatures-signal-early-start-to-spring-weather</link>
+      <description>March 1, 2017 - Spring arrived early this year across much of the U.S. NPR&#39;s Audie Cornish talks to Jake Weltzin of the U.S. Geological Survey to find out how we know.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_warmer_temperatures_signal_early_start_to_spring_weather.mp3?orgId=1&amp;topicId=1025&amp;d=193&amp;p=2&amp;story=517988120&amp;t=progseg&amp;e=517895528&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 1, 2017 - Spring arrived early this year across much of the U.S. NPR's Audie Cornish talks to Jake Weltzin of the U.S. Geological Survey to find out how we know.
+
+<a href="http://www.npr.org/2017/03/01/517988120/warmer-temperatures-signal-early-start-to-spring-weather">http://www.npr.org/2017/03/01/517988120/warmer-temperatures-signal-early-start-to-spring-weather</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>193</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_heavy_rainfall_strains_one_of_californias_most_essential_reservoirs.mp3?orgId=1&amp;topicId=1025&amp;d=220&amp;p=2&amp;story=517988113&amp;t=progseg&amp;e=517895528&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Heavy Rainfall Strains One Of California&#39;s Most Essential Reservoirs</title>
+      <link>http://www.npr.org/2017/03/01/517988113/heavy-rainfall-strains-one-of-californias-most-essential-reservoirs</link>
+      <description>March 1, 2017 - Snow surveyors are measuring the health of the snow pack in the high altitude Sierra Nevada. After years of drought, much of the state is now experiencing one of its wettest years on record.</description>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_heavy_rainfall_strains_one_of_californias_most_essential_reservoirs.mp3?orgId=1&amp;topicId=1025&amp;d=220&amp;p=2&amp;story=517988113&amp;t=progseg&amp;e=517895528&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 1, 2017 - Snow surveyors are measuring the health of the snow pack in the high altitude Sierra Nevada. After years of drought, much of the state is now experiencing one of its wettest years on record.
+
+<a href="http://www.npr.org/2017/03/01/517988113/heavy-rainfall-strains-one-of-californias-most-essential-reservoirs">http://www.npr.org/2017/03/01/517988113/heavy-rainfall-strains-one-of-californias-most-essential-reservoirs</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>220</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</guid>
       <title>Some See &#39;Flat-Fee Primary Care&#39; As A GOP-Friendly Way To Provide Routine Care</title>
@@ -90,12 +214,12 @@ March 1, 2017 - In "direct primary care," a model favored by HHS Secretary Tom P
       <description>February 28, 2017 - The Obama-era &#34;Waters of the United States&#34; rule defines which small bodies of water are subject to U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it goes too far.</description>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-5325d22fa050f45d8a3de4eb7f07c2e6d5f39b11-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-7e76d8ff6befdd961e843bd5f8a5d34ce56967a5-s800-c15.jpg"></a>
 
 February 28, 2017 - The Obama-era "Waters of the United States" rule defines which small bodies of water are subject to U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it goes too far.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule">http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-5325d22fa050f45d8a3de4eb7f07c2e6d5f39b11-s3000-c15.jpg"></itunes:image>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-7e76d8ff6befdd961e843bd5f8a5d34ce56967a5-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -126,136 +250,6 @@ February 28, 2017 - Data suggests that the rate of colon cancer among people und
 
 <a href="http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer">http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/27/colon-cancer_wide-8b822a5344655ed24ff9381ccc014eb3a85567d0-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170228_me_spacex_announces_plans_to_send_two_customers_to_the_moon.mp3?orgId=1&amp;topicId=1026&amp;d=121&amp;p=3&amp;story=517579221&amp;t=progseg&amp;e=517643077&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>SpaceX Announces Plans To Send Two Customers To The Moon</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/27/517579221/spacex-announces-plans-to-sent-two-customers-to-the-moon</link>
-      <description>February 27, 2017 - It would be the first time humans have traveled beyond low Earth orbit since the days of Apollo. The mission would be manned and financed by two private, anonymous customers.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170228_me_spacex_announces_plans_to_send_two_customers_to_the_moon.mp3?orgId=1&amp;topicId=1026&amp;d=121&amp;p=3&amp;story=517579221&amp;t=progseg&amp;e=517643077&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/26405462060_6ca2e18041_o_wide-b8536dde02a0965f7463eaa69efa2d4b512e058b-s800-c15.jpg"></a>
-
-February 27, 2017 - It would be the first time humans have traveled beyond low Earth orbit since the days of Apollo. The mission would be manned and financed by two private, anonymous customers.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/27/517579221/spacex-announces-plans-to-sent-two-customers-to-the-moon">http://www.npr.org/sections/thetwo-way/2017/02/27/517579221/spacex-announces-plans-to-sent-two-customers-to-the-moon</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/26405462060_6ca2e18041_o_wide-b8536dde02a0965f7463eaa69efa2d4b512e058b-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>121</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_the_environmental_cost_of_loaf_of_bread.mp3?orgId=1&amp;topicId=1053&amp;d=218&amp;p=2&amp;story=517531611&amp;t=progseg&amp;e=517513387&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>What&#39;s The Environmental Footprint Of A Loaf Of Bread? Now We Know</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/27/517531611/whats-the-environmental-footprint-of-a-loaf-of-bread-now-we-know</link>
-      <description>February 27, 2017 - New research calculates the greenhouse gas emissions involved in making bread, from wheat field to bakery. The vast majority of emissions come from one step in the process: farming.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_the_environmental_cost_of_loaf_of_bread.mp3?orgId=1&amp;topicId=1053&amp;d=218&amp;p=2&amp;story=517531611&amp;t=progseg&amp;e=517513387&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/wheat_1-3_wide-1937678684368f6e2e0bfb8ed867ce76f05e17e9-s800-c15.jpg"></a>
-
-February 27, 2017 - New research calculates the greenhouse gas emissions involved in making bread, from wheat field to bakery. The vast majority of emissions come from one step in the process: farming.
-
-<a href="http://www.npr.org/sections/thesalt/2017/02/27/517531611/whats-the-environmental-footprint-of-a-loaf-of-bread-now-we-know">http://www.npr.org/sections/thesalt/2017/02/27/517531611/whats-the-environmental-footprint-of-a-loaf-of-bread-now-we-know</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/wheat_1-3_wide-1937678684368f6e2e0bfb8ed867ce76f05e17e9-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>218</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_whats_the_leading_cause_of_wildfires_in_the_us_humans.mp3?orgId=1&amp;topicId=1007&amp;d=175&amp;p=2&amp;story=517100594&amp;t=progseg&amp;e=517513387&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>What&#39;s The Leading Cause Of Wildfires In The U.S.? Humans</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/27/517100594/whats-the-leading-cause-of-wildfires-in-the-u-s-humans</link>
-      <description>February 27, 2017 - More than 8 in 10 fires are started by people. Researchers say humans are not only causing the vast majority of wildfires, they&#39;re extending the normal fire season around the U.S. by three months.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_whats_the_leading_cause_of_wildfires_in_the_us_humans.mp3?orgId=1&amp;topicId=1007&amp;d=175&amp;p=2&amp;story=517100594&amp;t=progseg&amp;e=517513387&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/california-fires_wide-9872e0d48ba033cf90b7368b8f6a08e86ebfb82a-s800-c15.jpg"></a>
-
-February 27, 2017 - More than 8 in 10 fires are started by people. Researchers say humans are not only causing the vast majority of wildfires, they're extending the normal fire season around the U.S. by three months.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/27/517100594/whats-the-leading-cause-of-wildfires-in-the-u-s-humans">http://www.npr.org/sections/thetwo-way/2017/02/27/517100594/whats-the-leading-cause-of-wildfires-in-the-u-s-humans</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/california-fires_wide-9872e0d48ba033cf90b7368b8f6a08e86ebfb82a-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>175</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170227_fa_01.mp3?orgId=427869011&amp;topicId=1132&amp;d=1838&amp;p=13&amp;story=517481473&amp;t=progseg&amp;e=517481354&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Photographer Builds A &#39;Photo Ark&#39; For 6,500 Animal Species And Counting</title>
-      <link>http://www.npr.org/2017/02/27/517481473/photographer-builds-a-photo-ark-for-6-500-animal-species-and-counting</link>
-      <description>February 27, 2017 - National Geographic photographer Joel Sartore is on a mission to document every captive animal species in the world. He talks about getting an arctic fox to hold still, and Photoshopping out poop.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/02/20170227_fa_01.mp3?orgId=427869011&amp;topicId=1132&amp;d=1838&amp;p=13&amp;story=517481473&amp;t=progseg&amp;e=517481354&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/photoark-page451_wide-3ed2c939afc85b65bd4dc574d321458f2e6bb321-s800-c15.jpg"></a>
-
-February 27, 2017 - National Geographic photographer Joel Sartore is on a mission to document every captive animal species in the world. He talks about getting an arctic fox to hold still, and Photoshopping out poop.
-
-<a href="http://www.npr.org/2017/02/27/517481473/photographer-builds-a-photo-ark-for-6-500-animal-species-and-counting">http://www.npr.org/2017/02/27/517481473/photographer-builds-a-photo-ark-for-6-500-animal-species-and-counting</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/photoark-page451_wide-3ed2c939afc85b65bd4dc574d321458f2e6bb321-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>1838</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</guid>
-      <title>Your Name Might Shape Your Face, Researchers Say</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</link>
-      <description>February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s800-c15.jpg"></a>
-
-February 27, 2017 - Do you look like a Joy? Genes and culture may make it more likely that names and faces align. But researchers say people also may adjust their expressions to match social expectations of their name.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say">http://www.npr.org/sections/health-shots/2017/02/27/517496915/your-name-might-shape-your-face-researchers-say</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/heatmaps_v2_women_wide-82edd29857e554fd3ce2672717ed51e2959e93b4-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>A Medicine That Blunts The Buzz Of Alcohol Can Help Drinkers Cut Back</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</link>
-      <description>February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don&#39;t know that when combined with counseling it can help people resist the urge to drink too much.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/02/20170227_me_a_medicine_that_blunts_the_buzz_of_alcohol_can_help_drinkers_cut_back.mp3?orgId=1&amp;topicId=1128&amp;d=258&amp;p=3&amp;story=516890375&amp;t=progseg&amp;e=517438977&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s800-c15.jpg"></a>
-
-February 27, 2017 - Naltrexone was approved to treat alcohol disorders more than 20 years ago. But many doctors still don't know that when combined with counseling it can help people resist the urge to drink too much.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back">http://www.npr.org/sections/health-shots/2017/02/27/516890375/a-medicine-that-blunts-the-buzz-of-alcohol-can-help-drinkers-cut-back</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/drinking-1_wide-72b4b55a228c0823f3312aa7dcedc7307ea02b1c-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>258</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170226_atc_fearing_climate_change_policy_under_trump_stem_group_is_working_to_get_scientists_elected.mp3?orgId=1&amp;topicId=1003&amp;d=209&amp;p=2&amp;story=517394115&amp;t=progseg&amp;e=517377639&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Fearing Climate Change Policy Under Trump, STEM Group Works To Get Scientists Elected</title>
-      <link>http://www.npr.org/2017/02/26/517394115/fearing-climate-change-policy-under-trump-stem-group-is-working-to-get-scientist</link>
-      <description>February 26, 2017 - Scientists across the country are planning to go to Washington — and take office. Shaughnessy Naughton is the founder of 314 Action a non profit that helps scientists run for office.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170226_atc_fearing_climate_change_policy_under_trump_stem_group_is_working_to_get_scientists_elected.mp3?orgId=1&amp;topicId=1003&amp;d=209&amp;p=2&amp;story=517394115&amp;t=progseg&amp;e=517377639&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 26, 2017 - Scientists across the country are planning to go to Washington — and take office. Shaughnessy Naughton is the founder of 314 Action a non profit that helps scientists run for office.
-
-<a href="http://www.npr.org/2017/02/26/517394115/fearing-climate-change-policy-under-trump-stem-group-is-working-to-get-scientist">http://www.npr.org/2017/02/26/517394115/fearing-climate-change-policy-under-trump-stem-group-is-working-to-get-scientist</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>209</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_7_exoplanets_around_trappist-1.mp3?orgId=1&amp;topicId=1026&amp;d=330&amp;p=10&amp;story=517305291&amp;t=progseg&amp;e=517305173&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Astronomers Find 7 Potentially Habitable Planets</title>
-      <link>http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets</link>
-      <description>February 26, 2017 - Astronomers have discovered a solar system full of potentially habitable planets. Lulu Garcia-Navarro talks to Seth Shostak of the SETI Institute, which searches for extraterrestrial intelligence.</description>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/02/20170226_wesun_7_exoplanets_around_trappist-1.mp3?orgId=1&amp;topicId=1026&amp;d=330&amp;p=10&amp;story=517305291&amp;t=progseg&amp;e=517305173&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 26, 2017 - Astronomers have discovered a solar system full of potentially habitable planets. Lulu Garcia-Navarro talks to Seth Shostak of the SETI Institute, which searches for extraterrestrial intelligence.
-
-<a href="http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets">http://www.npr.org/2017/02/26/517305291/astronomers-find-7-potentially-habitable-planets</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>330</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
