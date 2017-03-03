@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 15:42:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Mar 2017 17:07:43 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Thu, 02 Mar 2017 15:42:01 +0000</pubDate>
+    <pubDate>Fri, 03 Mar 2017 17:07:43 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -24,12 +24,102 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=15&amp;siteplayer=true&amp;dl=1</guid>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</guid>
+      <title>Smog In Western U.S. Starts Out As Pollution In Asia, Researchers Say</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</link>
+      <description>March 3, 2017 - By tripling their emission of pollutants, Asian countries have contributed as much as 65 percent of a rise in ozone levels in the western U.S., scientists say.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/ap_16305156235287_wide-23c17bd0b5b2eaadd15c4259325a4d65f9e739fb-s800-c15.jpg"></a>
+
+March 3, 2017 - By tripling their emission of pollutants, Asian countries have contributed as much as 65 percent of a rise in ozone levels in the western U.S., scientists say.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution">http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/ap_16305156235287_wide-23c17bd0b5b2eaadd15c4259325a4d65f9e739fb-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</guid>
+      <title>Rise Of The Robot Bees: Tiny Drones Turned Into Artificial Pollinators</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</link>
+      <description>March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s800-c15.jpg"></a>
+
+March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators">http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen</guid>
+      <title>First Clouded Leopard Cub Born Using Cryopreserved Semen</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen</link>
+      <description>March 2, 2017 - A statement from the Smithsonian National Zoo and the Nashville Zoo said Thursday that the accomplishment is &#34;a giant step for global conservation efforts.&#34;</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/02/nashvillezoo-amieestubbs-3765_wide-45a7e86279c65e612fa195c847aedd35f0c8602c-s800-c15.jpg"></a>
+
+March 2, 2017 - A statement from the Smithsonian National Zoo and the Nashville Zoo said Thursday that the accomplishment is "a giant step for global conservation efforts."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen">http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/nashvillezoo-amieestubbs-3765_wide-45a7e86279c65e612fa195c847aedd35f0c8602c-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary</guid>
+      <title>Rick Perry Sworn In As Energy Secretary</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary</link>
+      <description>March 2, 2017 - The former Texas governor was confirmed Thursday by a 62-37 vote in the Senate. While running for president in 2011, Perry pledged to eliminate the department, but he says he&#39;s changed his mind.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_17062011218864_wide-a596859bd8ba3a0063e0236e17a887cc943fef58-s800-c15.jpg"></a>
+
+March 2, 2017 - The former Texas governor was confirmed Thursday by a 62-37 vote in the Senate. While running for president in 2011, Perry pledged to eliminate the department, but he says he's changed his mind.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary">http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_17062011218864_wide-a596859bd8ba3a0063e0236e17a887cc943fef58-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_embryo_experiments_on_human_development_raise_ethical_concerns.mp3?orgId=1&amp;topicId=1007&amp;d=377&amp;p=2&amp;story=518197104&amp;t=progseg&amp;e=518103527&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Embryo Experiments On Human Development Raise Ethical Concerns</title>
+      <link>http://www.npr.org/2017/03/02/518197104/embryo-experiments-on-human-development-raise-ethical-concerns</link>
+      <description>March 2, 2017 - Embryo-like entities are being created in a New York lab using human embryonic stem cells. Scientists hope to learn more about the earliest stages of human development without using actual embryos.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_embryo_experiments_on_human_development_raise_ethical_concerns.mp3?orgId=1&amp;topicId=1007&amp;d=377&amp;p=2&amp;story=518197104&amp;t=progseg&amp;e=518103527&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 2, 2017 - Embryo-like entities are being created in a New York lab using human embryonic stem cells. Scientists hope to learn more about the earliest stages of human development without using actual embryos.
+
+<a href="http://www.npr.org/2017/03/02/518197104/embryo-experiments-on-human-development-raise-ethical-concerns">http://www.npr.org/2017/03/02/518197104/embryo-experiments-on-human-development-raise-ethical-concerns</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>377</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_old_penicillin_mold_auctioned_for_more_than_14000.mp3?orgId=1&amp;topicId=1007&amp;d=89&amp;p=2&amp;story=518197111&amp;t=progseg&amp;e=518103527&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Old Penicillin Mold Auctioned For More Than $14,000</title>
+      <link>http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000</link>
+      <description>March 2, 2017 - An auction house in London has sold a dish containing a sample of the original mold that made Penicillin for over $14,000.&#xA;&#xA; - http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_old_penicillin_mold_auctioned_for_more_than_14000.mp3?orgId=1&amp;topicId=1007&amp;d=89&amp;p=2&amp;story=518197111&amp;t=progseg&amp;e=518103527&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 2, 2017 - An auction house in London has sold a dish containing a sample of the original mold that made Penicillin for over $14,000.
+
+<a href="http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000">http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>89</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
       <title>New Research Looks At Ways To Help Stop Airbnb Racial Discrimination</title>
       <link>http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination</link>
       <description>March 2, 2017 - Airbnb has come under fire in the last year following reports that hosts are less likely to rent to African-Americans compared to whites. New research looked at ways to address the discrimination.</description>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=15&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[March 2, 2017 - Airbnb has come under fire in the last year following reports that hosts are less likely to rent to African-Americans compared to whites. New research looked at ways to address the discrimination.
 
@@ -160,96 +250,6 @@ March 1, 2017 - In "direct primary care," a model favored by HHS Secretary Tom P
 
 <a href="http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care">http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/02/28/stethoscope_wide-b1275df2ba2dd40a90abbfdeef3ab510135feff5-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_spacex_moves_to_launch_first-ever_private_mission_to_the_moon.mp3?orgId=1&amp;topicId=1026&amp;d=229&amp;p=2&amp;story=517779759&amp;t=progseg&amp;e=517670891&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>SpaceX Moves To Launch First-Ever Private Mission To The Moon</title>
-      <link>http://www.npr.org/2017/02/28/517779759/spacex-moves-to-launch-first-ever-private-mission-to-the-moon</link>
-      <description>February 28, 2017 - SpaceX claims it will launch the first ever private moon mission in 2018, which would send people to the moon for the first time in 45 years. The announcement may signify the start of a new race to the moon, this time between NASA and the private space industry.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_spacex_moves_to_launch_first-ever_private_mission_to_the_moon.mp3?orgId=1&amp;topicId=1026&amp;d=229&amp;p=2&amp;story=517779759&amp;t=progseg&amp;e=517670891&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 28, 2017 - SpaceX claims it will launch the first ever private moon mission in 2018, which would send people to the moon for the first time in 45 years. The announcement may signify the start of a new race to the moon, this time between NASA and the private space industry.
-
-<a href="http://www.npr.org/2017/02/28/517779759/spacex-moves-to-launch-first-ever-private-mission-to-the-moon">http://www.npr.org/2017/02/28/517779759/spacex-moves-to-launch-first-ever-private-mission-to-the-moon</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>229</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_orders_review_of_obama-era_clean_water_rule.mp3?orgId=1&amp;topicId=1025&amp;d=108&amp;p=2&amp;story=517779801&amp;t=progseg&amp;e=517670891&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Trump Orders Review Of Obama-Era Clean Water Rule</title>
-      <link>http://www.npr.org/2017/02/28/517779801/trump-orders-review-of-obama-era-clean-water-rule</link>
-      <description>February 28, 2017 - President Trump takes action to roll back another environmental regulation. The Clean Water Rule extends federal authority over smaller streams and marshes, but farmers, builders and others say it goes too far.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_orders_review_of_obama-era_clean_water_rule.mp3?orgId=1&amp;topicId=1025&amp;d=108&amp;p=2&amp;story=517779801&amp;t=progseg&amp;e=517670891&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 28, 2017 - President Trump takes action to roll back another environmental regulation. The Clean Water Rule extends federal authority over smaller streams and marshes, but farmers, builders and others say it goes too far.
-
-<a href="http://www.npr.org/2017/02/28/517779801/trump-orders-review-of-obama-era-clean-water-rule">http://www.npr.org/2017/02/28/517779801/trump-orders-review-of-obama-era-clean-water-rule</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>108</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://play.podtrac.com/npr-510308/ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_chicago_leaders_use_cognitive_behavorial_therapy_to_combat_violent_crime.mp3?orgId=1&amp;topicId=1007&amp;aggIds=423302056&amp;d=347&amp;p=2&amp;story=517779745&amp;t=progseg&amp;e=517670891&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Chicago Leaders Use Cognitive Behavorial Therapy To Combat Violent Crime</title>
-      <link>http://www.npr.org/2017/02/28/517779745/chicago-leaders-use-cognitive-behavorial-therapy-to-combat-violent-crime</link>
-      <description>February 28, 2017 - Chicago is in dire need of solutions for its violent crime. A cognitive behavioral therapy program has been able to help keep teenage boys from acting out on their impulses.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://play.podtrac.com/npr-510308/ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_chicago_leaders_use_cognitive_behavorial_therapy_to_combat_violent_crime.mp3?orgId=1&amp;topicId=1007&amp;aggIds=423302056&amp;d=347&amp;p=2&amp;story=517779745&amp;t=progseg&amp;e=517670891&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 28, 2017 - Chicago is in dire need of solutions for its violent crime. A cognitive behavioral therapy program has been able to help keep teenage boys from acting out on their impulses.
-
-<a href="http://www.npr.org/2017/02/28/517779745/chicago-leaders-use-cognitive-behavorial-therapy-to-combat-violent-crime">http://www.npr.org/2017/02/28/517779745/chicago-leaders-use-cognitive-behavorial-therapy-to-combat-violent-crime</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>347</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</guid>
-      <title>Trump Aims To &#39;Eliminate&#39; Clean Water Rule </title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</link>
-      <description>February 28, 2017 - The Obama-era &#34;Waters of the United States&#34; rule defines which small bodies of water are subject to U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it goes too far.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-7e76d8ff6befdd961e843bd5f8a5d34ce56967a5-s800-c15.jpg"></a>
-
-February 28, 2017 - The Obama-era "Waters of the United States" rule defines which small bodies of water are subject to U.S. authority. Opponents such as farmers, homebuilders and golf course owners say it goes too far.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule">http://www.npr.org/sections/thetwo-way/2017/02/28/517016071/trump-aims-to-eliminate-clean-water-rule</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/massey-run-1-of-1-2_wide-7e76d8ff6befdd961e843bd5f8a5d34ce56967a5-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/02/28/517719900/in-u-k-a-veggie-shortage-inspires-funny-headlines-and-serious-thoughts</guid>
-      <title>In U.K., A Veggie Shortage Inspires Funny Headlines And Serious Thoughts</title>
-      <link>http://www.npr.org/sections/thesalt/2017/02/28/517719900/in-u-k-a-veggie-shortage-inspires-funny-headlines-and-serious-thoughts</link>
-      <description>February 28, 2017 - Bad weather in southern Europe caused a brief shortage of veggies in the U.K. Prices went up and people panicked. Now they are thinking harder about where their food comes from.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/vegcrisis_1-2_wide-cbb2ad332ec7b2da8e3adcff8851952bbb6243ea-s800-c15.jpg"></a>
-
-February 28, 2017 - Bad weather in southern Europe caused a brief shortage of veggies in the U.K. Prices went up and people panicked. Now they are thinking harder about where their food comes from.
-
-<a href="http://www.npr.org/sections/thesalt/2017/02/28/517719900/in-u-k-a-veggie-shortage-inspires-funny-headlines-and-serious-thoughts">http://www.npr.org/sections/thesalt/2017/02/28/517719900/in-u-k-a-veggie-shortage-inspires-funny-headlines-and-serious-thoughts</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/vegcrisis_1-2_wide-cbb2ad332ec7b2da8e3adcff8851952bbb6243ea-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</guid>
-      <title>Why Are More Young Americans Getting Colon Cancer? </title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</link>
-      <description>February 28, 2017 - Data suggests that the rate of colon cancer among people under 50 is on the rise, but there are lots of possible explanations for that. Scientists say teasing out the truth will be tricky.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/27/colon-cancer_wide-8b822a5344655ed24ff9381ccc014eb3a85567d0-s800-c15.jpg"></a>
-
-February 28, 2017 - Data suggests that the rate of colon cancer among people under 50 is on the rise, but there are lots of possible explanations for that. Scientists say teasing out the truth will be tricky.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer">http://www.npr.org/sections/health-shots/2017/02/28/517563769/why-are-more-young-americans-getting-colon-cancer</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/colon-cancer_wide-8b822a5344655ed24ff9381ccc014eb3a85567d0-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

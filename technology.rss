@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 15:41:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Mar 2017 17:07:42 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Thu, 02 Mar 2017 15:41:59 +0000</pubDate>
+    <pubDate>Fri, 03 Mar 2017 17:07:42 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -24,11 +24,119 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</guid>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</guid>
+      <title>One Big Winner Of Snap&#39;s Even Bigger IPO: A School That Raked In Millions</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</link>
+      <description>March 3, 2017 - In 2012, Saint Francis High School put up $15,000 in seed money for the founders of a fledgling Snapchat. By the time the company went public Thursday, the school turned it into a $24 million return.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/gettyimages-647166128_wide-a558e6195dfa608d2cec5d251e3f7c0d30c97eb1-s800-c15.jpg"></a>
+
+March 3, 2017 - In 2012, Saint Francis High School put up $15,000 in seed money for the founders of a fledgling Snapchat. By the time the company went public Thursday, the school turned it into a $24 million return.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions">http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/gettyimages-647166128_wide-a558e6195dfa608d2cec5d251e3f7c0d30c97eb1-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</guid>
+      <title>Amazon And The $150 Million Typo</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</link>
+      <description>March 3, 2017 - Amazon said a mistyped command caused part of the company&#39;s cloud computing service to go down for hours on Tuesday. The Wall Street Journal reported the outage caused millions of dollars in losses.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/ap_16287435798944_wide-eb3e4d38a9526ca46fcf12582c3744628e1da967-s800-c15.jpg"></a>
+
+March 3, 2017 - Amazon said a mistyped command caused part of the company's cloud computing service to go down for hours on Tuesday. The Wall Street Journal reported the outage caused millions of dollars in losses.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo">http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/ap_16287435798944_wide-eb3e4d38a9526ca46fcf12582c3744628e1da967-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</guid>
+      <title>Rise Of The Robot Bees: Tiny Drones Turned Into Artificial Pollinators</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</link>
+      <description>March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s800-c15.jpg"></a>
+
+March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators">http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170303_me_new_orleans_police_use_of_body_cameras_brings_benefits_and_new_burdens.mp3?orgId=1&amp;topicId=1019&amp;d=229&amp;p=3&amp;story=517930343&amp;t=progseg&amp;e=518278993&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
+      <title>New Orleans&#39; Police Use Of Body Cameras Brings Benefits And New Burdens</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/03/517930343/new-orleans-police-use-of-body-cameras-brings-benefits-and-new-burdens</link>
+      <description>March 3, 2017 - The technology has improved police conduct and led to a drop in certain types of cases. But the body cams have added many extra hours of work watching videos for police and public defenders.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170303_me_new_orleans_police_use_of_body_cameras_brings_benefits_and_new_burdens.mp3?orgId=1&amp;topicId=1019&amp;d=229&amp;p=3&amp;story=517930343&amp;t=progseg&amp;e=518278993&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/gettyimages-149191836_wide-5949ec15c1ac0ad9ed8f29eb5492d96e02463b69-s800-c15.jpg"></a>
+
+March 3, 2017 - The technology has improved police conduct and led to a drop in certain types of cases. But the body cams have added many extra hours of work watching videos for police and public defenders.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/03/517930343/new-orleans-police-use-of-body-cameras-brings-benefits-and-new-burdens">http://www.npr.org/sections/alltechconsidered/2017/03/03/517930343/new-orleans-police-use-of-body-cameras-brings-benefits-and-new-burdens</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/gettyimages-149191836_wide-5949ec15c1ac0ad9ed8f29eb5492d96e02463b69-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>229</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor</guid>
+      <title>Mike Pence Used AOL Email For State Business As Indiana&#39;s Governor</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor</link>
+      <description>March 3, 2017 - Public records obtained by The Indianapolis Star show that Pence communicated with advisers about security issues using the AOL account, which was hacked last year.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/gettyimages-468209962_wide-edaf92725401fbebcc9e7aa0c49747b86433b5e1-s800-c15.jpg"></a>
+
+March 3, 2017 - Public records obtained by The Indianapolis Star show that Pence communicated with advisers about security issues using the AOL account, which was hacked last year.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor">http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/gettyimages-468209962_wide-edaf92725401fbebcc9e7aa0c49747b86433b5e1-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_snapchat_goes_public_in_largest_tech_ipo_since_alibaba.mp3?orgId=1&amp;topicId=1019&amp;d=238&amp;p=2&amp;story=518197167&amp;t=progseg&amp;e=518103527&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Snapchat Goes Public In Largest Tech IPO Since Alibaba</title>
+      <link>http://www.npr.org/2017/03/02/518197167/snapchat-goes-public-in-largest-tech-ipo-since-alibaba</link>
+      <description>March 2, 2017 - The popular video messaging service Snapchat went public Thursday under the name Snap Inc. It&#39;s the largest tech IPO since Alibaba in 2014. But Snap faces big obstacles, including how to broaden its audience, boost advertising sales and fend off competitors.</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_snapchat_goes_public_in_largest_tech_ipo_since_alibaba.mp3?orgId=1&amp;topicId=1019&amp;d=238&amp;p=2&amp;story=518197167&amp;t=progseg&amp;e=518103527&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 2, 2017 - The popular video messaging service Snapchat went public Thursday under the name Snap Inc. It's the largest tech IPO since Alibaba in 2014. But Snap faces big obstacles, including how to broaden its audience, boost advertising sales and fend off competitors.
+
+<a href="http://www.npr.org/2017/03/02/518197167/snapchat-goes-public-in-largest-tech-ipo-since-alibaba">http://www.npr.org/2017/03/02/518197167/snapchat-goes-public-in-largest-tech-ipo-since-alibaba</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>238</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet</guid>
+      <title>China Describes Its Vision Of Government-Controlled Internet</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet</link>
+      <description>March 2, 2017 - In its first cyber policy paper, the Chinese government emphasize the idea that each country should govern the Internet as it sees fit, and insisted that the Internet in China is &#34;fully open.&#34;</description>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_16312221890701_wide-87195b5fe3ab0883cc57be93c8c72b3429911299-s800-c15.jpg"></a>
+
+March 2, 2017 - In its first cyber policy paper, the Chinese government emphasize the idea that each country should govern the Internet as it sees fit, and insisted that the Internet in China is "fully open."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet">http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_16312221890701_wide-87195b5fe3ab0883cc57be93c8c72b3429911299-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_parent_alert_your_child_just_skipped_class.mp3?orgId=1&amp;topicId=1013&amp;d=236&amp;p=2&amp;story=517757199&amp;t=progseg&amp;e=518103527&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
       <title>Parent Alert! Your Child Just Skipped Class</title>
       <link>http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</link>
       <description>March 2, 2017 - In a study, automated text messages to parents reduced absences and the number of F&#39;s earned by high school students.&#xA;&#xA; - http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</description>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_parent_alert_your_child_just_skipped_class.mp3?orgId=1&amp;topicId=1013&amp;d=236&amp;p=2&amp;story=517757199&amp;t=progseg&amp;e=518103527&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/text-helper_wide-91b4d28a539ee310b203059319cb6ab027edcbf5-s800-c15.jpg"></a>
 
@@ -36,6 +144,7 @@ March 2, 2017 - In a study, automated text messages to parents reduced absences 
 
 <a href="http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class">http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/01/text-helper_wide-91b4d28a539ee310b203059319cb6ab027edcbf5-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>236</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -55,14 +164,14 @@ March 2, 2017 - DARPA, the Pentagon's R&D agency, is working with partners to de
     </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</guid>
-      <title>Snapchat Parent To Begin Trading On The New York Stock Exchange Thursday</title>
+      <title>Snapchat Parent&#39;s Stock Soars By 50 Percent On First Day Of Trading</title>
       <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</link>
-      <description>March 2, 2017 - Snap Inc., the company behind the popular disappearing-message app Snapchat, has priced its initial public offering of 200 million nonvoting shares at $17 each.</description>
+      <description>March 2, 2017 - After pricing its initial public offering of 200 million nonvoting shares at $17 each, Snap Inc., saw the stock rise to more than $25 a share.</description>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_17060817295571_wide-b4325a1c5053688e4a4ec43849b33713af7e5b13-s800-c15.jpg"></a>
 
-March 2, 2017 - Snap Inc., the company behind the popular disappearing-message app Snapchat, has priced its initial public offering of 200 million nonvoting shares at $17 each.
+March 2, 2017 - After pricing its initial public offering of 200 million nonvoting shares at $17 each, Snap Inc., saw the stock rise to more than $25 a share.
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday">http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_17060817295571_wide-b4325a1c5053688e4a4ec43849b33713af7e5b13-s3000-c15.jpg"></itunes:image>
@@ -130,7 +239,7 @@ February 28, 2017 - The PayPal Giving Fund says it allows donors to give to a ch
     </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_hmd_global_plans_to_bring_back_nokia_3310_cell_phone.mp3?orgId=1&amp;topicId=1019&amp;d=126&amp;p=2&amp;story=517779794&amp;t=progseg&amp;e=517670891&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>HMD Global Plans To Bring Back Nokia 3310 Cell Phone</title>
+      <title>HMD Global Plans To Bring Back Nokia 3310 Cellphone</title>
       <link>http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone</link>
       <description>February 28, 2017 - HMD Global will be relaunching the Nokia 3310, the iconic phone that originally came out in 2000 and became one of the best-selling mobile phones ever.</description>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
@@ -141,113 +250,6 @@ February 28, 2017 - The PayPal Giving Fund says it allows donors to give to a ch
 <a href="http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone">http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>126</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_ford_replaces_cd_player_with_streaming_music_in_new_vehicle.mp3?orgId=1&amp;topicId=1006&amp;d=186&amp;p=2&amp;story=517779766&amp;t=progseg&amp;e=517670891&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Ford Replaces CD Player With Streaming Music In New Vehicle</title>
-      <link>http://www.npr.org/2017/02/28/517779766/ford-replaces-cd-player-with-streaming-music-in-new-vehicle</link>
-      <description>February 28, 2017 - For the first time in 25 years, Ford Motor Company is offering a vehicle without a CD player. The company will replace the CD player with streaming audio and video.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_ford_replaces_cd_player_with_streaming_music_in_new_vehicle.mp3?orgId=1&amp;topicId=1006&amp;d=186&amp;p=2&amp;story=517779766&amp;t=progseg&amp;e=517670891&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 28, 2017 - For the first time in 25 years, Ford Motor Company is offering a vehicle without a CD player. The company will replace the CD player with streaming audio and video.
-
-<a href="http://www.npr.org/2017/02/28/517779766/ford-replaces-cd-player-with-streaming-music-in-new-vehicle">http://www.npr.org/2017/02/28/517779766/ford-replaces-cd-player-with-streaming-music-in-new-vehicle</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>186</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_may_weigh_in_on_h-1b_visas_but_major_reform_depends_on_congress.mp3?orgId=1&amp;topicId=1019&amp;d=233&amp;p=2&amp;story=517496648&amp;t=progseg&amp;e=517670891&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Trump May Weigh In On H-1B Visas, But Major Reform Depends On Congress</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</link>
-      <description>February 28, 2017 - President Trump has said he wants to crack down on abuses and protect American workers. But it&#39;s Congress that holds the power to fundamentally reform the program, and work there is underway.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_trump_may_weigh_in_on_h-1b_visas_but_major_reform_depends_on_congress.mp3?orgId=1&amp;topicId=1019&amp;d=233&amp;p=2&amp;story=517496648&amp;t=progseg&amp;e=517670891&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/ap_16343710265256_wide-4cadf77a8968cc469b5b478ebd5b1408fa77cf1a-s800-c15.jpg"></a>
-
-February 28, 2017 - President Trump has said he wants to crack down on abuses and protect American workers. But it's Congress that holds the power to fundamentally reform the program, and work there is underway.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress">http://www.npr.org/sections/alltechconsidered/2017/02/28/517496648/trump-may-weigh-in-on-h-1b-visas-but-major-reform-depends-on-congress</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/ap_16343710265256_wide-4cadf77a8968cc469b5b478ebd5b1408fa77cf1a-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>233</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no</guid>
-      <title>Can Sex Offenders Be Barred From Social Media? Justices Lean Toward No</title>
-      <link>http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no</link>
-      <description>February 27, 2017 - The court heard two cases today: One on whether the government can deport a resident for a statutory rape conviction, and another on whether a state can criminalize social media use for sex offenders.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/27/packingham-2_wide-8d43cc011116f16808c2f8fdbf1c0907158d0bc0-s800-c15.jpg"></a>
-
-February 27, 2017 - The court heard two cases today: One on whether the government can deport a resident for a statutory rape conviction, and another on whether a state can criminalize social media use for sex offenders.
-
-<a href="http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no">http://www.npr.org/2017/02/27/517563127/can-sex-offenders-be-barred-from-social-media-justices-lean-toward-no</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/packingham-2_wide-8d43cc011116f16808c2f8fdbf1c0907158d0bc0-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_privacy_paradox_how_to_gain_more_control_over_your_data.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=517563179&amp;t=progseg&amp;e=517513387&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Privacy Paradox: How To Gain More Control Over Your Data</title>
-      <link>http://www.npr.org/2017/02/27/517563179/privacy-paradox-how-to-gain-more-control-over-your-data</link>
-      <description>February 27, 2017 - The WNYC podcast, &#34;Note to Self,&#34; conducted an experiment called The Privacy Paradox, which involved thousands of people who tried to strengthen control over their personal information online.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_privacy_paradox_how_to_gain_more_control_over_your_data.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=517563179&amp;t=progseg&amp;e=517513387&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 27, 2017 - The WNYC podcast, "Note to Self," conducted an experiment called The Privacy Paradox, which involved thousands of people who tried to strengthen control over their personal information online.
-
-<a href="http://www.npr.org/2017/02/27/517563179/privacy-paradox-how-to-gain-more-control-over-your-data">http://www.npr.org/2017/02/27/517563179/privacy-paradox-how-to-gain-more-control-over-your-data</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>275</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_new_fcc_chairman_plans_to_block_privacy_regulations.mp3?orgId=1&amp;topicId=1014&amp;d=156&amp;p=2&amp;story=517563172&amp;t=progseg&amp;e=517513387&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>New FCC Chairman Plans To Block Privacy Regulations</title>
-      <link>http://www.npr.org/2017/02/27/517563172/new-fcc-chairman-plans-to-block-privacy-regulations</link>
-      <description>February 27, 2017 - The Federal Communications Commission&#39;s new chairman wants to block a rule approved by his predecessor requiring Internet service providers like Comcast and Verizon adhere to new privacy standards.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170227_atc_new_fcc_chairman_plans_to_block_privacy_regulations.mp3?orgId=1&amp;topicId=1014&amp;d=156&amp;p=2&amp;story=517563172&amp;t=progseg&amp;e=517513387&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 27, 2017 - The Federal Communications Commission's new chairman wants to block a rule approved by his predecessor requiring Internet service providers like Comcast and Verizon adhere to new privacy standards.
-
-<a href="http://www.npr.org/2017/02/27/517563172/new-fcc-chairman-plans-to-block-privacy-regulations">http://www.npr.org/2017/02/27/517563172/new-fcc-chairman-plans-to-block-privacy-regulations</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>156</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</guid>
-      <title>North Carolina Law Makes Facebook A Felony For Former Sex Offenders</title>
-      <link>http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</link>
-      <description>February 27, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s800-c15.jpg"></a>
-
-February 27, 2017 - North Carolina has a law banning sex offenders from social media. The state says sex offenders use sites to find future child victims. The court will decide if this is constitutional.
-
-<a href="http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders">http://www.npr.org/2017/02/26/517086190/north-carolina-law-makes-facebook-a-felony-for-former-sex-offenders</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/26/gettyimages-153788949_wide-0edbe3f5c8dae9985593ad3c40326ca71cbf106a-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</guid>
-      <title>To Keep Teens Safe Online, They Need To Learn To Manage Risk</title>
-      <link>http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</link>
-      <description>February 27, 2017 - Teens should be included in efforts to mitigate their online risks, researchers say, but apps focus more on parents controlling access by monitoring and blocking sites.</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s800-c15.jpg"></a>
-
-February 27, 2017 - Teens should be included in efforts to mitigate their online risks, researchers say, but apps focus more on parents controlling access by monitoring and blocking sites.
-
-<a href="http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk">http://www.npr.org/sections/health-shots/2017/02/27/517491502/to-keep-teens-safe-online-they-need-to-learn-to-manage-risk</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/teenscreen_psedit_wide-9fd92239bac9c6fac1b33a2e3bdecb4a356328ec-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
