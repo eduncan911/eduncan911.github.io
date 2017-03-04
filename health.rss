@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2017 17:07:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 15:54:25 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 03 Mar 2017 17:07:44 +0000</pubDate>
+    <pubDate>Sat, 04 Mar 2017 15:54:25 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -23,6 +23,55 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide</guid>
+      <title>Menstruation 101 For Boys: A Comic Book Is Their Guide</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide</link>
+      <description>March 4, 2017 - It&#39;s two comic books in one: A guide for boys (so they won&#39;t tease girls) and advice for girls on how to handle their period.</description>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/02/22/img30-copy_wide-e3c28caba98dbd70358f4eca167cd784f02b1bc7-s800-c15.jpg"></a>
+
+March 4, 2017 - It's two comic books in one: A guide for boys (so they won't tease girls) and advice for girls on how to handle their period.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide">http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/22/img30-copy_wide-e3c28caba98dbd70358f4eca167cd784f02b1bc7-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_doctor_launches_vision_quest_to_help_astronauts_eyeballs.mp3?orgId=77&amp;topicId=1128&amp;d=287&amp;p=7&amp;story=518214299&amp;t=progseg&amp;e=518461849&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Doctor Launches Vision Quest To Help Astronauts&#39; Eyeballs</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs</link>
+      <description>March 4, 2017 - Scientists are learning that some astronauts&#39; eyes change shape after time in space, leading to vision problems. But a sleep sack being developed might offer relief.</description>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_doctor_launches_vision_quest_to_help_astronauts_eyeballs.mp3?orgId=77&amp;topicId=1128&amp;d=287&amp;p=7&amp;story=518214299&amp;t=progseg&amp;e=518461849&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/02/trent-barton-aboard-plane--2015_wide-12d2a42515f8a3c8af72b343a1e02ea4f28d79ab-s800-c15.jpg"></a>
+
+March 4, 2017 - Scientists are learning that some astronauts' eyes change shape after time in space, leading to vision problems. But a sleep sack being developed might offer relief.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs">http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/trent-barton-aboard-plane--2015_wide-12d2a42515f8a3c8af72b343a1e02ea4f28d79ab-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>287</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Patients Demand The &#39;Right To Try&#39; Experimental Drugs, But Costs Can Be Steep</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</link>
+      <description>March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s800-c15.jpg"></a>
+
+March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep">http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>235</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/03/03/518204657/americans-conflicted-over-gop-plans-to-dump-obamacare</guid>
       <title>Americans Conflicted Over GOP Plans To Dump Obamacare</title>
@@ -138,12 +187,12 @@ March 2, 2017 - As Republicans struggle to come up with an alternative they can 
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s800-c15.jpg"></a>
 
 March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.
 
 <a href="http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate">http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s3000-c15.jpg"></itunes:image>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s3000-c15.jpg"></itunes:image>
       <itunes:duration>395</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -207,53 +256,6 @@ March 1, 2017 - The city's crisis over lead-laced water dates back to 2014, and 
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition">http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17024661727821_wide-9d1c5469597d2bf88ce4b8a74b2f443fee2c5f35-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_targeting_the_immune_system_may_help_stop_the_itch_of_eczema_.mp3?orgId=1&amp;topicId=1128&amp;d=183&amp;p=2&amp;story=517933633&amp;t=progseg&amp;e=517895528&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Targeting The Immune System May Help Stop The Itch Of Eczema </title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/01/517933633/targeting-the-immune-system-may-help-stop-the-itch-of-eczema</link>
-      <description>March 1, 2017 - About 35 million people have eczema, a skin disease that includes itchy patches of inflamed dry skin. About 10 percent of cases are moderate to severe and may be helped with a new treatment.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_targeting_the_immune_system_may_help_stop_the_itch_of_eczema_.mp3?orgId=1&amp;topicId=1128&amp;d=183&amp;p=2&amp;story=517933633&amp;t=progseg&amp;e=517895528&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/scratching_wide-d826ec3b8495a4486f96da1998c243bd153cb131-s800-c15.jpg"></a>
-
-March 1, 2017 - About 35 million people have eczema, a skin disease that includes itchy patches of inflamed dry skin. About 10 percent of cases are moderate to severe and may be helped with a new treatment.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/01/517933633/targeting-the-immune-system-may-help-stop-the-itch-of-eczema">http://www.npr.org/sections/health-shots/2017/03/01/517933633/targeting-the-immune-system-may-help-stop-the-itch-of-eczema</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/scratching_wide-d826ec3b8495a4486f96da1998c243bd153cb131-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>183</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_trump_outlines_plan_for_health_care_in_address_to_congress.mp3?orgId=1&amp;topicId=1128&amp;d=226&amp;p=2&amp;story=517988149&amp;t=progseg&amp;e=517895528&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Trump Outlines Plan For Health Care In Address To Congress</title>
-      <link>http://www.npr.org/2017/03/01/517988149/trump-outlines-plan-for-health-care-in-address-to-congress</link>
-      <description>March 1, 2017 - In his first address to a joint session of Congress, President Trump outlined his plan to repeal and replace the Affordable Care Act, which has long been a rallying cry for the Republican Party. But how realistic is it? NPR takes a closer look at the president&#39;s proposal to overhaul the health care system.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_trump_outlines_plan_for_health_care_in_address_to_congress.mp3?orgId=1&amp;topicId=1128&amp;d=226&amp;p=2&amp;story=517988149&amp;t=progseg&amp;e=517895528&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 1, 2017 - In his first address to a joint session of Congress, President Trump outlined his plan to repeal and replace the Affordable Care Act, which has long been a rallying cry for the Republican Party. But how realistic is it? NPR takes a closer look at the president's proposal to overhaul the health care system.
-
-<a href="http://www.npr.org/2017/03/01/517988149/trump-outlines-plan-for-health-care-in-address-to-congress">http://www.npr.org/2017/03/01/517988149/trump-outlines-plan-for-health-care-in-address-to-congress</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>226</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_despite_continued_water_safety_fears_michigan_ends_subsidies_for_flint.mp3?orgId=1&amp;topicId=1091&amp;d=157&amp;p=2&amp;story=517988171&amp;t=progseg&amp;e=517895528&amp;seg=20&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Despite Continued Water Safety Fears, Michigan Ends Subsidies For Flint</title>
-      <link>http://www.npr.org/2017/03/01/517988171/despite-continued-water-safety-fears-michigan-ends-subsidies-for-flint</link>
-      <description>March 1, 2017 - The state of Michigan is ending subsidies for water costs for Flint residents. The state says the water is now safe to drink after an ongoing water crisis. But the mayor and many residents disagree.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_despite_continued_water_safety_fears_michigan_ends_subsidies_for_flint.mp3?orgId=1&amp;topicId=1091&amp;d=157&amp;p=2&amp;story=517988171&amp;t=progseg&amp;e=517895528&amp;seg=20&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 1, 2017 - The state of Michigan is ending subsidies for water costs for Flint residents. The state says the water is now safe to drink after an ongoing water crisis. But the mayor and many residents disagree.
-
-<a href="http://www.npr.org/2017/03/01/517988171/despite-continued-water-safety-fears-michigan-ends-subsidies-for-flint">http://www.npr.org/2017/03/01/517988171/despite-continued-water-safety-fears-michigan-ends-subsidies-for-flint</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>157</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2017 17:07:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 15:54:30 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 03 Mar 2017 17:07:43 +0000</pubDate>
+    <pubDate>Sat, 04 Mar 2017 15:54:30 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,104 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_doctor_launches_vision_quest_to_help_astronauts_eyeballs.mp3?orgId=77&amp;topicId=1128&amp;d=287&amp;p=7&amp;story=518214299&amp;t=progseg&amp;e=518461849&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Doctor Launches Vision Quest To Help Astronauts&#39; Eyeballs</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs</link>
+      <description>March 4, 2017 - Scientists are learning that some astronauts&#39; eyes change shape after time in space, leading to vision problems. But a sleep sack being developed might offer relief.</description>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_doctor_launches_vision_quest_to_help_astronauts_eyeballs.mp3?orgId=77&amp;topicId=1128&amp;d=287&amp;p=7&amp;story=518214299&amp;t=progseg&amp;e=518461849&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/02/trent-barton-aboard-plane--2015_wide-12d2a42515f8a3c8af72b343a1e02ea4f28d79ab-s800-c15.jpg"></a>
+
+March 4, 2017 - Scientists are learning that some astronauts' eyes change shape after time in space, leading to vision problems. But a sleep sack being developed might offer relief.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs">http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/trent-barton-aboard-plane--2015_wide-12d2a42515f8a3c8af72b343a1e02ea4f28d79ab-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>287</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_ivory_coasts_cocoa_farmers_struggle_with_falling_chocolate_prices.mp3?orgId=1&amp;topicId=1053&amp;d=234&amp;p=2&amp;story=518328252&amp;t=progseg&amp;e=518294666&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Dip In Global Prices Creates Cocoa Crisis For Ivory Coast&#39;s Farmers</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/03/518328252/a-dip-in-global-prices-creates-cocoa-crisis-for-ivory-coasts-farmers</link>
+      <description>March 3, 2017 - Ivory coast is the world&#39;s largest cocoa producer. But a bumper crop combined with a fall in the global demand for chocolate and a dip in cocoa prices are hurting the country&#39;s cocoa farmers.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_ivory_coasts_cocoa_farmers_struggle_with_falling_chocolate_prices.mp3?orgId=1&amp;topicId=1053&amp;d=234&amp;p=2&amp;story=518328252&amp;t=progseg&amp;e=518294666&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/img_6859_wide-53640cb9c11b5526560431218a82c51026ac5b6b-s800-c15.jpg"></a>
+
+March 3, 2017 - Ivory coast is the world's largest cocoa producer. But a bumper crop combined with a fall in the global demand for chocolate and a dip in cocoa prices are hurting the country's cocoa farmers.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/03/518328252/a-dip-in-global-prices-creates-cocoa-crisis-for-ivory-coasts-farmers">http://www.npr.org/sections/thesalt/2017/03/03/518328252/a-dip-in-global-prices-creates-cocoa-crisis-for-ivory-coasts-farmers</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/img_6859_wide-53640cb9c11b5526560431218a82c51026ac5b6b-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>234</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_rick_perry_looks_to_bring_texas_approach_to_energy_department.mp3?orgId=1&amp;topicId=1131&amp;d=81&amp;p=2&amp;story=518391625&amp;t=progseg&amp;e=518294666&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Rick Perry Looks To Bring Texas Approach To Energy Department</title>
+      <link>http://www.npr.org/2017/03/03/518391625/rick-perry-looks-to-bring-texas-approach-to-energy-department</link>
+      <description>March 3, 2017 - On Thursday, former Texas Gov. Rick Perry was sworn in as the energy secretary for the Trump administration. NPR looks ahead to a series of upcoming pieces examining Perry&#39;s role in expanding wind energy production in Texas.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_rick_perry_looks_to_bring_texas_approach_to_energy_department.mp3?orgId=1&amp;topicId=1131&amp;d=81&amp;p=2&amp;story=518391625&amp;t=progseg&amp;e=518294666&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 3, 2017 - On Thursday, former Texas Gov. Rick Perry was sworn in as the energy secretary for the Trump administration. NPR looks ahead to a series of upcoming pieces examining Perry's role in expanding wind energy production in Texas.
+
+<a href="http://www.npr.org/2017/03/03/518391625/rick-perry-looks-to-bring-texas-approach-to-energy-department">http://www.npr.org/2017/03/03/518391625/rick-perry-looks-to-bring-texas-approach-to-energy-department</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>81</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_the_culprit_in_rising_western_us_smog_levels_asia.mp3?orgId=1&amp;topicId=1007&amp;d=120&amp;p=2&amp;story=518391618&amp;t=progseg&amp;e=518294666&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>The Culprit In Rising Western U.S. Smog Levels: Asia</title>
+      <link>http://www.npr.org/2017/03/03/518391618/the-culprit-in-rising-western-u-s-smog-levels-asia</link>
+      <description>March 3, 2017 - U.S. emissions of smog-forming pollutants have dropped, but smog levels in the western U.S. have increased each year. Now, researchers say, they&#39;ve found out why — it&#39;s wafting from across the Pacific Ocean.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_the_culprit_in_rising_western_us_smog_levels_asia.mp3?orgId=1&amp;topicId=1007&amp;d=120&amp;p=2&amp;story=518391618&amp;t=progseg&amp;e=518294666&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 3, 2017 - U.S. emissions of smog-forming pollutants have dropped, but smog levels in the western U.S. have increased each year. Now, researchers say, they've found out why — it's wafting from across the Pacific Ocean.
+
+<a href="http://www.npr.org/2017/03/03/518391618/the-culprit-in-rising-western-u-s-smog-levels-asia">http://www.npr.org/2017/03/03/518391618/the-culprit-in-rising-western-u-s-smog-levels-asia</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>120</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_do_showers_make_oranges_taste_better_npr_investigates.mp3?orgId=1&amp;topicId=1053&amp;d=240&amp;p=2&amp;story=518323093&amp;t=progseg&amp;e=518294666&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Do Showers Make Oranges Taste Better? NPR Investigates</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/03/518323093/do-showers-make-oranges-taste-better-npr-investigates</link>
+      <description>March 3, 2017 - The Internet is full of things, including a Reddit subgroup devoted to the act of eating an orange in the shower. We gave it a shot ourselves.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_do_showers_make_oranges_taste_better_npr_investigates.mp3?orgId=1&amp;topicId=1053&amp;d=240&amp;p=2&amp;story=518323093&amp;t=progseg&amp;e=518294666&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/2017-03-03-shower-orange-charbage_wide-c2f230893671bf0174706fe115183039c05ffe99-s800-c15.jpeg"></a>
+
+March 3, 2017 - The Internet is full of things, including a Reddit subgroup devoted to the act of eating an orange in the shower. We gave it a shot ourselves.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/03/518323093/do-showers-make-oranges-taste-better-npr-investigates">http://www.npr.org/sections/thesalt/2017/03/03/518323093/do-showers-make-oranges-taste-better-npr-investigates</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/2017-03-03-shower-orange-charbage_wide-c2f230893671bf0174706fe115183039c05ffe99-s3000-c15.jpeg"></itunes:image>
+      <itunes:duration>240</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Patients Demand The &#39;Right To Try&#39; Experimental Drugs, But Costs Can Be Steep</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</link>
+      <description>March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s800-c15.jpg"></a>
+
+March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep">http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>235</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</guid>
       <title>Smog In Western U.S. Starts Out As Pollution In Asia, Researchers Say</title>
@@ -136,12 +234,12 @@ March 2, 2017 - The former Texas governor was confirmed Thursday by a 62-37 vote
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
       <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s800-c15.jpg"></a>
 
 March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.
 
 <a href="http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate">http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-24fa6d7070b8f3aa67348675cd1ae4342765327f-s3000-c15.jpg"></itunes:image>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s3000-c15.jpg"></itunes:image>
       <itunes:duration>395</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -158,98 +256,6 @@ March 1, 2017 - Despite one of the wettest winters on record, California Gov. Je
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought">http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17060770452021_wide-343d56d347454ba165a63aa264e83015f49eb718-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</guid>
-      <title>Birth Control Is Working Better – Or At Least, It&#39;s Failing Less</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</link>
-      <description>March 1, 2017 - Failure rates for the most common forms of contraception are down, but it&#39;s not entirely clear whether it&#39;s due to education, availability, or other reasons.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s800-c15.jpg"></a>
-
-March 1, 2017 - Failure rates for the most common forms of contraception are down, but it's not entirely clear whether it's due to education, availability, or other reasons.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less">http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</guid>
-      <title>This Tiny Patch Of Mold Cost One Lucky Buyer Nearly $15,000</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</link>
-      <description>March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a &#34;holy relic&#34;: some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s800-c15.jpg"></a>
-
-March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a "holy relic": some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000">http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_tiny_fossils_could_be_oldest_evidence_of_life_on_earth.mp3?orgId=1&amp;topicId=1007&amp;d=98&amp;p=3&amp;story=517915868&amp;t=progseg&amp;e=518087519&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Tiny Fossils Could Be Oldest Evidence Of Life On Earth</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517915868/tiny-fossils-could-be-oldest-evidence-of-life-on-earth</link>
-      <description>March 1, 2017 - Scientists say they&#39;ve found the remains of tube- and string-like organisms in Canadian rocks that are at least 3.7 billion years old. But findings like these are always controversial.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_tiny_fossils_could_be_oldest_evidence_of_life_on_earth.mp3?orgId=1&amp;topicId=1007&amp;d=98&amp;p=3&amp;story=517915868&amp;t=progseg&amp;e=518087519&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/image-2-iron_structures3.5_200x_wide-c36151e505707009c6ea3e7124a92a755155921e-s800-c15.jpg"></a>
-
-March 1, 2017 - Scientists say they've found the remains of tube- and string-like organisms in Canadian rocks that are at least 3.7 billion years old. But findings like these are always controversial.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517915868/tiny-fossils-could-be-oldest-evidence-of-life-on-earth">http://www.npr.org/sections/thetwo-way/2017/03/01/517915868/tiny-fossils-could-be-oldest-evidence-of-life-on-earth</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/image-2-iron_structures3.5_200x_wide-c36151e505707009c6ea3e7124a92a755155921e-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>98</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_warmer_temperatures_signal_early_start_to_spring_weather.mp3?orgId=1&amp;topicId=1025&amp;d=193&amp;p=2&amp;story=517988120&amp;t=progseg&amp;e=517895528&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Warmer Temperatures Signal Early Start To Spring Weather</title>
-      <link>http://www.npr.org/2017/03/01/517988120/warmer-temperatures-signal-early-start-to-spring-weather</link>
-      <description>March 1, 2017 - Spring arrived early this year across much of the U.S. NPR&#39;s Audie Cornish talks to Jake Weltzin of the U.S. Geological Survey to find out how we know.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_warmer_temperatures_signal_early_start_to_spring_weather.mp3?orgId=1&amp;topicId=1025&amp;d=193&amp;p=2&amp;story=517988120&amp;t=progseg&amp;e=517895528&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 1, 2017 - Spring arrived early this year across much of the U.S. NPR's Audie Cornish talks to Jake Weltzin of the U.S. Geological Survey to find out how we know.
-
-<a href="http://www.npr.org/2017/03/01/517988120/warmer-temperatures-signal-early-start-to-spring-weather">http://www.npr.org/2017/03/01/517988120/warmer-temperatures-signal-early-start-to-spring-weather</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>193</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_heavy_rainfall_strains_one_of_californias_most_essential_reservoirs.mp3?orgId=1&amp;topicId=1025&amp;d=220&amp;p=2&amp;story=517988113&amp;t=progseg&amp;e=517895528&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Heavy Rainfall Strains One Of California&#39;s Most Essential Reservoirs</title>
-      <link>http://www.npr.org/2017/03/01/517988113/heavy-rainfall-strains-one-of-californias-most-essential-reservoirs</link>
-      <description>March 1, 2017 - Snow surveyors are measuring the health of the snow pack in the high altitude Sierra Nevada. After years of drought, much of the state is now experiencing one of its wettest years on record.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_heavy_rainfall_strains_one_of_californias_most_essential_reservoirs.mp3?orgId=1&amp;topicId=1025&amp;d=220&amp;p=2&amp;story=517988113&amp;t=progseg&amp;e=517895528&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 1, 2017 - Snow surveyors are measuring the health of the snow pack in the high altitude Sierra Nevada. After years of drought, much of the state is now experiencing one of its wettest years on record.
-
-<a href="http://www.npr.org/2017/03/01/517988113/heavy-rainfall-strains-one-of-californias-most-essential-reservoirs">http://www.npr.org/2017/03/01/517988113/heavy-rainfall-strains-one-of-californias-most-essential-reservoirs</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>220</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</guid>
-      <title>Some See &#39;Flat-Fee Primary Care&#39; As A GOP-Friendly Way To Provide Routine Care</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</link>
-      <description>March 1, 2017 - In &#34;direct primary care,&#34; a model favored by HHS Secretary Tom Price, patients pay a monthly fee to doctors for basic health care. But does that really provide better value?</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/stethoscope_wide-b1275df2ba2dd40a90abbfdeef3ab510135feff5-s800-c15.jpg"></a>
-
-March 1, 2017 - In "direct primary care," a model favored by HHS Secretary Tom Price, patients pay a monthly fee to doctors for basic health care. But does that really provide better value?
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care">http://www.npr.org/sections/health-shots/2017/03/01/517761293/some-see-flat-fee-primary-care-as-a-gop-friendly-way-to-provide-routine-care</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/stethoscope_wide-b1275df2ba2dd40a90abbfdeef3ab510135feff5-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

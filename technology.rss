@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2017 17:07:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 15:54:28 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 03 Mar 2017 17:07:42 +0000</pubDate>
+    <pubDate>Sat, 04 Mar 2017 15:54:28 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,49 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</guid>
+      <title>As Amazon Moves In, A Local Bookseller Hopes To Thrive With A Personal Touch</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</link>
+      <description>March 4, 2017 - Amazon has opened its latest brick-and-mortar bookstore — the first on the East Coast. But an independent bookseller in the Boston suburb says: &#34;I think that we&#39;re going to be OK.&#34;</description>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/0228_amazon-03_wide-a09ba1d8b58eb28057df12e8b36346fe02ca1793-s800-c15.jpg"></a>
+
+March 4, 2017 - Amazon has opened its latest brick-and-mortar bookstore — the first on the East Coast. But an independent bookseller in the Boston suburb says: "I think that we're going to be OK."
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch">http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/0228_amazon-03_wide-a09ba1d8b58eb28057df12e8b36346fe02ca1793-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_youtubes_influence.mp3?orgId=1&amp;topicId=1020&amp;d=244&amp;p=7&amp;story=518461970&amp;t=progseg&amp;e=518461849&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>How YouTube Is Changing Our Viewing Habits</title>
+      <link>http://www.npr.org/2017/03/04/518461970/how-youtube-is-changing-our-viewing-habits</link>
+      <description>March 4, 2017 - People watch 1 billion hours of video every day on YouTube. NPR&#39;s Scott Simon talks to Dr. Zeynep Tufekci of the University of North Carolina at Chapel Hill about YouTube&#39;s impact on society.</description>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_youtubes_influence.mp3?orgId=1&amp;topicId=1020&amp;d=244&amp;p=7&amp;story=518461970&amp;t=progseg&amp;e=518461849&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 4, 2017 - People watch 1 billion hours of video every day on YouTube. NPR's Scott Simon talks to Dr. Zeynep Tufekci of the University of North Carolina at Chapel Hill about YouTube's impact on society.
+
+<a href="http://www.npr.org/2017/03/04/518461970/how-youtube-is-changing-our-viewing-habits">http://www.npr.org/2017/03/04/518461970/how-youtube-is-changing-our-viewing-habits</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>244</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools</guid>
+      <title>St. Louis Man Accused Of Making Threats Against Jewish Centers, Schools</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools</link>
+      <description>March 3, 2017 - The threats were allegedly part of the suspect&#39;s cyberstalking campaign against a woman with whom he once had a romantic relationship. Juan Thompson once worked as a reporter at The Intercept.</description>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 3, 2017 - The threats were allegedly part of the suspect's cyberstalking campaign against a woman with whom he once had a romantic relationship. Juan Thompson once worked as a reporter at The Intercept.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools">http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</guid>
       <title>One Big Winner Of Snap&#39;s Even Bigger IPO: A School That Raked In Millions</title>
@@ -205,51 +248,6 @@ March 1, 2017 - Travis Kalanick apologized Tuesday for his actions in a video po
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up">http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/01/gettyimages-461766240_wide-9059dc1d4a247ee25ff130cbc950716834bd0509-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps</guid>
-      <title>Amazon Cloud Outage Disrupts Traffic For Websites, Apps</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps</link>
-      <description>March 1, 2017 - The cloud-computing service went down around midday on Tuesday, and Amazon said the issue was resolved just after 5 p.m. ET. Thousands of companies were affected by the outage.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/gettyimages-515553214_wide-2b57e712b9b218a5a07627e100a2873bb93a5711-s800-c15.jpg"></a>
-
-March 1, 2017 - The cloud-computing service went down around midday on Tuesday, and Amazon said the issue was resolved just after 5 p.m. ET. Thousands of companies were affected by the outage.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps">http://www.npr.org/sections/thetwo-way/2017/03/01/517867769/amazon-cloud-outage-disrupts-traffic-for-websites-apps</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/gettyimages-515553214_wide-2b57e712b9b218a5a07627e100a2873bb93a5711-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities</guid>
-      <title>Lawsuit Alleges That PayPal Diverted Donations To Different Charities</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities</link>
-      <description>February 28, 2017 - The PayPal Giving Fund says it allows donors to give to a charity of their choice. A class action lawsuit claims the company would, with no notification, redirect funds to different organizations.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/gettyimages-454754269_wide-75c2edfd939019cb5acb08a543d3ec38954ed5f2-s800-c15.jpg"></a>
-
-February 28, 2017 - The PayPal Giving Fund says it allows donors to give to a charity of their choice. A class action lawsuit claims the company would, with no notification, redirect funds to different organizations.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities">http://www.npr.org/sections/thetwo-way/2017/02/28/517790137/lawsuit-alleges-that-paypal-diverted-donations-to-different-charities</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/gettyimages-454754269_wide-75c2edfd939019cb5acb08a543d3ec38954ed5f2-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_hmd_global_plans_to_bring_back_nokia_3310_cell_phone.mp3?orgId=1&amp;topicId=1019&amp;d=126&amp;p=2&amp;story=517779794&amp;t=progseg&amp;e=517670891&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>HMD Global Plans To Bring Back Nokia 3310 Cellphone</title>
-      <link>http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone</link>
-      <description>February 28, 2017 - HMD Global will be relaunching the Nokia 3310, the iconic phone that originally came out in 2000 and became one of the best-selling mobile phones ever.</description>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/02/20170228_atc_hmd_global_plans_to_bring_back_nokia_3310_cell_phone.mp3?orgId=1&amp;topicId=1019&amp;d=126&amp;p=2&amp;story=517779794&amp;t=progseg&amp;e=517670891&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[February 28, 2017 - HMD Global will be relaunching the Nokia 3310, the iconic phone that originally came out in 2000 and became one of the best-selling mobile phones ever.
-
-<a href="http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone">http://www.npr.org/2017/02/28/517779794/hmd-global-plans-to-bring-back-nokia-3310-cell-phone</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>126</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
