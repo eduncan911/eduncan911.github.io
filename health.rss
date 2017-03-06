@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2017 15:54:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Mar 2017 01:14:08 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sat, 04 Mar 2017 15:54:25 +0000</pubDate>
+    <pubDate>Mon, 06 Mar 2017 01:14:08 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -23,6 +23,53 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</guid>
+      <title>Thomas Starzl, Trailblazer In Organ Transplantation, Dies At 90</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</link>
+      <description>March 5, 2017 - The doctor, who performed the world&#39;s first liver transplant surgery in 1963, eventually earned the moniker &#34;father of transplantation.&#34;</description>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/05/ap_17064585838189_wide-831e98530fd14c7c82749ad9d4559325e021f5db-s800-c15.jpg"></a>
+
+March 5, 2017 - The doctor, who performed the world's first liver transplant surgery in 1963, eventually earned the moniker "father of transplantation."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90">http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/05/ap_17064585838189_wide-831e98530fd14c7c82749ad9d4559325e021f5db-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170305_wesun_book_-_inferno.mp3?orgId=1&amp;topicId=1033&amp;d=375&amp;p=10&amp;story=518606152&amp;t=progseg&amp;e=518605819&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>A Doctor On Why He Volunteered To Fight Ebola In Liberia</title>
+      <link>http://www.npr.org/2017/03/05/518606152/a-doctor-on-why-he-volunteered-to-fight-ebola-in-liberia</link>
+      <description>March 5, 2017 - In 2014, Dr. Steven Hatch traveled to Liberia to treat people infected with the Ebola virus. NPR&#39;s Mary Louise Kelly talks with him about his new book, Inferno: A Doctor&#39;s Ebola Story.</description>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170305_wesun_book_-_inferno.mp3?orgId=1&amp;topicId=1033&amp;d=375&amp;p=10&amp;story=518606152&amp;t=progseg&amp;e=518605819&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 5, 2017 - In 2014, Dr. Steven Hatch traveled to Liberia to treat people infected with the Ebola virus. NPR's Mary Louise Kelly talks with him about his new book, Inferno: A Doctor's Ebola Story.
+
+<a href="http://www.npr.org/2017/03/05/518606152/a-doctor-on-why-he-volunteered-to-fight-ebola-in-liberia">http://www.npr.org/2017/03/05/518606152/a-doctor-on-why-he-volunteered-to-fight-ebola-in-liberia</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>375</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170305_wesun_no_one_was_prepared_to_care_for_so_many_wounded_in_mosul.mp3?orgId=1&amp;topicId=1027&amp;d=208&amp;p=10&amp;story=518360464&amp;t=progseg&amp;e=518605819&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
+      <title>No One Was Prepared To Care For So Many Wounded In Mosul</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/05/518360464/no-one-was-prepared-to-care-for-so-many-wounded-in-mosul</link>
+      <description>March 5, 2017 - The number of wounded civilians and fighters is higher than expected in the battle to force ISIS from the Iraqi city. Care is coming from several sources, including U.S. forces.</description>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170305_wesun_no_one_was_prepared_to_care_for_so_many_wounded_in_mosul.mp3?orgId=1&amp;topicId=1027&amp;d=208&amp;p=10&amp;story=518360464&amp;t=progseg&amp;e=518605819&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/03/gettyimages-619445684-50_wide-95aa6166ef99a915e0b95eb04a8c57e6108a3b70-s800-c15.jpg"></a>
+
+March 5, 2017 - The number of wounded civilians and fighters is higher than expected in the battle to force ISIS from the Iraqi city. Care is coming from several sources, including U.S. forces.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/05/518360464/no-one-was-prepared-to-care-for-so-many-wounded-in-mosul">http://www.npr.org/sections/goatsandsoda/2017/03/05/518360464/no-one-was-prepared-to-care-for-so-many-wounded-in-mosul</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/gettyimages-619445684-50_wide-95aa6166ef99a915e0b95eb04a8c57e6108a3b70-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>208</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide</guid>
       <title>Menstruation 101 For Boys: A Comic Book Is Their Guide</title>
@@ -209,53 +256,6 @@ March 1, 2017 - Failure rates for the most common forms of contraception are dow
 
 <a href="http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less">http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</guid>
-      <title>This Tiny Patch Of Mold Cost One Lucky Buyer Nearly $15,000</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</link>
-      <description>March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a &#34;holy relic&#34;: some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s800-c15.jpg"></a>
-
-March 1, 2017 - On the mold market — which is a thing, apparently — this bit of green is a "holy relic": some of the mold that helped Alexander Fleming discover penicillin. And it sold for big bucks at auction.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000">http://www.npr.org/sections/thetwo-way/2017/03/01/517979196/this-tiny-patch-of-mold-cost-one-lucky-buyer-nearly-15-000</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17059624550240_wide-a7c9fbcb8861eb318b807b2705af2d9bfb358f26-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_youth_radio_texas_abortion.mp3?orgId=1&amp;topicId=1014&amp;aggIds=4692815&amp;d=341&amp;p=2&amp;story=517988090&amp;t=progseg&amp;e=517895528&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>At Texas Clinic, 2 Women Explain What Changed Their Minds On Abortion</title>
-      <link>http://www.npr.org/2017/03/01/517988090/at-texas-clinic-2-women-explain-what-changed-their-minds-on-abortion</link>
-      <description>March 1, 2017 - Since the election of Donald Trump, the abortion debate has been ramping up. At one clinic in Texas, two women on opposite sides recently changed their minds about how they view abortion.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_youth_radio_texas_abortion.mp3?orgId=1&amp;topicId=1014&amp;aggIds=4692815&amp;d=341&amp;p=2&amp;story=517988090&amp;t=progseg&amp;e=517895528&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/20170121-img_5617_wide-ff04b5b6e3421ea43e5b02c0e8c6180555d346a4-s800-c15.jpg"></a>
-
-March 1, 2017 - Since the election of Donald Trump, the abortion debate has been ramping up. At one clinic in Texas, two women on opposite sides recently changed their minds about how they view abortion.
-
-<a href="http://www.npr.org/2017/03/01/517988090/at-texas-clinic-2-women-explain-what-changed-their-minds-on-abortion">http://www.npr.org/2017/03/01/517988090/at-texas-clinic-2-women-explain-what-changed-their-minds-on-abortion</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/20170121-img_5617_wide-ff04b5b6e3421ea43e5b02c0e8c6180555d346a4-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>341</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</guid>
-      <title>Michigan Ends Water Subsidies To Flint Despite Mayor&#39;s Opposition</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</link>
-      <description>March 1, 2017 - The city&#39;s crisis over lead-laced water dates back to 2014, and the state has paid more than $40 million in credits for the unsafe water in an effort to ease the burden for residents.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17024661727821_wide-9d1c5469597d2bf88ce4b8a74b2f443fee2c5f35-s800-c15.jpg"></a>
-
-March 1, 2017 - The city's crisis over lead-laced water dates back to 2014, and the state has paid more than $40 million in credits for the unsafe water in an effort to ease the burden for residents.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition">http://www.npr.org/sections/thetwo-way/2017/03/01/517932477/michigan-ends-water-subsidies-to-flint-despite-mayors-opposition</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17024661727821_wide-9d1c5469597d2bf88ce4b8a74b2f443fee2c5f35-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

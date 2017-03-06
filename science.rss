@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2017 15:54:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Mar 2017 01:14:07 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sat, 04 Mar 2017 15:54:30 +0000</pubDate>
+    <pubDate>Mon, 06 Mar 2017 01:14:07 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,36 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</guid>
+      <title>Thomas Starzl, Trailblazer In Organ Transplantation, Dies At 90</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</link>
+      <description>March 5, 2017 - The doctor, who performed the world&#39;s first liver transplant surgery in 1963, eventually earned the moniker &#34;father of transplantation.&#34;</description>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/05/ap_17064585838189_wide-831e98530fd14c7c82749ad9d4559325e021f5db-s800-c15.jpg"></a>
+
+March 5, 2017 - The doctor, who performed the world's first liver transplant surgery in 1963, eventually earned the moniker "father of transplantation."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90">http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/05/ap_17064585838189_wide-831e98530fd14c7c82749ad9d4559325e021f5db-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170304_atc_no_snow_for_chicago.mp3?orgId=1&amp;topicId=1091&amp;d=120&amp;p=2&amp;story=518527669&amp;t=progseg&amp;e=518474905&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>For The First Time In 146 Years Chicago Goes Without Snow During January And February</title>
+      <link>http://www.npr.org/2017/03/04/518527669/for-the-first-time-in-146-years-chicago-goes-without-snow-during-january-and-feb</link>
+      <description>March 4, 2017 - Tom Skilling, chief meteorologist for WGN-TV and The Chicago Tribune, talks about the Windy City&#39;s changing weather, specifically the record-breaking lack of snow this year.</description>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170304_atc_no_snow_for_chicago.mp3?orgId=1&amp;topicId=1091&amp;d=120&amp;p=2&amp;story=518527669&amp;t=progseg&amp;e=518474905&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 4, 2017 - Tom Skilling, chief meteorologist for WGN-TV and The Chicago Tribune, talks about the Windy City's changing weather, specifically the record-breaking lack of snow this year.
+
+<a href="http://www.npr.org/2017/03/04/518527669/for-the-first-time-in-146-years-chicago-goes-without-snow-during-january-and-feb">http://www.npr.org/2017/03/04/518527669/for-the-first-time-in-146-years-chicago-goes-without-snow-during-january-and-feb</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>120</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_doctor_launches_vision_quest_to_help_astronauts_eyeballs.mp3?orgId=77&amp;topicId=1128&amp;d=287&amp;p=7&amp;story=518214299&amp;t=progseg&amp;e=518461849&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
       <title>Doctor Launches Vision Quest To Help Astronauts&#39; Eyeballs</title>
@@ -224,38 +254,6 @@ March 2, 2017 - The former Texas governor was confirmed Thursday by a 62-37 vote
 <a href="http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination">http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>216</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Embryo Experiments Reveal Earliest Human Development, But Stir Ethical Debate</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</link>
-      <description>March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s800-c15.jpg"></a>
-
-March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate">http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>395</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</guid>
-      <title>Sierra Snowpack Smacks California&#39;s Drought</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</link>
-      <description>March 1, 2017 - Despite one of the wettest winters on record, California Gov. Jerry Brown hasn&#39;t declared the five-year drought over yet. But the water shortages may to be over.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/ap_17060770452021_wide-343d56d347454ba165a63aa264e83015f49eb718-s800-c15.jpg"></a>
-
-March 1, 2017 - Despite one of the wettest winters on record, California Gov. Jerry Brown hasn't declared the five-year drought over yet. But the water shortages may to be over.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought">http://www.npr.org/sections/thetwo-way/2017/03/01/518042343/sierra-snowpack-smacks-california-s-drought</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/ap_17060770452021_wide-343d56d347454ba165a63aa264e83015f49eb718-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

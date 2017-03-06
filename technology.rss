@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2017 15:54:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Mar 2017 01:14:05 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sat, 04 Mar 2017 15:54:28 +0000</pubDate>
+    <pubDate>Mon, 06 Mar 2017 01:14:05 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,21 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170305_atc_nintendo_switch.mp3?orgId=1&amp;topicId=1019&amp;d=209&amp;p=2&amp;story=518663843&amp;t=progseg&amp;e=518663788&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Does Nintendo&#39;s New Console Signal A &#39;Switch&#39; For The Video Game Market?</title>
+      <link>http://www.npr.org/2017/03/05/518663843/does-nintendos-new-console-signal-a-switch-for-the-video-game-market</link>
+      <description>March 5, 2017 - There&#39;s hype surrounding Nintendo&#39;s first home-to-handheld hybrid console, Switch. Wall Street Journal technology reporter Nathan Olivarez-Giles says this could be a make or break moment for Nintendo.</description>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170305_atc_nintendo_switch.mp3?orgId=1&amp;topicId=1019&amp;d=209&amp;p=2&amp;story=518663843&amp;t=progseg&amp;e=518663788&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 5, 2017 - There's hype surrounding Nintendo's first home-to-handheld hybrid console, Switch. Wall Street Journal technology reporter Nathan Olivarez-Giles says this could be a make or break moment for Nintendo.
+
+<a href="http://www.npr.org/2017/03/05/518663843/does-nintendos-new-console-signal-a-switch-for-the-video-game-market">http://www.npr.org/2017/03/05/518663843/does-nintendos-new-console-signal-a-switch-for-the-video-game-market</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>209</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</guid>
       <title>As Amazon Moves In, A Local Bookseller Hopes To Thrive With A Personal Touch</title>
@@ -233,21 +248,6 @@ March 2, 2017 - After pricing its initial public offering of 200 million nonvoti
 <a href="http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver">http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>188</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</guid>
-      <title>After Video Of Dispute With Driver, Uber CEO Says He Needs To &#39;Grow Up&#39;</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</link>
-      <description>March 1, 2017 - Travis Kalanick apologized Tuesday for his actions in a video posted this week, in which Kalanick had a heated argument with an Uber driver after the driver raised complaints about pay.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/gettyimages-461766240_wide-9059dc1d4a247ee25ff130cbc950716834bd0509-s800-c15.jpg"></a>
-
-March 1, 2017 - Travis Kalanick apologized Tuesday for his actions in a video posted this week, in which Kalanick had a heated argument with an Uber driver after the driver raised complaints about pay.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up">http://www.npr.org/sections/thetwo-way/2017/03/01/517905730/after-video-of-fight-with-driver-uber-ceo-says-he-needs-to-grow-up</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/gettyimages-461766240_wide-9059dc1d4a247ee25ff130cbc950716834bd0509-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
