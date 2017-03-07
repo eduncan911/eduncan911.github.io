@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2017 01:14:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Mar 2017 14:56:10 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Mon, 06 Mar 2017 01:14:05 +0000</pubDate>
+    <pubDate>Tue, 07 Mar 2017 14:56:10 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,145 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_facebook_enlists_fact-checkers_to_probe_disputed_posts.mp3?orgId=1&amp;topicId=1006&amp;d=95&amp;p=3&amp;story=518956912&amp;t=progseg&amp;e=518938637&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Facebook Enlists Fact-Checkers To Probe Disputed Stories</title>
+      <link>http://www.npr.org/2017/03/07/518956912/facebook-enlists-fact-checkers-to-probe-disputed-stories</link>
+      <description>March 7, 2017 - Facebook has been criticized for providing a platform to fake news stories, especially during the presidential campaign. It is working with independent fact-checkers to examine flagged stories.</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_facebook_enlists_fact-checkers_to_probe_disputed_posts.mp3?orgId=1&amp;topicId=1006&amp;d=95&amp;p=3&amp;story=518956912&amp;t=progseg&amp;e=518938637&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 7, 2017 - Facebook has been criticized for providing a platform to fake news stories, especially during the presidential campaign. It is working with independent fact-checkers to examine flagged stories.
+
+<a href="http://www.npr.org/2017/03/07/518956912/facebook-enlists-fact-checkers-to-probe-disputed-stories">http://www.npr.org/2017/03/07/518956912/facebook-enlists-fact-checkers-to-probe-disputed-stories</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>95</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_energy_savings_can_be_fun_but_no_need_to_turn_off_all_the_lights.mp3?orgId=1&amp;topicId=1019&amp;d=202&amp;p=3&amp;story=518175670&amp;t=progseg&amp;e=518938637&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Energy Savings Can Be Fun, But No Need To Turn Off All The Lights</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/07/518175670/energy-savings-can-be-fun-but-no-need-to-turn-off-all-the-lights</link>
+      <description>March 7, 2017 - From counting steps to hours of sleep, many people are tracking aspects of their lives. Now one company is merging energy saving with the interest in quantifying — making lowering electricity a game.</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_energy_savings_can_be_fun_but_no_need_to_turn_off_all_the_lights.mp3?orgId=1&amp;topicId=1019&amp;d=202&amp;p=3&amp;story=518175670&amp;t=progseg&amp;e=518938637&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/steve-reed_ohmconnect-edit_wide-ba3d5583adac3e9f3aa81300db86e7c2a1935a9c-s800-c15.jpg"></a>
+
+March 7, 2017 - From counting steps to hours of sleep, many people are tracking aspects of their lives. Now one company is merging energy saving with the interest in quantifying — making lowering electricity a game.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/07/518175670/energy-savings-can-be-fun-but-no-need-to-turn-off-all-the-lights">http://www.npr.org/sections/alltechconsidered/2017/03/07/518175670/energy-savings-can-be-fun-but-no-need-to-turn-off-all-the-lights</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/steve-reed_ohmconnect-edit_wide-ba3d5583adac3e9f3aa81300db86e7c2a1935a9c-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>202</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications</guid>
+      <title>FAQ: On Alleged Wiretaps Of Trump Communications</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications</link>
+      <description>March 6, 2017 - President Trump accused his predecessor of monitoring his communications. Here is a rundown of the allegations, federal surveillance powers, and what we do and don&#39;t know.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/06/ap_17055806448716_wide-3b1cf86ea64e2b16865fefe323731a1af171b656-s800-c15.jpg"></a>
+
+March 6, 2017 - President Trump accused his predecessor of monitoring his communications. Here is a rundown of the allegations, federal surveillance powers, and what we do and don't know.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications">http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/ap_17055806448716_wide-3b1cf86ea64e2b16865fefe323731a1af171b656-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_smartphone_software_makes_it_cheaper_to_spy_from_a_distance.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=518858280&amp;t=progseg&amp;e=518750642&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Smartphone Software Makes It Cheaper To Spy From A Distance</title>
+      <link>http://www.npr.org/2017/03/06/518858280/smartphone-software-makes-it-cheaper-to-spy-from-a-distance</link>
+      <description>March 6, 2017 - NPR&#39;s Robert Siegel talks with Joseph Cox, a reporter for the tech website, &#34;Motherboard,&#34; about how he tracked himself with $170 smartphone spyware that anyone can buy.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_smartphone_software_makes_it_cheaper_to_spy_from_a_distance.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=518858280&amp;t=progseg&amp;e=518750642&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 6, 2017 - NPR's Robert Siegel talks with Joseph Cox, a reporter for the tech website, "Motherboard," about how he tracked himself with $170 smartphone spyware that anyone can buy.
+
+<a href="http://www.npr.org/2017/03/06/518858280/smartphone-software-makes-it-cheaper-to-spy-from-a-distance">http://www.npr.org/2017/03/06/518858280/smartphone-software-makes-it-cheaper-to-spy-from-a-distance</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_emojis_begin_cropping_up_outside_of_your_smartphone.mp3?orgId=1&amp;topicId=1019&amp;d=198&amp;p=2&amp;story=518858273&amp;t=progseg&amp;e=518750642&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Emojis Begin Cropping Up Outside Of Your Smartphone</title>
+      <link>http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone</link>
+      <description>March 6, 2017 - Emojis — those little cartoon figures used by some people on smartphones — have became popular as design motifs in the real world.&#xA;&#xA; - http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_emojis_begin_cropping_up_outside_of_your_smartphone.mp3?orgId=1&amp;topicId=1019&amp;d=198&amp;p=2&amp;story=518858273&amp;t=progseg&amp;e=518750642&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 6, 2017 - Emojis — those little cartoon figures used by some people on smartphones — have became popular as design motifs in the real world.
+
+<a href="http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone">http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>198</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</guid>
+      <title>WATCH: Tracking Lightning Strikes, From Space</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</link>
+      <description>March 6, 2017 - NOAA&#39;s new weather satellite is carrying the first lightning detector ever parked in orbit over Earth. It has sent back its first images of real-time lightning storms in the Western Hemisphere.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s800-c15.jpg"></a>
+
+March 6, 2017 - NOAA's new weather satellite is carrying the first lightning detector ever parked in orbit over Earth. It has sent back its first images of real-time lightning storms in the Western Hemisphere.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space">http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</guid>
+      <title>Feeling Lonely? Too Much Time On Social Media May Be Why </title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</link>
+      <description>March 6, 2017 - It&#39;s not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s800-c15.jpg"></a>
+
+March 6, 2017 - It's not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why">http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_h-1b_visa_debate_are_foreigner_tech_workers_hired_over_americans.mp3?orgId=329&amp;topicId=1014&amp;d=273&amp;p=3&amp;story=518743020&amp;t=progseg&amp;e=518723360&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>H-1B Visa Debate: Are Foreign Tech Workers Hired Over Americans?</title>
+      <link>http://www.npr.org/2017/03/06/518743020/h-1b-visa-debate-are-foreign-tech-workers-hired-over-americans</link>
+      <description>March 6, 2017 - Many employers say they need H-1B workers because of a talent shortage among U.S. tech companies. But some Americans say the program that allows foreigners to be hired has put them out of work.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_h-1b_visa_debate_are_foreigner_tech_workers_hired_over_americans.mp3?orgId=329&amp;topicId=1014&amp;d=273&amp;p=3&amp;story=518743020&amp;t=progseg&amp;e=518723360&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 6, 2017 - Many employers say they need H-1B workers because of a talent shortage among U.S. tech companies. But some Americans say the program that allows foreigners to be hired has put them out of work.
+
+<a href="http://www.npr.org/2017/03/06/518743020/h-1b-visa-debate-are-foreign-tech-workers-hired-over-americans">http://www.npr.org/2017/03/06/518743020/h-1b-visa-debate-are-foreign-tech-workers-hired-over-americans</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>273</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_s_korea_n_korea_test-fires_handful_of_unknown_projectiles_into_japan_waters.mp3?orgId=1&amp;topicId=1125&amp;d=126&amp;p=3&amp;story=518695871&amp;t=progseg&amp;e=518723360&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>S. Korea: North Test-Fires Handful Of &#39;Unknown Projectiles&#39; Into Japan Waters</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/05/518695871/s-korea-n-korea-test-fires-handful-of-unknown-projectiles-into-japan-waters</link>
+      <description>March 5, 2017 - The projectiles were launched Sunday from near North Korea&#39;s missile base of Tongchang-ri, says South Korea&#39;s military. At least one of the missiles flew about 620 miles.</description>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_s_korea_n_korea_test-fires_handful_of_unknown_projectiles_into_japan_waters.mp3?orgId=1&amp;topicId=1125&amp;d=126&amp;p=3&amp;story=518695871&amp;t=progseg&amp;e=518723360&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/05/gettyimages-635363294_wide-18ab4545d481fcdc563bc9900c41f35774ae5b8c-s800-c15.jpg"></a>
+
+March 5, 2017 - The projectiles were launched Sunday from near North Korea's missile base of Tongchang-ri, says South Korea's military. At least one of the missiles flew about 620 miles.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/05/518695871/s-korea-n-korea-test-fires-handful-of-unknown-projectiles-into-japan-waters">http://www.npr.org/sections/thetwo-way/2017/03/05/518695871/s-korea-n-korea-test-fires-handful-of-unknown-projectiles-into-japan-waters</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/05/gettyimages-635363294_wide-18ab4545d481fcdc563bc9900c41f35774ae5b8c-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>126</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170305_atc_nintendo_switch.mp3?orgId=1&amp;topicId=1019&amp;d=209&amp;p=2&amp;story=518663843&amp;t=progseg&amp;e=518663788&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
       <title>Does Nintendo&#39;s New Console Signal A &#39;Switch&#39; For The Video Game Market?</title>
@@ -109,145 +248,6 @@ March 3, 2017 - Amazon said a mistyped command caused part of the company's clou
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo">http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/03/ap_16287435798944_wide-eb3e4d38a9526ca46fcf12582c3744628e1da967-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</guid>
-      <title>Rise Of The Robot Bees: Tiny Drones Turned Into Artificial Pollinators</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</link>
-      <description>March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s800-c15.jpg"></a>
-
-March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.
-
-<a href="http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators">http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170303_me_new_orleans_police_use_of_body_cameras_brings_benefits_and_new_burdens.mp3?orgId=1&amp;topicId=1019&amp;d=229&amp;p=3&amp;story=517930343&amp;t=progseg&amp;e=518278993&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
-      <title>New Orleans&#39; Police Use Of Body Cameras Brings Benefits And New Burdens</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/03/517930343/new-orleans-police-use-of-body-cameras-brings-benefits-and-new-burdens</link>
-      <description>March 3, 2017 - The technology has improved police conduct and led to a drop in certain types of cases. But the body cams have added many extra hours of work watching videos for police and public defenders.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170303_me_new_orleans_police_use_of_body_cameras_brings_benefits_and_new_burdens.mp3?orgId=1&amp;topicId=1019&amp;d=229&amp;p=3&amp;story=517930343&amp;t=progseg&amp;e=518278993&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/gettyimages-149191836_wide-5949ec15c1ac0ad9ed8f29eb5492d96e02463b69-s800-c15.jpg"></a>
-
-March 3, 2017 - The technology has improved police conduct and led to a drop in certain types of cases. But the body cams have added many extra hours of work watching videos for police and public defenders.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/03/517930343/new-orleans-police-use-of-body-cameras-brings-benefits-and-new-burdens">http://www.npr.org/sections/alltechconsidered/2017/03/03/517930343/new-orleans-police-use-of-body-cameras-brings-benefits-and-new-burdens</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/gettyimages-149191836_wide-5949ec15c1ac0ad9ed8f29eb5492d96e02463b69-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>229</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor</guid>
-      <title>Mike Pence Used AOL Email For State Business As Indiana&#39;s Governor</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor</link>
-      <description>March 3, 2017 - Public records obtained by The Indianapolis Star show that Pence communicated with advisers about security issues using the AOL account, which was hacked last year.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/gettyimages-468209962_wide-edaf92725401fbebcc9e7aa0c49747b86433b5e1-s800-c15.jpg"></a>
-
-March 3, 2017 - Public records obtained by The Indianapolis Star show that Pence communicated with advisers about security issues using the AOL account, which was hacked last year.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor">http://www.npr.org/sections/thetwo-way/2017/03/03/518286557/mike-pence-used-aol-email-for-state-business-as-indiana-governor</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/gettyimages-468209962_wide-edaf92725401fbebcc9e7aa0c49747b86433b5e1-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_snapchat_goes_public_in_largest_tech_ipo_since_alibaba.mp3?orgId=1&amp;topicId=1019&amp;d=238&amp;p=2&amp;story=518197167&amp;t=progseg&amp;e=518103527&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Snapchat Goes Public In Largest Tech IPO Since Alibaba</title>
-      <link>http://www.npr.org/2017/03/02/518197167/snapchat-goes-public-in-largest-tech-ipo-since-alibaba</link>
-      <description>March 2, 2017 - The popular video messaging service Snapchat went public Thursday under the name Snap Inc. It&#39;s the largest tech IPO since Alibaba in 2014. But Snap faces big obstacles, including how to broaden its audience, boost advertising sales and fend off competitors.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_snapchat_goes_public_in_largest_tech_ipo_since_alibaba.mp3?orgId=1&amp;topicId=1019&amp;d=238&amp;p=2&amp;story=518197167&amp;t=progseg&amp;e=518103527&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 2, 2017 - The popular video messaging service Snapchat went public Thursday under the name Snap Inc. It's the largest tech IPO since Alibaba in 2014. But Snap faces big obstacles, including how to broaden its audience, boost advertising sales and fend off competitors.
-
-<a href="http://www.npr.org/2017/03/02/518197167/snapchat-goes-public-in-largest-tech-ipo-since-alibaba">http://www.npr.org/2017/03/02/518197167/snapchat-goes-public-in-largest-tech-ipo-since-alibaba</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>238</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet</guid>
-      <title>China Describes Its Vision Of Government-Controlled Internet</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet</link>
-      <description>March 2, 2017 - In its first cyber policy paper, the Chinese government emphasize the idea that each country should govern the Internet as it sees fit, and insisted that the Internet in China is &#34;fully open.&#34;</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_16312221890701_wide-87195b5fe3ab0883cc57be93c8c72b3429911299-s800-c15.jpg"></a>
-
-March 2, 2017 - In its first cyber policy paper, the Chinese government emphasize the idea that each country should govern the Internet as it sees fit, and insisted that the Internet in China is "fully open."
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet">http://www.npr.org/sections/thetwo-way/2017/03/02/518142482/china-describes-its-vision-of-government-controlled-internet</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_16312221890701_wide-87195b5fe3ab0883cc57be93c8c72b3429911299-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_parent_alert_your_child_just_skipped_class.mp3?orgId=1&amp;topicId=1013&amp;d=236&amp;p=2&amp;story=517757199&amp;t=progseg&amp;e=518103527&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Parent Alert! Your Child Just Skipped Class</title>
-      <link>http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</link>
-      <description>March 2, 2017 - In a study, automated text messages to parents reduced absences and the number of F&#39;s earned by high school students.&#xA;&#xA; - http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_parent_alert_your_child_just_skipped_class.mp3?orgId=1&amp;topicId=1013&amp;d=236&amp;p=2&amp;story=517757199&amp;t=progseg&amp;e=518103527&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/text-helper_wide-91b4d28a539ee310b203059319cb6ab027edcbf5-s800-c15.jpg"></a>
-
-March 2, 2017 - In a study, automated text messages to parents reduced absences and the number of F's earned by high school students.
-
-<a href="http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class">http://www.npr.org/sections/ed/2017/03/02/517757199/parent-alert-your-child-just-skipped-class</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/text-helper_wide-91b4d28a539ee310b203059319cb6ab027edcbf5-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>236</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</guid>
-      <title>Someday Disposable Drones May Deliver A Payload, Then Vanish </title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</link>
-      <description>March 2, 2017 - DARPA, the Pentagon&#39;s R&amp;D agency, is working with partners to develop low-cost gliders that travel about 100 miles and disappear within hours. The vehicles could have humanitarian and military uses.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/24/otherlab-drone_wide-e755fddc137fa72ef3edc98297ca2f8c2f0c22fe-s800-c15.jpg"></a>
-
-March 2, 2017 - DARPA, the Pentagon's R&D agency, is working with partners to develop low-cost gliders that travel about 100 miles and disappear within hours. The vehicles could have humanitarian and military uses.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish">http://www.npr.org/sections/alltechconsidered/2017/03/02/517043932/someday-disposable-drones-may-deliver-their-load-then-vanish</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/24/otherlab-drone_wide-e755fddc137fa72ef3edc98297ca2f8c2f0c22fe-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</guid>
-      <title>Snapchat Parent&#39;s Stock Soars By 50 Percent On First Day Of Trading</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</link>
-      <description>March 2, 2017 - After pricing its initial public offering of 200 million nonvoting shares at $17 each, Snap Inc., saw the stock rise to more than $25 a share.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_17060817295571_wide-b4325a1c5053688e4a4ec43849b33713af7e5b13-s800-c15.jpg"></a>
-
-March 2, 2017 - After pricing its initial public offering of 200 million nonvoting shares at $17 each, Snap Inc., saw the stock rise to more than $25 a share.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday">http://www.npr.org/sections/thetwo-way/2017/03/02/518081927/snapchat-parent-to-begin-trading-on-the-new-york-stock-exchange-thursday</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_17060817295571_wide-b4325a1c5053688e4a4ec43849b33713af7e5b13-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_uber_ceo_apologizes_over_video_of_dispute_with_driver.mp3?orgId=1&amp;topicId=1019&amp;d=188&amp;p=2&amp;story=517988142&amp;t=progseg&amp;e=517895528&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Uber CEO Apologizes Over Video Of Dispute With Driver</title>
-      <link>http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver</link>
-      <description>March 1, 2017 - Uber&#39;s founder Travis Kalanick says he needs leadership help. The frank acknowledgement comes after video surfaced of him berating an Uber driver, and follows a blistering blog post by a  former engineer who said she was subjected to repeated sexual harassment and the company failed to stop it. The question many are asking now is whether Kalanick can continue to serve as the public face of the company he created.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170301_atc_uber_ceo_apologizes_over_video_of_dispute_with_driver.mp3?orgId=1&amp;topicId=1019&amp;d=188&amp;p=2&amp;story=517988142&amp;t=progseg&amp;e=517895528&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 1, 2017 - Uber's founder Travis Kalanick says he needs leadership help. The frank acknowledgement comes after video surfaced of him berating an Uber driver, and follows a blistering blog post by a  former engineer who said she was subjected to repeated sexual harassment and the company failed to stop it. The question many are asking now is whether Kalanick can continue to serve as the public face of the company he created.
-
-<a href="http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver">http://www.npr.org/2017/03/01/517988142/uber-ceo-apologizes-over-video-of-dispute-with-driver</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>188</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

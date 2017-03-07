@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2017 01:14:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Mar 2017 14:56:09 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Mon, 06 Mar 2017 01:14:08 +0000</pubDate>
+    <pubDate>Tue, 07 Mar 2017 14:56:09 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -23,6 +23,158 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/07/518980280/gop-senators-ask-gao-to-investigate-high-prices-for-orphan-drugs</guid>
+      <title>GOP Senators Ask GAO To Investigate High Prices For Orphan Drugs</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/07/518980280/gop-senators-ask-gao-to-investigate-high-prices-for-orphan-drugs</link>
+      <description>March 7, 2017 - Amid an uproar over soaring drug prices, three GOP senators are seeking an investigation into whether the Orphan Drug Act is being manipulated to jack up the cost of medications for rare diseases.</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/07/ap_16118626859347_wide-baa21b04c6b5fb1d182b4b26c4ae9397bbd10593-s800-c15.jpg"></a>
+
+March 7, 2017 - Amid an uproar over soaring drug prices, three GOP senators are seeking an investigation into whether the Orphan Drug Act is being manipulated to jack up the cost of medications for rare diseases.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/07/518980280/gop-senators-ask-gao-to-investigate-high-prices-for-orphan-drugs">http://www.npr.org/sections/health-shots/2017/03/07/518980280/gop-senators-ask-gao-to-investigate-high-prices-for-orphan-drugs</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/ap_16118626859347_wide-baa21b04c6b5fb1d182b4b26c4ae9397bbd10593-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_gop_bill_would_repeal_parts_of_obamacare_retain_some_subsidies.mp3?orgId=1&amp;topicId=1014&amp;d=257&amp;p=3&amp;story=518956919&amp;t=progseg&amp;e=518938637&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
+      <title>GOP Bill: Repeals Parts Of Obamacare, Retains Some Subsidies</title>
+      <link>http://www.npr.org/2017/03/07/518956919/gop-bill-repeals-parts-of-obamacare-retains-some-subsidies</link>
+      <description>March 7, 2017 - House Republicans have released their plan to reshape the Affordable Care Act, also known as Obamacare. It faces challenges from within the party, interest groups and the public.</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_gop_bill_would_repeal_parts_of_obamacare_retain_some_subsidies.mp3?orgId=1&amp;topicId=1014&amp;d=257&amp;p=3&amp;story=518956919&amp;t=progseg&amp;e=518938637&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 7, 2017 - House Republicans have released their plan to reshape the Affordable Care Act, also known as Obamacare. It faces challenges from within the party, interest groups and the public.
+
+<a href="http://www.npr.org/2017/03/07/518956919/gop-bill-repeals-parts-of-obamacare-retains-some-subsidies">http://www.npr.org/2017/03/07/518956919/gop-bill-repeals-parts-of-obamacare-retains-some-subsidies</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>257</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_kodjak.mp3?orgId=1&amp;topicId=1014&amp;d=205&amp;p=2&amp;story=518888233&amp;t=progseg&amp;e=518750642&amp;seg=21&amp;siteplayer=true&amp;dl=1</guid>
+      <title>House Republicans Release Affordable Care Act Replacement Bill</title>
+      <link>http://www.npr.org/2017/03/06/518888233/house-republicans-release-affordable-care-act-replacement-bill</link>
+      <description>March 6, 2017 - House Republicans released their plan on Monday to redo the Affordable Care Act. Congressional Republicans have voted several times to repeal the law, but President Obama vetoed those attempts.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_kodjak.mp3?orgId=1&amp;topicId=1014&amp;d=205&amp;p=2&amp;story=518888233&amp;t=progseg&amp;e=518750642&amp;seg=21&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 6, 2017 - House Republicans released their plan on Monday to redo the Affordable Care Act. Congressional Republicans have voted several times to repeal the law, but President Obama vetoed those attempts.
+
+<a href="http://www.npr.org/2017/03/06/518888233/house-republicans-release-affordable-care-act-replacement-bill">http://www.npr.org/2017/03/06/518888233/house-republicans-release-affordable-care-act-replacement-bill</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>205</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518864390/gop-bill-would-repeal-obamacare-taxes-and-penalties-keep-some-subsidies</guid>
+      <title>GOP Bill Would Repeal Obamacare Taxes And Penalties, Keep Some Subsidies</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518864390/gop-bill-would-repeal-obamacare-taxes-and-penalties-keep-some-subsidies</link>
+      <description>March 6, 2017 - After weeks of internal debate, House Republicans have released their plan for the Affordable Care Act, aka Obamacare. It faces challenges from within the GOP, from interest groups — and the public.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/06/paulryan_wide-3442439b75f920f4b5e32dffaf28c1729afd0875-s800-c15.jpg"></a>
+
+March 6, 2017 - After weeks of internal debate, House Republicans have released their plan for the Affordable Care Act, aka Obamacare. It faces challenges from within the GOP, from interest groups — and the public.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518864390/gop-bill-would-repeal-obamacare-taxes-and-penalties-keep-some-subsidies">http://www.npr.org/sections/health-shots/2017/03/06/518864390/gop-bill-would-repeal-obamacare-taxes-and-penalties-keep-some-subsidies</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/paulryan_wide-3442439b75f920f4b5e32dffaf28c1729afd0875-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_new_study_reveals_benefits_of_soy_for_breast_cancer_survivors.mp3?orgId=1&amp;topicId=1128&amp;d=153&amp;p=2&amp;story=518858364&amp;t=progseg&amp;e=518750642&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
+      <title>New Study Reveals Benefits Of Soy For Breast Cancer Survivors</title>
+      <link>http://www.npr.org/2017/03/06/518858364/new-study-reveals-benefits-of-soy-for-breast-cancer-survivors</link>
+      <description>March 6, 2017 - A new study shows many breast cancer survivors benefit from a diet that includes soy, such as soy milk and tofu. The study comes as alternative plant-based proteins boom.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_new_study_reveals_benefits_of_soy_for_breast_cancer_survivors.mp3?orgId=1&amp;topicId=1128&amp;d=153&amp;p=2&amp;story=518858364&amp;t=progseg&amp;e=518750642&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 6, 2017 - A new study shows many breast cancer survivors benefit from a diet that includes soy, such as soy milk and tofu. The study comes as alternative plant-based proteins boom.
+
+<a href="http://www.npr.org/2017/03/06/518858364/new-study-reveals-benefits-of-soy-for-breast-cancer-survivors">http://www.npr.org/2017/03/06/518858364/new-study-reveals-benefits-of-soy-for-breast-cancer-survivors</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>153</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out</guid>
+      <title>Reports Of Medical Breakthroughs Often Don&#39;t Prove Out</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out</link>
+      <description>March 6, 2017 - Medical breakthroughs that were covered by newspapers were often later disproved by more comprehensive research, a study finds. That&#39;s a problem for scientists and journalists.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/06/newsstand_wide-8067f6fbad545aeb1be13bdbafee5095cfeacd5f-s800-c15.jpg"></a>
+
+March 6, 2017 - Medical breakthroughs that were covered by newspapers were often later disproved by more comprehensive research, a study finds. That's a problem for scientists and journalists.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out">http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/newsstand_wide-8067f6fbad545aeb1be13bdbafee5095cfeacd5f-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/06/518152471/unscrambling-the-nutrition-science-on-eggs</guid>
+      <title>Unscrambling The Nutrition Science On Eggs</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/06/518152471/unscrambling-the-nutrition-science-on-eggs</link>
+      <description>March 6, 2017 - As more research suggests some degree of dietary cholesterol is harmless, if not healthy, the egg&#39;s reputation is slowly returning. Yet some experts worry the science is being misinterpreted and spun.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/02/egg3_wide-0da09fff7cfa97f8994ed7136d7675c5c99d34e2-s800-c15.jpg"></a>
+
+March 6, 2017 - As more research suggests some degree of dietary cholesterol is harmless, if not healthy, the egg's reputation is slowly returning. Yet some experts worry the science is being misinterpreted and spun.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/06/518152471/unscrambling-the-nutrition-science-on-eggs">http://www.npr.org/sections/thesalt/2017/03/06/518152471/unscrambling-the-nutrition-science-on-eggs</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/egg3_wide-0da09fff7cfa97f8994ed7136d7675c5c99d34e2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</guid>
+      <title>Feeling Lonely? Too Much Time On Social Media May Be Why </title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</link>
+      <description>March 6, 2017 - It&#39;s not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s800-c15.jpg"></a>
+
+March 6, 2017 - It's not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why">http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips</guid>
+      <title>Did You Get Bit By A Lyme-Infested Tick? Here&#39;s What To Do</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips</link>
+      <description>March 6, 2017 - One scientist is predicting a risky year for tick-borne Lyme disease in the Northeast, and it&#39;s spreading. But don&#39;t panic. We&#39;ve got tips.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/03/tick_wide-347a1637b5ebb511977e57006bdaf152babb864e-s800-c15.jpg"></a>
+
+March 6, 2017 - One scientist is predicting a risky year for tick-borne Lyme disease in the Northeast, and it's spreading. But don't panic. We've got tips.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips">http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/tick_wide-347a1637b5ebb511977e57006bdaf152babb864e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_forbidding_forecast_for_lyme_disease_in_the_northeast.mp3?orgId=1&amp;topicId=1128&amp;aggIds=512014971&amp;d=389&amp;p=3&amp;story=518219485&amp;t=progseg&amp;e=518723360&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Forbidding Forecast For Lyme Disease In The Northeast</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/06/518219485/forbidding-forecast-for-lyme-disease-in-the-northeast</link>
+      <description>March 6, 2017 - Lyme disease is spreading, and this summer is shaping up as a whopper. Why has the tick-borne illness gotten so bad? The answer traces back to something the colonists did more than 200 years ago.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_forbidding_forecast_for_lyme_disease_in_the_northeast.mp3?orgId=1&amp;topicId=1128&amp;aggIds=512014971&amp;d=389&amp;p=3&amp;story=518219485&amp;t=progseg&amp;e=518723360&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/03/orig-map-2015_wide-5f3f06092114f649654a9d3514c2b350d3243b39-s800-c15.jpg"></a>
+
+March 6, 2017 - Lyme disease is spreading, and this summer is shaping up as a whopper. Why has the tick-borne illness gotten so bad? The answer traces back to something the colonists did more than 200 years ago.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/06/518219485/forbidding-forecast-for-lyme-disease-in-the-northeast">http://www.npr.org/sections/goatsandsoda/2017/03/06/518219485/forbidding-forecast-for-lyme-disease-in-the-northeast</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/orig-map-2015_wide-5f3f06092114f649654a9d3514c2b350d3243b39-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>389</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</guid>
       <title>Thomas Starzl, Trailblazer In Organ Transplantation, Dies At 90</title>
@@ -100,162 +252,6 @@ March 4, 2017 - Scientists are learning that some astronauts' eyes change shape 
 <a href="http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs">http://www.npr.org/sections/health-shots/2017/03/04/518214299/doctor-launches-vision-quest-to-help-astronauts-eyeballs</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/02/trent-barton-aboard-plane--2015_wide-12d2a42515f8a3c8af72b343a1e02ea4f28d79ab-s3000-c15.jpg"></itunes:image>
       <itunes:duration>287</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Patients Demand The &#39;Right To Try&#39; Experimental Drugs, But Costs Can Be Steep</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</link>
-      <description>March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s800-c15.jpg"></a>
-
-March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep">http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>235</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/03/518204657/americans-conflicted-over-gop-plans-to-dump-obamacare</guid>
-      <title>Americans Conflicted Over GOP Plans To Dump Obamacare</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/03/518204657/americans-conflicted-over-gop-plans-to-dump-obamacare</link>
-      <description>March 3, 2017 - Growing public support for the Affordable Care Act seems to be at odds with the GOP&#39;s plans to repeal and replace it.&#xA;&#xA; - http://www.npr.org/sections/health-shots/2017/03/03/518204657/americans-conflicted-over-gop-plans-to-dump-obamacare</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/03/town-hall_wide-25be32b92d08413c4b7ae770b0517405686d3933-s800-c15.jpg"></a>
-
-March 3, 2017 - Growing public support for the Affordable Care Act seems to be at odds with the GOP's plans to repeal and replace it.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/03/518204657/americans-conflicted-over-gop-plans-to-dump-obamacare">http://www.npr.org/sections/health-shots/2017/03/03/518204657/americans-conflicted-over-gop-plans-to-dump-obamacare</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/town-hall_wide-25be32b92d08413c4b7ae770b0517405686d3933-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/03/518155165/poll-more-people-are-taking-opioids-even-as-their-concerns-rise</guid>
-      <title>POLL: More People Are Taking Opioids, Even As Their Concerns Rise</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/03/518155165/poll-more-people-are-taking-opioids-even-as-their-concerns-rise</link>
-      <description>March 3, 2017 - The number of people who have used opioid painkillers is still rising, according to a new NPR-Truven Health Analytics poll. But they&#39;re also worried about addiction, overdose and side effects.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/02/narcotic-painkillers-1_wide-df6f12cae1b1f45271b09b216b94a78dda40a116-s800-c15.png"></a>
-
-March 3, 2017 - The number of people who have used opioid painkillers is still rising, according to a new NPR-Truven Health Analytics poll. But they're also worried about addiction, overdose and side effects.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/03/518155165/poll-more-people-are-taking-opioids-even-as-their-concerns-rise">http://www.npr.org/sections/health-shots/2017/03/03/518155165/poll-more-people-are-taking-opioids-even-as-their-concerns-rise</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/narcotic-painkillers-1_wide-df6f12cae1b1f45271b09b216b94a78dda40a116-s3000-c15.png"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/02/518185329/one-democrats-hunt-for-the-hidden-obamacare-replacement-bill</guid>
-      <title>One Democrat&#39;s Hunt For The Hidden Obamacare Replacement Bill </title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/02/518185329/one-democrats-hunt-for-the-hidden-obamacare-replacement-bill</link>
-      <description>March 2, 2017 - Republicans in Congress were invited Thursday to view a draft of the House bill aimed at repealing and replacing Obamacare. But Democrats who wanted a look came up empty in a game of &#34;find the bill.&#34;</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/02/pallone-1_wide-fd8545541fc24b64a412021891201168eaff9751-s800-c15.jpg"></a>
-
-March 2, 2017 - Republicans in Congress were invited Thursday to view a draft of the House bill aimed at repealing and replacing Obamacare. But Democrats who wanted a look came up empty in a game of "find the bill."
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/02/518185329/one-democrats-hunt-for-the-hidden-obamacare-replacement-bill">http://www.npr.org/sections/health-shots/2017/03/02/518185329/one-democrats-hunt-for-the-hidden-obamacare-replacement-bill</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/pallone-1_wide-fd8545541fc24b64a412021891201168eaff9751-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/02/517959453/-190-million-raised-to-fill-aid-gap-left-by-trumps-abortion-rule</guid>
-      <title>$190 Million Raised To Fill Aid Gap Left By Trump&#39;s Abortion Rule</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/03/02/517959453/-190-million-raised-to-fill-aid-gap-left-by-trumps-abortion-rule</link>
-      <description>March 2, 2017 - When the president took action to block U.S. foreign aid funding of groups linked to abortion, a Dutch government official started fundraising.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/gettyimages-622326964-50_wide-072c89a63903f95b00256f3e432421c4eb195047-s800-c15.jpg"></a>
-
-March 2, 2017 - When the president took action to block U.S. foreign aid funding of groups linked to abortion, a Dutch government official started fundraising.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/03/02/517959453/-190-million-raised-to-fill-aid-gap-left-by-trumps-abortion-rule">http://www.npr.org/sections/goatsandsoda/2017/03/02/517959453/-190-million-raised-to-fill-aid-gap-left-by-trumps-abortion-rule</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/gettyimages-622326964-50_wide-072c89a63903f95b00256f3e432421c4eb195047-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_republican_colleagues_oppose_health_care_plan_led_by_paul_ryan.mp3?orgId=1&amp;topicId=1014&amp;d=270&amp;p=2&amp;story=518197132&amp;t=progseg&amp;e=518103527&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Republican Hard-Liners Oppose Health Care Plan Led By Paul Ryan</title>
-      <link>http://www.npr.org/2017/03/02/518197132/republican-hard-liners-oppose-health-care-plan-led-by-paul-ryan</link>
-      <description>March 2, 2017 - Some conservative members of Congress and activists who bedeviled GOP leadership during the Obama administration are back again in opposition to the health care plan led by House Speaker Paul Ryan.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_republican_colleagues_oppose_health_care_plan_led_by_paul_ryan.mp3?orgId=1&amp;topicId=1014&amp;d=270&amp;p=2&amp;story=518197132&amp;t=progseg&amp;e=518103527&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 2, 2017 - Some conservative members of Congress and activists who bedeviled GOP leadership during the Obama administration are back again in opposition to the health care plan led by House Speaker Paul Ryan.
-
-<a href="http://www.npr.org/2017/03/02/518197132/republican-hard-liners-oppose-health-care-plan-led-by-paul-ryan">http://www.npr.org/2017/03/02/518197132/republican-hard-liners-oppose-health-care-plan-led-by-paul-ryan</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>270</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/02/517967766/some-melanoma-survivors-are-still-getting-too-much-sun-exposure</guid>
-      <title>Some Melanoma Survivors Are Still Getting Too Much Sun Exposure</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/02/517967766/some-melanoma-survivors-are-still-getting-too-much-sun-exposure</link>
-      <description>March 2, 2017 - Getting people to change their health behaviors is hard. A cancer diagnosis may increase motivation to reduce risk, but it doesn&#39;t necessarily make the change easier.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/sunburn_wide-46462ded36da4795fa4306adfd8156e769aa9899-s800-c15.jpg"></a>
-
-March 2, 2017 - Getting people to change their health behaviors is hard. A cancer diagnosis may increase motivation to reduce risk, but it doesn't necessarily make the change easier.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/02/517967766/some-melanoma-survivors-are-still-getting-too-much-sun-exposure">http://www.npr.org/sections/health-shots/2017/03/02/517967766/some-melanoma-survivors-are-still-getting-too-much-sun-exposure</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/sunburn_wide-46462ded36da4795fa4306adfd8156e769aa9899-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_sen_chuck_schumer_is_ready_for_the_fight.mp3?orgId=1&amp;topicId=1014&amp;d=508&amp;story=518143202&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Schumer Says GOP Division Gives Democrats A Chance To Save Obamacare</title>
-      <link>http://www.npr.org/2017/03/02/518143202/schumer-says-gop-division-gives-democrats-a-chance-to-save-obamacare</link>
-      <description>March 2, 2017 - As Republicans struggle to come up with an alternative they can pass, the Democratic leader in the Senate says odds are good Obamacare remains in place.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_sen_chuck_schumer_is_ready_for_the_fight.mp3?orgId=1&amp;topicId=1014&amp;d=508&amp;story=518143202&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_17032043102888_wide-fb7f2d4a8ed86795b5877dab53c9d6cd7c2edc35-s800-c15.jpg"></a>
-
-March 2, 2017 - As Republicans struggle to come up with an alternative they can pass, the Democratic leader in the Senate says odds are good Obamacare remains in place.
-
-<a href="http://www.npr.org/2017/03/02/518143202/schumer-says-gop-division-gives-democrats-a-chance-to-save-obamacare">http://www.npr.org/2017/03/02/518143202/schumer-says-gop-division-gives-democrats-a-chance-to-save-obamacare</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_17032043102888_wide-fb7f2d4a8ed86795b5877dab53c9d6cd7c2edc35-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>508</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Embryo Experiments Reveal Earliest Human Development, But Stir Ethical Debate</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</link>
-      <description>March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_embryo_experiments_reveal_earliest_human_development_but_stir_ethical_debate.mp3?orgId=1&amp;topicId=1128&amp;d=395&amp;p=3&amp;story=516280895&amp;t=progseg&amp;e=518087519&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s800-c15.jpg"></a>
-
-March 2, 2017 - Researchers who study developing human embryos have long limited their experimentation to lab embryos that are no more than 14 days into development. Some scientists are now pushing that boundary.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate">http://www.npr.org/sections/health-shots/2017/03/02/516280895/embryo-experiments-reveal-earliest-human-development-but-stir-ethical-debate</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/embryoid-1_wide-9154e038271d1b5397e092e4b87699ef3d4c674a-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>395</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</guid>
-      <title>Birth Control Is Working Better – Or At Least, It&#39;s Failing Less</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</link>
-      <description>March 1, 2017 - Failure rates for the most common forms of contraception are down, but it&#39;s not entirely clear whether it&#39;s due to education, availability, or other reasons.</description>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s800-c15.jpg"></a>
-
-March 1, 2017 - Failure rates for the most common forms of contraception are down, but it's not entirely clear whether it's due to education, availability, or other reasons.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less">http://www.npr.org/sections/health-shots/2017/03/01/518000283/your-birth-control-is-working-better-or-at-least-failing-less</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/birth-control-options_wide-7b0355b31db7f6dc403a78cc58fcaad14311cf8f-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

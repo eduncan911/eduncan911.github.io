@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2017 01:14:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Mar 2017 14:56:07 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Mon, 06 Mar 2017 01:14:07 +0000</pubDate>
+    <pubDate>Tue, 07 Mar 2017 14:56:07 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,130 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_farmers_fight_environmental_regulations.mp3?orgId=1&amp;topicId=1025&amp;d=221&amp;p=3&amp;story=518841084&amp;t=progseg&amp;e=518938637&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Farmers Fight Environmental Regulations</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/07/518841084/farmers-fight-environmental-regulations</link>
+      <description>March 7, 2017 - Many of America&#39;s farmers are successfully fending off environmental regulation, from the Obama administration&#39;s Clean Water Rule to a lawsuit in Iowa that&#39;s aimed at reducing nitrates in rivers.</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_farmers_fight_environmental_regulations.mp3?orgId=1&amp;topicId=1025&amp;d=221&amp;p=3&amp;story=518841084&amp;t=progseg&amp;e=518938637&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/06/buffer_wide-e360f7609553f9553a2574493f4ea982fa3670a9-s800-c15.jpg"></a>
+
+March 7, 2017 - Many of America's farmers are successfully fending off environmental regulation, from the Obama administration's Clean Water Rule to a lawsuit in Iowa that's aimed at reducing nitrates in rivers.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/07/518841084/farmers-fight-environmental-regulations">http://www.npr.org/sections/thesalt/2017/03/07/518841084/farmers-fight-environmental-regulations</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/buffer_wide-e360f7609553f9553a2574493f4ea982fa3670a9-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>221</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/03/06/518786831/tribes-traitors-what-happens-when-you-empathize-with-the-enemy</guid>
+      <title>Tribes &amp; Traitors: What Happens When You Empathize with the Enemy?</title>
+      <link>http://www.npr.org/2017/03/06/518786831/tribes-traitors-what-happens-when-you-empathize-with-the-enemy</link>
+      <description>March 6, 2017 - This week on Hidden Brain, the stories of two men who showed empathy for the other side and found themselves labeled &#34;enemy&#34; by their own people.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/06/tribes-and-traitors_wide-51f56379f9a287c7835f0cbf3e1986c997ef6a74-s800-c15.jpg"></a>
+
+March 6, 2017 - This week on Hidden Brain, the stories of two men who showed empathy for the other side and found themselves labeled "enemy" by their own people.
+
+<a href="http://www.npr.org/2017/03/06/518786831/tribes-traitors-what-happens-when-you-empathize-with-the-enemy">http://www.npr.org/2017/03/06/518786831/tribes-traitors-what-happens-when-you-empathize-with-the-enemy</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/tribes-and-traitors_wide-51f56379f9a287c7835f0cbf3e1986c997ef6a74-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_dakota_access_demonstrators_inspire_new_pipeline_protests.mp3?orgId=1&amp;topicId=1091&amp;d=413&amp;p=2&amp;story=518858259&amp;t=progseg&amp;e=518750642&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Dakota Access Demonstrators Inspire New Pipeline Protests</title>
+      <link>http://www.npr.org/2017/03/06/518858259/dakota-access-demonstrators-inspire-new-pipeline-protests</link>
+      <description>March 6, 2017 - Opponents lost their bid to stop the Dakota Access pipeline, but their effort has energized others. Pipeline protests are expanding across the country.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_dakota_access_demonstrators_inspire_new_pipeline_protests.mp3?orgId=1&amp;topicId=1091&amp;d=413&amp;p=2&amp;story=518858259&amp;t=progseg&amp;e=518750642&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 6, 2017 - Opponents lost their bid to stop the Dakota Access pipeline, but their effort has energized others. Pipeline protests are expanding across the country.
+
+<a href="http://www.npr.org/2017/03/06/518858259/dakota-access-demonstrators-inspire-new-pipeline-protests">http://www.npr.org/2017/03/06/518858259/dakota-access-demonstrators-inspire-new-pipeline-protests</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>413</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out</guid>
+      <title>Reports Of Medical Breakthroughs Often Don&#39;t Prove Out</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out</link>
+      <description>March 6, 2017 - Medical breakthroughs that were covered by newspapers were often later disproved by more comprehensive research, a study finds. That&#39;s a problem for scientists and journalists.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/06/newsstand_wide-8067f6fbad545aeb1be13bdbafee5095cfeacd5f-s800-c15.jpg"></a>
+
+March 6, 2017 - Medical breakthroughs that were covered by newspapers were often later disproved by more comprehensive research, a study finds. That's a problem for scientists and journalists.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out">http://www.npr.org/sections/health-shots/2017/03/06/518802242/reports-of-medical-breakthroughs-often-dont-prove-out</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/newsstand_wide-8067f6fbad545aeb1be13bdbafee5095cfeacd5f-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</guid>
+      <title>WATCH: Tracking Lightning Strikes, From Space</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</link>
+      <description>March 6, 2017 - NOAA&#39;s new weather satellite is carrying the first lightning detector ever parked in orbit over Earth. It has sent back its first images of real-time lightning storms in the Western Hemisphere.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s800-c15.jpg"></a>
+
+March 6, 2017 - NOAA's new weather satellite is carrying the first lightning detector ever parked in orbit over Earth. It has sent back its first images of real-time lightning storms in the Western Hemisphere.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space">http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</guid>
+      <title>Feeling Lonely? Too Much Time On Social Media May Be Why </title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</link>
+      <description>March 6, 2017 - It&#39;s not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s800-c15.jpg"></a>
+
+March 6, 2017 - It's not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why">http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips</guid>
+      <title>Did You Get Bit By A Lyme-Infested Tick? Here&#39;s What To Do</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips</link>
+      <description>March 6, 2017 - One scientist is predicting a risky year for tick-borne Lyme disease in the Northeast, and it&#39;s spreading. But don&#39;t panic. We&#39;ve got tips.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/tick_wide-347a1637b5ebb511977e57006bdaf152babb864e-s800-c15.jpg"></a>
+
+March 6, 2017 - One scientist is predicting a risky year for tick-borne Lyme disease in the Northeast, and it's spreading. But don't panic. We've got tips.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips">http://www.npr.org/sections/health-shots/2017/03/06/518065660/if-you-get-bit-by-a-lyme-infested-tick-here-are-5-tips</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/tick_wide-347a1637b5ebb511977e57006bdaf152babb864e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_forbidding_forecast_for_lyme_disease_in_the_northeast.mp3?orgId=1&amp;topicId=1128&amp;aggIds=512014971&amp;d=389&amp;p=3&amp;story=518219485&amp;t=progseg&amp;e=518723360&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Forbidding Forecast For Lyme Disease In The Northeast</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/06/518219485/forbidding-forecast-for-lyme-disease-in-the-northeast</link>
+      <description>March 6, 2017 - Lyme disease is spreading, and this summer is shaping up as a whopper. Why has the tick-borne illness gotten so bad? The answer traces back to something the colonists did more than 200 years ago.</description>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_forbidding_forecast_for_lyme_disease_in_the_northeast.mp3?orgId=1&amp;topicId=1128&amp;aggIds=512014971&amp;d=389&amp;p=3&amp;story=518219485&amp;t=progseg&amp;e=518723360&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/orig-map-2015_wide-5f3f06092114f649654a9d3514c2b350d3243b39-s800-c15.jpg"></a>
+
+March 6, 2017 - Lyme disease is spreading, and this summer is shaping up as a whopper. Why has the tick-borne illness gotten so bad? The answer traces back to something the colonists did more than 200 years ago.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/06/518219485/forbidding-forecast-for-lyme-disease-in-the-northeast">http://www.npr.org/sections/goatsandsoda/2017/03/06/518219485/forbidding-forecast-for-lyme-disease-in-the-northeast</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/orig-map-2015_wide-5f3f06092114f649654a9d3514c2b350d3243b39-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>389</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/thetwo-way/2017/03/05/518644481/thomas-starzl-trailblazer-in-organ-transplantation-dies-at-90</guid>
       <title>Thomas Starzl, Trailblazer In Organ Transplantation, Dies At 90</title>
@@ -132,128 +256,6 @@ March 3, 2017 - The Internet is full of things, including a Reddit subgroup devo
 <a href="http://www.npr.org/sections/thesalt/2017/03/03/518323093/do-showers-make-oranges-taste-better-npr-investigates">http://www.npr.org/sections/thesalt/2017/03/03/518323093/do-showers-make-oranges-taste-better-npr-investigates</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/03/2017-03-03-shower-orange-charbage_wide-c2f230893671bf0174706fe115183039c05ffe99-s3000-c15.jpeg"></itunes:image>
       <itunes:duration>240</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Patients Demand The &#39;Right To Try&#39; Experimental Drugs, But Costs Can Be Steep</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</link>
-      <description>March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170303_atc_patients_demand_the_right_to_try_experimental_drugs_but_costs_can_be_steep.mp3?orgId=150&amp;topicId=1128&amp;d=235&amp;p=2&amp;story=517796956&amp;t=progseg&amp;e=518294666&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s800-c15.jpg"></a>
-
-March 3, 2017 - Terminally ill patients want easier access to candidate medicines still in the earliest stages of testing. While 33 states have passed laws to enable that, ethicists also warn of big risks.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep">http://www.npr.org/sections/health-shots/2017/03/03/517796956/patients-demand-the-right-to-try-experimental-drugs-but-costs-can-be-steep</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/right-to-try-1_wide-4b2ff9f84a8ad73637969a11f417eec09f150935-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>235</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</guid>
-      <title>Smog In Western U.S. Starts Out As Pollution In Asia, Researchers Say</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</link>
-      <description>March 3, 2017 - By tripling their emission of pollutants, Asian countries have contributed as much as 65 percent of a rise in ozone levels in the western U.S., scientists say.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/ap_16305156235287_wide-23c17bd0b5b2eaadd15c4259325a4d65f9e739fb-s800-c15.jpg"></a>
-
-March 3, 2017 - By tripling their emission of pollutants, Asian countries have contributed as much as 65 percent of a rise in ozone levels in the western U.S., scientists say.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution">http://www.npr.org/sections/thetwo-way/2017/03/03/518323094/rise-in-smog-in-western-u-s-is-blamed-on-asias-air-pollution</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/ap_16305156235287_wide-23c17bd0b5b2eaadd15c4259325a4d65f9e739fb-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</guid>
-      <title>Rise Of The Robot Bees: Tiny Drones Turned Into Artificial Pollinators</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</link>
-      <description>March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s800-c15.jpg"></a>
-
-March 3, 2017 - Honeybees are a critical part of agriculture, pollinating many of our favorite crops. But bee deaths are on the rise. In Japan, scientists are testing whether insect-sized drones can help do the job.
-
-<a href="http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators">http://www.npr.org/sections/thesalt/2017/03/03/517785082/rise-of-the-robot-bees-tiny-drones-turned-into-artificial-pollinators</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/28/cover_wide-fba3fcb0af4f0592b643de5633e55eff1ca194c8-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen</guid>
-      <title>First Clouded Leopard Cub Born Using Cryopreserved Semen</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen</link>
-      <description>March 2, 2017 - A statement from the Smithsonian National Zoo and the Nashville Zoo said Thursday that the accomplishment is &#34;a giant step for global conservation efforts.&#34;</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/02/nashvillezoo-amieestubbs-3765_wide-45a7e86279c65e612fa195c847aedd35f0c8602c-s800-c15.jpg"></a>
-
-March 2, 2017 - A statement from the Smithsonian National Zoo and the Nashville Zoo said Thursday that the accomplishment is "a giant step for global conservation efforts."
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen">http://www.npr.org/sections/thetwo-way/2017/03/02/518230414/first-clouded-leopard-cub-born-using-cryopreserved-semen</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/nashvillezoo-amieestubbs-3765_wide-45a7e86279c65e612fa195c847aedd35f0c8602c-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary</guid>
-      <title>Rick Perry Sworn In As Energy Secretary</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary</link>
-      <description>March 2, 2017 - The former Texas governor was confirmed Thursday by a 62-37 vote in the Senate. While running for president in 2011, Perry pledged to eliminate the department, but he says he&#39;s changed his mind.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/02/ap_17062011218864_wide-a596859bd8ba3a0063e0236e17a887cc943fef58-s800-c15.jpg"></a>
-
-March 2, 2017 - The former Texas governor was confirmed Thursday by a 62-37 vote in the Senate. While running for president in 2011, Perry pledged to eliminate the department, but he says he's changed his mind.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary">http://www.npr.org/sections/thetwo-way/2017/03/02/518235070/rick-perry-sworn-in-as-energy-secretary</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/02/ap_17062011218864_wide-a596859bd8ba3a0063e0236e17a887cc943fef58-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_embryo_experiments_on_human_development_raise_ethical_concerns.mp3?orgId=1&amp;topicId=1007&amp;d=377&amp;p=2&amp;story=518197104&amp;t=progseg&amp;e=518103527&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Embryo Experiments On Human Development Raise Ethical Concerns</title>
-      <link>http://www.npr.org/2017/03/02/518197104/embryo-experiments-on-human-development-raise-ethical-concerns</link>
-      <description>March 2, 2017 - Embryo-like entities are being created in a New York lab using human embryonic stem cells. Scientists hope to learn more about the earliest stages of human development without using actual embryos.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_embryo_experiments_on_human_development_raise_ethical_concerns.mp3?orgId=1&amp;topicId=1007&amp;d=377&amp;p=2&amp;story=518197104&amp;t=progseg&amp;e=518103527&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 2, 2017 - Embryo-like entities are being created in a New York lab using human embryonic stem cells. Scientists hope to learn more about the earliest stages of human development without using actual embryos.
-
-<a href="http://www.npr.org/2017/03/02/518197104/embryo-experiments-on-human-development-raise-ethical-concerns">http://www.npr.org/2017/03/02/518197104/embryo-experiments-on-human-development-raise-ethical-concerns</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>377</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_old_penicillin_mold_auctioned_for_more_than_14000.mp3?orgId=1&amp;topicId=1007&amp;d=89&amp;p=2&amp;story=518197111&amp;t=progseg&amp;e=518103527&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Old Penicillin Mold Auctioned For More Than $14,000</title>
-      <link>http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000</link>
-      <description>March 2, 2017 - An auction house in London has sold a dish containing a sample of the original mold that made Penicillin for over $14,000.&#xA;&#xA; - http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170302_atc_old_penicillin_mold_auctioned_for_more_than_14000.mp3?orgId=1&amp;topicId=1007&amp;d=89&amp;p=2&amp;story=518197111&amp;t=progseg&amp;e=518103527&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 2, 2017 - An auction house in London has sold a dish containing a sample of the original mold that made Penicillin for over $14,000.
-
-<a href="http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000">http://www.npr.org/2017/03/02/518197111/old-penicillin-mold-auctioned-for-more-than-14-000</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>89</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>New Research Looks At Ways To Help Stop Airbnb Racial Discrimination</title>
-      <link>http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination</link>
-      <description>March 2, 2017 - Airbnb has come under fire in the last year following reports that hosts are less likely to rent to African-Americans compared to whites. New research looked at ways to address the discrimination.</description>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170302_me_new_research_looks_at_ways_to_help_stop_airbnb_racial_discrimination.mp3?orgId=1&amp;topicId=1024&amp;d=216&amp;p=3&amp;story=518087610&amp;t=progseg&amp;e=518087519&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 2, 2017 - Airbnb has come under fire in the last year following reports that hosts are less likely to rent to African-Americans compared to whites. New research looked at ways to address the discrimination.
-
-<a href="http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination">http://www.npr.org/2017/03/02/518087610/new-research-looks-at-ways-to-help-stop-airbnb-racial-discrimination</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>216</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
