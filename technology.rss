@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Mar 2017 14:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Mar 2017 20:58:57 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Tue, 07 Mar 2017 14:56:10 +0000</pubDate>
+    <pubDate>Thu, 09 Mar 2017 20:58:57 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,141 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again</guid>
+      <title>RadioShack Files For Bankruptcy. Again</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again</link>
+      <description>March 9, 2017 - The electronics chain closed thousands of stores in 2015 and restructured the remaining business in an attempt to stabilize sales. On Wednesday, the new parent company filed for bankruptcy.</description>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/09/gettyimages-462712322_wide-b3e828732af55a0496c0c707c12d57360d9481a5-s800-c15.jpg"></a>
+
+March 9, 2017 - The electronics chain closed thousands of stores in 2015 and restructured the remaining business in an attempt to stabilize sales. On Wednesday, the new parent company filed for bankruptcy.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again">http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/gettyimages-462712322_wide-b3e828732af55a0496c0c707c12d57360d9481a5-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies</guid>
+      <title>Julian Assange Says WikiLeaks Will Share CIA Code With Tech Companies</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies</link>
+      <description>March 9, 2017 - WikiLeaks on Tuesday disclosed the hacking tools from the so-called Vault 7 series. Now Assange says his group will be working with big manufacturers to develop fixes.</description>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/09/ap_162242812312401_wide-ffee2ca897297f96e87955a0b016d01013ddd00d-s800-c15.jpg"></a>
+
+March 9, 2017 - WikiLeaks on Tuesday disclosed the hacking tools from the so-called Vault 7 series. Now Assange says his group will be working with big manufacturers to develop fixes.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies">http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/ap_162242812312401_wide-ffee2ca897297f96e87955a0b016d01013ddd00d-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_silicon_valley_leaders_raise_concerns_about_latest_wikileaks_release.mp3?orgId=1&amp;topicId=1122&amp;d=243&amp;p=2&amp;story=519282216&amp;t=progseg&amp;e=519185942&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Silicon Valley Leaders Raise Concerns About Latest WikiLeaks Release</title>
+      <link>http://www.npr.org/2017/03/08/519282216/silicon-valley-leaders-raise-concerns-about-latest-wikileaks-release</link>
+      <description>March 8, 2017 - NPR&#39;s Ari Shapiro speaks with Nico Sell, co-founder of Wickr, about the WikiLeaks documents regarding government surveillance utilizing security flaws in commonly used devices.</description>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_silicon_valley_leaders_raise_concerns_about_latest_wikileaks_release.mp3?orgId=1&amp;topicId=1122&amp;d=243&amp;p=2&amp;story=519282216&amp;t=progseg&amp;e=519185942&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 8, 2017 - NPR's Ari Shapiro speaks with Nico Sell, co-founder of Wickr, about the WikiLeaks documents regarding government surveillance utilizing security flaws in commonly used devices.
+
+<a href="http://www.npr.org/2017/03/08/519282216/silicon-valley-leaders-raise-concerns-about-latest-wikileaks-release">http://www.npr.org/2017/03/08/519282216/silicon-valley-leaders-raise-concerns-about-latest-wikileaks-release</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>243</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</guid>
+      <title>Researchers Take A Step Toward Mind-Controlled Robots</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</link>
+      <description>March 8, 2017 - Researchers have created a system where humans can guide robots with their brainwaves, signaling to the machines when they&#39;ve made a mistake. It could help improve the way humans and robots interact.</description>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/08/0306_mind-controlled-robot05-2_wide-672e71a90ae7336b48046dd4addd78b202607882-s800-c15.jpg"></a>
+
+March 8, 2017 - Researchers have created a system where humans can guide robots with their brainwaves, signaling to the machines when they've made a mistake. It could help improve the way humans and robots interact.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots">http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/0306_mind-controlled-robot05-2_wide-672e71a90ae7336b48046dd4addd78b202607882-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why</guid>
+      <title>The CIA Document Dump Isn&#39;t Exactly Snowden 2.0. Here&#39;s Why</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why</link>
+      <description>March 8, 2017 - The alleged CIA documents reveal a hacking program that is very different from the one uncovered by Edward Snowden&#39;s NSA leak. One distinction: Mass surveillance vs. targeted attacks.</description>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/08/cia-office_wide-9fb0ee8539ae38231b3585d16edc58f310642529-s800-c15.jpg"></a>
+
+March 8, 2017 - The alleged CIA documents reveal a hacking program that is very different from the one uncovered by Edward Snowden's NSA leak. One distinction: Mass surveillance vs. targeted attacks.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why">http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/cia-office_wide-9fb0ee8539ae38231b3585d16edc58f310642529-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_wikileaks_documents_detail_alleged_cia_hacking_tools.mp3?orgId=1&amp;topicId=1122&amp;d=261&amp;p=3&amp;story=519170664&amp;t=progseg&amp;e=519170189&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
+      <title>WikiLeaks Documents Detail Alleged CIA Hacking Tools</title>
+      <link>http://www.npr.org/2017/03/08/519170664/wikileaks-documents-detail-alleged-cia-hacking-tools</link>
+      <description>March 8, 2017 - David Greene talks with Jake Williams of the cybersecurity firm Rendition InfoSec about documents released by WikiLeaks that purportedly describe tools the CIA uses to spy on electronic devices.</description>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_wikileaks_documents_detail_alleged_cia_hacking_tools.mp3?orgId=1&amp;topicId=1122&amp;d=261&amp;p=3&amp;story=519170664&amp;t=progseg&amp;e=519170189&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 8, 2017 - David Greene talks with Jake Williams of the cybersecurity firm Rendition InfoSec about documents released by WikiLeaks that purportedly describe tools the CIA uses to spy on electronic devices.
+
+<a href="http://www.npr.org/2017/03/08/519170664/wikileaks-documents-detail-alleged-cia-hacking-tools">http://www.npr.org/2017/03/08/519170664/wikileaks-documents-detail-alleged-cia-hacking-tools</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>261</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_syrian_psychiatrist_in_the_us_uses_online_platfrom_to_help_mental_health_workers.mp3?orgId=1&amp;topicId=1004&amp;d=264&amp;p=3&amp;story=519170588&amp;t=progseg&amp;e=519170189&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Syrian Psychiatrist In The U.S. Uses Online Platform To Help Mental Health Workers</title>
+      <link>http://www.npr.org/2017/03/08/519170588/syrian-psychiatrist-in-the-u-s-uses-online-platfrom-to-help-mental-health-worker</link>
+      <description>March 8, 2017 - A Syrian psychiatrist who lives in the U.S. has found a way to help the thousands of people suffering from trauma back in and around his homeland.</description>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_syrian_psychiatrist_in_the_us_uses_online_platfrom_to_help_mental_health_workers.mp3?orgId=1&amp;topicId=1004&amp;d=264&amp;p=3&amp;story=519170588&amp;t=progseg&amp;e=519170189&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 8, 2017 - A Syrian psychiatrist who lives in the U.S. has found a way to help the thousands of people suffering from trauma back in and around his homeland.
+
+<a href="http://www.npr.org/2017/03/08/519170588/syrian-psychiatrist-in-the-u-s-uses-online-platfrom-to-help-mental-health-worker">http://www.npr.org/2017/03/08/519170588/syrian-psychiatrist-in-the-u-s-uses-online-platfrom-to-help-mental-health-worker</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>264</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</guid>
+      <title>Why A 106-Year-Old Event Is Still Relevant In 2017</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</link>
+      <description>March 7, 2017 - International Women&#39;s Day has taken on a life of its own. Here&#39;s how it&#39;s celebrated around the world.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/07/gettyimages-514356452-50_wide-f8467a4888c3cc4213126d44a05820cbf39b8d99-s800-c15.jpg"></a>
+
+March 7, 2017 - International Women's Day has taken on a life of its own. Here's how it's celebrated around the world.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017">http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/gettyimages-514356452-50_wide-f8467a4888c3cc4213126d44a05820cbf39b8d99-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents</guid>
+      <title>WikiLeaks Releases What It Calls CIA Trove Of Cyber-Espionage Documents</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents</link>
+      <description>March 7, 2017 - The release includes thousands of pages of user manuals, support guides and other documents that appear to describe CIA hacking efforts. WikiLeaks says it is choosing not to release the code itself.</description>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/07/gettyimages-520956554_wide-cdccec7b6a938bf1fd719a4a2464434d6d5835c9-s800-c15.jpg"></a>
+
+March 7, 2017 - The release includes thousands of pages of user manuals, support guides and other documents that appear to describe CIA hacking efforts. WikiLeaks says it is choosing not to release the code itself.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents">http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/gettyimages-520956554_wide-cdccec7b6a938bf1fd719a4a2464434d6d5835c9-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_facebook_enlists_fact-checkers_to_probe_disputed_posts.mp3?orgId=1&amp;topicId=1006&amp;d=95&amp;p=3&amp;story=518956912&amp;t=progseg&amp;e=518938637&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
       <title>Facebook Enlists Fact-Checkers To Probe Disputed Stories</title>
@@ -113,141 +248,6 @@ March 6, 2017 - NOAA's new weather satellite is carrying the first lightning det
 
 <a href="http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space">http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</guid>
-      <title>Feeling Lonely? Too Much Time On Social Media May Be Why </title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</link>
-      <description>March 6, 2017 - It&#39;s not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.</description>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s800-c15.jpg"></a>
-
-March 6, 2017 - It's not clear whether spending a lot of time on Facebook, Snapchat or Instagram leads to social isolation, or whether the lonely seek solace in social media.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why">http://www.npr.org/sections/health-shots/2017/03/06/518362255/feeling-lonely-too-much-time-on-social-media-may-be-why</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/gettyimages-146473300-1-_wide-07359e014ff27ccb0745b4067909c9e162ed16b2-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_h-1b_visa_debate_are_foreigner_tech_workers_hired_over_americans.mp3?orgId=329&amp;topicId=1014&amp;d=273&amp;p=3&amp;story=518743020&amp;t=progseg&amp;e=518723360&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>H-1B Visa Debate: Are Foreign Tech Workers Hired Over Americans?</title>
-      <link>http://www.npr.org/2017/03/06/518743020/h-1b-visa-debate-are-foreign-tech-workers-hired-over-americans</link>
-      <description>March 6, 2017 - Many employers say they need H-1B workers because of a talent shortage among U.S. tech companies. But some Americans say the program that allows foreigners to be hired has put them out of work.</description>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_h-1b_visa_debate_are_foreigner_tech_workers_hired_over_americans.mp3?orgId=329&amp;topicId=1014&amp;d=273&amp;p=3&amp;story=518743020&amp;t=progseg&amp;e=518723360&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 6, 2017 - Many employers say they need H-1B workers because of a talent shortage among U.S. tech companies. But some Americans say the program that allows foreigners to be hired has put them out of work.
-
-<a href="http://www.npr.org/2017/03/06/518743020/h-1b-visa-debate-are-foreign-tech-workers-hired-over-americans">http://www.npr.org/2017/03/06/518743020/h-1b-visa-debate-are-foreign-tech-workers-hired-over-americans</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>273</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_s_korea_n_korea_test-fires_handful_of_unknown_projectiles_into_japan_waters.mp3?orgId=1&amp;topicId=1125&amp;d=126&amp;p=3&amp;story=518695871&amp;t=progseg&amp;e=518723360&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
-      <title>S. Korea: North Test-Fires Handful Of &#39;Unknown Projectiles&#39; Into Japan Waters</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/05/518695871/s-korea-n-korea-test-fires-handful-of-unknown-projectiles-into-japan-waters</link>
-      <description>March 5, 2017 - The projectiles were launched Sunday from near North Korea&#39;s missile base of Tongchang-ri, says South Korea&#39;s military. At least one of the missiles flew about 620 miles.</description>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170306_me_s_korea_n_korea_test-fires_handful_of_unknown_projectiles_into_japan_waters.mp3?orgId=1&amp;topicId=1125&amp;d=126&amp;p=3&amp;story=518695871&amp;t=progseg&amp;e=518723360&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/05/gettyimages-635363294_wide-18ab4545d481fcdc563bc9900c41f35774ae5b8c-s800-c15.jpg"></a>
-
-March 5, 2017 - The projectiles were launched Sunday from near North Korea's missile base of Tongchang-ri, says South Korea's military. At least one of the missiles flew about 620 miles.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/05/518695871/s-korea-n-korea-test-fires-handful-of-unknown-projectiles-into-japan-waters">http://www.npr.org/sections/thetwo-way/2017/03/05/518695871/s-korea-n-korea-test-fires-handful-of-unknown-projectiles-into-japan-waters</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/05/gettyimages-635363294_wide-18ab4545d481fcdc563bc9900c41f35774ae5b8c-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>126</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170305_atc_nintendo_switch.mp3?orgId=1&amp;topicId=1019&amp;d=209&amp;p=2&amp;story=518663843&amp;t=progseg&amp;e=518663788&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Does Nintendo&#39;s New Console Signal A &#39;Switch&#39; For The Video Game Market?</title>
-      <link>http://www.npr.org/2017/03/05/518663843/does-nintendos-new-console-signal-a-switch-for-the-video-game-market</link>
-      <description>March 5, 2017 - There&#39;s hype surrounding Nintendo&#39;s first home-to-handheld hybrid console, Switch. Wall Street Journal technology reporter Nathan Olivarez-Giles says this could be a make or break moment for Nintendo.</description>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170305_atc_nintendo_switch.mp3?orgId=1&amp;topicId=1019&amp;d=209&amp;p=2&amp;story=518663843&amp;t=progseg&amp;e=518663788&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 5, 2017 - There's hype surrounding Nintendo's first home-to-handheld hybrid console, Switch. Wall Street Journal technology reporter Nathan Olivarez-Giles says this could be a make or break moment for Nintendo.
-
-<a href="http://www.npr.org/2017/03/05/518663843/does-nintendos-new-console-signal-a-switch-for-the-video-game-market">http://www.npr.org/2017/03/05/518663843/does-nintendos-new-console-signal-a-switch-for-the-video-game-market</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>209</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</guid>
-      <title>As Amazon Moves In, A Local Bookseller Hopes To Thrive With A Personal Touch</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</link>
-      <description>March 4, 2017 - Amazon has opened its latest brick-and-mortar bookstore — the first on the East Coast. But an independent bookseller in the Boston suburb says: &#34;I think that we&#39;re going to be OK.&#34;</description>
-      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/01/0228_amazon-03_wide-a09ba1d8b58eb28057df12e8b36346fe02ca1793-s800-c15.jpg"></a>
-
-March 4, 2017 - Amazon has opened its latest brick-and-mortar bookstore — the first on the East Coast. But an independent bookseller in the Boston suburb says: "I think that we're going to be OK."
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch">http://www.npr.org/sections/alltechconsidered/2017/03/04/517958727/as-amazon-moves-in-a-local-bookseller-hopes-to-thrive-with-a-personal-touch</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/01/0228_amazon-03_wide-a09ba1d8b58eb28057df12e8b36346fe02ca1793-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_youtubes_influence.mp3?orgId=1&amp;topicId=1020&amp;d=244&amp;p=7&amp;story=518461970&amp;t=progseg&amp;e=518461849&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>How YouTube Is Changing Our Viewing Habits</title>
-      <link>http://www.npr.org/2017/03/04/518461970/how-youtube-is-changing-our-viewing-habits</link>
-      <description>March 4, 2017 - People watch 1 billion hours of video every day on YouTube. NPR&#39;s Scott Simon talks to Dr. Zeynep Tufekci of the University of North Carolina at Chapel Hill about YouTube&#39;s impact on society.</description>
-      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170304_wesat_youtubes_influence.mp3?orgId=1&amp;topicId=1020&amp;d=244&amp;p=7&amp;story=518461970&amp;t=progseg&amp;e=518461849&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 4, 2017 - People watch 1 billion hours of video every day on YouTube. NPR's Scott Simon talks to Dr. Zeynep Tufekci of the University of North Carolina at Chapel Hill about YouTube's impact on society.
-
-<a href="http://www.npr.org/2017/03/04/518461970/how-youtube-is-changing-our-viewing-habits">http://www.npr.org/2017/03/04/518461970/how-youtube-is-changing-our-viewing-habits</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>244</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools</guid>
-      <title>St. Louis Man Accused Of Making Threats Against Jewish Centers, Schools</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools</link>
-      <description>March 3, 2017 - The threats were allegedly part of the suspect&#39;s cyberstalking campaign against a woman with whom he once had a romantic relationship. Juan Thompson once worked as a reporter at The Intercept.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 3, 2017 - The threats were allegedly part of the suspect's cyberstalking campaign against a woman with whom he once had a romantic relationship. Juan Thompson once worked as a reporter at The Intercept.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools">http://www.npr.org/sections/thetwo-way/2017/03/03/518331335/st-louis-man-accused-of-making-threats-against-jewish-centers-schools</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</guid>
-      <title>One Big Winner Of Snap&#39;s Even Bigger IPO: A School That Raked In Millions</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</link>
-      <description>March 3, 2017 - In 2012, Saint Francis High School put up $15,000 in seed money for the founders of a fledgling Snapchat. By the time the company went public Thursday, the school turned it into a $24 million return.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/gettyimages-647166128_wide-a558e6195dfa608d2cec5d251e3f7c0d30c97eb1-s800-c15.jpg"></a>
-
-March 3, 2017 - In 2012, Saint Francis High School put up $15,000 in seed money for the founders of a fledgling Snapchat. By the time the company went public Thursday, the school turned it into a $24 million return.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions">http://www.npr.org/sections/thetwo-way/2017/03/03/518316013/one-big-winner-of-snaps-even-bigger-ipo-a-school-that-raked-in-millions</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/gettyimages-647166128_wide-a558e6195dfa608d2cec5d251e3f7c0d30c97eb1-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</guid>
-      <title>Amazon And The $150 Million Typo</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</link>
-      <description>March 3, 2017 - Amazon said a mistyped command caused part of the company&#39;s cloud computing service to go down for hours on Tuesday. The Wall Street Journal reported the outage caused millions of dollars in losses.</description>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/ap_16287435798944_wide-eb3e4d38a9526ca46fcf12582c3744628e1da967-s800-c15.jpg"></a>
-
-March 3, 2017 - Amazon said a mistyped command caused part of the company's cloud computing service to go down for hours on Tuesday. The Wall Street Journal reported the outage caused millions of dollars in losses.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo">http://www.npr.org/sections/thetwo-way/2017/03/03/518322734/amazon-and-the-150-million-typo</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/ap_16287435798944_wide-eb3e4d38a9526ca46fcf12582c3744628e1da967-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
