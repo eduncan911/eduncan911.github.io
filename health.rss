@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 20:58:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Mar 2017 14:51:52 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Thu, 09 Mar 2017 20:58:55 +0000</pubDate>
+    <pubDate>Fri, 17 Mar 2017 14:51:52 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -24,232 +24,240 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
     <item>
-      <guid>http://www.npr.org/2017/03/09/519484050/paul-ryan-sells-health-care-bill-as-a-once-in-a-lifetime-opportunity</guid>
-      <title>Paul Ryan Sells Health Care Bill As A &#39;Once-In-A-Lifetime Opportunity&#39;</title>
-      <link>http://www.npr.org/2017/03/09/519484050/paul-ryan-sells-health-care-bill-as-a-once-in-a-lifetime-opportunity</link>
-      <description>March 9, 2017 - With conservative lawmakers and interest groups blasting the Republican health care overhaul effort, the House speaker is making a hard sell for his bill.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/17/520437040/common-blood-tests-can-help-predict-chronic-disease-risk</guid>
+      <title>Common Blood Tests Can Help Predict Chronic Disease Risk</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/17/520437040/common-blood-tests-can-help-predict-chronic-disease-risk</link>
+      <description>March 17, 2017 - The creators of the risk assessment score say they want to help primary care physicians better identify patients who need extra counseling and follow-up.</description>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/09/ap_17068652882379_wide-121571fde3d33f83663ccb0d1e56881861f54917-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/16/risk-score_wide-42d956d0324ddb565a96f687360ef1e39906e44e-s800-c15.jpg"></a>
 
-March 9, 2017 - With conservative lawmakers and interest groups blasting the Republican health care overhaul effort, the House speaker is making a hard sell for his bill.
+March 17, 2017 - The creators of the risk assessment score say they want to help primary care physicians better identify patients who need extra counseling and follow-up.
 
-<a href="http://www.npr.org/2017/03/09/519484050/paul-ryan-sells-health-care-bill-as-a-once-in-a-lifetime-opportunity">http://www.npr.org/2017/03/09/519484050/paul-ryan-sells-health-care-bill-as-a-once-in-a-lifetime-opportunity</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/ap_17068652882379_wide-121571fde3d33f83663ccb0d1e56881861f54917-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/17/520437040/common-blood-tests-can-help-predict-chronic-disease-risk">http://www.npr.org/sections/health-shots/2017/03/17/520437040/common-blood-tests-can-help-predict-chronic-disease-risk</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/risk-score_wide-42d956d0324ddb565a96f687360ef1e39906e44e-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome</guid>
-      <title>Scientists Closer To Creating A Fully Synthetic Yeast Genome</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome</link>
-      <description>March 9, 2017 - An international consortium of researchers has synthesized about a third of the genetic code of baker&#39;s yeast. It&#39;s an important milestone in science&#39;s quest to create complex &#34;synthetic life.&#34;</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/17/520516314/pricey-new-cholesterol-drugs-effect-on-heart-disease-is-more-modest-than-hoped</guid>
+      <title>Pricey New Cholesterol Drug&#39;s Effect On Heart Disease Is More Modest Than Hoped</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/17/520516314/pricey-new-cholesterol-drugs-effect-on-heart-disease-is-more-modest-than-hoped</link>
+      <description>March 17, 2017 - The injectible drug Repatha is spectacularly good at lowering cholesterol. But the first big clinical trial of its ability to prevent heart attack and stroke finds smaller benefits.</description>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/09/scisource_ta2808_wide-5b1e7b02db706dd32f3e9ad530c74dd00149a82a-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/17/heart-disease-3_wide-9f6d700990e46841d24b2b92cfede42146aa6e62-s800-c15.jpg"></a>
 
-March 9, 2017 - An international consortium of researchers has synthesized about a third of the genetic code of baker's yeast. It's an important milestone in science's quest to create complex "synthetic life."
+March 17, 2017 - The injectible drug Repatha is spectacularly good at lowering cholesterol. But the first big clinical trial of its ability to prevent heart attack and stroke finds smaller benefits.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome">http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/scisource_ta2808_wide-5b1e7b02db706dd32f3e9ad530c74dd00149a82a-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/17/520516314/pricey-new-cholesterol-drugs-effect-on-heart-disease-is-more-modest-than-hoped">http://www.npr.org/sections/health-shots/2017/03/17/520516314/pricey-new-cholesterol-drugs-effect-on-heart-disease-is-more-modest-than-hoped</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/17/heart-disease-3_wide-9f6d700990e46841d24b2b92cfede42146aa6e62-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/2017/03/09/519450642/medical-hospital-groups-oppose-gop-health-care-plan</guid>
-      <title>Medical, Hospital Groups Oppose GOP Health Care Plan</title>
-      <link>http://www.npr.org/2017/03/09/519450642/medical-hospital-groups-oppose-gop-health-care-plan</link>
-      <description>March 9, 2017 - Associations of doctors, nurses and hospitals say the bill, under review in Congress, will likely reduce coverage and hurt Americans&#39; health. Among the critics is Medicaid&#39;s chief medical officer.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170317_me_texas_braces_for_medicaid_cuts_under_gop_health_plan.mp3?orgId=252&amp;topicId=1128&amp;d=210&amp;p=3&amp;story=520266060&amp;t=progseg&amp;e=520498582&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Texas Braces For Medicaid Cuts Under GOP Health Plan</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/17/520266060/texas-braces-for-medicaid-cuts-under-gop-health-plan</link>
+      <description>March 17, 2017 - Advocates on both sides of the aisle say the GOP health care bill will be bad for Texas because it will lead to more people without coverage and punish the state because it did not expand Medicaid.</description>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170317_me_texas_braces_for_medicaid_cuts_under_gop_health_plan.mp3?orgId=252&amp;topicId=1128&amp;d=210&amp;p=3&amp;story=520266060&amp;t=progseg&amp;e=520498582&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/09/ap_17068560544062_wide-ac77c2fa3957004e80d09aefee31781aef382824-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/16/ap_330907979946_wide-678c0ac994607b9d3239438f5ebcbd831af41b8a-s800-c15.jpg"></a>
 
-March 9, 2017 - Associations of doctors, nurses and hospitals say the bill, under review in Congress, will likely reduce coverage and hurt Americans' health. Among the critics is Medicaid's chief medical officer.
+March 17, 2017 - Advocates on both sides of the aisle say the GOP health care bill will be bad for Texas because it will lead to more people without coverage and punish the state because it did not expand Medicaid.
 
-<a href="http://www.npr.org/2017/03/09/519450642/medical-hospital-groups-oppose-gop-health-care-plan">http://www.npr.org/2017/03/09/519450642/medical-hospital-groups-oppose-gop-health-care-plan</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/ap_17068560544062_wide-ac77c2fa3957004e80d09aefee31781aef382824-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/17/520266060/texas-braces-for-medicaid-cuts-under-gop-health-plan">http://www.npr.org/sections/health-shots/2017/03/17/520266060/texas-braces-for-medicaid-cuts-under-gop-health-plan</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/ap_330907979946_wide-678c0ac994607b9d3239438f5ebcbd831af41b8a-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>210</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/09/519226175/looking-into-the-horse-milk-story-that-the-dalai-lama-told-john-oliver</guid>
-      <title>Looking Into The Horse Milk Story That The Dalai Lama Told John Oliver</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/03/09/519226175/looking-into-the-horse-milk-story-that-the-dalai-lama-told-john-oliver</link>
-      <description>March 9, 2017 - The spiritual leader says he brought down Mongolia&#39;s rate of alcoholism by encouraging a switch from vodka to horse milk.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170316_atc_over-the-counter_birth_control_pills_would_be_safe_for_teens_researchers_say.mp3?orgId=1&amp;topicId=1128&amp;d=152&amp;p=2&amp;story=520268440&amp;t=progseg&amp;e=520366511&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Over-The-Counter Birth Control Pills Would Be Safe For Teens, Researchers Say</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say</link>
+      <description>March 16, 2017 - Making contraceptives available over the counter is safe, a review of research finds, and could lead to fewer unplanned pregnancies in both teens and adult women.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170316_atc_over-the-counter_birth_control_pills_would_be_safe_for_teens_researchers_say.mp3?orgId=1&amp;topicId=1128&amp;d=152&amp;p=2&amp;story=520268440&amp;t=progseg&amp;e=520366511&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/09/screen-shot-2017-03-09-at-12.13.19-pm-50_wide-2bb71d092254d7e756ac6884ca28c5465597e2d3-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/16/contraceptive-pills-1_wide-25b06f0f04bf37696dde9acd3b15a1e6531b916a-s800-c15.jpg"></a>
 
-March 9, 2017 - The spiritual leader says he brought down Mongolia's rate of alcoholism by encouraging a switch from vodka to horse milk.
+March 16, 2017 - Making contraceptives available over the counter is safe, a review of research finds, and could lead to fewer unplanned pregnancies in both teens and adult women.
 
-<a href="http://www.npr.org/sections/goatsandsoda/2017/03/09/519226175/looking-into-the-horse-milk-story-that-the-dalai-lama-told-john-oliver">http://www.npr.org/sections/goatsandsoda/2017/03/09/519226175/looking-into-the-horse-milk-story-that-the-dalai-lama-told-john-oliver</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/screen-shot-2017-03-09-at-12.13.19-pm-50_wide-2bb71d092254d7e756ac6884ca28c5465597e2d3-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say">http://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/contraceptive-pills-1_wide-25b06f0f04bf37696dde9acd3b15a1e6531b916a-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>152</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/09/519304881/5-things-to-watch-with-the-gop-health-law-overhaul</guid>
-      <title>5 Key Takeaways From The GOP Health Overhaul Plan</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/09/519304881/5-things-to-watch-with-the-gop-health-law-overhaul</link>
-      <description>March 9, 2017 - The bill proposes big changes to state and federal Medicaid programs and tax advantages for people who can afford to save up for health care costs.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170316_atc_one_way_to_force_down_drug_prices_have_the_us_exercise_its_patent_rights.mp3?orgId=1&amp;topicId=1128&amp;d=240&amp;p=2&amp;story=520390026&amp;t=progseg&amp;e=520366511&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>One Way To Force Down Drug Prices: Have The U.S. Exercise Its Patent Rights</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520390026/one-way-to-force-down-drug-prices-have-the-u-s-exercise-its-patent-rights</link>
+      <description>March 16, 2017 - Some members of Congress say the U.S. government should use the patent rights it owns for any drugs that were developed with federal grants to drive down the prices of those drugs.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170316_atc_one_way_to_force_down_drug_prices_have_the_us_exercise_its_patent_rights.mp3?orgId=1&amp;topicId=1128&amp;d=240&amp;p=2&amp;story=520390026&amp;t=progseg&amp;e=520366511&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/08/gop-bill_wide-84e68d366df92df8878b984739ebb167398d0c45-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/16/march-in-orders_wide-4fb4870951e110aeb6306baa159db1d21c7816e3-s800-c15.jpg"></a>
 
-March 9, 2017 - The bill proposes big changes to state and federal Medicaid programs and tax advantages for people who can afford to save up for health care costs.
+March 16, 2017 - Some members of Congress say the U.S. government should use the patent rights it owns for any drugs that were developed with federal grants to drive down the prices of those drugs.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/09/519304881/5-things-to-watch-with-the-gop-health-law-overhaul">http://www.npr.org/sections/health-shots/2017/03/09/519304881/5-things-to-watch-with-the-gop-health-law-overhaul</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/gop-bill_wide-84e68d366df92df8878b984739ebb167398d0c45-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520390026/one-way-to-force-down-drug-prices-have-the-u-s-exercise-its-patent-rights">http://www.npr.org/sections/health-shots/2017/03/16/520390026/one-way-to-force-down-drug-prices-have-the-u-s-exercise-its-patent-rights</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/march-in-orders_wide-4fb4870951e110aeb6306baa159db1d21c7816e3-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>240</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices</guid>
-      <title>Trump, Democrats Look For Common Ground On Drug Prices</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices</link>
-      <description>March 8, 2017 - Two congressmen met with President Trump seeking support for a bill to expand the government&#39;s ability to negotiate drug prices. But it&#39;s not clear it would have much impact or will gain support.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research</guid>
+      <title>Trump Administration Proposes Big Cuts In Medical Research</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research</link>
+      <description>March 16, 2017 - The National Institutes of Health, which funds research in treatments and cures, could lose 20 percent of its budget under the administration&#39;s proposal. More money would go for addiction treatment.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/08/ap_17067760714619_wide-732cbfc8675fde72bd06224eea57d76d07baba65-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/16/nih-institute_wide-547e569ed17203bcf654e7aa0dc911b171028883-s800-c15.jpg"></a>
 
-March 8, 2017 - Two congressmen met with President Trump seeking support for a bill to expand the government's ability to negotiate drug prices. But it's not clear it would have much impact or will gain support.
+March 16, 2017 - The National Institutes of Health, which funds research in treatments and cures, could lose 20 percent of its budget under the administration's proposal. More money would go for addiction treatment.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices">http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/ap_17067760714619_wide-732cbfc8675fde72bd06224eea57d76d07baba65-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research">http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/nih-institute_wide-547e569ed17203bcf654e7aa0dc911b171028883-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_neanderthal_diets.mp3?orgId=1&amp;topicId=1053&amp;d=234&amp;p=2&amp;story=519048010&amp;t=progseg&amp;e=519185942&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Some Neanderthals Were Vegetarian — And They Likely Kissed Our Human Ancestors</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/08/519048010/some-neanderthals-were-vegetarian-and-they-likely-kissed-our-human-ancestors</link>
-      <description>March 8, 2017 - A new study of the dental plaques of three Neanderthals reveals surprising facts about their lives, including what they ate, the diseases that ailed them and how they self-medicated (and smooched).</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_neanderthal_diets.mp3?orgId=1&amp;topicId=1053&amp;d=234&amp;p=2&amp;story=519048010&amp;t=progseg&amp;e=519185942&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/16/520291362/dangers-of-opana-opioid-painkiller-outweigh-benefits-fda-panel-says</guid>
+      <title>Dangers Of Opana Opioid Painkiller Outweigh Benefits, FDA Panel Says</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520291362/dangers-of-opana-opioid-painkiller-outweigh-benefits-fda-panel-says</link>
+      <description>March 16, 2017 - Opana ER has been linked to an HIV outbreak in rural Indiana among people who abuse the opioid painkiller. An advisory panel to the Food and Drug Administration says the drug is too risky.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/07/el-sidron-neandertal-group-cartoon-csic-spain-baja_wide-9d72e3539f15e7663240d818aef6d4f977569237-s800-c15.jpeg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/16/opana-2_wide-e34f2ed3f52bc3fa41917c5b3404cd8081fcf4f3-s800-c15.jpg"></a>
 
-March 8, 2017 - A new study of the dental plaques of three Neanderthals reveals surprising facts about their lives, including what they ate, the diseases that ailed them and how they self-medicated (and smooched).
+March 16, 2017 - Opana ER has been linked to an HIV outbreak in rural Indiana among people who abuse the opioid painkiller. An advisory panel to the Food and Drug Administration says the drug is too risky.
 
-<a href="http://www.npr.org/sections/thesalt/2017/03/08/519048010/some-neanderthals-were-vegetarian-and-they-likely-kissed-our-human-ancestors">http://www.npr.org/sections/thesalt/2017/03/08/519048010/some-neanderthals-were-vegetarian-and-they-likely-kissed-our-human-ancestors</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/el-sidron-neandertal-group-cartoon-csic-spain-baja_wide-9d72e3539f15e7663240d818aef6d4f977569237-s3000-c15.jpeg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520291362/dangers-of-opana-opioid-painkiller-outweigh-benefits-fda-panel-says">http://www.npr.org/sections/health-shots/2017/03/16/520291362/dangers-of-opana-opioid-painkiller-outweigh-benefits-fda-panel-says</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/opana-2_wide-e34f2ed3f52bc3fa41917c5b3404cd8081fcf4f3-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_house_committees_begin_debate_on_republican_health_care_bill.mp3?orgId=1&amp;topicId=1014&amp;d=224&amp;p=2&amp;story=519282223&amp;t=progseg&amp;e=519185942&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
-      <title>House Committees Begin Debate On Republican Health Care Bill</title>
-      <link>http://www.npr.org/2017/03/08/519282223/house-committees-begin-debate-on-republican-health-care-bill</link>
-      <description>March 8, 2017 - Two House committees are debating Wednesday on a Republican to overhaul the Affordable Care Act, also known as Obamacare.&#xA;&#xA; - http://www.npr.org/2017/03/08/519282223/house-committees-begin-debate-on-republican-health-care-bill</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_house_committees_begin_debate_on_republican_health_care_bill.mp3?orgId=1&amp;topicId=1014&amp;d=224&amp;p=2&amp;story=519282223&amp;t=progseg&amp;e=519185942&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170316_me_travel_ban_adds_stress_to_match_week_for_some_doctors.mp3?orgId=432&amp;topicId=1128&amp;d=214&amp;p=3&amp;story=520137303&amp;t=progseg&amp;e=520363949&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Travel Ban Adds Stress To &#39;Match Week&#39; For Some Doctors</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520137303/travel-ban-adds-stress-to-match-week-for-some-doctors</link>
+      <description>March 16, 2017 - A medical residency program is the next training step for newly minted doctors, and awaiting &#34;the match&#34; can be tense. For some international students, Trump&#39;s travel ban has made that tension worse.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170316_me_travel_ban_adds_stress_to_match_week_for_some_doctors.mp3?orgId=432&amp;topicId=1128&amp;d=214&amp;p=3&amp;story=520137303&amp;t=progseg&amp;e=520363949&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - Two House committees are debating Wednesday on a Republican to overhaul the Affordable Care Act, also known as Obamacare.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/15/iraniandocs_wide-b44a1fee63328fc7f930c555837166049fb057e9-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/08/519282223/house-committees-begin-debate-on-republican-health-care-bill">http://www.npr.org/2017/03/08/519282223/house-committees-begin-debate-on-republican-health-care-bill</a>]]></itunes:summary>
+March 16, 2017 - A medical residency program is the next training step for newly minted doctors, and awaiting "the match" can be tense. For some international students, Trump's travel ban has made that tension worse.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520137303/travel-ban-adds-stress-to-match-week-for-some-doctors">http://www.npr.org/sections/health-shots/2017/03/16/520137303/travel-ban-adds-stress-to-match-week-for-some-doctors</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/iraniandocs_wide-b44a1fee63328fc7f930c555837166049fb057e9-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>214</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_minority_leader_nancy_pelosi_outlines_democrats_fight_to_save_obamacare.mp3?orgId=1&amp;topicId=1014&amp;d=339&amp;p=2&amp;story=520301553&amp;t=progseg&amp;e=520287909&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Pelosi Says Democrats Have A Responsibility To Look For Common Ground On Health Law</title>
+      <link>http://www.npr.org/2017/03/15/520301553/pelosi-says-democrats-have-a-responsibility-to-look-for-common-ground-on-health</link>
+      <description>March 15, 2017 - House Minority Leader Nancy Pelosi told NPR&#39;s Robert Siegel she doesn&#39;t think President Trump &#34;has the faintest idea&#34; about health care.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_minority_leader_nancy_pelosi_outlines_democrats_fight_to_save_obamacare.mp3?orgId=1&amp;topicId=1014&amp;d=339&amp;p=2&amp;story=520301553&amp;t=progseg&amp;e=520287909&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/15/2017-03-15-nancy-pelosi-mcarrasquero-040_wide-6906e75ff78b39c53420d4615dafbaa68389e7d1-s800-c15.jpg"></a>
+
+March 15, 2017 - House Minority Leader Nancy Pelosi told NPR's Robert Siegel she doesn't think President Trump "has the faintest idea" about health care.
+
+<a href="http://www.npr.org/2017/03/15/520301553/pelosi-says-democrats-have-a-responsibility-to-look-for-common-ground-on-health">http://www.npr.org/2017/03/15/520301553/pelosi-says-democrats-have-a-responsibility-to-look-for-common-ground-on-health</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/2017-03-15-nancy-pelosi-mcarrasquero-040_wide-6906e75ff78b39c53420d4615dafbaa68389e7d1-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>339</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments</guid>
+      <title>3 Women Blinded By Unproven Stem Cell Treatments</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments</link>
+      <description>March 15, 2017 - Three patients were blinded after getting stem cells from fat at a Florida clinic. But a research study showed that induced pluripotent stem cells might someday help treat vision loss.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/15/retina_wide-4509d2a1ef9572efdbec6f1edf9e2c2956aa8c6e-s800-c15.jpg"></a>
+
+March 15, 2017 - Three patients were blinded after getting stem cells from fat at a Florida clinic. But a research study showed that induced pluripotent stem cells might someday help treat vision loss.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments">http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/retina_wide-4509d2a1ef9572efdbec6f1edf9e2c2956aa8c6e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_ahca_and_addiction_treatment.mp3?orgId=1&amp;topicId=1027&amp;d=291&amp;p=2&amp;story=520270916&amp;t=progseg&amp;e=520287909&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Former Drug Czar Says GOP Health Bill Would Cut Access To Addiction Treatment</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/15/520270916/former-drug-czar-say-gop-health-bill-would-cut-access-to-addiction-treatment</link>
+      <description>March 15, 2017 - The director of National Drug Control Policy under President Obama, Michael Botticelli, says the proposed GOP health bill would decrease access to treatment in the middle of an opioid crisis.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_ahca_and_addiction_treatment.mp3?orgId=1&amp;topicId=1027&amp;d=291&amp;p=2&amp;story=520270916&amp;t=progseg&amp;e=520287909&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/15/bottecelli_wide-2da13d6f41284718e042d2e184488a0c44d20376-s800-c15.jpg"></a>
+
+March 15, 2017 - The director of National Drug Control Policy under President Obama, Michael Botticelli, says the proposed GOP health bill would decrease access to treatment in the middle of an opioid crisis.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/15/520270916/former-drug-czar-say-gop-health-bill-would-cut-access-to-addiction-treatment">http://www.npr.org/sections/health-shots/2017/03/15/520270916/former-drug-czar-say-gop-health-bill-would-cut-access-to-addiction-treatment</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/bottecelli_wide-2da13d6f41284718e042d2e184488a0c44d20376-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>291</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_house_ways_and_means_committee_chair_defends_gop_health_care_bill.mp3?orgId=1&amp;topicId=1014&amp;d=339&amp;p=2&amp;story=520301560&amp;t=progseg&amp;e=520287909&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>House Ways And Means Committee Chair Defends GOP Health Care Bill</title>
+      <link>http://www.npr.org/2017/03/15/520301560/house-ways-and-means-committee-chair-defends-gop-health-care-bill</link>
+      <description>March 15, 2017 - NPR&#39;s Audie Cornish talks to Rep. Kevin Brady, Republican of Texas and chair of the House Ways and Means Committee, about the GOP plan to repeal and replace the Affordable Care Act.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_house_ways_and_means_committee_chair_defends_gop_health_care_bill.mp3?orgId=1&amp;topicId=1014&amp;d=339&amp;p=2&amp;story=520301560&amp;t=progseg&amp;e=520287909&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 15, 2017 - NPR's Audie Cornish talks to Rep. Kevin Brady, Republican of Texas and chair of the House Ways and Means Committee, about the GOP plan to repeal and replace the Affordable Care Act.
+
+<a href="http://www.npr.org/2017/03/15/520301560/house-ways-and-means-committee-chair-defends-gop-health-care-bill">http://www.npr.org/2017/03/15/520301560/house-ways-and-means-committee-chair-defends-gop-health-care-bill</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>224</itunes:duration>
+      <itunes:duration>339</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_aarp_policy_director_criticizes_republican_health_care_plan.mp3?orgId=1&amp;topicId=1128&amp;d=227&amp;p=2&amp;story=519282174&amp;t=progseg&amp;e=519185942&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>AARP Policy Director Criticizes Republican Health Care Plan</title>
-      <link>http://www.npr.org/2017/03/08/519282174/aarp-policy-director-criticizes-republican-health-care-plan</link>
-      <description>March 8, 2017 - NPR&#39;s Robert Siegel talks to David Certner, legislative policy director for the AARP, about the House Republicans&#39; heath care reform proposal.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_aarp_policy_director_criticizes_republican_health_care_plan.mp3?orgId=1&amp;topicId=1128&amp;d=227&amp;p=2&amp;story=519282174&amp;t=progseg&amp;e=519185942&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_conservative_writer_breaks_down_gop_divisions_over_health_care.mp3?orgId=1&amp;topicId=1014&amp;d=283&amp;p=2&amp;story=520301588&amp;t=progseg&amp;e=520287909&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Conservative Writer Breaks Down GOP Divisions Over Health Care</title>
+      <link>http://www.npr.org/2017/03/15/520301588/conservative-writer-breaks-down-gop-divisions-over-health-care</link>
+      <description>March 15, 2017 - NPR&#39;s Audie Cornish talks to Erick Erickson, conservative writer and radio host, about growing tension within the Republican Party when it comes to the American Health Care Act, including Breitbart&#39;s unfavorable coverage of the GOP&#39;s bill and House Speaker Paul Ryan.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_conservative_writer_breaks_down_gop_divisions_over_health_care.mp3?orgId=1&amp;topicId=1014&amp;d=283&amp;p=2&amp;story=520301588&amp;t=progseg&amp;e=520287909&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - NPR's Robert Siegel talks to David Certner, legislative policy director for the AARP, about the House Republicans' heath care reform proposal.
+      <itunes:summary><![CDATA[March 15, 2017 - NPR's Audie Cornish talks to Erick Erickson, conservative writer and radio host, about growing tension within the Republican Party when it comes to the American Health Care Act, including Breitbart's unfavorable coverage of the GOP's bill and House Speaker Paul Ryan.
 
-<a href="http://www.npr.org/2017/03/08/519282174/aarp-policy-director-criticizes-republican-health-care-plan">http://www.npr.org/2017/03/08/519282174/aarp-policy-director-criticizes-republican-health-care-plan</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/15/520301588/conservative-writer-breaks-down-gop-divisions-over-health-care">http://www.npr.org/2017/03/15/520301588/conservative-writer-breaks-down-gop-divisions-over-health-care</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>227</itunes:duration>
+      <itunes:duration>283</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_how_will_the_gop_health_care_plan_affect_insurance_costs.mp3?orgId=1&amp;topicId=1061&amp;d=148&amp;p=2&amp;story=519282167&amp;t=progseg&amp;e=519185942&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
-      <title>How Will The GOP Health Care Plan Affect Insurance Costs?</title>
-      <link>http://www.npr.org/2017/03/08/519282167/how-will-the-gop-health-care-plan-affect-insurance-costs</link>
-      <description>March 8, 2017 - As Congress begins the process of amending the Republican health care bill, listeners tell us how the proposed plan will affect their insurance costs.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_how_will_the_gop_health_care_plan_affect_insurance_costs.mp3?orgId=1&amp;topicId=1061&amp;d=148&amp;p=2&amp;story=519282167&amp;t=progseg&amp;e=519185942&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/15/520264056/how-many-health-workers-have-been-killed-in-syria</guid>
+      <title>How Many Health Workers Have Been Killed In Syria?</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/15/520264056/how-many-health-workers-have-been-killed-in-syria</link>
+      <description>March 15, 2017 - It&#39;s complicated to confirm a death. But a new study gives a minimum number of health workers who&#39;ve been killed since the war began six years ago.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - As Congress begins the process of amending the Republican health care bill, listeners tell us how the proposed plan will affect their insurance costs.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/15/gettyimages-469566776-50_wide-a9c651ba0d952b8356e05358fa8e2138932f27f6-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/08/519282167/how-will-the-gop-health-care-plan-affect-insurance-costs">http://www.npr.org/2017/03/08/519282167/how-will-the-gop-health-care-plan-affect-insurance-costs</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>148</itunes:duration>
+March 15, 2017 - It's complicated to confirm a death. But a new study gives a minimum number of health workers who've been killed since the war began six years ago.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/15/520264056/how-many-health-workers-have-been-killed-in-syria">http://www.npr.org/sections/goatsandsoda/2017/03/15/520264056/how-many-health-workers-have-been-killed-in-syria</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/gettyimages-469566776-50_wide-a9c651ba0d952b8356e05358fa8e2138932f27f6-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_maybe_you_too_could_become_a_super_memorizer.mp3?orgId=1&amp;topicId=1007&amp;d=192&amp;p=2&amp;story=518815297&amp;t=progseg&amp;e=519185942&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Maybe You, Too, Could Become A Super Memorizer</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/08/518815297/maybe-you-too-could-become-a-super-memorizer</link>
-      <description>March 8, 2017 - After six weeks of training, people could memorize twice as much. Areas of the brain had begun communicating in new ways — a lot like what happens inside the heads of world memory champions.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_maybe_you_too_could_become_a_super_memorizer.mp3?orgId=1&amp;topicId=1007&amp;d=192&amp;p=2&amp;story=518815297&amp;t=progseg&amp;e=519185942&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears</guid>
+      <title>Emails Reveal Monsanto&#39;s Tactics To Defend Glyphosate Against Cancer Fears</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears</link>
+      <description>March 15, 2017 - Internal emails show Monsanto executives scrambling to counter a U.N. agency&#39;s finding that glyphosate, the chemical in Roundup, can cause cancer. One email proposed &#34;ghost-writing&#34; scientific papers.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/08/memory_wide-c5884494bdf66f0a0866e472cf5ccae5594ba6dd-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/15/gettyimages-532082320_wide-1501b9db149f548273233d99d008889b49f3c770-s800-c15.jpg"></a>
 
-March 8, 2017 - After six weeks of training, people could memorize twice as much. Areas of the brain had begun communicating in new ways — a lot like what happens inside the heads of world memory champions.
+March 15, 2017 - Internal emails show Monsanto executives scrambling to counter a U.N. agency's finding that glyphosate, the chemical in Roundup, can cause cancer. One email proposed "ghost-writing" scientific papers.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/08/518815297/maybe-you-too-could-become-a-super-memorizer">http://www.npr.org/sections/health-shots/2017/03/08/518815297/maybe-you-too-could-become-a-super-memorizer</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/memory_wide-c5884494bdf66f0a0866e472cf5ccae5594ba6dd-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>192</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/2017/03/08/519091030/freedom-caucus-members-face-crossroads-over-health-care-proposal</guid>
-      <title>Trump Won Big In House Conservatives&#39; Districts — Will They Defy Him On Health Care?</title>
-      <link>http://www.npr.org/2017/03/08/519091030/freedom-caucus-members-face-crossroads-over-health-care-proposal</link>
-      <description>March 8, 2017 - Members of the House Freedom Caucus and their allies are rebuking the Republican leadership&#39;s health care bill, but many of their constituents voted for President Trump. Can the lawmakers be swayed?</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/08/gettyimages-649333788_wide-533224c64631fa037e0c02dcf1d3ba298ddbceae-s800-c15.jpg"></a>
-
-March 8, 2017 - Members of the House Freedom Caucus and their allies are rebuking the Republican leadership's health care bill, but many of their constituents voted for President Trump. Can the lawmakers be swayed?
-
-<a href="http://www.npr.org/2017/03/08/519091030/freedom-caucus-members-face-crossroads-over-health-care-proposal">http://www.npr.org/2017/03/08/519091030/freedom-caucus-members-face-crossroads-over-health-care-proposal</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/gettyimages-649333788_wide-533224c64631fa037e0c02dcf1d3ba298ddbceae-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/08/519212461/gop-health-bill-faces-criticism-as-committee-work-begins</guid>
-      <title>GOP Health Bill Faces Criticism As Committee Work Begins</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/08/519212461/gop-health-bill-faces-criticism-as-committee-work-begins</link>
-      <description>March 8, 2017 - Fending off attacks from the left and the right, House GOP leaders begin the process of amending their American Health Care Act, which would replace Obamacare.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/08/ahca-1_wide-53a0a25bf9a829d612b28562756e492bc4b3013a-s800-c15.jpg"></a>
-
-March 8, 2017 - Fending off attacks from the left and the right, House GOP leaders begin the process of amending their American Health Care Act, which would replace Obamacare.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/08/519212461/gop-health-bill-faces-criticism-as-committee-work-begins">http://www.npr.org/sections/health-shots/2017/03/08/519212461/gop-health-bill-faces-criticism-as-committee-work-begins</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/ahca-1_wide-53a0a25bf9a829d612b28562756e492bc4b3013a-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/08/519059382/republicans-health-plan-may-not-fix-the-problems-they-want-to-fix</guid>
-      <title>Analysis: GOP Health Plan May Not Fix The Problems They Want To Fix</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/08/519059382/republicans-health-plan-may-not-fix-the-problems-they-want-to-fix</link>
-      <description>March 8, 2017 - The House Republican health care proposal to replace Obamacare may not cut costs, increase choices or boost coverage in the end.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/07/gettyimages-6492732701_wide-bacc5e33bc7928edac5afab7fc4f6d02f1abcb73-s800-c15.jpg"></a>
-
-March 8, 2017 - The House Republican health care proposal to replace Obamacare may not cut costs, increase choices or boost coverage in the end.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/08/519059382/republicans-health-plan-may-not-fix-the-problems-they-want-to-fix">http://www.npr.org/sections/health-shots/2017/03/08/519059382/republicans-health-plan-may-not-fix-the-problems-they-want-to-fix</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/gettyimages-6492732701_wide-bacc5e33bc7928edac5afab7fc4f6d02f1abcb73-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_affordable_care_act_architect_on_the_new_republican_plan.mp3?orgId=1&amp;topicId=1027&amp;d=268&amp;p=3&amp;story=519170702&amp;t=progseg&amp;e=519170189&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Affordable Care Act Architect On The New Republican Plan</title>
-      <link>http://www.npr.org/2017/03/08/519170702/affordable-care-act-architect-on-the-new-republican-plan</link>
-      <description>March 8, 2017 - A difficult part of implementing a new health care law is providing health insurance to the sick and underserved. Steve Inskeep talks with MIT economist and Obamacare architect Jonathan Gruber.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_affordable_care_act_architect_on_the_new_republican_plan.mp3?orgId=1&amp;topicId=1027&amp;d=268&amp;p=3&amp;story=519170702&amp;t=progseg&amp;e=519170189&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - A difficult part of implementing a new health care law is providing health insurance to the sick and underserved. Steve Inskeep talks with MIT economist and Obamacare architect Jonathan Gruber.
-
-<a href="http://www.npr.org/2017/03/08/519170702/affordable-care-act-architect-on-the-new-republican-plan">http://www.npr.org/2017/03/08/519170702/affordable-care-act-architect-on-the-new-republican-plan</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>268</itunes:duration>
+<a href="http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears">http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/gettyimages-532082320_wide-1501b9db149f548273233d99d008889b49f3c770-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

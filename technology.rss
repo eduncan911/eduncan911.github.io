@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 20:58:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Mar 2017 14:51:50 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Thu, 09 Mar 2017 20:58:57 +0000</pubDate>
+    <pubDate>Fri, 17 Mar 2017 14:51:50 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -24,230 +24,232 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again</guid>
-      <title>RadioShack Files For Bankruptcy. Again</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again</link>
-      <description>March 9, 2017 - The electronics chain closed thousands of stores in 2015 and restructured the remaining business in an attempt to stabilize sales. On Wednesday, the new parent company filed for bankruptcy.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</guid>
+      <title>Digitization Unearths New Data From Cold War-Era Nuclear Test Films</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</link>
+      <description>March 16, 2017 - The U.S. conducted hundreds of atmospheric nuclear tests between 1945 and 1962 — and filmed them. A project to digitize those films has changed the analysis of the nuclear explosions themselves.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/09/gettyimages-462712322_wide-b3e828732af55a0496c0c707c12d57360d9481a5-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/16/hardtack_wide-4deaa267fa7d6b0c3297e132ad3718be84e16bda-s800-c15.png"></a>
 
-March 9, 2017 - The electronics chain closed thousands of stores in 2015 and restructured the remaining business in an attempt to stabilize sales. On Wednesday, the new parent company filed for bankruptcy.
+March 16, 2017 - The U.S. conducted hundreds of atmospheric nuclear tests between 1945 and 1962 — and filmed them. A project to digitize those films has changed the analysis of the nuclear explosions themselves.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again">http://www.npr.org/sections/thetwo-way/2017/03/09/519440212/radioshack-files-for-bankruptcy-again</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/gettyimages-462712322_wide-b3e828732af55a0496c0c707c12d57360d9481a5-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films">http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/hardtack_wide-4deaa267fa7d6b0c3297e132ad3718be84e16bda-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies</guid>
-      <title>Julian Assange Says WikiLeaks Will Share CIA Code With Tech Companies</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies</link>
-      <description>March 9, 2017 - WikiLeaks on Tuesday disclosed the hacking tools from the so-called Vault 7 series. Now Assange says his group will be working with big manufacturers to develop fixes.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley</guid>
+      <title>When Policing And Race Cross Paths In Silicon Valley</title>
+      <link>http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley</link>
+      <description>March 16, 2017 - In California, officers undergo cultural diversity and discrimination training, which includes understanding the cultural composition of the state and discussing the impact of racial profiling.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/09/ap_162242812312401_wide-ffee2ca897297f96e87955a0b016d01013ddd00d-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/16/gettyimages-597456354_wide-5dd801b8641a1a92e797ff8a9b61113e948b6183-s800-c15.jpg"></a>
 
-March 9, 2017 - WikiLeaks on Tuesday disclosed the hacking tools from the so-called Vault 7 series. Now Assange says his group will be working with big manufacturers to develop fixes.
+March 16, 2017 - In California, officers undergo cultural diversity and discrimination training, which includes understanding the cultural composition of the state and discussing the impact of racial profiling.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies">http://www.npr.org/sections/thetwo-way/2017/03/09/519441618/julian-assange-says-wikileaks-will-share-cia-code-with-tech-companies</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/ap_162242812312401_wide-ffee2ca897297f96e87955a0b016d01013ddd00d-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley">http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/gettyimages-597456354_wide-5dd801b8641a1a92e797ff8a9b61113e948b6183-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_silicon_valley_leaders_raise_concerns_about_latest_wikileaks_release.mp3?orgId=1&amp;topicId=1122&amp;d=243&amp;p=2&amp;story=519282216&amp;t=progseg&amp;e=519185942&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Silicon Valley Leaders Raise Concerns About Latest WikiLeaks Release</title>
-      <link>http://www.npr.org/2017/03/08/519282216/silicon-valley-leaders-raise-concerns-about-latest-wikileaks-release</link>
-      <description>March 8, 2017 - NPR&#39;s Ari Shapiro speaks with Nico Sell, co-founder of Wickr, about the WikiLeaks documents regarding government surveillance utilizing security flaws in commonly used devices.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_silicon_valley_leaders_raise_concerns_about_latest_wikileaks_release.mp3?orgId=1&amp;topicId=1122&amp;d=243&amp;p=2&amp;story=519282216&amp;t=progseg&amp;e=519185942&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted</guid>
+      <title>McDonald&#39;s Tweet Blasts President Trump, And Is Quickly Deleted</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted</link>
+      <description>March 16, 2017 - McDonald&#39;s says its account was &#34;hacked by an external source.&#34; The tweet drew a wide range of responses — from pledges to eat a Big Mac today to calls for a boycott.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - NPR's Ari Shapiro speaks with Nico Sell, co-founder of Wickr, about the WikiLeaks documents regarding government surveillance utilizing security flaws in commonly used devices.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/16/mcdonalds-twitter_wide-b9eff48f2c655ae3216fa365f70d99b53ca5eefa-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/08/519282216/silicon-valley-leaders-raise-concerns-about-latest-wikileaks-release">http://www.npr.org/2017/03/08/519282216/silicon-valley-leaders-raise-concerns-about-latest-wikileaks-release</a>]]></itunes:summary>
+March 16, 2017 - McDonald's says its account was "hacked by an external source." The tweet drew a wide range of responses — from pledges to eat a Big Mac today to calls for a boycott.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted">http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/mcdonalds-twitter_wide-b9eff48f2c655ae3216fa365f70d99b53ca5eefa-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights</guid>
+      <title>FAA Eases Up On Electronic Devices On Flights</title>
+      <link>http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights</link>
+      <description>March 15, 2017 - The FAA is allowing air travelers to use their computers, smartphones and tablets during just about the entire duration of commercial flights. Actual phone calls will still not be allowed.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 15, 2017 - The FAA is allowing air travelers to use their computers, smartphones and tablets during just about the entire duration of commercial flights. Actual phone calls will still not be allowed.
+
+<a href="http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights">http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>243</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</guid>
-      <title>Researchers Take A Step Toward Mind-Controlled Robots</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</link>
-      <description>March 8, 2017 - Researchers have created a system where humans can guide robots with their brainwaves, signaling to the machines when they&#39;ve made a mistake. It could help improve the way humans and robots interact.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say</guid>
+      <title>Woman&#39;s Headphones Caught Fire Midflight, Australian Authorities Say</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say</link>
+      <description>March 15, 2017 - On a flight from Beijing to Melbourne, a passenger&#39;s personal headphones caught fire while she was sleeping, the Australian Transport Safety Bureau says.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/08/0306_mind-controlled-robot05-2_wide-672e71a90ae7336b48046dd4addd78b202607882-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/15/headphones1_wide-ec2b9b9d658852c79cfae74223a613051633c180-s800-c15.jpg"></a>
 
-March 8, 2017 - Researchers have created a system where humans can guide robots with their brainwaves, signaling to the machines when they've made a mistake. It could help improve the way humans and robots interact.
+March 15, 2017 - On a flight from Beijing to Melbourne, a passenger's personal headphones caught fire while she was sleeping, the Australian Transport Safety Bureau says.
 
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots">http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/0306_mind-controlled-robot05-2_wide-672e71a90ae7336b48046dd4addd78b202607882-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say">http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/headphones1_wide-ec2b9b9d658852c79cfae74223a613051633c180-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why</guid>
-      <title>The CIA Document Dump Isn&#39;t Exactly Snowden 2.0. Here&#39;s Why</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why</link>
-      <description>March 8, 2017 - The alleged CIA documents reveal a hacking program that is very different from the one uncovered by Edward Snowden&#39;s NSA leak. One distinction: Mass surveillance vs. targeted attacks.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack</guid>
+      <title>U.S. Indicts 2 Russian Security Officials Over Yahoo Hack</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack</link>
+      <description>March 15, 2017 - The two defendants are officers of the Russian Federal Security Service, or FSB. They were indicted along with two criminal hackers over a 2014 breach involving at least 500 million Yahoo accounts.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/08/cia-office_wide-9fb0ee8539ae38231b3585d16edc58f310642529-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/15/facebyside_wide-bcf9cbc1a5fd656728a1b3b82899e7e57893edd1-s800-c15.png"></a>
 
-March 8, 2017 - The alleged CIA documents reveal a hacking program that is very different from the one uncovered by Edward Snowden's NSA leak. One distinction: Mass surveillance vs. targeted attacks.
+March 15, 2017 - The two defendants are officers of the Russian Federal Security Service, or FSB. They were indicted along with two criminal hackers over a 2014 breach involving at least 500 million Yahoo accounts.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why">http://www.npr.org/sections/thetwo-way/2017/03/08/519205172/the-cia-document-dump-isn-t-exactly-snowden-2-0-here-s-why</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/cia-office_wide-9fb0ee8539ae38231b3585d16edc58f310642529-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack">http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/facebyside_wide-bcf9cbc1a5fd656728a1b3b82899e7e57893edd1-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_wikileaks_documents_detail_alleged_cia_hacking_tools.mp3?orgId=1&amp;topicId=1122&amp;d=261&amp;p=3&amp;story=519170664&amp;t=progseg&amp;e=519170189&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
-      <title>WikiLeaks Documents Detail Alleged CIA Hacking Tools</title>
-      <link>http://www.npr.org/2017/03/08/519170664/wikileaks-documents-detail-alleged-cia-hacking-tools</link>
-      <description>March 8, 2017 - David Greene talks with Jake Williams of the cybersecurity firm Rendition InfoSec about documents released by WikiLeaks that purportedly describe tools the CIA uses to spy on electronic devices.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_wikileaks_documents_detail_alleged_cia_hacking_tools.mp3?orgId=1&amp;topicId=1122&amp;d=261&amp;p=3&amp;story=519170664&amp;t=progseg&amp;e=519170189&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use</guid>
+      <title>Vibrator Maker To Pay Millions Over Claims It Secretly Tracked Use</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use</link>
+      <description>March 14, 2017 - The makers of the We-Vibe, which can be paired with an app, don&#39;t admit any wrongdoing. But they will pay $3.75 million after allegations that the app was collecting &#34;highly sensitive information.&#34;</description>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - David Greene talks with Jake Williams of the cybersecurity firm Rendition InfoSec about documents released by WikiLeaks that purportedly describe tools the CIA uses to spy on electronic devices.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/14/classic-w-remote-in-charger-w-case-1200-wm_wide-5a2dad054ceb1be6b21590ef38a01d1db6bc9b77-s800-c15.jpeg"></a>
 
-<a href="http://www.npr.org/2017/03/08/519170664/wikileaks-documents-detail-alleged-cia-hacking-tools">http://www.npr.org/2017/03/08/519170664/wikileaks-documents-detail-alleged-cia-hacking-tools</a>]]></itunes:summary>
+March 14, 2017 - The makers of the We-Vibe, which can be paired with an app, don't admit any wrongdoing. But they will pay $3.75 million after allegations that the app was collecting "highly sensitive information."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use">http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/14/classic-w-remote-in-charger-w-case-1200-wm_wide-5a2dad054ceb1be6b21590ef38a01d1db6bc9b77-s3000-c15.jpeg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</guid>
+      <title>VIDEO: Nike&#39;s New Ad Asks A Question Arab Women Know All Too Well</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</link>
+      <description>March 14, 2017 - &#39;What will they say about you?&#39; It&#39;s the name of a new Nike ad targeted to Arab women.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</description>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/screen-shot-2017-03-13-at-10.22.15-am_wide-8588446b376a1d88be3cdfcaf7259a43f295ef4a-s800-c15.jpg"></a>
+
+March 14, 2017 - 'What will they say about you?' It's the name of a new Nike ad targeted to Arab women.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well">http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/screen-shot-2017-03-13-at-10.22.15-am_wide-8588446b376a1d88be3cdfcaf7259a43f295ef4a-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_as_braille_literacy_declines_reading_competitions_held_to_boost_interest.mp3?orgId=577&amp;topicId=1013&amp;d=232&amp;p=2&amp;story=519983877&amp;t=progseg&amp;e=519955666&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>As Braille Literacy Declines, Reading Competitions Held To Boost Interest</title>
+      <link>http://www.npr.org/2017/03/13/519983877/as-braille-literacy-declines-reading-competitions-held-to-boost-interest</link>
+      <description>March 13, 2017 - As blind children depend more on technology to help them read, braille is seeming antiquated, with literacy rates at just 10 percent. So now, braille reading competitions are held to keep it in use.</description>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_as_braille_literacy_declines_reading_competitions_held_to_boost_interest.mp3?orgId=577&amp;topicId=1013&amp;d=232&amp;p=2&amp;story=519983877&amp;t=progseg&amp;e=519955666&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/braille4_wide-d5910fd2e25dbed5ae59d3a4cdb3c13aeefcb184-s800-c15.jpg"></a>
+
+March 13, 2017 - As blind children depend more on technology to help them read, braille is seeming antiquated, with literacy rates at just 10 percent. So now, braille reading competitions are held to keep it in use.
+
+<a href="http://www.npr.org/2017/03/13/519983877/as-braille-literacy-declines-reading-competitions-held-to-boost-interest">http://www.npr.org/2017/03/13/519983877/as-braille-literacy-declines-reading-competitions-held-to-boost-interest</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/braille4_wide-d5910fd2e25dbed5ae59d3a4cdb3c13aeefcb184-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>232</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_developers_create_panic_button_for_immigrants_being_detained.mp3?orgId=1&amp;topicId=1019&amp;d=81&amp;p=2&amp;story=520021434&amp;t=progseg&amp;e=519955666&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Developers Create &#39;Panic Button&#39; For Immigrants Being Detained</title>
+      <link>http://www.npr.org/2017/03/13/520021434/developers-create-panic-button-for-immigrants-being-detained</link>
+      <description>March 13, 2017 - Natalia Margolis, software engineer at Huge, created an app called Notifica that allows people detained for deportation to send out alerts to family, friends and lawyers with the push of a button.</description>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_developers_create_panic_button_for_immigrants_being_detained.mp3?orgId=1&amp;topicId=1019&amp;d=81&amp;p=2&amp;story=520021434&amp;t=progseg&amp;e=519955666&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 13, 2017 - Natalia Margolis, software engineer at Huge, created an app called Notifica that allows people detained for deportation to send out alerts to family, friends and lawyers with the push of a button.
+
+<a href="http://www.npr.org/2017/03/13/520021434/developers-create-panic-button-for-immigrants-being-detained">http://www.npr.org/2017/03/13/520021434/developers-create-panic-button-for-immigrants-being-detained</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>261</itunes:duration>
+      <itunes:duration>81</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_syrian_psychiatrist_in_the_us_uses_online_platfrom_to_help_mental_health_workers.mp3?orgId=1&amp;topicId=1004&amp;d=264&amp;p=3&amp;story=519170588&amp;t=progseg&amp;e=519170189&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Syrian Psychiatrist In The U.S. Uses Online Platform To Help Mental Health Workers</title>
-      <link>http://www.npr.org/2017/03/08/519170588/syrian-psychiatrist-in-the-u-s-uses-online-platfrom-to-help-mental-health-worker</link>
-      <description>March 8, 2017 - A Syrian psychiatrist who lives in the U.S. has found a way to help the thousands of people suffering from trauma back in and around his homeland.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_syrian_psychiatrist_in_the_us_uses_online_platfrom_to_help_mental_health_workers.mp3?orgId=1&amp;topicId=1004&amp;d=264&amp;p=3&amp;story=519170588&amp;t=progseg&amp;e=519170189&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_young_women_of_color_design_covert_fashion_to_combat_surveillance.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=2&amp;story=520021384&amp;t=progseg&amp;e=519955666&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Covert Fashion Provides Camouflage Against Surveillance Software</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/13/520021384/covert-fashion-provides-camouflage-against-surveillance-software</link>
+      <description>March 13, 2017 - Hyphen-Labs is a group of women of color who are scientists, engineers, architects and designers who have designed clothing that camouflages against facial recognition software.</description>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_young_women_of_color_design_covert_fashion_to_combat_surveillance.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=2&amp;story=520021384&amp;t=progseg&amp;e=519955666&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - A Syrian psychiatrist who lives in the U.S. has found a way to help the thousands of people suffering from trauma back in and around his homeland.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/2017-03-13_ninagregory-1-of-2-_wide-1056efa0deb4ff43619e8b0bcadd709ddde63380-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/08/519170588/syrian-psychiatrist-in-the-u-s-uses-online-platfrom-to-help-mental-health-worker">http://www.npr.org/2017/03/08/519170588/syrian-psychiatrist-in-the-u-s-uses-online-platfrom-to-help-mental-health-worker</a>]]></itunes:summary>
+March 13, 2017 - Hyphen-Labs is a group of women of color who are scientists, engineers, architects and designers who have designed clothing that camouflages against facial recognition software.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/13/520021384/covert-fashion-provides-camouflage-against-surveillance-software">http://www.npr.org/sections/alltechconsidered/2017/03/13/520021384/covert-fashion-provides-camouflage-against-surveillance-software</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/2017-03-13_ninagregory-1-of-2-_wide-1056efa0deb4ff43619e8b0bcadd709ddde63380-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>230</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_rise_of_artifical_intelligence_met_with_mixed_reaction_at_sxsw.mp3?orgId=1&amp;topicId=1019&amp;d=216&amp;p=2&amp;story=520021377&amp;t=progseg&amp;e=519955666&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Rise Of Artificial Intelligence Met With Mixed Reaction At SXSW</title>
+      <link>http://www.npr.org/2017/03/13/520021377/rise-of-artificial-intelligence-met-with-mixed-reaction-at-sxsw</link>
+      <description>March 13, 2017 - From South by Southwest, the optimistic and dystopian visions of artificial intelligence — a technology that is becoming part of our daily lives.</description>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_rise_of_artifical_intelligence_met_with_mixed_reaction_at_sxsw.mp3?orgId=1&amp;topicId=1019&amp;d=216&amp;p=2&amp;story=520021377&amp;t=progseg&amp;e=519955666&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 13, 2017 - From South by Southwest, the optimistic and dystopian visions of artificial intelligence — a technology that is becoming part of our daily lives.
+
+<a href="http://www.npr.org/2017/03/13/520021377/rise-of-artificial-intelligence-met-with-mixed-reaction-at-sxsw">http://www.npr.org/2017/03/13/520021377/rise-of-artificial-intelligence-met-with-mixed-reaction-at-sxsw</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>264</itunes:duration>
+      <itunes:duration>216</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</guid>
-      <title>Why A 106-Year-Old Event Is Still Relevant In 2017</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</link>
-      <description>March 7, 2017 - International Women&#39;s Day has taken on a life of its own. Here&#39;s how it&#39;s celebrated around the world.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170313_fa_01.mp3?orgId=427869011&amp;topicId=1019&amp;d=1820&amp;p=13&amp;story=519977607&amp;t=progseg&amp;e=519983249&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>&#39;Irresistible&#39; By Design: It&#39;s No Accident You Can&#39;t Stop Looking At The Screen</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen</link>
+      <description>March 13, 2017 - Technology is designed to be addictive, offering gratification that&#39;s similar to that of drug abuse or gambling. Author Adam Alter says a new frontier could soon provide another escape from reality.</description>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170313_fa_01.mp3?orgId=427869011&amp;topicId=1019&amp;d=1820&amp;p=13&amp;story=519977607&amp;t=progseg&amp;e=519983249&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/07/gettyimages-514356452-50_wide-f8467a4888c3cc4213126d44a05820cbf39b8d99-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/istock-483485554_wide-5b045b02a3eae20d14baaead76b1a24adb69fe94-s800-c15.jpg"></a>
 
-March 7, 2017 - International Women's Day has taken on a life of its own. Here's how it's celebrated around the world.
+March 13, 2017 - Technology is designed to be addictive, offering gratification that's similar to that of drug abuse or gambling. Author Adam Alter says a new frontier could soon provide another escape from reality.
 
-<a href="http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017">http://www.npr.org/sections/goatsandsoda/2017/03/07/518214253/why-a-108-year-old-event-is-still-relevant-in-2017</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/gettyimages-514356452-50_wide-f8467a4888c3cc4213126d44a05820cbf39b8d99-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen">http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/istock-483485554_wide-5b045b02a3eae20d14baaead76b1a24adb69fe94-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>1820</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents</guid>
-      <title>WikiLeaks Releases What It Calls CIA Trove Of Cyber-Espionage Documents</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents</link>
-      <description>March 7, 2017 - The release includes thousands of pages of user manuals, support guides and other documents that appear to describe CIA hacking efforts. WikiLeaks says it is choosing not to release the code itself.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age</guid>
+      <title>Parent Anxiety, Screen Time And Learning In The Digital Age</title>
+      <link>http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age</link>
+      <description>March 13, 2017 - We met with parents to talk about screen time, digital privacy and the role of devices in the classroom. They had a lot of questions, so we asked some experts for answers. Take a listen.</description>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/07/gettyimages-520956554_wide-cdccec7b6a938bf1fd719a4a2464434d6d5835c9-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/27/gen-listen-parents_wide-781216264021bf31900ed0d703c05795371b6fd3-s800-c15.jpg"></a>
 
-March 7, 2017 - The release includes thousands of pages of user manuals, support guides and other documents that appear to describe CIA hacking efforts. WikiLeaks says it is choosing not to release the code itself.
+March 13, 2017 - We met with parents to talk about screen time, digital privacy and the role of devices in the classroom. They had a lot of questions, so we asked some experts for answers. Take a listen.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents">http://www.npr.org/sections/thetwo-way/2017/03/07/519010317/wikileaks-releases-what-it-calls-cia-trove-of-cyberespionage-documents</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/gettyimages-520956554_wide-cdccec7b6a938bf1fd719a4a2464434d6d5835c9-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age">http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/gen-listen-parents_wide-781216264021bf31900ed0d703c05795371b6fd3-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_facebook_enlists_fact-checkers_to_probe_disputed_posts.mp3?orgId=1&amp;topicId=1006&amp;d=95&amp;p=3&amp;story=518956912&amp;t=progseg&amp;e=518938637&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Facebook Enlists Fact-Checkers To Probe Disputed Stories</title>
-      <link>http://www.npr.org/2017/03/07/518956912/facebook-enlists-fact-checkers-to-probe-disputed-stories</link>
-      <description>March 7, 2017 - Facebook has been criticized for providing a platform to fake news stories, especially during the presidential campaign. It is working with independent fact-checkers to examine flagged stories.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_facebook_enlists_fact-checkers_to_probe_disputed_posts.mp3?orgId=1&amp;topicId=1006&amp;d=95&amp;p=3&amp;story=518956912&amp;t=progseg&amp;e=518938637&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites</guid>
+      <title>Games Are Taking A Back Seat To Players On Video Game Streaming Sites </title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites</link>
+      <description>March 12, 2017 - Twitch became a popular site for its constant live streams of people playing video games. Its latest addition is Twitch IRL: Same players, same streams, but without the gaming.</description>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 7, 2017 - Facebook has been criticized for providing a platform to fake news stories, especially during the presidential campaign. It is working with independent fact-checkers to examine flagged stories.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/08/Futureman_wide-2feaa30ac0745776a8bea9de6686377022b40569-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/07/518956912/facebook-enlists-fact-checkers-to-probe-disputed-stories">http://www.npr.org/2017/03/07/518956912/facebook-enlists-fact-checkers-to-probe-disputed-stories</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>95</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_energy_savings_can_be_fun_but_no_need_to_turn_off_all_the_lights.mp3?orgId=1&amp;topicId=1019&amp;d=202&amp;p=3&amp;story=518175670&amp;t=progseg&amp;e=518938637&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Energy Savings Can Be Fun, But No Need To Turn Off All The Lights</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/07/518175670/energy-savings-can-be-fun-but-no-need-to-turn-off-all-the-lights</link>
-      <description>March 7, 2017 - From counting steps to hours of sleep, many people are tracking aspects of their lives. Now one company is merging energy saving with the interest in quantifying — making lowering electricity a game.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_energy_savings_can_be_fun_but_no_need_to_turn_off_all_the_lights.mp3?orgId=1&amp;topicId=1019&amp;d=202&amp;p=3&amp;story=518175670&amp;t=progseg&amp;e=518938637&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/03/steve-reed_ohmconnect-edit_wide-ba3d5583adac3e9f3aa81300db86e7c2a1935a9c-s800-c15.jpg"></a>
+March 12, 2017 - Twitch became a popular site for its constant live streams of people playing video games. Its latest addition is Twitch IRL: Same players, same streams, but without the gaming.
 
-March 7, 2017 - From counting steps to hours of sleep, many people are tracking aspects of their lives. Now one company is merging energy saving with the interest in quantifying — making lowering electricity a game.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/07/518175670/energy-savings-can-be-fun-but-no-need-to-turn-off-all-the-lights">http://www.npr.org/sections/alltechconsidered/2017/03/07/518175670/energy-savings-can-be-fun-but-no-need-to-turn-off-all-the-lights</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/steve-reed_ohmconnect-edit_wide-ba3d5583adac3e9f3aa81300db86e7c2a1935a9c-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>202</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications</guid>
-      <title>FAQ: On Alleged Wiretaps Of Trump Communications</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications</link>
-      <description>March 6, 2017 - President Trump accused his predecessor of monitoring his communications. Here is a rundown of the allegations, federal surveillance powers, and what we do and don&#39;t know.</description>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/06/ap_17055806448716_wide-3b1cf86ea64e2b16865fefe323731a1af171b656-s800-c15.jpg"></a>
-
-March 6, 2017 - President Trump accused his predecessor of monitoring his communications. Here is a rundown of the allegations, federal surveillance powers, and what we do and don't know.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications">http://www.npr.org/sections/thetwo-way/2017/03/06/518797121/faq-on-alleged-wire-taps-of-trump-communications</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/ap_17055806448716_wide-3b1cf86ea64e2b16865fefe323731a1af171b656-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_smartphone_software_makes_it_cheaper_to_spy_from_a_distance.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=518858280&amp;t=progseg&amp;e=518750642&amp;seg=10&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Smartphone Software Makes It Cheaper To Spy From A Distance</title>
-      <link>http://www.npr.org/2017/03/06/518858280/smartphone-software-makes-it-cheaper-to-spy-from-a-distance</link>
-      <description>March 6, 2017 - NPR&#39;s Robert Siegel talks with Joseph Cox, a reporter for the tech website, &#34;Motherboard,&#34; about how he tracked himself with $170 smartphone spyware that anyone can buy.</description>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_smartphone_software_makes_it_cheaper_to_spy_from_a_distance.mp3?orgId=1&amp;topicId=1019&amp;d=275&amp;p=2&amp;story=518858280&amp;t=progseg&amp;e=518750642&amp;seg=10&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 6, 2017 - NPR's Robert Siegel talks with Joseph Cox, a reporter for the tech website, "Motherboard," about how he tracked himself with $170 smartphone spyware that anyone can buy.
-
-<a href="http://www.npr.org/2017/03/06/518858280/smartphone-software-makes-it-cheaper-to-spy-from-a-distance">http://www.npr.org/2017/03/06/518858280/smartphone-software-makes-it-cheaper-to-spy-from-a-distance</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>275</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_emojis_begin_cropping_up_outside_of_your_smartphone.mp3?orgId=1&amp;topicId=1019&amp;d=198&amp;p=2&amp;story=518858273&amp;t=progseg&amp;e=518750642&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Emojis Begin Cropping Up Outside Of Your Smartphone</title>
-      <link>http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone</link>
-      <description>March 6, 2017 - Emojis — those little cartoon figures used by some people on smartphones — have became popular as design motifs in the real world.&#xA;&#xA; - http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone</description>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_emojis_begin_cropping_up_outside_of_your_smartphone.mp3?orgId=1&amp;topicId=1019&amp;d=198&amp;p=2&amp;story=518858273&amp;t=progseg&amp;e=518750642&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 6, 2017 - Emojis — those little cartoon figures used by some people on smartphones — have became popular as design motifs in the real world.
-
-<a href="http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone">http://www.npr.org/2017/03/06/518858273/emojis-begin-cropping-up-outside-of-your-smartphone</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>198</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</guid>
-      <title>WATCH: Tracking Lightning Strikes, From Space</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</link>
-      <description>March 6, 2017 - NOAA&#39;s new weather satellite is carrying the first lightning detector ever parked in orbit over Earth. It has sent back its first images of real-time lightning storms in the Western Hemisphere.</description>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s800-c15.jpg"></a>
-
-March 6, 2017 - NOAA's new weather satellite is carrying the first lightning detector ever parked in orbit over Earth. It has sent back its first images of real-time lightning storms in the Western Hemisphere.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space">http://www.npr.org/sections/thetwo-way/2017/03/06/518776626/watch-tracking-lightning-strikes-from-space</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/glm_sqrt_scaled_full_disk_lightning_2017_02_14_wide-0948465bb4eefb9545dc0638a7c234c83790209b-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites">http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/Futureman_wide-2feaa30ac0745776a8bea9de6686377022b40569-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

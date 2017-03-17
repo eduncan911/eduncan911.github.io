@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 20:58:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Mar 2017 14:51:51 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Thu, 09 Mar 2017 20:58:58 +0000</pubDate>
+    <pubDate>Fri, 17 Mar 2017 14:51:51 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -24,240 +24,236 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/thesalt/2017/03/09/518337171/mozzarella-magic-how-my-father-and-i-learned-to-separate-curds-and-whey</guid>
-      <title>Mozzarella Magic: How My Father And I Learned To Separate Curds And Whey </title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/09/518337171/mozzarella-magic-how-my-father-and-i-learned-to-separate-curds-and-whey</link>
-      <description>March 9, 2017 - To feed their cheese habit, the author and her father took a crash course in mozzarella on a Pennsylvania farm. The experience offered valuable insight into the science and history of cheese-making.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</guid>
+      <title>Digitization Unearths New Data From Cold War-Era Nuclear Test Films</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</link>
+      <description>March 16, 2017 - The U.S. conducted hundreds of atmospheric nuclear tests between 1945 and 1962 — and filmed them. A project to digitize those films has changed the analysis of the nuclear explosions themselves.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/03/hanna_wide-ca61f84f58b5c521d35a7373c02cd55e6b225d3b-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/16/hardtack_wide-4deaa267fa7d6b0c3297e132ad3718be84e16bda-s800-c15.png"></a>
 
-March 9, 2017 - To feed their cheese habit, the author and her father took a crash course in mozzarella on a Pennsylvania farm. The experience offered valuable insight into the science and history of cheese-making.
+March 16, 2017 - The U.S. conducted hundreds of atmospheric nuclear tests between 1945 and 1962 — and filmed them. A project to digitize those films has changed the analysis of the nuclear explosions themselves.
 
-<a href="http://www.npr.org/sections/thesalt/2017/03/09/518337171/mozzarella-magic-how-my-father-and-i-learned-to-separate-curds-and-whey">http://www.npr.org/sections/thesalt/2017/03/09/518337171/mozzarella-magic-how-my-father-and-i-learned-to-separate-curds-and-whey</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/03/hanna_wide-ca61f84f58b5c521d35a7373c02cd55e6b225d3b-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films">http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/hardtack_wide-4deaa267fa7d6b0c3297e132ad3718be84e16bda-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome</guid>
-      <title>Scientists Closer To Creating A Fully Synthetic Yeast Genome</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome</link>
-      <description>March 9, 2017 - An international consortium of researchers has synthesized about a third of the genetic code of baker&#39;s yeast. It&#39;s an important milestone in science&#39;s quest to create complex &#34;synthetic life.&#34;</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/16/520281317/how-to-make-farmers-love-cover-crops-pay-them</guid>
+      <title>How To Make Farmers Love Cover Crops? Pay Them</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/16/520281317/how-to-make-farmers-love-cover-crops-pay-them</link>
+      <description>March 16, 2017 - New satellite images reveal that few Midwestern farmers are planting pollution-preventing &#34;cover crops.&#34; In Maryland, though, farmers are doing it, thanks to hefty subsidies.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/09/scisource_ta2808_wide-5b1e7b02db706dd32f3e9ad530c74dd00149a82a-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/16/img_2176_wide-950ee0f0f5b8a0f49a229acc6ed2a090fb0c27ab-s800-c15.jpg"></a>
 
-March 9, 2017 - An international consortium of researchers has synthesized about a third of the genetic code of baker's yeast. It's an important milestone in science's quest to create complex "synthetic life."
+March 16, 2017 - New satellite images reveal that few Midwestern farmers are planting pollution-preventing "cover crops." In Maryland, though, farmers are doing it, thanks to hefty subsidies.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome">http://www.npr.org/sections/health-shots/2017/03/09/518990577/scientists-closer-to-creating-a-fully-synthetic-yeast-genome</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/scisource_ta2808_wide-5b1e7b02db706dd32f3e9ad530c74dd00149a82a-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thesalt/2017/03/16/520281317/how-to-make-farmers-love-cover-crops-pay-them">http://www.npr.org/sections/thesalt/2017/03/16/520281317/how-to-make-farmers-love-cover-crops-pay-them</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/img_2176_wide-950ee0f0f5b8a0f49a229acc6ed2a090fb0c27ab-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/09/519425866/epa-chief-scott-pruitt-questions-basic-facts-about-climate-change</guid>
-      <title>EPA Chief Scott Pruitt Questions Basic Facts About Climate Change</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/09/519425866/epa-chief-scott-pruitt-questions-basic-facts-about-climate-change</link>
-      <description>March 9, 2017 - In an interview with CNBC, President Trump&#39;s EPA administrator said he did not believe carbon dioxide is a major contributor to global warming.</description>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520450521/study-urgent-action-against-global-warming-needed-to-save-coral-reefs</guid>
+      <title>Study: &#39;Urgent&#39; Action Against Global Warming Needed To Save Coral Reefs</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520450521/study-urgent-action-against-global-warming-needed-to-save-coral-reefs</link>
+      <description>March 16, 2017 - After another major coral bleaching event, a new study has concluded that securing a future for coral reefs &#34;ultimately requires urgent and rapid action to reduce global warming.&#34;</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/09/pruitt_wide-45ac27dee88ed024bfe697331c137031b5ff8e8e-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/16/graveyard-of-staghorn-coral_wide-ca3301e5e890d2a6492546ecd52a698cfbbcd154-s800-c15.png"></a>
 
-March 9, 2017 - In an interview with CNBC, President Trump's EPA administrator said he did not believe carbon dioxide is a major contributor to global warming.
+March 16, 2017 - After another major coral bleaching event, a new study has concluded that securing a future for coral reefs "ultimately requires urgent and rapid action to reduce global warming."
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/09/519425866/epa-chief-scott-pruitt-questions-basic-facts-about-climate-change">http://www.npr.org/sections/thetwo-way/2017/03/09/519425866/epa-chief-scott-pruitt-questions-basic-facts-about-climate-change</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/09/pruitt_wide-45ac27dee88ed024bfe697331c137031b5ff8e8e-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520450521/study-urgent-action-against-global-warming-needed-to-save-coral-reefs">http://www.npr.org/sections/thetwo-way/2017/03/16/520450521/study-urgent-action-against-global-warming-needed-to-save-coral-reefs</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/graveyard-of-staghorn-coral_wide-ca3301e5e890d2a6492546ecd52a698cfbbcd154-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices</guid>
-      <title>Trump, Democrats Look For Common Ground On Drug Prices</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices</link>
-      <description>March 8, 2017 - Two congressmen met with President Trump seeking support for a bill to expand the government&#39;s ability to negotiate drug prices. But it&#39;s not clear it would have much impact or will gain support.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520311715/groovy-scientists-say-theyve-found-the-first-fluorescent-frog</guid>
+      <title>Groovy: Scientists Say They&#39;ve Found The First Fluorescent Frog</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520311715/groovy-scientists-say-theyve-found-the-first-fluorescent-frog</link>
+      <description>March 16, 2017 - The South American polka dot tree frog initially appears unremarkable. But when researchers in Argentina shone an ultraviolet light on the frog, it glowed.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/08/ap_17067760714619_wide-732cbfc8675fde72bd06224eea57d76d07baba65-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/15/floro_wide-a2aa903160875210dd3ae771ee06a1ca799f57fa-s800-c15.png"></a>
 
-March 8, 2017 - Two congressmen met with President Trump seeking support for a bill to expand the government's ability to negotiate drug prices. But it's not clear it would have much impact or will gain support.
+March 16, 2017 - The South American polka dot tree frog initially appears unremarkable. But when researchers in Argentina shone an ultraviolet light on the frog, it glowed.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices">http://www.npr.org/sections/health-shots/2017/03/08/519306444/trump-dems-look-for-common-ground-on-drug-prices</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/ap_17067760714619_wide-732cbfc8675fde72bd06224eea57d76d07baba65-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520311715/groovy-scientists-say-theyve-found-the-first-fluorescent-frog">http://www.npr.org/sections/thetwo-way/2017/03/16/520311715/groovy-scientists-say-theyve-found-the-first-fluorescent-frog</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/floro_wide-a2aa903160875210dd3ae771ee06a1ca799f57fa-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_neanderthal_diets.mp3?orgId=1&amp;topicId=1053&amp;d=234&amp;p=2&amp;story=519048010&amp;t=progseg&amp;e=519185942&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Some Neanderthals Were Vegetarian — And They Likely Kissed Our Human Ancestors</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/08/519048010/some-neanderthals-were-vegetarian-and-they-likely-kissed-our-human-ancestors</link>
-      <description>March 8, 2017 - A new study of the dental plaques of three Neanderthals reveals surprising facts about their lives, including what they ate, the diseases that ailed them and how they self-medicated (and smooched).</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_neanderthal_diets.mp3?orgId=1&amp;topicId=1053&amp;d=234&amp;p=2&amp;story=519048010&amp;t=progseg&amp;e=519185942&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170316_atc_one_way_to_force_down_drug_prices_have_the_us_exercise_its_patent_rights.mp3?orgId=1&amp;topicId=1128&amp;d=240&amp;p=2&amp;story=520390026&amp;t=progseg&amp;e=520366511&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>One Way To Force Down Drug Prices: Have The U.S. Exercise Its Patent Rights</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520390026/one-way-to-force-down-drug-prices-have-the-u-s-exercise-its-patent-rights</link>
+      <description>March 16, 2017 - Some members of Congress say the U.S. government should use the patent rights it owns for any drugs that were developed with federal grants to drive down the prices of those drugs.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170316_atc_one_way_to_force_down_drug_prices_have_the_us_exercise_its_patent_rights.mp3?orgId=1&amp;topicId=1128&amp;d=240&amp;p=2&amp;story=520390026&amp;t=progseg&amp;e=520366511&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/07/el-sidron-neandertal-group-cartoon-csic-spain-baja_wide-9d72e3539f15e7663240d818aef6d4f977569237-s800-c15.jpeg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/16/march-in-orders_wide-4fb4870951e110aeb6306baa159db1d21c7816e3-s800-c15.jpg"></a>
 
-March 8, 2017 - A new study of the dental plaques of three Neanderthals reveals surprising facts about their lives, including what they ate, the diseases that ailed them and how they self-medicated (and smooched).
+March 16, 2017 - Some members of Congress say the U.S. government should use the patent rights it owns for any drugs that were developed with federal grants to drive down the prices of those drugs.
 
-<a href="http://www.npr.org/sections/thesalt/2017/03/08/519048010/some-neanderthals-were-vegetarian-and-they-likely-kissed-our-human-ancestors">http://www.npr.org/sections/thesalt/2017/03/08/519048010/some-neanderthals-were-vegetarian-and-they-likely-kissed-our-human-ancestors</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/el-sidron-neandertal-group-cartoon-csic-spain-baja_wide-9d72e3539f15e7663240d818aef6d4f977569237-s3000-c15.jpeg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520390026/one-way-to-force-down-drug-prices-have-the-u-s-exercise-its-patent-rights">http://www.npr.org/sections/health-shots/2017/03/16/520390026/one-way-to-force-down-drug-prices-have-the-u-s-exercise-its-patent-rights</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/march-in-orders_wide-4fb4870951e110aeb6306baa159db1d21c7816e3-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>240</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170317_me_trumps_budget_slashes_climate_change_funding.mp3?orgId=1&amp;topicId=1025&amp;d=197&amp;p=3&amp;story=520399205&amp;t=progseg&amp;e=520498582&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Trump&#39;s Budget Slashes Climate Change Funding</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520399205/trumps-budget-slashes-climate-change-funding</link>
+      <description>March 16, 2017 - The White House&#39;s proposed federal budget cuts everything from research to regulation, and makes clear that the administration doesn&#39;t view climate change as a priority.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170317_me_trumps_budget_slashes_climate_change_funding.mp3?orgId=1&amp;topicId=1025&amp;d=197&amp;p=3&amp;story=520399205&amp;t=progseg&amp;e=520498582&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/16/oco2_0_wide-b116069543e67ddba6d162fba20ca9d7536801da-s800-c15.jpg"></a>
+
+March 16, 2017 - The White House's proposed federal budget cuts everything from research to regulation, and makes clear that the administration doesn't view climate change as a priority.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520399205/trumps-budget-slashes-climate-change-funding">http://www.npr.org/sections/thetwo-way/2017/03/16/520399205/trumps-budget-slashes-climate-change-funding</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/oco2_0_wide-b116069543e67ddba6d162fba20ca9d7536801da-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>197</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/03/16/519986839/how-one-of-the-worlds-toughest-creatures-can-bring-itself-back-to-life</guid>
+      <title>How One Of The World&#39;s Toughest Creatures Can Bring Itself Back To Life</title>
+      <link>http://www.npr.org/2017/03/16/519986839/how-one-of-the-worlds-toughest-creatures-can-bring-itself-back-to-life</link>
+      <description>March 16, 2017 - The tardigrade, a strange animal smaller than a grain of sand and with hooks for feet, can survive in a dried-up state for a decade. Its secret might help improve how drugs are shipped and stored.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/13/gettyimages-107254454-1-_wide-8230bd59116f46c7ae7df8697aee9bd378f2263d-s800-c15.jpg"></a>
+
+March 16, 2017 - The tardigrade, a strange animal smaller than a grain of sand and with hooks for feet, can survive in a dried-up state for a decade. Its secret might help improve how drugs are shipped and stored.
+
+<a href="http://www.npr.org/2017/03/16/519986839/how-one-of-the-worlds-toughest-creatures-can-bring-itself-back-to-life">http://www.npr.org/2017/03/16/519986839/how-one-of-the-worlds-toughest-creatures-can-bring-itself-back-to-life</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/gettyimages-107254454-1-_wide-8230bd59116f46c7ae7df8697aee9bd378f2263d-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research</guid>
+      <title>Trump Administration Proposes Big Cuts In Medical Research</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research</link>
+      <description>March 16, 2017 - The National Institutes of Health, which funds research in treatments and cures, could lose 20 percent of its budget under the administration&#39;s proposal. More money would go for addiction treatment.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/16/nih-institute_wide-547e569ed17203bcf654e7aa0dc911b171028883-s800-c15.jpg"></a>
+
+March 16, 2017 - The National Institutes of Health, which funds research in treatments and cures, could lose 20 percent of its budget under the administration's proposal. More money would go for addiction treatment.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research">http://www.npr.org/sections/health-shots/2017/03/16/520390147/trump-administration-proposes-big-cuts-in-medical-research</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/nih-institute_wide-547e569ed17203bcf654e7aa0dc911b171028883-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170316_me_study_finds_high_temperatures_killing_large_parts_of_great_barrier_reef.mp3?orgId=1&amp;topicId=1025&amp;d=120&amp;p=3&amp;story=520364036&amp;t=progseg&amp;e=520363949&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Study Finds High Temperatures Killing Large Parts Of Great Barrier Reef</title>
+      <link>http://www.npr.org/2017/03/16/520364036/study-finds-high-temperatures-killing-large-parts-of-great-barrier-reef</link>
+      <description>March 16, 2017 - A new study looks at coral bleaching in 2015-2016. Mia Hoogenboom was a co-author, who says warming ocean temperatures are killing sections of the Great Barrier Reef faster than researchers expected.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170316_me_study_finds_high_temperatures_killing_large_parts_of_great_barrier_reef.mp3?orgId=1&amp;topicId=1025&amp;d=120&amp;p=3&amp;story=520364036&amp;t=progseg&amp;e=520363949&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 16, 2017 - A new study looks at coral bleaching in 2015-2016. Mia Hoogenboom was a co-author, who says warming ocean temperatures are killing sections of the Great Barrier Reef faster than researchers expected.
+
+<a href="http://www.npr.org/2017/03/16/520364036/study-finds-high-temperatures-killing-large-parts-of-great-barrier-reef">http://www.npr.org/2017/03/16/520364036/study-finds-high-temperatures-killing-large-parts-of-great-barrier-reef</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>120</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170316_me_travel_ban_adds_stress_to_match_week_for_some_doctors.mp3?orgId=432&amp;topicId=1128&amp;d=214&amp;p=3&amp;story=520137303&amp;t=progseg&amp;e=520363949&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Travel Ban Adds Stress To &#39;Match Week&#39; For Some Doctors</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/16/520137303/travel-ban-adds-stress-to-match-week-for-some-doctors</link>
+      <description>March 16, 2017 - A medical residency program is the next training step for newly minted doctors, and awaiting &#34;the match&#34; can be tense. For some international students, Trump&#39;s travel ban has made that tension worse.</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170316_me_travel_ban_adds_stress_to_match_week_for_some_doctors.mp3?orgId=432&amp;topicId=1128&amp;d=214&amp;p=3&amp;story=520137303&amp;t=progseg&amp;e=520363949&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/15/iraniandocs_wide-b44a1fee63328fc7f930c555837166049fb057e9-s800-c15.jpg"></a>
+
+March 16, 2017 - A medical residency program is the next training step for newly minted doctors, and awaiting "the match" can be tense. For some international students, Trump's travel ban has made that tension worse.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/16/520137303/travel-ban-adds-stress-to-match-week-for-some-doctors">http://www.npr.org/sections/health-shots/2017/03/16/520137303/travel-ban-adds-stress-to-match-week-for-some-doctors</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/iraniandocs_wide-b44a1fee63328fc7f930c555837166049fb057e9-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>214</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments</guid>
+      <title>3 Women Blinded By Unproven Stem Cell Treatments</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments</link>
+      <description>March 15, 2017 - Three patients were blinded after getting stem cells from fat at a Florida clinic. But a research study showed that induced pluripotent stem cells might someday help treat vision loss.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/15/retina_wide-4509d2a1ef9572efdbec6f1edf9e2c2956aa8c6e-s800-c15.jpg"></a>
+
+March 15, 2017 - Three patients were blinded after getting stem cells from fat at a Florida clinic. But a research study showed that induced pluripotent stem cells might someday help treat vision loss.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments">http://www.npr.org/sections/health-shots/2017/03/15/520118310/3-women-blinded-by-unproven-stem-cell-treatments</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/retina_wide-4509d2a1ef9572efdbec6f1edf9e2c2956aa8c6e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_california_officials_pledge_not_to_roll_back_fuel_efficiency_standards.mp3?orgId=1&amp;topicId=1091&amp;d=250&amp;p=2&amp;story=520301645&amp;t=progseg&amp;e=520287909&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>California Officials Pledge Not To Roll Back Fuel Efficiency Standards</title>
+      <link>http://www.npr.org/2017/03/15/520301645/california-officials-pledge-not-to-roll-back-fuel-efficiency-standards</link>
+      <description>March 15, 2017 - California officials have said they will not back off the fuel efficiency standards established under Obama, despite the Trump administration&#39;s plan to revisit those standards.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_california_officials_pledge_not_to_roll_back_fuel_efficiency_standards.mp3?orgId=1&amp;topicId=1091&amp;d=250&amp;p=2&amp;story=520301645&amp;t=progseg&amp;e=520287909&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 15, 2017 - California officials have said they will not back off the fuel efficiency standards established under Obama, despite the Trump administration's plan to revisit those standards.
+
+<a href="http://www.npr.org/2017/03/15/520301645/california-officials-pledge-not-to-roll-back-fuel-efficiency-standards">http://www.npr.org/2017/03/15/520301645/california-officials-pledge-not-to-roll-back-fuel-efficiency-standards</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>250</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_trump_to_reopen_review_of_car_fuel_efficiency_standards.mp3?orgId=1&amp;topicId=1025&amp;d=199&amp;p=2&amp;story=520301638&amp;t=progseg&amp;e=520287909&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Trump To Reopen Review Of Car Fuel Efficiency Standards</title>
+      <link>http://www.npr.org/2017/03/15/520301638/trump-to-reopen-review-of-car-fuel-efficiency-standards</link>
+      <description>March 15, 2017 - President Trump announced he is reopening review of car fuel efficiency standards at a rally Wednesday in Michigan. But his claims that the standards are hurting the auto industry&#39;s bottom line come at a time when carmakers are enjoying record profits.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_trump_to_reopen_review_of_car_fuel_efficiency_standards.mp3?orgId=1&amp;topicId=1025&amp;d=199&amp;p=2&amp;story=520301638&amp;t=progseg&amp;e=520287909&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 15, 2017 - President Trump announced he is reopening review of car fuel efficiency standards at a rally Wednesday in Michigan. But his claims that the standards are hurting the auto industry's bottom line come at a time when carmakers are enjoying record profits.
+
+<a href="http://www.npr.org/2017/03/15/520301638/trump-to-reopen-review-of-car-fuel-efficiency-standards">http://www.npr.org/2017/03/15/520301638/trump-to-reopen-review-of-car-fuel-efficiency-standards</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>199</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears</guid>
+      <title>Emails Reveal Monsanto&#39;s Tactics To Defend Glyphosate Against Cancer Fears</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears</link>
+      <description>March 15, 2017 - Internal emails show Monsanto executives scrambling to counter a U.N. agency&#39;s finding that glyphosate, the chemical in Roundup, can cause cancer. One email proposed &#34;ghost-writing&#34; scientific papers.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/15/gettyimages-532082320_wide-1501b9db149f548273233d99d008889b49f3c770-s800-c15.jpg"></a>
+
+March 15, 2017 - Internal emails show Monsanto executives scrambling to counter a U.N. agency's finding that glyphosate, the chemical in Roundup, can cause cancer. One email proposed "ghost-writing" scientific papers.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears">http://www.npr.org/sections/thesalt/2017/03/15/520250505/emails-reveal-monsantos-tactics-to-defend-glyphosate-against-cancer-fears</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/gettyimages-532082320_wide-1501b9db149f548273233d99d008889b49f3c770-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_cancer_drug_that_might_slow_parkinsons_alzheimers_headed_for_bigger_tests.mp3?orgId=1&amp;topicId=1128&amp;d=234&amp;p=2&amp;story=520170960&amp;t=progseg&amp;e=520287909&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Cancer Drug That Might Slow Parkinson&#39;s, Alzheimer&#39;s Headed For Bigger Tests</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/15/520170960/cancer-drug-that-might-slow-parkinson-s-alzheimer-s-headed-for-bigger-tests</link>
+      <description>March 15, 2017 - In a preliminary study, the cancer drug nilotinib seemed to help patients with Parkinson&#39;s and dementia. Now two larger and more rigorous studies of the drug are under way.</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170315_atc_cancer_drug_that_might_slow_parkinsons_alzheimers_headed_for_bigger_tests.mp3?orgId=1&amp;topicId=1128&amp;d=234&amp;p=2&amp;story=520170960&amp;t=progseg&amp;e=520287909&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/15/dementia_wide-87eaffd92d04d769f1e199c763d10d5553559a90-s800-c15.jpg"></a>
+
+March 15, 2017 - In a preliminary study, the cancer drug nilotinib seemed to help patients with Parkinson's and dementia. Now two larger and more rigorous studies of the drug are under way.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/15/520170960/cancer-drug-that-might-slow-parkinson-s-alzheimer-s-headed-for-bigger-tests">http://www.npr.org/sections/health-shots/2017/03/15/520170960/cancer-drug-that-might-slow-parkinson-s-alzheimer-s-headed-for-bigger-tests</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/dementia_wide-87eaffd92d04d769f1e199c763d10d5553559a90-s3000-c15.jpg"></itunes:image>
       <itunes:duration>234</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_maybe_you_too_could_become_a_super_memorizer.mp3?orgId=1&amp;topicId=1007&amp;d=192&amp;p=2&amp;story=518815297&amp;t=progseg&amp;e=519185942&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Maybe You, Too, Could Become A Super Memorizer</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/08/518815297/maybe-you-too-could-become-a-super-memorizer</link>
-      <description>March 8, 2017 - After six weeks of training, people could memorize twice as much. Areas of the brain had begun communicating in new ways — a lot like what happens inside the heads of world memory champions.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170308_atc_maybe_you_too_could_become_a_super_memorizer.mp3?orgId=1&amp;topicId=1007&amp;d=192&amp;p=2&amp;story=518815297&amp;t=progseg&amp;e=519185942&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/08/memory_wide-c5884494bdf66f0a0866e472cf5ccae5594ba6dd-s800-c15.jpg"></a>
-
-March 8, 2017 - After six weeks of training, people could memorize twice as much. Areas of the brain had begun communicating in new ways — a lot like what happens inside the heads of world memory champions.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/08/518815297/maybe-you-too-could-become-a-super-memorizer">http://www.npr.org/sections/health-shots/2017/03/08/518815297/maybe-you-too-could-become-a-super-memorizer</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/memory_wide-c5884494bdf66f0a0866e472cf5ccae5594ba6dd-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>192</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</guid>
-      <title>Researchers Take A Step Toward Mind-Controlled Robots</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</link>
-      <description>March 8, 2017 - Researchers have created a system where humans can guide robots with their brainwaves, signaling to the machines when they&#39;ve made a mistake. It could help improve the way humans and robots interact.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/08/0306_mind-controlled-robot05-2_wide-672e71a90ae7336b48046dd4addd78b202607882-s800-c15.jpg"></a>
-
-March 8, 2017 - Researchers have created a system where humans can guide robots with their brainwaves, signaling to the machines when they've made a mistake. It could help improve the way humans and robots interact.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots">http://www.npr.org/sections/alltechconsidered/2017/03/08/519235038/researchers-take-a-step-toward-mind-controlled-robots</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/08/0306_mind-controlled-robot05-2_wide-672e71a90ae7336b48046dd4addd78b202607882-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_effects_of_global_warming_on_display_in_antarctica.mp3?orgId=1&amp;topicId=1025&amp;d=227&amp;p=3&amp;story=519170712&amp;t=progseg&amp;e=519170189&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Effects Of Global Warming On Display In Antarctica</title>
-      <link>http://www.npr.org/2017/03/08/519170712/effects-of-global-warming-on-display-in-antarctica</link>
-      <description>March 8, 2017 - James McClintock, a marine biologist, talks with David Greene about how warming temperatures have had a dramatic impact on the glacier near the U.S. Palmer Station in Antarctica.</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_effects_of_global_warming_on_display_in_antarctica.mp3?orgId=1&amp;topicId=1025&amp;d=227&amp;p=3&amp;story=519170712&amp;t=progseg&amp;e=519170189&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - James McClintock, a marine biologist, talks with David Greene about how warming temperatures have had a dramatic impact on the glacier near the U.S. Palmer Station in Antarctica.
-
-<a href="http://www.npr.org/2017/03/08/519170712/effects-of-global-warming-on-display-in-antarctica">http://www.npr.org/2017/03/08/519170712/effects-of-global-warming-on-display-in-antarctica</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>227</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_the_affordable_care_act_medicaid_and_divorce.mp3?orgId=1&amp;topicId=1007&amp;d=205&amp;p=3&amp;story=519170657&amp;t=progseg&amp;e=519170189&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The Affordable Care Act, Medicaid And Divorce</title>
-      <link>http://www.npr.org/2017/03/08/519170657/the-affordable-care-act-medicaid-and-divorce</link>
-      <description>March 8, 2017 - As Republicans unveil their Affordable Care Act replacement, we examine how Medicaid expansion has affected divorce rates among older people.&#xA;&#xA; - http://www.npr.org/2017/03/08/519170657/the-affordable-care-act-medicaid-and-divorce</description>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170308_me_the_affordable_care_act_medicaid_and_divorce.mp3?orgId=1&amp;topicId=1007&amp;d=205&amp;p=3&amp;story=519170657&amp;t=progseg&amp;e=519170189&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 8, 2017 - As Republicans unveil their Affordable Care Act replacement, we examine how Medicaid expansion has affected divorce rates among older people.
-
-<a href="http://www.npr.org/2017/03/08/519170657/the-affordable-care-act-medicaid-and-divorce">http://www.npr.org/2017/03/08/519170657/the-affordable-care-act-medicaid-and-divorce</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>205</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170307_atc_public_clinics_fear_federal_cuts_to_planned_parenthood_will_strand_patients.mp3?orgId=1&amp;topicId=1128&amp;d=219&amp;p=2&amp;story=519017520&amp;t=progseg&amp;e=518986499&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Public Clinics Fear Federal Cuts To Planned Parenthood Would Strand Patients</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/07/519017520/public-clinics-fear-federal-cuts-to-planned-parenthood-would-strand-patients</link>
-      <description>March 7, 2017 - A goal for many Republicans is to cut federal funding for health services at Planned Parenthood and divert those funds to public health centers. How ready are those centers to pick up that work?</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170307_atc_public_clinics_fear_federal_cuts_to_planned_parenthood_will_strand_patients.mp3?orgId=1&amp;topicId=1128&amp;d=219&amp;p=2&amp;story=519017520&amp;t=progseg&amp;e=518986499&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/07/pp-2_wide-d4f8e85b8b0d399841d566f06eee1d5b74aed670-s800-c15.jpg"></a>
-
-March 7, 2017 - A goal for many Republicans is to cut federal funding for health services at Planned Parenthood and divert those funds to public health centers. How ready are those centers to pick up that work?
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/07/519017520/public-clinics-fear-federal-cuts-to-planned-parenthood-would-strand-patients">http://www.npr.org/sections/health-shots/2017/03/07/519017520/public-clinics-fear-federal-cuts-to-planned-parenthood-would-strand-patients</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/pp-2_wide-d4f8e85b8b0d399841d566f06eee1d5b74aed670-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>219</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170307_atc_texas_city_leads_the_way_on_renewable_energy.mp3?orgId=1&amp;topicId=1091&amp;d=239&amp;p=2&amp;story=519064002&amp;t=progseg&amp;e=518986499&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Texas City Leads The Way On Renewable Energy</title>
-      <link>http://www.npr.org/2017/03/07/519064002/texas-city-leads-the-way-on-renewable-energy</link>
-      <description>March 7, 2017 - Georgetown, Texas, an exurb of Austin, is one of the first cities in the country to be 100 percent powered by renewable energy.&#xA;&#xA; - http://www.npr.org/2017/03/07/519064002/texas-city-leads-the-way-on-renewable-energy</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170307_atc_texas_city_leads_the_way_on_renewable_energy.mp3?orgId=1&amp;topicId=1091&amp;d=239&amp;p=2&amp;story=519064002&amp;t=progseg&amp;e=518986499&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 7, 2017 - Georgetown, Texas, an exurb of Austin, is one of the first cities in the country to be 100 percent powered by renewable energy.
-
-<a href="http://www.npr.org/2017/03/07/519064002/texas-city-leads-the-way-on-renewable-energy">http://www.npr.org/2017/03/07/519064002/texas-city-leads-the-way-on-renewable-energy</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>239</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_new_study_reveals_benefits_of_soy_for_breast_cancer_survivors.mp3?orgId=1&amp;topicId=1134&amp;d=153&amp;story=519030514&amp;siteplayer=true&amp;dl=1</guid>
-      <title>For Breast Cancer Survivors, Eating Soy Tied To A Longevity Boost</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/07/519030514/eating-soy-has-benefits-for-breast-cancer-survivors-study-finds</link>
-      <description>March 7, 2017 - New research finds eating soy milk, edamame and tofu does not have harmful effects for women with breast cancer, as some have worried. In fact, for some women, soy consumption was tied to longer life.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170306_atc_new_study_reveals_benefits_of_soy_for_breast_cancer_survivors.mp3?orgId=1&amp;topicId=1134&amp;d=153&amp;story=519030514&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/07/gettyimages-545331986_wide-887d0653b220e78f34fa9ac9b1dfd89ee82ad07d-s800-c15.jpg"></a>
-
-March 7, 2017 - New research finds eating soy milk, edamame and tofu does not have harmful effects for women with breast cancer, as some have worried. In fact, for some women, soy consumption was tied to longer life.
-
-<a href="http://www.npr.org/sections/thesalt/2017/03/07/519030514/eating-soy-has-benefits-for-breast-cancer-survivors-study-finds">http://www.npr.org/sections/thesalt/2017/03/07/519030514/eating-soy-has-benefits-for-breast-cancer-survivors-study-finds</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/gettyimages-545331986_wide-887d0653b220e78f34fa9ac9b1dfd89ee82ad07d-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>153</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/07/518811502/watch-raindrops-catapult-bacteria-into-the-air-and-its-beautiful</guid>
-      <title>WATCH: Raindrops Catapult Bacteria Into The Air, And It&#39;s Beautiful</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/07/518811502/watch-raindrops-catapult-bacteria-into-the-air-and-its-beautiful</link>
-      <description>March 7, 2017 - They don&#39;t have wings, but bacteria sure can fly. Researchers at MIT say that tiny bubbles trapped by raindrops play a part in launching bacteria on long-distance flights.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/07/aerosol_wide-18e821958c77d719d5749bdfe3cc35898a1fc80b-s800-c15.png"></a>
-
-March 7, 2017 - They don't have wings, but bacteria sure can fly. Researchers at MIT say that tiny bubbles trapped by raindrops play a part in launching bacteria on long-distance flights.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/07/518811502/watch-raindrops-catapult-bacteria-into-the-air-and-its-beautiful">http://www.npr.org/sections/health-shots/2017/03/07/518811502/watch-raindrops-catapult-bacteria-into-the-air-and-its-beautiful</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/aerosol_wide-18e821958c77d719d5749bdfe3cc35898a1fc80b-s3000-c15.png"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170307_atc_are_routine_pelvic_exams_a_must_evidence_is_lacking_task_force_says.mp3?orgId=1&amp;topicId=1128&amp;d=198&amp;p=2&amp;story=518838706&amp;t=progseg&amp;e=518986499&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Are Routine Pelvic Exams A Must? Evidence Is Lacking, Task Force Says</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/07/518838706/are-routine-pelvic-exams-a-must-evidence-is-lacking-task-force-says</link>
-      <description>March 7, 2017 - There&#39;s not enough good evidence to make the call as to whether an annual pelvic exam is a good screening tool, the U.S. Preventive Services Task Force says.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170307_atc_are_routine_pelvic_exams_a_must_evidence_is_lacking_task_force_says.mp3?orgId=1&amp;topicId=1128&amp;d=198&amp;p=2&amp;story=518838706&amp;t=progseg&amp;e=518986499&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/07/pelvic-exam_wide-d6b3d9654a085072bbbc83212e4ea9b11392ef4d-s800-c15.jpg"></a>
-
-March 7, 2017 - There's not enough good evidence to make the call as to whether an annual pelvic exam is a good screening tool, the U.S. Preventive Services Task Force says.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/07/518838706/are-routine-pelvic-exams-a-must-evidence-is-lacking-task-force-says">http://www.npr.org/sections/health-shots/2017/03/07/518838706/are-routine-pelvic-exams-a-must-evidence-is-lacking-task-force-says</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/07/pelvic-exam_wide-d6b3d9654a085072bbbc83212e4ea9b11392ef4d-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>198</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_farmers_fight_environmental_regulations.mp3?orgId=1&amp;topicId=1025&amp;d=221&amp;p=3&amp;story=518841084&amp;t=progseg&amp;e=518938637&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Farmers Fight Environmental Regulations</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/07/518841084/farmers-fight-environmental-regulations</link>
-      <description>March 7, 2017 - Many of America&#39;s farmers are successfully fending off environmental regulation, from the Obama administration&#39;s Clean Water Rule to a lawsuit in Iowa that&#39;s aimed at reducing nitrates in rivers.</description>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170307_me_farmers_fight_environmental_regulations.mp3?orgId=1&amp;topicId=1025&amp;d=221&amp;p=3&amp;story=518841084&amp;t=progseg&amp;e=518938637&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/06/buffer_wide-e360f7609553f9553a2574493f4ea982fa3670a9-s800-c15.jpg"></a>
-
-March 7, 2017 - Many of America's farmers are successfully fending off environmental regulation, from the Obama administration's Clean Water Rule to a lawsuit in Iowa that's aimed at reducing nitrates in rivers.
-
-<a href="http://www.npr.org/sections/thesalt/2017/03/07/518841084/farmers-fight-environmental-regulations">http://www.npr.org/sections/thesalt/2017/03/07/518841084/farmers-fight-environmental-regulations</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/06/buffer_wide-e360f7609553f9553a2574493f4ea982fa3670a9-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>221</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
