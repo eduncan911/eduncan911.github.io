@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Mar 2017 15:18:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Mar 2017 18:10:44 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 17 Mar 2017 15:18:26 +0000</pubDate>
+    <pubDate>Sun, 26 Mar 2017 18:10:44 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -24,232 +24,232 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</guid>
-      <title>Digitization Unearths New Data From Cold War-Era Nuclear Test Films</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</link>
-      <description>March 16, 2017 - The U.S. conducted hundreds of atmospheric nuclear tests between 1945 and 1962 — and filmed them. A project to digitize those films has changed the analysis of the nuclear explosions themselves.</description>
-      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_law_enforcement_and_encryption.mp3?orgId=1&amp;topicId=1019&amp;d=185&amp;p=10&amp;story=521550411&amp;t=progseg&amp;e=521550162&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Prosecutor Makes The Case For Law Enforcement Access To Data</title>
+      <link>http://www.npr.org/2017/03/26/521550411/prosecutor-makes-the-case-for-law-enforcement-access-to-data</link>
+      <description>March 26, 2017 - NPR&#39;s Lulu Garcia-Navarro talks with San Bernardino County District Attorney Michael Ramos about his push to allow law enforcement to gain access to data on individuals&#39; smartphones.</description>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_law_enforcement_and_encryption.mp3?orgId=1&amp;topicId=1019&amp;d=185&amp;p=10&amp;story=521550411&amp;t=progseg&amp;e=521550162&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/16/hardtack_wide-4deaa267fa7d6b0c3297e132ad3718be84e16bda-s800-c15.png"></a>
+      <itunes:summary><![CDATA[March 26, 2017 - NPR's Lulu Garcia-Navarro talks with San Bernardino County District Attorney Michael Ramos about his push to allow law enforcement to gain access to data on individuals' smartphones.
 
-March 16, 2017 - The U.S. conducted hundreds of atmospheric nuclear tests between 1945 and 1962 — and filmed them. A project to digitize those films has changed the analysis of the nuclear explosions themselves.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films">http://www.npr.org/sections/thetwo-way/2017/03/16/520398342/digitization-unearths-new-data-from-cold-war-era-nuclear-test-films</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/hardtack_wide-4deaa267fa7d6b0c3297e132ad3718be84e16bda-s3000-c15.png"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley</guid>
-      <title>When Policing And Race Cross Paths In Silicon Valley</title>
-      <link>http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley</link>
-      <description>March 16, 2017 - In California, officers undergo cultural diversity and discrimination training, which includes understanding the cultural composition of the state and discussing the impact of racial profiling.</description>
-      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/16/gettyimages-597456354_wide-5dd801b8641a1a92e797ff8a9b61113e948b6183-s800-c15.jpg"></a>
-
-March 16, 2017 - In California, officers undergo cultural diversity and discrimination training, which includes understanding the cultural composition of the state and discussing the impact of racial profiling.
-
-<a href="http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley">http://www.npr.org/sections/codeswitch/2017/03/16/518392185/when-policing-and-race-cross-paths-in-silicon-valley</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/gettyimages-597456354_wide-5dd801b8641a1a92e797ff8a9b61113e948b6183-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted</guid>
-      <title>McDonald&#39;s Tweet Blasts President Trump, And Is Quickly Deleted</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted</link>
-      <description>March 16, 2017 - McDonald&#39;s says its account was &#34;hacked by an external source.&#34; The tweet drew a wide range of responses — from pledges to eat a Big Mac today to calls for a boycott.</description>
-      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/16/mcdonalds-twitter_wide-b9eff48f2c655ae3216fa365f70d99b53ca5eefa-s800-c15.jpg"></a>
-
-March 16, 2017 - McDonald's says its account was "hacked by an external source." The tweet drew a wide range of responses — from pledges to eat a Big Mac today to calls for a boycott.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted">http://www.npr.org/sections/thetwo-way/2017/03/16/520390105/mcdonalds-tweet-blasts-president-trump-and-is-quickly-deleted</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/16/mcdonalds-twitter_wide-b9eff48f2c655ae3216fa365f70d99b53ca5eefa-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights</guid>
-      <title>FAA Eases Up On Electronic Devices On Flights</title>
-      <link>http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights</link>
-      <description>March 15, 2017 - The FAA is allowing air travelers to use their computers, smartphones and tablets during just about the entire duration of commercial flights. Actual phone calls will still not be allowed.</description>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 15, 2017 - The FAA is allowing air travelers to use their computers, smartphones and tablets during just about the entire duration of commercial flights. Actual phone calls will still not be allowed.
-
-<a href="http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights">http://www.npr.org/2017/03/15/242277334/faa-eases-up-on-electronic-devices-on-flights</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/26/521550411/prosecutor-makes-the-case-for-law-enforcement-access-to-data">http://www.npr.org/2017/03/26/521550411/prosecutor-makes-the-case-for-law-enforcement-access-to-data</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>185</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say</guid>
-      <title>Woman&#39;s Headphones Caught Fire Midflight, Australian Authorities Say</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say</link>
-      <description>March 15, 2017 - On a flight from Beijing to Melbourne, a passenger&#39;s personal headphones caught fire while she was sleeping, the Australian Transport Safety Bureau says.</description>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_the_call-in_digital_privacy.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=10&amp;story=521550404&amp;t=progseg&amp;e=521550162&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
+      <title>The Call-In: Answering Your Questions About Digital Privacy</title>
+      <link>http://www.npr.org/2017/03/26/521550404/the-call-in-answering-your-questions-about-digital-privacy</link>
+      <description>March 26, 2017 - Seamus Tuohy, a consultant with the digital security firm Prudent Innovation, answers your questions about how to keep your data secure and your personal information private.</description>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_the_call-in_digital_privacy.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=10&amp;story=521550404&amp;t=progseg&amp;e=521550162&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/15/headphones1_wide-ec2b9b9d658852c79cfae74223a613051633c180-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[March 26, 2017 - Seamus Tuohy, a consultant with the digital security firm Prudent Innovation, answers your questions about how to keep your data secure and your personal information private.
 
-March 15, 2017 - On a flight from Beijing to Melbourne, a passenger's personal headphones caught fire while she was sleeping, the Australian Transport Safety Bureau says.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say">http://www.npr.org/sections/thetwo-way/2017/03/15/520269673/womans-headphones-caught-fire-midflight-australian-authorities-say</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/headphones1_wide-ec2b9b9d658852c79cfae74223a613051633c180-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack</guid>
-      <title>U.S. Indicts 2 Russian Security Officials Over Yahoo Hack</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack</link>
-      <description>March 15, 2017 - The two defendants are officers of the Russian Federal Security Service, or FSB. They were indicted along with two criminal hackers over a 2014 breach involving at least 500 million Yahoo accounts.</description>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/15/facebyside_wide-bcf9cbc1a5fd656728a1b3b82899e7e57893edd1-s800-c15.png"></a>
-
-March 15, 2017 - The two defendants are officers of the Russian Federal Security Service, or FSB. They were indicted along with two criminal hackers over a 2014 breach involving at least 500 million Yahoo accounts.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack">http://www.npr.org/sections/thetwo-way/2017/03/15/520258402/u-s-indicts-2-russian-security-officials-over-yahoo-hack</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/15/facebyside_wide-bcf9cbc1a5fd656728a1b3b82899e7e57893edd1-s3000-c15.png"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use</guid>
-      <title>Vibrator Maker To Pay Millions Over Claims It Secretly Tracked Use</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use</link>
-      <description>March 14, 2017 - The makers of the We-Vibe, which can be paired with an app, don&#39;t admit any wrongdoing. But they will pay $3.75 million after allegations that the app was collecting &#34;highly sensitive information.&#34;</description>
-      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/14/classic-w-remote-in-charger-w-case-1200-wm_wide-5a2dad054ceb1be6b21590ef38a01d1db6bc9b77-s800-c15.jpeg"></a>
-
-March 14, 2017 - The makers of the We-Vibe, which can be paired with an app, don't admit any wrongdoing. But they will pay $3.75 million after allegations that the app was collecting "highly sensitive information."
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use">http://www.npr.org/sections/thetwo-way/2017/03/14/520123490/vibrator-maker-to-pay-millions-over-claims-it-secretly-tracked-use</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/14/classic-w-remote-in-charger-w-case-1200-wm_wide-5a2dad054ceb1be6b21590ef38a01d1db6bc9b77-s3000-c15.jpeg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</guid>
-      <title>VIDEO: Nike&#39;s New Ad Asks A Question Arab Women Know All Too Well</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</link>
-      <description>March 14, 2017 - &#39;What will they say about you?&#39; It&#39;s the name of a new Nike ad targeted to Arab women.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</description>
-      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/screen-shot-2017-03-13-at-10.22.15-am_wide-8588446b376a1d88be3cdfcaf7259a43f295ef4a-s800-c15.jpg"></a>
-
-March 14, 2017 - 'What will they say about you?' It's the name of a new Nike ad targeted to Arab women.
-
-<a href="http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well">http://www.npr.org/sections/goatsandsoda/2017/03/14/519516920/video-nikes-new-ad-asks-a-question-arab-women-know-all-too-well</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/screen-shot-2017-03-13-at-10.22.15-am_wide-8588446b376a1d88be3cdfcaf7259a43f295ef4a-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_as_braille_literacy_declines_reading_competitions_held_to_boost_interest.mp3?orgId=577&amp;topicId=1013&amp;d=232&amp;p=2&amp;story=519983877&amp;t=progseg&amp;e=519955666&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>As Braille Literacy Declines, Reading Competitions Held To Boost Interest</title>
-      <link>http://www.npr.org/2017/03/13/519983877/as-braille-literacy-declines-reading-competitions-held-to-boost-interest</link>
-      <description>March 13, 2017 - As blind children depend more on technology to help them read, braille is seeming antiquated, with literacy rates at just 10 percent. So now, braille reading competitions are held to keep it in use.</description>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_as_braille_literacy_declines_reading_competitions_held_to_boost_interest.mp3?orgId=577&amp;topicId=1013&amp;d=232&amp;p=2&amp;story=519983877&amp;t=progseg&amp;e=519955666&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/braille4_wide-d5910fd2e25dbed5ae59d3a4cdb3c13aeefcb184-s800-c15.jpg"></a>
-
-March 13, 2017 - As blind children depend more on technology to help them read, braille is seeming antiquated, with literacy rates at just 10 percent. So now, braille reading competitions are held to keep it in use.
-
-<a href="http://www.npr.org/2017/03/13/519983877/as-braille-literacy-declines-reading-competitions-held-to-boost-interest">http://www.npr.org/2017/03/13/519983877/as-braille-literacy-declines-reading-competitions-held-to-boost-interest</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/braille4_wide-d5910fd2e25dbed5ae59d3a4cdb3c13aeefcb184-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>232</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_developers_create_panic_button_for_immigrants_being_detained.mp3?orgId=1&amp;topicId=1019&amp;d=81&amp;p=2&amp;story=520021434&amp;t=progseg&amp;e=519955666&amp;seg=14&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Developers Create &#39;Panic Button&#39; For Immigrants Being Detained</title>
-      <link>http://www.npr.org/2017/03/13/520021434/developers-create-panic-button-for-immigrants-being-detained</link>
-      <description>March 13, 2017 - Natalia Margolis, software engineer at Huge, created an app called Notifica that allows people detained for deportation to send out alerts to family, friends and lawyers with the push of a button.</description>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_developers_create_panic_button_for_immigrants_being_detained.mp3?orgId=1&amp;topicId=1019&amp;d=81&amp;p=2&amp;story=520021434&amp;t=progseg&amp;e=519955666&amp;seg=14&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 13, 2017 - Natalia Margolis, software engineer at Huge, created an app called Notifica that allows people detained for deportation to send out alerts to family, friends and lawyers with the push of a button.
-
-<a href="http://www.npr.org/2017/03/13/520021434/developers-create-panic-button-for-immigrants-being-detained">http://www.npr.org/2017/03/13/520021434/developers-create-panic-button-for-immigrants-being-detained</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/26/521550404/the-call-in-answering-your-questions-about-digital-privacy">http://www.npr.org/2017/03/26/521550404/the-call-in-answering-your-questions-about-digital-privacy</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>81</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_young_women_of_color_design_covert_fashion_to_combat_surveillance.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=2&amp;story=520021384&amp;t=progseg&amp;e=519955666&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Covert Fashion Provides Camouflage Against Surveillance Software</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/13/520021384/covert-fashion-provides-camouflage-against-surveillance-software</link>
-      <description>March 13, 2017 - Hyphen-Labs is a group of women of color who are scientists, engineers, architects and designers who have designed clothing that camouflages against facial recognition software.</description>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_young_women_of_color_design_covert_fashion_to_combat_surveillance.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=2&amp;story=520021384&amp;t=progseg&amp;e=519955666&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/2017-03-13_ninagregory-1-of-2-_wide-1056efa0deb4ff43619e8b0bcadd709ddde63380-s800-c15.jpg"></a>
-
-March 13, 2017 - Hyphen-Labs is a group of women of color who are scientists, engineers, architects and designers who have designed clothing that camouflages against facial recognition software.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/13/520021384/covert-fashion-provides-camouflage-against-surveillance-software">http://www.npr.org/sections/alltechconsidered/2017/03/13/520021384/covert-fashion-provides-camouflage-against-surveillance-software</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/2017-03-13_ninagregory-1-of-2-_wide-1056efa0deb4ff43619e8b0bcadd709ddde63380-s3000-c15.jpg"></itunes:image>
       <itunes:duration>230</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_rise_of_artifical_intelligence_met_with_mixed_reaction_at_sxsw.mp3?orgId=1&amp;topicId=1019&amp;d=216&amp;p=2&amp;story=520021377&amp;t=progseg&amp;e=519955666&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Rise Of Artificial Intelligence Met With Mixed Reaction At SXSW</title>
-      <link>http://www.npr.org/2017/03/13/520021377/rise-of-artificial-intelligence-met-with-mixed-reaction-at-sxsw</link>
-      <description>March 13, 2017 - From South by Southwest, the optimistic and dystopian visions of artificial intelligence — a technology that is becoming part of our daily lives.</description>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170313_atc_rise_of_artifical_intelligence_met_with_mixed_reaction_at_sxsw.mp3?orgId=1&amp;topicId=1019&amp;d=216&amp;p=2&amp;story=520021377&amp;t=progseg&amp;e=519955666&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_companies_and_users_can_do_more_to_stay_secure_with_smart_devices.mp3?orgId=1&amp;topicId=1019&amp;d=256&amp;p=10&amp;story=521362526&amp;t=progseg&amp;e=521550162&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Companies And Users Can Do More To Stay Secure With &#39;Smart&#39; Devices</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/26/521362526/companies-and-users-can-do-more-to-stay-secure-with-smart-devices</link>
+      <description>March 26, 2017 - None of the top internet and telecom companies passed in the latest Ranking Digital Rights rankings in regard to individuals&#39; privacy standards. But what can they do better and what can we do at home?</description>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_companies_and_users_can_do_more_to_stay_secure_with_smart_devices.mp3?orgId=1&amp;topicId=1019&amp;d=256&amp;p=10&amp;story=521362526&amp;t=progseg&amp;e=521550162&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 13, 2017 - From South by Southwest, the optimistic and dystopian visions of artificial intelligence — a technology that is becoming part of our daily lives.
+      <itunes:summary><![CDATA[March 26, 2017 - None of the top internet and telecom companies passed in the latest Ranking Digital Rights rankings in regard to individuals' privacy standards. But what can they do better and what can we do at home?
 
-<a href="http://www.npr.org/2017/03/13/520021377/rise-of-artificial-intelligence-met-with-mixed-reaction-at-sxsw">http://www.npr.org/2017/03/13/520021377/rise-of-artificial-intelligence-met-with-mixed-reaction-at-sxsw</a>]]></itunes:summary>
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/26/521362526/companies-and-users-can-do-more-to-stay-secure-with-smart-devices">http://www.npr.org/sections/alltechconsidered/2017/03/26/521362526/companies-and-users-can-do-more-to-stay-secure-with-smart-devices</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>216</itunes:duration>
+      <itunes:duration>256</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170313_fa_01.mp3?orgId=427869011&amp;topicId=1019&amp;d=1820&amp;p=13&amp;story=519977607&amp;t=progseg&amp;e=519983249&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
-      <title>&#39;Irresistible&#39; By Design: It&#39;s No Accident You Can&#39;t Stop Looking At The Screen</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen</link>
-      <description>March 13, 2017 - Technology is designed to be addictive, offering gratification that&#39;s similar to that of drug abuse or gambling. Author Adam Alter says a new frontier could soon provide another escape from reality.</description>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170313_fa_01.mp3?orgId=427869011&amp;topicId=1019&amp;d=1820&amp;p=13&amp;story=519977607&amp;t=progseg&amp;e=519983249&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</guid>
+      <title>Telehealth Doctor Visits May Be Handy, But Aren&#39;t Cheaper Overall</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</link>
+      <description>March 26, 2017 - Many patients like the convenience of being able to quickly consult a doctor by text or phone or webcam instead of heading to an urgent care clinic. But the cost of consultations can add up.</description>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/istock-483485554_wide-5b045b02a3eae20d14baaead76b1a24adb69fe94-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/virtual-doc_wide-c1ff8791202514fd3637351ce80cb03042e2de85-s800-c15.jpg"></a>
 
-March 13, 2017 - Technology is designed to be addictive, offering gratification that's similar to that of drug abuse or gambling. Author Adam Alter says a new frontier could soon provide another escape from reality.
+March 26, 2017 - Many patients like the convenience of being able to quickly consult a doctor by text or phone or webcam instead of heading to an urgent care clinic. But the cost of consultations can add up.
 
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen">http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/istock-483485554_wide-5b045b02a3eae20d14baaead76b1a24adb69fe94-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>1820</itunes:duration>
+<a href="http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall">http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/virtual-doc_wide-c1ff8791202514fd3637351ce80cb03042e2de85-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age</guid>
-      <title>Parent Anxiety, Screen Time And Learning In The Digital Age</title>
-      <link>http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age</link>
-      <description>March 13, 2017 - We met with parents to talk about screen time, digital privacy and the role of devices in the classroom. They had a lot of questions, so we asked some experts for answers. Take a listen.</description>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_howard_university_launches_effort_to_build_pipline_of_black_software_engineers_in_silicon_valley.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=521517159&amp;t=progseg&amp;e=521487718&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Howard University&#39;s Aims To Build Silicon Valley Pipeline Of Black Software Engineers</title>
+      <link>http://www.npr.org/2017/03/25/521517159/howard-university-launches-effort-to-build-pipline-of-black-software-engineers-i</link>
+      <description>March 25, 2017 - The historically black university in Washington, D.C., is sending computer science students to study at Google&#39;s headquarters in California, as part of an effort called Howard West.</description>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_howard_university_launches_effort_to_build_pipline_of_black_software_engineers_in_silicon_valley.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=521517159&amp;t=progseg&amp;e=521487718&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/27/gen-listen-parents_wide-781216264021bf31900ed0d703c05795371b6fd3-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[March 25, 2017 - The historically black university in Washington, D.C., is sending computer science students to study at Google's headquarters in California, as part of an effort called Howard West.
 
-March 13, 2017 - We met with parents to talk about screen time, digital privacy and the role of devices in the classroom. They had a lot of questions, so we asked some experts for answers. Take a listen.
-
-<a href="http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age">http://www.npr.org/sections/ed/2017/03/13/517510888/parent-anxiety-screen-time-and-learning-in-the-digital-age</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/27/gen-listen-parents_wide-781216264021bf31900ed0d703c05795371b6fd3-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/03/25/521517159/howard-university-launches-effort-to-build-pipline-of-black-software-engineers-i">http://www.npr.org/2017/03/25/521517159/howard-university-launches-effort-to-build-pipline-of-black-software-engineers-i</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>215</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites</guid>
-      <title>Games Are Taking A Back Seat To Players On Video Game Streaming Sites </title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites</link>
-      <description>March 12, 2017 - Twitch became a popular site for its constant live streams of people playing video games. Its latest addition is Twitch IRL: Same players, same streams, but without the gaming.</description>
-      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them</guid>
+      <title>Police Videos Aren&#39;t Going Away. How Can We Learn From Them?</title>
+      <link>http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them</link>
+      <description>March 25, 2017 - In the era of body cameras and cellphones, the act of seeing police do their job is radically altering the public-police relationship, and changing civilian and police behavior and perceptions alike.</description>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/02/08/Futureman_wide-2feaa30ac0745776a8bea9de6686377022b40569-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/22/embedded_policespot_wide-8f8631294f9a30c1fd32ae94159d8a413c8178b4-s800-c15.jpg"></a>
 
-March 12, 2017 - Twitch became a popular site for its constant live streams of people playing video games. Its latest addition is Twitch IRL: Same players, same streams, but without the gaming.
+March 25, 2017 - In the era of body cameras and cellphones, the act of seeing police do their job is radically altering the public-police relationship, and changing civilian and police behavior and perceptions alike.
 
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites">http://www.npr.org/sections/alltechconsidered/2017/03/12/514107238/are-taking-a-backseat-to-players-on-video-game-streaming-sites</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/02/08/Futureman_wide-2feaa30ac0745776a8bea9de6686377022b40569-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them">http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/22/embedded_policespot_wide-8f8631294f9a30c1fd32ae94159d8a413c8178b4-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170324_me_can_arianna_huffington_save_uber.mp3?orgId=1&amp;topicId=1006&amp;d=230&amp;p=3&amp;story=521319706&amp;t=progseg&amp;e=521337438&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Can Arianna Huffington Save Uber?</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/24/521319706/can-arianna-huffington-save-uber</link>
+      <description>March 24, 2017 - While Uber wades through crisis after crisis, media mogul Arianna Huffington, the sole woman on its board, is emerging as chief of culture change.</description>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170324_me_can_arianna_huffington_save_uber.mp3?orgId=1&amp;topicId=1006&amp;d=230&amp;p=3&amp;story=521319706&amp;t=progseg&amp;e=521337438&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/24/gettyimages-624038230_wide-3d854ad7429c8892b335455d8eb37c0d4b778c50-s800-c15.jpg"></a>
+
+March 24, 2017 - While Uber wades through crisis after crisis, media mogul Arianna Huffington, the sole woman on its board, is emerging as chief of culture change.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/24/521319706/can-arianna-huffington-save-uber">http://www.npr.org/sections/alltechconsidered/2017/03/24/521319706/can-arianna-huffington-save-uber</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/gettyimages-624038230_wide-3d854ad7429c8892b335455d8eb37c0d4b778c50-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>230</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules</guid>
+      <title>U.S. Senate Votes To Repeal Obama-Era Internet Privacy Rules</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules</link>
+      <description>March 23, 2017 - The rules would require Internet providers to tell consumers what data they collect and get consent before selling. Republicans said ISPs were facing stricter regulations than companies like Google.</description>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/23/istock-503844546_wide-298061cc123e8fdb2e2963f24d14208a90897287-s800-c15.jpg"></a>
+
+March 23, 2017 - The rules would require Internet providers to tell consumers what data they collect and get consent before selling. Republicans said ISPs were facing stricter regulations than companies like Google.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules">http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/23/istock-503844546_wide-298061cc123e8fdb2e2963f24d14208a90897287-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot</guid>
+      <title>Hungry? Call Your Neighborhood Delivery Robot</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot</link>
+      <description>March 23, 2017 - Self-driving delivery robots have popped up on the sidewalks of Washington, D.C. — and other locations have expressed interest. The bots learn about traffic patterns with every trip they take.</description>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/22/2017-03-22-deliverybot-mkelly-055_wide-5202c1dcaf969081a33de2ecce2db6262b9be711-s800-c15.jpg"></a>
+
+March 23, 2017 - Self-driving delivery robots have popped up on the sidewalks of Washington, D.C. — and other locations have expressed interest. The bots learn about traffic patterns with every trip they take.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot">http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/22/2017-03-22-deliverybot-mkelly-055_wide-5202c1dcaf969081a33de2ecce2db6262b9be711-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak</guid>
+      <title>Social Media, Math And The Mystery Of A Mumps Outbreak</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak</link>
+      <description>March 22, 2017 - Since August 2016, there have been nearly 3,000 cases of mumps diagnosed in Arkansas. A epidemiologist explains how her team used online data and mathematical modeling to understand the outbreak.</description>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/22/arkansas-mumps_wide-fa5b209222eb5986471271e8ceb12f57c7e48c73-s800-c15.jpg"></a>
+
+March 22, 2017 - Since August 2016, there have been nearly 3,000 cases of mumps diagnosed in Arkansas. A epidemiologist explains how her team used online data and mathematical modeling to understand the outbreak.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak">http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/22/arkansas-mumps_wide-fa5b209222eb5986471271e8ceb12f57c7e48c73-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count</guid>
+      <title>A Smartphone Can Accurately Test Sperm Count</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count</link>
+      <description>March 22, 2017 - Measuring the quality of those little swimmers usually requires a trip to the doctor. Researchers have come up with a smartphone accessory that would let men do that at home in less than five seconds.</description>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/20/sperm-smartphone_wide-28ed7cd08cf65bebabd51be2cb049602a990e62e-s800-c15.jpg"></a>
+
+March 22, 2017 - Measuring the quality of those little swimmers usually requires a trip to the doctor. Researchers have come up with a smartphone accessory that would let men do that at home in less than five seconds.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count">http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/20/sperm-smartphone_wide-28ed7cd08cf65bebabd51be2cb049602a990e62e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_new_ways_to_burn_oil.mp3?orgId=1&amp;topicId=1025&amp;d=234&amp;p=2&amp;story=520861834&amp;t=progseg&amp;e=520912398&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Researchers Test Hotter, Faster And Cleaner Way To Fight Oil Spills</title>
+      <link>http://www.npr.org/2017/03/21/520861834/researchers-test-hotter-faster-and-cleaner-way-to-fight-oil-spills</link>
+      <description>March 21, 2017 - The Flame Refluxer is essentially a big copper blanket: think Brillo pad of wool sandwiched between mesh. Using it while burning off oil yields less air pollution and residue that harms marine life.</description>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_new_ways_to_burn_oil.mp3?orgId=1&amp;topicId=1025&amp;d=234&amp;p=2&amp;story=520861834&amp;t=progseg&amp;e=520912398&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/21/refluxer-promo_wide-1b1ae77009f1f3f88b2f6b56d4d8c0f3f1a7d290-s800-c15.jpg"></a>
+
+March 21, 2017 - The Flame Refluxer is essentially a big copper blanket: think Brillo pad of wool sandwiched between mesh. Using it while burning off oil yields less air pollution and residue that harms marine life.
+
+<a href="http://www.npr.org/2017/03/21/520861834/researchers-test-hotter-faster-and-cleaner-way-to-fight-oil-spills">http://www.npr.org/2017/03/21/520861834/researchers-test-hotter-faster-and-cleaner-way-to-fight-oil-spills</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/21/refluxer-promo_wide-1b1ae77009f1f3f88b2f6b56d4d8c0f3f1a7d290-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>234</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions</guid>
+      <title>New Device Restrictions On Some Flights: Few Facts, Many Questions</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions</link>
+      <description>March 21, 2017 - Homeland Security says most personal electronics won&#39;t be allowed in carry-ons on flights from some majority-Muslim countries. The U.K. has acted similarly. Why the abrupt change? It&#39;s far from clear.</description>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/21/gettyimages-656101538_wide-88b002195beb5dc5a22c9ab5239424d499bc62a8-s800-c15.jpg"></a>
+
+March 21, 2017 - Homeland Security says most personal electronics won't be allowed in carry-ons on flights from some majority-Muslim countries. The U.K. has acted similarly. Why the abrupt change? It's far from clear.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions">http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/21/gettyimages-656101538_wide-88b002195beb5dc5a22c9ab5239424d499bc62a8-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_google_vows_to_remove_ads_from_offensive_youtube_content.mp3?orgId=1&amp;topicId=1019&amp;d=191&amp;p=2&amp;story=520996091&amp;t=progseg&amp;e=520912398&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Google Vows To Remove Ads From Offensive YouTube Content</title>
+      <link>http://www.npr.org/2017/03/21/520996091/google-vows-to-remove-ads-from-offensive-youtube-content</link>
+      <description>March 21, 2017 - Google says it is giving advertisers more control over where and how their ads appear. Some major advertisers in the U.K. were outraged and some pared back their spending after their ads appeared on YouTube videos created by backers of ISIS and a violent pro-fascist group. Google also says it&#39;s removing more ads from extremist content and hiring more people to deal with the problem.</description>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_google_vows_to_remove_ads_from_offensive_youtube_content.mp3?orgId=1&amp;topicId=1019&amp;d=191&amp;p=2&amp;story=520996091&amp;t=progseg&amp;e=520912398&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 21, 2017 - Google says it is giving advertisers more control over where and how their ads appear. Some major advertisers in the U.K. were outraged and some pared back their spending after their ads appeared on YouTube videos created by backers of ISIS and a violent pro-fascist group. Google also says it's removing more ads from extremist content and hiring more people to deal with the problem.
+
+<a href="http://www.npr.org/2017/03/21/520996091/google-vows-to-remove-ads-from-offensive-youtube-content">http://www.npr.org/2017/03/21/520996091/google-vows-to-remove-ads-from-offensive-youtube-content</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>191</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content</guid>
+      <title>Google Promises To Keep Ads Off &#39;Hateful, Offensive&#39; YouTube Content</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content</link>
+      <description>March 21, 2017 - On Friday, a division of a global marketing group with a digital budget of more than $200 million put its dealings with Google on &#34;pause,&#34; citing recent controversies.</description>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/21/ap_16138753477815_wide-a631b213489be49faa9fb6fd74b0af78089bd45f-s800-c15.jpg"></a>
+
+March 21, 2017 - On Friday, a division of a global marketing group with a digital budget of more than $200 million put its dealings with Google on "pause," citing recent controversies.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content">http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/21/ap_16138753477815_wide-a631b213489be49faa9fb6fd74b0af78089bd45f-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
