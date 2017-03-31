@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Mar 2017 18:10:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Mar 2017 14:58:39 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sun, 26 Mar 2017 18:10:44 +0000</pubDate>
+    <pubDate>Fri, 31 Mar 2017 14:58:39 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -24,232 +24,242 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_law_enforcement_and_encryption.mp3?orgId=1&amp;topicId=1019&amp;d=185&amp;p=10&amp;story=521550411&amp;t=progseg&amp;e=521550162&amp;seg=13&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Prosecutor Makes The Case For Law Enforcement Access To Data</title>
-      <link>http://www.npr.org/2017/03/26/521550411/prosecutor-makes-the-case-for-law-enforcement-access-to-data</link>
-      <description>March 26, 2017 - NPR&#39;s Lulu Garcia-Navarro talks with San Bernardino County District Attorney Michael Ramos about his push to allow law enforcement to gain access to data on individuals&#39; smartphones.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_law_enforcement_and_encryption.mp3?orgId=1&amp;topicId=1019&amp;d=185&amp;p=10&amp;story=521550411&amp;t=progseg&amp;e=521550162&amp;seg=13&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170331_me_will_using_artificial_intelligence_to_make_loans_trade_one_kind_of_bias_for_another.mp3?orgId=610&amp;topicId=1019&amp;d=224&amp;p=3&amp;story=521946210&amp;t=progseg&amp;e=522151865&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Will Using Artificial Intelligence To Make Loans Trade One Kind Of Bias For Another?</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/31/521946210/will-using-artificial-intelligence-to-make-loans-trade-one-kind-of-bias-for-anot</link>
+      <description>March 31, 2017 - The next loan you get may depend less on your credit score and more on what a program thinks of your habits. Digital lenders say the process will be more fair, but others worry about unintended bias.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170331_me_will_using_artificial_intelligence_to_make_loans_trade_one_kind_of_bias_for_another.mp3?orgId=610&amp;topicId=1019&amp;d=224&amp;p=3&amp;story=521946210&amp;t=progseg&amp;e=522151865&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 26, 2017 - NPR's Lulu Garcia-Navarro talks with San Bernardino County District Attorney Michael Ramos about his push to allow law enforcement to gain access to data on individuals' smartphones.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/29/lender-stock-photo_wide-9625559bb8f54965c696c1a99bed8b16b51330d0-s800-c15.png"></a>
 
-<a href="http://www.npr.org/2017/03/26/521550411/prosecutor-makes-the-case-for-law-enforcement-access-to-data">http://www.npr.org/2017/03/26/521550411/prosecutor-makes-the-case-for-law-enforcement-access-to-data</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>185</itunes:duration>
+March 31, 2017 - The next loan you get may depend less on your credit score and more on what a program thinks of your habits. Digital lenders say the process will be more fair, but others worry about unintended bias.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/31/521946210/will-using-artificial-intelligence-to-make-loans-trade-one-kind-of-bias-for-anot">http://www.npr.org/sections/alltechconsidered/2017/03/31/521946210/will-using-artificial-intelligence-to-make-loans-trade-one-kind-of-bias-for-anot</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/lender-stock-photo_wide-9625559bb8f54965c696c1a99bed8b16b51330d0-s3000-c15.png"></itunes:image>
+      <itunes:duration>224</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_the_call-in_digital_privacy.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=10&amp;story=521550404&amp;t=progseg&amp;e=521550162&amp;seg=11&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The Call-In: Answering Your Questions About Digital Privacy</title>
-      <link>http://www.npr.org/2017/03/26/521550404/the-call-in-answering-your-questions-about-digital-privacy</link>
-      <description>March 26, 2017 - Seamus Tuohy, a consultant with the digital security firm Prudent Innovation, answers your questions about how to keep your data secure and your personal information private.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_the_call-in_digital_privacy.mp3?orgId=1&amp;topicId=1019&amp;d=230&amp;p=10&amp;story=521550404&amp;t=progseg&amp;e=521550162&amp;seg=11&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_public_sector_innovation_successes.mp3?orgId=1&amp;topicId=1019&amp;d=263&amp;p=2&amp;story=522091613&amp;t=progseg&amp;e=522020571&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>How Can You Bring Innovation To Government Services? Follow Users</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/30/522091613/how-can-you-bring-innovation-to-government-services-follow-users</link>
+      <description>March 30, 2017 - NPR&#39;s Ari Shapiro talks with Jennifer Pahlka, founder and executive director of Code for America, about what it takes to bring innovation to government.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_public_sector_innovation_successes.mp3?orgId=1&amp;topicId=1019&amp;d=263&amp;p=2&amp;story=522091613&amp;t=progseg&amp;e=522020571&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 26, 2017 - Seamus Tuohy, a consultant with the digital security firm Prudent Innovation, answers your questions about how to keep your data secure and your personal information private.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/30/gettyimages-622170376_wide-598fa184d2341896c18ad1734bb08b9b8992e95b-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/26/521550404/the-call-in-answering-your-questions-about-digital-privacy">http://www.npr.org/2017/03/26/521550404/the-call-in-answering-your-questions-about-digital-privacy</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>230</itunes:duration>
+March 30, 2017 - NPR's Ari Shapiro talks with Jennifer Pahlka, founder and executive director of Code for America, about what it takes to bring innovation to government.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/30/522091613/how-can-you-bring-innovation-to-government-services-follow-users">http://www.npr.org/sections/alltechconsidered/2017/03/30/522091613/how-can-you-bring-innovation-to-government-services-follow-users</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/30/gettyimages-622170376_wide-598fa184d2341896c18ad1734bb08b9b8992e95b-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>263</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_companies_and_users_can_do_more_to_stay_secure_with_smart_devices.mp3?orgId=1&amp;topicId=1019&amp;d=256&amp;p=10&amp;story=521362526&amp;t=progseg&amp;e=521550162&amp;seg=12&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Companies And Users Can Do More To Stay Secure With &#39;Smart&#39; Devices</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/26/521362526/companies-and-users-can-do-more-to-stay-secure-with-smart-devices</link>
-      <description>March 26, 2017 - None of the top internet and telecom companies passed in the latest Ranking Digital Rights rankings in regard to individuals&#39; privacy standards. But what can they do better and what can we do at home?</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_companies_and_users_can_do_more_to_stay_secure_with_smart_devices.mp3?orgId=1&amp;topicId=1019&amp;d=256&amp;p=10&amp;story=521362526&amp;t=progseg&amp;e=521550162&amp;seg=12&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_congress_votes_to_roll_back_fccs_internet_privacy_protections.mp3?orgId=1&amp;topicId=1019&amp;d=198&amp;p=2&amp;story=521954026&amp;t=progseg&amp;e=521885502&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Congress Votes To Roll Back FCC&#39;s Internet Privacy Protections</title>
+      <link>http://www.npr.org/2017/03/29/521954026/congress-votes-to-roll-back-fccs-internet-privacy-protections</link>
+      <description>March 29, 2017 - Congress approved a measure that rolls back an FCC rule that would have required Internet providers to ask permission before selling consumers&#39; personal data.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_congress_votes_to_roll_back_fccs_internet_privacy_protections.mp3?orgId=1&amp;topicId=1019&amp;d=198&amp;p=2&amp;story=521954026&amp;t=progseg&amp;e=521885502&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 26, 2017 - None of the top internet and telecom companies passed in the latest Ranking Digital Rights rankings in regard to individuals' privacy standards. But what can they do better and what can we do at home?
+      <itunes:summary><![CDATA[March 29, 2017 - Congress approved a measure that rolls back an FCC rule that would have required Internet providers to ask permission before selling consumers' personal data.
 
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/26/521362526/companies-and-users-can-do-more-to-stay-secure-with-smart-devices">http://www.npr.org/sections/alltechconsidered/2017/03/26/521362526/companies-and-users-can-do-more-to-stay-secure-with-smart-devices</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/29/521954026/congress-votes-to-roll-back-fccs-internet-privacy-protections">http://www.npr.org/2017/03/29/521954026/congress-votes-to-roll-back-fccs-internet-privacy-protections</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>256</itunes:duration>
+      <itunes:duration>198</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</guid>
-      <title>Telehealth Doctor Visits May Be Handy, But Aren&#39;t Cheaper Overall</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</link>
-      <description>March 26, 2017 - Many patients like the convenience of being able to quickly consult a doctor by text or phone or webcam instead of heading to an urgent care clinic. But the cost of consultations can add up.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170329_fa_01.mp3?orgId=427869011&amp;topicId=1122&amp;d=2317&amp;p=13&amp;story=521909787&amp;t=progseg&amp;e=521912356&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>The U.S. Has An &#39;Active Cyber War Underway&#39; To Thwart The North Korean Nuclear Threat</title>
+      <link>http://www.npr.org/2017/03/29/521909787/the-u-s-has-an-active-cyber-war-underway-to-thwart-the-north-korean-nuclear-thre</link>
+      <description>March 29, 2017 - New York Times reporter David Sanger talks about North Korea&#39;s nuclear program and warns that the regime, which has been &#34;fodder for late night comedians for many many years,&#34; is no joke.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170329_fa_01.mp3?orgId=427869011&amp;topicId=1122&amp;d=2317&amp;p=13&amp;story=521909787&amp;t=progseg&amp;e=521912356&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/13/virtual-doc_wide-c1ff8791202514fd3637351ce80cb03042e2de85-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[March 29, 2017 - New York Times reporter David Sanger talks about North Korea's nuclear program and warns that the regime, which has been "fodder for late night comedians for many many years," is no joke.
 
-March 26, 2017 - Many patients like the convenience of being able to quickly consult a doctor by text or phone or webcam instead of heading to an urgent care clinic. But the cost of consultations can add up.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall">http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/virtual-doc_wide-c1ff8791202514fd3637351ce80cb03042e2de85-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/2017/03/29/521909787/the-u-s-has-an-active-cyber-war-underway-to-thwart-the-north-korean-nuclear-thre">http://www.npr.org/2017/03/29/521909787/the-u-s-has-an-active-cyber-war-underway-to-thwart-the-north-korean-nuclear-thre</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>2317</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_howard_university_launches_effort_to_build_pipline_of_black_software_engineers_in_silicon_valley.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=521517159&amp;t=progseg&amp;e=521487718&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Howard University&#39;s Aims To Build Silicon Valley Pipeline Of Black Software Engineers</title>
-      <link>http://www.npr.org/2017/03/25/521517159/howard-university-launches-effort-to-build-pipline-of-black-software-engineers-i</link>
-      <description>March 25, 2017 - The historically black university in Washington, D.C., is sending computer science students to study at Google&#39;s headquarters in California, as part of an effort called Howard West.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_howard_university_launches_effort_to_build_pipline_of_black_software_engineers_in_silicon_valley.mp3?orgId=150&amp;topicId=1003&amp;d=215&amp;p=2&amp;story=521517159&amp;t=progseg&amp;e=521487718&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/therecord/2017/03/29/521642313/where-have-all-the-bob-seger-albums-gone</guid>
+      <title>Where Have All The Bob Seger Albums Gone?</title>
+      <link>http://www.npr.org/sections/therecord/2017/03/29/521642313/where-have-all-the-bob-seger-albums-gone</link>
+      <description>March 29, 2017 - In the era of streaming music, everything ever recorded is supposed to be at our fingertips. So how did one of the biggest names in the Classic Rock canon go missing?</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 25, 2017 - The historically black university in Washington, D.C., is sending computer science students to study at Google's headquarters in California, as part of an effort called Howard West.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/28/bob-seger-uroda_wide-74c11dce663088fc67e8caea7bacf1666348ca2e-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/25/521517159/howard-university-launches-effort-to-build-pipline-of-black-software-engineers-i">http://www.npr.org/2017/03/25/521517159/howard-university-launches-effort-to-build-pipline-of-black-software-engineers-i</a>]]></itunes:summary>
+March 29, 2017 - In the era of streaming music, everything ever recorded is supposed to be at our fingertips. So how did one of the biggest names in the Classic Rock canon go missing?
+
+<a href="http://www.npr.org/sections/therecord/2017/03/29/521642313/where-have-all-the-bob-seger-albums-gone">http://www.npr.org/sections/therecord/2017/03/29/521642313/where-have-all-the-bob-seger-albums-gone</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/bob-seger-uroda_wide-74c11dce663088fc67e8caea7bacf1666348ca2e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170328_me_release_of_possible_topics_for_2020_census_raises_concerns.mp3?orgId=1&amp;topicId=1091&amp;d=175&amp;story=521789446&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Run-Up To Census 2020 Raises Concerns Over Security And Politics</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/28/521789446/run-up-to-census-2020-raises-concerns-over-security-and-politics</link>
+      <description>March 28, 2017 - Results from the U.S. Census in 2020 could remake the political map. Some census experts say the stakes for the upcoming national headcount are higher than normal.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170328_me_release_of_possible_topics_for_2020_census_raises_concerns.mp3?orgId=1&amp;topicId=1091&amp;d=175&amp;story=521789446&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/28/ap_100410135477_wide-08571bf2f9966bd69a0c3e21643c9b15e3beca35-s800-c15.jpg"></a>
+
+March 28, 2017 - Results from the U.S. Census in 2020 could remake the political map. Some census experts say the stakes for the upcoming national headcount are higher than normal.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/28/521789446/run-up-to-census-2020-raises-concerns-over-security-and-politics">http://www.npr.org/sections/thetwo-way/2017/03/28/521789446/run-up-to-census-2020-raises-concerns-over-security-and-politics</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/ap_100410135477_wide-08571bf2f9966bd69a0c3e21643c9b15e3beca35-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>175</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/28/521813464/as-congress-repeals-internet-privacy-rules-putting-your-options-in-perspective</guid>
+      <title>As Congress Repeals Internet Privacy Rules, Putting Your Options In Perspective</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/28/521813464/as-congress-repeals-internet-privacy-rules-putting-your-options-in-perspective</link>
+      <description>March 28, 2017 - President Trump is expected to sign a bill to overturn new privacy rules for Internet service providers. An expert says there are steps you can take, though they won&#39;t deliver absolute privacy.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/28/gettyimages-2062515_wide-c365124a7e532d998c6729a182cfc735c0d13a08-s800-c15.jpg"></a>
+
+March 28, 2017 - President Trump is expected to sign a bill to overturn new privacy rules for Internet service providers. An expert says there are steps you can take, though they won't deliver absolute privacy.
+
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/28/521813464/as-congress-repeals-internet-privacy-rules-putting-your-options-in-perspective">http://www.npr.org/sections/alltechconsidered/2017/03/28/521813464/as-congress-repeals-internet-privacy-rules-putting-your-options-in-perspective</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/gettyimages-2062515_wide-c365124a7e532d998c6729a182cfc735c0d13a08-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/2017/03/28/521831393/congress-overturns-internet-privacy-regulation</guid>
+      <title>Congress Overturns Internet Privacy Regulation</title>
+      <link>http://www.npr.org/2017/03/28/521831393/congress-overturns-internet-privacy-regulation</link>
+      <description>March 28, 2017 - The rule, which had not yet taken effect, would have required Internet providers to ask permission before selling consumers&#39; personal data. President Trump is expected to sign the rollback.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/28/istock-134247676-01_wide-50991372e6f258af404f39bea3bdd6ba4c6450cf-s800-c15.png"></a>
+
+March 28, 2017 - The rule, which had not yet taken effect, would have required Internet providers to ask permission before selling consumers' personal data. President Trump is expected to sign the rollback.
+
+<a href="http://www.npr.org/2017/03/28/521831393/congress-overturns-internet-privacy-regulation">http://www.npr.org/2017/03/28/521831393/congress-overturns-internet-privacy-regulation</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/istock-134247676-01_wide-50991372e6f258af404f39bea3bdd6ba4c6450cf-s3000-c15.png"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170328_atc_the_tinder_opera_creators_hope_you_swipe_right_on_online_opera.mp3?orgId=1&amp;topicId=1039&amp;d=338&amp;p=2&amp;story=521394763&amp;t=progseg&amp;e=521761226&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
+      <title>&#39;The Tinder Opera&#39; Creators Hope You Swipe Right On Online Opera</title>
+      <link>http://www.npr.org/sections/deceptivecadence/2017/03/28/521394763/the-tinder-opera-creators-hope-you-swipe-right-on-online-opera</link>
+      <description>March 28, 2017 - &#34;Connection Lost: The Tinder Opera&#34; is an 11-minute video dramatizing a young man&#39;s quest for love via the popular dating app. It marks an effort to adapt a 400-year-old art form to modern media.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170328_atc_the_tinder_opera_creators_hope_you_swipe_right_on_online_opera.mp3?orgId=1&amp;topicId=1039&amp;d=338&amp;p=2&amp;story=521394763&amp;t=progseg&amp;e=521761226&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/24/tinder_wide-794d7d05943d4efafe59d13f3e6a55a0968dbe24-s800-c15.png"></a>
+
+March 28, 2017 - "Connection Lost: The Tinder Opera" is an 11-minute video dramatizing a young man's quest for love via the popular dating app. It marks an effort to adapt a 400-year-old art form to modern media.
+
+<a href="http://www.npr.org/sections/deceptivecadence/2017/03/28/521394763/the-tinder-opera-creators-hope-you-swipe-right-on-online-opera">http://www.npr.org/sections/deceptivecadence/2017/03/28/521394763/the-tinder-opera-creators-hope-you-swipe-right-on-online-opera</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/tinder_wide-794d7d05943d4efafe59d13f3e6a55a0968dbe24-s3000-c15.png"></itunes:image>
+      <itunes:duration>338</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170328_fa_01.mp3?orgId=427869011&amp;topicId=1019&amp;d=2590&amp;p=13&amp;story=521779864&amp;t=progseg&amp;e=521787765&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Inside DARPA, The Pentagon Agency Whose Technology Has &#39;Changed the World&#39;</title>
+      <link>http://www.npr.org/2017/03/28/521779864/inside-darpa-the-pentagon-agency-whose-technology-has-changed-the-world</link>
+      <description>March 28, 2017 - Journalist Sharon Weinberger discusses the Defense Advance Research Projects Agency, which develops innovative scientific technologies for the military. Her new book is The Imagineers of War.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/fa/2017/03/20170328_fa_01.mp3?orgId=427869011&amp;topicId=1019&amp;d=2590&amp;p=13&amp;story=521779864&amp;t=progseg&amp;e=521787765&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 28, 2017 - Journalist Sharon Weinberger discusses the Defense Advance Research Projects Agency, which develops innovative scientific technologies for the military. Her new book is The Imagineers of War.
+
+<a href="http://www.npr.org/2017/03/28/521779864/inside-darpa-the-pentagon-agency-whose-technology-has-changed-the-world">http://www.npr.org/2017/03/28/521779864/inside-darpa-the-pentagon-agency-whose-technology-has-changed-the-world</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
+      <itunes:duration>2590</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170328_atc_online_job_sites_age_discrimination.mp3?orgId=1&amp;topicId=1006&amp;d=138&amp;p=2&amp;story=521771515&amp;t=progseg&amp;e=521761226&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Older Workers Find Age Discrimination Built Right Into Some Job Websites</title>
+      <link>http://www.npr.org/2017/03/28/521771515/older-workers-find-age-discrimination-built-right-into-some-job-sites</link>
+      <description>March 28, 2017 - The sites screen out older job seekers by limiting the dates you can fill in forms, an investigation by the Illinois attorney general found. But other sites say they make a point of fairness.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170328_atc_online_job_sites_age_discrimination.mp3?orgId=1&amp;topicId=1006&amp;d=138&amp;p=2&amp;story=521771515&amp;t=progseg&amp;e=521761226&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/28/gettyimages-112239743_wide-d5eed992844a8e40e0098307b444de35ee508b5e-s800-c15.jpg"></a>
+
+March 28, 2017 - The sites screen out older job seekers by limiting the dates you can fill in forms, an investigation by the Illinois attorney general found. But other sites say they make a point of fairness.
+
+<a href="http://www.npr.org/2017/03/28/521771515/older-workers-find-age-discrimination-built-right-into-some-job-sites">http://www.npr.org/2017/03/28/521771515/older-workers-find-age-discrimination-built-right-into-some-job-sites</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/gettyimages-112239743_wide-d5eed992844a8e40e0098307b444de35ee508b5e-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>138</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/28/521763351/elon-musk-seen-targeting-human-computer-link-in-new-venture</guid>
+      <title>Elon Musk Seen Targeting Human-Computer Link In New Venture</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/28/521763351/elon-musk-seen-targeting-human-computer-link-in-new-venture</link>
+      <description>March 28, 2017 - Speculation about Musk&#39;s new company, Neuralink, centers on the name and how it might correspond to his previous statements about incorporating artificial intelligence into human brains.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/28/gettyimages-610721260_wide-ffd734abfed7f77a51ee4f0aea4bbe0bfbf972af-s800-c15.jpg"></a>
+
+March 28, 2017 - Speculation about Musk's new company, Neuralink, centers on the name and how it might correspond to his previous statements about incorporating artificial intelligence into human brains.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/28/521763351/elon-musk-seen-targeting-human-computer-link-in-new-venture">http://www.npr.org/sections/thetwo-way/2017/03/28/521763351/elon-musk-seen-targeting-human-computer-link-in-new-venture</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/gettyimages-610721260_wide-ffd734abfed7f77a51ee4f0aea4bbe0bfbf972af-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_howard_university_launches_effort_to_build_pipline_of_black_software_engineers_in_silicon_valley.mp3?orgId=150&amp;topicId=1013&amp;d=215&amp;story=521737097&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Google Hopes To Hire More Black Engineers By Bringing Students To Silicon Valley</title>
+      <link>http://www.npr.org/sections/ed/2017/03/28/521737097/google-hopes-to-hire-more-black-engineers-by-bringing-students-to-silicon-valley</link>
+      <description>March 28, 2017 - Howard, the historically black university in Washington, D.C., is sending computer science students to study at Google&#39;s headquarters in California, as part of an effort called Howard West.</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_howard_university_launches_effort_to_build_pipline_of_black_software_engineers_in_silicon_valley.mp3?orgId=150&amp;topicId=1013&amp;d=215&amp;story=521737097&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/27/howard-pic-e1490303843681_wide-1f9e742d3297137013e51a785b60dd164ca4e562-s800-c15.jpg"></a>
+
+March 28, 2017 - Howard, the historically black university in Washington, D.C., is sending computer science students to study at Google's headquarters in California, as part of an effort called Howard West.
+
+<a href="http://www.npr.org/sections/ed/2017/03/28/521737097/google-hopes-to-hire-more-black-engineers-by-bringing-students-to-silicon-valley">http://www.npr.org/sections/ed/2017/03/28/521737097/google-hopes-to-hire-more-black-engineers-by-bringing-students-to-silicon-valley</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/27/howard-pic-e1490303843681_wide-1f9e742d3297137013e51a785b60dd164ca4e562-s3000-c15.jpg"></itunes:image>
       <itunes:duration>215</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them</guid>
-      <title>Police Videos Aren&#39;t Going Away. How Can We Learn From Them?</title>
-      <link>http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them</link>
-      <description>March 25, 2017 - In the era of body cameras and cellphones, the act of seeing police do their job is radically altering the public-police relationship, and changing civilian and police behavior and perceptions alike.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170327_atc_in_china_like_in_the_us_the_fight_over_ride_hailing_is_local.mp3?orgId=1&amp;topicId=1006&amp;d=450&amp;p=2&amp;story=521650068&amp;t=progseg&amp;e=521638081&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>In China, As In The U.S., The Fight Over Ride Hailing Is Local</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/27/521650068/in-china-like-in-the-u-s-the-fight-over-ride-hailing-is-local</link>
+      <description>March 27, 2017 - Until recently, migrant workers lured by bonuses drove for China&#39;s largest Uber-like service. But some local governments banned out-of-town drivers, apparently to protect local jobs and curb growth.</description>
+      <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170327_atc_in_china_like_in_the_us_the_fight_over_ride_hailing_is_local.mp3?orgId=1&amp;topicId=1006&amp;d=450&amp;p=2&amp;story=521650068&amp;t=progseg&amp;e=521638081&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/22/embedded_policespot_wide-8f8631294f9a30c1fd32ae94159d8a413c8178b4-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/27/2017-03-27-china-didi-ride-hailing-mkelly-0011_wide-e5a60c73591f20570960858e99a6ef481de2f7cc-s800-c15.jpg"></a>
 
-March 25, 2017 - In the era of body cameras and cellphones, the act of seeing police do their job is radically altering the public-police relationship, and changing civilian and police behavior and perceptions alike.
+March 27, 2017 - Until recently, migrant workers lured by bonuses drove for China's largest Uber-like service. But some local governments banned out-of-town drivers, apparently to protect local jobs and curb growth.
 
-<a href="http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them">http://www.npr.org/2017/03/25/521102557/police-videos-arent-going-away-how-can-we-learn-from-them</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/22/embedded_policespot_wide-8f8631294f9a30c1fd32ae94159d8a413c8178b4-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/27/521650068/in-china-like-in-the-u-s-the-fight-over-ride-hailing-is-local">http://www.npr.org/sections/alltechconsidered/2017/03/27/521650068/in-china-like-in-the-u-s-the-fight-over-ride-hailing-is-local</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/27/2017-03-27-china-didi-ride-hailing-mkelly-0011_wide-e5a60c73591f20570960858e99a6ef481de2f7cc-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>450</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170324_me_can_arianna_huffington_save_uber.mp3?orgId=1&amp;topicId=1006&amp;d=230&amp;p=3&amp;story=521319706&amp;t=progseg&amp;e=521337438&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Can Arianna Huffington Save Uber?</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/24/521319706/can-arianna-huffington-save-uber</link>
-      <description>March 24, 2017 - While Uber wades through crisis after crisis, media mogul Arianna Huffington, the sole woman on its board, is emerging as chief of culture change.</description>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170324_me_can_arianna_huffington_save_uber.mp3?orgId=1&amp;topicId=1006&amp;d=230&amp;p=3&amp;story=521319706&amp;t=progseg&amp;e=521337438&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home</guid>
+      <title>New USPS Service Gives You A Peek Into Your Mailbox Before You Get Home</title>
+      <link>http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home</link>
+      <description>March 27, 2017 - Remember when you were excited to see what&#39;s in the mail? These days it seems we&#39;re getting fewer letters and more junk, but the U.S. Postal Service will soon let you preview what&#39;s coming your way.</description>
+      <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/24/gettyimages-624038230_wide-3d854ad7429c8892b335455d8eb37c0d4b778c50-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/24/ride-along_iphone-hand_wide-af6a4b9e15a505fe8d797f5e8e7e04e94b5a539f-s800-c15.png"></a>
 
-March 24, 2017 - While Uber wades through crisis after crisis, media mogul Arianna Huffington, the sole woman on its board, is emerging as chief of culture change.
+March 27, 2017 - Remember when you were excited to see what's in the mail? These days it seems we're getting fewer letters and more junk, but the U.S. Postal Service will soon let you preview what's coming your way.
 
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/24/521319706/can-arianna-huffington-save-uber">http://www.npr.org/sections/alltechconsidered/2017/03/24/521319706/can-arianna-huffington-save-uber</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/gettyimages-624038230_wide-3d854ad7429c8892b335455d8eb37c0d4b778c50-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>230</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules</guid>
-      <title>U.S. Senate Votes To Repeal Obama-Era Internet Privacy Rules</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules</link>
-      <description>March 23, 2017 - The rules would require Internet providers to tell consumers what data they collect and get consent before selling. Republicans said ISPs were facing stricter regulations than companies like Google.</description>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/23/istock-503844546_wide-298061cc123e8fdb2e2963f24d14208a90897287-s800-c15.jpg"></a>
-
-March 23, 2017 - The rules would require Internet providers to tell consumers what data they collect and get consent before selling. Republicans said ISPs were facing stricter regulations than companies like Google.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules">http://www.npr.org/sections/thetwo-way/2017/03/23/521253258/u-s-senate-votes-to-repeal-obama-era-internet-privacy-rules</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/23/istock-503844546_wide-298061cc123e8fdb2e2963f24d14208a90897287-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot</guid>
-      <title>Hungry? Call Your Neighborhood Delivery Robot</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot</link>
-      <description>March 23, 2017 - Self-driving delivery robots have popped up on the sidewalks of Washington, D.C. — and other locations have expressed interest. The bots learn about traffic patterns with every trip they take.</description>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/22/2017-03-22-deliverybot-mkelly-055_wide-5202c1dcaf969081a33de2ecce2db6262b9be711-s800-c15.jpg"></a>
-
-March 23, 2017 - Self-driving delivery robots have popped up on the sidewalks of Washington, D.C. — and other locations have expressed interest. The bots learn about traffic patterns with every trip they take.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot">http://www.npr.org/sections/alltechconsidered/2017/03/23/520848983/hungry-call-your-neighborhood-delivery-robot</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/22/2017-03-22-deliverybot-mkelly-055_wide-5202c1dcaf969081a33de2ecce2db6262b9be711-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak</guid>
-      <title>Social Media, Math And The Mystery Of A Mumps Outbreak</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak</link>
-      <description>March 22, 2017 - Since August 2016, there have been nearly 3,000 cases of mumps diagnosed in Arkansas. A epidemiologist explains how her team used online data and mathematical modeling to understand the outbreak.</description>
-      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/22/arkansas-mumps_wide-fa5b209222eb5986471271e8ceb12f57c7e48c73-s800-c15.jpg"></a>
-
-March 22, 2017 - Since August 2016, there have been nearly 3,000 cases of mumps diagnosed in Arkansas. A epidemiologist explains how her team used online data and mathematical modeling to understand the outbreak.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak">http://www.npr.org/sections/health-shots/2017/03/22/520842043/social-media-math-and-the-mystery-of-a-mumps-outbreak</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/22/arkansas-mumps_wide-fa5b209222eb5986471271e8ceb12f57c7e48c73-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count</guid>
-      <title>A Smartphone Can Accurately Test Sperm Count</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count</link>
-      <description>March 22, 2017 - Measuring the quality of those little swimmers usually requires a trip to the doctor. Researchers have come up with a smartphone accessory that would let men do that at home in less than five seconds.</description>
-      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/20/sperm-smartphone_wide-28ed7cd08cf65bebabd51be2cb049602a990e62e-s800-c15.jpg"></a>
-
-March 22, 2017 - Measuring the quality of those little swimmers usually requires a trip to the doctor. Researchers have come up with a smartphone accessory that would let men do that at home in less than five seconds.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count">http://www.npr.org/sections/health-shots/2017/03/22/520837557/a-smartphone-can-accurately-test-sperm-count</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/20/sperm-smartphone_wide-28ed7cd08cf65bebabd51be2cb049602a990e62e-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_new_ways_to_burn_oil.mp3?orgId=1&amp;topicId=1025&amp;d=234&amp;p=2&amp;story=520861834&amp;t=progseg&amp;e=520912398&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Researchers Test Hotter, Faster And Cleaner Way To Fight Oil Spills</title>
-      <link>http://www.npr.org/2017/03/21/520861834/researchers-test-hotter-faster-and-cleaner-way-to-fight-oil-spills</link>
-      <description>March 21, 2017 - The Flame Refluxer is essentially a big copper blanket: think Brillo pad of wool sandwiched between mesh. Using it while burning off oil yields less air pollution and residue that harms marine life.</description>
-      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_new_ways_to_burn_oil.mp3?orgId=1&amp;topicId=1025&amp;d=234&amp;p=2&amp;story=520861834&amp;t=progseg&amp;e=520912398&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/21/refluxer-promo_wide-1b1ae77009f1f3f88b2f6b56d4d8c0f3f1a7d290-s800-c15.jpg"></a>
-
-March 21, 2017 - The Flame Refluxer is essentially a big copper blanket: think Brillo pad of wool sandwiched between mesh. Using it while burning off oil yields less air pollution and residue that harms marine life.
-
-<a href="http://www.npr.org/2017/03/21/520861834/researchers-test-hotter-faster-and-cleaner-way-to-fight-oil-spills">http://www.npr.org/2017/03/21/520861834/researchers-test-hotter-faster-and-cleaner-way-to-fight-oil-spills</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/21/refluxer-promo_wide-1b1ae77009f1f3f88b2f6b56d4d8c0f3f1a7d290-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions</guid>
-      <title>New Device Restrictions On Some Flights: Few Facts, Many Questions</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions</link>
-      <description>March 21, 2017 - Homeland Security says most personal electronics won&#39;t be allowed in carry-ons on flights from some majority-Muslim countries. The U.K. has acted similarly. Why the abrupt change? It&#39;s far from clear.</description>
-      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/21/gettyimages-656101538_wide-88b002195beb5dc5a22c9ab5239424d499bc62a8-s800-c15.jpg"></a>
-
-March 21, 2017 - Homeland Security says most personal electronics won't be allowed in carry-ons on flights from some majority-Muslim countries. The U.K. has acted similarly. Why the abrupt change? It's far from clear.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions">http://www.npr.org/sections/thetwo-way/2017/03/21/520958051/new-device-restrictions-on-some-flights-few-facts-many-questions</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/21/gettyimages-656101538_wide-88b002195beb5dc5a22c9ab5239424d499bc62a8-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_google_vows_to_remove_ads_from_offensive_youtube_content.mp3?orgId=1&amp;topicId=1019&amp;d=191&amp;p=2&amp;story=520996091&amp;t=progseg&amp;e=520912398&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Google Vows To Remove Ads From Offensive YouTube Content</title>
-      <link>http://www.npr.org/2017/03/21/520996091/google-vows-to-remove-ads-from-offensive-youtube-content</link>
-      <description>March 21, 2017 - Google says it is giving advertisers more control over where and how their ads appear. Some major advertisers in the U.K. were outraged and some pared back their spending after their ads appeared on YouTube videos created by backers of ISIS and a violent pro-fascist group. Google also says it&#39;s removing more ads from extremist content and hiring more people to deal with the problem.</description>
-      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170321_atc_google_vows_to_remove_ads_from_offensive_youtube_content.mp3?orgId=1&amp;topicId=1019&amp;d=191&amp;p=2&amp;story=520996091&amp;t=progseg&amp;e=520912398&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 21, 2017 - Google says it is giving advertisers more control over where and how their ads appear. Some major advertisers in the U.K. were outraged and some pared back their spending after their ads appeared on YouTube videos created by backers of ISIS and a violent pro-fascist group. Google also says it's removing more ads from extremist content and hiring more people to deal with the problem.
-
-<a href="http://www.npr.org/2017/03/21/520996091/google-vows-to-remove-ads-from-offensive-youtube-content">http://www.npr.org/2017/03/21/520996091/google-vows-to-remove-ads-from-offensive-youtube-content</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>191</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content</guid>
-      <title>Google Promises To Keep Ads Off &#39;Hateful, Offensive&#39; YouTube Content</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content</link>
-      <description>March 21, 2017 - On Friday, a division of a global marketing group with a digital budget of more than $200 million put its dealings with Google on &#34;pause,&#34; citing recent controversies.</description>
-      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/21/ap_16138753477815_wide-a631b213489be49faa9fb6fd74b0af78089bd45f-s800-c15.jpg"></a>
-
-March 21, 2017 - On Friday, a division of a global marketing group with a digital budget of more than $200 million put its dealings with Google on "pause," citing recent controversies.
-
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content">http://www.npr.org/sections/thetwo-way/2017/03/21/520976552/google-promises-to-keep-ads-off-of-hateful-offensive-youtube-content</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/21/ap_16138753477815_wide-a631b213489be49faa9fb6fd74b0af78089bd45f-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home">http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/ride-along_iphone-hand_wide-af6a4b9e15a505fe8d797f5e8e7e04e94b5a539f-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

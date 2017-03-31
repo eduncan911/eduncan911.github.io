@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Mar 2017 18:10:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Mar 2017 14:58:42 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Sun, 26 Mar 2017 18:10:47 +0000</pubDate>
+    <pubDate>Fri, 31 Mar 2017 14:58:42 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -24,234 +24,236 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_compounding_pharmacies.mp3?orgId=395&amp;topicId=1128&amp;d=234&amp;p=10&amp;story=521550383&amp;t=progseg&amp;e=521550162&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Understanding The Role Of Compounding Pharmacies After Dozens Of Deaths</title>
-      <link>http://www.npr.org/2017/03/26/521550383/understanding-the-role-of-compounding-pharmacies-after-dozens-of-deaths</link>
-      <description>March 26, 2017 - The co-owner of a compounding pharmacy has been convicted of fraud and racketeering, five years after contamination at his pharmacy killed at least 64 people and sickened hundreds of others.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_compounding_pharmacies.mp3?orgId=395&amp;topicId=1128&amp;d=234&amp;p=10&amp;story=521550383&amp;t=progseg&amp;e=521550162&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/31/522082858/home-health-aides-fear-theyll-lose-hard-won-insurance-coverage</guid>
+      <title>Home Health Aides Fear They&#39;ll Lose Hard-Won Insurance Coverage</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/31/522082858/home-health-aides-fear-theyll-lose-hard-won-insurance-coverage</link>
+      <description>March 31, 2017 - Many health care aides were able to get insurance through the Affordable Care Act. But with the law&#39;s future uncertain, they don&#39;t know how their jobs or their doctor bills will be affected.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 26, 2017 - The co-owner of a compounding pharmacy has been convicted of fraud and racketeering, five years after contamination at his pharmacy killed at least 64 people and sickened hundreds of others.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/30/celeste-1_wide-782e6b502a9c5bd0303f465ef707d8d34b996f50-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/26/521550383/understanding-the-role-of-compounding-pharmacies-after-dozens-of-deaths">http://www.npr.org/2017/03/26/521550383/understanding-the-role-of-compounding-pharmacies-after-dozens-of-deaths</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>234</itunes:duration>
+March 31, 2017 - Many health care aides were able to get insurance through the Affordable Care Act. But with the law's future uncertain, they don't know how their jobs or their doctor bills will be affected.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/31/522082858/home-health-aides-fear-theyll-lose-hard-won-insurance-coverage">http://www.npr.org/sections/health-shots/2017/03/31/522082858/home-health-aides-fear-theyll-lose-hard-won-insurance-coverage</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/30/celeste-1_wide-782e6b502a9c5bd0303f465ef707d8d34b996f50-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_trendy_hospital_clothing_to_make_cancer_patients_dress_well_even_when_unwell.mp3?orgId=1&amp;topicId=1022&amp;d=236&amp;p=10&amp;story=521271203&amp;t=progseg&amp;e=521550162&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Trendy Hospital Clothing To Make Cancer Patients Dress &#39;Well&#39; Even When Unwell</title>
-      <link>http://www.npr.org/2017/03/26/521271203/trendy-hospital-clothing-to-make-cancer-patients-dress-well-even-when-unwell</link>
-      <description>March 26, 2017 - A trio of European women has launched INGA Wellbeing fashion line to help alleviate the dehumanizing experience many patients endure when wearing the traditional, uncomfortable hospital gowns.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2017/03/20170326_wesun_trendy_hospital_clothing_to_make_cancer_patients_dress_well_even_when_unwell.mp3?orgId=1&amp;topicId=1022&amp;d=236&amp;p=10&amp;story=521271203&amp;t=progseg&amp;e=521550162&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_why_the_newly_proposed_sepsis_treatment_needs_more_study.mp3?orgId=1&amp;topicId=1128&amp;d=255&amp;p=2&amp;story=521918863&amp;t=progseg&amp;e=522020571&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Why The Newly Proposed Sepsis Treatment Needs More Study</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/30/521918863/why-the-newly-proposed-sepsis-treatment-needs-more-study</link>
+      <description>March 30, 2017 - The bodywide inflammation known as sepsis kills about 300,000 people in U.S. hospitals each year. Promising treatments have come and gone, warn skeptical doctors, who call for rigorous research.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_why_the_newly_proposed_sepsis_treatment_needs_more_study.mp3?orgId=1&amp;topicId=1128&amp;d=255&amp;p=2&amp;story=521918863&amp;t=progseg&amp;e=522020571&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/24/igna-co-founders1_wide-deffe0e993895698156ece5aed3d271e815d661e-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/istock-501818326_wide-8a216df556bf9e0848d880d3ddcbec2990adeb5a-s800-c15.jpg"></a>
 
-March 26, 2017 - A trio of European women has launched INGA Wellbeing fashion line to help alleviate the dehumanizing experience many patients endure when wearing the traditional, uncomfortable hospital gowns.
+March 30, 2017 - The bodywide inflammation known as sepsis kills about 300,000 people in U.S. hospitals each year. Promising treatments have come and gone, warn skeptical doctors, who call for rigorous research.
 
-<a href="http://www.npr.org/2017/03/26/521271203/trendy-hospital-clothing-to-make-cancer-patients-dress-well-even-when-unwell">http://www.npr.org/2017/03/26/521271203/trendy-hospital-clothing-to-make-cancer-patients-dress-well-even-when-unwell</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/igna-co-founders1_wide-deffe0e993895698156ece5aed3d271e815d661e-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/30/521918863/why-the-newly-proposed-sepsis-treatment-needs-more-study">http://www.npr.org/sections/health-shots/2017/03/30/521918863/why-the-newly-proposed-sepsis-treatment-needs-more-study</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/istock-501818326_wide-8a216df556bf9e0848d880d3ddcbec2990adeb5a-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>255</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_in_california_health_care_marketplace_appears_to_be_thriving.mp3?orgId=1&amp;topicId=1128&amp;d=236&amp;p=2&amp;story=522091627&amp;t=progseg&amp;e=522020571&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
+      <title>In California, Health Care Marketplace Appears To Be Thriving</title>
+      <link>http://www.npr.org/2017/03/30/522091627/in-california-health-care-marketplace-appears-to-be-thriving</link>
+      <description>March 30, 2017 - NPR&#39;s Ari Shapiro talks with Peter Lee, executive director of Covered California, about how state health care exchanges will work now that the AHCA has failed in Congress.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_in_california_health_care_marketplace_appears_to_be_thriving.mp3?orgId=1&amp;topicId=1128&amp;d=236&amp;p=2&amp;story=522091627&amp;t=progseg&amp;e=522020571&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 30, 2017 - NPR's Ari Shapiro talks with Peter Lee, executive director of Covered California, about how state health care exchanges will work now that the AHCA has failed in Congress.
+
+<a href="http://www.npr.org/2017/03/30/522091627/in-california-health-care-marketplace-appears-to-be-thriving">http://www.npr.org/2017/03/30/522091627/in-california-health-care-marketplace-appears-to-be-thriving</a>]]></itunes:summary>
+      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>236</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</guid>
-      <title>Telehealth Doctor Visits May Be Handy, But Aren&#39;t Cheaper Overall</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</link>
-      <description>March 26, 2017 - Many patients like the convenience of being able to quickly consult a doctor by text or phone or webcam instead of heading to an urgent care clinic. But the cost of consultations can add up.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life</guid>
+      <title>In Sweden, Hundreds Of Refugee Children Gave Up On Life</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life</link>
+      <description>March 30, 2017 - An article in this week&#39;s New Yorker writes about youngsters who fell into a coma-like state in reaction to the news that their family may be deported. We interview the author.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/13/virtual-doc_wide-c1ff8791202514fd3637351ce80cb03042e2de85-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/170403_r29648-1200x780-1490288448_wide-b83180342e4cd413e6f083377c362fd2170a5133-s800-c15.jpg"></a>
 
-March 26, 2017 - Many patients like the convenience of being able to quickly consult a doctor by text or phone or webcam instead of heading to an urgent care clinic. But the cost of consultations can add up.
+March 30, 2017 - An article in this week's New Yorker writes about youngsters who fell into a coma-like state in reaction to the news that their family may be deported. We interview the author.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall">http://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/13/virtual-doc_wide-c1ff8791202514fd3637351ce80cb03042e2de85-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life">http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/170403_r29648-1200x780-1490288448_wide-b83180342e4cd413e6f083377c362fd2170a5133-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/26/521362938/quiz-how-much-do-you-know-about-global-pandemics-and-killer-viruses</guid>
-      <title>QUIZ: How Much Do You Know About Global Pandemics And Killer Viruses?</title>
-      <link>http://www.npr.org/sections/goatsandsoda/2017/03/26/521362938/quiz-how-much-do-you-know-about-global-pandemics-and-killer-viruses</link>
-      <description>March 26, 2017 - We live in a hyperinfectious era. Test your knowledge of the diseases all around us.&#xA;&#xA; - http://www.npr.org/sections/goatsandsoda/2017/03/26/521362938/quiz-how-much-do-you-know-about-global-pandemics-and-killer-viruses</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/30/521925733/why-didnt-zika-cause-a-surge-in-microcephaly-in-2016</guid>
+      <title>Why Didn&#39;t Zika Cause A Surge In Microcephaly In 2016?</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/30/521925733/why-didnt-zika-cause-a-surge-in-microcephaly-in-2016</link>
+      <description>March 30, 2017 - Scientists predicted that more than 1,000 babies would be born with the birth defect in Brazil last year. That never happened. Why?</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/24/germs_social_media_wide-2f32e5e2a0c958d51e46c07099c145db1bc41cde-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/gettyimages-630543188_wide-93a64df8d4dec5e3e8bb424b634c4e3afaa73c15-s800-c15.jpg"></a>
 
-March 26, 2017 - We live in a hyperinfectious era. Test your knowledge of the diseases all around us.
+March 30, 2017 - Scientists predicted that more than 1,000 babies would be born with the birth defect in Brazil last year. That never happened. Why?
 
-<a href="http://www.npr.org/sections/goatsandsoda/2017/03/26/521362938/quiz-how-much-do-you-know-about-global-pandemics-and-killer-viruses">http://www.npr.org/sections/goatsandsoda/2017/03/26/521362938/quiz-how-much-do-you-know-about-global-pandemics-and-killer-viruses</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/germs_social_media_wide-2f32e5e2a0c958d51e46c07099c145db1bc41cde-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/30/521925733/why-didnt-zika-cause-a-surge-in-microcephaly-in-2016">http://www.npr.org/sections/goatsandsoda/2017/03/30/521925733/why-didnt-zika-cause-a-surge-in-microcephaly-in-2016</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/gettyimages-630543188_wide-93a64df8d4dec5e3e8bb424b634c4e3afaa73c15-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/26/521399385/states-give-new-parents-baby-boxes-to-encourge-safe-sleep-habits</guid>
-      <title>States Give New Parents Baby Boxes To Encourge Safe Sleep Habits</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/26/521399385/states-give-new-parents-baby-boxes-to-encourge-safe-sleep-habits</link>
-      <description>March 26, 2017 - The baby boxes that Finland gives to all new mothers are legendary. Now states in the U.S. are experimenting with them as a way to encourage safe sleep practices and reduce SIDS.</description>
-      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/30/522033368/a-tiny-spot-in-mouse-brains-may-explain-how-breathing-calms-the-mind</guid>
+      <title>A Tiny Spot In Mouse Brains May Explain How Breathing Calms The Mind</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/30/522033368/a-tiny-spot-in-mouse-brains-may-explain-how-breathing-calms-the-mind</link>
+      <description>March 30, 2017 - A cluster of neurons connects breathing and emotion centers in mouse brains, researchers say. If this turns out to be true in humans, it could explain how controlled breathing calms the mind.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/24/20170307_mcgarvey_npr_006_wide-1603c976b07b0c086d4bb0b5b53ebd827b908152-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/30/breathing-1_wide-79f01804bd32843176eafdf321f20b4d52e56993-s800-c15.jpg"></a>
 
-March 26, 2017 - The baby boxes that Finland gives to all new mothers are legendary. Now states in the U.S. are experimenting with them as a way to encourage safe sleep practices and reduce SIDS.
+March 30, 2017 - A cluster of neurons connects breathing and emotion centers in mouse brains, researchers say. If this turns out to be true in humans, it could explain how controlled breathing calms the mind.
 
-<a href="http://www.npr.org/sections/health-shots/2017/03/26/521399385/states-give-new-parents-baby-boxes-to-encourge-safe-sleep-habits">http://www.npr.org/sections/health-shots/2017/03/26/521399385/states-give-new-parents-baby-boxes-to-encourge-safe-sleep-habits</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/20170307_mcgarvey_npr_006_wide-1603c976b07b0c086d4bb0b5b53ebd827b908152-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/30/522033368/a-tiny-spot-in-mouse-brains-may-explain-how-breathing-calms-the-mind">http://www.npr.org/sections/health-shots/2017/03/30/522033368/a-tiny-spot-in-mouse-brains-may-explain-how-breathing-calms-the-mind</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/30/breathing-1_wide-79f01804bd32843176eafdf321f20b4d52e56993-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_failed_house_vote_is_a_great_opportunity_for_republicans_former_house_leader_says.mp3?orgId=1&amp;topicId=1014&amp;d=353&amp;p=2&amp;story=521512812&amp;t=progseg&amp;e=521487718&amp;seg=2&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Failed House Vote Is &#39;A Great Opportunity&#39; For Republicans, Former House Leader Says</title>
-      <link>http://www.npr.org/2017/03/25/521512812/failed-house-vote-is-a-great-opportunity-for-republicans-former-house-leader-say</link>
-      <description>March 25, 2017 - &#34;Now we can back up and do the things that should have been done,&#34; Republican Tom DeLay says. The former House Majority Leader discusses what the withdrawal of the AHCA means for his party&#39;s future.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_failed_house_vote_is_a_great_opportunity_for_republicans_former_house_leader_says.mp3?orgId=1&amp;topicId=1014&amp;d=353&amp;p=2&amp;story=521512812&amp;t=progseg&amp;e=521487718&amp;seg=2&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/30/521927344/lonely-people-report-more-severe-cold-symptoms-study-finds</guid>
+      <title>Lonely People Report More Severe Cold Symptoms, Study Finds</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/30/521927344/lonely-people-report-more-severe-cold-symptoms-study-finds</link>
+      <description>March 30, 2017 - The study builds on previous evidence linking loneliness to more serious health problems, but the findings do not link the sheer size of a person&#39;s social network to cold symptom severity.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/25/ap_121772035529_wide-1a9d7cf73535ce0227f2d7b88a214dbaff3aef2c-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/30/cold-lonely_wide-a72f9479e94e19048ce3778515d3736e686f43d6-s800-c15.jpg"></a>
 
-March 25, 2017 - "Now we can back up and do the things that should have been done," Republican Tom DeLay says. The former House Majority Leader discusses what the withdrawal of the AHCA means for his party's future.
+March 30, 2017 - The study builds on previous evidence linking loneliness to more serious health problems, but the findings do not link the sheer size of a person's social network to cold symptom severity.
 
-<a href="http://www.npr.org/2017/03/25/521512812/failed-house-vote-is-a-great-opportunity-for-republicans-former-house-leader-say">http://www.npr.org/2017/03/25/521512812/failed-house-vote-is-a-great-opportunity-for-republicans-former-house-leader-say</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/25/ap_121772035529_wide-1a9d7cf73535ce0227f2d7b88a214dbaff3aef2c-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>353</itunes:duration>
+<a href="http://www.npr.org/sections/health-shots/2017/03/30/521927344/lonely-people-report-more-severe-cold-symptoms-study-finds">http://www.npr.org/sections/health-shots/2017/03/30/521927344/lonely-people-report-more-severe-cold-symptoms-study-finds</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/30/cold-lonely_wide-a72f9479e94e19048ce3778515d3736e686f43d6-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_dnc_chair_on_acha_withdrawal_it_was_a_good_day_for_the_good_guys.mp3?orgId=1&amp;topicId=1014&amp;d=280&amp;p=2&amp;story=521517131&amp;t=progseg&amp;e=521487718&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>DNC Chair On ACHA Withdrawal: &#39;It Was A Good Day For The Good Guys&#39;</title>
-      <link>http://www.npr.org/2017/03/25/521517131/dnc-chair-on-acha-withdrawal-it-was-a-good-day-for-the-good-guys</link>
-      <description>March 25, 2017 - DNC Chair Tom Perez reacts to Trump&#39;s statement that Democrats are responsible for the ACA repeal failure, which Perez calls a good moment for 24 million who were going to lose their health insurance.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_dnc_chair_on_acha_withdrawal_it_was_a_good_day_for_the_good_guys.mp3?orgId=1&amp;topicId=1014&amp;d=280&amp;p=2&amp;story=521517131&amp;t=progseg&amp;e=521487718&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170330_me_epa_says_it_will_allow_continued_sale_of_controversial_pesticide.mp3?orgId=1&amp;topicId=1007&amp;d=90&amp;p=3&amp;story=522015717&amp;t=progseg&amp;e=522013891&amp;seg=18&amp;siteplayer=true&amp;dl=1</guid>
+      <title>EPA Says It Will Allow Continued Sale Of Controversial Pesticide</title>
+      <link>http://www.npr.org/2017/03/30/522015717/epa-says-it-will-allow-continued-sale-of-controversial-pesticide</link>
+      <description>March 30, 2017 - The EPA is not going ahead with a proposed ban on a pesticide called chlorpyrifos, saying there&#39;s still scientific uncertainty over its safety. Environmental groups say it can harm young children.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170330_me_epa_says_it_will_allow_continued_sale_of_controversial_pesticide.mp3?orgId=1&amp;topicId=1007&amp;d=90&amp;p=3&amp;story=522015717&amp;t=progseg&amp;e=522013891&amp;seg=18&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 25, 2017 - DNC Chair Tom Perez reacts to Trump's statement that Democrats are responsible for the ACA repeal failure, which Perez calls a good moment for 24 million who were going to lose their health insurance.
+      <itunes:summary><![CDATA[March 30, 2017 - The EPA is not going ahead with a proposed ban on a pesticide called chlorpyrifos, saying there's still scientific uncertainty over its safety. Environmental groups say it can harm young children.
 
-<a href="http://www.npr.org/2017/03/25/521517131/dnc-chair-on-acha-withdrawal-it-was-a-good-day-for-the-good-guys">http://www.npr.org/2017/03/25/521517131/dnc-chair-on-acha-withdrawal-it-was-a-good-day-for-the-good-guys</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/30/522015717/epa-says-it-will-allow-continued-sale-of-controversial-pesticide">http://www.npr.org/2017/03/30/522015717/epa-says-it-will-allow-continued-sale-of-controversial-pesticide</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>280</itunes:duration>
+      <itunes:duration>90</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_the_future_of_the_aca.mp3?orgId=1&amp;topicId=1003&amp;d=314&amp;p=2&amp;story=521517124&amp;t=progseg&amp;e=521487718&amp;seg=1&amp;siteplayer=true&amp;dl=1</guid>
-      <title>What Does Failed Repeal Of Affordable Care Act Mean For Current Health Care Law?</title>
-      <link>http://www.npr.org/2017/03/25/521517124/what-does-failed-repeal-of-affordable-care-act-mean-for-current-health-care-law</link>
-      <description>March 25, 2017 - House Republicans have backed away from the American Health Care Act. Mary Agnes Carey, senior correspondent at Kaiser Health News, breaks down what this means for the current health care law</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_the_future_of_the_aca.mp3?orgId=1&amp;topicId=1003&amp;d=314&amp;p=2&amp;story=521517124&amp;t=progseg&amp;e=521487718&amp;seg=1&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170330_me_fewer_zika-linked_birth_defects_than_expected.mp3?orgId=1&amp;topicId=1031&amp;d=107&amp;p=3&amp;story=522015647&amp;t=progseg&amp;e=522013891&amp;seg=4&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Fewer Zika-Linked Birth Defects Than Expected</title>
+      <link>http://www.npr.org/2017/03/30/522015647/fewer-zika-linked-birth-defects-than-expected</link>
+      <description>March 30, 2017 - Scientists expected a surge of severe birth defects in Brazil because of the Zika outbreak. But that didn&#39;t happen last year. Researchers are re-examining the link between Zika and birth defects.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170330_me_fewer_zika-linked_birth_defects_than_expected.mp3?orgId=1&amp;topicId=1031&amp;d=107&amp;p=3&amp;story=522015647&amp;t=progseg&amp;e=522013891&amp;seg=4&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 25, 2017 - House Republicans have backed away from the American Health Care Act. Mary Agnes Carey, senior correspondent at Kaiser Health News, breaks down what this means for the current health care law
+      <itunes:summary><![CDATA[March 30, 2017 - Scientists expected a surge of severe birth defects in Brazil because of the Zika outbreak. But that didn't happen last year. Researchers are re-examining the link between Zika and birth defects.
 
-<a href="http://www.npr.org/2017/03/25/521517124/what-does-failed-repeal-of-affordable-care-act-mean-for-current-health-care-law">http://www.npr.org/2017/03/25/521517124/what-does-failed-repeal-of-affordable-care-act-mean-for-current-health-care-law</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/30/522015647/fewer-zika-linked-birth-defects-than-expected">http://www.npr.org/2017/03/30/522015647/fewer-zika-linked-birth-defects-than-expected</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>314</itunes:duration>
+      <itunes:duration>107</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_lawyers_brain_tumor_defense_for_jewish_center_bomb_threat_suspect_recalls_1991_murder_trial.mp3?orgId=1&amp;topicId=1003&amp;d=480&amp;p=2&amp;story=521517166&amp;t=progseg&amp;e=521487718&amp;seg=8&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Brain Tumor Defense For Jewish Center Bomb Threat Suspect Recalls 1991 Murder Trial</title>
-      <link>http://www.npr.org/2017/03/25/521517166/lawyers-brain-tumor-defense-for-jewish-center-bomb-threat-suspect-recalls-1991-m</link>
-      <description>March 25, 2017 - Ken Davis&#39;s book, &#34;The Brain Defense,&#34; looks at the murder trial of Herbert Weinstein, in which lawyers argued that Weinstein was not guilty of killing his wife, because he had a brain tumor.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170325_atc_lawyers_brain_tumor_defense_for_jewish_center_bomb_threat_suspect_recalls_1991_murder_trial.mp3?orgId=1&amp;topicId=1003&amp;d=480&amp;p=2&amp;story=521517166&amp;t=progseg&amp;e=521487718&amp;seg=8&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170330_me_the_va_is_on_a_path_toward_recovery_secretary_of_veterans_affairs_says.mp3?orgId=1&amp;topicId=1027&amp;d=313&amp;p=3&amp;story=521937557&amp;t=progseg&amp;e=522013891&amp;seg=7&amp;siteplayer=true&amp;dl=1</guid>
+      <title>&#39;The VA Is On A Path Toward Recovery,&#39; Secretary Of Veterans Affairs Says</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/30/521937557/the-va-is-on-a-path-toward-recovery-secretary-of-veterans-affairs-says</link>
+      <description>March 30, 2017 - Secretary of Veterans Affairs David Shulkin says preventing suicide among military veterans is his &#34;number one clinical priority,&#34; and that he is working to fill some 45,000 open jobs in the agency.</description>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170330_me_the_va_is_on_a_path_toward_recovery_secretary_of_veterans_affairs_says.mp3?orgId=1&amp;topicId=1027&amp;d=313&amp;p=3&amp;story=521937557&amp;t=progseg&amp;e=522013891&amp;seg=7&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 25, 2017 - Ken Davis's book, "The Brain Defense," looks at the murder trial of Herbert Weinstein, in which lawyers argued that Weinstein was not guilty of killing his wife, because he had a brain tumor.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/2017-03-29-shulkin-001_wide-0550dcf65cab32ffde964c7310dc0b84b943f425-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/25/521517166/lawyers-brain-tumor-defense-for-jewish-center-bomb-threat-suspect-recalls-1991-m">http://www.npr.org/2017/03/25/521517166/lawyers-brain-tumor-defense-for-jewish-center-bomb-threat-suspect-recalls-1991-m</a>]]></itunes:summary>
+March 30, 2017 - Secretary of Veterans Affairs David Shulkin says preventing suicide among military veterans is his "number one clinical priority," and that he is working to fill some 45,000 open jobs in the agency.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/30/521937557/the-va-is-on-a-path-toward-recovery-secretary-of-veterans-affairs-says">http://www.npr.org/sections/health-shots/2017/03/30/521937557/the-va-is-on-a-path-toward-recovery-secretary-of-veterans-affairs-says</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/2017-03-29-shulkin-001_wide-0550dcf65cab32ffde964c7310dc0b84b943f425-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>313</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_dem_senator_on_opioid_plan.mp3?orgId=1&amp;topicId=1014&amp;d=286&amp;p=2&amp;story=521954068&amp;t=progseg&amp;e=521885502&amp;seg=17&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Democratic Senator Urges Trump To &#39;Do More Than Talk&#39; On Opioid Crisis</title>
+      <link>http://www.npr.org/2017/03/29/521954068/democratic-senator-urges-trump-to-do-more-than-talk-on-opioid-crisis</link>
+      <description>March 29, 2017 - Sen. Maggie Hassan of New Hampshire addressed the opioid problem in her state for several years as governor. NPR&#39;s Kelly McEvers talks with Hassan about President Trump&#39;s opioid plans.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_dem_senator_on_opioid_plan.mp3?orgId=1&amp;topicId=1014&amp;d=286&amp;p=2&amp;story=521954068&amp;t=progseg&amp;e=521885502&amp;seg=17&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[March 29, 2017 - Sen. Maggie Hassan of New Hampshire addressed the opioid problem in her state for several years as governor. NPR's Kelly McEvers talks with Hassan about President Trump's opioid plans.
+
+<a href="http://www.npr.org/2017/03/29/521954068/democratic-senator-urges-trump-to-do-more-than-talk-on-opioid-crisis">http://www.npr.org/2017/03/29/521954068/democratic-senator-urges-trump-to-do-more-than-talk-on-opioid-crisis</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>480</itunes:duration>
+      <itunes:duration>286</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/thetwo-way/2017/03/25/521511682/vp-pence-on-obamacare-repeal-failure-congress-just-wasnt-ready</guid>
-      <title>VP Pence On Obamacare Repeal Failure: &#39;Congress Just Wasn&#39;t Ready&#39;</title>
-      <link>http://www.npr.org/sections/thetwo-way/2017/03/25/521511682/vp-pence-on-obamacare-repeal-failure-congress-just-wasnt-ready</link>
-      <description>March 25, 2017 - The Vice President was in West Virginia a day after the GOP&#39;s Affordable Care Act repeal efforts were scrapped. He joked that maybe some WWE superstars were needed on Capitol Hill.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_missouri_rejects_federal_money_in_order_to_set_up_its_own_abortion_restrictions.mp3?orgId=278&amp;topicId=1128&amp;d=251&amp;p=2&amp;story=521248820&amp;t=progseg&amp;e=521885502&amp;seg=5&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Missouri Rejects Federal Money In Order To Set Up Its Own Abortion Restrictions</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/29/521248820/missouri-rejects-federal-money-in-order-to-set-up-its-own-abortion-restrictions</link>
+      <description>March 29, 2017 - Abortion is already heavily restricted in Missouri, but now the state is cutting more funding to organizations that provide abortions, even though it means rejecting millions of dollars from the feds.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_missouri_rejects_federal_money_in_order_to_set_up_its_own_abortion_restrictions.mp3?orgId=278&amp;topicId=1128&amp;d=251&amp;p=2&amp;story=521248820&amp;t=progseg&amp;e=521885502&amp;seg=5&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/25/pence-22_wide-542671fc1a648f208b555e894f1513f8ee207fdf-s800-c15.jpg"></a>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/27/missouri-1_wide-36dc11298c82411061a5b8dd29d4593afb3f2c1d-s800-c15.jpg"></a>
 
-March 25, 2017 - The Vice President was in West Virginia a day after the GOP's Affordable Care Act repeal efforts were scrapped. He joked that maybe some WWE superstars were needed on Capitol Hill.
+March 29, 2017 - Abortion is already heavily restricted in Missouri, but now the state is cutting more funding to organizations that provide abortions, even though it means rejecting millions of dollars from the feds.
 
-<a href="http://www.npr.org/sections/thetwo-way/2017/03/25/521511682/vp-pence-on-obamacare-repeal-failure-congress-just-wasnt-ready">http://www.npr.org/sections/thetwo-way/2017/03/25/521511682/vp-pence-on-obamacare-repeal-failure-congress-just-wasnt-ready</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/25/pence-22_wide-542671fc1a648f208b555e894f1513f8ee207fdf-s3000-c15.jpg"></itunes:image>
+<a href="http://www.npr.org/sections/health-shots/2017/03/29/521248820/missouri-rejects-federal-money-in-order-to-set-up-its-own-abortion-restrictions">http://www.npr.org/sections/health-shots/2017/03/29/521248820/missouri-rejects-federal-money-in-order-to-set-up-its-own-abortion-restrictions</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/27/missouri-1_wide-36dc11298c82411061a5b8dd29d4593afb3f2c1d-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>251</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/25/520813613/los-angeles-health-clinic-a-microcosm-of-the-nations-anxieties</guid>
-      <title>Los Angeles Health Clinic &#39;A Microcosm&#39; Of The Nation&#39;s Anxieties</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/25/520813613/los-angeles-health-clinic-a-microcosm-of-the-nations-anxieties</link>
-      <description>March 25, 2017 - A South LA clinic started by Muslim doctors and students has served mostly low-income Latino and African-American patients for 20 years. Staff and patients now say they worry about their future.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_trump_holds_listening_session_on_opioid_addiction.mp3?orgId=1&amp;topicId=1014&amp;d=201&amp;p=2&amp;story=521954061&amp;t=progseg&amp;e=521885502&amp;seg=16&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Trump Holds &#39;Listening Session&#39; On Opioid Addiction</title>
+      <link>http://www.npr.org/2017/03/29/521954061/trump-holds-listening-session-on-opioid-addiction</link>
+      <description>March 29, 2017 - President Trump held a &#34;listening session&#34; on opioid addiction Wednesday, the beginning of what the White House says will be its effort to address a problem that resonated on the campaign trail.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_trump_holds_listening_session_on_opioid_addiction.mp3?orgId=1&amp;topicId=1014&amp;d=201&amp;p=2&amp;story=521954061&amp;t=progseg&amp;e=521885502&amp;seg=16&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/24/lourdes-flores-valdez---umma---1_wide-3f0f8e7bb5c974756367fe3c3e7f2e7b2d267336-s800-c15.jpeg"></a>
+      <itunes:summary><![CDATA[March 29, 2017 - President Trump held a "listening session" on opioid addiction Wednesday, the beginning of what the White House says will be its effort to address a problem that resonated on the campaign trail.
 
-March 25, 2017 - A South LA clinic started by Muslim doctors and students has served mostly low-income Latino and African-American patients for 20 years. Staff and patients now say they worry about their future.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/25/520813613/los-angeles-health-clinic-a-microcosm-of-the-nations-anxieties">http://www.npr.org/sections/health-shots/2017/03/25/520813613/los-angeles-health-clinic-a-microcosm-of-the-nations-anxieties</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/lourdes-flores-valdez---umma---1_wide-3f0f8e7bb5c974756367fe3c3e7f2e7b2d267336-s3000-c15.jpeg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170325_wesat_the_pregame_pbj_how_the_comfort_food_became_the_nbas_recipe_for_success.mp3?orgId=1&amp;topicId=1055&amp;d=264&amp;p=7&amp;story=521256918&amp;t=progseg&amp;e=521474371&amp;seg=6&amp;siteplayer=true&amp;dl=1</guid>
-      <title>The Pregame PB&amp;J: How The Comfort Food Became The NBA&#39;s Recipe For Success</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/25/521256918/the-pregame-pb-j-how-the-comfort-food-became-the-nbas-recipe-for-success</link>
-      <description>March 25, 2017 - &#34;If there&#39;s a locker room that doesn&#39;t have it, I haven&#39;t seen it,&#34; says ESPN reporter Baxter Holmes, who expands on his recent story, which details professional basketball&#39;s obsession with the snack.</description>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/wesat/2017/03/20170325_wesat_the_pregame_pbj_how_the_comfort_food_became_the_nbas_recipe_for_success.mp3?orgId=1&amp;topicId=1055&amp;d=264&amp;p=7&amp;story=521256918&amp;t=progseg&amp;e=521474371&amp;seg=6&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/23/gettyimages-110960130-3--2_wide-55d20e38f455477160877c3124af0f2ab22d9535-s800-c15.jpg"></a>
-
-March 25, 2017 - "If there's a locker room that doesn't have it, I haven't seen it," says ESPN reporter Baxter Holmes, who expands on his recent story, which details professional basketball's obsession with the snack.
-
-<a href="http://www.npr.org/sections/thesalt/2017/03/25/521256918/the-pregame-pb-j-how-the-comfort-food-became-the-nbas-recipe-for-success">http://www.npr.org/sections/thesalt/2017/03/25/521256918/the-pregame-pb-j-how-the-comfort-food-became-the-nbas-recipe-for-success</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/23/gettyimages-110960130-3--2_wide-55d20e38f455477160877c3124af0f2ab22d9535-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>264</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170324_atc_new_horsley_davis_health.mp3?orgId=1&amp;topicId=1014&amp;d=311&amp;p=2&amp;story=521435940&amp;t=progseg&amp;e=521341919&amp;seg=20&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Health Care Bill Collapses After Republicans Fail To Garner Enough Support</title>
-      <link>http://www.npr.org/2017/03/24/521435940/health-care-bill-collapses-after-republicans-fail-to-garner-enough-support</link>
-      <description>March 24, 2017 - Republicans pulled their health care bill on Friday after failing to secure enough votes for it to pass in the House. In a statement, President Trump said he wanted to move onto tax reform.</description>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170324_atc_new_horsley_davis_health.mp3?orgId=1&amp;topicId=1014&amp;d=311&amp;p=2&amp;story=521435940&amp;t=progseg&amp;e=521341919&amp;seg=20&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 24, 2017 - Republicans pulled their health care bill on Friday after failing to secure enough votes for it to pass in the House. In a statement, President Trump said he wanted to move onto tax reform.
-
-<a href="http://www.npr.org/2017/03/24/521435940/health-care-bill-collapses-after-republicans-fail-to-garner-enough-support">http://www.npr.org/2017/03/24/521435940/health-care-bill-collapses-after-republicans-fail-to-garner-enough-support</a>]]></itunes:summary>
+<a href="http://www.npr.org/2017/03/29/521954061/trump-holds-listening-session-on-opioid-addiction">http://www.npr.org/2017/03/29/521954061/trump-holds-listening-session-on-opioid-addiction</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>311</itunes:duration>
+      <itunes:duration>201</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170324_atc_new_davis_health_care.mp3?orgId=1&amp;topicId=1014&amp;d=113&amp;p=2&amp;story=521435192&amp;t=progseg&amp;e=521341919&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Trump, Ryan Pull Health Care Bill After Failing To Secure Enough Votes</title>
-      <link>http://www.npr.org/2017/03/24/521435192/trump-ryan-pull-health-care-bill-after-failing-to-secure-enough-votes</link>
-      <description>March 24, 2017 - Republicans pulled their bill to repeal and replace the Affordable Care Act on Friday after failing to secure enough votes for it to pass in the House of Representatives.</description>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170324_atc_new_davis_health_care.mp3?orgId=1&amp;topicId=1014&amp;d=113&amp;p=2&amp;story=521435192&amp;t=progseg&amp;e=521341919&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_will_the_epa_reject_a_pesticide_or_its_own_scientific_evidence.mp3?orgId=1&amp;topicId=1025&amp;d=224&amp;p=2&amp;story=521898976&amp;t=progseg&amp;e=521885502&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
+      <title>EPA Decides Not To Ban A Pesticide, Despite Its Own Evidence Of Risk</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/29/521898976/will-the-epa-reject-a-pesticide-or-its-own-scientific-evidence</link>
+      <description>March 29, 2017 - New EPA administrator Scott Pruitt has decided not to ban chlorpyrifos, a pesticide widely used on produce. That&#39;s despite evidence previously compiled by EPA showing it could pose risks to consumers.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_will_the_epa_reject_a_pesticide_or_its_own_scientific_evidence.mp3?orgId=1&amp;topicId=1025&amp;d=224&amp;p=2&amp;story=521898976&amp;t=progseg&amp;e=521885502&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 24, 2017 - Republicans pulled their bill to repeal and replace the Affordable Care Act on Friday after failing to secure enough votes for it to pass in the House of Representatives.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/scisource_sv7581_wide-abf051165682ba5457c1f4512a4c2acbd3fb261b-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/24/521435192/trump-ryan-pull-health-care-bill-after-failing-to-secure-enough-votes">http://www.npr.org/2017/03/24/521435192/trump-ryan-pull-health-care-bill-after-failing-to-secure-enough-votes</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>113</itunes:duration>
+March 29, 2017 - New EPA administrator Scott Pruitt has decided not to ban chlorpyrifos, a pesticide widely used on produce. That's despite evidence previously compiled by EPA showing it could pose risks to consumers.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/29/521898976/will-the-epa-reject-a-pesticide-or-its-own-scientific-evidence">http://www.npr.org/sections/thesalt/2017/03/29/521898976/will-the-epa-reject-a-pesticide-or-its-own-scientific-evidence</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/scisource_sv7581_wide-abf051165682ba5457c1f4512a4c2acbd3fb261b-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>224</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170324_atc_rep_byrne_on_cancelled_vote.mp3?orgId=1&amp;topicId=1014&amp;d=252&amp;p=2&amp;story=521427810&amp;t=progseg&amp;e=521341919&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Rep. Byrne Outlines How Health Care Fight Exposed Divisions In GOP</title>
-      <link>http://www.npr.org/2017/03/24/521427810/rep-byrne-outlines-how-health-care-fight-exposed-divisions-in-gop</link>
-      <description>March 24, 2017 - NPR&#39;s Kelly McEvers talks to Republican Rep. Bradley Byrne about the decision to pull the Republican health care bill on Friday.&#xA;&#xA; - http://www.npr.org/2017/03/24/521427810/rep-byrne-outlines-how-health-care-fight-exposed-divisions-in-gop</description>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170324_atc_rep_byrne_on_cancelled_vote.mp3?orgId=1&amp;topicId=1014&amp;d=252&amp;p=2&amp;story=521427810&amp;t=progseg&amp;e=521341919&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <guid>http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare</guid>
+      <title>6 Changes The Trump Administration Can Still Make To Obamacare</title>
+      <link>http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare</link>
+      <description>March 29, 2017 - The Republican overhaul bill died, but the health care drama continues. There are lots of ways the administration can change the Affordable Care Act, without congressional approval.</description>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 24, 2017 - NPR's Kelly McEvers talks to Republican Rep. Bradley Byrne about the decision to pull the Republican health care bill on Friday.
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/27/tom-price-ahca_wide-1afbdb49cab7333d1410bac04bf2c4975f33bb88-s800-c15.jpg"></a>
 
-<a href="http://www.npr.org/2017/03/24/521427810/rep-byrne-outlines-how-health-care-fight-exposed-divisions-in-gop">http://www.npr.org/2017/03/24/521427810/rep-byrne-outlines-how-health-care-fight-exposed-divisions-in-gop</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>252</itunes:duration>
+March 29, 2017 - The Republican overhaul bill died, but the health care drama continues. There are lots of ways the administration can change the Affordable Care Act, without congressional approval.
+
+<a href="http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare">http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/27/tom-price-ahca_wide-1afbdb49cab7333d1410bac04bf2c4975f33bb88-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
