@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2017 14:58:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Apr 2017 14:52:47 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 31 Mar 2017 14:58:39 +0000</pubDate>
+    <pubDate>Sat, 01 Apr 2017 14:52:47 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Technology : NPR</title>
@@ -23,6 +23,21 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/31/522229420/twitter-drops-its-egg-the-unintended-avatar-of-harassment</guid>
+      <title>Twitter Drops Its Egg, The Unintended Avatar Of Harassment</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/31/522229420/twitter-drops-its-egg-the-unintended-avatar-of-harassment</link>
+      <description>March 31, 2017 - Twitter announced it was doing away with the egg as its default icon, opting for a generic figure intended to encourage users to replace it with something more &#34;expressive.&#34;</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/31/twitter-avatar_wide-f8f748186cf6884a49aed560839ca29eda415526-s800-c15.png"></a>
+
+March 31, 2017 - Twitter announced it was doing away with the egg as its default icon, opting for a generic figure intended to encourage users to replace it with something more "expressive."
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/31/522229420/twitter-drops-its-egg-the-unintended-avatar-of-harassment">http://www.npr.org/sections/thetwo-way/2017/03/31/522229420/twitter-drops-its-egg-the-unintended-avatar-of-harassment</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/31/twitter-avatar_wide-f8f748186cf6884a49aed560839ca29eda415526-s3000-c15.png"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170331_me_will_using_artificial_intelligence_to_make_loans_trade_one_kind_of_bias_for_another.mp3?orgId=610&amp;topicId=1019&amp;d=224&amp;p=3&amp;story=521946210&amp;t=progseg&amp;e=522151865&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
       <title>Will Using Artificial Intelligence To Make Loans Trade One Kind Of Bias For Another?</title>
@@ -245,21 +260,6 @@ March 27, 2017 - Until recently, migrant workers lured by bonuses drove for Chin
 <a href="http://www.npr.org/sections/alltechconsidered/2017/03/27/521650068/in-china-like-in-the-u-s-the-fight-over-ride-hailing-is-local">http://www.npr.org/sections/alltechconsidered/2017/03/27/521650068/in-china-like-in-the-u-s-the-fight-over-ride-hailing-is-local</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/27/2017-03-27-china-didi-ride-hailing-mkelly-0011_wide-e5a60c73591f20570960858e99a6ef481de2f7cc-s3000-c15.jpg"></itunes:image>
       <itunes:duration>450</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home</guid>
-      <title>New USPS Service Gives You A Peek Into Your Mailbox Before You Get Home</title>
-      <link>http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home</link>
-      <description>March 27, 2017 - Remember when you were excited to see what&#39;s in the mail? These days it seems we&#39;re getting fewer letters and more junk, but the U.S. Postal Service will soon let you preview what&#39;s coming your way.</description>
-      <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/technology/"><img src="https://media.npr.org/assets/img/2017/03/24/ride-along_iphone-hand_wide-af6a4b9e15a505fe8d797f5e8e7e04e94b5a539f-s800-c15.png"></a>
-
-March 27, 2017 - Remember when you were excited to see what's in the mail? These days it seems we're getting fewer letters and more junk, but the U.S. Postal Service will soon let you preview what's coming your way.
-
-<a href="http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home">http://www.npr.org/sections/alltechconsidered/2017/03/27/521255204/new-usps-service-gives-you-a-peek-into-your-mailbox-before-you-get-home</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/24/ride-along_iphone-hand_wide-af6a4b9e15a505fe8d797f5e8e7e04e94b5a539f-s3000-c15.png"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

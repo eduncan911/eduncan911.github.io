@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2017 14:58:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Apr 2017 14:52:49 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 31 Mar 2017 14:58:41 +0000</pubDate>
+    <pubDate>Sat, 01 Apr 2017 14:52:49 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Science : NPR</title>
@@ -23,6 +23,53 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Science &amp; Medicine"></itunes:category>
+    <item>
+      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/han/2017/03/20170331_han_biomimicry.mp3?orgId=1&amp;topicId=1007&amp;d=643&amp;story=522226096&amp;siteplayer=true&amp;dl=1</guid>
+      <title>Artist&#39;s Exhibit Borrows Human Tech To Solve Nature&#39;s Manmade Problems</title>
+      <link>http://www.npr.org/2017/03/31/522226096/artists-exhibit-borrows-human-tech-to-solve-natures-manmade-problems</link>
+      <description>March 31, 2017 - Artist and philosopher Jonathon Keats didn&#39;t need to create anything new to show the absurdity of human problem-solving. All he had to do was give human technology to animals.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/han/2017/03/20170331_han_biomimicry.mp3?orgId=1&amp;topicId=1007&amp;d=643&amp;story=522226096&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/31/flower.vibrator.dismantled.biomimic_wide-d81b22f60bb4c03e193beaf68b35a231009426d0-s800-c15.jpg"></a>
+
+March 31, 2017 - Artist and philosopher Jonathon Keats didn't need to create anything new to show the absurdity of human problem-solving. All he had to do was give human technology to animals.
+
+<a href="http://www.npr.org/2017/03/31/522226096/artists-exhibit-borrows-human-tech-to-solve-natures-manmade-problems">http://www.npr.org/2017/03/31/522226096/artists-exhibit-borrows-human-tech-to-solve-natures-manmade-problems</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/31/flower.vibrator.dismantled.biomimic_wide-d81b22f60bb4c03e193beaf68b35a231009426d0-s3000-c15.jpg"></itunes:image>
+      <itunes:duration>643</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thetwo-way/2017/03/31/521793691/a-tiny-fish-with-fearsome-fangs-uses-an-opioid-like-venom-to-escape-enemies</guid>
+      <title>A Tiny Fish With Fearsome Fangs Uses An Opioid-Like Venom To Escape Enemies</title>
+      <link>http://www.npr.org/sections/thetwo-way/2017/03/31/521793691/a-tiny-fish-with-fearsome-fangs-uses-an-opioid-like-venom-to-escape-enemies</link>
+      <description>March 31, 2017 - New research shows the 2-inch fangblenny bites bigger fish and releases an opioid-based venom. The larger fish becomes disoriented, and the little guy gets away.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/31/fangblenny_wide-97886c39eb6b65921ebb735bca69e918d4099576-s800-c15.jpg"></a>
+
+March 31, 2017 - New research shows the 2-inch fangblenny bites bigger fish and releases an opioid-based venom. The larger fish becomes disoriented, and the little guy gets away.
+
+<a href="http://www.npr.org/sections/thetwo-way/2017/03/31/521793691/a-tiny-fish-with-fearsome-fangs-uses-an-opioid-like-venom-to-escape-enemies">http://www.npr.org/sections/thetwo-way/2017/03/31/521793691/a-tiny-fish-with-fearsome-fangs-uses-an-opioid-like-venom-to-escape-enemies</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/31/fangblenny_wide-97886c39eb6b65921ebb735bca69e918d4099576-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks</guid>
+      <title>Forcing People At Vending Machines To Wait Nudges Them To Buy Healthier Snacks</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks</link>
+      <description>March 31, 2017 - Buy an unhealthy snack and these vending machines take away 25 seconds of your life you&#39;ll never get back. Healthy fare drops instantly. Research suggests this &#34;time tax&#34; helps us make better choices.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/31/ap_05121507613_wide-e9c51ea90b82fd2fa93e59e7a62fd0d19adaf2bc-s800-c15.jpg"></a>
+
+March 31, 2017 - Buy an unhealthy snack and these vending machines take away 25 seconds of your life you'll never get back. Healthy fare drops instantly. Research suggests this "time tax" helps us make better choices.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks">http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/31/ap_05121507613_wide-e9c51ea90b82fd2fa93e59e7a62fd0d19adaf2bc-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170330_atc_why_the_newly_proposed_sepsis_treatment_needs_more_study.mp3?orgId=1&amp;topicId=1128&amp;d=255&amp;p=2&amp;story=521918863&amp;t=progseg&amp;e=522020571&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
       <title>Why The Newly Proposed Sepsis Treatment Needs More Study</title>
@@ -213,53 +260,6 @@ March 29, 2017 - In the U.S., there are about 39,000 cancers associated with the
 
 <a href="http://www.npr.org/sections/health-shots/2017/03/29/521711879/hpv-vaccine-could-protect-more-people-with-fewer-doses-doctors-insist">http://www.npr.org/sections/health-shots/2017/03/29/521711879/hpv-vaccine-could-protect-more-people-with-fewer-doses-doctors-insist</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/28/hpv-vaccine-vials_wide-dadc1fe9e8bf04ae774232d38c2c42f4404a8957-s3000-c15.jpg"></itunes:image>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170329_me_passengers_take_flight_to_view_southern_lights.mp3?orgId=1&amp;topicId=1007&amp;d=82&amp;p=3&amp;story=521884266&amp;t=progseg&amp;e=521882733&amp;seg=3&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Passengers Take Flight To View Southern Lights</title>
-      <link>http://www.npr.org/2017/03/29/521884266/passengers-take-flight-to-view-southern-lights</link>
-      <description>March 29, 2017 - The Aurora Australis is a display of neon green lights that dance across the southern skies. A plane took off from New Zealand to get a special view.</description>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170329_me_passengers_take_flight_to_view_southern_lights.mp3?orgId=1&amp;topicId=1007&amp;d=82&amp;p=3&amp;story=521884266&amp;t=progseg&amp;e=521882733&amp;seg=3&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 29, 2017 - The Aurora Australis is a display of neon green lights that dance across the southern skies. A plane took off from New Zealand to get a special view.
-
-<a href="http://www.npr.org/2017/03/29/521884266/passengers-take-flight-to-view-southern-lights">http://www.npr.org/2017/03/29/521884266/passengers-take-flight-to-view-southern-lights</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>82</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170329_me_measuring_the_impact_of_rolling_back_environmental_regulations.mp3?orgId=1&amp;topicId=1025&amp;d=224&amp;p=3&amp;story=521884350&amp;t=progseg&amp;e=521882733&amp;seg=20&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Measuring The Impact Of Rolling Back Environmental Regulations</title>
-      <link>http://www.npr.org/2017/03/29/521884350/measuring-the-impact-of-rolling-back-environmental-regulations</link>
-      <description>March 29, 2017 - President Trump&#39;s environmental order proposes rolling back regulations. David Greene speaks with John Larsen of the Rhodium Group about the impact those rollbacks could have on emissions levels.</description>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170329_me_measuring_the_impact_of_rolling_back_environmental_regulations.mp3?orgId=1&amp;topicId=1025&amp;d=224&amp;p=3&amp;story=521884350&amp;t=progseg&amp;e=521882733&amp;seg=20&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[March 29, 2017 - President Trump's environmental order proposes rolling back regulations. David Greene speaks with John Larsen of the Rhodium Group about the impact those rollbacks could have on emissions levels.
-
-<a href="http://www.npr.org/2017/03/29/521884350/measuring-the-impact-of-rolling-back-environmental-regulations">http://www.npr.org/2017/03/29/521884350/measuring-the-impact-of-rolling-back-environmental-regulations</a>]]></itunes:summary>
-      <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
-      <itunes:duration>224</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170329_me_scientists_who_want_to_study_climate_engineering_shun_trump.mp3?orgId=1&amp;topicId=1007&amp;d=179&amp;p=3&amp;story=521780927&amp;t=progseg&amp;e=521882733&amp;seg=19&amp;siteplayer=true&amp;dl=1</guid>
-      <title>Scientists Who Want To Study Climate Engineering Shun Trump</title>
-      <link>http://www.npr.org/2017/03/29/521780927/scientists-who-want-to-study-climate-engineering-shun-trump</link>
-      <description>March 29, 2017 - The controversial study of climate engineering — aka deliberately messing with Earth&#39;s temperature — was finally starting to regain a measure of respectability. And then came President Trump.</description>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/me/2017/03/20170329_me_scientists_who_want_to_study_climate_engineering_shun_trump.mp3?orgId=1&amp;topicId=1007&amp;d=179&amp;p=3&amp;story=521780927&amp;t=progseg&amp;e=521882733&amp;seg=19&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/science/"><img src="https://media.npr.org/assets/img/2017/03/28/ocean-clouds-1_wide-99b76cc755fb36e2a01da00a3c2ee30dbfce2b02-s800-c15.jpg"></a>
-
-March 29, 2017 - The controversial study of climate engineering — aka deliberately messing with Earth's temperature — was finally starting to regain a measure of respectability. And then came President Trump.
-
-<a href="http://www.npr.org/2017/03/29/521780927/scientists-who-want-to-study-climate-engineering-shun-trump">http://www.npr.org/2017/03/29/521780927/scientists-who-want-to-study-climate-engineering-shun-trump</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/28/ocean-clouds-1_wide-99b76cc755fb36e2a01da00a3c2ee30dbfce2b02-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>179</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

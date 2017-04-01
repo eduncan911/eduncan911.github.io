@@ -8,9 +8,9 @@
     <copyright>Copyright 2016 NPR - For Personal Use Only</copyright>
     <generator>go podcast v1.3.1 (github.com/eduncan911/podcast)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2017 14:58:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Apr 2017 14:52:50 +0000</lastBuildDate>
     <managingEditor>podcasts@npr.org (NPR Podcasts)</managingEditor>
-    <pubDate>Fri, 31 Mar 2017 14:58:42 +0000</pubDate>
+    <pubDate>Sat, 01 Apr 2017 14:52:50 +0000</pubDate>
     <image>
       <url>https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg</url>
       <title>Health : NPR</title>
@@ -23,6 +23,36 @@
     <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Health"></itunes:category>
+    <item>
+      <guid>http://www.npr.org/sections/goatsandsoda/2017/03/31/521965573/shot-by-her-boyfriend-and-now-in-a-wheelchair-she-found-a-new-me</guid>
+      <title>Shot By Her Boyfriend And Now Using A Wheelchair, She Found A &#39;New Me&#39;</title>
+      <link>http://www.npr.org/sections/goatsandsoda/2017/03/31/521965573/shot-by-her-boyfriend-and-now-in-a-wheelchair-she-found-a-new-me</link>
+      <description>March 31, 2017 - The State Department has honored Botswana&#39;s Malebogo Malefhe as a &#34;woman of courage&#34; for inspiring others to stand up to domestic abuse.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/170329_malebogomalefhe_rae_138_wide-a9ddf1e342fcba3bab69a0ee8018e2775e48364e-s800-c15.jpg"></a>
+
+March 31, 2017 - The State Department has honored Botswana's Malebogo Malefhe as a "woman of courage" for inspiring others to stand up to domestic abuse.
+
+<a href="http://www.npr.org/sections/goatsandsoda/2017/03/31/521965573/shot-by-her-boyfriend-and-now-in-a-wheelchair-she-found-a-new-me">http://www.npr.org/sections/goatsandsoda/2017/03/31/521965573/shot-by-her-boyfriend-and-now-in-a-wheelchair-she-found-a-new-me</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/170329_malebogomalefhe_rae_138_wide-a9ddf1e342fcba3bab69a0ee8018e2775e48364e-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <guid>http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks</guid>
+      <title>Forcing People At Vending Machines To Wait Nudges Them To Buy Healthier Snacks</title>
+      <link>http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks</link>
+      <description>March 31, 2017 - Buy an unhealthy snack and these vending machines take away 25 seconds of your life you&#39;ll never get back. Healthy fare drops instantly. Research suggests this &#34;time tax&#34; helps us make better choices.</description>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
+      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/31/ap_05121507613_wide-e9c51ea90b82fd2fa93e59e7a62fd0d19adaf2bc-s800-c15.jpg"></a>
+
+March 31, 2017 - Buy an unhealthy snack and these vending machines take away 25 seconds of your life you'll never get back. Healthy fare drops instantly. Research suggests this "time tax" helps us make better choices.
+
+<a href="http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks">http://www.npr.org/sections/thesalt/2017/03/31/522189753/forcing-people-at-vending-machines-to-wait-nudges-them-to-buy-healthier-snacks</a>]]></itunes:summary>
+      <itunes:image href="https://media.npr.org/assets/img/2017/03/31/ap_05121507613_wide-e9c51ea90b82fd2fa93e59e7a62fd0d19adaf2bc-s3000-c15.jpg"></itunes:image>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <guid>http://www.npr.org/sections/health-shots/2017/03/31/522082858/home-health-aides-fear-theyll-lose-hard-won-insurance-coverage</guid>
       <title>Home Health Aides Fear They&#39;ll Lose Hard-Won Insurance Coverage</title>
@@ -74,12 +104,12 @@ March 30, 2017 - The bodywide inflammation known as sepsis kills about 300,000 p
       <guid>http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life</guid>
       <title>In Sweden, Hundreds Of Refugee Children Gave Up On Life</title>
       <link>http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life</link>
-      <description>March 30, 2017 - An article in this week&#39;s New Yorker writes about youngsters who fell into a coma-like state in reaction to the news that their family may be deported. We interview the author.</description>
+      <description>March 30, 2017 - An article in this week&#39;s New Yorker writes about youngsters who fell into a comalike state in reaction to the news that their family may be deported. We interview the author.</description>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
       <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/170403_r29648-1200x780-1490288448_wide-b83180342e4cd413e6f083377c362fd2170a5133-s800-c15.jpg"></a>
 
-March 30, 2017 - An article in this week's New Yorker writes about youngsters who fell into a coma-like state in reaction to the news that their family may be deported. We interview the author.
+March 30, 2017 - An article in this week's New Yorker writes about youngsters who fell into a comalike state in reaction to the news that their family may be deported. We interview the author.
 
 <a href="http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life">http://www.npr.org/sections/goatsandsoda/2017/03/30/521958505/only-in-sweden-hundreds-of-refugee-children-gave-up-on-life</a>]]></itunes:summary>
       <itunes:image href="https://media.npr.org/assets/img/2017/03/29/170403_r29648-1200x780-1490288448_wide-b83180342e4cd413e6f083377c362fd2170a5133-s3000-c15.jpg"></itunes:image>
@@ -222,38 +252,6 @@ March 29, 2017 - Abortion is already heavily restricted in Missouri, but now the
 <a href="http://www.npr.org/2017/03/29/521954061/trump-holds-listening-session-on-opioid-addiction">http://www.npr.org/2017/03/29/521954061/trump-holds-listening-session-on-opioid-addiction</a>]]></itunes:summary>
       <itunes:image href="https://web.archive.org/web/20120328204211im_/http://media.npr.org/images/podcasts/img90/npr_technology_90.jpg"></itunes:image>
       <itunes:duration>201</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_will_the_epa_reject_a_pesticide_or_its_own_scientific_evidence.mp3?orgId=1&amp;topicId=1025&amp;d=224&amp;p=2&amp;story=521898976&amp;t=progseg&amp;e=521885502&amp;seg=9&amp;siteplayer=true&amp;dl=1</guid>
-      <title>EPA Decides Not To Ban A Pesticide, Despite Its Own Evidence Of Risk</title>
-      <link>http://www.npr.org/sections/thesalt/2017/03/29/521898976/will-the-epa-reject-a-pesticide-or-its-own-scientific-evidence</link>
-      <description>March 29, 2017 - New EPA administrator Scott Pruitt has decided not to ban chlorpyrifos, a pesticide widely used on produce. That&#39;s despite evidence previously compiled by EPA showing it could pose risks to consumers.</description>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://ondemand.npr.org/anon.npr-mp3/npr/atc/2017/03/20170329_atc_will_the_epa_reject_a_pesticide_or_its_own_scientific_evidence.mp3?orgId=1&amp;topicId=1025&amp;d=224&amp;p=2&amp;story=521898976&amp;t=progseg&amp;e=521885502&amp;seg=9&amp;siteplayer=true&amp;dl=1" length="0" type="audio/mpeg"></enclosure>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/29/scisource_sv7581_wide-abf051165682ba5457c1f4512a4c2acbd3fb261b-s800-c15.jpg"></a>
-
-March 29, 2017 - New EPA administrator Scott Pruitt has decided not to ban chlorpyrifos, a pesticide widely used on produce. That's despite evidence previously compiled by EPA showing it could pose risks to consumers.
-
-<a href="http://www.npr.org/sections/thesalt/2017/03/29/521898976/will-the-epa-reject-a-pesticide-or-its-own-scientific-evidence">http://www.npr.org/sections/thesalt/2017/03/29/521898976/will-the-epa-reject-a-pesticide-or-its-own-scientific-evidence</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/29/scisource_sv7581_wide-abf051165682ba5457c1f4512a4c2acbd3fb261b-s3000-c15.jpg"></itunes:image>
-      <itunes:duration>224</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <guid>http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare</guid>
-      <title>6 Changes The Trump Administration Can Still Make To Obamacare</title>
-      <link>http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare</link>
-      <description>March 29, 2017 - The Republican overhaul bill died, but the health care drama continues. There are lots of ways the administration can change the Affordable Care Act, without congressional approval.</description>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <itunes:author>podcasts@npr.org (NPR Podcasts)</itunes:author>
-      <itunes:summary><![CDATA[<a href="http://www.npr.org/sections/health/"><img src="https://media.npr.org/assets/img/2017/03/27/tom-price-ahca_wide-1afbdb49cab7333d1410bac04bf2c4975f33bb88-s800-c15.jpg"></a>
-
-March 29, 2017 - The Republican overhaul bill died, but the health care drama continues. There are lots of ways the administration can change the Affordable Care Act, without congressional approval.
-
-<a href="http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare">http://www.npr.org/sections/health-shots/2017/03/29/521713002/6-changes-the-trump-administration-can-still-make-to-obamacare</a>]]></itunes:summary>
-      <itunes:image href="https://media.npr.org/assets/img/2017/03/27/tom-price-ahca_wide-1afbdb49cab7333d1410bac04bf2c4975f33bb88-s3000-c15.jpg"></itunes:image>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
