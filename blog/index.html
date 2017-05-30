@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <title>Eric Duncan</title>
   <meta name="author" content="Eric Duncan" />
-  <meta name="description" content="Apr 3rd, 2016 by Eric Duncan in software How to Enable Bash on Windows 10 Preview Today I am going to outline how you can install and use the Linux &hellip;" />
+  <meta name="description" content="May 26th, 2017 by Eric Duncan in embedded, stem AIY: Google Assistant Upgrades - May 2017 Like what you see here? Have kids? You may want to check &hellip;" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
@@ -49,6 +49,366 @@
   <main id="content" class="content" role="main">
   
   
+  
+    
+    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">   
+        <span class="post-meta">
+          <span class="posted-on"><time class="entry-date published date updated" datetime="2017-05-26T18:25:14-04:00" content="2017-05-26T18:25:14-04:00" itemprop="datePublished">May 26<span>th</span>, 2017</time></span>
+          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
+          in <a class='category' href='/category/embedded/' rel='category tag'>embedded</a>, <a class='category' href='/category/stem/' rel='category tag'>stem</a>
+        </span>
+        <h1 class="post-title entry-title" itemprop="name"><a href="/stem/embedded/aiy-google-assistant-upgrades-may-2017.html" rel="bookmark">AIY: Google Assistant Upgrades - May 2017</a></h1>
+        
+        <meta itemprop="url" content="/stem/embedded/aiy-google-assistant-upgrades-may-2017.html" />
+      </header>
+      <section class="post-content" itemprop="articleBody">
+
+<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
+
+<p class='info info' data-title='More on STEM'>Like what you see here?  Have kids?  You may want to check out my STEM series <br/>of posts where I am introducing our children to STEM (Science Technology <br/>Engineering and Math) at early ages - and they are loving it.<br /><a href="/stem">http://eduncan911.com/stem</a></p>
+
+
+<p>Google and the community have jumped in with both feet with the AIY Projects
+release and the Voice HAT kit from MagPi, submitting dozens of PRs and updates
+to both the Google Assistant SDK and Voice Recognizer projects.</p>
+
+<ul>
+<li><a href="https://github.com/google/aiyprojects-raspbian/pull/60">Ability to play a confirmation wav sound for Triggers (see <code>config/voice-recognizer.ini.default</code>)</a></li>
+<li><a href="https://github.com/google/aiyprojects-raspbian/pull/33">Added Philips Hue action type</a></li>
+<li><a href="https://github.com/google/aiyprojects-raspbian/pull/30">Added &ldquo;pi power off&rdquo; and &ldquo;pi reboot&rdquo; commands</a></li>
+<li>Fixed distortion of voice command reply (e.g. &ldquo;Volume Up&rdquo;&rsquo;s reply)</li>
+<li>Numerous fixes, especially for those hacking with custom setups.</li>
+</ul>
+
+
+<p>In addition, the Google Assistant SDK has been updated to support:</p>
+
+<ul>
+<li>Hot Words detection to activate with &ldquo;Ok Google&rdquo; or &ldquo;Hey Google&rdquo;, along with
+the AIY Projects update to support it.</li>
+<li>Alarms and Timers: &ldquo;Hey Google, set a time for 10 minutes.&rdquo;</li>
+</ul>
+
+
+<p>Before we get started, a quick refresher for those new to the projects.</p>
+
+<h2>What is Google AIY?</h2>
+
+<p>Google has jumped into the A.I. World of Amazon&rsquo;s Alexa and IBM&rsquo;s Watson with
+their own version called the <a href="https://assistant.google.com/">Google Assistant</a>.  The difference being Google
+brings strong search, wide integration and an open SDK.</p>
+
+<h3>Google AIYProjects for Raspberry Pi: Voice Kit</h3>
+
+<p><img src="/stem/i/google-aiy-voice-kit.jpg"></p>
+
+<p><img src="/stem/i/google-aiy-voice-kit-assembly.png"></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/7WtSdWSv7uo " frameborder="0" allowfullscreen></iframe></div>
+
+
+<p>Google and the magazine MagPi teamed up to produce a simple AIY project called
+the <a href="https://www.raspberrypi.org/magpi/issues/57/">Voice
+Kit</a>, which is cardboard cube that houses a Raspberry Pi and a number
+of components.  What&rsquo;s even more cool is everything that was included with the
+kit, which came free with the MagPi magazine!</p>
+
+<ul>
+<li>Voice HAT</li>
+<li>Dual-Microphone Board</li>
+<li>Speaker</li>
+<li>Arcade Button complete with matching Lamp Holder, LED and inline resistor &ndash;
+and the resistor was even soldered inline already.</li>
+<li>Quick disconnects soldered onto everything</li>
+</ul>
+
+
+<p>The only things required was a Raspberry Pi (I used a Pi 3), a power adapter and
+a microSD card &ndash; standard things you should have laying around if your are a Pi
+guru.</p>
+
+<h3>Voice HAT</h3>
+
+<p><img src="/stem/i/google-aiy-voice-kit-voice-hat-1.png"></p>
+
+<p><img src="/stem/i/google-aiy-voice-kit-voice-hat-2.jpg"></p>
+
+<p>HAT stands for <strong>Hardware Attached on Top</strong>, which are devices you simply
+attach directly to your device.</p>
+
+<p>The Voice HAT that is included with the Voice Kit, part of the AIY
+Projects noted above, is impressive that it was free.  It has several GPIOs
+available on it, along with several soldered on connectors.  Hardcore Raspberry
+Pi gurus have balked, &ldquo;come on, a button and LED?&rdquo;  But really, Google is
+targeting a younger audience with these components to make it an easier barrier
+of entry into the world of embedded devices.</p>
+
+<p>Essentially, this Voice HAT makes it really easy for anyone to get involved.
+If only the SDKs and code were as simple (see upgrading below).</p>
+
+<h3>Google Assistant SDK</h3>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Wsic12MXlsc " frameborder="0" allowfullscreen></iframe></div>
+
+
+<p>Google released a new SDK recently called the <a href="https://developers.google.com/assistant/sdk/">Google Assistant SDK</a>.
+The tag line reads:</p>
+
+<blockquote><p>Bring hotword detection, voice control, natural language understanding, Google&rsquo;s smarts, and more to your devices.</p></blockquote>
+
+<p>Currently the only SDK available seems to be Python, and only for Raspberry Pi.
+But Google has said they are committed to supporting several mainstream
+hardwares and other languages in the future.</p>
+
+<h2>Upgrading your AIY Project</h2>
+
+<p>Now back to the updates for May 2017.</p>
+
+<p class='info warning' data-title='Warning'>If you want to be on the bleeding edge to enable these updates, be<br/>aware that pulling down the latest source code from the master branch is risky.<br/>It can break the entire setup, forcing you to reinstall everything from scratch.<br/>I have noticed the devs adding c.i. travis, coverage and tests, which really<br/>helps stabilize it.  But be aware, something could still slip through.</p>
+
+
+<p>These are the instructions as of late May 2017.</p>
+
+<p>So far, here&rsquo;s what we&rsquo;ll be doing:</p>
+
+<ul>
+<li>Update Google Assistant SDK in <code>~/assistant-sdk-python</code></li>
+<li>Update AIY Project for Raspberry Pi in <code>~/voice-recognizer-raspi</code></li>
+<li>Fixing Python dependencies</li>
+<li>Setting the Voice Kit to auto-start.</li>
+</ul>
+
+
+<p>Here&rsquo;s all the scripts in one go. Log into your Raspberry Pi,
+or use the Start Dev Terminal from the desktop:</p>
+
+<pre><code># UPDATE GOOGLE ASSISTANT SDK
+cd ~/assistant-sdk-python
+git checkout master
+git pull origin master
+
+# UPDATE VOICE RECOGNIZER (AKA: AIY PROJECTS)
+cd ~/voice-recognizer-raspi
+git checkout master
+git pull origin master
+
+# UPDATE DEPENDENCIES
+cd ~/voice-recognizer-raspi 
+source env/bin/activate
+scripts/install-deps.sh
+</code></pre>
+
+<p>As long as you did not modify any of the files, those should have ran smoothly.
+If you, like me, were tinkering with the <code>src/main.py</code> and got a conflict,
+erase the changes by using <code>git checkout &lt;file&gt;</code> (make a backup if you want
+first with <code>cp &lt;file&gt; &lt;file&gt;~</code>).</p>
+
+<p>At this point, you should be able to test everything is working:</p>
+
+<pre><code>sudo systemctl stop voice-recognizer.service    # if you had it running
+cd ~/voice-recognizer-raspi
+source env/bin/active 
+src/main.py 
+</code></pre>
+
+<p>See if you got the latest SDK by testing the &ldquo;Timer&rdquo; functionality:</p>
+
+<pre><code>&gt; "set a timer for 10 seconds"
+&lt; "You got it, setting a timer for 10 seconds. Starting now."
+</code></pre>
+
+<p><em>&ldquo;OK Google&rdquo;</em> needs a bit more configuration, see below.</p>
+
+<p><em>&ldquo;Pi reboot&rdquo;</em> and <em>&ldquo;Pi Power Off&rdquo;</em> needs some tweaking.  I&rsquo;ve <a href="https://github.com/google/aiyprojects-raspbian/issues/69">opened an
+issue</a>
+suggesting we change the leading word &ldquo;Pi&rdquo; to something else, because it isn&rsquo;t
+detected very well.</p>
+
+<h2>Setting to Auto-Start on Reboot/Power On</h2>
+
+<p>If you want it running all the time to let the family play Trivia
+every morning, set your services to start on boot:</p>
+
+<pre><code># UPDATE AUTO-START SERVICES ON BOOT (optional)
+cd ~/voice-recognizer-raspi 
+sudo scripts/install-services.sh 
+sudo systemctl start status-led.service 
+sudo systemctl start status-monitor.service
+sudo systemctl start voice-recognizer.service 
+sudo reboot
+</code></pre>
+
+<p>Wait about 30 seconds and see if the button starts flashing again.</p>
+
+<h2>Enabling <em>&ldquo;OK Google&rdquo;</em> and <em>&ldquo;Hey Google&rdquo;</em> Hot Words</h2>
+
+<p>There is a <a href="https://github.com/google/aiyprojects-raspbian/pull/64">pending pull-request to do exactly
+this</a>.  Considering the current
+velocity of the repo, I&rsquo;d say wait a few more days and then just update per
+instructions above.</p>
+
+<p>Once <a href="https://github.com/google/aiyprojects-raspbian/pull/64">PR #64</a> is merged
+into master, you can switch the trigger to use the hot words.  So keep
+monitoring that PR and when you see the purple tag say &ldquo;MERGED&rdquo;, follow the
+instructions above again to <code>git pull</code> the latest and newest dependencies.</p>
+
+<p>This PR is much preferred over the manual method talked about in <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=114&amp;t=183932">Raspberry Pi forums</a>.
+For one, it won&rsquo;t break your installation by modifying files that will create a
+conflict if you update the repository to the latest.</p>
+
+<p>Once updated, test the trigger:</p>
+
+<pre><code>sudo systemctl stop voice-recognizer.service    # if you had it running
+cd ~/voice-recognizer-raspi 
+source env/bin/activate
+src/main.py --trigger="ok-google"
+</code></pre>
+
+<p>If you want this to stick, to be persisted for the auto-start services, edit the
+<code>voice-recognizer.ini</code> file as per the original setup docs:</p>
+
+<pre><code>nano ~/.config/voice-recognizer.ini
+</code></pre>
+
+<p>And make the trigger say &ldquo;ok-google&rdquo;:</p>
+
+<pre><code># Select the trigger: gpio (default), clap, ok-google.
+trigger = ok-google
+</code></pre>
+
+<p>You can only have one trigger with the current project at this time.  Feel free
+to submit a pull request to enable multiple triggers.</p>
+
+<p>Press <code>CTRL-X</code> and <code>Y</code> to save.  Then restart the service:</p>
+
+<pre><code>sudo systemctl restart voice-recognizer.service 
+</code></pre>
+
+<p>Now, speaking <em>&ldquo;OK Google&rdquo;</em> or <em>&ldquo;Hey Google&rdquo;</em> should work.</p>
+
+<p>Try having a <strong><em>conversation</em></strong> with <em>&ldquo;Hey Google&rdquo;</em> to confirm the SDK continues your
+follow up questions:</p>
+
+<pre><code>&gt; "Hey Google, how far away is Japan?"
+&lt; "Japan is 6,000 miles away as way of the crow flies."
+&gt; "Hey Google, and from California?"
+&lt; "Japan is 5,000 miles away from California"
+</code></pre>
+
+<p>Notice how the SDK remembered you previously searched for the distance of Japan?
+This was a feature that Google announced back in 2015, contextually aware
+searches of continued searches.  And it has been brought over to the Assistant
+SDK.</p>
+
+<p>Try the Trivia Game for a long extensive test of the <strong>conversation</strong>
+feature:</p>
+
+<pre><code>&gt; "Hey Google, let's play trivia!"
+</code></pre>
+
+<p>I didn&rsquo;t know wolverines could climb trees.</p>
+
+<h2>Summary</h2>
+
+<p>You gotta love Google&rsquo;s Cardboard VR gimmick when they came out.  People were
+paying $1000 for VR headsets, and here&rsquo;s Google with a $15 kit to do the same.
+Sure, the experience is better on the $1000 kits (I myself have spent a lot of
+time with the HTC Vive).  But there&rsquo;s something about going back to that
+cardboard clip on that makes you feel like Google enjoys shaking up industries.</p>
+
+<p>And here we are, with Google jumping into the A.I. devices with a bottom-dollar
+hackable entry that anyone with a few bucks can run out and pick up.</p>
+
+<p>Though, updating it, especially for non-Python gurus, is a PITA and subscribes
+most people who can only enjoy this to a very small niche of developers, who
+happen to know Python and git.</p>
+
+<p>Feel free to reach out in the comments for help.</p>
+
+<h2>Troubleshooting: Missing Dependencies</h2>
+
+<p>Hopefully by the time you read this and try to implement the changes, they will
+have fixed all the missing dependencies.  If not, continue below for some hints
+on how to fix them.</p>
+
+<h3>Activate virtualenv &ldquo;env&rdquo;</h3>
+
+<p>Remember to activate your <code>env/bin/activate</code> before doing any of this, to keep
+it in the same virtualenv.</p>
+
+<pre><code>cd ~/voice-recognizer-raspi
+source env/bin/activate 
+</code></pre>
+
+<p>This keeps everything installed in the original location that the
+<code>install-deps.sh</code> file put them.  Don&rsquo;t worry, it&rsquo;s a Python thing.</p>
+
+<h3>Google Assistant SDK manual install</h3>
+
+<p>I had to install the latest SDK to get the hot word detection fixed working in
+the initial testing of the <a href="https://github.com/drigz/aiyprojects-raspbian/tree/assistant-library">branch by drigz</a>:</p>
+
+<pre><code>pip install --upgrade https://github.com/googlesamples/assistant-sdk-python/releases/download/0.3.0/google_assistant_library-0.0.2-py2.py3-none-linux_armv7l.whl
+</code></pre>
+
+<p>That was 2 days ago.  As of now, it is part of pypi (part of the normal
+dependency chain).  So it should be fixed and you shouldn&rsquo;t have to do this.</p>
+
+<h3>ImportErrors</h3>
+
+<p>You may eventually see some import errors like this:</p>
+
+<pre><code>$ cd ~/voice-recognizer-raspi 
+$ source env/bin/activate
+$ src/main.py
+Traceback (most recent call last):
+  File "src/main.py", line 32, in &lt;module&gt;
+    import tts
+  File "/home/pi/voice-recognizer-raspi/src/tts.py", line 24, in &lt;module&gt;
+    import numpy as np
+ImportError: No module named 'numpy'
+</code></pre>
+
+<p>Running the dependency chain that Google supplies should be the first step.</p>
+
+<pre><code>cd ~/voice-recognizer-raspi 
+scripts/install-deps.sh
+</code></pre>
+
+<p>If you continue to see import errors, than try to install them.  They seem to be
+good at picking very reliable dependencies.</p>
+
+<pre><code>pip install &lt;module-name-from-the-ImportError&gt;
+</code></pre>
+
+<p>For example:</p>
+
+<pre><code>$ pip install numpy
+Collecting numpy
+  Downloading numpy-1.12.1.zip (4.8MB)
+    100% |████████████████████████████████| 4.8MB 60kB/s
+Building wheels for collected packages: numpy
+  Running setup.py bdist_wheel for numpy ... -
+done
+</code></pre>
+
+<p>NOTE: Numpy takes like 20 minutes to compile on a Pi3.  You&rsquo;ll have to sit and
+wait.</p>
+
+<p>Hopefully that continues to fix up the missing deps.</p>
+
+
+  
+
+<!-- END MARKDOWN CONTENT -->
+
+      </section>
+      <section class="post-comment">
+      <span class="comments-link">
+        <a class="comment-count" title="AIY: Google Assistant Upgrades - May 2017" href="/stem/embedded/aiy-google-assistant-upgrades-may-2017.html#comments" data-disqus-url="http://eduncan911.com/stem/embedded/aiy-google-assistant-upgrades-may-2017.html">Leave a comment</a>
+      </section>
+    </article>
   
     
     <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
@@ -1014,106 +1374,6 @@ Audio player not available in your browser. Please try a newer browser.
       </section>
     </article>
   
-    
-    <article class="post type-post status-publish format-standard hentry category-schweeeet" itemscope itemtype="http://schema.org/Article">
-      <header class="post-header">   
-        <span class="post-meta">
-          <span class="posted-on"><time class="entry-date published date updated" datetime="2014-07-02T09:57:26-04:00" content="2014-07-02T09:57:26-04:00" itemprop="datePublished">Jul 2<span>nd</span>, 2014</time></span>
-          <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://plus.google.com/+EricDuncan911?rel=author">Eric Duncan</a></span></span>
-          in <a class='category' href='/category/technology/' rel='category tag'>technology</a>
-        </span>
-        <h1 class="post-title entry-title" itemprop="name"><a href="/technology/why-i-fight-to-keep-mkv-as-my-media.html" rel="bookmark">Why I Fight to Keep MKV as My Media</a></h1>
-        
-        <meta itemprop="url" content="/technology/why-i-fight-to-keep-mkv-as-my-media.html" />
-      </header>
-      <section class="post-content" itemprop="articleBody">
-
-<!-- BEGIN MARKDOWN CONTENT: I can't control the formatting here, bleh -->      
-
-<p>I have a fairly high-end home media setup in where I store my backups of nearly 500 Blu-ray quality 1080p and 720p movies and dozens of TV series on a server with over 20 TB of storage.  I&rsquo;ve archived all the blu-ray and dvds I&rsquo;ve purchased over the last 15 years into a digital format.</p>
-
-<p>Today I want to share with you my reasons for staying with the format MKV, otherwise known as <a href="http://www.matroska.org/">Matroska</a>, over all of these years in lieu of MP4, MOV, AVI, WMV and so on.</p>
-
-<h2>What&rsquo;s wrong with MP4, MOV, AVI, etc?</h2>
-
-<p>Let me start by stating the inherit flaw of these.  I am not going to get into lossless, video quality, etc.  There are 1000s of posts on that.  There&rsquo;s also the fight that WMV won&rsquo;t play on iPads, and the Xbox refusing certain copyrighted encryptions.  No.  None of that.</p>
-
-<p>Instead I want to focus on 1 flaw they all have in common: they are only a single layer of intermixed streams of video and audio, unable to be separated, switched off, or doubled up.</p>
-
-<p>Think about a standard DVD or Blu-ray movie: You have multiple audio tracks including multiple commentaries that makes you want to watch the movie over and over again (I recall watching <em>Alien (1979)</em> multiple times with Sigourney Weaver&rsquo;s commentary, <em>Aliens (1986)</em> is even funnier with Bill Paxton&rsquo;s commentary).  Sometimes there are alternative endings to choose from before you start your movie.  Other times, you may need foreign subtitles for the parts in another language; or, those foreign subtitles are translated incorrectly, and you&rsquo;d rather turn them off and interrupt them yourself.</p>
-
-<p>And there in-lies the problem with a single layer of video and audio in the above mentioned formats: whatever is selected at the time of encoding (English, Japanese subtitles, H264 video stream), is merged into a single layer &ndash; unable to be manipulated, turned off, or changed.</p>
-
-<p>I prefer freedom of choice.</p>
-
-<h2>It&rsquo;s all about the Matroska Layers</h2>
-
-<p>At the very heart of the Matroska container (aka, file format) is its &ldquo;layer&rdquo; approach which gives it the power to encapsulate as many video, audio and subtitle tracks to your heart&rsquo;s content &ndash; all in their RAW format, unmolested by &ldquo;encoders&rdquo; that have to remix them into a single stream in the other formats.</p>
-
-<p>Want all 5 audio commentaries for <em>Alien (1979)</em>, including the two separate Ridley Scott and Sigourney Weaver tracks?  No problem, the MKV container allows you to store as many audio tracks as you like.</p>
-
-<p>Want the alternative cut and ending to <em>The Abyss (1989)</em> in where the aliens are actually here for a different reason (I won&rsquo;t spoil it here)?  No problem with MKVs.</p>
-
-<p>An MKV file can do this because it essentially is just a <em>wrapper</em> around your raw binary streams (or rips) of H264 video, AAC or FLAC audio, and the subtitle text file(s).  DVDs and Blu-rays store these streams separately &ndash; it is how you can switch audio tracks or alternative endings.  It is only natural that you take these raw streams from these disks, and wrap them in a container of sorts (MKV) to have them all at your fingertips to switch video, audio and languages with a click of the button.</p>
-
-<p>Welcome to Matroska.</p>
-
-<h2>Example: Multiple Camera Angles (multiple video streams)</h2>
-
-<p>One of my favorite DVDs is my <a href="http://www.amazon.com/Peter-Gabriel-Growing-Up-Live/dp/B0000DZ3H4?tag=eduncan911-20"><em>Peter Gabriel&rsquo;s &ndash; Growing Up Live (2003)</em></a>, a live recording in Milan of his <em>Growing Up Tour</em> in 2003.</p>
-
-<p>What&rsquo;s interesting about this DVD (I really wish they would release a blu-ray) is that it has interactive camera angles during multiple titles.  You are able to &ldquo;switch videos streams&rdquo; to a different camera angles.  Pretty cool.</p>
-
-<p>With Matroska, I retained these video angles within the single MKV file I created of the DVD when I ripped it.  Given though, I didn&rsquo;t copy the &ldquo;cue markers&rdquo; overlay from the original DVD viewing.  You kind of have to know when you can change angles, and you can select a different video stream while playing.</p>
-
-<h2>Subtitles</h2>
-
-<p>This one is especially important to my family.  With a spouse of a different nationality, English sub-titles are a near must.</p>
-
-<p>The other formats have to &ldquo;burn-in&rdquo; sub-titles on-top of the video, removing the option to turn it off.  Yes, many decoders allow you to add an .srt file alongside the MP4 and it will overlay the subtitles (if you get the right one, and if it is in sync with its time codes).</p>
-
-<p>Again, thanks to Matroska&rsquo;s layers, this is only a matter of adding (or removing, or reording) the subtitle tracks that are part of the MKV layers.</p>
-
-<p>Don&rsquo;t like the Dutch sub-titles as default?  Reorder them, or remove them.</p>
-
-<h2>MKV is open source and well documented</h2>
-
-<p>That&rsquo;s right.  No copyright or patents to infringe on.  The perhaps most importantly, the container format is very well documented allowing for anyone to create a set of tools themselves.</p>
-
-<p>It is a real shame that the big players ignore this format, and it is up to us end-users to hack our devices to play them.</p>
-
-<h2>Besides, I can always convert to any format later</h2>
-
-<p>Having all the video and audio streams alongside the closed caption allows me to convert my backups of MKVs into any format I like in the future.</p>
-
-<p>Once such tool is <a href="http://handbrake.fr/">Handbrake</a>, which is a great free and open source app for converting MKVs into any format.  An example is is the Android Tablet profile they have which takes a 15 GB movie and compresses it down to a 1.8 GB file (for the kiddo&rsquo;s tablet).</p>
-
-<h2>A callout to Microsoft, Apple and Google</h2>
-
-<p>Why hasn&rsquo;t MKV gone mainstream?  Why hasn&rsquo;t one of these companies openly embraced this superior format?</p>
-
-<p>The answer is simple: copyright and encryption.  The Matroska format does not support either with its free and open container formats; and therefore, no media partner (MPAA) will ever support a company that openly embraces a format that splays their precious video and audio for all to see and use.</p>
-
-<h2>Handle it myself</h2>
-
-<p>So that leaves me, a lone person, burdened to create my own Matroska MKV containers myself.  More cumbersome is the annoyance of getting the MKVs to play on multiple devices in different media centers and tables.</p>
-
-<p>It seems every few years I have to <em>re-evaluate</em> my media devices and setup to ensure everything is compatible.  Seems to come around with each new Windows release, since the hunt for decoders and setup starts all over.</p>
-
-<p>Next time, it&rsquo;s Linux once and for all.</p>
-
-
-  
-
-<!-- END MARKDOWN CONTENT -->
-
-      </section>
-      <section class="post-comment">
-      <span class="comments-link">
-        <a class="comment-count" title="Why I Fight to Keep MKV as My Media" href="/technology/why-i-fight-to-keep-mkv-as-my-media.html#comments" data-disqus-url="http://eduncan911.com/technology/why-i-fight-to-keep-mkv-as-my-media.html">Leave a comment</a>
-      </section>
-    </article>
-  
     <nav class="pagination navigation paging-navigation pagenation-spacer" role="navigation">
       <div class="nav-links">
         <div class="older-posts"><a href="/blog/page/2/" title="Older Posts">&laquo; Older Posts </a></div>
@@ -1125,6 +1385,7 @@ Audio player not available in your browser. Please try a newer browser.
   <footer id="colophon" class="site-footer" role="contentinfo">
     <a class="subscribe icon-feed" href="/atom.xml"><span class="tooltip">Subscribe!</span></a>
     <div><a href="/blog">Blog</a></div>
+    <div><a href="/stem">STEM</a></div>
     <div><a href="/blog/archives">Archives</a></div>
     <div><a href="/contact">Contact Me</a></div>
     <div><a href="/buymeabeer">Buy Me a Beer</a></div>
@@ -1132,7 +1393,7 @@ Audio player not available in your browser. Please try a newer browser.
     <div><a href="/keys">PGP Keys</a></div>
     <div><a href="/privacy">Privacy</a></div>
     <div>&nbsp;</div>
-    <div class="site-info inner"><section class="copyright">© 2016 Eric Duncan <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></section></div>
+    <div class="site-info inner"><section class="copyright">© 2017 Eric Duncan <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></section></div>
     <div>a <a href="http://www.forgetfoo.me/" title="one of a 100 kickass designs by this guy">forgetfoo</a> design</div>
   </footer>
 
