@@ -18,6 +18,11 @@
   <meta property="og:image" content="{{ page.image }}" />
   <meta property="og:video" content="{{ page.video }}" />
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}<meta property="og:url" content="{{ canonical }}" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@eduncan911">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ page.image }}">
   <link rel="canonical" href="{{ canonical }}" />
   <link rel="alternate" href="{{ site.subscribe_rss }}" title="{{site.title}}" type="application/atom+xml" />
   <link rel="shortcut icon" href="{{ root_url }}/favicon.png" />
