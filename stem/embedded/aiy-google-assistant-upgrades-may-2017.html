@@ -223,27 +223,34 @@ src/main.py
 <p><del><em>&ldquo;Pi reboot&rdquo;</em> and <em>&ldquo;Pi Power Off&rdquo;</em> needs some tweaking.  I&rsquo;ve <a href="https://github.com/google/aiyprojects-raspbian/issues/69">opened an
 issue</a>
 suggesting we change the leading word &ldquo;Pi&rdquo; to something else, because it isn&rsquo;t
-detected very well.</del> It&rsquo;s been changed to <em>&ldquo;Raspberry Reboot&rdquo;</em> and <em>&ldquo;Raspberry Power Off&rdquo;</em></p>
+detected very well.</del> It&rsquo;s been changed to <em>&ldquo;Raspberry Reboot&rdquo;</em> and <em>&ldquo;Raspberry Power Off.&rdquo;</em></p>
 
-<h2>Setting to Auto-Start on Reboot/Power On</h2>
+<h2>Review the new Config Files</h2>
 
-<p>If you want it running all the time to let the family play Trivia
-every morning, set your services to start on boot:</p>
+<p>There&rsquo;s been a lot of movement lately.  You may want to backup your existing config
+file and bring over the newest versions, then re-implement your configurations.</p>
 
-<pre><code># UPDATE AUTO-START SERVICES ON BOOT (optional)
-cd ~/voice-recognizer-raspi 
-sudo scripts/install-services.sh 
-sudo systemctl start status-led.service 
-sudo systemctl start status-monitor.service
-sudo systemctl start voice-recognizer.service 
-sudo reboot
+<pre><code># back them up first
+cp ~/.config/status-led.ini ~/.config/status-led.ini~
+cp ~/.config/voice-recognizer.ini ~/.config/voice-recognizer.ini~
+
+# copy the new ones over
+cp ~/voice-recognizer-raspi/config/status-led.ini.default ~/.config/status-led.ini
+cp ~/voice-recognizer-raspi/config/voice-recognizer.ini.default ~/.config/voice-recognizer.ini
+
+# open and review the new options
+nano ~/.config/voice-recognizer.ini
 </code></pre>
 
-<p>Wait about 30 seconds and see if the button starts flashing again.</p>
+<p>You&rsquo;ll notice the new &ldquo;ok-google&rdquo; trigger as well as the trigger sound and more.</p>
+
+<p>If you want this automated in the future, add a <code>rm ~/.config/voice-recognizer.ini</code> to the
+upgrade steps before running the <code>scripts/install-deps.sh</code> file &ndash; as this file actually
+copies over the latest config files, if they don&rsquo;t exist.</p>
 
 <h2>Enabling <em>&ldquo;OK Google&rdquo;</em> and <em>&ldquo;Hey Google&rdquo;</em> Hot Words</h2>
 
-<p>This process is much preferred over the manual method talked about in <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=114&amp;t=183932">Raspberry Pi forums</a>.
+<p>This process is preferred over the manual method talked about in <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=114&amp;t=183932">Raspberry Pi forums</a>.
 For one, it won&rsquo;t break your installation by modifying files that will create a
 conflict if you update the repository to the latest.</p>
 
@@ -256,7 +263,7 @@ instructions above.</del></p>
 into master, you can switch the trigger to use the hot words.  So keep
 monitoring that PR and when you see the purple tag say &ldquo;MERGED&rdquo;, follow the
 instructions above again to <code>git pull</code> the latest and newest dependencies.</del><br/>
-It&rsquo;s merged now!</p>
+It&rsquo;s all merged now!  Though, it only supports ARMv7 and newer (sorry Pi Zeros and Pi Ws).</p>
 
 <p>After performing all the upgrades above, test the new trigger:</p>
 
@@ -309,6 +316,22 @@ feature:</p>
 </code></pre>
 
 <p>I didn&rsquo;t know wolverines could climb trees.</p>
+
+<h2>Setting to Auto-Start on Reboot/Power On</h2>
+
+<p>If you want it running all the time to let the family play Trivia
+every morning, set your services to start on boot:</p>
+
+<pre><code># UPDATE AUTO-START SERVICES ON BOOT (optional)
+cd ~/voice-recognizer-raspi 
+sudo scripts/install-services.sh 
+sudo systemctl start status-led.service 
+sudo systemctl start status-monitor.service
+sudo systemctl start voice-recognizer.service 
+sudo reboot
+</code></pre>
+
+<p>Wait about 30 seconds and see if the button starts flashing again.</p>
 
 <h2>Summary</h2>
 
@@ -406,11 +429,11 @@ wait.</p>
 
       <section class="collapsable history">
         <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
-        <ul class="post-metadata"><li><strong>Wed May 31 10:35:57 2017</strong><br/>OK-Google hotwords now merged, Raspberry Power Off command changed, tweaking upgrade statements
+        <ul class="post-metadata"><li><strong>Wed May 31 10:51:12 2017</strong><br/>added New Config Files section about latest updates
+</li><li><strong>Wed May 31 10:35:57 2017</strong><br/>OK-Google hotwords now merged, Raspberry Power Off command changed, tweaking upgrade statements
 </li><li><strong>Tue May 30 17:40:10 2017</strong><br/>adding twitter card
 </li><li><strong>Tue May 30 15:38:12 2017</strong><br/>fixing facebook og tag
 </li><li><strong>Tue May 30 15:35:54 2017</strong><br/>fixing image link
-</li><li><strong>Tue May 30 15:25:23 2017</strong><br/>introducing STEM section
 </li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/_posts/2017-05-26-aiy-google-assistant-upgrades-may-2017.markdown target=_blank>Github</a></p>
       </section>
 
