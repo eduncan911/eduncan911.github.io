@@ -131,7 +131,7 @@ or use the Start Dev Terminal from the desktop:
     
     # UPDATE DEPENDENCIES
     cd ~/voice-recognizer-raspi 
-    source env/bin/activate
+    rm -rf env      # needs to be rm'd w/current version of install-deps.sh
     scripts/install-deps.sh
 
 As long as you did not modify any of the files, those should have ran smoothly.
@@ -143,7 +143,7 @@ At this point, you should be able to test everything is working:
 
     sudo systemctl stop voice-recognizer.service    # if you had it running
     cd ~/voice-recognizer-raspi
-    source env/bin/active 
+    source env/bin/activate
     src/main.py 
 
 See if you got the latest SDK by testing the "Timer" functionality:
@@ -153,10 +153,10 @@ See if you got the latest SDK by testing the "Timer" functionality:
 
 *"OK Google"* needs a bit more configuration, see below.
 
-*"Pi reboot"* and *"Pi Power Off"* needs some tweaking.  I've [opened an
+~~*"Pi reboot"* and *"Pi Power Off"* needs some tweaking.  I've [opened an
 issue](https://github.com/google/aiyprojects-raspbian/issues/69)
 suggesting we change the leading word "Pi" to something else, because it isn't
-detected very well.
+detected very well.~~ It's been changed to *"Raspberry Reboot"* and *"Raspberry Power Off"*
 
 ## Setting to Auto-Start on Reboot/Power On
 
@@ -175,21 +175,22 @@ Wait about 30 seconds and see if the button starts flashing again.
 
 ## Enabling *"OK Google"* and *"Hey Google"* Hot Words 
 
-There is a [pending pull-request to do exactly
-this](https://github.com/google/aiyprojects-raspbian/pull/64).  Considering the current
-velocity of the repo, I'd say wait a few more days and then just update per
-instructions above.  
-
-Once [PR #64](https://github.com/google/aiyprojects-raspbian/pull/64) is merged
-into master, you can switch the trigger to use the hot words.  So keep
-monitoring that PR and when you see the purple tag say "MERGED", follow the 
-instructions above again to `git pull` the latest and newest dependencies.  
-
-This PR is much preferred over the manual method talked about in [Raspberry Pi forums](https://www.raspberrypi.org/forums/viewtopic.php?f=114&t=183932).
+This process is much preferred over the manual method talked about in [Raspberry Pi forums](https://www.raspberrypi.org/forums/viewtopic.php?f=114&t=183932).
 For one, it won't break your installation by modifying files that will create a
 conflict if you update the repository to the latest.
 
-Once updated, test the trigger:
+~~There is a [pending pull-request to do exactly
+this](https://github.com/google/aiyprojects-raspbian/pull/64).  Considering the current
+velocity of the repo, I'd say wait a few more days and then just update per
+instructions above.~~
+
+~~Once [PR #64](https://github.com/google/aiyprojects-raspbian/pull/64) is merged
+into master, you can switch the trigger to use the hot words.  So keep
+monitoring that PR and when you see the purple tag say "MERGED", follow the 
+instructions above again to `git pull` the latest and newest dependencies.~~  
+It's merged now!
+
+After performing all the upgrades above, test the new trigger:
 
     sudo systemctl stop voice-recognizer.service    # if you had it running
     cd ~/voice-recognizer-raspi 
