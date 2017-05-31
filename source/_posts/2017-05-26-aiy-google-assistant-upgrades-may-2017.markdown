@@ -156,26 +156,33 @@ See if you got the latest SDK by testing the "Timer" functionality:
 ~~*"Pi reboot"* and *"Pi Power Off"* needs some tweaking.  I've [opened an
 issue](https://github.com/google/aiyprojects-raspbian/issues/69)
 suggesting we change the leading word "Pi" to something else, because it isn't
-detected very well.~~ It's been changed to *"Raspberry Reboot"* and *"Raspberry Power Off"*
+detected very well.~~ It's been changed to *"Raspberry Reboot"* and *"Raspberry Power Off."*
 
-## Setting to Auto-Start on Reboot/Power On
+## Review the new Config Files
 
-If you want it running all the time to let the family play Trivia
-every morning, set your services to start on boot:
+There's been a lot of movement lately.  You may want to backup your existing config
+file and bring over the newest versions, then re-implement your configurations.  
 
-    # UPDATE AUTO-START SERVICES ON BOOT (optional)
-    cd ~/voice-recognizer-raspi 
-    sudo scripts/install-services.sh 
-    sudo systemctl start status-led.service 
-    sudo systemctl start status-monitor.service
-    sudo systemctl start voice-recognizer.service 
-    sudo reboot
+    # back them up first
+    cp ~/.config/status-led.ini ~/.config/status-led.ini~
+    cp ~/.config/voice-recognizer.ini ~/.config/voice-recognizer.ini~
 
-Wait about 30 seconds and see if the button starts flashing again.
+    # copy the new ones over
+    cp ~/voice-recognizer-raspi/config/status-led.ini.default ~/.config/status-led.ini
+    cp ~/voice-recognizer-raspi/config/voice-recognizer.ini.default ~/.config/voice-recognizer.ini
+
+    # open and review the new options
+    nano ~/.config/voice-recognizer.ini
+
+You'll notice the new "ok-google" trigger as well as the trigger sound and more.
+
+If you want this automated in the future, add a `rm ~/.config/voice-recognizer.ini` to the
+upgrade steps before running the `scripts/install-deps.sh` file - as this file actually
+copies over the latest config files, if they don't exist.
 
 ## Enabling *"OK Google"* and *"Hey Google"* Hot Words 
 
-This process is much preferred over the manual method talked about in [Raspberry Pi forums](https://www.raspberrypi.org/forums/viewtopic.php?f=114&t=183932).
+This process is preferred over the manual method talked about in [Raspberry Pi forums](https://www.raspberrypi.org/forums/viewtopic.php?f=114&t=183932).
 For one, it won't break your installation by modifying files that will create a
 conflict if you update the repository to the latest.
 
@@ -188,7 +195,7 @@ instructions above.~~
 into master, you can switch the trigger to use the hot words.  So keep
 monitoring that PR and when you see the purple tag say "MERGED", follow the 
 instructions above again to `git pull` the latest and newest dependencies.~~  
-It's merged now!
+It's all merged now!  Though, it only supports ARMv7 and newer (sorry Pi Zeros and Pi Ws).
 
 After performing all the upgrades above, test the new trigger:
 
@@ -235,6 +242,21 @@ feature:
     > "Hey Google, let's play trivia!"
 
 I didn't know wolverines could climb trees.  
+
+## Setting to Auto-Start on Reboot/Power On
+
+If you want it running all the time to let the family play Trivia
+every morning, set your services to start on boot:
+
+    # UPDATE AUTO-START SERVICES ON BOOT (optional)
+    cd ~/voice-recognizer-raspi 
+    sudo scripts/install-services.sh 
+    sudo systemctl start status-led.service 
+    sudo systemctl start status-monitor.service
+    sudo systemctl start voice-recognizer.service 
+    sudo reboot
+
+Wait about 30 seconds and see if the button starts flashing again.
 
 ## Summary
 
