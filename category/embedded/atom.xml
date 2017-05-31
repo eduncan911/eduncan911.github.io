@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Embedded | Eric Duncan]]></title>
   <link href="http://eduncan911.com/category/embedded/atom.xml" rel="self"/>
   <link href="http://eduncan911.com/"/>
-  <updated>2017-05-30T17:40:32-04:00</updated>
+  <updated>2017-05-31T10:36:48-04:00</updated>
   <id>http://eduncan911.com/</id>
   <author>
     <name><![CDATA[Eric Duncan]]></name>
@@ -144,7 +144,7 @@ git pull origin master
 
 # UPDATE DEPENDENCIES
 cd ~/voice-recognizer-raspi 
-source env/bin/activate
+rm -rf env      # needs to be rm'd w/current version of install-deps.sh
 scripts/install-deps.sh
 </code></pre>
 
@@ -157,7 +157,7 @@ first with <code>cp &lt;file&gt; &lt;file&gt;~</code>).</p>
 
 <pre><code>sudo systemctl stop voice-recognizer.service    # if you had it running
 cd ~/voice-recognizer-raspi
-source env/bin/active 
+source env/bin/activate
 src/main.py 
 </code></pre>
 
@@ -169,10 +169,10 @@ src/main.py
 
 <p><em>&ldquo;OK Google&rdquo;</em> needs a bit more configuration, see below.</p>
 
-<p><em>&ldquo;Pi reboot&rdquo;</em> and <em>&ldquo;Pi Power Off&rdquo;</em> needs some tweaking.  I&rsquo;ve <a href="https://github.com/google/aiyprojects-raspbian/issues/69">opened an
+<p><del><em>&ldquo;Pi reboot&rdquo;</em> and <em>&ldquo;Pi Power Off&rdquo;</em> needs some tweaking.  I&rsquo;ve <a href="https://github.com/google/aiyprojects-raspbian/issues/69">opened an
 issue</a>
 suggesting we change the leading word &ldquo;Pi&rdquo; to something else, because it isn&rsquo;t
-detected very well.</p>
+detected very well.</del> It&rsquo;s been changed to <em>&ldquo;Raspberry Reboot&rdquo;</em> and <em>&ldquo;Raspberry Power Off&rdquo;</em></p>
 
 <h2>Setting to Auto-Start on Reboot/Power On</h2>
 
@@ -192,21 +192,22 @@ sudo reboot
 
 <h2>Enabling <em>&ldquo;OK Google&rdquo;</em> and <em>&ldquo;Hey Google&rdquo;</em> Hot Words</h2>
 
-<p>There is a <a href="https://github.com/google/aiyprojects-raspbian/pull/64">pending pull-request to do exactly
-this</a>.  Considering the current
-velocity of the repo, I&rsquo;d say wait a few more days and then just update per
-instructions above.</p>
-
-<p>Once <a href="https://github.com/google/aiyprojects-raspbian/pull/64">PR #64</a> is merged
-into master, you can switch the trigger to use the hot words.  So keep
-monitoring that PR and when you see the purple tag say &ldquo;MERGED&rdquo;, follow the
-instructions above again to <code>git pull</code> the latest and newest dependencies.</p>
-
-<p>This PR is much preferred over the manual method talked about in <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=114&amp;t=183932">Raspberry Pi forums</a>.
+<p>This process is much preferred over the manual method talked about in <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=114&amp;t=183932">Raspberry Pi forums</a>.
 For one, it won&rsquo;t break your installation by modifying files that will create a
 conflict if you update the repository to the latest.</p>
 
-<p>Once updated, test the trigger:</p>
+<p><del>There is a <a href="https://github.com/google/aiyprojects-raspbian/pull/64">pending pull-request to do exactly
+this</a>.  Considering the current
+velocity of the repo, I&rsquo;d say wait a few more days and then just update per
+instructions above.</del></p>
+
+<p><del>Once <a href="https://github.com/google/aiyprojects-raspbian/pull/64">PR #64</a> is merged
+into master, you can switch the trigger to use the hot words.  So keep
+monitoring that PR and when you see the purple tag say &ldquo;MERGED&rdquo;, follow the
+instructions above again to <code>git pull</code> the latest and newest dependencies.</del><br/>
+It&rsquo;s merged now!</p>
+
+<p>After performing all the upgrades above, test the new trigger:</p>
 
 <pre><code>sudo systemctl stop voice-recognizer.service    # if you had it running
 cd ~/voice-recognizer-raspi 
