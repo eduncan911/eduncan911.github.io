@@ -4,7 +4,7 @@ layout: post
 title: "AIY: Google Assistant Upgrades - May 2017"
 description: "Google and the community has updated the Assistant SDK and AIY
 Projects"
-image: /i/google-aiy-voice-kit.jpg
+image: /stem/i/google-aiy-voice-kit.jpg
 video: 
 date: 2017-05-26 18:25:14 -0400
 comments: true
