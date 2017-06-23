@@ -1,28 +1,28 @@
-{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}{% capture page_title %}{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}{% endif %}{% endcapture %}{% capture page_description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content | strip_html | condense_spaces | truncate:150 }}{% endif %}{% endcapture %}{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}{% capture page_image %}{% if page.image %}{{ page.image }}{% else if page.video %}{{ page.video | replace: 'www.youtube.com', 'i1.ytimg.com' | replace: '/watch?v=', '/vi/' }}/maxresdefault.jpg{% endif %}{% endcapture %}{% capture page_video %}{% if page.video %}{{ page.video | replace: '/watch?v=', '/v/' }}{% endif %}{% endcapture %}<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-  <title>{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} - {% endif %}{{ site.title }}</title>
+  <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}" />
-  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
-  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />
-  {% endif %}<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="{{ page_description | strip_html | condense_spaces | truncate:150 }}" />
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
-  <meta name="generator" content="Octopress 2.0" />
-  <meta property="og:site_name" content="{{ site.author }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="{{ page.image }}" />
-  <meta property="og:video" content="{{ page.video }}" />
-  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}<meta property="og:url" content="{{ canonical }}" />
+  <meta name="generator" content="Octopress 2.0 - Customized by @eduncan911" />
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@eduncan911">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image" content="{{ page.image }}">
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta property="og:description" content="{{ page_description }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="{{ page_image }}" />
+  <meta property="og:url" content="{{ canonical }}" />
+  <meta property="og:site_name" content="{{ site.author }}" />
+  {% if page_video %}<meta property="og:video" content="{{ page_video }}" />{% endif %}
+  {% if page.audio %}<meta property="og:audio" content="{{ page.audio }}" />{% endif %}
   <link rel="canonical" href="{{ canonical }}" />
   <link rel="alternate" href="{{ site.subscribe_rss }}" title="{{site.title}}" type="application/atom+xml" />
   <link rel="shortcut icon" href="{{ root_url }}/favicon.png" />
