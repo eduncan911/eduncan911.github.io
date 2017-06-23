@@ -72,6 +72,8 @@
 
 <p>Therefore to keep up with any changes to my PGP and Dark Mail keys, you may want to <a href="https://github.com/eduncan911/eduncan911.github.io/blob/master/keys/index.html">subscribe to updates of this page at GitHub</a>.</p>
 
+<h2>Public Key (copy this chunk to a file)</h2>
+
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -1163,7 +1165,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h3>Get the Public Key</h3>
+<h3>Export your Public Key to Share With Others</h3>
 
 <p>Now that you have updated the algorithms and setup a revocation certificate, your public key is ready to be published.</p>
 
@@ -1172,12 +1174,46 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
+<p>Save this to a file named something like <code>pubkey.asc</code>, as the <code>.asc</code> extension
+tells others that this is in ASCII format.</p>
+
+<h3>Uploading your Public Key to the WOT</h3>
+
+<p>You may want to publish your public key to online servers known as the Web of
+Trust (WOT).  This creates the availability of your public key should you send
+an email to someone that didn&rsquo;t include your public key.</p>
+
+<p>First thing is, unlike most other commands here, you can only do this with your
+<em>keyid</em> &ndash; not your email address.  Your <em>keyid</em> is located by looking at your
+fingerprint and exporting a short keyid with it:</p>
+
+<figure class='code'><figcaption><span>Short KEYID with Fingerprint </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gpg2 --fingerprint --keyid-format short your@email.address
+</span><span class='line'>pub   rsa4096/A510AA8C 2014-08-13 <span class="o">[</span>SC<span class="o">]</span>
+</span><span class='line'>...
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In the output above, we can see my short KEYID is printed after
+the <code>rsa4096/</code> portion: <strong><code>A510AA8C</code></strong>.</p>
+
+<p>We take this <strong><code>A510AA8C</code></strong> and issue a command to send your public key to the
+servers.  Note: replace the <em>your-KEYID-here</em> with your short fingerprint.  E.g.
+mine was A510AA8C in the example above.</p>
+
+<figure class='code'><figcaption><span>Publish your Public Key</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gpg2 --keyserver pgp.mit.edu --send-keys your-KEYID-here
+</span></code></pre></td></tr></table></div></figure>
+
+
 <h3>Fingerprint: Verifying Identities</h3>
 
 <p>So that others can verify your identity, generate a fingerprint that you can carry in your wallet, show over Skype video chat, etc.</p>
 
 <figure class='code'><figcaption><span>Print your Fingerprint</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>gpg2 --fingerprint your@email.address
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gpg2 --fingerprint --keyid-format long your@email.address
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -1281,7 +1317,8 @@
 
      <section class="collapsable history">
         <h5><a class="collapsable-trigger" href="#">&gt; Revision History</a></h5>
-        <ul class="post-metadata"><li><strong>Fri Jun 23 17:11:12 2017</strong><br/>Updating Public Key, removing duplicate email address - only using 1 pubkey now!
+        <ul class="post-metadata"><li><strong>Fri Jun 23 18:04:40 2017</strong><br/>adding more information to help others
+</li><li><strong>Fri Jun 23 17:11:12 2017</strong><br/>Updating Public Key, removing duplicate email address - only using 1 pubkey now!
 </li><li><strong>Wed Aug 13 15:36:18 2014</strong><br/>No changes to any Keys! This was to add a link in the body of the text to indicate why password managers can be a bad idea.
 </li><li><strong>Wed Aug 13 15:32:56 2014</strong><br/>Created PGP Keys
 </li></ul><p class="post-metadata">View on <a href=https://github.com/eduncan911/eduncan911.github.io/commits/source/source/keys/index.markdown target=_blank>Github</a></p>
