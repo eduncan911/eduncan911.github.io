@@ -1,0 +1,12 @@
+---
+published: false
+layout: post
+title: "Spacefest 8"
+description: "Spacefest is one of the best kept secrets of Space Nerds."
+image: https://i1.ytimg.com/vi/wc-ZawKuBLE/0.jpg
+video: https://www.youtube.com/watch?v=wc-ZawKuBLE
+date: 2017-06-10 11:21:54 -0400
+comments: true
+categories: stem
+tags: 
+---
