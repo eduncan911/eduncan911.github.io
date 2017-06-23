@@ -12,6 +12,8 @@ I will also be on [Dark Mail](https://www.darkmail.info/) (if) and when it launc
 
 Therefore to keep up with any changes to my PGP and Dark Mail keys, you may want to [subscribe to updates of this page at GitHub](https://github.com/eduncan911/eduncan911.github.io/blob/master/keys/index.html).
 
+## Public Key (copy this chunk to a file)
+
 ``` text 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -580,7 +582,7 @@ Be smart and generate a revocation key and store it indefinitely in a secure loc
 gpg2 --gen-revoke --armor --output=RevocationCertificate.asc your@email.address
 ```
 
-### Get the Public Key
+### Export your Public Key to Share With Others
 
 Now that you have updated the algorithms and setup a revocation certificate, your public key is ready to be published.
 
@@ -588,12 +590,42 @@ Now that you have updated the algorithms and setup a revocation certificate, you
 gpg2 --armor --export your@email.address
 ```
 
+Save this to a file named something like `pubkey.asc`, as the `.asc` extension
+tells others that this is in ASCII format.
+
+### Uploading your Public Key to the WOT
+
+You may want to publish your public key to online servers known as the Web of
+Trust (WOT).  This creates the availability of your public key should you send
+an email to someone that didn't include your public key.
+
+First thing is, unlike most other commands here, you can only do this with your
+*keyid* - not your email address.  Your *keyid* is located by looking at your
+fingerprint and exporting a short keyid with it:
+
+``` bash Short KEYID with Fingerprint 
+gpg2 --fingerprint --keyid-format short your@email.address
+pub   rsa4096/A510AA8C 2014-08-13 [SC]
+...
+```
+
+In the output above, we can see my short KEYID is printed after 
+the `rsa4096/` portion: **`A510AA8C`**.
+
+We take this **`A510AA8C`** and issue a command to send your public key to the
+servers.  Note: replace the *your-KEYID-here* with your short fingerprint.  E.g.
+mine was A510AA8C in the example above.
+
+``` bash Publish your Public Key
+gpg2 --keyserver pgp.mit.edu --send-keys your-KEYID-here
+```
+
 ### Fingerprint: Verifying Identities
 
 So that others can verify your identity, generate a fingerprint that you can carry in your wallet, show over Skype video chat, etc.
 
 ``` bash Print your Fingerprint
-gpg2 --fingerprint your@email.address
+gpg2 --fingerprint --keyid-format long your@email.address
 ```
 
 Use the command above to print out the fingerprint of other people's fingerprint for verification.
