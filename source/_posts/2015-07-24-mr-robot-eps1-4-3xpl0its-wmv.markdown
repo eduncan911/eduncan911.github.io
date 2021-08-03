@@ -4,12 +4,16 @@ layout: post
 title: "Mr. Robot eps1.4 3xpl0its.wmv"
 description: "RFID Smart Cards, People are Exploits, SMS Spoofing, Picking Locks, IRC Chatrooms, Climate Controls"
 image: http://ia.media-imdb.com/images/M/MV5BMzQ5NTg5ODQyMV5BMl5BanBnXkFtZTgwNjcxNzMzNjE@._V1_UX200_CR0,0,200,112_AL_.jpg
-video: 
+video:
 date: 2015-07-22 00:00:00 -0400
 comments: true
 categories: [mr-robot]
-tags: 
+tags:
 ---
+
+{% blockquote %}
+People make the best exploits.
+{% endblockquote %}
 
 ## RFID Hacks
 
